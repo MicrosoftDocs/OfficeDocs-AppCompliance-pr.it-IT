@@ -1,0 +1,75 @@
+### YamlMime:ZonePivotGroups
+groups:
+- id: app-info-data-mcas
+  title: Categorie di informazioni sull'app
+  prompt: 'Scegli la categoria di informazioni che vuoi visualizzare per questa app:'
+  pivots:
+  - id: general
+    title: Generale
+  - id: data
+    title: Gestione dei dati
+  - id: mcas
+    title: Sicurezza e conformità
+- id: app-info-mcas
+  title: Categorie di informazioni sull'app
+  prompt: 'Scegli la categoria di informazioni che vuoi visualizzare per questa app:'
+  pivots:
+  - id: general
+    title: Generale
+  - id: mcas
+    title: Sicurezza e conformità
+- id: app-info-identity
+  title: Categorie di informazioni sull'app
+  prompt: 'Scegli la categoria di informazioni che vuoi visualizzare per questa app:'
+  pivots:
+  - id: general
+    title: Generale
+  - id: identity
+    title: Identità
+- id: app-info-data
+  title: Categorie di informazioni sull'app
+  prompt: 'Scegli la categoria di informazioni che vuoi visualizzare per questa app:'
+  pivots:
+  - id: general
+    title: Generale
+  - id: data
+    title: Gestione dei dati
+- id: app-info-data-identity
+  title: Categorie di informazioni sull'app
+  prompt: 'Scegli la categoria di informazioni che vuoi visualizzare per questa app:'
+  pivots:
+  - id: general
+    title: Generale
+  - id: data
+    title: Gestione dei dati
+  - id: identity
+    title: Identità
+- id: app-info-mcas-identity
+  title: Categorie di informazioni sull'app
+  prompt: 'Scegli la categoria di informazioni che vuoi visualizzare per questa app:'
+  pivots:
+  - id: general
+    title: Generale
+  - id: mcas
+    title: Sicurezza e conformità
+  - id: identity
+    title: Identità
+- id: app-info-data-mcas-identity
+  title: Categorie di informazioni sull'app
+  prompt: 'Scegli la categoria di informazioni che vuoi visualizzare per questa app:'
+  pivots:
+  - id: general
+    title: Generale
+  - id: data
+    title: Gestione dei dati
+  - id: mcas
+    title: Sicurezza e conformità
+  - id: identity
+    title: Identità
+metadata:
+  ms.openlocfilehash: 63cbd1492249802a82a13a4a68fd056a5ba26754
+  ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+  ms.translationtype: MT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 04/28/2021
+  ms.locfileid: "52071685"
