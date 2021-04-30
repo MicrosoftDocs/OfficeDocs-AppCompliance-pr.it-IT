@@ -1,0 +1,105 @@
+---
+title: Informazioni sull'applicazione per Woobot di Woobot
+ms.author: elmalova
+author: elenamalova
+ms.date: 12/14/2019
+ms.topic: article
+ms.service: attestation
+description: Tutte le informazioni di sicurezza e conformità disponibili per Woobot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-mcas
+ms.openlocfilehash: a2780151a9a7c08d695e6605990d93ce93f18652
+ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52094252"
+---
+# <a name="woobot"></a>Woobot
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: December 14, 2019</p>
+
+* <a href="https://teams.microsoft.com/l/app/da999ad2-6288-494d-99de-8e555f2688bb" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381664" target="_blank">Visualizzazione in AppSource</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>Informazioni generali
+
+Informazioni fornite da Woobot a Microsoft:
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Nome app | Woobot |
+| ID | WA104381664 |
+| Funzionalità | Bot, scheda, estensione per la messaggistica |
+| Office 365 client supportati | Microsoft Teams |
+| Nome società partner | Woobot |
+| URL del sito Web del partner | [https://woobot.io](https://woobot.io) |
+| URL della pagina Teams informazioni sull'applicazione | [https://woobot.io/support](https://woobot.io/support) |
+| URL dell'informativa sulla privacy | [https://woobot.io/privacy](https://woobot.io/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://woobot.io/terms](https://woobot.io/terms) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
+
+Queste informazioni sono state fornite da Woobot su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+
+>Questa applicazione non utilizza Microsoft Graph.
+
+
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+
+>Non vengono servizi Microsoft non vengono utilizzati.
+
+#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
+
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
+
+>| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
+>|:--------------------------------|:---------------------|:--------------------------|
+>| Per mappare gli utenti di Salesforce Teams utenti, è necessario un elenco di ID utente del team. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. Inoltre, archiviamo quali ID utente del team sono stati graditi dall'app e quali no, in modo che quando un nuovo utente entra a far parte di un team, woobot possa personalmente accogliere l'utente. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. |  ID utente, ID team e nome del team, ID canale e nome del canale e di quali utenti sono membri Teams. |  |
+
+
+
+#### <a name="telemetry-data"></a>Dati di telemetria
+
+Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
+
+>No
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
+
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
+
+>I clienti hanno il controllo completo dei dati di configurazione creati da loro all'interno del sistema. Nel sistema non vengono archiviati altri dati dei clienti.
+
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35666' frameborder='no' style='width: 100%;'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35666" target="_blank">Visualizzazione in una nuova scheda</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

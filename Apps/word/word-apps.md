@@ -1,11 +1,11 @@
 ---
-title: Sicurezza e conformità delle app di Microsoft Word - Tutte le app
+title: Microsoft Word Sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app di Microsoft Word.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte Microsoft Word app.
 localization_priority: Normal
 ms.openlocfilehash: eeaf85307fcb4f9d6e18e4d76e4cbde1848ea5f2
 ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
@@ -14,22 +14,22 @@ ms.contentlocale: it-IT
 ms.lasthandoff: 04/28/2021
 ms.locfileid: "52071694"
 ---
-# <a name="microsoft-word-app-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft Word
+# <a name="microsoft-word-app-security-and-compliance"></a>Microsoft Word Sicurezza e conformità delle app
 
-Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app Word e ai componenti aggiuntivi utilizzati. Le informazioni sono integrate con le informazioni del catalogo app [di Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Queste informazioni sulla sicurezza, la gestione dei dati e la conformità hanno lo scopo di aiutare le organizzazioni a valutare e gestire i rischi nell'uso di queste app.
+Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app Word e ai componenti aggiuntivi utilizzati. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
-| **App** | **Partner** | **Publisher Attested** | **Certificato** | **Informazioni sulla gestione dei dati** | **Informazioni sulla sicurezza delle app cloud** |
+| **App** | **Partner** | **Attestata dall'autore** | **Certificata** | **Informazioni sulla gestione dei dati** | **Informazioni Cloud App Security** |
 |:--------|:------------|:----------------------:|:-----------------------------:|:----------------------------------:|
 | [Adobe Sign per Word e PowerPoint](./adobe-inc-sign-for-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
-| [Automazione documenti da Excel a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  | Sì | Sì |
+| [Excel documenti da Excel word a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  | Sì | Sì |
 | [harmon.ie per Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  | Sì | Sì |
 | [Diagrammi lucidchart per Word](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  | Sì | Sì |
 | [Office2SharePoint per Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
 | [officeatwork | Selezione contenuto per Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
 | [officeatwork | Designer per Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
 | [officeatwork | Selezione modelli per Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
-| [officeatwork | Uploader for Office](./officeatwork-officeatworkuploader-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
-| [officeatwork | Verifier for Office](./officeatwork-officeatworkverifier-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
+| [officeatwork | Uploader per Office](./officeatwork-officeatworkuploader-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
+| [officeatwork | Verifier per Office](./officeatwork-officeatworkverifier-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
 | [officeatwork | Procedura guidata per Office](./officeatwork-officeatworkwizard-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
 | [Wrike for Office Documents](./wrike-inc-for-office-documents.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
 | [Wunder365 per Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  | Sì | Sì |

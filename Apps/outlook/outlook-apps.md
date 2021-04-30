@@ -1,11 +1,11 @@
 ---
-title: Sicurezza e conformità delle app di Microsoft Outlook - Tutte le app
+title: Microsoft Outlook App Security and Compliance - Tutte le app
 ms.author: elmalova
 author: elenamalova
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app di Microsoft Outlook.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app Outlook Microsoft.
 localization_priority: Normal
 ms.openlocfilehash: 25b36a6836c28bedcbf328564ede50bc680c6a37
 ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
@@ -14,11 +14,11 @@ ms.contentlocale: it-IT
 ms.lasthandoff: 04/28/2021
 ms.locfileid: "52071777"
 ---
-# <a name="microsoft-outlook-app-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft Outlook
+# <a name="microsoft-outlook-app-security-and-compliance"></a>Microsoft Outlook App Security and Compliance
 
-Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app e ai componenti aggiuntivi di Outlook utilizzati. Le informazioni sono integrate con le informazioni del catalogo app [di Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Queste informazioni sulla sicurezza, la gestione dei dati e la conformità hanno lo scopo di aiutare le organizzazioni a valutare e gestire i rischi nell'uso di queste app.
+Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app Outlook e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
-| **App** | **Partner** | **Publisher Attested** | **Certificato** | **Informazioni sulla gestione dei dati** | **Informazioni sulla sicurezza delle app cloud** |
+| **App** | **Partner** | **Attestata dall'autore** | **Certificata** | **Informazioni sulla gestione dei dati** | **Informazioni Cloud App Security** |
 |:--------|:------------|:----------------------:|:-----------------------------:|:----------------------------------:|
 | [Adobe Sign Add-In per Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
 | [Video di Altru](./altru-videos.md) | Altru | **✓** |  | Sì | Sì |
@@ -26,7 +26,7 @@ Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire 
 | [Asana per Outlook](./asana-for-outlook.md) | Asana | **✓** |  | Sì | Sì |
 | [harmon.ie per Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  | Sì | Sì |
 | [Fattura e tracciabilità del tempo - Fattura Zoho](./zoho-corporation-private-limited-invoice-and-time-tracking.md) | Zoho Corporation Private Limited | **✓** |  | Sì | Sì |
-| [iPlanner Office 365 Planner Add-in for Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
+| [Componente aggiuntivo iPlanner Office 365 Planner per Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
 | [Jira Cloud per Outlook (ufficiale)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  | Sì | Sì |
 | [MIPA - Assistente personale](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì |
