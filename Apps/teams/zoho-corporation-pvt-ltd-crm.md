@@ -1,0 +1,113 @@
+---
+title: Informazioni sull'applicazione per Zoho CRM di Zoho Corporation Pvt Ltd
+ms.author: elmalova
+author: elenamalova
+ms.date: 12/16/2019
+ms.topic: article
+ms.service: attestation
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Zoho CRM, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-mcas
+ms.openlocfilehash: 2e04101b9b993f17decec407aa3dbcc603b136f5
+ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52096223"
+---
+# <a name="zoho-crm"></a>Zoho CRM
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: December 16, 2019</p>
+
+* <a href="https://teams.microsoft.com/l/app/003a8a54-9d27-41cd-9c28-aec5875a3497" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104382094" target="_blank">Visualizzazione in AppSource</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>Informazioni generali
+
+Informazioni fornite da Zoho Corporation Pvt Ltd a Microsoft:
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Nome app | Zoho CRM |
+| ID | WA104382094 |
+| Funzionalità | Bot, scheda, estensione per la messaggistica |
+| Office 365 client supportati | Microsoft Teams |
+| Nome società partner | Zoho Corporation Pvt Ltd |
+| URL del sito Web del partner | [https://www.zoho.com/](https://www.zoho.com/) |
+| URL della pagina Teams informazioni sull'applicazione | [https://www.zoho.com/crm/help/microsoft-teams-integration.h...](https://www.zoho.com/crm/help/microsoft-teams-integration.html) |
+| URL dell'informativa sulla privacy | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
+| URL delle Condizioni per l'utilizzo | [https://www.zoho.com/crm/zohocrm-terms.html](https://www.zoho.com/crm/zohocrm-terms.html) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
+
+Queste informazioni sono state fornite da Zoho Corporation Pvt Ltd su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
+>| Calendars.ReadWrite | delegated | L'ID cartella calendario viene archiviato per sincronizzare i contatti da Zoho CRM a Microsoft &amp; viceversa. Le informazioni del calendario event_name, event_location, participant_details vengono archiviate. | Consente all'utente di sincronizzare gli eventi di Office365 con Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Contacts.ReadWrite | delegated | L'ID cartella Contatti viene archiviato per sincronizzare i contatti da Zoho CRM a Microsoft &amp; viceversa. Le informazioni di contatto first_name, last_name,indirizzo di posta elettronica vengono archiviate. | Consente all'utente di sincronizzare i contatti di Office365 con Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read | delegated |  | Consente all'utente di importare il file di Office365 in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.All | delegated |  | Consente all'utente di importare il file di Office365 in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.Selected | delegated | UserPrincipalName viene archiviato per l'identificazione dell'utente | Consente all'utente di importare il file di Office365 in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.ReadBasic.All | delegated | Proprietà utente come first_name, last_name, indirizzo di posta elettronica. | Leggere i profili di base di tutti gli utenti | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| e-mail | delegated | UserPrincipaName viene archiviato per l'indentificazione dell'utente | Visualizzare l'indirizzo di posta elettronica dell'utente | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| offline_access | delegated |  | Mantenimento dell'accesso ai dati a cui è stato concesso l'accesso | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| profilo | delegated |  | Visualizzare il profilo di base dell'utente | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+
+
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+
+>Non vengono servizi Microsoft non vengono utilizzati.
+
+#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
+
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
+
+>Non è possibile accedere all'UEII.
+
+
+
+#### <a name="telemetry-data"></a>Dati di telemetria
+
+Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
+
+>Non raccogliamo informazioni personali/informazioni personali in telemetria e log. Sono disponibili script per la ricerca e l'avviso per la correzione di tali dati visibili
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
+
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
+
+>Il cliente può selezionare i dati che devono essere crittografati tramite EAR (Encryption At Rest) con restrizioni certaat. Per impostazione predefinita, verrà eseguito l'hashing delle password. L'accesso logico ai server viene fornito tramite una rete dedicata isolata &amp; ed è altamente protetto e
+
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/22307' frameborder='no' style='width: 100%;'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/22307" target="_blank">Visualizzazione in una nuova scheda</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
