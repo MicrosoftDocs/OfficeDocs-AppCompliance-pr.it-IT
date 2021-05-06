@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/04/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per OfficeSpace, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 06cea605b05cd52783ff4098b1b28a19504591dc
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 590058147d899b670f36c1eff74166616c2024b0
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094420"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250594"
 ---
 # <a name="officespace"></a>OfficeSpace
 

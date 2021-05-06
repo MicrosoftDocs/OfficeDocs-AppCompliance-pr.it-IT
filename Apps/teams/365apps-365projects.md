@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/16/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per 365Projects, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d981f18f0001d14c2c6bb88fae95464fa6a62bde
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f94a5d3400b9a5e36a03ade9ba6e548a0df3c283
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095676"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251655"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -131,11 +132,11 @@ Queste informazioni sono state fornite da 365Apps sul modo in cui questa app ges
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | No |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | ,
-<br />
-- OAuth2 Implicit Flow, a meno che non sia necessario per una spa
-<br />
- | | L'app espone qualsiasi API Web? | Sì | | Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì | | La tua app usa le API di anteprima? | No | | L'app usa API deprecate? | No |
+| Per la tua app, cosa evita di usare? | ,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/> |
+| L'app espone qualsiasi API Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

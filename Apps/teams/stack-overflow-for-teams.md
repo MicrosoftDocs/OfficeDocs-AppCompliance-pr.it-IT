@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Stack Overflow per Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 04af58c25d8c3726a386dc9b80b687b289314051
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: fbc9cc478287f752b14f47a4c4769e14eb96ff0b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096064"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52248314"
 ---
 # <a name="stack-overflow-for-teams"></a>Stack Overflow for Teams
 

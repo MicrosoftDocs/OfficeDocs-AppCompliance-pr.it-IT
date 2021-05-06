@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/13/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Trivia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f13ce283151405688c68d16c79d7d68498a3635e
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 474de00fc318cc21e87b7755f67d6934c2efcde6
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094275"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252256"
 ---
 # <a name="trivia"></a>Trivia
 

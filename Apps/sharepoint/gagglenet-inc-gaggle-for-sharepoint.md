@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Gaggle per SharePoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 51a61dc6180dcf6af22f2c140a9f8f6dfee77492
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 3023d4ea1cd9fa08db125533cefdd7ff910581ab
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095715"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251675"
 ---
 # <a name="gaggle-for-sharepoint"></a>Gaggle per SharePoint
 
@@ -69,7 +70,7 @@ Elenca le autorizzazioni richieste da questa app per accedere ai dati dell'organ
 
 >| **Autorizzazione**  | **Descrizione** |
 >|:----------------|:----------------|
->| Impostazione predefinita | Non&#8217;leggere o apportare modifiche al documento |
+>| Predefiniti | Non&#8217;leggere o apportare modifiche al documento |
 >| Invia dati | Può inviare dati tramite Internet |
 
 #### <a name="telemetry-data"></a>Dati di telemetria

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 10/27/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per SalesTim, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3d31670e950ade5be6a49774829c13ae236bc009
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 82ded2fc8555079ac3446d8446d261dbca5eed73
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094684"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250434"
 ---
 # <a name="salestim"></a>SalesTim
 

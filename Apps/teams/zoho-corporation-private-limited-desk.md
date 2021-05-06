@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Zoho Desk, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e0d2d0dbf85436dc8a7b8415202ae35569adfa6b
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 446341cc94c3dba5792e16559647a80e0960b932
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094764"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251976"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 

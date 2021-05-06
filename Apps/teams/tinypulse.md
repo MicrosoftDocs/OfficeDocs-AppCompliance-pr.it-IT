@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/10/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TINYpulse, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3e3a923d7dbb361a331e905f8b34eb7a1553a74f
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 4d81f613854634b30bb00c0f1d96c5d148b02795
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094859"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251035"
 ---
 # <a name="tinypulse"></a>TINYpulse
 
@@ -123,11 +124,10 @@ Queste informazioni sono state fornite da TINYpulse sul modo in cui questa app g
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | No |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,
-<br />
-- OAuth2 Implicit Flow, a meno che non sia necessario per una spa
-<br />
-- Flusso roPC (Resource Owner Password Credential) | | L'app espone qualsiasi API Web? | No | | La tua app usa le API di anteprima? | No | | L'app usa API deprecate? | No |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | No |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

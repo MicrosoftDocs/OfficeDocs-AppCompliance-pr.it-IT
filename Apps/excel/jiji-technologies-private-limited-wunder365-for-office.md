@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/15/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wunder365 per Office, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 41cbb04c1c3e03c980aababfb125711af0020900
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: c45b8cad12e759a1b6ab546147d13fd4e82e11e9
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094611"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251465"
 ---
 # <a name="wunder365-for-office"></a>Wunder365 per Office
 
@@ -132,11 +133,10 @@ Queste informazioni sono state fornite da JiJi Technologies Private Limited sul 
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | Sì |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,
-<br />
-- OAuth2 Implicit Flow, a meno che non sia necessario per una spa
-<br />
-- Flusso roPC (Resource Owner Password Credential) | | L'app espone qualsiasi API Web? | No | | La tua app usa le API di anteprima? | Sì | | L'app usa API deprecate? | No |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | No |
+| La tua app usa le API di anteprima? | Sì |
+| L'app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

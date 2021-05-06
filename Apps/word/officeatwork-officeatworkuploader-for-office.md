@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/08/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i servizi | Caricatore per Office, criteri di gestione dei dati, Microsoft Cloud App Security informazioni sul catalogo app e informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c920b92bd606c8e9b98c53554380da3858e5213e
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f67b8dacee06afbeb341a20fb0147bab3add7331
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096191"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251545"
 ---
 # <a name="officeatwork--uploader-for-office"></a>officeatwork | Uploader per Office
 
@@ -140,11 +141,10 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app g
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | Sì |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,
-<br />
-- OAuth2 Implicit Flow, a meno che non sia necessario per una spa
-<br />
-- Flusso roPC (Resource Owner Password Credential) | | L'app espone qualsiasi API Web? | No | | La tua app usa le API di anteprima? | No | | L'app usa API deprecate? | No |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | No |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

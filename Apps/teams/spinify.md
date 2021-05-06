@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/23/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Spinify, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c9f7f3a8944a1b5d3dba37c445f4d60bad9b1d47
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 5ef30ed3c034b85e7cf4ad0c2039987e238a8677
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094259"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251105"
 ---
 # <a name="spinify"></a>Spinify
 

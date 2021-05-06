@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/12/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Talview Interviews, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5b8d68b8239d86be808cdd78d844b96b64712278
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 242ffe3ceb5dc7c88186b2740d48af42a6997b8e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094260"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52248124"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 

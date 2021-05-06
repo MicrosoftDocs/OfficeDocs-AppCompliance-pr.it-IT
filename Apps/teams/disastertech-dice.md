@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/24/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per DisasterTech DICE, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3ff4168c5490b235c97b24e77b279f407c7bea12
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 1d41a5fd431c3c74add97f831d9ccc8e46d09a99
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095306"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250744"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 

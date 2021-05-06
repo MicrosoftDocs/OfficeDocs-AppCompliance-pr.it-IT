@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/09/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Reminderz, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c7d3cecbbfa9613f706e52c8e71b64bd93c6cba0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7cefe4b3adc5b2c79f5123faddc9109ca3540f9b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095425"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251395"
 ---
 # <a name="reminderz"></a>Reminderz
 
