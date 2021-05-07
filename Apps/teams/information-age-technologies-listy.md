@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/22/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Listy, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3afae124ef05ea6ad264bf3d03f243ee0eb3ca8d
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: a10bff1678905fbb70c0985a6c0c6f6b0d1b1a9a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095025"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252526"
 ---
 # <a name="listy"></a>Listy
 
@@ -125,11 +126,11 @@ Queste informazioni sono state fornite da Information Age Technologies su come q
 | L'app supporta la multi-tenancy? | No |
 | L'app dispone di un client riservato? | No |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,
-<br />
-- OAuth2 Implicit Flow, a meno che non sia necessario per una spa
-<br />
-- Flusso roPC (Resource Owner Password Credential) | | L'app espone qualsiasi API Web? | Sì | | Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì | | La tua app usa le API di anteprima? | No | | L'app usa API deprecate? | No |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

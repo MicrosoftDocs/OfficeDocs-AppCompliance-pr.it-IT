@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/01/2021
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Adobe Sign, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 04ac0c0c2c9f40371b32b3d48b361ec99b959ab0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7e2e11994a8cf7ede0e8c3e0bf33b015251116ad
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095646"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252736"
 ---
 # <a name="adobe-sign"></a>Adobe Sign
 
@@ -137,11 +138,11 @@ Queste informazioni sono state fornite da Adobe Systems Inc. Su come questa app 
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | No |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,
-<br />
-- OAuth2 Implicit Flow, a meno che non sia necessario per una spa
-<br />
-- Flusso roPC (Resource Owner Password Credential) | | L'app espone qualsiasi API Web? | Sì | | Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì | | La tua app usa le API di anteprima? | No | | L'app usa API deprecate? | No |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -2,17 +2,17 @@
 title: Sicurezza e conformità app Microsoft Teams - tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/19/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 description: Informazioni disponibili su sicurezza e conformità per tutte le app di Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 31d085e5a2f8d01e8899f7c3fe911184c2cff879
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6bc983288ea2acb783fd99a80c6c4dbcfbf83fae
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071304"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251045"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Sicurezza e conformità app Microsoft Teams
 
@@ -21,6 +21,7 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** | **Informazioni sulla gestione dei dati** | **Informazioni Cloud App Security**  | **Funzionalità app** |
 |:--------|:------------|:----------------------:|:-------------:|:-----------------------------:|:----------------------------------:|:---------------------|
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  | Sì | Sì | Scheda, connettore |
+| [ADI](./akari-solutions-limited-adi.md) | Akari Solutions Limited | **✓** |  | Sì | Sì | Bot |
 | [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì | Bot, scheda |
 | [Agile Task Board](./agile-is-task-board.md) | Agile-IS | **✓** |  | Sì | Sì | Scheda |
 | [Alvao Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  | Sì | Sì | Bot, estensione per la messaggistica |
@@ -31,10 +32,14 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [atSpoke](./townsend-street-labs-inc-atspoke.md) | Townsend Street Labs, Inc. | **✓** |  | Sì | Sì | Bot |
 | [AttendanceBot](./anaek-attendancebot.md) | Anaek | **✓** |  | Sì | Sì | Bot |
 | [AVA](./avepoint-inc-ava.md) | AvePoint, Inc. | **✓** |  | Sì | Sì | Bot, scheda |
+| [Beekast](./beekast.md) | Beekast | **✓** |  | Sì | Sì | Scheda |
 | [Beesy](./beesapps-beesy.md) | BeesApps | **✓** |  | Sì | Sì | Bot, scheda |
 | [Board Connect](./engage-squared-board-connect.md) | Engage Squared | **✓** |  | Sì | Sì | Scheda |
 | [Bonusly](./bonusly.md) | Bonusly | **✓** |  | Sì | Sì | Bot |
+| [BrainBot](./biggerbrains-brainbot.md) | Biggerbrains | **✓** |  | Sì | Sì | Bot |
 | [Breakthru](./breakthru.md) | Breakthru | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
+| [Brightidea](./brightidea.md) | Brightidea | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
+| [C.AI Adoption Bot](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** |  | Sì | Sì | Bot, scheda |
 | [Calendar BOT](./approved-contact-calendar-bot.md) | Contatto approvato | **✓** |  | Sì | Sì | Bot, scheda |
 | [CatchEm](./chimu-software-catchem.md) | Chimu Software | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
@@ -48,15 +53,18 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  | Sì | Sì | Scheda |
 | [Droplr](./droplr.md) | Droplr | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
 | [Dynamic Signal](./dynamic-signal.md) | Dynamic Signal | **✓** |  | Sì | Sì | Bot, scheda |
+| [Easy Projects](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  | Sì | Sì | Bot, estensione per la messaggistica |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR (Asia) Co.Ltd. | **✓** |  | Sì | Sì | Scheda |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  | Sì | Sì | Scheda |
 | [elmah.io](./elmahio.md) | elmah.io | **✓** |  | Sì | Sì | Connettore |
 | [Email TeamMate](./harmonie-email-teammate.md) | harmon.ie | **✓** |  | Sì | Sì | Bot, estensione per la messaggistica |
+| [Empuls](./empuls.md) | Empuls | **✓** |  | Sì | Sì | Bot, estensione per la messaggistica |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  | Sì | Sì | Bot |
 | [Evernote](./evernote.md) | Evernote | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
 | [Evocom](./evocom-informationssysteme-gmbh.md) | Evocom Informationssysteme GmbH | **✓** |  | Sì | Sì | Scheda |
 | [ezTeam](./enterprizid-inc-ezteam.md) | EnterprizID Inc | **✓** |  | Sì | Sì | Bot, scheda |
 | [FormMachines](./enterprise-digital-machines-formmachines.md) | Enterprise Digital Machines | **✓** |  | Sì | Sì | Scheda, connettore |
+| [Freehand by InVision](./invision-app-freehand-by.md) | InVision app | **✓** |  | Sì | Sì | Scheda |
 | [Freshdesk](./freshworks-inc-freshdesk.md) | Freshworks INC | **✓** |  | Sì | Sì | Bot |
 | [Fusion Remote](./jujo-inc-fusion-remote.md) | Jujo Inc. | **✓** |  | Sì | Sì | Bot |
 | [Go1](./go1.md) | Go1 | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
@@ -66,8 +74,10 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  | Sì | Sì | Bot, scheda |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
 | [Hibob](./hibob-inc.md) | Hibob Inc. | **✓** |  | Sì | Sì | Bot |
+| [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  | Sì | Sì | Bot, estensione per la messaggistica |
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  | Sì | Sì | Scheda |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  | Sì | Sì | Scheda, connettore |
+| [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  | Sì | Sì | Bot |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Industry Intelligence Team | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
 | [InStation](./developers-invillia-instation.md) | Developers Invillia | **✓** |  | Sì | Sì | Scheda |
 | [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  | Sì | Sì | Bot, scheda |
@@ -103,10 +113,13 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  | Sì | Sì | Scheda, connettore |
 | [OfficeSpace](./officespace-software.md) | OfficeSpace Software | **✓** |  | Sì | Sì | Bot |
 | [Officevibe](./officevibe.md) | Officevibe | **✓** |  | Sì | Sì | Bot |
+| [Onsight Connect](./librestream-onsight-connect.md) | Librestream | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
 | [OpenAgora](./open-agora-openagora.md) | Open Agora | **✓** |  | Sì | Sì | Bot, scheda |
 | [Org@Work](./lundano-org@work.md) | Lundano | **✓** |  | Sì | Sì | Bot, scheda |
+| [Package Notifier](./qburst-technologies-pvt-ltd-package-notifier.md) | QBURST TECHNOLOGIES PVT LTD | **✓** |  | Sì | Sì | Connettore |
 | [Perfony](./perfony.md) | Perfony | **✓** |  | Sì | Sì | Scheda |
 | [Piazza](./piazza.md) | Piazza | **✓** |  | Sì | Sì | Scheda |
+| [Planyway Team Calendar](./rubius-planyway-team-calendar.md) | Rubius | **✓** |  | Sì | Sì | Scheda |
 | [Polly](./polly.md) | Polly | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
 | [Prezi Video](./prezi-video.md) | Prezi | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sì | Sì | Bot, scheda, estensione per la messaggistica, connettore |
@@ -134,27 +147,32 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [SIGNL4](./derdack-signl4.md) | Derdack SIGNL4 | **✓** |  | Sì | Sì | Bot |
 | [Simple In/Out](./simply-made-apps-inc-simple-inout.md) | Simply Made Apps, Inc. | **✓** |  | Sì | Sì | Scheda, connettore |
 | [Site24x7](./zoho-corporation-private-limited-site24x7.md) | Zoho Corporation Private Limited | **✓** |  | Sì | Sì | Bot, scheda, connettore |
-| [Skillate](./skillate-laboratories-pvt-ltd.md) | Competenze Laboratories Pvt. Ltd. | **✓** |  | Sì | Sì | Bot, scheda, connettore |
+| [Skillate](./skillate-laboratories-pvt-ltd.md) | Skillate Laboratories Pvt. Ltd. | **✓** |  | Sì | Sì | Bot, scheda, connettore |
 | [Skills by Pipe9](./pipe9com-skills-by-pipe9.md) | Pipe9.com | **✓** |  | Sì | Sì | Scheda |
 | [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  | Sì | Sì | Bot |
 | [Slido](./slido.md) | Slido | **✓** |  | Sì | Sì | Bot, scheda |
 | [Smart Connect for Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  | Sì | Sì | Bot, estensione per la messaggistica |
+| [SMART Learning Suite](./smart-technologies-ulc-learning-suite.md) | SMART Technologies ULC | **✓** |  | Sì | Sì | Scheda |
 | [Smartnotation](./smartnotation-bv.md) | Smartnotation B.V. | **✓** |  | Sì | Sì | Scheda, connettore |
 | [Smartsheet](./smartsheet.md) | Smartsheet | **✓** |  | Sì | Sì | Bot, scheda |
-| [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  | Sì | Sì | Bot |
+| [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  | Sì | Sì | Bot, scheda |
+| [SmileBack](./smileback.md) | SmileBack | **✓** |  | Sì | Sì | Connettore |
 | [Soapbox](./soapbox.md) | Soapbox | **✓** |  | Sì | Sì | Bot, scheda |
 | [Spinify](./spinify.md) | Spinify | **✓** |  | Sì | Sì | Bot, scheda |
 | [Stack Overflow for Teams](./stack-overflow-for-teams.md) | Stack Overflow | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  | Sì | Sì | Bot |
 | [StarLeaf](./starleaf.md) | StarLeaf | **✓** |  | Sì | Sì | Bot, estensione per la messaggistica |
+| [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  | Sì | Sì | Scheda |
 | [Streem](./streem.md) | Streem | **✓** |  | Sì | Sì | Bot |
 | [Studi.ly](./inlogic-office-store-studily.md) | inLogic-Office Store | **✓** |  | Sì | Sì | Scheda |
 | [SurveyMonkey](./surveymonkey.md) | SurveyMonkey | **✓** |  | Sì | Sì | Bot, scheda, estensione per la messaggistica, connettore |
+| [SurveySparrow](./admin@surveysparrowcom-surveysparrow.md) | admin@surveysparrow.com | **✓** |  | Sì | Sì | Bot |
 | [Sympli](./sympli-llc.md) | Sympli, LLC | **✓** |  | Sì | Sì | Bot, estensione per la messaggistica |
 | [TackleBox](./insiten-tacklebox.md) | Insiten | **✓** |  | Sì | Sì | Scheda, connettore |
 | [Talla](./talla-inc.md) | Talla Inc. | **✓** |  | Sì | Sì | Bot, scheda |
 | [Talview Interviews](./talview-inc-interviews.md) | Talview Inc. | **✓** |  | Sì | Sì | Scheda |
 | [TaskList](./limestat-inc-tasklist.md) | LimeStat, Inc | **✓** |  | Sì | Sì | Bot |
+| [Teamhood](./eylean-uab-teamhood.md) | Eylean, UAB | **✓** |  | Sì | Sì | Bot, estensione per la messaggistica |
 | [TeamMate by ChitChattr](./chitchattr-teammate-by.md) | ChitChattr | **✓** |  | Sì | Sì | Bot, scheda |
 | [TeamMood](./power-up-conseil-teammood.md) | Power Up Conseil | **✓** |  | Sì | Sì | Bot |
 | [Teams Manager](./solutions2share-gmbh-teams-manager.md) | Solutions2Share GmbH | **✓** |  | Sì | Sì | Bot, scheda |
@@ -165,7 +183,9 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  | Sì | Sì | Bot, estensione per la messaggistica |
 | [timeghost](./kollisch-gmbh-timeghost.md) | K&#246;llisch GmbH | **✓** |  | Sì | Sì | Scheda |
 | [TINYpulse](./tinypulse.md) | TINYpulse | **✓** |  | Sì | Sì | Bot, connettore |
+| [Tribute](./tribute-co.md) | Tribute Co. | **✓** |  | Sì | Sì | Scheda |
 | [Trivia](./springworks-hr-tech-trivia.md) | Springworks HR Tech | **✓** |  | Sì | Sì | Bot, scheda |
+| [Trivie](./trivie-inc.md) | Trivie, Inc. | **✓** |  | Sì | Sì | Scheda |
 | [Tryane Analytics](./tryane-analytics.md) | Tryane | **✓** |  | Sì | Sì | Scheda |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  | Sì | Sì | Bot, scheda |
 | [Viima](./viima-solutions-oy.md) | Viima Solutions Oy | **✓** |  | Sì | Sì | Scheda |

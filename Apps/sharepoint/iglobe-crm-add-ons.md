@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per i Componenti aggiuntivi CRM iGlobe, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c1f70272dc571c04b340d82e15e7aaf8be304677
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 21e71a90f0764baba9d251b02eea17c369a6f21a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095706"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252776"
 ---
 # <a name="iglobe-crm-add-ons"></a>iGlobe CRM Add-ons
 
@@ -103,7 +104,7 @@ Elenca le autorizzazioni richieste da questa app per accedere ai dati dell'organ
 
 >| **Autorizzazione**  | **Descrizione** |
 >|:----------------|:----------------|
->| Impostazione predefinita | Non&#8217;leggere o apportare modifiche al documento |
+>| Predefiniti | Non&#8217;leggere o apportare modifiche al documento |
 >| Invia dati | Può inviare dati tramite Internet |
 
 #### <a name="telemetry-data"></a>Dati di telemetria

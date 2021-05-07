@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/23/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Prodoscore ProdBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 373544c31b3baca313c71cb1620b9c57c627fa69
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b5075edb0ff6f23f01ef0975ee5429560720af9e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094715"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252366"
 ---
 # <a name="prodoscore-prodbot"></a>Prodoscore ProdBot
 
@@ -125,11 +126,10 @@ Queste informazioni sono state fornite da Prodoscore sul modo in cui questa app 
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | Sì |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,
-<br />
-
-<br />
- | | L'app espone qualsiasi API Web? | No | | La tua app usa le API di anteprima? | Sì | | L'app usa API deprecate? | No |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/><br/> |
+| L'app espone qualsiasi API Web? | No |
+| La tua app usa le API di anteprima? | Sì |
+| L'app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

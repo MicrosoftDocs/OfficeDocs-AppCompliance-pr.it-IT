@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/07/2021
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni di sicurezza e conformità disponibili per harmon.ie per Office, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+certification_type: attested
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per harmon.ie per Office, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ddfc89a5291c0fb34c4198533ddf79154d4bc8bf
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: e80be8daa23cc470377dbc57f35e55441c4eb49b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094900"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251495"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie per Office
 
@@ -32,7 +33,7 @@ Informazioni fornite da harmon.ie Corporation a Microsoft:
 |:----------------|:-------------|
 | Nome app | harmon.ie per Office |
 | ID | WA104381050 |
-| Office 365 client supportati | PowerPoint 2016 o versioni successive su Windows, Word 2016 o versioni successive su Windows, Excel sul web, Word sul web, PowerPoint sul web, Word 2016 o versioni successive su Mac, PowerPoint 2016 o versioni successive su Mac |
+| Client di Office 365 supportati | PowerPoint 2016 o versioni successive in Windows, Word 2016 o versioni successive in Windows, Excel sul Web, Word sul Web, PowerPoint sul Web, Word 2016 o versioni successive su Mac, PowerPoint 2016 o versioni successive su Mac |
 | Nome società partner | harmon.ie Corporation |
 | URL del sito Web del partner | [https://harmon.ie/](https://harmon.ie/) |
 | URL dell'informativa sulla privacy | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
@@ -50,21 +51,21 @@ Queste informazioni sono state fornite da harmon.ie Corporation su come questa a
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni di Microsoft Graph necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | delegated | Obbligatorio harmon.ie per Outlook consentire agli utenti di accedere e ottenere il ruolo dell'utente | nessuno | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| Files.ReadWrite.All | delegated | Obbligatorio da harmon.ie per Outlook consentire il trasferimento degli allegati di posta elettronica da Outlook &amp; e salvarli in SharePoint | nessuno | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| Mail.ReadWrite | delegated | Obbligatorio da harmon.ie per Outlook consentire il trasferimento degli allegati di posta elettronica da Outlook &amp; e salvarli in SharePoint | nessuno | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| User.Read | delegated | Obbligatorio da harmon.ie per Outlook per risolvere l'immagine del profilo degli utenti | nessuno | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
+>| Directory.AccessAsUser.All | delegated | Richiesto da harmon.ie outlook per consentire agli utenti di accedere e ottenere il ruolo dell'utente | nessuno | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
+>| Files.ReadWrite.All | delegated | Obbligatorio da harmon.ie outlook per consentire il trasferimento degli allegati di posta elettronica &amp; da Outlook e salvarli in SharePoint | nessuno | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
+>| Mail.ReadWrite | delegated | Obbligatorio da harmon.ie outlook per consentire il trasferimento degli allegati di posta elettronica &amp; da Outlook e salvarli in SharePoint | nessuno | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
+>| User.Read | delegated | Obbligatorio per harmon.ie outlook per risolvere l'immagine del profilo degli utenti | nessuno | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
 
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+#### <a name="non-microsoft-services-used"></a>Servizi non Microsoft utilizzati
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>I servizi non Microsoft non vengono utilizzati.
 
 
 
@@ -101,9 +102,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [catalogo di Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36360' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Informazioni sulla sicurezza delle app cloud Microsoft' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36360' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36360" target="_blank">Visualizzazione in una nuova scheda</a>
 
@@ -120,7 +121,7 @@ Queste informazioni sono state fornite da harmon.ie Corporation sul modo in cui 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo per l'integrazione della piattaforma di identità Microsoft?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -128,11 +129,11 @@ Queste informazioni sono state fornite da harmon.ie Corporation sul modo in cui 
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | No |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,
-<br />
-- OAuth2 Implicit Flow, a meno che non sia necessario per una spa
-<br />
-- Flusso roPC (Resource Owner Password Credential) | | L'app espone qualsiasi API Web? | Sì | | Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì | | La tua app usa le API di anteprima? | No | | L'app usa API deprecate? | No |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- Flusso implicito OAuth2, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

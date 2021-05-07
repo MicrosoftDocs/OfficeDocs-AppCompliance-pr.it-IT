@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 07/20/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per il Contact Center, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 666cb2947c05a8b40e568b8c602bf5988bf6d3c0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f4f13a5dcd05622b297488fcfe8663028cc427fa
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094924"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252466"
 ---
 # <a name="contact-center"></a>Contact Center
 
