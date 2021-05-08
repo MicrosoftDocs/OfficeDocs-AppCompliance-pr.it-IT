@@ -6,22 +6,22 @@ ms.date: 04/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Tribute, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Tribute, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 996cd1a4de1ac793bacb354e8985f600cbb0a0f5
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 3fead70ef460ec81d89144420850ce47e3aee3e4
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252081"
+ms.locfileid: "52258783"
 ---
-# <a name="tribute"></a>Tributo
+# <a name="tribute"></a>Tribute
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: April 16, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/cfb46a87-a75b-4045-9f22-a0ae0614fd60" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://teams.microsoft.com/l/app/cfb46a87-a75b-4045-9f22-a0ae0614fd60" target="_blank">Visualizzazione in Teams Store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002589" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
@@ -32,13 +32,13 @@ Informazioni fornite da Tribute Co. a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Tributo |
+| Nome app | Tribute |
 | ID | WA200002589 |
 | Funzionalità | Scheda |
-| Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Tributo Co. |
+| Client di Office 365 supportati | Microsoft Teams |
+| Nome società partner | Tribute Co. |
 | URL del sito Web del partner | [https://www.tributementorship.com](https://www.tributementorship.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
+| URL della pagina delle informazioni dell'applicazione Teams | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
 | URL dell'informativa sulla privacy | [https://www.tributementorship.com/privacy](https://www.tributementorship.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.tributementorship.com/terms](https://www.tributementorship.com/terms) |
 
@@ -54,16 +54,16 @@ Queste informazioni sono state fornite da Tribute Co. sul modo in cui questa app
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni di Microsoft Graph necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+#### <a name="non-microsoft-services-used"></a>Servizi non Microsoft utilizzati
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>I servizi non Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -97,9 +97,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [catalogo di Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Informazioni sulla sicurezza delle app cloud Microsoft' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870" target="_blank">Visualizzazione in una nuova scheda</a>
 
@@ -116,8 +116,8 @@ Queste informazioni sono state fornite da Tribute Co. sul modo in cui questa app
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
-| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | true |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo per l'integrazione della piattaforma di identità Microsoft?  | Sì |
+| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
 | Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | No |

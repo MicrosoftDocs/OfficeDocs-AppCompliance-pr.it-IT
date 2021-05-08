@@ -2,22 +2,23 @@
 title: Application Information for Priority Matrix - Trasformare i messaggi di posta elettronica in attività di Appfluence Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/17/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Priority Matrix- Trasformare i messaggi di posta elettronica in attività, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+certification_type: certified
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Priority Matrix - Trasformare i messaggi di posta elettronica in attività, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f92f29796daf072b24233bdcc9459d7db82d40bc
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 3f4ba1a7f888c576ae7a87286488d7b5f06037a2
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095992"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52258993"
 ---
 # <a name="priority-matrix---turn-emails-into-tasks"></a>Matrice priorità - Trasformare i messaggi di posta elettronica in attività
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: November 17, 2020</p>
+<p>Last updated by the developer on: April 16, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104381735" target="_blank">Visualizzazione in AppSource</a>
 
@@ -31,7 +32,7 @@ Informazioni fornite da Appfluence Inc a Microsoft:
 |:----------------|:-------------|
 | Nome app | Matrice priorità - Trasformare i messaggi di posta elettronica in attività |
 | ID | WA104381735 |
-| Office 365 client supportati | Outlook 2016 o versioni successive su Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook su Android, Outlook sul Web |
+| Client di Office 365 supportati | Outlook 2016 o versioni successive in Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook su Android, Outlook sul Web |
 | Nome società partner | Appfluence Inc |
 | URL del sito Web del partner | [https://appfluence.com/](https://appfluence.com/) |
 | URL dell'informativa sulla privacy | [https://appfluence.com/privacy](https://appfluence.com/privacy) |
@@ -49,26 +50,26 @@ Queste informazioni sono state fornite da Appfluence Inc su come questa app racc
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni di Microsoft Graph necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Calendars.Read | delegated | Solo quando viene aggiunto un nuovo utente all'account, vengono archiviati i messaggi di posta elettronica. | Durante la creazione di un nuovo account, viene utilizzato per suggerire altri membri del team. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
 >| User.ReadBasic.All | delegated | Solo quando viene aggiunto un nuovo utente all'account, vengono archiviati i messaggi di posta elettronica. | Durante la creazione di un nuovo account, viene utilizzato per suggerire altri membri del team. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
 >| offline_access | delegated | Archiviamo il token di accesso per eseguire richieste per conto dell'utente | Aggiorna token senza disturbare l'utente. (Matrice di priorità per Teams) | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| Files.Read.All | delegated | Non vengono archiviate informazioni sui file, a meno che l'utente non crei esplicitamente e consapevolmente un elemento priority matrix che si collega al file originale. | Nella funzionalità One-on-One (disponibile tramite l'app Web e anche i componenti aggiuntivi Outlook/Teams), usiamo questa funzionalità per evidenziare i file SharePoint/OneDrive condivisi tra due utenti del sistema, per facilitare le riunioni e la collaborazione complessiva. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
+>| Files.Read.All | delegated | Non vengono archiviate informazioni sui file, a meno che l'utente non crei esplicitamente e consapevolmente un elemento priority matrix che si collega al file originale. | Nella funzionalità One-on-One (disponibile tramite l'app Web e anche i componenti aggiuntivi di Outlook/Teams), questa funzionalità viene utilizzata per evidenziare i file di SharePoint/OneDrive condivisi tra due utenti del sistema, in modo da facilitare le riunioni e la collaborazione complessiva. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| User.Read | delegated | Le informazioni di base del profilo utente (nome visualizzato, nome, cognome, e-mail, avatar) vengono archiviate da Microsoft. | Ottieni il nome, l'indirizzo di posta elettronica, l'avatar dell'utente per personalizzare il proprio account con noi. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| openid | delegated | La connessione SSO viene archiviata per indicare la modalità di accesso per l'utente. | Per accedere agli utenti tramite single sign-on. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| Calendars.Read | delegated | Un numero limitato di eventi di calendario vengono trasformati in attività archiviate nel sistema. | Leggere gli eventi del calendario in modo che possano essere visualizzati nella visualizzazione 1:1. Anche per inizializzare nuovi account.  | d76f016f-52c7-41b5-835b-900361d7040c |
->| Mail.Read | delegated | Le attività create nel sistema vengono archiviate con un collegamento al messaggio originale. | Usato nel nostro Outlook componente aggiuntivo per trasformare i messaggi di posta elettronica in attività e per visualizzare il lavoro condiviso in visualizzazione 1:1. | d76f016f-52c7-41b5-835b-900361d7040c |
->| Tasks.Read | delegated | Alcune Outlook/Planner vengono replicate nel sistema per aiutare i nuovi utenti. | I nuovi account utente vengono bootstrap con le Graph attività. | d76f016f-52c7-41b5-835b-900361d7040c |
+>| Mail.Read | delegated | Le attività create nel sistema vengono archiviate con un collegamento al messaggio originale. | Utilizzato nel componente aggiuntivo di Outlook per trasformare i messaggi di posta elettronica in attività e per visualizzare il lavoro condiviso in visualizzazione 1:1. | d76f016f-52c7-41b5-835b-900361d7040c |
+>| Tasks.Read | delegated | Alcune attività di Outlook/Planner vengono replicate nel sistema per aiutare i nuovi utenti. | I nuovi account utente vengono bootstrap con le attività di Graph. | d76f016f-52c7-41b5-835b-900361d7040c |
 
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+#### <a name="non-microsoft-services-used"></a>Servizi non Microsoft utilizzati
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>I servizi non Microsoft non vengono utilizzati.
 
 
 
@@ -132,11 +133,11 @@ Queste informazioni sono state fornite da Appfluence Inc su come questa app gest
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | Sì |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,
-<br />
-
-<br />
-- Flusso roPC (Resource Owner Password Credential) | | L'app espone qualsiasi API Web? | Sì | | Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì | | La tua app usa le API di anteprima? | No | | L'app usa API deprecate? | No |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/><br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

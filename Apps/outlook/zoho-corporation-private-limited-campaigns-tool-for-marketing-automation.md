@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per lo strumento Zoho Campaigns per l'automazione del marketing, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0c8422a016ac803605ab37c10e93f1afe4de657c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: e6107ce4526c7880253d52b6cecb0898c205f57e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095871"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252907"
 ---
 # <a name="zoho-campaigns-tool-for-marketing-automation"></a>Strumento Zoho Campaigns per l'automazione del marketing
 

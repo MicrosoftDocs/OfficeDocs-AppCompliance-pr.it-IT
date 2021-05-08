@@ -2,24 +2,24 @@
 title: Application Information for Freehand by InVision by InVision app
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/16/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Freehand di InVision, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8ff5737df8fbc08c1030365bebba67d3ce32b38a
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: fa9a02b63eff4001789f5a7c854fd9ee554d6e84
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252116"
+ms.locfileid: "52258773"
 ---
-# <a name="freehand-by-invision"></a>Freehand di InVision
+# <a name="freehand-by-invision"></a>Freehand by InVision
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 16, 2021</p>
+<p>Last updated by the developer on: May 6, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381362" target="_blank">Visualizzazione in AppSource</a>
@@ -32,11 +32,11 @@ Informazioni fornite dall'app InVision a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Freehand di InVision |
+| Nome app | Freehand by InVision |
 | ID | WA104381362 |
 | Funzionalità | Scheda |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | App InVision |
+| Nome società partner | InVision app |
 | URL del sito Web del partner | [https://www.invisionapp.com/](https://www.invisionapp.com/) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
 | URL dell'informativa sulla privacy | [https://www.invisionapp.com/privacy](https://www.invisionapp.com/privacy) |

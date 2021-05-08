@@ -1,22 +1,22 @@
 ---
-title: Microsoft OneNote Sicurezza e conformità delle app - Tutte le app
+title: Sicurezza e conformità delle app di Microsoft OneNote - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/15/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte Microsoft OneNote app.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app di Microsoft OneNote.
 localization_priority: Normal
-ms.openlocfilehash: 69f3f923df67bc1fe418bf20ebd6bd9c6cbcf505
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 5eee0373c1af1f94e27d92f9a67e4ab09acbb3f8
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071787"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52258973"
 ---
-# <a name="microsoft-onenote-app-security-and-compliance"></a>Microsoft OneNote Sicurezza e conformità delle app
+# <a name="microsoft-onenote-app-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft OneNote
 
-Microsoft collabora con i partner Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app OneNote e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app e ai componenti aggiuntivi di OneNote utilizzati. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** | **Informazioni sulla gestione dei dati** | **Informazioni Cloud App Security** |
 |:--------|:------------|:----------------------:|:-----------------------------:|:----------------------------------:|

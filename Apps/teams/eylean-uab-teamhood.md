@@ -6,14 +6,14 @@ ms.date: 04/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Teamhood, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Teamhood, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 98e035959e10ce9bbae80c2501e8ff37db5b3ccb
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 45367d70e46d9431a4cec2c9667009831e302821
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250936"
+ms.locfileid: "52258843"
 ---
 # <a name="teamhood"></a>Teamhood
 
@@ -21,7 +21,7 @@ ms.locfileid: "52250936"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: April 27, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/22372c30-c5de-483e-85b4-8d51db246eda" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://teams.microsoft.com/l/app/22372c30-c5de-483e-85b4-8d51db246eda" target="_blank">Visualizzazione in Teams Store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002568" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
@@ -35,10 +35,10 @@ Informazioni fornite da Eylean, UAB a Microsoft:
 | Nome app | Teamhood |
 | ID | WA200002568 |
 | Funzionalità | Bot, estensione per la messaggistica |
-| Office 365 client supportati | Microsoft Teams |
+| Client di Office 365 supportati | Microsoft Teams |
 | Nome società partner | Eylean, UAB |
 | URL del sito Web del partner | [https://teamhood.com](https://teamhood.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://teamhood.com/features/teamhood-and-microsoft-teams-...](https://teamhood.com/features/teamhood-and-microsoft-teams-integration/) |
+| URL della pagina delle informazioni dell'applicazione Teams | [https://teamhood.com/features/teamhood-and-microsoft-teams-...](https://teamhood.com/features/teamhood-and-microsoft-teams-integration/) |
 | URL dell'informativa sulla privacy | [https://teamhood.com/privacy-policy/](https://teamhood.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://teamhood.com/terms-of-use/](https://teamhood.com/terms-of-use/) |
 
@@ -54,16 +54,16 @@ Queste informazioni sono state fornite da Eylean, UAB su come questa app raccogl
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni di Microsoft Graph necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+#### <a name="non-microsoft-services-used"></a>Servizi non Microsoft utilizzati
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>I servizi non Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -97,9 +97,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [catalogo di Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37586' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Informazioni sulla sicurezza delle app cloud Microsoft' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37586' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37586" target="_blank">Visualizzazione in una nuova scheda</a>
 
@@ -116,15 +116,15 @@ Queste informazioni sono state fornite da Eylean, UAB su come questa app gestisc
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
-| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | false |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo per l'integrazione della piattaforma di identità Microsoft?  | Sì |
+| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
 | Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | Sì |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- Flusso implicito OAuth2, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
 | L'app espone qualsiasi API Web? | Sì |
 | Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
 | La tua app usa le API di anteprima? | No |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per FormMachines per SharePoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ee74d9fdcac17263b45a34deeb730b21b6b45ecc
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: d2793ffd2c43275af52a02032878a6e47660306f
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095726"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252786"
 ---
 # <a name="formmachines-for-sharepoint"></a>FormMachines per SharePoint
 
@@ -71,7 +72,7 @@ Elenca le autorizzazioni richieste da questa app per accedere ai dati dell'organ
 
 >| **Autorizzazione**  | **Descrizione** |
 >|:----------------|:----------------|
->| Impostazione predefinita | Non&#8217;leggere o apportare modifiche al documento |
+>| Predefiniti | Non&#8217;leggere o apportare modifiche al documento |
 >| Invia dati | Può inviare dati tramite Internet |
 
 #### <a name="telemetry-data"></a>Dati di telemetria

@@ -2,21 +2,21 @@
 title: Sicurezza e conformità app Microsoft Teams - tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/05/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 description: Informazioni disponibili su sicurezza e conformità per tutte le app di Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 6bc983288ea2acb783fd99a80c6c4dbcfbf83fae
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 029df430f55edfaef5a1c0bbf106c50438e19590
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251045"
+ms.locfileid: "52258823"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Sicurezza e conformità app Microsoft Teams
 
-Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle organizzazioni le informazioni necessarie per accelerare e informare riguardo le decisioni sulle app e sui componenti aggiuntivi di Teams che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/it-IT/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle organizzazioni le informazioni necessarie per accelerare e informare riguardo le decisioni sulle app e sui componenti aggiuntivi di Teams che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** | **Informazioni sulla gestione dei dati** | **Informazioni Cloud App Security**  | **Funzionalità app** |
 |:--------|:------------|:----------------------:|:-------------:|:-----------------------------:|:----------------------------------:|:---------------------|

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/02/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Asana per Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a166966dd5dfac55a13df3dded07bd056f3ab2ee
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 635d3f73c582fbc6a89fbca0798b0dec271ab3f5
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095967"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252977"
 ---
 # <a name="asana-for-outlook"></a>Asana per Outlook
 
