@@ -6,12 +6,12 @@ description: Guida per l'utente ISV per Microsoft 365 App Compliance Program
 keywords: Guida per l'utente ISV per Microsoft 365 App Compliance Program
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1338edfc5ad4447d9167eea66388cd8d7a65a883
-ms.sourcegitcommit: 47fdc4f6dcfbc1b4c74f7e1e49343b9b1ce6ef9c
+ms.openlocfilehash: a6b0abb55359a16d4651722d776dfb16282edc87
+ms.sourcegitcommit: bb6c1353781d7b6f8b171bf6853b85e42fda656e
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/11/2021
-ms.locfileid: "52313275"
+ms.locfileid: "52324085"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Guida per l'utente del partner per Microsoft 365 App Compliance Program
 
@@ -150,17 +150,17 @@ Una volta inviato, sarà in fase di revisione.
 
 ![Attestazione in fase di revisione](../media/existing%20isv%203.png)
 
-## <a name="6---microsoft-365-re-certification-workflow"></a>6. Microsoft 365 Re-Certification flusso di lavoro:
-
-**Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione:** 
+## <a name="6---microsoft-365-publisher-attestation-and-certification-renewal-workflow"></a>6. Microsoft 365 Publisher flusso di lavoro di attestazione e rinnovo della certificazione:
 
 Microsoft 365 Il programma di conformità delle app ora offre un processo di rinnovo annuale. Durante questo processo, gli sviluppatori di app possono aggiornare il questionario Publisher attestazione e i documenti necessari per la Microsoft 365 certificazione. 
 
 **Vantaggi:**
 
-- Mantieni il badge di certificazione in AppSource per differenziare la tua app dagli altri. 
+- Mantieni il badge di certificazione in AppSource e Team Store per differenziare la tua app dagli altri. 
 - Aumentare la fiducia dei clienti nell'uso dell'app certificata. 
 - Aiutare gli amministratori IT a prendere decisioni informate con informazioni aggiornate sulla certificazione. 
+
+Il nuovo processo di rinnovo è disponibile nel [Centro per i partner](https://partner.microsoft.com/en-us/dashboard/home) per offrire un'esperienza senza problemi. Un promemoria di rinnovo verrà visualizzato nel Centro per i partner a partire da 90 giorni prima della data di scadenza. I promemoria periodici verranno inviati anche tramite posta elettronica a 90, 60 e 30 giorni prima della scadenza.
 
 **Livello 1: rinnovo Publisher attestazione:** 
 
