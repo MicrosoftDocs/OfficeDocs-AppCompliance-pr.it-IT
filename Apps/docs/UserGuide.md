@@ -6,215 +6,215 @@ description: Guida per l'utente ISV per Microsoft 365 App Compliance Program
 keywords: Guida per l'utente ISV per Microsoft 365 App Compliance Program
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1338edfc5ad4447d9167eea66388cd8d7a65a883
-ms.sourcegitcommit: 47fdc4f6dcfbc1b4c74f7e1e49343b9b1ce6ef9c
+ms.openlocfilehash: a6b0abb55359a16d4651722d776dfb16282edc87
+ms.sourcegitcommit: bb6c1353781d7b6f8b171bf6853b85e42fda656e
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/11/2021
-ms.locfileid: "52313275"
+ms.locfileid: "52324085"
 ---
-# <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a><span data-ttu-id="7a2b5-104">Guida per l'utente del partner per Microsoft 365 App Compliance Program</span><span class="sxs-lookup"><span data-stu-id="7a2b5-104">Partner's User Guide for Microsoft 365 App Compliance Program</span></span>
+# <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a><span data-ttu-id="2d462-104">Guida per l'utente del partner per Microsoft 365 App Compliance Program</span><span class="sxs-lookup"><span data-stu-id="2d462-104">Partner's User Guide for Microsoft 365 App Compliance Program</span></span>
 
 |||
 |---|---|
-|<span data-ttu-id="7a2b5-105">Livello 1</span><span class="sxs-lookup"><span data-stu-id="7a2b5-105">Tier 1</span></span>| <span data-ttu-id="7a2b5-106">Attestazione dell'autore</span><span class="sxs-lookup"><span data-stu-id="7a2b5-106">Publisher Attestation</span></span>|
-|<span data-ttu-id="7a2b5-107">Livello 2</span><span class="sxs-lookup"><span data-stu-id="7a2b5-107">Tier 2</span></span>| <span data-ttu-id="7a2b5-108">Certificazione Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="7a2b5-108">Microsoft 365 Certification</span></span>|
+|<span data-ttu-id="2d462-105">Livello 1</span><span class="sxs-lookup"><span data-stu-id="2d462-105">Tier 1</span></span>| <span data-ttu-id="2d462-106">Attestazione dell'autore</span><span class="sxs-lookup"><span data-stu-id="2d462-106">Publisher Attestation</span></span>|
+|<span data-ttu-id="2d462-107">Livello 2</span><span class="sxs-lookup"><span data-stu-id="2d462-107">Tier 2</span></span>| <span data-ttu-id="2d462-108">Certificazione Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="2d462-108">Microsoft 365 Certification</span></span>|
 
-## <a name="1-overview"></a><span data-ttu-id="7a2b5-109">1. Panoramica</span><span class="sxs-lookup"><span data-stu-id="7a2b5-109">1. Overview</span></span>
-<span data-ttu-id="7a2b5-110">Questo documento funge da guida utente dettagliata per i nostri partner, iscritti al programma di conformità delle app Microsoft 365 con l'obiettivo di sottoporsi Publisher attestazione e certificazione tramite il portale del Centro per i partner.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-110">This document acts as a step-by-step user guide for our Partners, enrolled for Microsoft 365 App Compliance Program aiming to undergo Publisher Attestation and Certification though Partner Center portal.</span></span>
+## <a name="1-overview"></a><span data-ttu-id="2d462-109">1. Panoramica</span><span class="sxs-lookup"><span data-stu-id="2d462-109">1. Overview</span></span>
+<span data-ttu-id="2d462-110">Questo documento funge da guida utente dettagliata per i nostri partner, iscritti al programma di conformità delle app Microsoft 365 con l'obiettivo di sottoporsi Publisher attestazione e certificazione tramite il portale del Centro per i partner.</span><span class="sxs-lookup"><span data-stu-id="2d462-110">This document acts as a step-by-step user guide for our Partners, enrolled for Microsoft 365 App Compliance Program aiming to undergo Publisher Attestation and Certification though Partner Center portal.</span></span>
 
-## <a name="2-acronyms--definitions"></a><span data-ttu-id="7a2b5-111">2. Acronimi & Definizioni</span><span class="sxs-lookup"><span data-stu-id="7a2b5-111">2. Acronyms & Definitions</span></span>
+## <a name="2-acronyms--definitions"></a><span data-ttu-id="2d462-111">2. Acronimi & Definizioni</span><span class="sxs-lookup"><span data-stu-id="2d462-111">2. Acronyms & Definitions</span></span>
 | | |
 |---|----|
-|<span data-ttu-id="7a2b5-112">Acronimi</span><span class="sxs-lookup"><span data-stu-id="7a2b5-112">Acronym</span></span> | <span data-ttu-id="7a2b5-113">Definizione</span><span class="sxs-lookup"><span data-stu-id="7a2b5-113">Definition</span></span> |
-|<span data-ttu-id="7a2b5-114">PC (Centro per i partner)</span><span class="sxs-lookup"><span data-stu-id="7a2b5-114">PC (Partner Center)</span></span>|<span data-ttu-id="7a2b5-115">Portale per tutti i partner Microsoft.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-115">A portal for all Microsoft Partners.</span></span> <span data-ttu-id="7a2b5-116">Un partner accede al Centro per i partner e invia Self-Assessment questionario https://partner.microsoft.com/</span><span class="sxs-lookup"><span data-stu-id="7a2b5-116">A Partner logs in to Partner Center and submits Self-Assessment Questionnaire https://partner.microsoft.com/</span></span>|
-|<span data-ttu-id="7a2b5-117">ISV</span><span class="sxs-lookup"><span data-stu-id="7a2b5-117">ISV</span></span>|<span data-ttu-id="7a2b5-118">Independent Software Vendor A.k.a.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-118">Independent Software Vendor A.k.a.</span></span> <span data-ttu-id="7a2b5-119">Partner o sviluppatore</span><span class="sxs-lookup"><span data-stu-id="7a2b5-119">Partner or Developer</span></span>|
-|<span data-ttu-id="7a2b5-120">Origine app</span><span class="sxs-lookup"><span data-stu-id="7a2b5-120">App Source</span></span>| <span data-ttu-id="7a2b5-121">Catalogo di app (https://appsource.microsoft.com/)</span><span class="sxs-lookup"><span data-stu-id="7a2b5-121">Catalog of apps (https://appsource.microsoft.com/)</span></span>
-||<span data-ttu-id="7a2b5-122">Esempio: agente virtuale (https://appsource.microsoft.com/en-us/product/office/WA104381816)</span><span class="sxs-lookup"><span data-stu-id="7a2b5-122">Example: Now virtual agent (https://appsource.microsoft.com/en-us/product/office/WA104381816)</span></span>|
+|<span data-ttu-id="2d462-112">Acronimi</span><span class="sxs-lookup"><span data-stu-id="2d462-112">Acronym</span></span> | <span data-ttu-id="2d462-113">Definizione</span><span class="sxs-lookup"><span data-stu-id="2d462-113">Definition</span></span> |
+|<span data-ttu-id="2d462-114">PC (Centro per i partner)</span><span class="sxs-lookup"><span data-stu-id="2d462-114">PC (Partner Center)</span></span>|<span data-ttu-id="2d462-115">Portale per tutti i partner Microsoft.</span><span class="sxs-lookup"><span data-stu-id="2d462-115">A portal for all Microsoft Partners.</span></span> <span data-ttu-id="2d462-116">Un partner accede al Centro per i partner e invia Self-Assessment questionario https://partner.microsoft.com/</span><span class="sxs-lookup"><span data-stu-id="2d462-116">A Partner logs in to Partner Center and submits Self-Assessment Questionnaire https://partner.microsoft.com/</span></span>|
+|<span data-ttu-id="2d462-117">ISV</span><span class="sxs-lookup"><span data-stu-id="2d462-117">ISV</span></span>|<span data-ttu-id="2d462-118">Independent Software Vendor A.k.a.</span><span class="sxs-lookup"><span data-stu-id="2d462-118">Independent Software Vendor A.k.a.</span></span> <span data-ttu-id="2d462-119">Partner o sviluppatore</span><span class="sxs-lookup"><span data-stu-id="2d462-119">Partner or Developer</span></span>|
+|<span data-ttu-id="2d462-120">Origine app</span><span class="sxs-lookup"><span data-stu-id="2d462-120">App Source</span></span>| <span data-ttu-id="2d462-121">Catalogo di app (https://appsource.microsoft.com/)</span><span class="sxs-lookup"><span data-stu-id="2d462-121">Catalog of apps (https://appsource.microsoft.com/)</span></span>
+||<span data-ttu-id="2d462-122">Esempio: agente virtuale (https://appsource.microsoft.com/en-us/product/office/WA104381816)</span><span class="sxs-lookup"><span data-stu-id="2d462-122">Example: Now virtual agent (https://appsource.microsoft.com/en-us/product/office/WA104381816)</span></span>|
 
-## <a name="3---publisher-attestation-workflow"></a><span data-ttu-id="7a2b5-123">3. Publisher flusso di lavoro di attestazione</span><span class="sxs-lookup"><span data-stu-id="7a2b5-123">3.   Publisher Attestation Workflow</span></span>
+## <a name="3---publisher-attestation-workflow"></a><span data-ttu-id="2d462-123">3. Publisher flusso di lavoro di attestazione</span><span class="sxs-lookup"><span data-stu-id="2d462-123">3.   Publisher Attestation Workflow</span></span>
 
-<span data-ttu-id="7a2b5-124">Home Page: questa è la pagina di destinazione quando un partner accede al Centro per i partner.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-124">Home Page: This is the landing page once a partner logs in to Partner Center.</span></span>
+<span data-ttu-id="2d462-124">Home Page: questa è la pagina di destinazione quando un partner accede al Centro per i partner.</span><span class="sxs-lookup"><span data-stu-id="2d462-124">Home Page: This is the landing page once a partner logs in to Partner Center.</span></span>
 
 ![Schermata iniziale del Centro per i partner](../media/Picture1.png)
 
-<span data-ttu-id="7a2b5-126">**Passaggio 1:**   nella barra di spostamento a sinistra della pagina:</span><span class="sxs-lookup"><span data-stu-id="7a2b5-126">**Step 1**   : On the left side of the page, in the navigation bar:</span></span>
-1. <span data-ttu-id="7a2b5-127">Selezionare Office store</span><span class="sxs-lookup"><span data-stu-id="7a2b5-127">Select Office store</span></span>
-1. <span data-ttu-id="7a2b5-128">Seleziona panoramica</span><span class="sxs-lookup"><span data-stu-id="7a2b5-128">Select Overview</span></span>
+<span data-ttu-id="2d462-126">**Passaggio 1:**   nella barra di spostamento a sinistra della pagina:</span><span class="sxs-lookup"><span data-stu-id="2d462-126">**Step 1**   : On the left side of the page, in the navigation bar:</span></span>
+1. <span data-ttu-id="2d462-127">Selezionare Office store</span><span class="sxs-lookup"><span data-stu-id="2d462-127">Select Office store</span></span>
+1. <span data-ttu-id="2d462-128">Seleziona panoramica</span><span class="sxs-lookup"><span data-stu-id="2d462-128">Select Overview</span></span>
 
 ![Office Lo Store è disponibile nel riquadro di spostamento a sinistra](../media/Picture2.png)
 
-<span data-ttu-id="7a2b5-130">Selezionando "Panoramica", il partner può visualizzare l'elenco delle app inviate tramite il Centro per i partner e disponibile per il programma Microsoft 365 conformità.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-130">Upon selecting ‘Overview’, partner can see list of apps submitted through Partner Center and available for the Microsoft 365 Compliance program.</span></span>
+<span data-ttu-id="2d462-130">Selezionando "Panoramica", il partner può visualizzare l'elenco delle app inviate tramite il Centro per i partner e disponibile per il programma Microsoft 365 conformità.</span><span class="sxs-lookup"><span data-stu-id="2d462-130">Upon selecting ‘Overview’, partner can see list of apps submitted through Partner Center and available for the Microsoft 365 Compliance program.</span></span>
 
-<span data-ttu-id="7a2b5-131">**Passaggio 2:** selezionare un'app dall'elenco per iniziare Publisher processo di attestazione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-131">**Step 2** : Select an app from the list to begin the Publisher Attestation process.</span></span>
+<span data-ttu-id="2d462-131">**Passaggio 2:** selezionare un'app dall'elenco per iniziare Publisher processo di attestazione.</span><span class="sxs-lookup"><span data-stu-id="2d462-131">**Step 2** : Select an app from the list to begin the Publisher Attestation process.</span></span>
 
 ![Selezionare l'applicazione che si desidera attestare](../media/Picture3.png)
 
-<span data-ttu-id="7a2b5-133">Quando selezioni un'app, verrà visualizzata un'altra barra di spostamento con l'opzione "Conformità app"</span><span class="sxs-lookup"><span data-stu-id="7a2b5-133">On selecting an app, another navigation bar will pop up with option ‘App Compliance’</span></span>
+<span data-ttu-id="2d462-133">Quando selezioni un'app, verrà visualizzata un'altra barra di spostamento con l'opzione "Conformità app"</span><span class="sxs-lookup"><span data-stu-id="2d462-133">On selecting an app, another navigation bar will pop up with option ‘App Compliance’</span></span>
 
-<span data-ttu-id="7a2b5-134">**Passaggio 3:** selezionare "Conformità app"</span><span class="sxs-lookup"><span data-stu-id="7a2b5-134">**Step 3**: Select ‘App Compliance’</span></span>
+<span data-ttu-id="2d462-134">**Passaggio 3:** selezionare "Conformità app"</span><span class="sxs-lookup"><span data-stu-id="2d462-134">**Step 3**: Select ‘App Compliance’</span></span>
 
 ![Selezionare Conformità app](../media/App%20compliance%20step%203.png)
 
-<span data-ttu-id="7a2b5-136">**Passaggio 4:** compilare il Self-Assessment questionario per Publisher attestazione</span><span class="sxs-lookup"><span data-stu-id="7a2b5-136">**Step 4**: Fill out the Self-Assessment Questionnaire for Publisher Attestation</span></span>
+<span data-ttu-id="2d462-136">**Passaggio 4:** compilare il Self-Assessment questionario per Publisher attestazione</span><span class="sxs-lookup"><span data-stu-id="2d462-136">**Step 4**: Fill out the Self-Assessment Questionnaire for Publisher Attestation</span></span>
 
 ![Importazione/Esportazione](../media/step4-new%20add.PNG)
 
 ![importazione/esportazione](../media/NewFeature%20impExp.PNG)
 
-<span data-ttu-id="7a2b5-139">**Nota:** se vuoi aggiornare/inviare di nuovo l'applicazione, fai clic sull'elenco a discesa per "Scegli il prodotto", seleziona l'app e fai clic su "clona".</span><span class="sxs-lookup"><span data-stu-id="7a2b5-139">**Note**:If you are coming back to update/re-submit your application, click dropdown for ‘Choose the product’, select the app and click ‘clone’.</span></span>
+<span data-ttu-id="2d462-139">**Nota:** se vuoi aggiornare/inviare di nuovo l'applicazione, fai clic sull'elenco a discesa per "Scegli il prodotto", seleziona l'app e fai clic su "clona".</span><span class="sxs-lookup"><span data-stu-id="2d462-139">**Note**:If you are coming back to update/re-submit your application, click dropdown for ‘Choose the product’, select the app and click ‘clone’.</span></span>
 
-<span data-ttu-id="7a2b5-140">![CLone ](../media/clone.PNG)
- ![ Clone2](../media/clone2.PNG)</span><span class="sxs-lookup"><span data-stu-id="7a2b5-140">![CLone](../media/clone.PNG)
+<span data-ttu-id="2d462-140">![CLone ](../media/clone.PNG)
+ ![ Clone2](../media/clone2.PNG)</span><span class="sxs-lookup"><span data-stu-id="2d462-140">![CLone](../media/clone.PNG)
 ![Clone2](../media/clone2.PNG)</span></span>
 
-<span data-ttu-id="7a2b5-141">È inoltre possibile utilizzare la funzionalità Importazione/Esportazione per completare il modulo offline e importarlo una volta completato.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-141">You can also leverage the Import/Export feature to complete the form offline and import it once completed.</span></span> 
+<span data-ttu-id="2d462-141">È inoltre possibile utilizzare la funzionalità Importazione/Esportazione per completare il modulo offline e importarlo una volta completato.</span><span class="sxs-lookup"><span data-stu-id="2d462-141">You can also leverage the Import/Export feature to complete the form offline and import it once completed.</span></span> 
 
-<span data-ttu-id="7a2b5-142">**Passaggio 5:** una volta completato, fare clic su "Invia", la valutazione sarà ora "in fase di revisione".</span><span class="sxs-lookup"><span data-stu-id="7a2b5-142">**Step 5**: Once completed, click on ‘Submit’, the assessment will now be ‘under review’.</span></span>
+<span data-ttu-id="2d462-142">**Passaggio 5:** una volta completato, fare clic su "Invia", la valutazione sarà ora "in fase di revisione".</span><span class="sxs-lookup"><span data-stu-id="2d462-142">**Step 5**: Once completed, click on ‘Submit’, the assessment will now be ‘under review’.</span></span>
 
 ![Fare clic su Sumbit](../media/Picture8.png)
 
 ![Revisione in corso](../media/Picture9.png)
 
-### <a name="approvereject-scenarios"></a><span data-ttu-id="7a2b5-145">Approva/Rifiuta scenari:</span><span class="sxs-lookup"><span data-stu-id="7a2b5-145">Approve/Reject Scenarios:</span></span>
+### <a name="approvereject-scenarios"></a><span data-ttu-id="2d462-145">Approva/Rifiuta scenari:</span><span class="sxs-lookup"><span data-stu-id="2d462-145">Approve/Reject Scenarios:</span></span>
 
-<span data-ttu-id="7a2b5-146">**A.Publisher Rifiuto attestazione**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-146">**A.Publisher Attestation Rejection**</span></span>
+<span data-ttu-id="2d462-146">**A.Publisher Rifiuto attestazione**</span><span class="sxs-lookup"><span data-stu-id="2d462-146">**A.Publisher Attestation Rejection**</span></span>
 
-<span data-ttu-id="7a2b5-147">In caso di rifiuto in questa fase, un partner può:</span><span class="sxs-lookup"><span data-stu-id="7a2b5-147">In case of rejection at this stage, an partner can:</span></span>
--   <span data-ttu-id="7a2b5-148">Visualizzare il rapporto errori.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-148">View failure report.</span></span>
-    - <span data-ttu-id="7a2b5-149">Il partner riceverà una notifica nel Centro per i partner e tramite posta elettronica.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-149">Partner will be notified in Partner Center and via email.</span></span>
--   <span data-ttu-id="7a2b5-150">Aggiornare Self-Assessment risposte.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-150">Update Self-Assessment responses.</span></span>
--   <span data-ttu-id="7a2b5-151">Inviare di nuovo l'autovalutazione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-151">Re-submit Self-Assessment.</span></span>
+<span data-ttu-id="2d462-147">In caso di rifiuto in questa fase, un partner può:</span><span class="sxs-lookup"><span data-stu-id="2d462-147">In case of rejection at this stage, an partner can:</span></span>
+-   <span data-ttu-id="2d462-148">Visualizzare il rapporto errori.</span><span class="sxs-lookup"><span data-stu-id="2d462-148">View failure report.</span></span>
+    - <span data-ttu-id="2d462-149">Il partner riceverà una notifica nel Centro per i partner e tramite posta elettronica.</span><span class="sxs-lookup"><span data-stu-id="2d462-149">Partner will be notified in Partner Center and via email.</span></span>
+-   <span data-ttu-id="2d462-150">Aggiornare Self-Assessment risposte.</span><span class="sxs-lookup"><span data-stu-id="2d462-150">Update Self-Assessment responses.</span></span>
+-   <span data-ttu-id="2d462-151">Inviare di nuovo l'autovalutazione.</span><span class="sxs-lookup"><span data-stu-id="2d462-151">Re-submit Self-Assessment.</span></span>
 
 ![Aggiornare e inviare di nuovo la valutazione](../media/Picture10.png)
 
-<span data-ttu-id="7a2b5-153">**B.Publisher nuovo invio attestazione**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-153">**B.Publisher Attestation Re-submission**</span></span>
+<span data-ttu-id="2d462-153">**B.Publisher nuovo invio attestazione**</span><span class="sxs-lookup"><span data-stu-id="2d462-153">**B.Publisher Attestation Re-submission**</span></span>
 
 ![Reinvio in corso di revisione](../media/PA%20resubmission.png)
 
-<span data-ttu-id="7a2b5-155">**Approvazione attestazione C.Publisher**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-155">**C.Publisher Attestation Approval**</span></span>
+<span data-ttu-id="2d462-155">**Approvazione attestazione C.Publisher**</span><span class="sxs-lookup"><span data-stu-id="2d462-155">**C.Publisher Attestation Approval**</span></span>
 
--   <span data-ttu-id="7a2b5-156">Al momento dell'approvazione, il partner può:</span><span class="sxs-lookup"><span data-stu-id="7a2b5-156">Upon approval partner can:</span></span>
-    - <span data-ttu-id="7a2b5-157">Aggiornare e inviare di nuovo l'attestazione</span><span class="sxs-lookup"><span data-stu-id="7a2b5-157">Update and resubmit attestation</span></span>
-    - <span data-ttu-id="7a2b5-158">Visualizzare e condividere l'attestazione Publisher completata</span><span class="sxs-lookup"><span data-stu-id="7a2b5-158">View and share completed Publisher Attestation</span></span>
-    - <span data-ttu-id="7a2b5-159">Avviare il processo di certificazione M365</span><span class="sxs-lookup"><span data-stu-id="7a2b5-159">Start M365 Certification Process</span></span>
+-   <span data-ttu-id="2d462-156">Al momento dell'approvazione, il partner può:</span><span class="sxs-lookup"><span data-stu-id="2d462-156">Upon approval partner can:</span></span>
+    - <span data-ttu-id="2d462-157">Aggiornare e inviare di nuovo l'attestazione</span><span class="sxs-lookup"><span data-stu-id="2d462-157">Update and resubmit attestation</span></span>
+    - <span data-ttu-id="2d462-158">Visualizzare e condividere l'attestazione Publisher completata</span><span class="sxs-lookup"><span data-stu-id="2d462-158">View and share completed Publisher Attestation</span></span>
+    - <span data-ttu-id="2d462-159">Avviare il processo di certificazione M365</span><span class="sxs-lookup"><span data-stu-id="2d462-159">Start M365 Certification Process</span></span>
 
 ![Aggiornare e inviare di nuovo](../media/AttestApproval.PNG)
 
-![<span data-ttu-id="7a2b5-161">Visualizzazione dell'attestazione completata</span><span class="sxs-lookup"><span data-stu-id="7a2b5-161">View completed attestation</span></span> ](../media/PA%20approval%202.png)
+![<span data-ttu-id="2d462-161">Visualizzazione dell'attestazione completata</span><span class="sxs-lookup"><span data-stu-id="2d462-161">View completed attestation</span></span> ](../media/PA%20approval%202.png)
 
 ![Iniziare la certificazione app M365](../media/PA%20approval%203.png)
 
-<span data-ttu-id="7a2b5-163">**Post Publisher Verifica approvazione: esempio di collegamento in AppSource per le app attestate dall'autore**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-163">**Post Publisher Verification Approval: Example of link in AppSource for publisher attested apps**</span></span>
+<span data-ttu-id="2d462-163">**Post Publisher Verifica approvazione: esempio di collegamento in AppSource per le app attestate dall'autore**</span><span class="sxs-lookup"><span data-stu-id="2d462-163">**Post Publisher Verification Approval: Example of link in AppSource for publisher attested apps**</span></span>
 
 ![Esempio di attestazione completata](../media/Example%20to%20attested%20apps.png)
 
-## <a name="4-microsoft-365-certification-workflow"></a><span data-ttu-id="7a2b5-165">4. Flusso di lavoro Microsoft 365 certificazione</span><span class="sxs-lookup"><span data-stu-id="7a2b5-165">4. Microsoft 365 Certification Workflow</span></span>
+## <a name="4-microsoft-365-certification-workflow"></a><span data-ttu-id="2d462-165">4. Flusso di lavoro Microsoft 365 certificazione</span><span class="sxs-lookup"><span data-stu-id="2d462-165">4. Microsoft 365 Certification Workflow</span></span>
 
-<span data-ttu-id="7a2b5-166">Una volta che il partner fa clic su "Invia" e invia tutti i documenti e le prove per la revisione:</span><span class="sxs-lookup"><span data-stu-id="7a2b5-166">Once partner clicks on ‘Submit’ and submits all documents and evidence for review:</span></span> 
+<span data-ttu-id="2d462-166">Una volta che il partner fa clic su "Invia" e invia tutti i documenti e le prove per la revisione:</span><span class="sxs-lookup"><span data-stu-id="2d462-166">Once partner clicks on ‘Submit’ and submits all documents and evidence for review:</span></span> 
 
-### <a name="microsoft-365-certification---submitted"></a><span data-ttu-id="7a2b5-167">Microsoft 365 Certificazione - Inviata</span><span class="sxs-lookup"><span data-stu-id="7a2b5-167">Microsoft 365 Certification - Submitted</span></span>
+### <a name="microsoft-365-certification---submitted"></a><span data-ttu-id="2d462-167">Microsoft 365 Certificazione - Inviata</span><span class="sxs-lookup"><span data-stu-id="2d462-167">Microsoft 365 Certification - Submitted</span></span>
 
 ![Certificazione avviata](../media/certification%201.png)
 
-<span data-ttu-id="7a2b5-169">**Microsoft 365 - Rifiutata**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-169">**Microsoft 365 certification - Rejected**</span></span>
+<span data-ttu-id="2d462-169">**Microsoft 365 - Rifiutata**</span><span class="sxs-lookup"><span data-stu-id="2d462-169">**Microsoft 365 certification - Rejected**</span></span>
 
 ![Certificazione rifiutata](../media/certification%20rejected.png)
 
-<span data-ttu-id="7a2b5-171">**Microsoft 365 Certificazione - Approvata**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-171">**Microsoft 365 Certification - Approved**</span></span>
+<span data-ttu-id="2d462-171">**Microsoft 365 Certificazione - Approvata**</span><span class="sxs-lookup"><span data-stu-id="2d462-171">**Microsoft 365 Certification - Approved**</span></span>
 
 ![Certificazione approvata](../media/certification%20approved.png)
 
-<span data-ttu-id="7a2b5-173">**Approvazione post-certificazione: esempio di Microsoft 365 badge di certificazione in AppSource**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-173">**Post Certification Approval: Example of Microsoft 365 certification badge in AppSource**</span></span>
+<span data-ttu-id="2d462-173">**Approvazione post-certificazione: esempio di Microsoft 365 badge di certificazione in AppSource**</span><span class="sxs-lookup"><span data-stu-id="2d462-173">**Post Certification Approval: Example of Microsoft 365 certification badge in AppSource**</span></span>
 
 ![Esempio di badge di certificazione](../media/post%20certification%20badge.png)
 
-## <a name="5-workflow-for-existing-isvs"></a><span data-ttu-id="7a2b5-175">5. Flusso di lavoro per ISV esistenti</span><span class="sxs-lookup"><span data-stu-id="7a2b5-175">5. Workflow for Existing ISVs</span></span>
+## <a name="5-workflow-for-existing-isvs"></a><span data-ttu-id="2d462-175">5. Flusso di lavoro per ISV esistenti</span><span class="sxs-lookup"><span data-stu-id="2d462-175">5. Workflow for Existing ISVs</span></span>
 
-<span data-ttu-id="7a2b5-176">Se si è un ISV esistente e si desidera aggiornare Publisher attestazione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-176">If you are an existing ISV and want to Update Publisher Attestation.</span></span>
+<span data-ttu-id="2d462-176">Se si è un ISV esistente e si desidera aggiornare Publisher attestazione.</span><span class="sxs-lookup"><span data-stu-id="2d462-176">If you are an existing ISV and want to Update Publisher Attestation.</span></span>
 
-<span data-ttu-id="7a2b5-177">**Passaggio 1:** fai clic sul collegamento "Aggiorna e invia di nuovo Publisher attestazione".</span><span class="sxs-lookup"><span data-stu-id="7a2b5-177">**Step 1**: Click on ‘Update and re-submit your Publisher Attestation’ link.</span></span>
+<span data-ttu-id="2d462-177">**Passaggio 1:** fai clic sul collegamento "Aggiorna e invia di nuovo Publisher attestazione".</span><span class="sxs-lookup"><span data-stu-id="2d462-177">**Step 1**: Click on ‘Update and re-submit your Publisher Attestation’ link.</span></span>
 
-![<span data-ttu-id="7a2b5-178">Aggiornamento Publisher attestazione</span><span class="sxs-lookup"><span data-stu-id="7a2b5-178">Update Publisher Attestation</span></span> ](../media/existing%20isv%201.png)
+![<span data-ttu-id="2d462-178">Aggiornamento Publisher attestazione</span><span class="sxs-lookup"><span data-stu-id="2d462-178">Update Publisher Attestation</span></span> ](../media/existing%20isv%201.png)
 
-<span data-ttu-id="7a2b5-179">**Nota:** se si torna ad aggiornare/inviare di nuovo l'applicazione, fare clic sull'elenco a discesa per "Scegli il prodotto", selezionare l'app e fare clic su "Importa".</span><span class="sxs-lookup"><span data-stu-id="7a2b5-179">**Note:**: If you are coming back to update/re-submit your application, click dropdown for ‘Choose the product’, select the app and click ‘Import’.</span></span>
+<span data-ttu-id="2d462-179">**Nota:** se si torna ad aggiornare/inviare di nuovo l'applicazione, fare clic sull'elenco a discesa per "Scegli il prodotto", selezionare l'app e fare clic su "Importa".</span><span class="sxs-lookup"><span data-stu-id="2d462-179">**Note:**: If you are coming back to update/re-submit your application, click dropdown for ‘Choose the product’, select the app and click ‘Import’.</span></span>
 
 ![Importazione dell'attestazione per un'integrazione diversa](../media/M365%20App%20compliance.png)
 
 ![Fare clic su Importa](../media/M365%20App%20compliance1.png)
 
-<span data-ttu-id="7a2b5-182">**Passaggio 2:** apportare aggiornamenti al modulo e fare clic su Salva/Invia.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-182">**Step 2**: Make updates to your form and click Save/Submit.</span></span>
+<span data-ttu-id="2d462-182">**Passaggio 2:** apportare aggiornamenti al modulo e fare clic su Salva/Invia.</span><span class="sxs-lookup"><span data-stu-id="2d462-182">**Step 2**: Make updates to your form and click Save/Submit.</span></span>
 
 ![Fare clic su Salva o Invia](../media/existing%20isv%202.png)
 
-<span data-ttu-id="7a2b5-184">Una volta inviato, sarà in fase di revisione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-184">Once submitted, it will be under review.</span></span>
+<span data-ttu-id="2d462-184">Una volta inviato, sarà in fase di revisione.</span><span class="sxs-lookup"><span data-stu-id="2d462-184">Once submitted, it will be under review.</span></span>
 
 ![Attestazione in fase di revisione](../media/existing%20isv%203.png)
 
-## <a name="6---microsoft-365-re-certification-workflow"></a><span data-ttu-id="7a2b5-186">6. Microsoft 365 Re-Certification flusso di lavoro:</span><span class="sxs-lookup"><span data-stu-id="7a2b5-186">6.   Microsoft 365 Re-Certification Workflow:</span></span>
+## <a name="6---microsoft-365-publisher-attestation-and-certification-renewal-workflow"></a><span data-ttu-id="2d462-186">6. Microsoft 365 Publisher flusso di lavoro di attestazione e rinnovo della certificazione:</span><span class="sxs-lookup"><span data-stu-id="2d462-186">6.   Microsoft 365 Publisher Attestation and Certification Renewal Workflow:</span></span>
 
-<span data-ttu-id="7a2b5-187">**Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione:**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-187">**Microsoft 365 Publisher Attestation and Certification Renewal Workflow:**</span></span> 
+<span data-ttu-id="2d462-187">Microsoft 365 Il programma di conformità delle app ora offre un processo di rinnovo annuale.</span><span class="sxs-lookup"><span data-stu-id="2d462-187">Microsoft 365 App Compliance Program now offers an annual renewal process.</span></span> <span data-ttu-id="2d462-188">Durante questo processo, gli sviluppatori di app possono aggiornare il questionario Publisher attestazione e i documenti necessari per la Microsoft 365 certificazione.</span><span class="sxs-lookup"><span data-stu-id="2d462-188">During this process, app developers can update their existing Publisher Attestation questionnaire and documents required for Microsoft 365 Certification.</span></span> 
 
-<span data-ttu-id="7a2b5-188">Microsoft 365 Il programma di conformità delle app ora offre un processo di rinnovo annuale.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-188">Microsoft 365 App Compliance Program now offers an annual renewal process.</span></span> <span data-ttu-id="7a2b5-189">Durante questo processo, gli sviluppatori di app possono aggiornare il questionario Publisher attestazione e i documenti necessari per la Microsoft 365 certificazione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-189">During this process, app developers can update their existing Publisher Attestation questionnaire and documents required for Microsoft 365 Certification.</span></span> 
+<span data-ttu-id="2d462-189">**Vantaggi:**</span><span class="sxs-lookup"><span data-stu-id="2d462-189">**Benefits:**</span></span>
 
-<span data-ttu-id="7a2b5-190">**Vantaggi:**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-190">**Benefits:**</span></span>
+- <span data-ttu-id="2d462-190">Mantieni il badge di certificazione in AppSource e Team Store per differenziare la tua app dagli altri.</span><span class="sxs-lookup"><span data-stu-id="2d462-190">Maintain your certification badge in AppSource and Team Store to differentiate your app from others.</span></span> 
+- <span data-ttu-id="2d462-191">Aumentare la fiducia dei clienti nell'uso dell'app certificata.</span><span class="sxs-lookup"><span data-stu-id="2d462-191">Increase customer confidence in using your certified app.</span></span> 
+- <span data-ttu-id="2d462-192">Aiutare gli amministratori IT a prendere decisioni informate con informazioni aggiornate sulla certificazione.</span><span class="sxs-lookup"><span data-stu-id="2d462-192">Help IT admins make informed decisions with updated certification information.</span></span> 
 
-- <span data-ttu-id="7a2b5-191">Mantieni il badge di certificazione in AppSource per differenziare la tua app dagli altri.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-191">Maintain your certification badge in AppSource to differentiate your app from others.</span></span> 
-- <span data-ttu-id="7a2b5-192">Aumentare la fiducia dei clienti nell'uso dell'app certificata.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-192">Increase customer confidence in using your certified app.</span></span> 
-- <span data-ttu-id="7a2b5-193">Aiutare gli amministratori IT a prendere decisioni informate con informazioni aggiornate sulla certificazione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-193">Help IT admins make informed decisions with updated certification information.</span></span> 
+<span data-ttu-id="2d462-193">Il nuovo processo di rinnovo è disponibile nel [Centro per i partner](https://partner.microsoft.com/en-us/dashboard/home) per offrire un'esperienza senza problemi.</span><span class="sxs-lookup"><span data-stu-id="2d462-193">The new renewal process is available in [Partner Center](https://partner.microsoft.com/en-us/dashboard/home) to provide a seamless experience.</span></span> <span data-ttu-id="2d462-194">Un promemoria di rinnovo verrà visualizzato nel Centro per i partner a partire da 90 giorni prima della data di scadenza.</span><span class="sxs-lookup"><span data-stu-id="2d462-194">A renewal reminder will be shown in Partner Center starting 90 days before the expiration date.</span></span> <span data-ttu-id="2d462-195">I promemoria periodici verranno inviati anche tramite posta elettronica a 90, 60 e 30 giorni prima della scadenza.</span><span class="sxs-lookup"><span data-stu-id="2d462-195">Periodic reminders will also be sent via email at 90, 60 and 30 days before expiration.</span></span>
 
-<span data-ttu-id="7a2b5-194">**Livello 1: rinnovo Publisher attestazione:**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-194">**Tier 1: Publisher Attestation Renewal:**</span></span> 
+<span data-ttu-id="2d462-196">**Livello 1: rinnovo Publisher attestazione:**</span><span class="sxs-lookup"><span data-stu-id="2d462-196">**Tier 1: Publisher Attestation Renewal:**</span></span> 
 
-<span data-ttu-id="7a2b5-195">Le risposte dell'Publisher'attestazione dell'app dovranno essere reinviato su base annuale.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-195">The app’s Publisher Attestation answers will need to be resubmitted on an annual basis.</span></span> <span data-ttu-id="7a2b5-196">Quando l'attestazione si avvicina al contrassegno di 1 anno, verrà inviato un promemoria tramite posta elettronica che incoraggia il reinvio dell'attestazione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-196">When the attestation nears 1-year mark, an email reminder will be sent encouraging a resubmission of the attestation.</span></span> 
+<span data-ttu-id="2d462-197">Le risposte dell'Publisher'attestazione dell'app dovranno essere reinviato su base annuale.</span><span class="sxs-lookup"><span data-stu-id="2d462-197">The app’s Publisher Attestation answers will need to be resubmitted on an annual basis.</span></span> <span data-ttu-id="2d462-198">Quando l'attestazione si avvicina al contrassegno di 1 anno, verrà inviato un promemoria tramite posta elettronica che incoraggia il reinvio dell'attestazione.</span><span class="sxs-lookup"><span data-stu-id="2d462-198">When the attestation nears 1-year mark, an email reminder will be sent encouraging a resubmission of the attestation.</span></span> 
 
-<span data-ttu-id="7a2b5-197">**Passaggio 1:** selezionare **Rinnova** per rinnovare l Publisher attestazione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-197">**Step 1**: Select **Renew** to renew the Publisher Attestation.</span></span> 
+<span data-ttu-id="2d462-199">**Passaggio 1:** selezionare **Rinnova** per rinnovare l Publisher attestazione.</span><span class="sxs-lookup"><span data-stu-id="2d462-199">**Step 1**: Select **Renew** to renew the Publisher Attestation.</span></span> 
 
 ![Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione ](../media/1.PNG)
 
-<span data-ttu-id="7a2b5-199">**Passaggio 2:** esaminare le risposte Publisher attestazione e aggiornare con le informazioni più recenti in base alle esigenze.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-199">**Step 2**: Review the previous Publisher Attestation answers and update with the latest information as needed.</span></span> <span data-ttu-id="7a2b5-200">Inviare Publisher'attestazione per il rinnovo quando è pronto.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-200">Submit Publisher Attestation for renewal when ready.</span></span> <span data-ttu-id="7a2b5-201">Verrà esaminato da un analista di conformità delle app M365.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-201">It will be reviewed by an M365 App Compliance Analyst.</span></span>
+<span data-ttu-id="2d462-201">**Passaggio 2:** esaminare le risposte Publisher attestazione e aggiornare con le informazioni più recenti in base alle esigenze.</span><span class="sxs-lookup"><span data-stu-id="2d462-201">**Step 2**: Review the previous Publisher Attestation answers and update with the latest information as needed.</span></span> <span data-ttu-id="2d462-202">Inviare Publisher'attestazione per il rinnovo quando è pronto.</span><span class="sxs-lookup"><span data-stu-id="2d462-202">Submit Publisher Attestation for renewal when ready.</span></span> <span data-ttu-id="2d462-203">Verrà esaminato da un analista di conformità delle app M365.</span><span class="sxs-lookup"><span data-stu-id="2d462-203">It will be reviewed by an M365 App Compliance Analyst.</span></span>
 
 ![Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione ](../media/2.PNG)
 
-<span data-ttu-id="7a2b5-203">**Publisher attestazione scaduta:** Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina dell'attestazione Publisher'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource e Nello Store del team.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-203">**Publisher Attestation Expired:** The app’s information needs to be renewed before the expiration date to maintain the app’s Publisher Attestation page on the Microsoft docs. Timely renewal will also ensure continued badging and icons for the app in AppSource and Team Store.</span></span>
+<span data-ttu-id="2d462-205">**Publisher attestazione scaduta:** Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina dell'attestazione Publisher'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource e Nello Store del team.</span><span class="sxs-lookup"><span data-stu-id="2d462-205">**Publisher Attestation Expired:** The app’s information needs to be renewed before the expiration date to maintain the app’s Publisher Attestation page on the Microsoft docs. Timely renewal will also ensure continued badging and icons for the app in AppSource and Team Store.</span></span>
 
 ![Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione ](../media/3.PNG)
 
-<span data-ttu-id="7a2b5-205">Nota: una volta scaduto, Publisher processo di rinnovo dell'attestazione può essere avviato in qualsiasi momento facendo clic su "Rinnova".</span><span class="sxs-lookup"><span data-stu-id="7a2b5-205">Note: Once expired, Publisher Attestation renewal process can be started anytime by clicking ‘Renew’.</span></span> 
+<span data-ttu-id="2d462-207">Nota: una volta scaduto, Publisher processo di rinnovo dell'attestazione può essere avviato in qualsiasi momento facendo clic su "Rinnova".</span><span class="sxs-lookup"><span data-stu-id="2d462-207">Note: Once expired, Publisher Attestation renewal process can be started anytime by clicking ‘Renew’.</span></span> 
 
-<span data-ttu-id="7a2b5-206">**Livello 2: rinnovo Microsoft 365 certificazione**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-206">**Tier 2: Microsoft 365 Certification Renewal**</span></span> 
+<span data-ttu-id="2d462-208">**Livello 2: rinnovo Microsoft 365 certificazione**</span><span class="sxs-lookup"><span data-stu-id="2d462-208">**Tier 2: Microsoft 365 Certification Renewal**</span></span> 
 
-<span data-ttu-id="7a2b5-207">Le informazioni sulla certificazione dell'app devono essere reinvii su base annuale.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-207">The app’s certification information needs to be resubmitted on an annual basis.</span></span> <span data-ttu-id="7a2b5-208">Ciò richiederà la riconvalida dei controlli nell'ambito dell'ambiente corrente.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-208">This will require revalidation of the in-scope controls of your current environment.</span></span> <span data-ttu-id="7a2b5-209">Quando la certificazione si avvicina a 1 anno, verrà inviata una notifica tramite posta elettronica che incoraggia il reinvio dei documenti e delle prove.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-209">When the Certification nears 1-year mark an email notification will be sent encouraging a resubmission of the documents and evidence.</span></span> 
+<span data-ttu-id="2d462-209">Le informazioni sulla certificazione dell'app devono essere reinvii su base annuale.</span><span class="sxs-lookup"><span data-stu-id="2d462-209">The app’s certification information needs to be resubmitted on an annual basis.</span></span> <span data-ttu-id="2d462-210">Ciò richiederà la riconvalida dei controlli nell'ambito dell'ambiente corrente.</span><span class="sxs-lookup"><span data-stu-id="2d462-210">This will require revalidation of the in-scope controls of your current environment.</span></span> <span data-ttu-id="2d462-211">Quando la certificazione si avvicina a 1 anno, verrà inviata una notifica tramite posta elettronica che incoraggia il reinvio dei documenti e delle prove.</span><span class="sxs-lookup"><span data-stu-id="2d462-211">When the Certification nears 1-year mark an email notification will be sent encouraging a resubmission of the documents and evidence.</span></span> 
 
-<span data-ttu-id="7a2b5-210">**Scenari di approvazione/rifiuto per il rinnovo della certificazione:**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-210">**Certification Renewal Approve/Reject Scenarios:**</span></span>
+<span data-ttu-id="2d462-212">**Scenari di approvazione/rifiuto per il rinnovo della certificazione:**</span><span class="sxs-lookup"><span data-stu-id="2d462-212">**Certification Renewal Approve/Reject Scenarios:**</span></span>
 
-<span data-ttu-id="7a2b5-211">**Scenario 1:**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-211">**Scenario 1:**</span></span> 
+<span data-ttu-id="2d462-213">**Scenario 1:**</span><span class="sxs-lookup"><span data-stu-id="2d462-213">**Scenario 1:**</span></span> 
 
-<span data-ttu-id="7a2b5-212">Publisher Attestazione completata.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-212">Publisher Attestation  is complete.</span></span> <span data-ttu-id="7a2b5-213">Il rinnovo della certificazione è stato avviato e in fase di revisione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-213">Certification renewal has started and under review.</span></span> 
+<span data-ttu-id="2d462-214">Publisher Attestazione completata.</span><span class="sxs-lookup"><span data-stu-id="2d462-214">Publisher Attestation  is complete.</span></span> <span data-ttu-id="2d462-215">Il rinnovo della certificazione è stato avviato e in fase di revisione.</span><span class="sxs-lookup"><span data-stu-id="2d462-215">Certification renewal has started and under review.</span></span> 
 
 ![Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione ](../media/4.PNG)
 
-<span data-ttu-id="7a2b5-215">**Scenario 1A:**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-215">**Scenario 1A:**</span></span>
+<span data-ttu-id="2d462-217">**Scenario 1A:**</span><span class="sxs-lookup"><span data-stu-id="2d462-217">**Scenario 1A:**</span></span>
 
-<span data-ttu-id="7a2b5-216">Rifiuto del rinnovo della certificazione: la certificazione può essere rifiutata se:</span><span class="sxs-lookup"><span data-stu-id="7a2b5-216">Certification renewal rejection: Certification may be rejected if:</span></span> 
+<span data-ttu-id="2d462-218">Rifiuto del rinnovo della certificazione: la certificazione può essere rifiutata se:</span><span class="sxs-lookup"><span data-stu-id="2d462-218">Certification renewal rejection: Certification may be rejected if:</span></span> 
 
- - <span data-ttu-id="7a2b5-217">L'app non dispone degli strumenti, dei processi o delle configurazioni necessari e non sarà in grado di implementare le modifiche necessarie all'interno della finestra di certificazione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-217">The app does not have the required tooling, processes, or configurations in place and will not be able to implement required changes within the certification window.</span></span> 
- - <span data-ttu-id="7a2b5-218">L'app presenta vulnerabilità in sospeso e non può essere corretta all'interno della finestra di certificazione.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-218">The app has outstanding vulnerabilities in place and cannot be fixed within the certification window.</span></span> 
+ - <span data-ttu-id="2d462-219">L'app non dispone degli strumenti, dei processi o delle configurazioni necessari e non sarà in grado di implementare le modifiche necessarie all'interno della finestra di certificazione.</span><span class="sxs-lookup"><span data-stu-id="2d462-219">The app does not have the required tooling, processes, or configurations in place and will not be able to implement required changes within the certification window.</span></span> 
+ - <span data-ttu-id="2d462-220">L'app presenta vulnerabilità in sospeso e non può essere corretta all'interno della finestra di certificazione.</span><span class="sxs-lookup"><span data-stu-id="2d462-220">The app has outstanding vulnerabilities in place and cannot be fixed within the certification window.</span></span> 
 
 ![Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione ](../media/5.PNG)
     
-<span data-ttu-id="7a2b5-220">**Scenario 1B:**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-220">**Scenario 1B:**</span></span> 
+<span data-ttu-id="2d462-222">**Scenario 1B:**</span><span class="sxs-lookup"><span data-stu-id="2d462-222">**Scenario 1B:**</span></span> 
 
-<span data-ttu-id="7a2b5-221">Il rinnovo della certificazione è approvato</span><span class="sxs-lookup"><span data-stu-id="7a2b5-221">Certification renewal is approved</span></span>  
+<span data-ttu-id="2d462-223">Il rinnovo della certificazione è approvato</span><span class="sxs-lookup"><span data-stu-id="2d462-223">Certification renewal is approved</span></span>  
 
 ![Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione ](../media/6.PNG)
 
-<span data-ttu-id="7a2b5-223">**Scadenza certificazione:**</span><span class="sxs-lookup"><span data-stu-id="7a2b5-223">**Certification Expiration:**</span></span>
+<span data-ttu-id="2d462-225">**Scadenza certificazione:**</span><span class="sxs-lookup"><span data-stu-id="2d462-225">**Certification Expiration:**</span></span>
 
-<span data-ttu-id="7a2b5-224">Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina Certificazione dell'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource e Nello Store del team.</span><span class="sxs-lookup"><span data-stu-id="7a2b5-224">The app’s information needs to be renewed before the expiration date to maintain app’s Certification page on the Microsoft docs. Timely renewal will also ensure continued badging and icons for the app in AppSource and Team Store.</span></span> 
+<span data-ttu-id="2d462-226">Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina Certificazione dell'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource e Nello Store del team.</span><span class="sxs-lookup"><span data-stu-id="2d462-226">The app’s information needs to be renewed before the expiration date to maintain app’s Certification page on the Microsoft docs. Timely renewal will also ensure continued badging and icons for the app in AppSource and Team Store.</span></span> 
 
 ![Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione ](../media/7.PNG)
     
-<span data-ttu-id="7a2b5-226">**Nota:** una volta scaduto, Publisher processo di attestazione e certificazione può essere avviato in qualsiasi momento facendo clic su "Rinnova".</span><span class="sxs-lookup"><span data-stu-id="7a2b5-226">**Note**: Once expired, Publisher Attestation and Certification process can be started anytime by clicking ‘Renew’.</span></span> 
+<span data-ttu-id="2d462-228">**Nota:** una volta scaduto, Publisher processo di attestazione e certificazione può essere avviato in qualsiasi momento facendo clic su "Rinnova".</span><span class="sxs-lookup"><span data-stu-id="2d462-228">**Note**: Once expired, Publisher Attestation and Certification process can be started anytime by clicking ‘Renew’.</span></span> 
 
 
 
