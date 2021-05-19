@@ -1,28 +1,28 @@
 ---
-title: Informazioni sull'applicazione per SurveySparrow per admin@surveysparrow.com
+title: Informazioni sull'applicazione per SurveySparrow di admin@surveysparrow.com
 ms.author: elmalova
 author: elenamalova
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per SurveySparrow, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni disponibili sulla sicurezza e la conformità per SurveySparrow, i relativi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 85c350a57c265085c44db85d163b265089b8a89c
-ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
+ms.openlocfilehash: ecf3c017f507dc0198042d45c11a393c1f1a2e8b
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52258763"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552437"
 ---
 # <a name="surveysparrow"></a>SurveySparrow
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: April 19, 2021</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 19 aprile 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/1b923c85-b04c-43d4-b2c2-0fdc0f598658" target="_blank">Visualizzazione in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002257" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/1b923c85-b04c-43d4-b2c2-0fdc0f598658" target="_blank">Visualizza nel Teams negozio</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002257" target="_blank">Visualizza in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -30,17 +30,16 @@ ms.locfileid: "52258763"
 
 Informazioni fornite da admin@surveysparrow.com a Microsoft:
 
-| **Informazioni** | **Risposta** |
+| **Informazioni** | **risposta** |
 |:----------------|:-------------|
-| Nome app | SurveySparrow |
+| Nome dell'app | SurveySparrow |
 | ID | WA200002257 |
-| Funzionalità | Bot |
-| Client di Office 365 supportati | Microsoft Teams |
-| Nome società partner | admin@surveysparrow.com |
-| URL del sito Web del partner | [https://surveysparrow.com](https://surveysparrow.com) |
-| URL della pagina delle informazioni dell'applicazione Teams | [https://surveysparrow.com/apps/microsoft-teams-survey-integ...](https://surveysparrow.com/apps/microsoft-teams-survey-integration/) |
-| URL dell'informativa sulla privacy | [https://surveysparrow.com/legal/privacy-policy/](https://surveysparrow.com/legal/privacy-policy/) |
-| URL delle Condizioni per l'utilizzo | [https://surveysparrow.com/legal/terms-of-service/](https://surveysparrow.com/legal/terms-of-service/) |
+| Office 365 client supportati | Microsoft Teams |
+| Nome della società partner | admin@surveysparrow.com |
+| URL del sito Web partner | [https://surveysparrow.com](https://surveysparrow.com) |
+| URL della pagina Teams informazioni sull'applicazione | [https://surveysparrow.com/apps/microsoft-teams-survey-integ...](https://surveysparrow.com/apps/microsoft-teams-survey-integration/) |
+| URL dell'Informativa sulla privacy | [https://surveysparrow.com/legal/privacy-policy/](https://surveysparrow.com/legal/privacy-policy/) |
+| URL delle Condizioni d'uso | [https://surveysparrow.com/legal/terms-of-service/](https://surveysparrow.com/legal/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,48 +47,47 @@ Informazioni fornite da admin@surveysparrow.com a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
+### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
 
-Queste informazioni sono state fornite da admin@surveysparrow.com su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da admin@surveysparrow.com su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni di Microsoft Graph necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>Servizi non Microsoft utilizzati
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->I servizi non Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
-Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo e-mail) di qualsiasi membro del team o della chat a cui è aggiunta. Questa app utilizza questa funzionalità?
 
->| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
+>| **Giustificazione per l'accesso all'I EUII?**  | **L'III è memorizzato in database?** | **Giustificazione per la conservazione dell'III?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Accedono alle informazioni personali per ottenere l'ID di posta elettronica per verificare che l'utente abbia un account in SurveySparrow | No |  |
-
+>| Accediamo a PII per ottenere l'ID e-mail per verificare che l'utente abbia un account in SurveySparrow | No |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
-Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
+Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Informazioni correlate all'account del cliente. I registri vengono conservati per una settimana
+>Informazioni relative all'account cliente. Conserviamo i registri per una settimana
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
 
->We will be having role based privilege's. Solo l'utente autorizzato potrà accedere e i criteri di conservazione sono disponibili
+>Avremo privilegi basati sui ruoli. Solo l'utente autorizzato sarà in grado di accedere e abbiamo criteri di conservazione
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
-Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
+Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di informazioni di identificazione dell'organizzazione (OII) raccolti o archiviati da questa app?
 
 >Sì
 
@@ -99,11 +97,11 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [catalogo di Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
 
-<iframe height='1020' title='Informazioni sulla sicurezza delle app cloud Microsoft' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37580' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37580' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37580" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37580" target="_blank">Visualizzare in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -113,23 +111,23 @@ Le informazioni del [catalogo di Microsoft Cloud App Security](https://www.micro
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da admin@surveysparrow.com su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da un admin@surveysparrow.com modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
-| **Informazioni** | **Risposta** |
+| **Informazioni** | **risposta** |
 |:----------------|:-------------|
-| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo per l'integrazione della piattaforma di identità Microsoft?  | Sì |
-| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
+| Ti integri con Microsoft Identify Platform (Azure AD)?  | Sì |
+| Hai esaminato e rispettato tutte le best practice applicabili descritte nell'elenco di controllo Microsoft Identity Platform integrazione?  | Sì |
+| La tua app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
-| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
-| L'app supporta la multi-tenancy? | Sì |
-| L'app dispone di un client riservato? | Sì |
-| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| L'app espone qualsiasi API Web? | Sì |
-| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
+| Le autorizzazioni registrate staticamente dell'app riflettono accuratamente le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
+| La tua app supporta la multi-tenancy? | Sì |
+| La tua app ha un client riservato? | Sì |
+| Possiedi tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
+| La tua app espone api Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso corretto? | Sì |
 | La tua app usa le API di anteprima? | No |
-| L'app usa API deprecate? | No |
+| La tua app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

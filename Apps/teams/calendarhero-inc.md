@@ -1,45 +1,45 @@
 ---
-title: Informazioni sull'applicazione per MindMeister di MeisterLabs GmbH
+title: Informazioni sull'applicazione per CalendarHero di CalendarHero Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 03/17/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni disponibili sulla sicurezza e la conformità per MindMeister, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza /conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni disponibili sulla sicurezza e la conformità per CalendarHero, i relativi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a37e6c35b7a557ee146ad91e65d8f453dd94377e
+ms.openlocfilehash: d27858000c591c320cfadc301ea16ddf2fac89bd
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551917"
+ms.locfileid: "52553332"
 ---
-# <a name="mindmeister"></a>MindMeister
+# <a name="calendarhero"></a>CalendarHero
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 16 dicembre 2019</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 17 marzo 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/b66766e5-61ce-4001-b2e6-6817710d6d02" target="_blank">Visualizza nel Teams negozio</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381116" target="_blank">Visualizza in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/cac7469b-37cc-44f5-bf08-ff6654d35819" target="_blank">Visualizza nel Teams negozio</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200000150" target="_blank">Visualizza in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da MeisterLabs GmbH a Microsoft:
+Informazioni fornite da CalendarHero Inc a Microsoft:
 
 | **Informazioni** | **risposta** |
 |:----------------|:-------------|
-| Nome dell'app | MindMeister |
-| ID | WA104381116 |
+| Nome dell'app | CalendarHero |
+| ID | WA200000150 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome della società partner | MeisterLabs GmbH |
-| URL del sito Web partner | [https://www.mindmeister.com](https://www.mindmeister.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://support.mindmeister.com/](https://support.mindmeister.com/) |
-| URL dell'Informativa sulla privacy | [https://www.mindmeister.com/privacy](https://www.mindmeister.com/privacy) |
-| URL delle Condizioni d'uso | [https://www.mindmeister.com/legal](https://www.mindmeister.com/legal) |
+| Nome della società partner | CalendarHero Inc |
+| URL del sito Web partner | [https://calendarhero.com](https://calendarhero.com) |
+| URL della pagina Teams informazioni sull'applicazione | [https://faq.zoom.ai/](https://faq.zoom.ai/) |
+| URL dell'Informativa sulla privacy | [https://calendarhero.com/privacy](https://calendarhero.com/privacy) |
+| URL delle Condizioni d'uso | [https://calendarhero.com/terms-of-use](https://calendarhero.com/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Informazioni fornite da MeisterLabs GmbH a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
 
-Queste informazioni sono state fornite da MeisterLabs GmbH su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da CalendarHero Inc su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -57,7 +57,13 @@ Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per raccoglierlo?** | **I dati vengono archiviati? Giustificazione per conservarlo?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegato | ID AAD, ID tenant, e-mail, displayName - per essere in grado di identificare ogni utente all'interno della nostra applicazione ed essere in grado di collegare i dati specifici di MindMeister con un utente Microsoft (cioè quali mappe appartengono a quale utente). | Consente all'utente di accedere e consente all'app di accedere al proprio UPN per abilitare l'accesso invisibile all'utente. | D312FF80-0C2B-42AD-887B-C6392BCF6353 |
+>| Calendars.ReadWrite | ambedue | Le riunioni vengono memorizzate nella cache nel mongoDB in Azure, ma le descrizioni vengono crittografate. | Accesso agli eventi del calendario dell'utente. |  |
+>| Contatti.LetturaScrivi | ambedue | Nome dei contatti e indirizzo di posta elettronica. | Leggere i contatti dell'utente (in modo da poterli invitare a una riunione). |  |
+>| Group.Read.All | ambedue | Nome e membri del gruppo. | (Facoltativo) leggere i gruppi di utenti aziendali (per la pianificazione con i gruppi). |  |
+>| Mail.Read | ambedue | Contattare e-mail/nome, frequenza/recency delle interazioni. | (Facoltativo) viene utilizzato per leggere i metadati dell'e-mail a sotto chi sono i contatti più importanti dell'utente (tramite Machine Learning). |  |
+>| MailboxSettings.ReadWrite | ambedue | Fuso orario dell'utente. | Fuso orario dell'utente. |  |
+>| User.Read.All | ambedue | E-mail del nome &amp; dell'utente (archiviata come contatto). | (Facoltativo) leggere gli utenti aziendali (per la pianificazione con i colleghi) |  |
+>| offline_access | applicazione | No | Dobbiamo leggere e scrivere attraverso il nostro back-end in qualsiasi momento, senza che l'utente sia presente. |  |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
@@ -72,20 +78,20 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso all'I EUII?**  | **L'III è memorizzato in database?** | **Giustificazione per la conservazione dell'III?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Identifica Teams utenti che hanno già un collegamento in MindMeister e notifica loro che il bot è stato installato. | Non memorizzamo alcun dato del roster del team |  |
+>| importare nomi/e-mail di colleghi in modo che il bot assistente riunione possa pianificare riunioni con loro | nome &amp; e-mail. entrambi sono memorizzati nel nostro database per una rapida ricerca e per la ricerca parziale dei nomi (ad es. incontrare Joe P) |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Registriamo le richieste HTTP degli utenti che in alcuni casi includono ID utente, ma i registri vengono eliminati dopo 7 giorni.
+>L'indirizzo e-mail di un utente e/o contatto viene utilizzato per registrare eventi a LogDNA, il nostro provider di registrazione.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
 
->I dati vengono archiviati su server sicuri in Germania. L'accesso a questi dati è limitato a una manciata di amministratori dell'organizzazione che hanno accesso imposto a 2FA.
+>Tutti i dati vengono archiviati nel data center cloud di MS Azure situato a Quebec City, in Canada. Diversi campi sono crittografati con AES256. L'accesso al database è disponibile solo per gli ingegneri e i nostri server back-end tramite credenziali a livello di utente/servizio.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -101,9 +107,9 @@ Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di inform
 
 Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
 
-<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20874' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35668' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20874" target="_blank">Visualizzare in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35668" target="_blank">Visualizzare in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
