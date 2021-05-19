@@ -1,45 +1,45 @@
 ---
-title: Informazioni sull'applicazione per conferenze i/o da parte di Conferenze i/o
+title: Informazioni sull'applicazione per TeamGether di EFFENCY
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/04/2021
+ms.date: 04/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni disponibili sulla sicurezza e la conformità per l'i/o conferenze, i relativi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni disponibili sulla sicurezza e la conformità per TeamGether, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cc2d3c2845660ddda7b2d759d4d30cb4191286dd
+ms.openlocfilehash: 4856abc549692b7963c9a21c2c073133626a78ea
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553217"
+ms.locfileid: "52553352"
 ---
-# <a name="conferences-io"></a>Conferences i/o
+# <a name="teamgether"></a>TeamGether
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 4 gennaio 2021</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 16 aprile 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/8d4f0254-9b00-4a74-a351-b6d6cd7fccef" target="_blank">Visualizza nel Teams negozio</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001867" target="_blank">Visualizza in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/5a0547cc-ea63-4425-acc8-08b89a8fc1a1" target="_blank">Visualizza nel Teams negozio</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002660" target="_blank">Visualizza in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Conferences i/o a Microsoft:
+Informazioni fornite da EFFENCY a Microsoft:
 
 | **Informazioni** | **risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Conferences i/o |
-| ID | WA200001867 |
+| Nome dell'app | TeamGether |
+| ID | WA200002660 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome della società partner | Conferences i/o |
-| URL del sito Web partner | [https://teamsapp.conferences.io/](https://teamsapp.conferences.io/) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.conferences.io/our-platform/features/](https://www.conferences.io/our-platform/features/) |
-| URL dell'Informativa sulla privacy | [https://teamsapp.conferences.io/privacy/](https://teamsapp.conferences.io/privacy/) |
-| URL delle Condizioni d'uso | [https://teamsapp.conferences.io/terms/](https://teamsapp.conferences.io/terms/) |
+| Nome della società partner | EFFENCY |
+| URL del sito Web partner | [https://www.effency.fr](https://www.effency.fr) |
+| URL della pagina Teams informazioni sull'applicazione | [https://www.effency.fr/teams/](https://www.effency.fr/teams/) |
+| URL dell'Informativa sulla privacy | [https://www.effency.fr/protection-des-donnees](https://www.effency.fr/protection-des-donnees) |
+| URL delle Condizioni d'uso | [https://www.effency.fr/conditions-generales](https://www.effency.fr/conditions-generales) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Informazioni fornite da Conferences i/o a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
 
-Queste informazioni sono state fornite da Conferences i/o su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da EFFENCY su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -62,28 +62,28 @@ Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutti gli OII non servizi Microsoft non sono trasferiti** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Amazon Web Services | Nome, indirizzo email | Il database principale dell'applicazione si trova su Amazon Web Services. |
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo e-mail) di qualsiasi membro del team o della chat a cui è aggiunta. Questa app utilizza questa funzionalità?
 
->Non è possibile accedere all'I EUII.
+>| **Giustificazione per l'accesso all'I EUII?**  | **L'III è memorizzato in database?** | **Giustificazione per la conservazione dell'III?** |
+>|:--------------------------------|:---------------------|:--------------------------|
+>| Utilizziamo il nome dell'utente per personalizzare i nostri messaggi e l'indirizzo e-mail dell'utente è memorizzato nel database in modo da poter inviare loro e-mail se necessario. | Nome, cognome e indirizzo email | Utilizziamo il nome dell'utente per personalizzare i nostri messaggi e l'indirizzo e-mail dell'utente è memorizzato nel database in modo da poter inviare loro e-mail se necessario. |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Nessun OII o EUII viene visualizzato nei registri o nella telemetria delle applicazioni.
+>L'indirizzo di posta elettronica dell'utente potrebbe essere visualizzato nei registri e archiviato nel database. I registri vengono eliminati dopo 7 giorni e i dati nel database vengono conservati a tempo indeterminato, a meno che non sia richiesto dall'utente.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
 
->Crittografia e controlli logici forti in tutto il codice dell'applicazione
+>Non utilizziamo i dati del partner
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -99,9 +99,9 @@ Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di inform
 
 Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
 
-<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36361' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38160' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36361" target="_blank">Visualizzare in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38160" target="_blank">Visualizzare in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,7 +111,7 @@ Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://ww
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Conferences i/o su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da EFFENCY su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **risposta** |
 |:----------------|:-------------|

@@ -6,23 +6,23 @@ ms.date: 03/11/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Tikit, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni disponibili sulla sicurezza e la conformità per Tikit, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza /conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c30afd0d75f8832bf94fedbf48cd64406a5a2a29
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: de10b787d3e4100972e46efe76050ed0c7df31fd
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252716"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553247"
 ---
 # <a name="tikit"></a>Tikit
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 11, 2021</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 11 marzo 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/b13c40ee-e073-459e-96b5-3f3cca046a37" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002602" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/b13c40ee-e073-459e-96b5-3f3cca046a37" target="_blank">Visualizza nel Teams negozio</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002602" target="_blank">Visualizza in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -30,17 +30,16 @@ ms.locfileid: "52252716"
 
 Informazioni fornite da Cireson a Microsoft:
 
-| **Informazioni** | **Risposta** |
+| **Informazioni** | **risposta** |
 |:----------------|:-------------|
-| Nome app | Tikit |
+| Nome dell'app | Tikit |
 | ID | WA200002602 |
-| Funzionalità | Bot, estensione per la messaggistica |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Cireson |
-| URL del sito Web del partner | [https://tikit.ai](https://tikit.ai) |
+| Nome della società partner | Cireson |
+| URL del sito Web partner | [https://tikit.ai](https://tikit.ai) |
 | URL della pagina Teams informazioni sull'applicazione | [https://tikit.ai](https://tikit.ai) |
-| URL dell'informativa sulla privacy | [https://tikit.ai/privacy-statement](https://tikit.ai/privacy-statement) |
-| URL delle Condizioni per l'utilizzo | [https://tikit.ai/terms-service](https://tikit.ai/terms-service) |
+| URL dell'Informativa sulla privacy | [https://tikit.ai/privacy-statement](https://tikit.ai/privacy-statement) |
+| URL delle Condizioni d'uso | [https://tikit.ai/terms-service](https://tikit.ai/terms-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,66 +47,65 @@ Informazioni fornite da Cireson a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
+### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
 
 Queste informazioni sono state fornite da Cireson su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per raccoglierlo?** | **I dati vengono archiviati? Giustificazione per conservarlo?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Device.Read | application | Informazioni del grafico utente usate per l'accesso Single #A0 tramite la comunicazione bot di Teams  | Vengono archiviati i ruoli utente, il nome della famiglia, il nome, l'indirizzo di posta elettronica, l'ID AAD Teams ID utente. Questa informazione viene utilizzata per l'autenticazione delle applicazioni, la sicurezza, il controllo degli accessi in base al ruolo, l'integrazione dei team, le notifiche di Teams e il mapping delle relazioni utente   | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| Directory.AccessAsUser.All | delegated | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nome gruppo &amp; Nome ruolo, è necessario fornire un controllo di accesso mappato sicuro. | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| Directory.Read.All | delegated | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nome gruppo &amp; Nome ruolo, è necessario fornire un controllo di accesso mappato sicuro. | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| Group.Read.All | entrambi | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| User.Read | delegated | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| User.Read.All | application | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| User.ReadBasic.All | delegated | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| e-mail | delegated | Posta elettronica utente utilizzata per l'accesso e identificazione associata di entità correlate. &quot;Utente assegnato&quot; | Posta elettronica utente utilizzata per l'accesso e identificazione associata di entità correlate. &quot;Utente assegnato&quot; | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| openid | delegated | utilizzato per l'autenticazione tramite MSAL per requisiti  | utilizzato per l'autenticazione tramite MSAL per requisiti  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| profilo | delegated | utilizzato per l'autenticazione tramite MSAL per requisiti  | utilizzato per l'autenticazione tramite MSAL per requisiti  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
+>| Device.Read | applicazione | Informazioni sul grafico utente utilizzate per single sign-on, tramite la comunicazione bot dei team  | Archiviamo ruoli utente, cognome, nome specificato, e-mail, ID AAD, ID Teams ID utente. Questa informazione viene utilizzata per l'autenticazione dell'applicazione, la sicurezza, rbac, l'integrazione dei team, le notifiche dei team e il mapping delle relazioni utente   | B13C40EE-E073-459E-96B5-3F3CCA046A37 |
+>| Directory.AccessAsUser.All | delegato | Nomi e ruoli del gruppo per RBAC | Nome gruppo &amp; Nome ruolo, è necessario fornire un controllo di accesso mappato sicuro. | B13C40EE-E073-459E-96B5-3F3CCA046A37 |
+>| Directory.Read.All | delegato | Nomi e ruoli del gruppo per RBAC | Nome gruppo &amp; Nome ruolo, è necessario fornire un controllo di accesso mappato sicuro. | B13C40EE-E073-459E-96B5-3F3CCA046A37 |
+>| Group.Read.All | ambedue | Nomi e ruoli del gruppo per RBAC | Nomi e ruoli del gruppo per RBAC | B13C40EE-E073-459E-96B5-3F3CCA046A37 |
+>| User.Read | delegato | Ruoli utente, cognome, nome specificato, posta elettronica, ID AAD, ID utente Teams, utilizzato per l'autenticazione  | Ruoli utente, cognome, nome specificato, posta elettronica, ID AAD, ID utente Teams, utilizzato per l'autenticazione  | B13C40EE-E073-459E-96B5-3F3CCA046A37 |
+>| User.Read.All | applicazione | Ruoli utente, cognome, nome specificato, posta elettronica, ID AAD, ID utente Teams, utilizzato per l'autenticazione  | Ruoli utente, cognome, nome specificato, posta elettronica, ID AAD, ID utente Teams, utilizzato per l'autenticazione  | B13C40EE-E073-459E-96B5-3F3CCA046A37 |
+>| User.ReadBasic.All | delegato | Ruoli utente, cognome, nome specificato, posta elettronica, ID AAD, ID utente Teams, utilizzato per l'autenticazione  | Ruoli utente, cognome, nome specificato, posta elettronica, ID AAD, ID utente Teams, utilizzato per l'autenticazione  | B13C40EE-E073-459E-96B5-3F3CCA046A37 |
+>| e-mail | delegato | E-mail utente utilizzata per l'accesso e l'identificazione associata delle entità correlate. &quot;Utente assegnato&quot; | E-mail utente utilizzata per l'accesso e l'identificazione associata delle entità correlate. &quot;Utente assegnato&quot; | B13C40EE-E073-459E-96B5-3F3CCA046A37 |
+>| openid | delegato | utilizzato per l'autenticazione tramite MSAL per requisiti  | utilizzato per l'autenticazione tramite MSAL per requisiti  | B13C40EE-E073-459E-96B5-3F3CCA046A37 |
+>| profilo | delegato | utilizzato per l'autenticazione tramite MSAL per requisiti  | utilizzato per l'autenticazione tramite MSAL per requisiti  | B13C40EE-E073-459E-96B5-3F3CCA046A37 |
 
-#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
+#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati tramite altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono utilizzare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni di identificazione dell'organizzazione ( OII). Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
->| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
+>| **API** |  **OII viene raccolto?** |  **Quale OII viene raccolto?** | **Giustificazione per la raccolta di OII?** | **OII è memorizzato?** | **Giustificazione per l'archiviazione di OII?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| QnA Maker | No |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
-Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo e-mail) di qualsiasi membro del team o della chat a cui è aggiunta. Questa app utilizza questa funzionalità?
 
->| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
+>| **Giustificazione per l'accesso all'I EUII?**  | **L'III è memorizzato in database?** | **Giustificazione per la conservazione dell'III?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Nome e posta elettronica per le relazioni tra entità utente &quot; Richiedente ticket&quot;  | Nome e posta elettronica  | per le relazioni tra entità utente &quot; Richiedente ticket&quot;  |
-
+>| Nome ed e-mail per le relazioni tra entità &quot; utente Richiedente ticket&quot;  | Nome ed e-mail  | per le relazioni tra entità utente &quot; Ticket Requestor&quot;  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
-Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
+Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Archiviamo il nome dell'azienda, l'ID tenant, la posta elettronica, l'ID client bot nelle informazioni dettagliate sull'app, con un criterio di conservazione a 30 dat.
+>Archiviamo il nome della società, l'ID tenant, l'e-mail, l'ID client bot nelle informazioni dettagliate sull'app, con un criterio di conservazione da 30 dat.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
 
 >Non abbiamo dati in un sistema partner.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
-Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
+Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di informazioni di identificazione dell'organizzazione (OII) raccolti o archiviati da questa app?
 
 >Sì
 
@@ -117,11 +115,11 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36548' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36548' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36548" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36548" target="_blank">Visualizzare in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -131,24 +129,24 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Cireson sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Cireson su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
-| **Informazioni** | **Risposta** |
+| **Informazioni** | **risposta** |
 |:----------------|:-------------|
-| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
-| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
+| Ti integri con Microsoft Identify Platform (Azure AD)?  | Sì |
+| Hai esaminato e rispettato tutte le best practice applicabili descritte nell'elenco di controllo Microsoft Identity Platform integrazione?  | Sì |
+| La tua app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
-| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
-| L'app supporta la multi-tenancy? | Sì |
-| L'app dispone di un client riservato? | Sì |
-| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
-| L'app espone qualsiasi API Web? | Sì |
-| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
+| Le autorizzazioni registrate staticamente dell'app riflettono accuratamente le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
+| La tua app supporta la multi-tenancy? | Sì |
+| La tua app ha un client riservato? | Sì |
+| Possiedi tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
+| Per la tua app, cosa eviti di usare? | - Gli URI di reindirizzamento dei caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una SPA<br/>- Flusso ROPC (Resource Owner Password Credential) |
+| La tua app espone api Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso corretto? | Sì |
 | La tua app usa le API di anteprima? | Sì |
-| L'app usa API deprecate? | No |
+| La tua app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -6,23 +6,23 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per ScrumGenius, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni disponibili sulla sicurezza e la conformità per ScrumGenius, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza /conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 921cfb725b6e0ef6d59bb457a76c873f0aaf7806
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: ba3b54f7d99672d657b200bf36725d0c7bf03d83
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250404"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553907"
 ---
 # <a name="scrumgenius"></a>ScrumGenius
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 16 dicembre 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/14510476-fa9d-4dad-add9-aa5975a60a8b" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381097" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/14510476-fa9d-4dad-add9-aa5975a60a8b" target="_blank">Visualizza nel Teams negozio</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381097" target="_blank">Visualizza in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -30,16 +30,15 @@ ms.locfileid: "52250404"
 
 Informazioni fornite da ScrumGenius a Microsoft:
 
-| **Informazioni** | **Risposta** |
+| **Informazioni** | **risposta** |
 |:----------------|:-------------|
-| Nome app | ScrumGenius |
+| Nome dell'app | ScrumGenius |
 | ID | WA104381097 |
-| Funzionalità | Bot, scheda |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | ScrumGenius |
-| URL del sito Web del partner | [https://scrumgenius.com/](https://scrumgenius.com/) |
-| URL dell'informativa sulla privacy | [https://scrumgenius.com/privacy/](https://scrumgenius.com/privacy/) |
-| URL delle Condizioni per l'utilizzo | [https://scrumgenius.com/tos/](https://scrumgenius.com/tos/) |
+| Nome della società partner | ScrumGenius |
+| URL del sito Web partner | [https://scrumgenius.com/](https://scrumgenius.com/) |
+| URL dell'Informativa sulla privacy | [https://scrumgenius.com/privacy/](https://scrumgenius.com/privacy/) |
+| URL delle Condizioni d'uso | [https://scrumgenius.com/tos/](https://scrumgenius.com/tos/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,47 +46,46 @@ Informazioni fornite da ScrumGenius a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
+### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
 
-Queste informazioni sono state fornite da ScrumGenius sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da ScrumGenius su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per raccoglierlo?** | **I dati vengono archiviati? Giustificazione per conservarlo?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | delegated | Date di ferie impostate nel calendario dell'utente. | Per consentire agli utenti di sincronizzare le proprie ferie con ScrumGenius. |  |
->| User.Read | delegated | Nome e indirizzo di posta elettronica dell'utente. | Per consentire all'utente di accedere con Microsoft Login. |  |
+>| Calendars.Read | delegato | Date di ferie impostate nel calendario dell'utente. | Per consentire agli utenti di sincronizzare le loro vacanze con ScrumGenius. |  |
+>| User.Read | delegato | Nome dell'utente e indirizzo di posta elettronica. | Per consentire all'utente di accedere con Microsoft Login. |  |
 
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
-Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo e-mail) di qualsiasi membro del team o della chat a cui è aggiunta. Questa app utilizza questa funzionalità?
 
->| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
+>| **Giustificazione per l'accesso all'I EUII?**  | **L'III è memorizzato in database?** | **Giustificazione per la conservazione dell'III?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Si accede all'elenco dei team, quindi quando un amministratore del team installa scrumgenius, è possibile sincronizzare il resto dell'elenco dei team con scrumgenius in modo da poter eseguire l'onboardboard con la piattaforma per consentire loro di configurare un report di supporto e assegnare i membri del team che devono ottenere il report. | nome, cognome, nome visualizzato, indirizzo di posta elettronica |  |
-
+>| Accediamo all'elenco del team, quindi quando un amministratore del team installa scrumgenius, possiamo sincronizzare il resto del roster del team con scrumgenius in modo da poterli a bordo con la nostra piattaforma per consentire loro di configurare un rapporto di standup e assegnare i membri del team che dovrebbero ottenere il rapporto. | nome, cognome, nome visualizzato, indirizzo e-mail |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
-Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
+Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
 
->No. L'utente viene connesso al nostro ID interno per i log.
+>No. Leghiamo l'utente al nostro ID interno per i registri.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
 
->Sì, i dati dell'applicazione sono crittografati in transito e in pausa. Solo l'app Web può accedere direttamente al database. L'accesso esterno è limitato e usiamo intervalli IP per proteggere l'accesso.
+>Sì, i dati della nostra applicazione sono crittografati in transito e a riposo. Solo l'app Web può accedere direttamente al DB. L'accesso esterno è limitato e utilizziamo intervalli IP per proteggere l'accesso.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -96,11 +94,11 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35745' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35745' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35745" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35745" target="_blank">Visualizzare in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

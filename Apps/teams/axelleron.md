@@ -1,45 +1,44 @@
 ---
-title: Informazioni sull'applicazione per Droplr di Droplr
+title: Informazioni sull'applicazione per Axelleron di Axelleron
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni disponibili sulla sicurezza e la conformità per Droplr, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza /conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0ee1f120569a50bb475cd525b3ae1ba70e6b60b5
+description: Tutte le informazioni disponibili sulla sicurezza e la conformità per Axelleron, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza /conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 5a6d89c0647632c26f67ab388eada9f7be225149
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553947"
+ms.locfileid: "52553990"
 ---
-# <a name="droplr"></a>Droplr
+# <a name="axelleron"></a>Axelleron
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 16 dicembre 2019</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 16 aprile 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/3763b495-45c3-4fd4-a64c-944aa8aabf53" target="_blank">Visualizza nel Teams negozio</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381718" target="_blank">Visualizza in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/d813aed5-1071-460c-a088-1e6beedfe29a" target="_blank">Visualizza nel Teams negozio</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002677" target="_blank">Visualizza in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Droplr a Microsoft:
+Informazioni fornite da Axelleron a Microsoft:
 
 | **Informazioni** | **risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Droplr |
-| ID | WA104381718 |
+| Nome dell'app | Axelleron |
+| ID | WA200002677 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome della società partner | Droplr |
-| URL del sito Web partner | [https://droplr.com](https://droplr.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://droplr.com/contact](https://droplr.com/contact) |
-| URL dell'Informativa sulla privacy | [https://droplr.com/privacy](https://droplr.com/privacy) |
-| URL delle Condizioni d'uso | [https://droplr.com/terms](https://droplr.com/terms) |
+| Nome della società partner | Axelleron |
+| URL del sito Web partner | [https://axelleron.com](https://axelleron.com) |
+| URL dell'Informativa sulla privacy | [https://axelleron.com/privacy.html](https://axelleron.com/privacy.html) |
+| URL delle Condizioni d'uso | [https://axelleron.com/terms-of-services.html](https://axelleron.com/terms-of-services.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,15 +48,13 @@ Informazioni fornite da Droplr a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
 
-Queste informazioni sono state fornite da Droplr su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Axelleron su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
 Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per raccoglierlo?** | **I dati vengono archiviati? Giustificazione per conservarlo?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegato | Archiviamo il `user_id` valore nel nostro database | Utilizziamo questa autorizzazione per identificare l'utente autenticato e collegarlo al proprio account Droplr. |  |
+>Questa applicazione non utilizza Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
@@ -77,14 +74,19 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
 
->No. È contrario alla nostra politica registrare i dati degli utenti.
+>Nessun OII o EUII viene visualizzato nei registri o nella telemetria delle applicazioni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
 
->Gli utenti possono eliminare i propri dati in qualsiasi momento accedendo al proprio account Droplr. Gli amministratori del team possono inoltre eliminare e archiviare i dati in qualsiasi momento (richiede un Enterprise abbonamento).
+>I client possono eliminare tutte le bacheche e i contenuti che creano e possono richiedere la chiusura del proprio account e l'eliminazione permanente dei dati.
 
+#### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
+
+Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di informazioni di identificazione dell'organizzazione (OII) raccolti o archiviati da questa app?
+
+>No
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -94,11 +96,24 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
 
-<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/23296' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38161' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/23296" target="_blank">Visualizzare in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38161" target="_blank">Visualizzare in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da Axelleron su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **risposta** |
+|:----------------|:-------------|
+| Ti integri con Microsoft Identify Platform (Azure AD)?  | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

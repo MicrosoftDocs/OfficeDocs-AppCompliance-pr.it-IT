@@ -1,27 +1,27 @@
 ---
-title: Application Information for Invoice and Time Tracking - Zoho Invoice by Zoho Corporation Private Limited
+title: Informazioni sull'applicazione per il monitoraggio delle fatture e dei tempi - Fattura Zoho di Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per La fattura e il monitoraggio del tempo - Zoho Invoice, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni disponibili sulla sicurezza e la conformità per il monitoraggio delle fatture e del tempo - Fattura Zoho, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza / conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 97c065f0cdb0efbc005353cd6f6e459a67303651
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 0909b65a673af03aa6b190d181f1572ab84b5e77
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253237"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553667"
 ---
-# <a name="invoice-and-time-tracking---zoho-invoice"></a>Fattura e tracciabilità del tempo - Fattura Zoho
+# <a name="invoice-and-time-tracking---zoho-invoice"></a>Tracciabilità fattura e ora - Fattura Zoho
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 16 dicembre 2019</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104381067" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381067" target="_blank">Visualizza in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -29,15 +29,15 @@ ms.locfileid: "52253237"
 
 Informazioni fornite da Zoho Corporation Private Limited a Microsoft:
 
-| **Informazioni** | **Risposta** |
+| **Informazioni** | **risposta** |
 |:----------------|:-------------|
-| Nome app | Fattura e tracciabilità del tempo - Fattura Zoho |
+| Nome dell'app | Tracciabilità fattura e ora - Fattura Zoho |
 | ID | WA104381067 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul Web |
-| Nome società partner | Zoho Corporation Private Limited |
-| URL del sito Web del partner | [https://www.zoho.com/](https://www.zoho.com/) |
-| URL dell'informativa sulla privacy | [https://zoho.com/privacy.html](https://zoho.com/privacy.html) |
-| URL delle Condizioni per l'utilizzo | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul Web |
+| Nome della società partner | Zoho Corporation Private Limited |
+| URL del sito Web partner | [https://www.zoho.com/](https://www.zoho.com/) |
+| URL dell'Informativa sulla privacy | [https://zoho.com/privacy.html](https://zoho.com/privacy.html) |
+| URL delle Condizioni d'uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,54 +45,45 @@ Informazioni fornite da Zoho Corporation Private Limited a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
+### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
 
 Queste informazioni sono state fornite da Zoho Corporation Private Limited su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per raccoglierlo?** | **I dati vengono archiviati? Giustificazione per conservarlo?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Contacts.Read | delegated |  |  Consentire agli utenti di sincronizzare i contatti di Office365 con Zoho Invoice. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Mail.Read | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Mail.Send | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.Export.All | delegated |  | Consentire all'utente di esportare tutte le informazioni correlate all'utente. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.Read.All | delegated |  | Consentire agli utenti di accedere e leggere il profilo utente. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | delegated |  | Consentire agli utenti di importare gli utenti di Office365 in Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| e-mail | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| profilo | delegated |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Contatti.Lettura | delegato |  |  Consentire agli utenti di sincronizzare i contatti di Office365 con la fattura Zoho. | F6d7187A-B437-4ECA-BBC5-C1331609FE07 |
+>| Mail.Read | delegato |  |  | F6d7187A-B437-4ECA-BBC5-C1331609FE07 |
+>| Mail.Invia | delegato |  |  | F6d7187A-B437-4ECA-BBC5-C1331609FE07 |
+>| Utente.Esporta.Tutti | delegato |  | Consentire all'utente di esportare tutte le informazioni relative all'utente. | F6d7187A-B437-4ECA-BBC5-C1331609FE07 |
+>| User.Read.All | delegato |  | Consentire agli utenti di accedere e leggere il profilo utente. | F6d7187A-B437-4ECA-BBC5-C1331609FE07 |
+>| User.ReadBasic.All | delegato |  | Consentire agli utenti di importare utenti di Office365 in Zoho. | F6d7187A-B437-4ECA-BBC5-C1331609FE07 |
+>| e-mail | delegato |  |  | F6d7187A-B437-4ECA-BBC5-C1331609FE07 |
+>| profilo | delegato |  |  | F6d7187A-B437-4ECA-BBC5-C1331609FE07 |
 
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 
 
 
-#### <a name="add-in-data-access"></a>Accesso ai dati del componente aggiuntivo
-
-Elenca le autorizzazioni richieste da questa app per accedere ai dati dell'organizzazione, la giustificazione e lo scopo di questa autorizzazione (per cosa l'app usa queste informazioni?) e se l'app archivia queste informazioni nei relativi database.
-
->| **Autorizzazione**  | **Descrizione** |
->|:----------------|:----------------|
->| Elemento di lettura | Questo componente aggiuntivo può accedere alle informazioni personali sul messaggio attivo, ad esempio i nomi dei mittenti, i nomi dei destinatari, gli indirizzi di posta elettronica, il corpo del messaggio e le informazioni sugli allegati. Il componente aggiuntivo può inviare questi dati a un servizio di terze parti. Gli altri elementi nella cassetta postale&#8217;non possono essere letti o modificati. |
->| Invia dati | Può inviare dati tramite Internet |
-
 #### <a name="telemetry-data"></a>Dati di telemetria
 
-Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
+Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Non raccogliamo informazioni personali/informazioni personali in telemetria e log.
+>Non raccogliamo EUII / PII in telemetria e registri.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
 
->I dati verranno recuperati solo dopo il consenso dell'utente. L'accesso logico ai server viene fornito tramite una rete dedicata isolata &amp; ed è altamente protetto e monitorato. Questa rete è protetta con Firewall, Autenticazione a 2 fattori e Autenticazione Kerberos
+>I dati verranno recuperati solo dopo il consenso dell'utente. L'accesso logico ai server viene fornito tramite una rete &amp; dedicata isolata ed è altamente protetto e monitorato. Questa rete è protetta con firewall, autenticazione a 2 fattori e autenticazione Kerberos
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -101,11 +92,11 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305" target="_blank">Visualizzare in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
