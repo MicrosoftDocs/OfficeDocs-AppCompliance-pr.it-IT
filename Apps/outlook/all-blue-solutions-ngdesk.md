@@ -1,43 +1,43 @@
 ---
-title: Informazioni sull'applicazione per ngDesk by All Blue Solutions
+title: Informazioni sulle applicazioni per ngDesk di tutte le soluzioni blue
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per ngDesk, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni disponibili sulla sicurezza e la conformità per ngDesk, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza /conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fa8e83803cf5ab2ceceff79bac66397f390eac6e
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: c527842a226a4029f8c1d0ad842ef762c47ed85f
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251795"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553767"
 ---
-# <a name="ngdesk"></a><span data-ttu-id="d5c54-103">ngDesk</span><span class="sxs-lookup"><span data-stu-id="d5c54-103">ngDesk</span></span>
+# <a name="ngdesk"></a><span data-ttu-id="c4ef5-103">NgDesk</span><span class="sxs-lookup"><span data-stu-id="c4ef5-103">ngDesk</span></span>
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p><span data-ttu-id="d5c54-104">Last updated by the developer on: March 8, 2021</span><span class="sxs-lookup"><span data-stu-id="d5c54-104">Last updated by the developer on: March 8, 2021</span></span></p>
+<p><span data-ttu-id="c4ef5-104">Ultimo aggiornamento da parte dello sviluppatore: 8 marzo 2021</span><span class="sxs-lookup"><span data-stu-id="c4ef5-104">Last updated by the developer on: March 8, 2021</span></span></p>
 
-* <span data-ttu-id="d5c54-105"><a href="https://appsource.microsoft.com/product/office/WA200002505" target="_blank">Visualizzazione in AppSource</a></span><span class="sxs-lookup"><span data-stu-id="d5c54-105"><a href="https://appsource.microsoft.com/product/office/WA200002505" target="_blank">View in AppSource</a></span></span>
+* <span data-ttu-id="c4ef5-105"><a href="https://appsource.microsoft.com/product/office/WA200002505" target="_blank">Visualizza in AppSource</a></span><span class="sxs-lookup"><span data-stu-id="c4ef5-105"><a href="https://appsource.microsoft.com/product/office/WA200002505" target="_blank">View in AppSource</a></span></span>
 
 ::: zone pivot="general"
 
-### <a name="general-information"></a><span data-ttu-id="d5c54-106">Informazioni generali</span><span class="sxs-lookup"><span data-stu-id="d5c54-106">General information</span></span>
+### <a name="general-information"></a><span data-ttu-id="c4ef5-106">Informazioni generali</span><span class="sxs-lookup"><span data-stu-id="c4ef5-106">General information</span></span>
 
-<span data-ttu-id="d5c54-107">Informazioni fornite da All Blue Solutions a Microsoft:</span><span class="sxs-lookup"><span data-stu-id="d5c54-107">Information provided by All Blue Solutions to Microsoft:</span></span>
+<span data-ttu-id="c4ef5-107">Informazioni fornite da All Blue Solutions a Microsoft:</span><span class="sxs-lookup"><span data-stu-id="c4ef5-107">Information provided by All Blue Solutions to Microsoft:</span></span>
 
-| <span data-ttu-id="d5c54-108">**Informazioni**</span><span class="sxs-lookup"><span data-stu-id="d5c54-108">**Information**</span></span> | <span data-ttu-id="d5c54-109">**Risposta**</span><span class="sxs-lookup"><span data-stu-id="d5c54-109">**Response**</span></span> |
+| <span data-ttu-id="c4ef5-108">**Informazioni**</span><span class="sxs-lookup"><span data-stu-id="c4ef5-108">**Information**</span></span> | <span data-ttu-id="c4ef5-109">**risposta**</span><span class="sxs-lookup"><span data-stu-id="c4ef5-109">**Response**</span></span> |
 |:----------------|:-------------|
-| <span data-ttu-id="d5c54-110">Nome app</span><span class="sxs-lookup"><span data-stu-id="d5c54-110">App name</span></span> | <span data-ttu-id="d5c54-111">ngDesk</span><span class="sxs-lookup"><span data-stu-id="d5c54-111">ngDesk</span></span> |
-| <span data-ttu-id="d5c54-112">ID</span><span class="sxs-lookup"><span data-stu-id="d5c54-112">ID</span></span> | <span data-ttu-id="d5c54-113">WA200002505</span><span class="sxs-lookup"><span data-stu-id="d5c54-113">WA200002505</span></span> |
-| <span data-ttu-id="d5c54-114">Office 365 client supportati</span><span class="sxs-lookup"><span data-stu-id="d5c54-114">Office 365 clients supported</span></span> | <span data-ttu-id="d5c54-115">Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul Web</span><span class="sxs-lookup"><span data-stu-id="d5c54-115">Outlook 2013 or later on Windows, Outlook 2016 or later on Mac, Outlook on the web</span></span> |
-| <span data-ttu-id="d5c54-116">Nome società partner</span><span class="sxs-lookup"><span data-stu-id="d5c54-116">Partner company name</span></span> | <span data-ttu-id="d5c54-117">Tutte le soluzioni blu</span><span class="sxs-lookup"><span data-stu-id="d5c54-117">All Blue Solutions</span></span> |
-| <span data-ttu-id="d5c54-118">URL del sito Web del partner</span><span class="sxs-lookup"><span data-stu-id="d5c54-118">URL of partner website</span></span> | [<span data-ttu-id="d5c54-119"> https://appsource.microsoft.com/marketplace/apps?product=of...</span><span class="sxs-lookup"><span data-stu-id="d5c54-119">https://appsource.microsoft.com/marketplace/apps?product=of...</span></span>](https://appsource.microsoft.com/marketplace/apps?product=office) |
-| <span data-ttu-id="d5c54-120">URL dell'informativa sulla privacy</span><span class="sxs-lookup"><span data-stu-id="d5c54-120">URL of Privacy Policy</span></span> | [https://ngdesk.com/privacy-policy-office-365](https://ngdesk.com/privacy-policy-office-365) |
-| <span data-ttu-id="d5c54-121">URL delle Condizioni per l'utilizzo</span><span class="sxs-lookup"><span data-stu-id="d5c54-121">URL of Terms of Use</span></span> | [https://ngdesk.com/subscription-agreement](https://ngdesk.com/subscription-agreement) |
+| <span data-ttu-id="c4ef5-110">Nome dell'app</span><span class="sxs-lookup"><span data-stu-id="c4ef5-110">App name</span></span> | <span data-ttu-id="c4ef5-111">NgDesk</span><span class="sxs-lookup"><span data-stu-id="c4ef5-111">ngDesk</span></span> |
+| <span data-ttu-id="c4ef5-112">ID</span><span class="sxs-lookup"><span data-stu-id="c4ef5-112">ID</span></span> | <span data-ttu-id="c4ef5-113">WA200002505</span><span class="sxs-lookup"><span data-stu-id="c4ef5-113">WA200002505</span></span> |
+| <span data-ttu-id="c4ef5-114">Office 365 client supportati</span><span class="sxs-lookup"><span data-stu-id="c4ef5-114">Office 365 clients supported</span></span> | <span data-ttu-id="c4ef5-115">Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul Web</span><span class="sxs-lookup"><span data-stu-id="c4ef5-115">Outlook 2013 or later on Windows, Outlook 2016 or later on Mac, Outlook on the web</span></span> |
+| <span data-ttu-id="c4ef5-116">Nome della società partner</span><span class="sxs-lookup"><span data-stu-id="c4ef5-116">Partner company name</span></span> | <span data-ttu-id="c4ef5-117">Tutte le soluzioni blu</span><span class="sxs-lookup"><span data-stu-id="c4ef5-117">All Blue Solutions</span></span> |
+| <span data-ttu-id="c4ef5-118">URL del sito Web partner</span><span class="sxs-lookup"><span data-stu-id="c4ef5-118">URL of partner website</span></span> | [<span data-ttu-id="c4ef5-119"> https://appsource.microsoft.com/marketplace/apps?product=of...</span><span class="sxs-lookup"><span data-stu-id="c4ef5-119">https://appsource.microsoft.com/marketplace/apps?product=of...</span></span>](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| <span data-ttu-id="c4ef5-120">URL dell'Informativa sulla privacy</span><span class="sxs-lookup"><span data-stu-id="c4ef5-120">URL of Privacy Policy</span></span> | [https://ngdesk.com/privacy-policy-office-365](https://ngdesk.com/privacy-policy-office-365) |
+| <span data-ttu-id="c4ef5-121">URL delle Condizioni d'uso</span><span class="sxs-lookup"><span data-stu-id="c4ef5-121">URL of Terms of Use</span></span> | [https://ngdesk.com/subscription-agreement](https://ngdesk.com/subscription-agreement) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,51 +45,42 @@ ms.locfileid: "52251795"
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a><span data-ttu-id="d5c54-122">Modalità di gestione dei dati da parte dell'app</span><span class="sxs-lookup"><span data-stu-id="d5c54-122">How the app handles data</span></span>
+### <a name="how-the-app-handles-data"></a><span data-ttu-id="c4ef5-122">Come l'app gestisce i dati</span><span class="sxs-lookup"><span data-stu-id="c4ef5-122">How the app handles data</span></span>
 
-<span data-ttu-id="d5c54-123">Queste informazioni sono state fornite da All Blue Solutions su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.</span><span class="sxs-lookup"><span data-stu-id="d5c54-123">This information has been provided by All Blue Solutions about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
+<span data-ttu-id="c4ef5-123">Queste informazioni sono state fornite da All Blue Solutions su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.</span><span class="sxs-lookup"><span data-stu-id="c4ef5-123">This information has been provided by All Blue Solutions about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
 
-#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="d5c54-124">Accesso ai dati tramite Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="d5c54-124">Data access using Microsoft Graph</span></span>
+#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="c4ef5-124">Accesso ai dati tramite Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="c4ef5-124">Data access using Microsoft Graph</span></span>
 
-<span data-ttu-id="d5c54-125">Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.</span><span class="sxs-lookup"><span data-stu-id="d5c54-125">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
+<span data-ttu-id="c4ef5-125">Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.</span><span class="sxs-lookup"><span data-stu-id="c4ef5-125">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
 
-><span data-ttu-id="d5c54-126">Questa applicazione non utilizza Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="d5c54-126">This application does not use Microsoft Graph.</span></span>
-
-
-#### <a name="non-microsoft-services-used"></a><span data-ttu-id="d5c54-127">Non servizi Microsoft usato</span><span class="sxs-lookup"><span data-stu-id="d5c54-127">Non-Microsoft services used</span></span>
-
-<span data-ttu-id="d5c54-128">Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.</span><span class="sxs-lookup"><span data-stu-id="d5c54-128">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
-
-><span data-ttu-id="d5c54-129">Non vengono servizi Microsoft non vengono utilizzati.</span><span class="sxs-lookup"><span data-stu-id="d5c54-129">Non-Microsoft services are not used.</span></span>
+><span data-ttu-id="c4ef5-126">Questa applicazione non utilizza Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="c4ef5-126">This application does not use Microsoft Graph.</span></span>
 
 
+#### <a name="non-microsoft-services-used"></a><span data-ttu-id="c4ef5-127">Non servizi Microsoft utilizzati</span><span class="sxs-lookup"><span data-stu-id="c4ef5-127">Non-Microsoft services used</span></span>
 
-#### <a name="add-in-data-access"></a><span data-ttu-id="d5c54-130">Accesso ai dati del componente aggiuntivo</span><span class="sxs-lookup"><span data-stu-id="d5c54-130">Add-in Data Access</span></span>
+<span data-ttu-id="c4ef5-128">Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.</span><span class="sxs-lookup"><span data-stu-id="c4ef5-128">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
 
-<span data-ttu-id="d5c54-131">Elenca le autorizzazioni richieste da questa app per accedere ai dati dell'organizzazione, la giustificazione e lo scopo di questa autorizzazione (per cosa l'app usa queste informazioni?) e se l'app archivia queste informazioni nei relativi database.</span><span class="sxs-lookup"><span data-stu-id="d5c54-131">List the permissions this app requires for accessing your organization's data, the justification and purpose for this permission (what does the app use this information for?), and whether the app stores any of this information in its databases.</span></span>
+><span data-ttu-id="c4ef5-129">Non vengono servizi Microsoft non vengono utilizzati.</span><span class="sxs-lookup"><span data-stu-id="c4ef5-129">Non-Microsoft services are not used.</span></span>
 
->| <span data-ttu-id="d5c54-132">**Autorizzazione**</span><span class="sxs-lookup"><span data-stu-id="d5c54-132">**Permission**</span></span>  | <span data-ttu-id="d5c54-133">**Descrizione**</span><span class="sxs-lookup"><span data-stu-id="d5c54-133">**Description**</span></span> |
->|:----------------|:----------------|
->| <span data-ttu-id="d5c54-134">Elemento ReadWrite</span><span class="sxs-lookup"><span data-stu-id="d5c54-134">ReadWrite Item</span></span> | <span data-ttu-id="d5c54-135">Questo componente aggiuntivo può accedere e modificare le informazioni personali nel messaggio attivo, ad esempio il corpo, l'oggetto, il mittente, i destinatari e le informazioni sugli allegati.</span><span class="sxs-lookup"><span data-stu-id="d5c54-135">This add-in can access and modify personal information in the active message, such as the body, subject, sender, recipients, and attachment information.</span></span> <span data-ttu-id="d5c54-136">Può inviare questi dati a un servizio di terze parti.</span><span class="sxs-lookup"><span data-stu-id="d5c54-136">It may send this data to a third-party service.</span></span> <span data-ttu-id="d5c54-137">Gli altri elementi nella cassetta postale&#8217;non possono essere letti o modificati.</span><span class="sxs-lookup"><span data-stu-id="d5c54-137">Other items in your mailbox can&#8217;t be read or modified.</span></span> |
->| <span data-ttu-id="d5c54-138">Invia dati</span><span class="sxs-lookup"><span data-stu-id="d5c54-138">Send Data</span></span> | <span data-ttu-id="d5c54-139">Può inviare dati tramite Internet</span><span class="sxs-lookup"><span data-stu-id="d5c54-139">Can send data over the Internet</span></span> |
 
-#### <a name="telemetry-data"></a><span data-ttu-id="d5c54-140">Dati di telemetria</span><span class="sxs-lookup"><span data-stu-id="d5c54-140">Telemetry data</span></span>
 
-<span data-ttu-id="d5c54-141">Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione?</span><span class="sxs-lookup"><span data-stu-id="d5c54-141">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="d5c54-142">In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?</span><span class="sxs-lookup"><span data-stu-id="d5c54-142">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
+#### <a name="telemetry-data"></a><span data-ttu-id="c4ef5-130">Dati di telemetria</span><span class="sxs-lookup"><span data-stu-id="c4ef5-130">Telemetry data</span></span>
 
-><span data-ttu-id="d5c54-143">Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.</span><span class="sxs-lookup"><span data-stu-id="d5c54-143">No OII or EUII appear in the applications telemetry or logs.</span></span>
+<span data-ttu-id="c4ef5-131">Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)?</span><span class="sxs-lookup"><span data-stu-id="c4ef5-131">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="c4ef5-132">In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?</span><span class="sxs-lookup"><span data-stu-id="c4ef5-132">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="d5c54-144">Controlli dell'organizzazione per i dati archiviati dal partner</span><span class="sxs-lookup"><span data-stu-id="d5c54-144">Organizational controls for data stored by partner</span></span>
+><span data-ttu-id="c4ef5-133">Nessun OII o EUII viene visualizzato nei registri o nella telemetria delle applicazioni.</span><span class="sxs-lookup"><span data-stu-id="c4ef5-133">No OII or EUII appear in the applications telemetry or logs.</span></span>
 
-<span data-ttu-id="d5c54-145">Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.</span><span class="sxs-lookup"><span data-stu-id="d5c54-145">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
+#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="c4ef5-134">Controlli dell'organizzazione per i dati archiviati dal partner</span><span class="sxs-lookup"><span data-stu-id="c4ef5-134">Organizational controls for data stored by partner</span></span>
 
-><span data-ttu-id="d5c54-146">Non inviiamo dati ad altri sistemi partner</span><span class="sxs-lookup"><span data-stu-id="d5c54-146">We dont send data to other partners systems</span></span>
+<span data-ttu-id="c4ef5-135">Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.</span><span class="sxs-lookup"><span data-stu-id="c4ef5-135">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
 
-#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="d5c54-147">Revisione umana delle informazioni organizzative</span><span class="sxs-lookup"><span data-stu-id="d5c54-147">Human review of organizational information</span></span>
+><span data-ttu-id="c4ef5-136">Non inviamo dati ad altri sistemi partner</span><span class="sxs-lookup"><span data-stu-id="c4ef5-136">We dont send data to other partners systems</span></span>
 
-<span data-ttu-id="d5c54-148">Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?</span><span class="sxs-lookup"><span data-stu-id="d5c54-148">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
+#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="c4ef5-137">Revisione umana delle informazioni organizzative</span><span class="sxs-lookup"><span data-stu-id="c4ef5-137">Human review of organizational information</span></span>
 
-><span data-ttu-id="d5c54-149">No</span><span class="sxs-lookup"><span data-stu-id="d5c54-149">No</span></span>
+<span data-ttu-id="c4ef5-138">Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di informazioni di identificazione dell'organizzazione (OII) raccolti o archiviati da questa app?</span><span class="sxs-lookup"><span data-stu-id="c4ef5-138">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
+
+><span data-ttu-id="c4ef5-139">No</span><span class="sxs-lookup"><span data-stu-id="c4ef5-139">No</span></span>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -97,11 +88,11 @@ ms.locfileid: "52251795"
 
 ::: zone pivot="mcas"
 
-<span data-ttu-id="d5c54-150">Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.</span><span class="sxs-lookup"><span data-stu-id="d5c54-150">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
+<span data-ttu-id="c4ef5-140">Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.</span><span class="sxs-lookup"><span data-stu-id="c4ef5-140">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
 
-<iframe height='1020' title='<span data-ttu-id="d5c54-151">Microsoft Cloud App Security Informazioni</span><span class="sxs-lookup"><span data-stu-id="d5c54-151">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="d5c54-152">
+<iframe height='1020' title='<span data-ttu-id="c4ef5-141">Microsoft Cloud App Security informazione</span><span class="sxs-lookup"><span data-stu-id="c4ef5-141">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="c4ef5-142">
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559" target="_blank">Visualizzazione in una nuova scheda</a></span><span class="sxs-lookup"><span data-stu-id="d5c54-152">
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559" target="_blank">Visualizzare in una nuova scheda</a></span><span class="sxs-lookup"><span data-stu-id="c4ef5-142">
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559" target="_blank">View in a new tab</a></span></span>
 
@@ -111,13 +102,13 @@ ms.locfileid: "52251795"
 
 ::: zone pivot="identity"
 
-### <a name="identity-information"></a><span data-ttu-id="d5c54-153">Informazioni sull'identità</span><span class="sxs-lookup"><span data-stu-id="d5c54-153">Identity information</span></span>
+### <a name="identity-information"></a><span data-ttu-id="c4ef5-143">Informazioni sull'identità</span><span class="sxs-lookup"><span data-stu-id="c4ef5-143">Identity information</span></span>
 
-<span data-ttu-id="d5c54-154">Queste informazioni sono state fornite da All Blue Solutions sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.</span><span class="sxs-lookup"><span data-stu-id="d5c54-154">This information has been provided by All Blue Solutions about how this app handles authentication, authorization, application registration best practices, and other Identity criteria.</span></span>
+<span data-ttu-id="c4ef5-144">Queste informazioni sono state fornite da All Blue Solutions su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.</span><span class="sxs-lookup"><span data-stu-id="c4ef5-144">This information has been provided by All Blue Solutions about how this app handles authentication, authorization, application registration best practices, and other Identity criteria.</span></span>
 
-| <span data-ttu-id="d5c54-155">**Informazioni**</span><span class="sxs-lookup"><span data-stu-id="d5c54-155">**Information**</span></span> | <span data-ttu-id="d5c54-156">**Risposta**</span><span class="sxs-lookup"><span data-stu-id="d5c54-156">**Response**</span></span> |
+| <span data-ttu-id="c4ef5-145">**Informazioni**</span><span class="sxs-lookup"><span data-stu-id="c4ef5-145">**Information**</span></span> | <span data-ttu-id="c4ef5-146">**risposta**</span><span class="sxs-lookup"><span data-stu-id="c4ef5-146">**Response**</span></span> |
 |:----------------|:-------------|
-| <span data-ttu-id="d5c54-157">Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?</span><span class="sxs-lookup"><span data-stu-id="d5c54-157">Do you integrate with Microsoft Identify Platform (Azure AD)?</span></span>  | <span data-ttu-id="d5c54-158">No</span><span class="sxs-lookup"><span data-stu-id="d5c54-158">No</span></span> |
+| <span data-ttu-id="c4ef5-147">Ti integri con Microsoft Identify Platform (Azure AD)?</span><span class="sxs-lookup"><span data-stu-id="c4ef5-147">Do you integrate with Microsoft Identify Platform (Azure AD)?</span></span>  | <span data-ttu-id="c4ef5-148">No</span><span class="sxs-lookup"><span data-stu-id="c4ef5-148">No</span></span> |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
