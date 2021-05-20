@@ -1,12 +1,12 @@
 ---
-title: Informazioni sulle applicazioni per Wunder365 per Office da JiJi Technologies Private Limited
+title: Informazioni sull'applicazione per Wunder365 per Office da JiJi Technologies Private Limited
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/15/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni disponibili sulla sicurezza e la conformità per Wunder365 per Office, i relativi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Wunder365 per Office, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 84138d8471b342ad67e2bad34b70166ddb77a539
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -19,25 +19,25 @@ ms.locfileid: "52550396"
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 15 dicembre 2020</p>
+<p>Last updated by the developer on: December 15, 2020</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200001529" target="_blank">Visualizza in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001529" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da JiJi Technologies Private Limited a Microsoft:
+Informazioni fornite da JiJi Technologies Private Limited per Microsoft:
 
-| **Informazioni** | **risposta** |
+| **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Wunder365 per Office |
+| Nome app | Wunder365 per Office |
 | ID | WA200001529 |
-| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2013 o versioni successive su Windows, Excel sul web, Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versioni successive Windows, OneNote sul web |
-| Nome della società partner | JiJi Technologies Private Limited |
-| URL del sito Web partner | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
-| URL dell'Informativa sulla privacy | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
-| URL delle Condizioni d'uso | [https://go.microsoft.com/fwlink/?linkid=2041178](https://go.microsoft.com/fwlink/?linkid=2041178) |
+| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2013 o versioni successive su Windows, Excel sul web, Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versioni successive su Windows, OneNote sul web |
+| Nome società partner | JiJi Technologies Private Limited |
+| URL del sito Web del partner | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| URL dell'informativa sulla privacy | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
+| URL delle Condizioni per l'utilizzo | [https://go.microsoft.com/fwlink/?linkid=2041178](https://go.microsoft.com/fwlink/?linkid=2041178) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,26 +45,26 @@ Informazioni fornite da JiJi Technologies Private Limited a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
+### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
 Queste informazioni sono state fornite da JiJi Technologies Private Limited su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per raccoglierlo?** | **I dati vengono archiviati? Giustificazione per conservarlo?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | delegato | Nessun dato memorizzato. | Per ottenere/aggiornare le attività di Planner, pubblicare gli aggiornamenti delle attività nel canale del team | 3c95A8B6-B71C-4C4A-8A1A-C7B9B80D9E9C |
->| Mail.Invia | delegato | Nessun dato memorizzato. | Consenti all'app di inviare notifiche tramite posta elettronica agli utenti | 3c95A8B6-B71C-4C4A-8A1A-C7B9B80D9E9C |
->| offline_access | delegato | Nessun dato memorizzato. | Per mantenere l'accesso dell'utente. | 3c95A8B6-B71C-4C4A-8A1A-C7B9B80D9E9C |
->| openid | delegato | Nessun dato memorizzato. | Consente agli utenti di accedere con l'account organizzativo | 3c95A8B6-B71C-4C4A-8A1A-C7B9B80D9E9C |
->| profilo | delegato | UPN, ID utente, ID e-mail, ID tenant per la verifica delle licenze, licenza gratuita. | Consente agli utenti di accedere con l'account organizzativo | 3c95A8B6-B71C-4C4A-8A1A-C7B9B80D9E9C |
+>| Group.ReadWrite.All | delegated | Nessun dato archiviato. | Per ottenere/aggiornare le attività di Planner, pubblicare gli aggiornamenti delle attività nel canale del team | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| Mail.Send | delegated | Nessun dato archiviato. | Consenti all'app di inviare notifiche tramite posta elettronica agli utenti | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| offline_access | delegated | Nessun dato archiviato. | Per mantenere l'utente connesso. | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| openid | delegated | Nessun dato archiviato. | Consente agli utenti di accedere con un account aziendale | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| profilo | delegated | UPN, ID utente, ID e-mail,ID tenant per la verifica delle licenze, licenza gratuita. | Consente agli utenti di accedere con un account aziendale | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
 
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 
@@ -72,21 +72,21 @@ Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Mi
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
-Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
+Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Stiamo accedendo a Azure Application Insights. Stiamo registrando l'ID tenant e l'ID e-mail dell'utente per identificare i problemi e aiutare i clienti a risolvere i problemi.
+>Stiamo accedendo ad Azure Application Insights. Stiamo registrare l'ID tenant e l'ID di posta elettronica dell'utente per identificare i problemi e aiutare i clienti a risolvere i problemi.
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Tutte le applicazioni Web Archiviazione le risorse di accesso si trovano in un abbonamento non connesso all'AAD aziendale con solo amministratori che hanno accesso alle risorse. 2FA è necessario per questi amministratori. 
+>Tutte le applicazioni Web e le Archiviazione si trovano in una sottoscrizione non connessa all'AAD aziendale con solo amministratori che hanno accesso alle risorse. Per questi amministratori è necessaria la 2FA. 
 
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
-Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di informazioni di identificazione dell'organizzazione (OII) raccolti o archiviati da questa app?
+Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
 
 >No
 
@@ -96,11 +96,11 @@ Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di inform
 
 ::: zone pivot="mcas"
 
-Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250" target="_blank">Visualizzare in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -110,24 +110,24 @@ Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://ww
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da JiJi Technologies Private Limited su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da JiJi Technologies Private Limited sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
-| **Informazioni** | **risposta** |
+| **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Ti integri con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Hai esaminato e rispettato tutte le best practice applicabili descritte nell'elenco di controllo Microsoft Identity Platform integrazione?  | Sì |
-| La tua app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | Sì |
-| Elencare i tipi di criteri supportati | Richiesta di autenticazione a più fattori per gli utenti con ruoli amministrativi, richiesta di autenticazione a più fattori per le attività di gestione di Azure, blocco degli accessi per gli utenti che tentano di usare protocolli di autenticazione legacy, richiesta di percorsi attendibili per la registrazione dell'autenticazione a più fattori di Azure AD, blocco o concessione dell'accesso da posizioni specifiche, blocco del comportamento di accesso rischioso |
+| Elencare i tipi di criteri supportati | Richiedere l'autenticazione a più fattori per gli utenti con ruoli amministrativi, Richiedere l'autenticazione a più fattori per le attività di gestione di Azure, Blocco degli accessi per gli utenti che tentano di utilizzare protocolli di autenticazione legacy, Richiesta di percorsi attendibili per la registrazione di Azure AD Multi-Factor Authentication, Blocco o concessione dell'accesso da posizioni specifiche, Blocco del comportamento di accesso rischioso |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
-| Le autorizzazioni registrate staticamente dell'app riflettono accuratamente le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
-| La tua app supporta la multi-tenancy? | Sì |
-| La tua app ha un client riservato? | Sì |
-| Possiedi tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa eviti di usare? | - Gli URI di reindirizzamento dei caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una SPA<br/>- Flusso ROPC (Resource Owner Password Credential) |
-| La tua app espone api Web? | No |
+| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
+| L'app supporta la multi-tenancy? | Sì |
+| L'app dispone di un client riservato? | Sì |
+| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | No |
 | La tua app usa le API di anteprima? | Sì |
-| La tua app usa API deprecate? | No |
+| L'app usa API deprecate? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

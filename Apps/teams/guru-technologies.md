@@ -1,12 +1,12 @@
 ---
-title: Informazioni sull'applicazione per Guru di Guru Technologies
+title: Informazioni sull'applicazione per Guru by Guru Technologies
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni disponibili sulla sicurezza e la conformità per Guru, le sue politiche di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza / conformità nel registro CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Guru, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 16abdcc7ab9b3da8cef55b17e5b63a3a7d916c51
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -19,10 +19,10 @@ ms.locfileid: "52553137"
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 1 marzo 2021</p>
+<p>Last updated by the developer on: March 1, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/094bf90e-e413-4740-b2dc-68d624d0e40e" target="_blank">Visualizza nel Teams negozio</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001719" target="_blank">Visualizza in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/094bf90e-e413-4740-b2dc-68d624d0e40e" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001719" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -30,16 +30,16 @@ ms.locfileid: "52553137"
 
 Informazioni fornite da Guru Technologies a Microsoft:
 
-| **Informazioni** | **risposta** |
+| **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Guru |
+| Nome app | Guru |
 | ID | WA200001719 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome della società partner | Guru Technologies |
-| URL del sito Web partner | [https://www.getguru.com/](https://www.getguru.com/) |
+| Nome società partner | Guru Technologies |
+| URL del sito Web del partner | [https://www.getguru.com/](https://www.getguru.com/) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.getguru.com/integrations/microsoft-teams](https://www.getguru.com/integrations/microsoft-teams) |
-| URL dell'Informativa sulla privacy | [https://www.getguru.com/privacy](https://www.getguru.com/privacy) |
-| URL delle Condizioni d'uso | [https://www.getguru.com/terms-of-service](https://www.getguru.com/terms-of-service) |
+| URL dell'informativa sulla privacy | [https://www.getguru.com/privacy](https://www.getguru.com/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://www.getguru.com/terms-of-service](https://www.getguru.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,47 +47,47 @@ Informazioni fornite da Guru Technologies a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
+### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
 Queste informazioni sono state fornite da Guru Technologies su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutti gli OII non servizi Microsoft non sono trasferiti** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
+>| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| L'applicazione per l'utente finale di Guru e i database interni | quando un utente o un'azienda configura l'app Guru per Teams, le informazioni comuni come nome utente, e-mail e nome della società associate al proprio profilo utente vengono registrate e accessibili da Guru | Dato che un utente deve avere sia un account Teams che Guru per utilizzare l'integrazione, monitoriamo e seguiamo quali utenti stanno consentendo l'integrazione per aiutare a fornire supporto e gestione a tali utenti |
+>| Applicazione dell'utente finale di Guru e database interni | quando un utente o una società configura l'app Guru per Teams, informazioni comuni come nome utente, posta elettronica e nome della società associate al profilo utente vengono registrate e accessibili da Guru | Dato che un utente deve disporre sia di un account Teams che di un account Guru per utilizzare l'integrazione, è possibile tenere traccia e seguire gli utenti che abilitano l'integrazione per fornire supporto e gestione a tali utenti |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
-Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo e-mail) di qualsiasi membro del team o della chat a cui è aggiunta. Questa app utilizza questa funzionalità?
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
->Non è possibile accedere all'I EUII.
+>Non è possibile accedere all'UEII.
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
-Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
+Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->quando un utente o una società configura l'app Guru per Teams, le informazioni comuni come nome utente, e-mail e nome società associate al proprio profilo utente vengono registrate e accessibili da Guru. Al momento della chiusura di un account, i dati vengono conservati per 90 giorni e quindi rimossi. 
+>quando un utente o una società configura l'app Guru per Teams, informazioni comuni come nome utente, posta elettronica e nome della società associate al profilo utente vengono registrate e accessibili da Guru. Al termine di un account, i dati vengono conservati per 90 giorni e quindi rimossi. 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Il team Impostazioni di Guru consente agli amministratori di un team di determinare quali gruppi e controlli di accesso/ruolo eseguire il provisioning in base alla raccolta, con la possibilità di aggiungere, rimuovere e ri assegnare carte a persone alternative. Enterprise clienti che hanno distribuito SSO hanno anche il vantaggio della console del provider SSO di onboard/offboard e stabilire gruppi tramite SCIM
+>Il Impostazioni team di Guru consente agli amministratori di un team di determinare quali gruppi e controlli di accesso/ruolo effettuare il provisioning in base alla raccolta, con la possibilità di aggiungere, rimuovere e rias assegnare schede a utenti alternativi. Enterprise clienti che hanno distribuito SSO hanno anche il vantaggio della console del provider SSO per eseguire l'onboard o l'offboard e stabilire gruppi tramite SCIM
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
-Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di informazioni di identificazione dell'organizzazione (OII) raccolti o archiviati da questa app?
+Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
 
 >No
 
@@ -97,11 +97,11 @@ Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di inform
 
 ::: zone pivot="mcas"
 
-Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912" target="_blank">Visualizzare in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -113,9 +113,9 @@ Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://ww
 
 Queste informazioni sono state fornite da Guru Technologies su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
-| **Informazioni** | **risposta** |
+| **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Ti integri con Microsoft Identify Platform (Azure AD)?  | No |
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

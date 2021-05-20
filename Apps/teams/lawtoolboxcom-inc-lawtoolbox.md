@@ -6,7 +6,7 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni disponibili sulla sicurezza e la conformità per LawToolBox, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza /conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per LawToolBox, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2e97d65822a5baeb0cd78101660084e4142e98ea
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -19,27 +19,27 @@ ms.locfileid: "52553007"
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 16 dicembre 2019</p>
+<p>Last updated by the developer on: December 16, 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d" target="_blank">Visualizza nel Teams negozio</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381656" target="_blank">Visualizza in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381656" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da LawToolBox.com Inc.
+Informazioni fornite da LawToolBox.com Inc. a Microsoft:
 
-| **Informazioni** | **risposta** |
+| **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | LawToolBox |
+| Nome app | LawToolBox |
 | ID | WA104381656 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome della società partner | LawToolBox.com Inc. |
-| URL del sito Web partner | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
+| Nome società partner | LawToolBox.com Inc. |
+| URL del sito Web del partner | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.lawtoolbox.com/Ads/Adchk.cfm?eaid=718](https://www.lawtoolbox.com/Ads/Adchk.cfm?eaid=718) |
-| URL dell'Informativa sulla privacy | [https://www.lawtoolbox.com/privacy-policy/](https://www.lawtoolbox.com/privacy-policy/) |
-| URL delle Condizioni d'uso | [https://www.lawtoolbox.com/Ads/Adchk.cfm?eaid=661](https://www.lawtoolbox.com/Ads/Adchk.cfm?eaid=661) |
+| URL dell'informativa sulla privacy | [https://www.lawtoolbox.com/privacy-policy/](https://www.lawtoolbox.com/privacy-policy/) |
+| URL delle Condizioni per l'utilizzo | [https://www.lawtoolbox.com/Ads/Adchk.cfm?eaid=661](https://www.lawtoolbox.com/Ads/Adchk.cfm?eaid=661) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,66 +47,66 @@ Informazioni fornite da LawToolBox.com Inc.
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
+### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da LawToolBox.com Inc.
+Queste informazioni sono state fornite da LawToolBox.com Inc. Su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per raccoglierlo?** | **I dati vengono archiviati? Giustificazione per conservarlo?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | delegato |  | [Facoltativo] Leggi il calendario dell'utente. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Calendars.ReadWrite | delegato |  | Per creare l'invito del calendario al calendario dell'utente. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Calendars.ReadWrite.Shared | delegato |  | Per creare l'invito del calendario al calendario condiviso. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Contatti.LetturaScrivi | delegato |  | [Facoltativo]- per leggere i contatti utente e connettere gli utenti dall'elenco contatti al gruppo. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Contacts.ReadWrite.Shared | delegato |  | [Facoltativo]- per leggere gli utenti ha condiviso i contatti per servire l'elenco dei contatti rilevanti per il caso. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Directory.AccessAsUser.All | delegato |  | [Facoltativo] Leggere le informazioni su gruppi e utenti come utente. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Directory.ReadWrite.All | delegato |  | [Facoltativo] Leggere le informazioni su gruppi e utenti come utente. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Files.Read | delegato |  | [Facoltativo] Leggi il controllo dell'OneDrive. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Files.Read.All | delegato |  | [Optional]-Leggi il controllo dell'OneDrive. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Files.ReadWrite | delegato |  | [Facoltativo]-Leggere e modificare i file nella finestra di dialogo di OneDrive. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Files.ReadWrite.All | delegato |  | [Facoltativo] File di lettura/scrittura dell'OneDrive file associato alla questione. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Group.ReadWrite.All | delegato | GroupID, GroupName, GroupEmail | Creiamo un gruppo per ogni materia creata nel nostro sistema. In questo modo l'utente archivia le informazioni relative alla materia nel gruppo, che a sua volta salva i propri dati nel proprio tenant. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Mail.Read | delegato |  | [Facoltativo] [InProgress] Leggi l'email dell'utente per Matters. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Mail.ReadWrite | delegato |  | [Facoltativo] [InProgress] Leggere/scrivere messaggi di posta elettronica per gli utenti. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Mail.ReadWrite.Shared | delegato |  | [Facoltativo] [InProgress] Leggere/scrivere messaggi di posta elettronica per gli utenti. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Mail.Invia | delegato |  | [Facoltativo] [InProgress] Inviare scadenze tramite posta elettronica come utente. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| Tasks.ReadWrite.Shared | delegato |  | [Optional]-[InProgress] Leggi le scadenze di scrittura come attività per gli utenti. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| User.Read | delegato |  | Leggere le informazioni dell'utente. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| User.ReadWrite | delegato |  | Leggere/scrivere le informazioni dell'utente. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| User.ReadWrite.All | delegato |  | Leggere/scrivere le informazioni dell'utente. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| e-mail | delegato | Posta elettronica, ID utente di Office365, IDO oggetto, ID Tenant. | Leggere l'indirizzo di posta elettronica dell'utente. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
->| profilo | delegato |  | Leggere le informazioni del profilo utente. | 3ee373AA-62FA-4FC6-B11F-9627D5B4A73D |
+>| Calendars.Read | delegated |  | [Facoltativo] Leggere il calendario dell'utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Calendars.ReadWrite | delegated |  | Per creare l'invito del calendario nel calendario dell'utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Calendars.ReadWrite.Shared | delegated |  | Per creare l'invito del calendario nel calendario condiviso. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Contacts.ReadWrite | delegated |  | [Facoltativo]- per leggere i contatti dell'utente e connettere gli utenti dall'elenco dei contatti al gruppo. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Contacts.ReadWrite.Shared | delegated |  | [Facoltativo]- Per leggere i contatti condivisi degli utenti per gestire l'elenco dei contatti rilevanti per il caso. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Directory.AccessAsUser.All | delegated |  | [Facoltativo] Leggere le informazioni relative a gruppi e utenti come utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Directory.ReadWrite.All | delegated |  | [Facoltativo] Leggere le informazioni relative a gruppi e utenti come utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Files.Read | delegated |  | [Facoltativo] Leggere i dati dell'OneDrive. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Files.Read.All | delegated |  | [Facoltativo]-Lettura dell'OneDrive. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Files.ReadWrite | delegated |  | [Facoltativo]-Leggere e modificare i file nel OneDrive. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Files.ReadWrite.All | delegated |  | [Facoltativo] File di OneDrive utente di lettura/scrittura associato all'oggetto Matter. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Group.ReadWrite.All | delegated | GroupID, GroupName, GroupEmail | Creiamo un gruppo per ogni materia creata nel nostro sistema. Questo consente agli utenti di archiviare le informazioni relative alla materia nel gruppo, che a sua volta salva i dati nel proprio tenant. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Mail.Read | delegated |  | [Facoltativo] [InProgress] Leggere la posta elettronica dell'utente per Matters. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Mail.ReadWrite | delegated |  | [Facoltativo] [InProgress] Posta elettronica di lettura/scrittura per gli utenti. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Mail.ReadWrite.Shared | delegated |  | [Facoltativo] [InProgress] Posta elettronica di lettura/scrittura per gli utenti. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Mail.Send | delegated |  | [Facoltativo] [InProgress] Invia scadenze tramite posta elettronica come utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| Tasks.ReadWrite.Shared | delegated |  | [Optional]-[InProgress] Read Write Deadlines as Task for users. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| User.Read | delegated |  | Leggere le informazioni dell'utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| User.ReadWrite | delegated |  | Informazioni utente di lettura/scrittura. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| User.ReadWrite.All | delegated |  | Informazioni utente di lettura/scrittura. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| e-mail | delegated | Email, Office365 UserID, ObjectID, TenantID. | Leggere l'indirizzo di posta elettronica dell'utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>| profilo | delegated |  | Leggere le informazioni sul profilo utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
 
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
-Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo e-mail) di qualsiasi membro del team o della chat a cui è aggiunta. Questa app utilizza questa funzionalità?
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
->| **Giustificazione per l'accesso all'I EUII?**  | **L'III è memorizzato in database?** | **Giustificazione per la conservazione dell'III?** |
+>| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Per identificare l'utente appena aggiunto nel team e verificare la presenza di un potenziale lead | Posta elettronica, IdUtevole |  |
+>| Per identificare l'utente appena aggiunto nel team e verificare la presenza di un potenziale lead | Email, UserId |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
-Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
+Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->User Email,UserID, AccessToken, Raggruppa le informazioni nel registro di debug
+>User Email,UserID, AccessToken, Groups information in our debug log
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Conserviamo i record dei casi a meno che non riceviamo una richiesta di eliminazione dei dati.
+>I record dei casi vengono conservati a meno che non si riceva una richiesta di eliminazione dei dati.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -115,11 +115,11 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35680' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35680' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35680" target="_blank">Visualizzare in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35680" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

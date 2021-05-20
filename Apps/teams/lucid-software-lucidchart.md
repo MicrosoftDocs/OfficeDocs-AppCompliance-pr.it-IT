@@ -6,7 +6,7 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni disponibili sulla sicurezza e la conformità per Lucidchart, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza /conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Lucidchart, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: cdfec0551da7278ac92c3e24caa2664a26a89bea
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -19,10 +19,10 @@ ms.locfileid: "52552967"
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 16 dicembre 2019</p>
+<p>Last updated by the developer on: December 16, 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/7f905be6-3226-4a4c-9c54-ab1edce3c99c" target="_blank">Visualizza nel Teams negozio</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381935" target="_blank">Visualizza in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/7f905be6-3226-4a4c-9c54-ab1edce3c99c" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381935" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -30,16 +30,16 @@ ms.locfileid: "52552967"
 
 Informazioni fornite da Lucid Software a Microsoft:
 
-| **Informazioni** | **risposta** |
+| **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Lucidchart |
+| Nome app | Lucidchart |
 | ID | WA104381935 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome della società partner | Lucid Software |
-| URL del sito Web partner | [https://www.lucidchart.com](https://www.lucidchart.com) |
+| Nome società partner | Lucid Software |
+| URL del sito Web del partner | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://lucidchart.zendesk.com/](https://lucidchart.zendesk.com/) |
-| URL dell'Informativa sulla privacy | [https://lucid.co/privacy](https://lucid.co/privacy) |
-| URL delle Condizioni d'uso | [https://lucid.co/tos](https://lucid.co/tos) |
+| URL dell'informativa sulla privacy | [https://lucid.co/privacy](https://lucid.co/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://lucid.co/tos](https://lucid.co/tos) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,58 +47,58 @@ Informazioni fornite da Lucid Software a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
+### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
 Queste informazioni sono state fornite da Lucid Software su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per raccoglierlo?** | **I dati vengono archiviati? Giustificazione per conservarlo?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| e-mail | delegato | Nome e indirizzo email. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidchart di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidchart per loro, se necessario. Per verificare i dati che tornano da Microsoft, facciamo una richiesta per ottenere la chiave pubblica con cui è firmata la loro risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del nostro flusso SSO. |  |
->| openid | delegato | Nome e indirizzo email. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidchart di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidchart per loro, se necessario. Per verificare i dati che tornano da Microsoft, facciamo una richiesta per ottenere la chiave pubblica con cui è firmata la loro risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del nostro flusso SSO. |  |
->| profilo | delegato | Nome e indirizzo email. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidchart di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidchart per loro, se necessario. Per verificare i dati che tornano da Microsoft, facciamo una richiesta per ottenere la chiave pubblica con cui è firmata la loro risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del nostro flusso SSO. |  |
+>| e-mail | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidchart di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidchart per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. |  |
+>| openid | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidchart di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidchart per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. |  |
+>| profilo | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidchart di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidchart per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. |  |
 
-#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati tramite altre API Microsoft
+#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono utilizzare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni di identificazione dell'organizzazione ( OII). Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
->| **API** |  **OII viene raccolto?** |  **Quale OII viene raccolto?** | **Giustificazione per la raccolta di OII?** | **OII è memorizzato?** | **Giustificazione per l'archiviazione di OII?** |
+>| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| API JavaScript per Office | Sì | Usiamo l'SDK javascript Office OneDrive per aprire il OneDrive di file utilizzando OneDrive.open(). Non generiamo token di accesso e non facciamo alcuna richiesta alle API OneDrive di internet; il OneDrive SDK di scelta dei file lo fa per noi. Vediamo solo i nomi di file che l'utente sceglie. |  | Se l'utente seleziona un file utilizzando il OneDrive di file, viene memorizzato il nome del file. |  |
+>| API JavaScript per Office | Sì | Usiamo javascript SDK Office OneDrive per aprire lo strumento OneDrive selezione file usando OneDrive.open(). Non generiamo alcun token di accesso e non eserciteremo alcuna richiesta per OneDrive api di microsoft; l OneDrive SDK di Selezione file esegue questa operazione per noi. Vengono visualizzati solo i nomi di file che l'utente sceglie. |  | Se l'utente seleziona un file utilizzando lo strumento OneDrive selezione file, il nome del file viene archiviato. |  |
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutti gli OII non servizi Microsoft non sono trasferiti** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
+>| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| I dati lucidchart vengono archiviati in AWS. |  | Non usiamo API Microsoft. Usiamo openID per ottenere i dati utente di base per eseguire SSO. Usiamo la loro API di selezione file, ma ciò non ci dà accesso ai file dell'utente diversi da quelli che ci inviano tramite la selezione. |
+>| I dati di Lucidchart vengono archiviati in AWS. |  | Non usiamo api Microsoft. Usiamo openID per ottenere i dati utente di base per eseguire SSO. Usiamo l'API di selezione file, ma questo non ci consente di accedere ai file dell'utente diversi da quelli che ci inviano tramite la selezione. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
-Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo e-mail) di qualsiasi membro del team o della chat a cui è aggiunta. Questa app utilizza questa funzionalità?
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
->Non è possibile accedere all'I EUII.
+>Non è possibile accedere all'UEII.
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
-Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
+Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Registriamo e-mail e indirizzi IP per motivi di sicurezza e supporto. Tutti gli accessi ai registri sono &amp; registrati i registri sono effettivamente immutabili in un sistema di terze parti. L'accesso ai registri richiede l'autenticazione a più fattori.
+>Registriamo la posta elettronica e gli indirizzi IP per motivi di sicurezza e supporto. Tutti gli accessi ai log registrati &amp; sono effettivamente immutabili in un sistema di terze parti. L'accesso ai log richiede L'autenticazione a più fattori.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati lucidchart vengono archiviati in AWS. È criptato a riposo e in transito. Lucidchart utilizza le regole del privilegio minimo e dell'autenticazione a più fattori.
+>I dati di Lucidchart vengono archiviati in AWS. Viene crittografato in fase di riposo e in transito. Lucidchart usa le regole dei privilegi minimi e dell'autenticazione a più fattori.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
-Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di informazioni di identificazione dell'organizzazione (OII) raccolti o archiviati da questa app?
+Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
 
 >No
 
@@ -108,11 +108,11 @@ Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di inform
 
 ::: zone pivot="mcas"
 
-Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12761' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12761' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/12761" target="_blank">Visualizzare in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/12761" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
