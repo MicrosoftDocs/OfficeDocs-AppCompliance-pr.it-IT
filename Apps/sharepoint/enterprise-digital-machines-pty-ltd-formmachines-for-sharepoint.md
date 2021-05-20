@@ -1,12 +1,12 @@
 ---
-title: Informazioni sulla domanda di formulari per SharePoint da ENTERPRISE DIGITAL MACHINES PTY LTD
+title: Application Information for FormMachines for SharePoint by ENTERPRISE DIGITAL MACHINES PTY LTD
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni disponibili sulla sicurezza e la conformità per FormMachines per SharePoint, i relativi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per FormMachines per SharePoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 4c423cac4f879ba4f73a9bba5f9004acb4cfa21a
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -19,9 +19,9 @@ ms.locfileid: "52553547"
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 3 novembre 2020</p>
+<p>Last updated by the developer on: November 3, 2020</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200000357" target="_blank">Visualizza in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200000357" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -29,15 +29,15 @@ ms.locfileid: "52553547"
 
 Informazioni fornite da ENTERPRISE DIGITAL MACHINES PTY LTD a Microsoft:
 
-| **Informazioni** | **risposta** |
+| **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | FormMachines per SharePoint |
+| Nome app | FormMachines per SharePoint |
 | ID | WA200000357 |
 | Office 365 client supportati | SharePoint 2016 o versione successiva |
-| Nome della società partner | MACCHINE DIGITALI AZIENDALI PTY LTD |
-| URL del sito Web partner | [https://www.formmachines.com/](https://www.formmachines.com/) |
-| URL dell'Informativa sulla privacy | [https://www.formmachines.com/?dirKey=fm-privacy](https://www.formmachines.com/?dirKey=fm-privacy) |
-| URL delle Condizioni d'uso | [https://www.formmachines.com/?dirKey=fm-terms-of-use](https://www.formmachines.com/?dirKey=fm-terms-of-use) |
+| Nome società partner | ENTERPRISE DIGITAL MACHINES PTY LTD |
+| URL del sito Web del partner | [https://www.formmachines.com/](https://www.formmachines.com/) |
+| URL dell'informativa sulla privacy | [https://www.formmachines.com/?dirKey=fm-privacy](https://www.formmachines.com/?dirKey=fm-privacy) |
+| URL delle Condizioni per l'utilizzo | [https://www.formmachines.com/?dirKey=fm-terms-of-use](https://www.formmachines.com/?dirKey=fm-terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,22 +45,22 @@ Informazioni fornite da ENTERPRISE DIGITAL MACHINES PTY LTD a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Come l'app gestisce i dati
+### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
 Queste informazioni sono state fornite da ENTERPRISE DIGITAL MACHINES PTY LTD su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per raccoglierlo?** | **I dati vengono archiviati? Giustificazione per conservarlo?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegato | (accesso, posta elettronica, GUID di Azure, displayName, first_login_date_time) | consente all'utente di accedere e dà all'app l'accesso al proprio UPN per consentire l'accesso invisibile all'utente, ci consente di identificare in modo univoco ogni utente | 8c87660F-D36F-41F6-B0AE-025253F380AAAA |
+>| User.Read | delegated | (login, email, Azure Guid, displayName, first_login_date_time) | consente all'utente di accedere e consente all'app di accedere al proprio UPN per abilitare l'accesso invisibile all'utente, ci consente di identificare in modo univoco ogni utente | 8c87660f-d36f-41f6-b0ae-025253f380aaa |
 
 
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft utilizzati
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 
@@ -68,19 +68,19 @@ Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Mi
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
-Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
+Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->. Registriamo solo errori . Nel nostro registro errori, registriamo solo le informazioni relative agli errori. Quale client o cliente ha attivato un particolare errore non viene raccolto . Solo i tecnici del supporto tecnico hanno accesso ai registri degli errori . I registri degli errori vengono visualizzati online, non scaricati e visualizzati . I registri degli errori vengono eliminati automaticamente dopo 30 giorni
+>. Vengono solo rilevati errori . Nel registro errori vengono registrate solo le informazioni relative agli errori. Il client o il cliente che ha generato un determinato errore non viene raccolto. Solo i tecnici del supporto hanno accesso ai log degli errori. I log degli errori vengono visualizzati online, non scaricati e visualizzati. I log degli errori vengono eliminati automaticamente dopo 30 giorni
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->. I dati vengono archiviati nei data center basati su Azure NEGLI STATI UNITI . I dati forniti dal client, ad esempio modelli e invii, vengono crittografati nel db . I file allegati vengono archiviati in contenitori BLOB di Azure privati, gli utenti devono eseguire l'autenticazione prima di accedervi . Abbiamo al massimo due amministratori che possono accedere alle nostre risorse di produzione, per la risoluzione dei problemi e la distribuzione. Questi due account amministratore sono partizionati in modo diverso da tutti gli altri account. Il numero di accessi amministratore non supererà mai due
+>. I dati vengono archiviati in data center basati su Azure US. I dati forniti dal client, ad esempio modelli e invii, vengono crittografati nel database . I file allegati vengono archiviati in contenitori BLOB di Azure privati, gli utenti devono eseguire l'autenticazione prima di accedervi. Abbiamo al massimo due amministratori che possono accedere alle risorse di produzione per la risoluzione dei problemi e la distribuzione. Questi due account di amministratore sono partizionati in modo diverso rispetto a tutti gli altri account. Il numero di accessi dell'amministratore non supererà mai due
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
-Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di informazioni di identificazione dell'organizzazione (OII) raccolti o archiviati da questa app?
+Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
 
 >Sì
 
@@ -90,11 +90,11 @@ Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di inform
 
 ::: zone pivot="mcas"
 
-Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security informazione' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36144' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36144' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36144" target="_blank">Visualizzare in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36144" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
