@@ -1,12 +1,12 @@
 ---
-title: Informazioni sulla candidatura per AttendanceBot di Anaek
+title: Informazioni sull'applicazione per AttendanceBot di Anaek
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni disponibili sulla sicurezza e la conformità per AttendanceBot, i suoi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza /conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per AttendanceBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: d99f924734bd6857b32ebb85942e5ef7ddb3cf18
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -15,31 +15,31 @@ ms.contentlocale: it-IT
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52553427"
 ---
-# <a name="attendancebot"></a><span data-ttu-id="ff2d2-103">AttendanceBot</span><span class="sxs-lookup"><span data-stu-id="ff2d2-103">AttendanceBot</span></span>
+# <a name="attendancebot"></a><span data-ttu-id="304d8-103">AttendanceBot</span><span class="sxs-lookup"><span data-stu-id="304d8-103">AttendanceBot</span></span>
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p><span data-ttu-id="ff2d2-104">Ultimo aggiornamento da parte dello sviluppatore: 23 marzo 2021</span><span class="sxs-lookup"><span data-stu-id="ff2d2-104">Last updated by the developer on: March 23, 2021</span></span></p>
+<p><span data-ttu-id="304d8-104">Last updated by the developer on: March 23, 2021</span><span class="sxs-lookup"><span data-stu-id="304d8-104">Last updated by the developer on: March 23, 2021</span></span></p>
 
-* <span data-ttu-id="ff2d2-105"><a href="https://teams.microsoft.com/l/app/77231724-5a80-4edf-ad93-dfd2e61207fa" target="_blank">Visualizza nel Teams negozio</a></span><span class="sxs-lookup"><span data-stu-id="ff2d2-105"><a href="https://teams.microsoft.com/l/app/77231724-5a80-4edf-ad93-dfd2e61207fa" target="_blank">View in Teams store</a></span></span>
-* <span data-ttu-id="ff2d2-106"><a href="https://appsource.microsoft.com/product/office/WA104381652" target="_blank">Visualizza in AppSource</a></span><span class="sxs-lookup"><span data-stu-id="ff2d2-106"><a href="https://appsource.microsoft.com/product/office/WA104381652" target="_blank">View in AppSource</a></span></span>
+* <span data-ttu-id="304d8-105"><a href="https://teams.microsoft.com/l/app/77231724-5a80-4edf-ad93-dfd2e61207fa" target="_blank">Visualizzazione in Teams store</a></span><span class="sxs-lookup"><span data-stu-id="304d8-105"><a href="https://teams.microsoft.com/l/app/77231724-5a80-4edf-ad93-dfd2e61207fa" target="_blank">View in Teams store</a></span></span>
+* <span data-ttu-id="304d8-106"><a href="https://appsource.microsoft.com/product/office/WA104381652" target="_blank">Visualizzazione in AppSource</a></span><span class="sxs-lookup"><span data-stu-id="304d8-106"><a href="https://appsource.microsoft.com/product/office/WA104381652" target="_blank">View in AppSource</a></span></span>
 
 ::: zone pivot="general"
 
-### <a name="general-information"></a><span data-ttu-id="ff2d2-107">Informazioni generali</span><span class="sxs-lookup"><span data-stu-id="ff2d2-107">General information</span></span>
+### <a name="general-information"></a><span data-ttu-id="304d8-107">Informazioni generali</span><span class="sxs-lookup"><span data-stu-id="304d8-107">General information</span></span>
 
-<span data-ttu-id="ff2d2-108">Informazioni fornite da Anaek a Microsoft:</span><span class="sxs-lookup"><span data-stu-id="ff2d2-108">Information provided by Anaek to Microsoft:</span></span>
+<span data-ttu-id="304d8-108">Informazioni fornite da Anaek a Microsoft:</span><span class="sxs-lookup"><span data-stu-id="304d8-108">Information provided by Anaek to Microsoft:</span></span>
 
-| <span data-ttu-id="ff2d2-109">**Informazioni**</span><span class="sxs-lookup"><span data-stu-id="ff2d2-109">**Information**</span></span> | <span data-ttu-id="ff2d2-110">**risposta**</span><span class="sxs-lookup"><span data-stu-id="ff2d2-110">**Response**</span></span> |
+| <span data-ttu-id="304d8-109">**Informazioni**</span><span class="sxs-lookup"><span data-stu-id="304d8-109">**Information**</span></span> | <span data-ttu-id="304d8-110">**Risposta**</span><span class="sxs-lookup"><span data-stu-id="304d8-110">**Response**</span></span> |
 |:----------------|:-------------|
-| <span data-ttu-id="ff2d2-111">Nome dell'app</span><span class="sxs-lookup"><span data-stu-id="ff2d2-111">App name</span></span> | <span data-ttu-id="ff2d2-112">AttendanceBot</span><span class="sxs-lookup"><span data-stu-id="ff2d2-112">AttendanceBot</span></span> |
-| <span data-ttu-id="ff2d2-113">ID</span><span class="sxs-lookup"><span data-stu-id="ff2d2-113">ID</span></span> | <span data-ttu-id="ff2d2-114">WA104381652</span><span class="sxs-lookup"><span data-stu-id="ff2d2-114">WA104381652</span></span> |
-| <span data-ttu-id="ff2d2-115">Office 365 client supportati</span><span class="sxs-lookup"><span data-stu-id="ff2d2-115">Office 365 clients supported</span></span> | <span data-ttu-id="ff2d2-116">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ff2d2-116">Microsoft Teams</span></span> |
-| <span data-ttu-id="ff2d2-117">Nome della società partner</span><span class="sxs-lookup"><span data-stu-id="ff2d2-117">Partner company name</span></span> | <span data-ttu-id="ff2d2-118">Anaek</span><span class="sxs-lookup"><span data-stu-id="ff2d2-118">Anaek</span></span> |
-| <span data-ttu-id="ff2d2-119">URL del sito Web partner</span><span class="sxs-lookup"><span data-stu-id="ff2d2-119">URL of partner website</span></span> | [https://www.attendancebot.com/microsoft-teams/](https://www.attendancebot.com/microsoft-teams/) |
-| <span data-ttu-id="ff2d2-120">URL della pagina Teams informazioni sull'applicazione</span><span class="sxs-lookup"><span data-stu-id="ff2d2-120">URL of Teams application info page</span></span> | [https://www.attendancebot.com](https://www.attendancebot.com) |
-| <span data-ttu-id="ff2d2-121">URL dell'Informativa sulla privacy</span><span class="sxs-lookup"><span data-stu-id="ff2d2-121">URL of Privacy Policy</span></span> | [https://www.attendancebot.com/attendance/privacy/](https://www.attendancebot.com/attendance/privacy/) |
-| <span data-ttu-id="ff2d2-122">URL delle Condizioni d'uso</span><span class="sxs-lookup"><span data-stu-id="ff2d2-122">URL of Terms of Use</span></span> | [https://www.attendancebot.com/attendance/tos/](https://www.attendancebot.com/attendance/tos/) |
+| <span data-ttu-id="304d8-111">Nome app</span><span class="sxs-lookup"><span data-stu-id="304d8-111">App name</span></span> | <span data-ttu-id="304d8-112">AttendanceBot</span><span class="sxs-lookup"><span data-stu-id="304d8-112">AttendanceBot</span></span> |
+| <span data-ttu-id="304d8-113">ID</span><span class="sxs-lookup"><span data-stu-id="304d8-113">ID</span></span> | <span data-ttu-id="304d8-114">WA104381652</span><span class="sxs-lookup"><span data-stu-id="304d8-114">WA104381652</span></span> |
+| <span data-ttu-id="304d8-115">Office 365 client supportati</span><span class="sxs-lookup"><span data-stu-id="304d8-115">Office 365 clients supported</span></span> | <span data-ttu-id="304d8-116">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="304d8-116">Microsoft Teams</span></span> |
+| <span data-ttu-id="304d8-117">Nome società partner</span><span class="sxs-lookup"><span data-stu-id="304d8-117">Partner company name</span></span> | <span data-ttu-id="304d8-118">Anaek</span><span class="sxs-lookup"><span data-stu-id="304d8-118">Anaek</span></span> |
+| <span data-ttu-id="304d8-119">URL del sito Web del partner</span><span class="sxs-lookup"><span data-stu-id="304d8-119">URL of partner website</span></span> | [https://www.attendancebot.com/microsoft-teams/](https://www.attendancebot.com/microsoft-teams/) |
+| <span data-ttu-id="304d8-120">URL della pagina Teams informazioni sull'applicazione</span><span class="sxs-lookup"><span data-stu-id="304d8-120">URL of Teams application info page</span></span> | [https://www.attendancebot.com](https://www.attendancebot.com) |
+| <span data-ttu-id="304d8-121">URL dell'informativa sulla privacy</span><span class="sxs-lookup"><span data-stu-id="304d8-121">URL of Privacy Policy</span></span> | [https://www.attendancebot.com/attendance/privacy/](https://www.attendancebot.com/attendance/privacy/) |
+| <span data-ttu-id="304d8-122">URL delle Condizioni per l'utilizzo</span><span class="sxs-lookup"><span data-stu-id="304d8-122">URL of Terms of Use</span></span> | [https://www.attendancebot.com/attendance/tos/](https://www.attendancebot.com/attendance/tos/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,49 +47,49 @@ ms.locfileid: "52553427"
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a><span data-ttu-id="ff2d2-123">Come l'app gestisce i dati</span><span class="sxs-lookup"><span data-stu-id="ff2d2-123">How the app handles data</span></span>
+### <a name="how-the-app-handles-data"></a><span data-ttu-id="304d8-123">Modalità di gestione dei dati da parte dell'app</span><span class="sxs-lookup"><span data-stu-id="304d8-123">How the app handles data</span></span>
 
-<span data-ttu-id="ff2d2-124">Queste informazioni sono state fornite da Anaek su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.</span><span class="sxs-lookup"><span data-stu-id="ff2d2-124">This information has been provided by Anaek about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
+<span data-ttu-id="304d8-124">Queste informazioni sono state fornite da Anaek su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.</span><span class="sxs-lookup"><span data-stu-id="304d8-124">This information has been provided by Anaek about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
 
-#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="ff2d2-125">Accesso ai dati tramite Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="ff2d2-125">Data access using Microsoft Graph</span></span>
+#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="304d8-125">Accesso ai dati tramite Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="304d8-125">Data access using Microsoft Graph</span></span>
 
-<span data-ttu-id="ff2d2-126">Elenca tutte [le autorizzazioni Graph microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.</span><span class="sxs-lookup"><span data-stu-id="ff2d2-126">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
+<span data-ttu-id="304d8-126">Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.</span><span class="sxs-lookup"><span data-stu-id="304d8-126">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
 
-><span data-ttu-id="ff2d2-127">Questa applicazione non utilizza Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="ff2d2-127">This application does not use Microsoft Graph.</span></span>
+><span data-ttu-id="304d8-127">Questa applicazione non utilizza Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="304d8-127">This application does not use Microsoft Graph.</span></span>
 
 
-#### <a name="non-microsoft-services-used"></a><span data-ttu-id="ff2d2-128">Non servizi Microsoft utilizzati</span><span class="sxs-lookup"><span data-stu-id="ff2d2-128">Non-Microsoft services used</span></span>
+#### <a name="non-microsoft-services-used"></a><span data-ttu-id="304d8-128">Non servizi Microsoft usato</span><span class="sxs-lookup"><span data-stu-id="304d8-128">Non-Microsoft services used</span></span>
 
-<span data-ttu-id="ff2d2-129">Se l'app trasferisce o condivide dati dell'organizzazione con un servizio non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, quali dati vengono trasferiti e includi una giustificazione del motivo per cui l'app deve trasferire queste informazioni.</span><span class="sxs-lookup"><span data-stu-id="ff2d2-129">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
+<span data-ttu-id="304d8-129">Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.</span><span class="sxs-lookup"><span data-stu-id="304d8-129">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
 
-><span data-ttu-id="ff2d2-130">Non vengono servizi Microsoft non vengono utilizzati.</span><span class="sxs-lookup"><span data-stu-id="ff2d2-130">Non-Microsoft services are not used.</span></span>
+><span data-ttu-id="304d8-130">Non vengono servizi Microsoft non vengono utilizzati.</span><span class="sxs-lookup"><span data-stu-id="304d8-130">Non-Microsoft services are not used.</span></span>
 
-#### <a name="data-access-via-bots"></a><span data-ttu-id="ff2d2-131">Accesso ai dati tramite bot</span><span class="sxs-lookup"><span data-stu-id="ff2d2-131">Data access via bots</span></span>
+#### <a name="data-access-via-bots"></a><span data-ttu-id="304d8-131">Accesso ai dati tramite bot</span><span class="sxs-lookup"><span data-stu-id="304d8-131">Data access via bots</span></span>
 
-<span data-ttu-id="ff2d2-132">Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo e-mail) di qualsiasi membro del team o della chat a cui è aggiunta.</span><span class="sxs-lookup"><span data-stu-id="ff2d2-132">If this app contains a bot or a messaging extension, it can access end-user identifiable information (EUII): the roster (first name, last name, display name, email address) of any team member in a team or chat it's added to.</span></span> <span data-ttu-id="ff2d2-133">Questa app utilizza questa funzionalità?</span><span class="sxs-lookup"><span data-stu-id="ff2d2-133">Does this app make use of this capability?</span></span>
+<span data-ttu-id="304d8-132">Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta.</span><span class="sxs-lookup"><span data-stu-id="304d8-132">If this app contains a bot or a messaging extension, it can access end-user identifiable information (EUII): the roster (first name, last name, display name, email address) of any team member in a team or chat it's added to.</span></span> <span data-ttu-id="304d8-133">Questa app usa questa funzionalità?</span><span class="sxs-lookup"><span data-stu-id="304d8-133">Does this app make use of this capability?</span></span>
 
->| <span data-ttu-id="ff2d2-134">**Giustificazione per l'accesso all'I EUII?**</span><span class="sxs-lookup"><span data-stu-id="ff2d2-134">**Justification for accessing EUII?**</span></span>  | <span data-ttu-id="ff2d2-135">**L'III è memorizzato in database?**</span><span class="sxs-lookup"><span data-stu-id="ff2d2-135">**Is EUII stored in database(s)?**</span></span> | <span data-ttu-id="ff2d2-136">**Giustificazione per la conservazione dell'III?**</span><span class="sxs-lookup"><span data-stu-id="ff2d2-136">**Justification for storing EUII?**</span></span> |
+>| <span data-ttu-id="304d8-134">**Giustificazione per l'accesso a EUII?**</span><span class="sxs-lookup"><span data-stu-id="304d8-134">**Justification for accessing EUII?**</span></span>  | <span data-ttu-id="304d8-135">**L'EUII è archiviato nei database?**</span><span class="sxs-lookup"><span data-stu-id="304d8-135">**Is EUII stored in database(s)?**</span></span> | <span data-ttu-id="304d8-136">**Giustificazione per l'archiviazione di EUII?**</span><span class="sxs-lookup"><span data-stu-id="304d8-136">**Justification for storing EUII?**</span></span> |
 >|:--------------------------------|:---------------------|:--------------------------|
->| <span data-ttu-id="ff2d2-137">AttendanceBot accede a PII da MS Teams</span><span class="sxs-lookup"><span data-stu-id="ff2d2-137">AttendanceBot accesses PII from MS Teams</span></span> | <span data-ttu-id="ff2d2-138">Nome, cognome e indirizzo di posta elettronica</span><span class="sxs-lookup"><span data-stu-id="ff2d2-138">First name, last name, and email address</span></span> | <span data-ttu-id="ff2d2-139">L'indirizzo email è l'identificatore univoco per ogni team che installa AttendanceBot</span><span class="sxs-lookup"><span data-stu-id="ff2d2-139">Email address is the unique identifier for each team that installs AttendanceBot</span></span> |
+>| <span data-ttu-id="304d8-137">AttendanceBot accede alle informazioni personali da MS Teams</span><span class="sxs-lookup"><span data-stu-id="304d8-137">AttendanceBot accesses PII from MS Teams</span></span> | <span data-ttu-id="304d8-138">Nome, cognome e indirizzo di posta elettronica</span><span class="sxs-lookup"><span data-stu-id="304d8-138">First name, last name, and email address</span></span> | <span data-ttu-id="304d8-139">Indirizzo di posta elettronica è l'identificatore univoco per ogni team che installa AttendanceBot</span><span class="sxs-lookup"><span data-stu-id="304d8-139">Email address is the unique identifier for each team that installs AttendanceBot</span></span> |
 
 
-#### <a name="telemetry-data"></a><span data-ttu-id="ff2d2-140">Dati di telemetria</span><span class="sxs-lookup"><span data-stu-id="ff2d2-140">Telemetry data</span></span>
+#### <a name="telemetry-data"></a><span data-ttu-id="304d8-140">Dati di telemetria</span><span class="sxs-lookup"><span data-stu-id="304d8-140">Telemetry data</span></span>
 
-<span data-ttu-id="ff2d2-141">Nella telemetria o nei registri dell'applicazione vengono visualizzate informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII)?</span><span class="sxs-lookup"><span data-stu-id="ff2d2-141">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="ff2d2-142">In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?</span><span class="sxs-lookup"><span data-stu-id="ff2d2-142">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
+<span data-ttu-id="304d8-141">Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione?</span><span class="sxs-lookup"><span data-stu-id="304d8-141">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="304d8-142">In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?</span><span class="sxs-lookup"><span data-stu-id="304d8-142">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
 
-><span data-ttu-id="ff2d2-143">Nessun OII o EUII viene visualizzato nei registri o nella telemetria delle applicazioni.</span><span class="sxs-lookup"><span data-stu-id="ff2d2-143">No OII or EUII appear in the applications telemetry or logs.</span></span>
+><span data-ttu-id="304d8-143">Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.</span><span class="sxs-lookup"><span data-stu-id="304d8-143">No OII or EUII appear in the applications telemetry or logs.</span></span>
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="ff2d2-144">Controlli dell'organizzazione per i dati archiviati dal partner</span><span class="sxs-lookup"><span data-stu-id="ff2d2-144">Organizational controls for data stored by partner</span></span>
+#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="304d8-144">Controlli dell'organizzazione per i dati archiviati dal partner</span><span class="sxs-lookup"><span data-stu-id="304d8-144">Organizational controls for data stored by partner</span></span>
 
-<span data-ttu-id="ff2d2-145">Descrivere in che modo gli amministratori dell'organizzazione possono controllare le proprie informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, politica dell'utente finale, ecc.</span><span class="sxs-lookup"><span data-stu-id="ff2d2-145">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
+<span data-ttu-id="304d8-145">Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.</span><span class="sxs-lookup"><span data-stu-id="304d8-145">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
 
-><span data-ttu-id="ff2d2-146">ND</span><span class="sxs-lookup"><span data-stu-id="ff2d2-146">NA</span></span>
+><span data-ttu-id="304d8-146">ND</span><span class="sxs-lookup"><span data-stu-id="304d8-146">NA</span></span>
 
-#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="ff2d2-147">Revisione umana delle informazioni organizzative</span><span class="sxs-lookup"><span data-stu-id="ff2d2-147">Human review of organizational information</span></span>
+#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="304d8-147">Revisione umana delle informazioni organizzative</span><span class="sxs-lookup"><span data-stu-id="304d8-147">Human review of organizational information</span></span>
 
-<span data-ttu-id="ff2d2-148">Gli esseri umani sono coinvolti nella revisione o nell'analisi di dati di informazioni di identificazione dell'organizzazione (OII) raccolti o archiviati da questa app?</span><span class="sxs-lookup"><span data-stu-id="ff2d2-148">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
+<span data-ttu-id="304d8-148">Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?</span><span class="sxs-lookup"><span data-stu-id="304d8-148">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
 
-><span data-ttu-id="ff2d2-149">No</span><span class="sxs-lookup"><span data-stu-id="ff2d2-149">No</span></span>
+><span data-ttu-id="304d8-149">No</span><span class="sxs-lookup"><span data-stu-id="304d8-149">No</span></span>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -97,11 +97,11 @@ ms.locfileid: "52553427"
 
 ::: zone pivot="mcas"
 
-<span data-ttu-id="ff2d2-150">Di seguito sono [riportate Microsoft Cloud App Security informazioni](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) dal catalogo di Microsoft Cloud App Security.</span><span class="sxs-lookup"><span data-stu-id="ff2d2-150">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
+<span data-ttu-id="304d8-150">Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.</span><span class="sxs-lookup"><span data-stu-id="304d8-150">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
 
-<iframe height='1020' title='<span data-ttu-id="ff2d2-151">Microsoft Cloud App Security informazione</span><span class="sxs-lookup"><span data-stu-id="ff2d2-151">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35980' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="ff2d2-152">
+<iframe height='1020' title='<span data-ttu-id="304d8-151">Microsoft Cloud App Security Informazioni</span><span class="sxs-lookup"><span data-stu-id="304d8-151">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35980' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="304d8-152">
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35980" target="_blank">Visualizzare in una nuova scheda</a></span><span class="sxs-lookup"><span data-stu-id="ff2d2-152">
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35980" target="_blank">Visualizzazione in una nuova scheda</a></span><span class="sxs-lookup"><span data-stu-id="304d8-152">
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35980" target="_blank">View in a new tab</a></span></span>
 
@@ -111,13 +111,13 @@ ms.locfileid: "52553427"
 
 ::: zone pivot="identity"
 
-### <a name="identity-information"></a><span data-ttu-id="ff2d2-153">Informazioni sull'identità</span><span class="sxs-lookup"><span data-stu-id="ff2d2-153">Identity information</span></span>
+### <a name="identity-information"></a><span data-ttu-id="304d8-153">Informazioni sull'identità</span><span class="sxs-lookup"><span data-stu-id="304d8-153">Identity information</span></span>
 
-<span data-ttu-id="ff2d2-154">Queste informazioni sono state fornite da Anaek su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.</span><span class="sxs-lookup"><span data-stu-id="ff2d2-154">This information has been provided by Anaek about how this app handles authentication, authorization, application registration best practices, and other Identity criteria.</span></span>
+<span data-ttu-id="304d8-154">Queste informazioni sono state fornite da Anaek su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.</span><span class="sxs-lookup"><span data-stu-id="304d8-154">This information has been provided by Anaek about how this app handles authentication, authorization, application registration best practices, and other Identity criteria.</span></span>
 
-| <span data-ttu-id="ff2d2-155">**Informazioni**</span><span class="sxs-lookup"><span data-stu-id="ff2d2-155">**Information**</span></span> | <span data-ttu-id="ff2d2-156">**risposta**</span><span class="sxs-lookup"><span data-stu-id="ff2d2-156">**Response**</span></span> |
+| <span data-ttu-id="304d8-155">**Informazioni**</span><span class="sxs-lookup"><span data-stu-id="304d8-155">**Information**</span></span> | <span data-ttu-id="304d8-156">**Risposta**</span><span class="sxs-lookup"><span data-stu-id="304d8-156">**Response**</span></span> |
 |:----------------|:-------------|
-| <span data-ttu-id="ff2d2-157">Ti integri con Microsoft Identify Platform (Azure AD)?</span><span class="sxs-lookup"><span data-stu-id="ff2d2-157">Do you integrate with Microsoft Identify Platform (Azure AD)?</span></span>  | <span data-ttu-id="ff2d2-158">No</span><span class="sxs-lookup"><span data-stu-id="ff2d2-158">No</span></span> |
+| <span data-ttu-id="304d8-157">Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?</span><span class="sxs-lookup"><span data-stu-id="304d8-157">Do you integrate with Microsoft Identify Platform (Azure AD)?</span></span>  | <span data-ttu-id="304d8-158">No</span><span class="sxs-lookup"><span data-stu-id="304d8-158">No</span></span> |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
