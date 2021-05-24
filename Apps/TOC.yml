@@ -22,7 +22,7 @@
           href: docs/certification.md
         - name: Microsoft 365 Guida all'invio della certificazione
           href: docs/certification-submission-guide.md
-    - name: App per Microsoft Teams
+    - name: Microsoft Teams App
       href: teams/teams-apps.md
       items:
         - name: 365Projects
@@ -383,6 +383,8 @@
           href: teams/wide-ideas.md
         - name: Woobot
           href: teams/woobot.md
+        - name: Workboard
+          href: teams/workboard.md
         - name: Workday
           href: teams/workday.md
         - name: Wrike
@@ -403,7 +405,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: App per Microsoft Outlook
+    - name: Microsoft Outlook Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign Add-In per Outlook
@@ -450,7 +452,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM per la posta elettronica
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: App per Microsoft Word
+    - name: Microsoft Word App
       href: word/word-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
@@ -481,7 +483,7 @@
           href: word/jiji-technologies-private-limited-wunder365-for-office.md
         - name: xLaw - Sistema di gestione delle conoscenze
           href: word/evertn-xlaw-knowledge-management-system.md
-    - name: App per Microsoft PowerPoint
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
@@ -502,7 +504,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Wrike for Office Documents
           href: powerpoint/wrike-inc-for-office-documents.md
-    - name: App per Microsoft SharePoint
+    - name: Microsoft SharePoint Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Agile Task Board per SharePoint Online
@@ -519,7 +521,7 @@
           href: sharepoint/konnect-email-parser.md
         - name: officeatwork | Selezione modelli per SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
-    - name: App per Microsoft Excel
+    - name: Microsoft Excel App
       href: excel/excel-apps.md
       items:
         - name: CloudExtend Analytics for NetSuite
@@ -552,14 +554,14 @@
           href: excel/wrike-inc-for-office-documents.md
         - name: Wunder365 per Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: App per Microsoft OneNote
+    - name: Microsoft OneNote App
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Selezione contenuto per Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: Wunder365 per Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: App per Microsoft Project
+    - name: Microsoft Project App
       href: project/project-apps.md
       items:
         - name: officeatwork | Selezione modelli per Office
