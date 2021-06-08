@@ -231,6 +231,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Apps/forward/WA200002562.md",
+      "redirect_url": "/microsoft-365-app-certification/teams/chat-apps-llc-bright-poll",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Apps/forward/3a3156c1-b214-4d42-bc25-6d36f6aabb5e.md",
+      "redirect_url": "/microsoft-365-app-certification/teams/chat-apps-llc-bright-poll",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Apps/forward/WA200002795.md",
       "redirect_url": "/microsoft-365-app-certification/teams/brightidea",
       "redirect_document_id": false
@@ -1001,6 +1011,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Apps/forward/WA200002855.md",
+      "redirect_url": "/microsoft-365-app-certification/teams/move-work-forward-with-jira",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Apps/forward/79ca2e8f-dd2c-40d5-897e-1b22d41038fe.md",
+      "redirect_url": "/microsoft-365-app-certification/teams/move-work-forward-with-jira",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Apps/forward/WA104381626.md",
       "redirect_url": "/microsoft-365-app-certification/teams/mural",
       "redirect_document_id": false
@@ -1318,6 +1338,16 @@
     {
       "source_path": "Apps/forward/32dbfdc9-7832-4969-ad02-77a4902fae35.md",
       "redirect_url": "/microsoft-365-app-certification/teams/qchange-software-solution-inc-leader-experience",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Apps/forward/WA200002720.md",
+      "redirect_url": "/microsoft-365-app-certification/teams/qualified",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Apps/forward/d9850897-f8bf-407c-878b-b0cdcbba93ff.md",
+      "redirect_url": "/microsoft-365-app-certification/teams/qualified",
       "redirect_document_id": false
     },
     {
@@ -2101,6 +2131,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Apps/forward/WA200000391.md",
+      "redirect_url": "/microsoft-365-app-certification/outlook/jiji-technologies-private-limited-wunder365",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Apps/forward/WA200000742.md",
       "redirect_url": "/microsoft-365-app-certification/teams/jiji-technologies-pvt-ltd-wunder365",
       "redirect_document_id": false
@@ -2108,11 +2143,6 @@
     {
       "source_path": "Apps/forward/7e8f9ad5-07d9-4259-8713-d316f451cbf3.md",
       "redirect_url": "/microsoft-365-app-certification/teams/jiji-technologies-pvt-ltd-wunder365",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "Apps/forward/WA200000391.md",
-      "redirect_url": "/microsoft-365-app-certification/outlook/jiji-technologies-private-limited-wunder365",
       "redirect_document_id": false
     },
     {
