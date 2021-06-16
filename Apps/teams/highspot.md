@@ -1,45 +1,45 @@
 ---
-title: Informazioni sull'applicazione per Breakthru di Breakthru
+title: Informazioni sull'applicazione per Highspot di Highspot
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/04/2021
+ms.date: 05/13/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Breakthru, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Highspot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 916ab5e08cc7ae5266f3010512490bd648cf9afc
+ms.openlocfilehash: edf40b51503f3de332205180d3d4ded47ab5523f
 ms.sourcegitcommit: 1b9ad544fd91bb0fb25e467baf2d368a812dc476
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/14/2021
-ms.locfileid: "52927241"
+ms.locfileid: "52927271"
 ---
-# <a name="breakthru"></a>Breakthru
+# <a name="highspot"></a>Highspot
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 4, 2021</p>
+<p>Last updated by the developer on: May 13, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/693aa4f0-e16c-11ea-ab9b-11514b3de7ae" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002243" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/55b7c78e-4768-47e0-97be-e6b953e6a0d0" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002894" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Breakthru a Microsoft:
+Informazioni fornite da Highspot a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Breakthru |
-| ID | WA200002243 |
+| Nome app | Highspot |
+| ID | WA200002894 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Breakthru |
-| URL del sito Web del partner | [https://breakthru.me](https://breakthru.me) |
-| URL della pagina Teams informazioni sull'applicazione | [https://breakthru.me](https://breakthru.me) |
-| URL dell'informativa sulla privacy | [https://breakthru.me/privacy](https://breakthru.me/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://breakthru.me/terms](https://breakthru.me/terms) |
+| Nome società partner | Highspot |
+| URL del sito Web del partner | [https://www.highspot.com](https://www.highspot.com) |
+| URL della pagina Teams informazioni sull'applicazione | [https://www.highspot.com/overview/](https://www.highspot.com/overview/) |
+| URL dell'informativa sulla privacy | [https://www.highspot.com/privacy](https://www.highspot.com/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://www.highspot.com/terms/](https://www.highspot.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Informazioni fornite da Breakthru a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Breakthru su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Highspot su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -57,12 +57,21 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >Questa applicazione non utilizza Microsoft Graph.
 
+#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
+
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+
+>| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
+>|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>| Microsoft teams API | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>|:-------------------|:--------------------------|:--------------------------|
+>| https://engage.highspot.com/viewer/5e0f9071628ba277fd1c3dc5?iid=5e1fb2a5b7b7391d951d4c86 | https://engage.highspot.com/viewer/5e0f9071628ba277fd1c3dc5?iid=5e1fb2a5b7b7391d951d4c86 | https://engage.highspot.com/viewer/5e0f9071628ba277fd1c3dc5?iid=5e1fb2a5b7b7391d951d4c86 |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -70,26 +79,26 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Per visualizzare le statistiche della cronologia dell'utente e recapitare i promemoria impostati dall'utente. | Email e TeamID. | Per recapitare i promemoria impostati dall'utente. Per fornire agli utenti una visualizzazione dei dati della loro partecipazione alle interruzioni. |
+>| Per il messaggio di benvenuto viene utilizzato il nome utente finale. | No |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
+>Identificatore di dominio del cliente; Mantenere i registri per 365 giorni e conformi agli organismi normativi.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Tutti i dati vengono archiviati in Azure.
+>Revisioni della sicurezza almeno annuale 
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
 Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
 
->Sì
+>No
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -99,9 +108,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36418' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/27103' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36418" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/27103" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,7 +120,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Breakthru su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Highspot su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
