@@ -7,18 +7,19 @@ keywords: microsoft 365 app m365 Attestazione autore certificazione
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: 199c8f82a894566a918c30e529cefdfb8c259a48
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: fd06ecd028876a862fa3938253817fae3ff0fea0
+ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071766"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053440"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Programma di conformità delle app di Microsoft 365
 
 Il programma di conformità delle app di Microsoft 365 è un approccio a tre livelli per la sicurezza e la conformità delle app. Ogni livello si basa sul successivo, offrendo un programma a più livelli per dare agli utenti la sicurezza di cui hanno bisogno durante l'uso delle app nell'ecosistema Microsoft 365. Al momento, tutti i livelli del programma sono volontari e vengono completati a discrezione dagli sviluppatori dell'app. 
 
 La nostra missione: i clienti Microsoft hanno completa fiducia nelle applicazioni che eseguono nelle loro organizzazioni.
+
   ![Approccio a 3 livelli alla conformità delle app](media/Microsoft-App-Compliance-Overview.png) 
 
 ## <a name="publisher-verification"></a>Verifica dell'autore
@@ -44,18 +45,12 @@ L’attestazione dell’autore si applica alle app che si integrano con queste p
 - SharePoint
 - Project
 - OneNote
+- Web App
 
 > [!IMPORTANT]
 > Microsoft non convalida le informazioni fornite. Lo sviluppatore è l'unico responsabile della veridicità, dell'accuratezza, dell'integrità della documentazione di attestazione e dei dati sulle prestazioni dell'app. 
 
 ## <a name="microsoft-365-certification"></a>Certificazione Microsoft 365
-La [certificazione Microsoft 365](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide) offre alle organizzazioni assicurazione e riservatezza sulla sicurezza e protezione dei dati e della privacy quando si usano le app di Microsoft Teams. La certificazione conferma che una soluzione app è compatibile con le tecnologie Microsoft, è conforme alle procedure consigliate per la sicurezza delle app cloud e viene supportata da Microsoft.Durante questo processo, gli sviluppatori di app lavorano con un valutatore di terze parti per convalidare gli standard di sicurezza e conformità dell'organizzazione. La certificazione Microsoft 365 si applica alle app che si integrano con queste piattaforme Microsoft:
+La [certificazione Microsoft 365](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide) offre alle organizzazioni assicurazione e riservatezza sulla sicurezza e protezione dei dati e della privacy quando si usano le app di Microsoft Teams. La certificazione conferma che una soluzione app è compatibile con le tecnologie Microsoft, è conforme alle procedure consigliate per la sicurezza delle app cloud e viene supportata da Microsoft.Durante questo processo, gli sviluppatori di app lavorano con un valutatore di terze parti per convalidare gli standard di sicurezza e conformità dell'organizzazione. Microsoft 365 Certification si applica alle stesse app qualificate per l'attestazione dell'editore. 
 
--   Teams
--   Word
--   Excel
--   PowerPoint 
--   Outlook
-- SharePoint
-- Project
-- OneNote
+
