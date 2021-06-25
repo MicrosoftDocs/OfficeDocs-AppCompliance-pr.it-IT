@@ -6,12 +6,12 @@ description: Microsoft 365 Visualizzazione granulare della Guida all'invio della
 keywords: team di certificazione delle app Microsoft 365 sicurezza m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 5e99defd75573b1335975ddc19e851c50da7721f
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: 1ee9ba43ffe793f38438a26365cbb8cbc05aa2f3
+ms.sourcegitcommit: d8a1524fc419a1ca33971b656197f0b6a5efe2b9
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053450"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53125966"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guida all'invio della certificazione
 
@@ -104,9 +104,9 @@ Le richieste di prove a supporto della valutazione della certificazione devono e
 
 |Dimensioni della popolazione              | Esempio                  |
 |---------------------------- |-------------------------|
-|<5|1|
-|>5 & <10|2|
-|>9 & <25|3|
+|<5|1 |
+|>5 & <10|2 |
+|>9 & <25|3 |
 |>24|4 |
 
 > [!NOTE]
@@ -233,6 +233,7 @@ Se vengono utilizzate tecniche per segmentare gli ambienti nell'ambito da altri 
 I report di test di penetrazione verranno esaminati per **** verificare che non vi siano vulnerabilità che soddisfino i criteri di errore automatico seguenti descritti nei controlli seguenti.
  
 **Requisiti per i test di penetrazione**
+
 ||**Controlli di test di penetrazione**|
 | -------------------------|-----------------------------|
 |**Criteri generali**| **Controlli**|
@@ -987,7 +988,7 @@ Microsoft riconosce che distribuirai applicazioni e archivi il codice di app/com
 
 ![Flusso di lavoro](ProcessFlow.jpg)
 
-## <a name="learn-more"></a>Ulteriori informazioni
+## <a name="learn-more"></a>Altre informazioni
 
 [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)  
 [Che cos'Microsoft 365'attestazione Publisher app?](~/docs/attestation.md)  
