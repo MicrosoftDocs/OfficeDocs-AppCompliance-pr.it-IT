@@ -6,98 +6,124 @@ description: Guida dell'utente ISV per Microsoft 365 SaaS del programma di confo
 keywords: Guida dell'utente ISV per Microsoft 365 SaaS del programma di conformità delle app
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 171aba5ad45ee0ae3d68af2cd1c704fed204de02
-ms.sourcegitcommit: d8a1524fc419a1ca33971b656197f0b6a5efe2b9
+ms.openlocfilehash: 64059ff6d38313765053ab0fe5d023fb606d4eda
+ms.sourcegitcommit: bfabb191087786fae2b476e3f30861317886defa
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53125956"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53178989"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>Guida per l'utente del partner per Microsoft 365 App Compliance Program - SaaS
+
+|Fase|Titolo|
+|---|---|
+|Fase 1| Attestazione dell'autore|
+|Fase 2| Certificazione Microsoft 365|
 
 ## <a name="1-overview"></a>1. Panoramica 
 
 Questo documento funge da guida utente dettagliata per i partner, iscritti al programma di conformità delle app di Microsoft 365 con l'obiettivo di sottoporsi Publisher all'attestazione e alla certificazione per le proprie app SaaS, anche se il portale del Centro per i partner.
 
 ## <a name="2-acronyms--definitions"></a>2. Acronimi & Definizioni
-| | |
-|----|----|
 |Acronimi | Definizione |
-|PC (Centro per i partner)Centro per i partner(https://partner.microsoft.com/)|Portale per tutti i partner Microsoft. Un partner accede al Centro per i partner e invia Self-Assessment questionario. Centro per i partner Microsoft 365 conformità delle app (microsoft.com)(https://partner.microsoft.com/en-us/dashboard/home)|
+|----|----|
+|[PC (Centro per i partner)](https://partner.microsoft.com/)|Portale per tutti i partner Microsoft. Un partner accede al Centro per i partner e invia Self-Assessment questionario. Centro per i partner [per Microsoft 365 conformità delle app](https://partner.microsoft.com/dashboard/home)|
 |ISV | Independent Software Vendor a.k.a. Partner o sviluppatore |
-|Origine app | Esempio catalogo di app (AppSource): agente virtuale (https://appsource.microsoft.com/en-us/product/office/WA104381816) |
+|Origine app | Esempio catalogo di app (AppSource): [agente virtuale](https://appsource.microsoft.com/product/office/WA104381816) |
 
 ## <a name="3-publisher-attestation-workflow"></a>3. Publisher flusso di lavoro di attestazione
 
 **Home Page:** questa è la pagina di destinazione quando un partner accede al Centro per i partner.
 
-![01](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/01.png)
+![01](../media/UserGuidePhotos/01.png)
   
-**Passaggio 1:** sul lato sinistro della pagina, sulla barra di spostamento: a.    Selezionare Commercial Marketplace b.    Seleziona panoramica
+**Passaggio 1:** nella barra di spostamento a sinistra della pagina:
 
-![02](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/02.png)
+      a.    Select Commercial Marketplace
+      
+      b.    Select Overview
+
+![02](../Apps/media/UserGuidePhotos/02.png)
   
 Dopo aver selezionato "Panoramica", il partner può visualizzare l'elenco delle app disponibili per avviare il programma Microsoft 365 conformità.
   
 **Passaggio 2:** selezionare un'app dall'elenco per iniziare Publisher processo di attestazione.
 
- ![3 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/03.png)
+ ![3 ](../Apps/media/UserGuidePhotos/03.png)
 
 Quando selezioni un'app, verrà visualizzata un'altra barra di spostamento con l'opzione "Conformità app".
   
 **Passaggio 3:** selezionare "Conformità app"
   
-![4 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/04.png)
+![4 ](../Apps/media/UserGuidePhotos/04.png)
   
 **Passaggio 4:** compilare il Self-Assessment questionario per Publisher attestazione.
  
-![5 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/05.png)
+![5 ](../Apps/media/UserGuidePhotos/05.png)
   
 **Nota: se torni ad aggiornare/inviare di nuovo l'applicazione, fai clic sull'elenco a discesa per "Scegli il prodotto", seleziona l'app e fai clic su "Clona".**
   
-![6 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/06.png)
+![6 ](../Apps/media/UserGuidePhotos/06.png)
   
 **È inoltre possibile utilizzare la funzionalità Importazione/Esportazione per completare il modulo offline e importarlo una volta completato.**
   
- ![7 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/07.png)
+ ![7 ](../Apps/media/UserGuidePhotos/07.png)
   
  **Passaggio 5:** una volta completato, fare clic su "Invia", la valutazione sarà ora "in fase di revisione".
   
- ![8 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/08.png)
+ ![8 ](../Apps/media/UserGuidePhotos/08.png)
   
- ![9 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/09.png)
+ ![9 ](../Apps/media/UserGuidePhotos/09.png)
   
 **Approva/Rifiuta scenari:**
   
-R.  Publisher Attestazione Rifiuto a.  In caso di rifiuto, un partner può: • Visualizzare la segnalazione degli errori o Il partner riceverà una notifica tramite posta elettronica e potrà visualizzare la segnalazione di errore nel Centro per i partner • Aggiornare e inviare di nuovo il questionario Self-Assessment.
+R.  Publisher Rifiuto attestazione
+
+    a.  In case of rejection, a Partner can:
+    
+        •   View failure report
+        
+            o   Partner will be notified via email, and they can view the failure report in Partner Center
+          
+        •   Update and re-submit Self-Assessment Questionnaire.
   
- ![10 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/10.png)
+ ![10 ](../Apps/media/UserGuidePhotos/10.png)
   
-B.  Publisher Approvazione attestazione a.  Al momento dell'approvazione, il partner può: • Aggiornare e inviare di nuovo l'attestazione • Visualizzare l'attestazione Publisher completati • Avviare il processo di certificazione M365
+B.  Publisher Approvazione attestazione
+
+    a.  Upon approval, the partner can:
+    
+        •   Update and resubmit attestation
+        
+        •   View completed Publisher Attestation
+        
+        •   Start M365 Certification Process
   
- ![11 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/11.png)
+ ![11 ](../Apps/media/UserGuidePhotos/11.png)
   
- ![12 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/12.png)
+ ![12 ](../Apps/media/UserGuidePhotos/12.png)
   
  **Post Publisher verifica approvazione: esempio di collegamento in AppSource per le app attestate dall'autore.**
   
-  ![13 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/13.png)
+  ![13 ](../Apps/media/UserGuidePhotos/13.png)
   
  ## <a name="4--microsoft-365-certification-workflow"></a>4. Flusso di lavoro Microsoft 365 certificazione
   
  Un partner può iniziare il processo di certificazione selezionando la casella di controllo e facendo clic su "Invia"
   
- ![14 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/14.png)
+ ![14 ](../Apps/media/UserGuidePhotos/14.png)
   
-**Passaggio 1:** Invio documento iniziale Compilare tutti i dettagli, caricare i documenti pertinenti e fare clic su 'Invia'
+**Passaggio 1** : Invio documento iniziale
+
+ Compilare tutti i dettagli, caricare i documenti pertinenti e fare clic su 'Invia'
   
- ![15](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/15.png)
+ ![15](../Apps/media/UserGuidePhotos/15.png)
   
- ![16 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/16.png)
+ ![16 ](../Apps/media/UserGuidePhotos/16.png)
  
 Facendo clic su Invia, l'invio verrà esaminato.
  
-![17 ](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/17.png)
+![17 ](../Apps/media/UserGuidePhotos/17.png)
   
  Un analista richiede una revisione nel caso in cui i documenti iniziali non siano sufficienti o pertinenti. L'analista collabora con il partner per ottenere i documenti necessari per l'approvazione.
   
@@ -109,37 +135,37 @@ Dopo che l'analista ha approvato l'invio del documento iniziale, il partner deve
   
 Compilare tutti i dettagli, caricare i documenti pertinenti e fare clic su 'Invia'
 
-![19](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/19.png)
+![19](../Apps/media/UserGuidePhotos/19.png)
 
-![20](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/20.png)
+![20](../Apps/media/UserGuidePhotos/20.png)
 
-![ 21](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/21.png)
+![ 21](../Apps/media/UserGuidePhotos/21.png)
  
 Facendo clic su Invia, l'invio verrà esaminato.
   
-![22](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/22.png)
+![22](../Apps/media/UserGuidePhotos/22.png)
   
 Un analista richiede una revisione nel caso in cui i documenti dei requisiti di controllo non siano sufficienti o pertinenti. L'analista collabora con il partner per ottenere i documenti necessari per l'approvazione.
   
-![23](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/23.png)
+![23](../Apps/media/UserGuidePhotos/23.png)
   
-![24](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/24.png)
+![24](../Apps/media/UserGuidePhotos/24.png)
   
-![25](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/25.png)
+![25](../Apps/media/UserGuidePhotos/25.png)
   
 Nel caso in cui l'invio non soddisfi gli standard di approvazione, l'analista rifiuterà l'invio.
   
 Il partner può collaborare con l'analista per fornire le informazioni e i documenti pertinenti.
   
-![26](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/26.png)
+![26](../Apps/media/UserGuidePhotos/26.png)
   
 Una volta soddisfatti tutti gli standard di sicurezza, l'analista approverà l'invio e il partner sarà Microsoft 365 Certified.
   
-![27](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/27.png)
+![27](../media/UserGuidePhotos/27.png)
   
 **Post Certification Approval: esempio di Microsoft 365 badge di certificazione in AppSource. ** 
   
-![28](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/28.png)
+![28](../Apps/media/UserGuidePhotos/28.png)
   
 ## <a name="5---microsoft-365-renewal-workflow"></a>5. Microsoft 365 flusso di lavoro per il rinnovo:
   
@@ -155,7 +181,7 @@ Microsoft 365 Il programma di conformità delle app ora offre un processo di rin
   
   • Aiutare gli amministratori IT a prendere decisioni informate con informazioni aggiornate sulla certificazione.
 
-Il nuovo processo di rinnovo è disponibile nel Centro per i partner( https://partner.microsoft.com/en-us/dashboard/home) per offrire un'esperienza senza problemi. Un promemoria di rinnovo verrà visualizzato nel Centro per i partner a partire da 90 giorni prima della data di scadenza. I promemoria periodici verranno inviati anche tramite posta elettronica a 90, 60 e 30 giorni prima della scadenza. 
+Il nuovo processo di rinnovo è disponibile nel Centro per i partner( https://partner.microsoft.com/dashboard/home) per offrire un'esperienza senza problemi. Un promemoria di rinnovo verrà visualizzato nel Centro per i partner a partire da 90 giorni prima della data di scadenza. I promemoria periodici verranno inviati anche tramite posta elettronica a 90, 60 e 30 giorni prima della scadenza. 
  
 **Livello 1: rinnovo Publisher attestazione:**
   
@@ -163,23 +189,23 @@ Le risposte dell'Publisher'attestazione dell'app dovranno essere reinviato su ba
  
 **Passaggio 1:** selezionare **Rinnova** per rinnovare l Publisher attestazione.
   
-![29](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/29.png)
+![29](../Apps/media/UserGuidePhotos/29.png)
   
 **Passaggio 2:** esaminare le risposte Publisher attestazione e aggiornare con le informazioni più recenti in base alle esigenze. 
   
 Inviare Publisher'attestazione per il rinnovo quando è pronto. Verrà esaminato da un analista di conformità delle app M365.
   
-![30](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/30.png)
+![30](../Apps/media/UserGuidePhotos/30.png)
   
 **Publisher Rinnovo attestazione approvato:**
   
-![31](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/31.png)
+![31](../Apps/media/UserGuidePhotos/31.png)
   
 **Publisher Attestazione scaduta:**
   
 Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina dell'attestazione Publisher'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource e Nello Store del team.
   
-![32](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/32.png)
+![32](../Apps/media/UserGuidePhotos/32.png)
   
 **Nota:** una volta scaduto, Publisher processo di rinnovo dell'attestazione può essere avviato in qualsiasi momento facendo clic su "Rinnova".
  
@@ -187,27 +213,27 @@ Le informazioni dell'app devono essere rinnovate prima della data di scadenza pe
   
 Le informazioni sulla certificazione dell'app devono essere reinvii su base annuale. Ciò richiederà la riconvalida dei controlli nell'ambito dell'ambiente corrente. Quando la certificazione si avvicina a 1 anno, verrà inviata una notifica tramite posta elettronica che incoraggia il reinvio dei documenti e delle prove.
   
-![33](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/33.png)
+![33](../Apps/media/UserGuidePhotos/33.png)
   
 **Scenari di approvazione/rifiuto per il rinnovo della certificazione:**
  
 **Scenario 1:** Il rinnovo della certificazione è stato avviato ed è in fase di revisione.
   
-![34](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/34.png)
+![34](../Apps/media/UserGuidePhotos/34.png)
 
 Scenario 1A: rifiuto del rinnovo della certificazione: la certificazione può essere rifiutata se: • L'app non dispone degli strumenti, dei processi o delle configurazioni necessari e non sarà in grado di implementare le modifiche necessarie all'interno della finestra di certificazione. • L'app presenta vulnerabilità in sospeso e non può essere risolto all'interno della finestra di certificazione. 
   
-![35](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/35.png)
+![35](../Apps/media/UserGuidePhotos/35.png)
   
 Scenario 1B: il rinnovo della certificazione è approvato
 
-![36](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/36.png)
+![36](../Apps/media/UserGuidePhotos/36.png)
 
 **Scadenza certificazione:**
  
 Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina Certificazione dell'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource e Nello Store del team.
 
-![5.5](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/master/Apps/media/UserGuidePhotos/5.5.png)
+![5.5](../Apps/media/UserGuidePhotos/5.5.png)
   
 Nota: una volta scaduto, Publisher processo di attestazione e certificazione può essere avviato in qualsiasi momento facendo clic su "Rinnova". 
 
