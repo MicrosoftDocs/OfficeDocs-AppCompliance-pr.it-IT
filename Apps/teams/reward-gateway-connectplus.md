@@ -1,45 +1,45 @@
 ---
-title: Informazioni sull'applicazione per Workday by Workday
+title: Application Information for Connessione+ by Reward Gateway
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Workday, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Connessione+, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f85cc0ccc778f7ed3440e85795574faad3868d24
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 831f29b4b5a7f15dbaf9f7672d0dece4fc50c645
+ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279008"
+ms.locfileid: "53275333"
 ---
-# <a name="workday"></a>Workday
+# <a name="connect"></a>Connessione+
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 26, 2021</p>
+<p>Last updated by the developer on: May 25, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/aa4981ef-635f-4066-b260-97445a4b2819" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001555" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/feb4e7cc-eb28-483e-a1ac-31bfead47e92" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002611" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Workday a Microsoft:
+Informazioni fornite da Reward Gateway a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Workday |
-| ID | WA200001555 |
+| Nome app | Connessione+ |
+| ID | WA200002611 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Workday |
-| URL del sito Web del partner | [https://www.workday.com/en-us/homepage.html](https://www.workday.com/en-us/homepage.html) |
-| URL della pagina Teams informazioni sull'applicazione | [https://nw.myworkday.com/microsoftteams/](https://nw.myworkday.com/microsoftteams/) |
-| URL dell'informativa sulla privacy | [https://www.workday.com/en-us/privacy.html](https://www.workday.com/en-us/privacy.html) |
-| URL delle Condizioni per l'utilizzo | [https://nw.myworkday.com/microsoftteams/post-license/](https://nw.myworkday.com/microsoftteams/post-license/) |
+| Nome società partner | Reward Gateway |
+| URL del sito Web del partner | [https://www.rewardgateway.com](https://www.rewardgateway.com) |
+| URL della pagina Teams informazioni sull'applicazione | [https://success.rewardgateway.com/hc/en-us/articles/3600158...](https://success.rewardgateway.com/hc/en-us/articles/360015834078-Installing-the-MS-Teams-Integration) |
+| URL dell'informativa sulla privacy | [https://policies.rewardgateway.net/ms-teams-connect-plus/pr...](https://policies.rewardgateway.net/ms-teams-connect-plus/privacy-policy/) |
+| URL delle Condizioni per l'utilizzo | [https://policies.rewardgateway.net/ms-teams-connect-plus/te...](https://policies.rewardgateway.net/ms-teams-connect-plus/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Informazioni fornite da Workday a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Workday su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Reward Gateway su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -57,25 +57,20 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| TeamsAppInstallation.ReadWriteForUser.All | application | Retreive the App ID, install App for User, Get Teams license details from AAD | I dati relativi a questa funzionalità non vengono archiviati.  Ci consente di installare l'app per l'utente. | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
->| User.Read.All | application | Recuperare l'AAID degli utenti per inviare un messaggio agli utenti. | Solo AAID e Teams AAID  | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
+>| AppCatalog.Read.All | delegated | Non vengono raccolti dati | Archiviamo l'aadObjectId di ogni utente per essere in grado di tenere traccia che ha effettuato l'accesso alla nostra app almeno una volta | 5e4dadf5-9f90-449b-9e39-934fd10b7c23 |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
->| I dati dell'organizzazione vengono condivisi tra Workday Services e Microsoft. Per ulteriori dettagli, fare riferimento ai termini del contratto con Workday. | I dati dell'organizzazione vengono condivisi tra Workday Services e Microsoft. Per ulteriori dettagli, fare riferimento ai termini del contratto con Workday. | N/D |
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
->| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
->| I dati dell'elenco vengono usati per personalizzare l'interazione di un utente con l'app Workday. | No |  |
+>Non è possibile accedere all'UEII.
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -88,7 +83,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Fare riferimento ai termini del contratto con Workday.
+>Non controlliamo i dati nei sistemi di terze parti
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -104,9 +99,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36384' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36074' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36384" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36074" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,7 +111,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Workday sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Reward Gateway sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

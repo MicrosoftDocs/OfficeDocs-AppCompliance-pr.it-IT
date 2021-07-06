@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wide Ideas, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f1fc5d97736ba587595ef6c742b14ce75c0b1863
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 05daba10da032e947976d99411e0e70982e17f00
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550896"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53279050"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -37,8 +37,8 @@ Informazioni fornite da Wide Ideas a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Wide Ideas |
 | URL del sito Web del partner | [https://getwideideas.com](https://getwideideas.com) |
-| URL dell'informativa sulla privacy | [https://getwideideas.com/privacy-policy](https://getwideideas.com/privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://getwideideas.com/terms](https://getwideideas.com/terms) |
+| URL dell'informativa sulla privacy | [https://getwideideas.com/privacy-policy/](https://getwideideas.com/privacy-policy/) |
+| URL delle Condizioni per l'utilizzo | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474849364/Product_42949683744/Asset_0831a14b-e5df-4f0b-8385-3c06edaeceeb/GENERALTERMSANDCONDITIONSWideI.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
