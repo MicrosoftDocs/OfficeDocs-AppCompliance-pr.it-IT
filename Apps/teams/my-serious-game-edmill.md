@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per EdMill, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0fe3cef0358d5dca0e78888be9f6f57a53e87bd4
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2e0737b48d027b51d9dc44f57b9d9cc3a11610bd
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552917"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282950"
 ---
 # <a name="edmill"></a>EdMill
 
@@ -36,10 +36,10 @@ Informazioni fornite da My-Serious-Game a Microsoft:
 | ID | WA200002622 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | My-Serious-Game |
-| URL del sito Web del partner | [https://www.edmill.com/](https://www.edmill.com/) |
+| URL del sito Web del partner | [https://www.my-serious-game.com](https://www.my-serious-game.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.edmill.com](https://www.edmill.com) |
 | URL dell'informativa sulla privacy | [https://app.edmill.com/privacy-policy](https://app.edmill.com/privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://www.edmill.com/cgu/](https://www.edmill.com/cgu/) |
+| URL delle Condizioni per l'utilizzo | [https://app.edmill.com/static/cgv.pdf](https://app.edmill.com/static/cgv.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

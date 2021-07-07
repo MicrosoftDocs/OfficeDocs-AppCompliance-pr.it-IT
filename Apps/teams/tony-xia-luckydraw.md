@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per LuckyDraw, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5ba1afff33ce27c6f520b34f73423c734c8859ec
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 24990484921465f2ad6a761efd6b3f3686344cc7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551266"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283400"
 ---
 # <a name="luckydraw"></a>LuckyDraw
 
@@ -36,7 +36,7 @@ Informazioni fornite da Tony Xia a Microsoft:
 | ID | WA200000091 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Tony Xia |
-| URL del sito Web del partner | [https://luckydraw.teetee365.com](https://luckydraw.teetee365.com) |
+| URL del sito Web del partner | [https://luckydraw.teetee365.com/](https://luckydraw.teetee365.com/) |
 | URL della pagina Teams informazioni sull'applicazione | [https://luckydraw4web4prd.z7.web.core.windows.net/](https://luckydraw4web4prd.z7.web.core.windows.net/) |
 | URL dell'informativa sulla privacy | [https://luckydraw.teetee365.com/privacy](https://luckydraw.teetee365.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://luckydraw.teetee365.com/terms](https://luckydraw.teetee365.com/terms) |
@@ -77,7 +77,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->EuII viene registrato in alcune situazioni. Ad esempio, l'utente avvia un'attività di disegno fortunata. L'app usa Azure Application Insights la cui conservazione dei dati è predefinita per 90 giorni.
+>EuII viene registrato in alcune situazioni. Ad esempio, l'utente avvia un'attività di disegno fortunata. L'app usa l'applicazione Azure Insights la cui conservazione dei dati è predefinita per 90 giorni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 

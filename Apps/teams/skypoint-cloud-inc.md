@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per SkyPoint Cloud, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 898f7fc73ff32a8d5c999ab78141b2bcda59a09f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 6c23bac241d7456f7811e74af2dff6b93ef57e6c
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552827"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283230"
 ---
 # <a name="skypoint-cloud"></a>SkyPoint Cloud
 
@@ -36,7 +36,7 @@ Informazioni fornite da SkyPoint Cloud Inc. a Microsoft:
 | ID | WA200002580 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | SkyPoint Cloud Inc. |
-| URL del sito Web del partner | [https://skypointcloud.com/](https://skypointcloud.com/) |
+| URL del sito Web del partner | [https://skypointcloud.com](https://skypointcloud.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://skypointcloud.com/platform/](https://skypointcloud.com/platform/) |
 | URL dell'informativa sulla privacy | [https://skypointcloud.com/privacy/](https://skypointcloud.com/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://skypointcloud.com/terms/](https://skypointcloud.com/terms/) |

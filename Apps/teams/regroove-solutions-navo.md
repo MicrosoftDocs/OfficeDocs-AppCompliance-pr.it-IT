@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Navo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ef2c71df0559a5a3db4612df5acf86835efe1a71
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 11346ff15831615ac6b617d8d14f83f38c7de0a5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553937"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283110"
 ---
 # <a name="navo"></a>Navo
 
@@ -36,7 +36,7 @@ Informazioni fornite da Regroove Solutions a Microsoft:
 | ID | WA200001047 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Regroove Solutions |
-| URL del sito Web del partner | [https://getnavo.com](https://getnavo.com) |
+| URL del sito Web del partner | [https://regroove.ca ; https://getnavo.com](https://regroove.ca ; https://getnavo.com) |
 | URL dell'informativa sulla privacy | [https://getnavo.com/privacy-policy/](https://getnavo.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://getnavo.com/terms-of-service/](https://getnavo.com/terms-of-service/) |
 
@@ -79,7 +79,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Sì, in Application Insights vengono archiviati l'ID autenticato utente e l'ID account utente (ID tenancy).
+>Sì, in Application Insights vengono archiviati l'ID utente autenticato e l'ID account utente (ID tenancy).
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 

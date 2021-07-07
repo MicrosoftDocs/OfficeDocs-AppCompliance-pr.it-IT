@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Hibob, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f2eae876022c6213b5f39532f44de4c127c3655e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 6b35068bec11d40cf7cf1c21a77f12f526bc35ce
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553097"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283040"
 ---
 # <a name="hibob"></a>Hibob
 
@@ -36,9 +36,9 @@ Informazioni fornite da Hibob Inc. a Microsoft:
 | ID | WA200000765 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Hibob Inc. |
-| URL del sito Web del partner | [https://www.hibob.com/](https://www.hibob.com/) |
-| URL dell'informativa sulla privacy | [https://www.hibob.com/privacy-policy](https://www.hibob.com/privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://www.hibob.com/terms-and-conditions](https://www.hibob.com/terms-and-conditions) |
+| URL del sito Web del partner | [https://www.hibob.com](https://www.hibob.com) |
+| URL dell'informativa sulla privacy | [https://www.hibob.com/privacy-policy/](https://www.hibob.com/privacy-policy/) |
+| URL delle Condizioni per l'utilizzo | [https://www.hibob.com/terms-and-conditions/](https://www.hibob.com/terms-and-conditions/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

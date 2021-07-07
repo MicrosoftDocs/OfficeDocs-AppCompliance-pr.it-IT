@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per MIPA - Assistente personale, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a9f8609539de3ce0f630134dfac4c6b10b7d9378
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e9637e4a1ea86df832c6d63b042b54cad8288445
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552527"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282890"
 ---
 # <a name="mipa---your-own-personal-assistant"></a>MIPA - Assistente personale
 
@@ -32,11 +32,11 @@ Informazioni fornite da iGlobe a Microsoft:
 |:----------------|:-------------|
 | Nome app | MIPA - Assistente personale |
 | ID | WA200000062 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul Web |
+| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | iGlobe |
-| URL del sito Web del partner | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
+| URL del sito Web del partner | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | URL dell'informativa sulla privacy | [https://www.iglobecrm.com/content/legal-information](https://www.iglobecrm.com/content/legal-information) |
-| URL delle Condizioni per l'utilizzo | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-iglobe-mipa) |
+| URL delle Condizioni per l'utilizzo | [https://mipa.iglobe.dk/EULA](https://mipa.iglobe.dk/EULA) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

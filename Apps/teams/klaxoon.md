@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Klaxoon, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 127b45d805b02136ba99f56aecfc583f30bdda25
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3b4dee1e024940df3d9c81bdb2b2345a8421c9db
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553017"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283010"
 ---
 # <a name="klaxoon"></a>Klaxoon
 
@@ -37,8 +37,8 @@ Informazioni fornite da Klaxoon a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Klaxoon |
 | URL del sito Web del partner | [https://klaxoon.com](https://klaxoon.com) |
-| URL dell'informativa sulla privacy | [https://klaxoon.com/privacy](https://klaxoon.com/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://klaxoon.com/static/terms.pdf](https://klaxoon.com/static/terms.pdf) |
+| URL dell'informativa sulla privacy | [https://klaxoon.com/privacy-policy](https://klaxoon.com/privacy-policy) |
+| URL delle Condizioni per l'utilizzo | [https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06...](https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06814d1c3354495b2.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Medxnote MT, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: eca02f06a34c5a4d815bd2087826567cf4be27d6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ee4a304ac2844bff1fcec309fe0c96edba04208f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551967"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282980"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -36,7 +36,7 @@ Informazioni fornite da Medxnote a Microsoft:
 | ID | WA200001823 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Medxnote |
-| URL del sito Web del partner | [https://medxnote.com](https://medxnote.com) |
+| URL del sito Web del partner | [https://medxnote.com/](https://medxnote.com/) |
 | URL dell'informativa sulla privacy | [https://medxnote.com/privacy-policy/](https://medxnote.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://medxnote.com/terms-conditions/](https://medxnote.com/terms-conditions/) |
 

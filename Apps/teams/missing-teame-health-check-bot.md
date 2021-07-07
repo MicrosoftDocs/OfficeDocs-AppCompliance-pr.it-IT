@@ -1,45 +1,44 @@
 ---
-title: Informazioni sull'applicazione per Il tributo di Tribute Co.
+title: Application Information for TeaMe Health Check Bot by &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531;
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/16/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Tribute, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per il bot per il controllo dell'integrità di TeaMe, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 589dcefe68d389ecfc2a4ba3f51998878358c58f
+ms.openlocfilehash: 33670e4e1e73d4ce832304e6ae70a994f73f9dbd
 ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283380"
+ms.locfileid: "53282769"
 ---
-# <a name="tribute"></a>Tribute
+# <a name="teame-health-check-bot"></a>Bot per il controllo dell'integrità di TeaMe
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: April 16, 2021</p>
+<p>Last updated by the developer on: May 26, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/cfb46a87-a75b-4045-9f22-a0ae0614fd60" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002589" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/7a9603e3-0647-4f2c-a9a9-13ab355423c1" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002779" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Tribute Co. a Microsoft:
+Informazioni fornite da &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Tribute |
-| ID | WA200002589 |
+| Nome app | Bot per il controllo dell'integrità di TeaMe |
+| ID | WA200002779 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Tribute Co. |
-| URL del sito Web del partner | [https://www.tributementorship.com](https://www.tributementorship.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
-| URL dell'informativa sulla privacy | [https://www.tributementorship.com/privacy ](https://www.tributementorship.com/privacy ) |
-| URL delle Condizioni per l'utilizzo | [https://www.tributementorship.com/terms](https://www.tributementorship.com/terms) |
+| Nome società partner | &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; |
+| URL del sito Web del partner | [https://www.cdc-jp.com](https://www.cdc-jp.com) |
+| URL dell'informativa sulla privacy | [https://www.cdc-jp.com/health_check_privacy](https://www.cdc-jp.com/health_check_privacy) |
+| URL delle Condizioni per l'utilizzo | [https://www.cdc-jp.com/health_check_terms](https://www.cdc-jp.com/health_check_terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +48,7 @@ Informazioni fornite da Tribute Co. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Tribute Co. sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -75,13 +74,13 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
+>Dati di consegna: ID organizzazione degli utenti, ID utente (UEII) e risposte degli utenti alle domande; Tali dati verranno eliminati quando un utente richiede di eliminare i suoi dati.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Siamo un processore di dati, non un controller. 
+>Archiviare nel database conforme a ISMS/ISO27001/27002; l'amministratore di sistema eliminerà i dati dei partner quando riceviamo una richiesta di eliminazione dei dati. 
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -97,9 +96,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38165' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38165" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -109,22 +108,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Tribute Co. sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
-| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
-| L'app supporta i criteri di accesso condizionale? | No |
-| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
-| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | No |
-| L'app supporta la multi-tenancy? | Sì |
-| L'app dispone di un client riservato? | Sì |
-| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| L'app espone qualsiasi API Web? | No |
-| La tua app usa le API di anteprima? | No |
-| L'app usa API deprecate? | No |
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

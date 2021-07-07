@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ngDesk, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c527842a226a4029f8c1d0ad842ef762c47ed85f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 307c22805fdb3f0b92d65fa5cc0b754d28e34519
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553767"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282930"
 ---
 # <a name="ngdesk"></a>ngDesk
 
@@ -33,11 +33,11 @@ Informazioni fornite da All Blue Solutions a Microsoft:
 |:----------------|:-------------|
 | Nome app | ngDesk |
 | ID | WA200002505 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul Web |
+| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | Tutte le soluzioni blu |
-| URL del sito Web del partner | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
-| URL dell'informativa sulla privacy | [https://ngdesk.com/privacy-policy-office-365](https://ngdesk.com/privacy-policy-office-365) |
-| URL delle Condizioni per l'utilizzo | [https://ngdesk.com/subscription-agreement](https://ngdesk.com/subscription-agreement) |
+| URL del sito Web del partner | [https://ngdesk.com](https://ngdesk.com) |
+| URL dell'informativa sulla privacy | [https://ngdesk.com/privacy-policy-office-365/](https://ngdesk.com/privacy-policy-office-365/) |
+| URL delle Condizioni per l'utilizzo | [https://ngdesk.com/terms-of-service/](https://ngdesk.com/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

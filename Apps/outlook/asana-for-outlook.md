@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Asana per Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cd3d403d7b25c1ad5dda60dff8d93c18dfe59c30
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 631e8ea5e7265566b1c8332987ea31f9d5ec41bc
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553747"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282910"
 ---
 # <a name="asana-for-outlook"></a>Asana per Outlook
 
@@ -33,11 +33,11 @@ Informazioni fornite da Asana a Microsoft:
 |:----------------|:-------------|
 | Nome app | Asana per Outlook |
 | ID | WA104381833 |
-| Office 365 client supportati | Outlook 2016 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul Web |
+| Office 365 client supportati | Outlook 2016 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | Asana |
-| URL del sito Web del partner | [https://asana.com/](https://asana.com/) |
+| URL del sito Web del partner | [https://asana.com](https://asana.com) |
 | URL dell'informativa sulla privacy | [https://asana.com/terms#privacy-policy](https://asana.com/terms#privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL delle Condizioni per l'utilizzo | [https://asana.com/terms#terms-of-service](https://asana.com/terms#terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Smartnotation, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 14641479a5ede06ee099b17cb4d4b616bbc65df6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 956f45f76f1f43164ef668a929080f501394bc82
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553857"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283210"
 ---
 # <a name="smartnotation"></a>Smartnotation
 
@@ -36,9 +36,9 @@ Informazioni fornite da Smartnotation B.V. a Microsoft:
 | ID | WA200000681 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Smartnotation B.V. |
-| URL del sito Web del partner | [https://www.smartnotation.com/](https://www.smartnotation.com/) |
-| URL dell'informativa sulla privacy | [https://www.smartnotation.com/privacy_policy.pdf](https://www.smartnotation.com/privacy_policy.pdf) |
-| URL delle Condizioni per l'utilizzo | [https://www.smartnotation.com/tos.pdf](https://www.smartnotation.com/tos.pdf) |
+| URL del sito Web del partner | [https://www.smartnotation.com/landing/](https://www.smartnotation.com/landing/) |
+| URL dell'informativa sulla privacy | [https://www.smartnotation.com/public/privacy_policy.pdf](https://www.smartnotation.com/public/privacy_policy.pdf) |
+| URL delle Condizioni per l'utilizzo | [https://www.smartnotation.com/public/tos.pdf](https://www.smartnotation.com/public/tos.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

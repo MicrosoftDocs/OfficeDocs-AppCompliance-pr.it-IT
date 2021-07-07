@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Sailpoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: befd216c19352c4b812703fe7d59d2c3fd3fd7d7
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: bcde5fdd363b217adabcdfd91074dedfcbe73b88
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790053"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283080"
 ---
-# <a name="sailpoint"></a>Punto di avasa
+# <a name="sailpoint"></a>Sailpoint
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,11 +32,11 @@ Informazioni fornite da SailPoint Technologies, Inc. a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Punto di avasa |
+| Nome app | Sailpoint |
 | ID | WA200002761 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | SailPoint Technologies, Inc. |
-| URL del sito Web del partner | [sailpoint.com](sailpoint.com) |
+| URL del sito Web del partner | [https://sailpoint.com](https://sailpoint.com) |
 | URL dell'informativa sulla privacy | [https://www.sailpoint.com/legal/privacy/](https://www.sailpoint.com/legal/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.sailpoint.com/legal/customer-agreements/](https://www.sailpoint.com/legal/customer-agreements/) |
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per MIPA - Assistente personale, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3c6e09d38057c2a84196982a94ea8f938b295fbe
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1f203cb6c99584fb8633fcfaafe9155a97d300fe
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552087"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283030"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA - Your Personal Assistant
 
@@ -35,7 +35,7 @@ Informazioni fornite da iGlobe a Microsoft:
 | ID | WA200000148 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | iGlobe |
-| URL del sito Web del partner | [https://mipa.iglobe.dk/](https://mipa.iglobe.dk/) |
+| URL del sito Web del partner | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://mipa.iglobe.dk/Support](https://mipa.iglobe.dk/Support) |
 | URL dell'informativa sulla privacy | [https://instassl.iglobecrm.com/legal-information](https://instassl.iglobecrm.com/legal-information) |
 | URL delle Condizioni per l'utilizzo | [https://mipa.iglobe.dk/EULA](https://mipa.iglobe.dk/EULA) |

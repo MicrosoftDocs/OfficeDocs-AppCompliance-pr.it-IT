@@ -1,26 +1,27 @@
 ---
-title: Application Information for officeatwork | Uploader per Office da ufficio
+title: Application Information for Verifier by officeatwork
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i servizi | Caricatore per Office, criteri di gestione dei dati, Microsoft Cloud App Security informazioni sul catalogo app e informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+certification_type: attested
+description: Tutte le informazioni di sicurezza e conformità disponibili per Verifier, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 872034760bea88cfe6e8b75b02d19819a6686b46
+ms.openlocfilehash: ab2bc82f8dfff62649d4eac833be2136c57f6821
 ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283450"
+ms.locfileid: "53282800"
 ---
-# <a name="officeatwork--uploader-for-office"></a>officeatwork | Uploader per Office
+# <a name="verifier"></a>Verifier
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: December 8, 2020</p>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: June 23, 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104381430" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/web-apps/officeatwork-ag.verifier" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -30,9 +31,8 @@ Informazioni fornite da officeatwork a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | officeatwork - Uploader per Office |
-| ID | WA104381430 |
-| Office 365 client supportati | Word su iPad, Word 2016 o versioni successive su Mac, Word 2016 o versioni successive Windows, Word sul web |
+| Nome app | Verifier |
+| ID | officeatwork-ag.verifier |
 | Nome società partner | officeatwork |
 | URL del sito Web del partner | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL dell'informativa sulla privacy | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -54,15 +54,13 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | delegated | Non vengono archiviati dati. | OneDrive: per essere in grado di leggere e scrivere dati nella OneDrive. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| Group.ReadWrite.All | delegated | Non vengono archiviati dati. | Teams: per leggere e scrivere dati in un gruppo. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| GroupMember.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online - Supporto dei gruppi di sicurezza: per consentire all'app di elencare i gruppi, leggere le proprietà di base dei gruppi e leggere le appartenenze di tutti i gruppi a cui l'utente connesso ha accesso. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| Sites.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online: per abilitare la lettura dei dati in SharePoint Online, l'utente connesso ha accesso a. Per abilitare il caricamento dei dati in SharePoint Online | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| User.Read | delegated | Non vengono archiviati dati. | Sing-In: per consentire all'app officeatwork di leggere le proprietà di base dell'utente. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| User.Read.All | delegated | Non vengono archiviati dati. | Teams: per scoprire a quali gruppi appartiene un utente. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| offline_access | delegated | Non vengono archiviati dati. | Sing-In: per abilitare l'accesso automatico tramite i token di aggiornamento, come senza, gli utenti dovrebbero eseguire manualmente l'accesso ogni volta che avviano l'app officeatwork. Questo ambito è obbligatorio solo per le applicazioni host non abilitate per SSO. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| openid | delegated | Non vengono archiviati dati. | Sing-In: per consentire agli utenti di accedere all'app officeatwork con l'organizzazione e/o l'account Microsoft. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| profilo | delegated | Non vengono archiviati dati. | Sing-In: per mostrare l'utente connesso nell'app officeatwork. Ciò consente di assicurare/confermare all'utente quale account è stato usato per accedere all'app officeatwork. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
+>| Files.Read | delegated | Non vengono archiviati dati. | OneDrive: per leggere i file dell'utente connesso | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
+>| Files.Read.All | delegated | Non vengono archiviati dati. | Teams: per leggere tutti i file a cui l'utente connesso ha accesso. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
+>| Sites.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online: per abilitare la lettura dei dati da SharePoint Online, l'utente connesso ha accesso a. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
+>| User.Read | delegated | Non vengono archiviati dati. | Accesso: per consentire all'app officeatwork di leggere le proprietà di base dell'utente. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
+>| offline_access | delegated | Non vengono archiviati dati. | Accesso: per abilitare l'accesso automatico tramite i token di aggiornamento, come senza, gli utenti dovrebbero accedere manualmente ogni volta che avviano l'app officeatwork. Questo ambito è obbligatorio solo per le applicazioni host non abilitate per SSO. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
+>| openid | delegated | Non vengono archiviati dati. | Sing-In: per consentire agli utenti di accedere all'app officeatwork con l'organizzazione e/o l'account Microsoft. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
+>| profilo | delegated | Non vengono archiviati dati. | Sing-In: per mostrare l'utente connesso nell'app officeatwork. Ciò consente di assicurare/confermare all'utente quale account è stato usato per accedere all'app officeatwork. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
@@ -106,9 +104,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35750' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35755' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35750" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35755" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Talview Interviews, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4f6b1b560d06f7d1d3728eabd646ded7d99874db
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a641b49729a43c8b12339f162eeee395183f5859
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552697"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282940"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -38,8 +38,8 @@ Informazioni fornite da Talview Inc a Microsoft:
 | Nome società partner | Talview Inc. |
 | URL del sito Web del partner | [https://talview.com](https://talview.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://info.talview.com/talview-partners-microsoft-teams](https://info.talview.com/talview-partners-microsoft-teams) |
-| URL dell'informativa sulla privacy | [https://talview.com/privacy](https://talview.com/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://talview.com/terms](https://talview.com/terms) |
+| URL dell'informativa sulla privacy | [https://www.talview.com/privacy](https://www.talview.com/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://www.talview.com/terms](https://www.talview.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

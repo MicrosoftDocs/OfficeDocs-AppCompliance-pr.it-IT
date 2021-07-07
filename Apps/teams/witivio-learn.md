@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Learn, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: acb0b07f25bc3fa2e86246a061ff73d3152b9810
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 798bd76f786119863f9ff2046e72daa15bcb0696
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550856"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283350"
 ---
 # <a name="learn"></a>Formazione
 
@@ -36,7 +36,7 @@ Informazioni fornite da Witivio a Microsoft:
 | ID | WA200001308 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Witivio |
-| URL del sito Web del partner | [https://www.witivio.com/learn](https://www.witivio.com/learn) |
+| URL del sito Web del partner | [https://www.witivio.com](https://www.witivio.com) |
 | URL dell'informativa sulla privacy | [https://www.witivio.com/en/privacy](https://www.witivio.com/en/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://witivio.com/en/terms-of-use](https://witivio.com/en/terms-of-use) |
 

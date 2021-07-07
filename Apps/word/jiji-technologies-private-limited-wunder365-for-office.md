@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wunder365 per Office, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 84138d8471b342ad67e2bad34b70166ddb77a539
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 85e7b014e9bbc5754016bd83a7734ff2481aa8dc
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550396"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283290"
 ---
 # <a name="wunder365-for-office"></a>Wunder365 per Office
 
@@ -35,9 +35,9 @@ Informazioni fornite da JiJi Technologies Private Limited per Microsoft:
 | ID | WA200001529 |
 | Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2013 o versioni successive su Windows, Excel sul web, Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versioni successive su Windows, OneNote sul web |
 | Nome società partner | JiJi Technologies Private Limited |
-| URL del sito Web del partner | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| URL del sito Web del partner | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | URL dell'informativa sulla privacy | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://go.microsoft.com/fwlink/?linkid=2041178](https://go.microsoft.com/fwlink/?linkid=2041178) |
+| URL delle Condizioni per l'utilizzo | [https://www.wunder365.com/terms-of-service](https://www.wunder365.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

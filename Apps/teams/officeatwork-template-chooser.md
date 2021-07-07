@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Selezione modelli, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6af7611aebaf90acfc1785ad5e5cbba3e58f3871
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 89bf2f71d99580888dbb0d938c4f5a909d0c2175
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552887"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283180"
 ---
 # <a name="template-chooser"></a>Template Chooser
 
@@ -35,7 +35,7 @@ Informazioni fornite da officeatwork a Microsoft:
 | ID | WA200000110 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | officeatwork |
-| URL del sito Web del partner | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
+| URL del sito Web del partner | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | URL dell'informativa sulla privacy | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | URL delle Condizioni per l'utilizzo | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Trivie, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 92da7dff6c2e344dc6f51c6ed386dd841139f44d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3130bccb3e639100603e9790e247a8ca0f151102
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551146"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283372"
 ---
 # <a name="trivie"></a>Trivie
 
@@ -36,10 +36,10 @@ Informazioni fornite da Trivie, Inc. a Microsoft:
 | ID | WA200002718 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Trivie, Inc. |
-| URL del sito Web del partner | [https://www.trivie.com](https://www.trivie.com) |
+| URL del sito Web del partner | [https://trivie.com](https://trivie.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://trivie.com](https://trivie.com) |
-| URL dell'informativa sulla privacy | [https://www.trivie.com/privacy-policy](https://www.trivie.com/privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://www.trivie.com/terms-of-service](https://www.trivie.com/terms-of-service) |
+| URL dell'informativa sulla privacy | [https://trivie.com/privacy-policy](https://trivie.com/privacy-policy) |
+| URL delle Condizioni per l'utilizzo | [https://trivie.com/terms-of-service](https://trivie.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Slido, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b54b432cc2956498cfb142ba56789d94ab9c6253
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 96e9df1c15ebea86c7d38286ca5fd196e1e6f470
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553867"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283222"
 ---
 # <a name="slido"></a>Slido
 
@@ -39,7 +39,7 @@ Informazioni fornite da Slido a Microsoft:
 | URL del sito Web del partner | [https://www.sli.do](https://www.sli.do) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.sli.do/product](https://www.sli.do/product) |
 | URL dell'informativa sulla privacy | [https://www.sli.do/terms#privacy-policy](https://www.sli.do/terms#privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://www.sli.do/terms#terms-of-service](https://www.sli.do/terms#terms-of-service) |
+| URL delle Condizioni per l'utilizzo | [https://www.sli.do/terms](https://www.sli.do/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

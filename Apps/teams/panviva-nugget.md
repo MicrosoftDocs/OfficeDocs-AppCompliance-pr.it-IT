@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Nugget, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1d5f6adea09ed546fae6b6c9ca0aa4ef13beb683
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 6108617e72e1996a335b53941989a707a6544337
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552867"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283160"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -37,7 +37,7 @@ Informazioni fornite da Panviva a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Panviva |
 | URL del sito Web del partner | [https://www.panviva.com](https://www.panviva.com) |
-| URL dell'informativa sulla privacy | [https://www.panviva.com/privacy-policy](https://www.panviva.com/privacy-policy) |
+| URL dell'informativa sulla privacy | [https://www.panviva.com/privacy-policy/](https://www.panviva.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.panviva.com/terms-and-conditions](https://www.panviva.com/terms-and-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

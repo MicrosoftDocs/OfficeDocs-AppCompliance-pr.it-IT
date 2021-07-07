@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Sentry, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7df6fe458724bbd7162c0bcfc2cdda95176a0e70
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 4795f68da9e5b0eb3fa283494f547b7c9ae43f6d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553897"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283240"
 ---
 # <a name="sentry"></a>Sentry
 
@@ -36,7 +36,7 @@ Informazioni fornite da Sentry a Microsoft:
 | ID | WA200002106 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Sentry |
-| URL del sito Web del partner | [https://sentry.io/](https://sentry.io/) |
+| URL del sito Web del partner | [https://sentry.io](https://sentry.io) |
 | URL della pagina Teams informazioni sull'applicazione | [https://docs.sentry.io/product/integrations/msteams/](https://docs.sentry.io/product/integrations/msteams/) |
 | URL dell'informativa sulla privacy | [https://sentry.io/privacy/](https://sentry.io/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://sentry.io/terms/](https://sentry.io/terms/) |

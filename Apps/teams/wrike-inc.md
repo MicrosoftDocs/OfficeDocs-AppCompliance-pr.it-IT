@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Wrike, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4ef844f9bf25ffa41a6054aa6ffcbebdb94be223
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c175c36e7ecb9bc19b2ff3ad95b56bfab38cdcab
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550766"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283340"
 ---
 # <a name="wrike"></a>Wrike
 
@@ -35,10 +35,10 @@ Informazioni fornite da Wrike Inc. a Microsoft:
 | ID | WA104381390 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Wrike Inc. |
-| URL del sito Web del partner | [https://www.wrike.com](https://www.wrike.com) |
+| URL del sito Web del partner | [https://www.wrike.com/](https://www.wrike.com/) |
 | URL della pagina Teams informazioni sull'applicazione | [https://help.wrike.com/hc/en-us/articles/115001825869-Micro...](https://help.wrike.com/hc/en-us/articles/115001825869-Microsoft-Teams) |
-| URL dell'informativa sulla privacy | [https://www.wrike.com/security/privacy/](https://www.wrike.com/security/privacy/) |
-| URL delle Condizioni per l'utilizzo | [https://www.wrike.com/security/terms/](https://www.wrike.com/security/terms/) |
+| URL dell'informativa sulla privacy | [https://www.wrike.com/privacy/](https://www.wrike.com/privacy/) |
+| URL delle Condizioni per l'utilizzo | [https://www.wrike.com/terms/](https://www.wrike.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

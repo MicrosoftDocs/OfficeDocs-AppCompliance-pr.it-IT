@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per SalesTim, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c9094f50723c7094f895d21f8a9569dedbb5863b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ada23e0899e67432b0718ec34f32c236e8768a18
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553917"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283070"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -35,9 +35,9 @@ Informazioni fornite da SalesTim a Microsoft:
 | ID | WA200001393 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | SalesTim |
-| URL del sito Web del partner | [https://www.salestim.com](https://www.salestim.com) |
-| URL dell'informativa sulla privacy | [https://www.salestim.com/legal/privacy](https://www.salestim.com/legal/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://www.salestim.com/legal/tos](https://www.salestim.com/legal/tos) |
+| URL del sito Web del partner | [https://www.salestim.com/](https://www.salestim.com/) |
+| URL dell'informativa sulla privacy | [https://www.salestim.com/legal/privacy/](https://www.salestim.com/legal/privacy/) |
+| URL delle Condizioni per l'utilizzo | [https://www.salestim.com/legal/tos/](https://www.salestim.com/legal/tos/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

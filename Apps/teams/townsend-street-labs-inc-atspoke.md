@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per atSpoke, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9a159ce3ac976eb1916cd94b3eb1cf002f8e13c1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b3e3027c83c78373347a972124853add6214ee8d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551196"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283390"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -36,9 +36,9 @@ Informazioni fornite da Townsend Street Labs, Inc. a Microsoft:
 | ID | WA200001454 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Townsend Street Labs, Inc. |
-| URL del sito Web del partner | [https://www.atspoke.com](https://www.atspoke.com) |
+| URL del sito Web del partner | [https://www.atspoke.com/](https://www.atspoke.com/) |
 | URL dell'informativa sulla privacy | [https://www.atspoke.com/privacy-policy/](https://www.atspoke.com/privacy-policy/) |
-| URL delle Condizioni per l'utilizzo | [https://www.atspoke.com/terms-of-service](https://www.atspoke.com/terms-of-service) |
+| URL delle Condizioni per l'utilizzo | [https://www.atspoke.com/terms-of-service/](https://www.atspoke.com/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
