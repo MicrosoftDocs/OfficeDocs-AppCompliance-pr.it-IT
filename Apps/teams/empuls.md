@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Empuls, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 213ea22e24ee4f6aa4efb08270d3715fda8ac097
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 4e0d3fd220ee2a068538073c7afe7fc522d9609f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552207"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281298"
 ---
 # <a name="empuls"></a>Empuls
 
@@ -36,7 +36,7 @@ Informazioni fornite da Empuls a Microsoft:
 | ID | WA200002483 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Empuls |
-| URL del sito Web del partner | [https://www.xoxoday.com/empuls/overview](https://www.xoxoday.com/empuls/overview) |
+| URL del sito Web del partner | [https://www.xoxoday.com](https://www.xoxoday.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.xoxoday.com/empuls](https://www.xoxoday.com/empuls) |
 | URL dell'informativa sulla privacy | [https://www.xoxoday.com/privacy-policy](https://www.xoxoday.com/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.xoxoday.com/terms-of-use](https://www.xoxoday.com/terms-of-use) |

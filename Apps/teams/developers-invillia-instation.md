@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per InStation, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 40c86e4284ed201fedf63bfe3bbd7570b61049b7
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 46b7c4131e1f3897036cf0b2180b2f99c2e6ff2c
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552247"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282029"
 ---
 # <a name="instation"></a>InStation
 
@@ -36,7 +36,7 @@ Informazioni fornite da Sviluppatori Invillia a Microsoft:
 | ID | WA200001701 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Developers Invillia |
-| URL del sito Web del partner | [https://instation.invillia.com/](https://instation.invillia.com/) |
+| URL del sito Web del partner | [https://invillia.com/](https://invillia.com/) |
 | URL dell'informativa sulla privacy | [https://instation.invillia.com/terms#privacy-policy](https://instation.invillia.com/terms#privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://instation.invillia.com/terms#terms-of-use](https://instation.invillia.com/terms#terms-of-use) |
 

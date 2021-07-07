@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Agile Task Board, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3bbf6f95ed5a0e840b1ba8c896dbb14b4ddfa5f2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a5062da73958a88a7b788a74771e76ae506b314d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553447"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281468"
 ---
 # <a name="agile-task-board"></a>Agile Task Board
 
@@ -36,7 +36,7 @@ Informazioni fornite da Agile-IS a Microsoft:
 | ID | WA200002162 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Agile-IS |
-| URL del sito Web del partner | [https://www.agile-is.de/agiletaskboard?utm_medium=appsource...](https://www.agile-is.de/agiletaskboard?utm_medium=appsource&amp;utm_campaign=teams&amp;utm_source=manifest) |
+| URL del sito Web del partner | [https://www.agile-is.de](https://www.agile-is.de) |
 | URL dell'informativa sulla privacy | [https://www.agile-is.de/en/telemetry](https://www.agile-is.de/en/telemetry) |
 | URL delle Condizioni per l'utilizzo | [https://www.agile-is.de/en/termsofuse](https://www.agile-is.de/en/termsofuse) |
 

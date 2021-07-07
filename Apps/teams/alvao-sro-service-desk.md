@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Alvao Service Desk, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fd5a6939e93720fa6422cc61b9b7c785539ec24a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d5fe88303b18c41be50f5c108cd4c0b4bfb16314
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552407"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282069"
 ---
 # <a name="alvao-service-desk"></a>Alvao Service Desk
 
@@ -36,7 +36,7 @@ Informazioni fornite da ALVAO s.r.o. a Microsoft:
 | ID | WA200002488 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | ALVAO s.r.o. |
-| URL del sito Web del partner | [https://www.alvao.com/en/ ](https://www.alvao.com/en/ ) |
+| URL del sito Web del partner | [https://www.alvao.com/en/](https://www.alvao.com/en/) |
 | URL della pagina Teams informazioni sull'applicazione | [https://doc.alvao.com/support/doc/en/alvao_10_4/modules/alv...](https://doc.alvao.com/support/doc/en/alvao_10_4/modules/alvao_teams_addin/default.aspx) |
 | URL dell'informativa sulla privacy | [https://www.alvao.com/en/gdpr](https://www.alvao.com/en/gdpr) |
 | URL delle Condizioni per l'utilizzo | [https://www.alvao.com/en/storage/app/media/documents/licens...](https://www.alvao.com/en/storage/app/media/documents/license_SD_10.3_en.pdf) |

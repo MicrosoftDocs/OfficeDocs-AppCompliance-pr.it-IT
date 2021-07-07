@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i servizi | Content Chooser for Office, i criteri di gestione dei dati, le informazioni Microsoft Cloud App Security catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f4d95e0dcbb0a7234299f190766e85b17f6a853f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 39c7e2b45c8fa4d525d3b024533fbf63fa17b0be
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553587"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281548"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork | Selezione contenuto per Office
 
@@ -34,7 +34,7 @@ Informazioni fornite da officeatwork a Microsoft:
 | ID | WA104380602 |
 | Office 365 client supportati | Excel su iPad, Excel 2016 o versione successiva su Mac, Excel 2013 Service Pack 1 o versione successiva su Windows, Excel sul web, Word su iPad, Word 2016 o versioni successive su Mac, Word sul web, Word 2013 Service Pack 1 o versione successiva su Windows, PowerPoint su iPad, PowerPoint 2016 o versioni successive su Mac, PowerPoint sul web, PowerPoint 2013 Service Pack 1 o versione successiva su Windows, OneNote sul web |
 | Nome società partner | officeatwork |
-| URL del sito Web del partner | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
+| URL del sito Web del partner | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL dell'informativa sulla privacy | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | URL delle Condizioni per l'utilizzo | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 

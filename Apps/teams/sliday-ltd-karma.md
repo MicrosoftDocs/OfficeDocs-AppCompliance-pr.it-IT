@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Karma, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9da5f26e68be07cc9817c50434e214de3f3784c4
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ffdd34522178c481b84d0a5b102fab20f41ea3ed
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551636"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281038"
 ---
 # <a name="karma"></a>Karma
 
@@ -36,10 +36,10 @@ Informazioni fornite da Sliday LTD a Microsoft:
 | ID | WA104381640 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Sliday LTD |
-| URL del sito Web del partner | [https://karmabot.chat/ms](https://karmabot.chat/ms) |
+| URL del sito Web del partner | [https://sliday.com](https://sliday.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://karmabot.readme.io/](https://karmabot.readme.io/) |
-| URL dell'informativa sulla privacy | [https://karmabot.readme.io/v3.0/docs/privacy-policy-for-mic...](https://karmabot.readme.io/v3.0/docs/privacy-policy-for-microsoft-teams) |
-| URL delle Condizioni per l'utilizzo | [https://karmabot.readme.io/docs/karma-end-user-license-agre...](https://karmabot.readme.io/docs/karma-end-user-license-agreement-eula) |
+| URL dell'informativa sulla privacy | [https://karmabot.readme.io/docs/privacy-policy-for-microsof...](https://karmabot.readme.io/docs/privacy-policy-for-microsoft-teams) |
+| URL delle Condizioni per l'utilizzo | [https://karmabot.readme.io/docs/terms-and-conditions](https://karmabot.readme.io/docs/terms-and-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

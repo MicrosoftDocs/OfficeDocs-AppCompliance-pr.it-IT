@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per lo strumento di creazione di report iPlanner per Office 365 Planner, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a577fcc75982703bfae0de740a7e69d9d13e509a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2b9797eb2b4ec271804711473a77f26a9cce4e13
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548766"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281148"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>Strumento di reporting iPlanner per Office 365 Planner
 
@@ -34,9 +34,9 @@ Informazioni fornite da iGlobe a Microsoft:
 | ID | WA104380686 |
 | Office 365 client supportati | Excel 2016 o versioni successive Windows, Excel sul web, Excel 2016 o versioni successive su Mac |
 | Nome società partner | iGlobe |
-| URL del sito Web del partner | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
-| URL dell'informativa sulla privacy | [https://iglobecrm.com/content/legal-information](https://iglobecrm.com/content/legal-information) |
-| URL delle Condizioni per l'utilizzo | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474836912/Product_42949680354/Asset_9d620695-979f-49e4-bc56-98259b0cdeb2/EULAPlanner.pdf) |
+| URL del sito Web del partner | [https://iglobecrm.com/](https://iglobecrm.com/) |
+| URL dell'informativa sulla privacy | [https://instassl.iglobecrm.com/legal-information](https://instassl.iglobecrm.com/legal-information) |
+| URL delle Condizioni per l'utilizzo | [https://mipa.iglobe.dk/EULA](https://mipa.iglobe.dk/EULA) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

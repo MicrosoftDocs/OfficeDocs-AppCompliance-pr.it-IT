@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per askR.ai, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: df24c20ad60cd7e72946db7a8404019903b4a483
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e88abce5e865bdd3a09d4593b882070c013bbc93
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552377"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281418"
 ---
 # <a name="askrai"></a>askR.ai
 
@@ -36,7 +36,7 @@ Informazioni fornite da askR.ai a Microsoft:
 | ID | WA200001583 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | askR.ai |
-| URL del sito Web del partner | [https://en.askr.ai/](https://en.askr.ai/) |
+| URL del sito Web del partner | [https://en.askr.ai](https://en.askr.ai) |
 | URL della pagina Teams informazioni sull'applicazione | [https://en.askr.ai](https://en.askr.ai) |
 | URL dell'informativa sulla privacy | [https://en.askr.ai/privacy-policy-askr-ai](https://en.askr.ai/privacy-policy-askr-ai) |
 | URL delle Condizioni per l'utilizzo | [https://en.askr.ai/terms-of-use-askr-ai](https://en.askr.ai/terms-of-use-askr-ai) |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per monday.com, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 64fc8e948618b760a3f82ee9c1ac67a32de9afb6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1252ff537b354a1a8bc068e9c6ac6779c7af3fc4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552927"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281218"
 ---
 # <a name="mondaycom"></a>monday.com
 
@@ -36,8 +36,8 @@ Informazioni fornite da monday.com a Microsoft:
 | ID | WA200001798 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | monday.com |
-| URL del sito Web del partner | [https://monday.com](https://monday.com) |
-| URL dell'informativa sulla privacy | [https://monday.com/privacy](https://monday.com/privacy) |
+| URL del sito Web del partner | [https://monday.com/](https://monday.com/) |
+| URL dell'informativa sulla privacy | [https://monday.com/terms/privacy](https://monday.com/terms/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://monday.com/terms/tos](https://monday.com/terms/tos) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per lo strumento Zoho Campaigns per l'automazione del marketing, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e67de0ca2871d5432b5a29ead52194225bc51c9a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e54e3313dcfa51542439775a0c3ca0cae38aca93
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553687"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281588"
 ---
 # <a name="zoho-campaigns-tool-for-marketing-automation"></a>Strumento Zoho Campaigns per l'automazione del marketing
 
@@ -33,11 +33,11 @@ Informazioni fornite da Zoho Corporation Private Limited a Microsoft:
 |:----------------|:-------------|
 | Nome app | Strumento Zoho Campaigns per l'automazione del marketing |
 | ID | WA104380835 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul Web |
+| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | Zoho Corporation Private Limited |
 | URL del sito Web del partner | [https://www.zoho.com/](https://www.zoho.com/) |
-| URL dell'informativa sulla privacy | [https://zoho.com/privacy.html](https://zoho.com/privacy.html) |
-| URL delle Condizioni per l'utilizzo | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL dell'informativa sulla privacy | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
+| URL delle Condizioni per l'utilizzo | [https://www.zoho.com/campaigns/zc-terms.html](https://www.zoho.com/campaigns/zc-terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Live Chat, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9bc8ccb18fd8e43dd3d59f15fbc324f835e82d93
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 41df26af03dd56fb89ce316ecaa61d7af3ae7bf5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551486"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280928"
 ---
 # <a name="live-chat"></a>Live Chat
 
@@ -37,8 +37,8 @@ Informazioni fornite da Intenti sociali a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Social Intents |
 | URL del sito Web del partner | [https://www.socialintents.com](https://www.socialintents.com) |
-| URL dell'informativa sulla privacy | [https://www.socialintents.com/privacy.html](https://www.socialintents.com/privacy.html) |
-| URL delle Condizioni per l'utilizzo | [https://www.socialintents.com/tos.html](https://www.socialintents.com/tos.html) |
+| URL dell'informativa sulla privacy | []() |
+| URL delle Condizioni per l'utilizzo | []() |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

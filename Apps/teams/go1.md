@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Go1, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f812e25e3e5b894d7b54da886637513cb677702a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 39501f6cb09502287dcff26acab4d8720b5fb6a0
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553117"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281278"
 ---
 # <a name="go1"></a>Go1
 
@@ -36,7 +36,7 @@ Informazioni fornite da Go1 a Microsoft:
 | ID | WA200001484 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Go1 |
-| URL del sito Web del partner | [https://www.go1.com/](https://www.go1.com/) |
+| URL del sito Web del partner | [https://www.go1.com/user/login](https://www.go1.com/user/login) |
 | URL dell'informativa sulla privacy | [https://www.go1.com/en-au/terms/privacy-policy](https://www.go1.com/en-au/terms/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.go1.com/en-au/terms/user-terms](https://www.go1.com/en-au/terms/user-terms) |
 

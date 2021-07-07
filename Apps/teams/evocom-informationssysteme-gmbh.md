@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Evocom, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 69eed6c53706cb64ea4c4af64d455e01ecc98c9f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1a3be83c266ee993ad377a2489a85248bdafab67
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553167"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281288"
 ---
 # <a name="evocom"></a>Evocom
 
@@ -36,10 +36,10 @@ Informazioni fornite da Evocom Informationssysteme GmbH a Microsoft:
 | ID | WA200002050 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Evocom Informationssysteme GmbH |
-| URL del sito Web del partner | [https://www.evocom.de/](https://www.evocom.de/) |
+| URL del sito Web del partner | [https://evocom.de](https://evocom.de) |
 | URL della pagina Teams informazioni sull'applicazione | [https://evocom.de/microsoft365](https://evocom.de/microsoft365) |
-| URL dell'informativa sulla privacy | [https://www.evocom.de/privacy](https://www.evocom.de/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://www.evocom.de/termsofuse](https://www.evocom.de/termsofuse) |
+| URL dell'informativa sulla privacy | [https://evocom.de/privacy](https://evocom.de/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://evocom.de/termsofuse](https://evocom.de/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

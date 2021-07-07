@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Org@Work, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 68f59afdc79ae00f1643f9f2ce5650e06392d2a3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 6791c124a7d18f6a6d0554857cad1f35b6fd7781
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551977"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281759"
 ---
 # <a name="orgwork"></a>Org@Work
 
@@ -36,10 +36,10 @@ Informazioni fornite da Lundano a Microsoft:
 | ID | WA200002461 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Lundano |
-| URL del sito Web del partner | [https://www.lundano.com/orgatwork/](https://www.lundano.com/orgatwork/) |
+| URL del sito Web del partner | [https://www.lundano.com/en/](https://www.lundano.com/en/) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.lundano.com/orgatwork/index.html#](https://www.lundano.com/orgatwork/index.html#) |
 | URL dell'informativa sulla privacy | [https://cp.lundano.com/privacy_en.html](https://cp.lundano.com/privacy_en.html) |
-| URL delle Condizioni per l'utilizzo | [https://cp.lundano.com/terms.html](https://cp.lundano.com/terms.html) |
+| URL delle Condizioni per l'utilizzo | [https://cp.lundano.com/Terms_en.html](https://cp.lundano.com/Terms_en.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

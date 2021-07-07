@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SIGNL4, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a619327000c93e3292e266c8b025034370a8b623
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 425c0738b5628f959ba81e5682c22afe6774cfba
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553207"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281328"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -36,7 +36,7 @@ Informazioni fornite da Derdack SIGNL4 a Microsoft:
 | ID | WA200001239 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Derdack SIGNL4 |
-| URL del sito Web del partner | [https://www.signl4.com](https://www.signl4.com) |
+| URL del sito Web del partner | [https://www.derdack.com](https://www.derdack.com) |
 | URL dell'informativa sulla privacy | [https://www.signl4.com/privacy-policy/](https://www.signl4.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.signl4.com/terms_of_use/](https://www.signl4.com/terms_of_use/) |
 
@@ -63,7 +63,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| L'indirizzo di posta elettronica e l'indirizzo di posta elettronica sono necessari per inviare notifiche di fatturazione al cliente quando usa l'app. Twilio, numeri di telefono, contenuto di avviso per l'invio di avvisi tramite SMS sms |  | API di gestione di Azure, vengono raccolti gli avvisi di Monitoraggio di Azure, la raccolta avviene perché i sistemi inviano notifiche per tali avvisi |
+>| L'indirizzo di posta elettronica e l'indirizzo di posta elettronica sono necessari per inviare notifiche di fatturazione al cliente quando usa l'app. Twilio, numeri di telefono, avviso del contenuto per l'invio di avvisi tramite SMS SMS |  | API di gestione di Azure, vengono raccolti gli avvisi di Monitoraggio di Azure, la raccolta avviene perché i sistemi inviano notifiche per tali avvisi |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

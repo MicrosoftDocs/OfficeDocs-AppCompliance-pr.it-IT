@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Lucidchart, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cdfec0551da7278ac92c3e24caa2664a26a89bea
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 65a82c3e895af38dc719411c7729825acae2f9be
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552967"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281769"
 ---
 # <a name="lucidchart"></a>Lucidchart
 
@@ -38,8 +38,8 @@ Informazioni fornite da Lucid Software a Microsoft:
 | Nome società partner | Lucid Software |
 | URL del sito Web del partner | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://lucidchart.zendesk.com/](https://lucidchart.zendesk.com/) |
-| URL dell'informativa sulla privacy | [https://lucid.co/privacy](https://lucid.co/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://lucid.co/tos](https://lucid.co/tos) |
+| URL dell'informativa sulla privacy | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

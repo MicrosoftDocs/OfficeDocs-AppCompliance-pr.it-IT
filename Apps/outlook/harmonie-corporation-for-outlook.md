@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per harmon.ie per Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f494dbc3857bd9fed2603cef3dbc6f76306510c1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 90b5ce81e0b2a0b0d0c9568facb456c5e87aad62
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553737"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281628"
 ---
 # <a name="harmonie-for-outlook"></a>harmon.ie per Outlook
 
@@ -33,11 +33,11 @@ Informazioni fornite da harmon.ie Corporation a Microsoft:
 |:----------------|:-------------|
 | Nome app | harmon.ie per Outlook |
 | ID | WA103004101 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook su Android, Outlook sul Web |
+| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook su Android, Outlook sul web |
 | Nome società partner | harmon.ie Corporation |
-| URL del sito Web del partner | [https://harmon.ie/](https://harmon.ie/) |
+| URL del sito Web del partner | [https://harmon.ie](https://harmon.ie) |
 | URL dell'informativa sulla privacy | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474836605/Product_42949673246/Asset_37060a29-311b-4239-be49-1758aebbeb1a/harmonieEULA.pdf) |
+| URL delle Condizioni per l'utilizzo | [https://harmon.ie/legal/eula](https://harmon.ie/legal/eula) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

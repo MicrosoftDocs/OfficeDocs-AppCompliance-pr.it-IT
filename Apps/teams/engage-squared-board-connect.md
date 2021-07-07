@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Board Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6b314c6cc51515efced101ba986555d859dc4182
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3b7e2eb64055713e06f927882aa7bbf56cf62991
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553187"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281895"
 ---
 # <a name="board-connect"></a>Board Connect
 
@@ -36,9 +36,9 @@ Informazioni fornite da Engage Squared a Microsoft:
 | ID | WA200001955 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Engage Squared |
-| URL del sito Web del partner | [https://boardconnect.app](https://boardconnect.app) |
+| URL del sito Web del partner | [https://engagesq.com](https://engagesq.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://boardconnect.app](https://boardconnect.app) |
-| URL dell'informativa sulla privacy | [https://boardconnect.app/privacy](https://boardconnect.app/privacy) |
+| URL dell'informativa sulla privacy | [https://boardconnect.app/privacy/](https://boardconnect.app/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://boardconnect.app/terms](https://boardconnect.app/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

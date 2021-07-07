@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Kudozza, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3c55726061f0663cf395ea5edb45adf96f35bce3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 85221e2c57cbe5954e3343d8a44cec704c71eda9
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553817"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280778"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -36,10 +36,10 @@ Informazioni fornite da surviveF5 GmbH a Microsoft:
 | ID | WA200002599 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | surviveF5 GmbH |
-| URL del sito Web del partner | [https://www.kudozza.com](https://www.kudozza.com) |
+| URL del sito Web del partner | [https://surviveF5.com](https://surviveF5.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://kudozza.com](https://kudozza.com) |
-| URL dell'informativa sulla privacy | [https://www.kudozza.com/privacy](https://www.kudozza.com/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://www.kudozza.com/terms](https://www.kudozza.com/terms) |
+| URL dell'informativa sulla privacy | [https://kudozza.com/privacy](https://kudozza.com/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://kudozza.com/terms](https://kudozza.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

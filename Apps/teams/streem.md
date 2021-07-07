@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Streem, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e2846048e24c525f55b3a51a5a5ce7c9fa2f862e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d4bedfee8b2a65a0164c845dba10ebf0c44c4eac
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553827"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280828"
 ---
 # <a name="streem"></a>Streem
 
@@ -36,10 +36,9 @@ Informazioni fornite da Streem a Microsoft:
 | ID | WA200000197 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Streem |
-| URL del sito Web del partner | [https://streem.com.au](https://streem.com.au) |
-| URL della pagina Teams informazioni sull'applicazione | [N/D](N/A) |
-| URL dell'informativa sulla privacy | [https://streem.com.au/privacy](https://streem.com.au/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://streem.com.au/terms/general](https://streem.com.au/terms/general) |
+| URL del sito Web del partner | [https://www.streem.com.au](https://www.streem.com.au) |
+| URL dell'informativa sulla privacy | [https://www.streem.com.au/privacy](https://www.streem.com.au/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://www.streem.com.au/terms/general](https://www.streem.com.au/terms/general) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

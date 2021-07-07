@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Sensei Labs Conductor, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6365c2a9916693a94c6af8ed107865872e8e000b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3b0d84d3da0d5fdf32854cd4b3b31b86662cb4b8
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551696"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281068"
 ---
 # <a name="sensei-labs-conductor"></a>Sensei Labs Conductor
 
@@ -36,8 +36,7 @@ Informazioni fornite da Sensei Labs Inc. a Microsoft:
 | ID | WA200001951 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Sensei Labs Inc. |
-| URL del sito Web del partner | [https://www.senseilabs.com/conductor/?utm_campaign=msftteam...](https://www.senseilabs.com/conductor/?utm_campaign=msftteamslaunch&amp;utm_source=teamsappsource&amp;utm_medium=createdby&amp;utm_content=conductorlink) |
-| URL della pagina Teams informazioni sull'applicazione | [N/D](N/A) |
+| URL del sito Web del partner | [https://www.senseilabs.com](https://www.senseilabs.com) |
 | URL dell'informativa sulla privacy | [https://www.senseilabs.com/conductor/conductor-privacy-poli...](https://www.senseilabs.com/conductor/conductor-privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.senseilabs.com/conductor/msft-teams-terms-condi...](https://www.senseilabs.com/conductor/msft-teams-terms-conditions/) |
 

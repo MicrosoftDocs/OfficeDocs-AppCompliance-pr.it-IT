@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per COCO, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a97f2af9e6cf88cf14794293a574d62b91f357e1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 5b1c7194ed42779d966c4d7d4f519374bbb78bb1
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552127"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281258"
 ---
 # <a name="coco"></a>COCO
 
@@ -35,7 +35,7 @@ Informazioni fornite da Hexaware Technologies Ltd. a Microsoft:
 | ID | WA200001468 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Hexaware Technologies Ltd. |
-| URL del sito Web del partner | [https://hexaware.com/](https://hexaware.com/) |
+| URL del sito Web del partner | [https://hexaware.com](https://hexaware.com) |
 | URL dell'informativa sulla privacy | [https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-...](https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-Privacy-Policy-and-Additional-Terms_V2.1.pdf) |
 | URL delle Condizioni per l'utilizzo | [https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-...](https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-Privacy-Policy-and-Additional-Terms_V2.1.pdf#page=6) |
 

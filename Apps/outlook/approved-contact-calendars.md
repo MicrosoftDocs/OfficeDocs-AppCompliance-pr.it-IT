@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per i calendari dei contatti approvati, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6849ef81797483688f6e0fad69338b1a015748d0
-ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
+ms.openlocfilehash: 9bb96c6c6ba40df3e3d4d64c1f0e4033d7425e88
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629648"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281648"
 ---
 # <a name="approved-contact-calendars"></a>Calendari contatti approvati
 
@@ -33,9 +33,9 @@ Informazioni fornite da Contatto approvato a Microsoft:
 |:----------------|:-------------|
 | Nome app | Calendari contatti approvati |
 | ID | WA104380294 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul Web |
+| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | Contatto approvato |
-| URL del sito Web del partner | [www.approvedcontact.com](www.approvedcontact.com) |
+| URL del sito Web del partner | [https://www.approvedcontact.com](https://www.approvedcontact.com) |
 | URL dell'informativa sulla privacy | [https://approvedcontact.com/Privacy%20Policy.pdf](https://approvedcontact.com/Privacy%20Policy.pdf) |
 | URL delle Condizioni per l'utilizzo | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per La fattura e il monitoraggio del tempo - Zoho Invoice, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0909b65a673af03aa6b190d181f1572ab84b5e77
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 0a3e8afb7be998c2fba33e7c4320956cbd990ef3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553667"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281578"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>Fattura e tracciabilità del tempo - Fattura Zoho
 
@@ -33,11 +33,11 @@ Informazioni fornite da Zoho Corporation Private Limited a Microsoft:
 |:----------------|:-------------|
 | Nome app | Fattura e tracciabilità del tempo - Fattura Zoho |
 | ID | WA104381067 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul Web |
+| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | Zoho Corporation Private Limited |
 | URL del sito Web del partner | [https://www.zoho.com/](https://www.zoho.com/) |
-| URL dell'informativa sulla privacy | [https://zoho.com/privacy.html](https://zoho.com/privacy.html) |
-| URL delle Condizioni per l'utilizzo | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL dell'informativa sulla privacy | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
+| URL delle Condizioni per l'utilizzo | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

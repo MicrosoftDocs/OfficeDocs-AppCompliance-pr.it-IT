@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per iGlobe CRM Office 365 per Microsoft Office 365, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b52fcc6ec5d5f5f36c11379c736e098048e58b6b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: bdc9b8367c251e17fc055f0a3466e74b97215bbd
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553507"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281508"
 ---
 # <a name="iglobe-crm-office-365-for-microsoft-office-365"></a>iGlobe CRM Office 365 per Microsoft Office 365
 
@@ -34,9 +34,9 @@ Informazioni fornite da iGlobe a Microsoft:
 | ID | WA104379222 |
 | Office 365 client supportati | SharePoint 2013 o versione successiva |
 | Nome società partner | iGlobe |
-| URL del sito Web del partner | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
+| URL del sito Web del partner | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | URL dell'informativa sulla privacy | [https://www.iglobecrm.com/content/legal-information](https://www.iglobecrm.com/content/legal-information) |
-| URL delle Condizioni per l'utilizzo | [https://www.iglobecrm.com/content/iglobe-crm-office-365-end...](https://www.iglobecrm.com/content/iglobe-crm-office-365-end-user-license-agreement) |
+| URL delle Condizioni per l'utilizzo | [https://iglobecrm.com/content/iglobe-crm-office-365-end-use...](https://iglobecrm.com/content/iglobe-crm-office-365-end-user-license-agreement) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

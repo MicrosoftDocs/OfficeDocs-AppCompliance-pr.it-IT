@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i/o conferenze, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cc2d3c2845660ddda7b2d759d4d30cb4191286dd
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f1ac0d98833813915b3485a7b5c00233f41ddee8
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553217"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281338"
 ---
 # <a name="conferences-io"></a>Conferences i/o
 
@@ -36,10 +36,10 @@ Informazioni fornite da i/o conferenze a Microsoft:
 | ID | WA200001867 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Conferences i/o |
-| URL del sito Web del partner | [https://teamsapp.conferences.io/](https://teamsapp.conferences.io/) |
+| URL del sito Web del partner | [https://conferences.io](https://conferences.io) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.conferences.io/our-platform/features/](https://www.conferences.io/our-platform/features/) |
 | URL dell'informativa sulla privacy | [https://teamsapp.conferences.io/privacy/](https://teamsapp.conferences.io/privacy/) |
-| URL delle Condizioni per l'utilizzo | [https://teamsapp.conferences.io/terms/](https://teamsapp.conferences.io/terms/) |
+| URL delle Condizioni per l'utilizzo | [https://teamsapp.conferences.io/eula/](https://teamsapp.conferences.io/eula/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Adobe Sign per Word e PowerPoint, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: aa9b4a19f83574d7d9428bbf979ac7ee1375227c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 0c5ed86f2de8925a87b726db9c2a9946721e06c7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553647"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282380"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign per Word e PowerPoint
 
@@ -34,9 +34,9 @@ Informazioni fornite da Adobe Inc. a Microsoft:
 | ID | WA104381155 |
 | Office 365 client supportati | Word 2016 o versione successiva su Mac, PowerPoint 2013 Service Pack 1 o versione successiva su Windows, Word 2013 Service Pack 1 o versione successiva su Windows, Word sul web, PowerPoint sul web, PowerPoint 2016 o versioni successive su Mac |
 | Nome società partner | Adobe Inc. |
-| URL del sito Web del partner | [https://www.adobe.com/](https://www.adobe.com/) |
-| URL dell'informativa sulla privacy | [https://www.adobe.com/privacy/policies-business/esign.html](https://www.adobe.com/privacy/policies-business/esign.html) |
-| URL delle Condizioni per l'utilizzo | [https://support.office.com/client/61994a3b-2c87-41c4-a88d-a...](https://support.office.com/client/61994a3b-2c87-41c4-a88d-a6455efa362d?omkt=en) |
+| URL del sito Web del partner | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
+| URL dell'informativa sulla privacy | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
+| URL delle Condizioni per l'utilizzo | [https://www.adobe.com/legal/licenses-terms.html](https://www.adobe.com/legal/licenses-terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

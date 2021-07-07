@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Gaggle per SharePoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3678860272fa669d66d53dc650a685a1ed8c5ef2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 72f13f1e2db58d8376c857bac1d41433a09321a6
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553497"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281518"
 ---
 # <a name="gaggle-for-sharepoint"></a>Gaggle per SharePoint
 
@@ -35,9 +35,9 @@ Informazioni fornite da Gaggle.net, Inc. a Microsoft:
 | ID | WA104374324 |
 | Office 365 client supportati | SharePoint 2013 o versione successiva |
 | Nome società partner | Gaggle.net, Inc. |
-| URL del sito Web del partner | [https://gaggle.net/](https://gaggle.net/) |
-| URL dell'informativa sulla privacy | [https://gaggle.net/privacy](https://gaggle.net/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL del sito Web del partner | [https://Gaggle.net](https://Gaggle.net) |
+| URL dell'informativa sulla privacy | [https://www.gaggle.net/student-data-privacy-notice/](https://www.gaggle.net/student-data-privacy-notice/) |
+| URL delle Condizioni per l'utilizzo | [https://www.gaggle.net/terms-conditions/](https://www.gaggle.net/terms-conditions/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

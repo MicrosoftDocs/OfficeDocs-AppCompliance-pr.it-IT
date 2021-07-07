@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Salesforce, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 29c00595a806c5144b34701ba54860353f9cafc0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b5999dd08ed27ce75bc958e431c0974e10830a3c
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553707"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281698"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -33,11 +33,11 @@ Informazioni fornite da salesforce.com a Microsoft:
 |:----------------|:-------------|
 | Nome app | Salesforce |
 | ID | WA104379334 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul Web |
+| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | salesforce.com |
-| URL del sito Web del partner | [https://www.salesforce.com/](https://www.salesforce.com/) |
-| URL dell'informativa sulla privacy | [https://www.salesforce.com/company/privacy](https://www.salesforce.com/company/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474843361/Product_42949677285/Asset_540860c0-685e-4047-9f3a-082a748e57a2/LIGHTNINGFOROUTLOOKOrderFormSu.doc) |
+| URL del sito Web del partner | [https://www.salesforce.com](https://www.salesforce.com) |
+| URL dell'informativa sulla privacy | [https://www.salesforce.com/company/privacy/](https://www.salesforce.com/company/privacy/) |
+| URL delle Condizioni per l'utilizzo | [https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC...](https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC&amp;p5=WA104379334&amp;cmu=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per 8x8, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 66c25d4d6afd365763add08274e98b09e07e9254
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: e6b886dc575994e36926847685d1de81647a10ea
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987793"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281478"
 ---
 # <a name="8x8"></a>8x8
 
@@ -36,7 +36,7 @@ Informazioni fornite da 8x8, Inc a Microsoft:
 | ID | WA200002665 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | 8x8, Inc |
-| URL del sito Web del partner | [www.8x8.com](www.8x8.com) |
+| URL del sito Web del partner | [https://www.8x8.com](https://www.8x8.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.8x8.com/products/integrations/8x8-voice-for-mic...](https://www.8x8.com/products/integrations/8x8-voice-for-microsoft-teams) |
 | URL dell'informativa sulla privacy | [https://www.8x8.com/terms-and-conditions/privacy-policy?loc...](https://www.8x8.com/terms-and-conditions/privacy-policy?locale=us) |
 | URL delle Condizioni per l'utilizzo | [https://www.8x8.com/terms-and-conditions](https://www.8x8.com/terms-and-conditions) |

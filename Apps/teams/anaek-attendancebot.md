@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per AttendanceBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d99f924734bd6857b32ebb85942e5ef7ddb3cf18
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 900bbe4856204c7b1de0c988388aedc0f79366c5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553427"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281448"
 ---
 # <a name="attendancebot"></a>AttendanceBot
 
@@ -36,9 +36,9 @@ Informazioni fornite da Anaek a Microsoft:
 | ID | WA104381652 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Anaek |
-| URL del sito Web del partner | [https://www.attendancebot.com/microsoft-teams/](https://www.attendancebot.com/microsoft-teams/) |
+| URL del sito Web del partner | [https://www.harmonizehq.com](https://www.harmonizehq.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.attendancebot.com](https://www.attendancebot.com) |
-| URL dell'informativa sulla privacy | [https://www.attendancebot.com/attendance/privacy/](https://www.attendancebot.com/attendance/privacy/) |
+| URL dell'informativa sulla privacy | [https://www.attendancebot.com/privacy](https://www.attendancebot.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.attendancebot.com/attendance/tos/](https://www.attendancebot.com/attendance/tos/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i diagrammi Lucidchart per PowerPoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 024b2e925ba84967bf40754908a8d98baa1d705f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7fcf941323e998bd2e4ffba59f60410e745a1613
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553607"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282360"
 ---
 # <a name="lucidchart-diagrams-for-powerpoint"></a>Diagrammi lucidchart per PowerPoint
 
@@ -35,7 +35,7 @@ Informazioni fornite da Lucid Software Inc a Microsoft:
 | ID | WA104380117 |
 | Office 365 client supportati | PowerPoint 2016 o versione successiva su Mac, PowerPoint sul web, PowerPoint 2013 o versione successiva su Windows |
 | Nome società partner | Lucid Software Inc |
-| URL del sito Web del partner | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
+| URL del sito Web del partner | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL dell'informativa sulla privacy | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 

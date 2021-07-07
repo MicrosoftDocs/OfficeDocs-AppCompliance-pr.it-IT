@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wunder365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0399c1da90a5a744eaa23457a67f99b654de8303
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9ef4f9f97964d1d099676654ff2cfaaa11532167
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553027"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281819"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -36,7 +36,7 @@ Informazioni fornite da JiJi Technologies Pvt Ltd a Microsoft:
 | ID | WA200000742 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | JiJi Technologies Pvt Ltd |
-| URL del sito Web del partner | [https://www.wunder365.com](https://www.wunder365.com) |
+| URL del sito Web del partner | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.wunder365.com/wunder365-for-office](https://www.wunder365.com/wunder365-for-office) |
 | URL dell'informativa sulla privacy | [https://www.wunder365.com/teams-app-privacy-policy](https://www.wunder365.com/teams-app-privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.wunder365.com/terms-of-service](https://www.wunder365.com/terms-of-service) |

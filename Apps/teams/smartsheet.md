@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Smartsheet, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ddf77e7e73cc0bef1a21e72d1db328a4845a12f5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c97f12b0e1f423318c98419f11e7569c5285830d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551526"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280938"
 ---
 # <a name="smartsheet"></a>Smartsheet
 
@@ -36,10 +36,10 @@ Informazioni fornite da Smartsheet a Microsoft:
 | ID | WA104380975 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Smartsheet |
-| URL del sito Web del partner | [https://help.smartsheet.com/articles/2476201](https://help.smartsheet.com/articles/2476201) |
+| URL del sito Web del partner | [https://www.smartsheet.com](https://www.smartsheet.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://help.smartsheet.com/articles/2476201-interact-with-...](https://help.smartsheet.com/articles/2476201-interact-with-smartsheet-items-in-microsoft-teams) |
-| URL dell'informativa sulla privacy | [https://www.smartsheet.com/privacy](https://www.smartsheet.com/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://www.smartsheet.com/user-agreement](https://www.smartsheet.com/user-agreement) |
+| URL dell'informativa sulla privacy | [https://www.smartsheet/legal/privacy](https://www.smartsheet/legal/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://Default Contratto per l'utente: https://www.smartsheet.com/.. .](https://Default User Agreement: https://www.smartsheet.com/legal/user-agreement) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 07d5a5c25ff013e1fb6f060f51fdb92629901cb3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8044715d2f2f743b194d080c9a74b9651f9dac24
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553397"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282039"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -36,9 +36,9 @@ Informazioni fornite da Atlassian a Microsoft:
 | ID | WA200002140 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Atlassian |
-| URL del sito Web del partner | [https://marketplace.atlassian.com/apps/1217836/microsoft-te...](https://marketplace.atlassian.com/apps/1217836/microsoft-teams-for-jira) |
-| URL dell'informativa sulla privacy | [https://www.atlassian.com/legal/privacy-policy](https://www.atlassian.com/legal/privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
+| URL del sito Web del partner | [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) |
+| URL dell'informativa sulla privacy | [https://www.msteams-atlassian.com/privacy-policy/](https://www.msteams-atlassian.com/privacy-policy/) |
+| URL delle Condizioni per l'utilizzo | [https://www.msteams-atlassian.com/legal/](https://www.msteams-atlassian.com/legal/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

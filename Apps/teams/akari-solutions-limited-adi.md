@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ADI, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 576206f6d80f4bbc46ebdd1cef899581c12bcd8a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ad4b6c68e867a057a3b2b6dc85d5016fee92f3ed
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552417"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282079"
 ---
 # <a name="adi"></a>ADI
 
@@ -36,7 +36,7 @@ Informazioni fornite da Akari Solutions Limited per Microsoft:
 | ID | WA200002615 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Akari Solutions Limited |
-| URL del sito Web del partner | [https://akari.io/adi/](https://akari.io/adi/) |
+| URL del sito Web del partner | [https://akari.io](https://akari.io) |
 | URL della pagina Teams informazioni sull'applicazione | [https://akari.io/adi](https://akari.io/adi) |
 | URL dell'informativa sulla privacy | [https://akari.io/adi-privacy-policy/](https://akari.io/adi-privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://akari.io/adi-terms-and-conditions/](https://akari.io/adi-terms-and-conditions/) |

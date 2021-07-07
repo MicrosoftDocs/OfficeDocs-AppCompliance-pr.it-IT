@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wrike per Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1ee6c98b2513459c588100a9b3b19ba529d98af0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 5ee9a184fbe3c5358e79253a7227bbb69d62d4d4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553697"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282410"
 ---
 # <a name="wrike-for-outlook"></a>Wrike per Outlook
 
@@ -32,11 +32,11 @@ Informazioni fornite da Wrike Inc. a Microsoft:
 |:----------------|:-------------|
 | Nome app | Wrike per Outlook |
 | ID | WA104381120 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook sul Web, Outlook su Android |
+| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook sul web, Outlook su Android |
 | Nome società partner | Wrike Inc. |
-| URL del sito Web del partner | [https://wrike.com/](https://wrike.com/) |
-| URL dell'informativa sulla privacy | [https://www.wrike.com/security/privacy](https://www.wrike.com/security/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL del sito Web del partner | [https://www.wrike.com/](https://www.wrike.com/) |
+| URL dell'informativa sulla privacy | [https://www.wrike.com/privacy/](https://www.wrike.com/privacy/) |
+| URL delle Condizioni per l'utilizzo | [https://www.wrike.com/terms/](https://www.wrike.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

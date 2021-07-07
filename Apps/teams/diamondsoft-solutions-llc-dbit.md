@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per DBit, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 23995f613c3c3b6d7b2ab7d161f8710ccddf07d0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: dbdb857d15f33848c459bc817fa9c2c55da8e6b4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553957"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281318"
 ---
 # <a name="dbit"></a>DBit
 
@@ -36,7 +36,7 @@ Informazioni fornite da Diamondsoft Solutions, LLC a Microsoft:
 | ID | WA200001536 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Diamondsoft Solutions, LLC |
-| URL del sito Web del partner | [https://www.dbit.io/index.html](https://www.dbit.io/index.html) |
+| URL del sito Web del partner | [https://www.diamondsoftsolutions.com](https://www.diamondsoftsolutions.com) |
 | URL dell'informativa sulla privacy | [https://www.dbit.io/privacypolicy.html](https://www.dbit.io/privacypolicy.html) |
 | URL delle Condizioni per l'utilizzo | [https://www.dbit.io/termsofuse.html](https://www.dbit.io/termsofuse.html) |
 

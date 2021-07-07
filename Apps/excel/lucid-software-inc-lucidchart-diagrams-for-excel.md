@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i diagrammi Lucidchart per Excel, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5481ed9ce5f8e589fe5ea8703fb48b53c5dab488
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 4b2fd25b60c7156a60dffbbdca4d45421c7c4659
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548796"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281118"
 ---
 # <a name="lucidchart-diagrams-for-excel"></a>Diagrammi lucidchart per Excel
 
@@ -35,9 +35,9 @@ Informazioni fornite da Lucid Software Inc a Microsoft:
 | ID | WA104380194 |
 | Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2013 o versione successiva Windows, Excel sul web |
 | Nome società partner | Lucid Software Inc |
-| URL del sito Web del partner | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
+| URL del sito Web del partner | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL dell'informativa sulla privacy | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
-| URL delle Condizioni per l'utilizzo | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL delle Condizioni per l'utilizzo | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

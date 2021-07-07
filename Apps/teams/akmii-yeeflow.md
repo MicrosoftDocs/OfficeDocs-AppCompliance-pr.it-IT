@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Yeeflow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c8dc3fb5a23d480299aae331a9ccccae9641c66c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9b1292e935d526947d689c9c5de9638589270957
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553437"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281458"
 ---
 # <a name="yeeflow"></a>Yeeflow
 
@@ -36,8 +36,8 @@ Informazioni fornite da Akmii a Microsoft:
 | ID | WA200000089 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Akmii |
-| URL del sito Web del partner | [https://www.yeeflow.com](https://www.yeeflow.com) |
-| URL della pagina Teams informazioni sull'applicazione | [www.yeeflow.com](www.yeeflow.com) |
+| URL del sito Web del partner | [https://www.akmii.com](https://www.akmii.com) |
+| URL della pagina Teams informazioni sull'applicazione | [https://www.yeeflow.com](https://www.yeeflow.com) |
 | URL dell'informativa sulla privacy | [https://www.yeeflow.com/privacy](https://www.yeeflow.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.yeeflow.com/terms](https://www.yeeflow.com/terms) |
 

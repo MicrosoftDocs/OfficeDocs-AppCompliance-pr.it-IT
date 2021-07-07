@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Goodera, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 55b69d4abaedb8f838f201812e11db2cc9aac39f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 46dc2de8dc444591a42a0a3e4ecaa1c31232ebc3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552147"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281869"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -36,8 +36,7 @@ Informazioni fornite da Goodera a Microsoft:
 | ID | WA200002136 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Goodera |
-| URL del sito Web del partner | [https://about.goodera.com](https://about.goodera.com) |
-| URL della pagina Teams informazioni sull'applicazione | [N/D](N/A) |
+| URL del sito Web del partner | [https://goodera.com](https://goodera.com) |
 | URL dell'informativa sulla privacy | [https://about.goodera.com/privacy](https://about.goodera.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://about.goodera.com/terms](https://about.goodera.com/terms) |
 

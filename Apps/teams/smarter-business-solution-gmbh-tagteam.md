@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TagTeam, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5c4976272cd5ee2f280544bf1bb6fb674ca5297d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b4e3fcf89e816c115887fa5bd0df38cc95d4ae2f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553342"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280948"
 ---
 # <a name="tagteam"></a>TagTeam
 
@@ -35,8 +35,8 @@ Informazioni fornite da Smarter Business Solution GmbH a Microsoft:
 | Nome app | TagTeam |
 | ID | WA200002829 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Soluzione aziendale più intelligente GmbH |
-| URL del sito Web del partner | [https://www.smarterbusiness.at/en](https://www.smarterbusiness.at/en) |
+| Nome società partner | Smarter Business Solution GmbH |
+| URL del sito Web del partner | [https://www.smarterbusiness.at](https://www.smarterbusiness.at) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.smarterbusiness.at/en/tagteam-help](https://www.smarterbusiness.at/en/tagteam-help) |
 | URL dell'informativa sulla privacy | [https://www.smarterbusiness.at/en/add-in-privacy-policy](https://www.smarterbusiness.at/en/add-in-privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.smarterbusiness.at/en/terms-of-use-for-tagteam](https://www.smarterbusiness.at/en/terms-of-use-for-tagteam) |

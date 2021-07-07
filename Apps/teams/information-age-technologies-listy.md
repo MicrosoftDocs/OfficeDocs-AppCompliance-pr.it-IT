@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Listy, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5ab2349789fdb138bc9f18fd6f50d9877ec972d9
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: bfa36c199e7839ce0756ecb5dfb3f5b923821405
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552077"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281839"
 ---
 # <a name="listy"></a>Listy
 
@@ -36,10 +36,10 @@ Informazioni fornite da Information Age Technologies a Microsoft:
 | ID | WA200000798 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Information Age Technologies |
-| URL del sito Web del partner | [https://www.iat21.com/listy](https://www.iat21.com/listy) |
+| URL del sito Web del partner | [https://www.iat21.com](https://www.iat21.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.iat21.com/listy](https://www.iat21.com/listy) |
 | URL dell'informativa sulla privacy | [https://www.iat21.com/listy-privacy-policy](https://www.iat21.com/listy-privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://www.iat21.com/listy-terms-of-service](https://www.iat21.com/listy-terms-of-service) |
+| URL delle Condizioni per l'utilizzo | [https://www.iat21.com/listy-end-user-license-ag](https://www.iat21.com/listy-end-user-license-ag) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
