@@ -7,12 +7,12 @@ keywords: microsoft 365 app m365 Attestazione autore certificazione
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: fd06ecd028876a862fa3938253817fae3ff0fea0
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: c644414281f46696ff49f3b9eb1341f02e96f0ba
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053440"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315116"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Programma di conformità delle app di Microsoft 365
 
@@ -36,7 +36,7 @@ La verifica dell’autore si applica alle app che soddisfano le seguenti condizi
 
 L'[attestazione dell’autore](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-attestation-guide) consente agli sviluppatori di condividere informazioni generali, sulla gestione dei dati e sulla sicurezza e sulla conformità del servizio dell'app. In questo modo si riduce l'esigenza da parte degli amministratori IT di lavorare direttamente con gli autori delle app. Tutte le informazioni necessarie per prendere una decisione basata su informazioni aggiornate possono essere trovate per tutte le app che hanno completato l'attestazione dell'editore in un unico posto e in un formato coerente. L'obiettivo è semplificare e accelerare il processo di adozione delle app assicurando al contempo ai clienti che le app che usano nei loro tenant soddisfino gli standard dell'organizzazione.
 
-L’attestazione dell’autore si applica alle app che si integrano con queste piattaforme Microsoft:
+L'attestazione dell'autore si applica alle app Web e a tutte le app che si integrano con i prodotti Microsoft seguenti:
 -   Teams
 -   Word
 -   Excel
@@ -45,7 +45,6 @@ L’attestazione dell’autore si applica alle app che si integrano con queste p
 - SharePoint
 - Project
 - OneNote
-- Web App
 
 > [!IMPORTANT]
 > Microsoft non convalida le informazioni fornite. Lo sviluppatore è l'unico responsabile della veridicità, dell'accuratezza, dell'integrità della documentazione di attestazione e dei dati sulle prestazioni dell'app. 
