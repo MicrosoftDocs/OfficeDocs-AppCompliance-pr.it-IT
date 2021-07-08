@@ -6,19 +6,19 @@ description: Microsoft 365 Dettagli certificazione
 keywords: app attestation microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: a8abea4e9670f22583b8a7c718b3dec9883b9adb
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: 4322695ea694e30d42925e8316c848b867394f3b
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053470"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315076"
 ---
 # <a name="what-is-microsoft-365-certification"></a>Che cos'è Microsoft 365 certificazioni?
 
 Microsoft 365 La certificazione offre garanzie che i dati e la privacy siano adeguatamente protetti e protetti quando usi un'app di terze parti. La certificazione conferma che un'app è conforme ai criteri descritti nella Guida all'invio Microsoft 365 [certificazione](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide). Le applicazioni che superano la convalida verranno designate Microsoft 365 Certified.
 La certificazione dell'app viene ottenuta attraverso la revisione e l'approvazione di un analista qualificato per una valutazione completa che si centra sui framework, i processi e le procedure di sicurezza e conformità di un'app. Sebbene la partecipazione sia facoltativa, la ricezione di una certificazione è un modo costante per segnalare che l'applicazione e le procedure operative sono state sottoposte a un'intensa revisione della sicurezza.
 
-Microsoft 365 La certificazione si applica alle WebApp e a tutte le app che si integrano con i prodotti seguenti:
+Microsoft 365 La certificazione si applica alle WebApp e a tutte le app che si integrano con i prodotti Microsoft seguenti:
 - Teams
 - Word
 - Excel
@@ -59,7 +59,7 @@ Questo logo può essere utilizzato su siti Web, comunicati stampa e altri forum 
 La dichiarazione seguente deve accompagnare il logo: "Le app con il logo Microsoft 365 certification rappresentano che questa app ha raggiunto Microsoft 365 Certificazioni. Oltre alla sicurezza delle app, questo programma esamina le procedure e le procedure utilizzate dall'autore dell'app. Anche se i dati dei clienti sono sotto controllo dell'autore dell'app, puoi essere certo che Microsoft ha convalidato che l'app la gestirà in modo sicuro e sicuro."
 
 
-### <a name="learn-more"></a>Ulteriori informazioni
+### <a name="learn-more"></a>Scopri di più
 * [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)  
 * [Certificazione Microsoft 365 completa](~/docs/certification.md)  
 * [Che cos'è Publisher verifica?](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)

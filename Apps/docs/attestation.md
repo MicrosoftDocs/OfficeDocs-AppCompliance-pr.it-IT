@@ -6,12 +6,12 @@ description: Ulteriori informazioni sul programma Publisher attestazione
 keywords: app attestation certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 4d5284beb199cc1c5a77bd6091bbc04428b545bd
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: abedb09bc280c0b643f037324178aa854f2f117f
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053430"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315106"
 ---
 # <a name="complete-publisher-attestation"></a>Attestazione Publisher completa
 
@@ -19,6 +19,16 @@ Publisher L'attestazione è un programma volontario in cui completi un'autovalut
 
 > [!IMPORTANT]
 > Microsoft non convalida le informazioni fornite. Lo sviluppatore è l'unico responsabile delle informazioni fornite nell'autovalutazione. 
+
+**Publisher L'attestazione si applica alle WebApp e a tutte le app che si integrano con i prodotti Microsoft seguenti:**
+- Teams
+- Word
+- Excel
+- PowerPoint 
+- Outlook
+- SharePoint
+- Project
+- OneNote
 
 
 ## <a name="program-benefits"></a>Vantaggi del programma
@@ -28,17 +38,7 @@ Publisher L'attestazione è un programma volontario in cui completi un'autovalut
 - Differenziazione dalle altre app nello Store. 
 - Collegamento alla pagina dei documenti dalla voce in AppSource, nell'Teams di amministrazione e nell'interfaccia di amministrazione di Microsoft. 
 - Qualificazione per avviare la Microsoft 365 certificazioni.
-
-## <a name="publisher-attestation-applies-to-apps-that-integrate-with"></a>Publisher L'attestazione si applica alle app che si integrano con:
-- Teams
-- Word
-- Excel
-- PowerPoint 
-- Outlook
-- SharePoint
-- Project
-- OneNote
-- App Web
+ 
 
 ## <a name="publisher-attestation-process"></a>Publisher Processo di attestazione
 
