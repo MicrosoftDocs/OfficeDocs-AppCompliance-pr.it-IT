@@ -2,17 +2,17 @@
 title: Microsoft Excel Sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/02/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte Microsoft Excel app.
 localization_priority: Normal
-ms.openlocfilehash: 0cb66e3c27ebd69c286e4250760207f93a0c56a4
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 4e420551bcf1b60ddd0a36719fc12d60bb489cbf
+ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281168"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341162"
 ---
 # <a name="microsoft-excel-app-security-and-compliance"></a>Microsoft Excel Sicurezza e conformità delle app
 
@@ -29,6 +29,7 @@ Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per forn
 | [MeaningCloud Text Analytics per Excel](./meaningcloud-text-analytics-for-excel.md) | MeaningCloud | **✓** |  |
 | [Office2SharePoint per Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Selezione contenuto per Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Selezione immagini per Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Selezione modelli per Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Grafici QuickCells](./cc-1c-quickcells-graphs.md) | CC-1C | **✓** |  |
 | [Risolutori QuickCells](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |

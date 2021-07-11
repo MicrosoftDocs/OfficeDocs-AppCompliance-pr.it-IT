@@ -2,17 +2,17 @@
 title: Microsoft OneNote Sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/02/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte Microsoft OneNote app.
 localization_priority: Normal
-ms.openlocfilehash: 164a506a9d202a1c6af917e0bdc3575b807ce3ad
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0303adc7cf8b30f5e0445f2e1ce4592beb777d77
+ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281658"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341152"
 ---
 # <a name="microsoft-onenote-app-security-and-compliance"></a>Microsoft OneNote Sicurezza e conformità delle app
 
@@ -21,4 +21,5 @@ Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire le 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [officeatwork | Selezione contenuto per Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Selezione immagini per Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
 | [Wunder365 per Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |

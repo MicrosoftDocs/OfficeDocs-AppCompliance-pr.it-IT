@@ -2,23 +2,23 @@
 title: Application Information for officeatwork | Selezione contenuto per Office per ufficio
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i servizi | Content Chooser for Office, i criteri di gestione dei dati, le informazioni Microsoft Cloud App Security catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 39c7e2b45c8fa4d525d3b024533fbf63fa17b0be
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: fb8e0d9cb9f15856c5f877efc8980ebdc2785bf1
+ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283280"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53366153"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork | Selezione contenuto per Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: December 8, 2020</p>
+<p>Last updated by the developer on: June 23, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380602" target="_blank">Visualizzazione in AppSource</a>
 
@@ -54,16 +54,16 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | delegated | Non vengono archiviati dati. | Preferiti: per essere in grado di leggere e scrivere dati agli utenti OneDrive. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Files.ReadWrite.All | delegated | Non vengono archiviati dati. | OneDrive: per essere in grado di leggere e scrivere dati agli utenti OneDrive. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Group.ReadWrite.All | delegated | Non vengono archiviati dati. | Teams: per poter leggere e scrivere dati in un gruppo. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| GroupMember.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online - Supporto dei gruppi di sicurezza: per consentire all'app di elencare i gruppi, leggere le proprietà di base del gruppo e leggere le appartenenze di tutti i gruppi a cui l'utente connesso ha accesso | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Sites.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online: per abilitare la lettura dei dati da SharePoint Online. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| User.Read | delegated | Non vengono archiviati dati. | Sing-In: per consentire all'app officeatwork di leggere le proprietà di base dell'utente. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| User.Read.All | delegated | Non vengono archiviati dati. | Teams: per scoprire a quali gruppi appartiene un utente. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| offline_access | delegated | Non vengono archiviati dati. | Sing-In: per abilitare l'accesso automatico tramite i token di aggiornamento, come senza, gli utenti dovrebbero eseguire manualmente l'accesso ogni volta che avviano l'app officeatwork. Questo ambito è obbligatorio solo per le applicazioni host non abilitate per SSO. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| openid | delegated | Non vengono archiviati dati. | Sing-In: per consentire agli utenti di accedere all'app officeatwork con l'organizzazione e/o l'account Microsoft. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| profilo | delegated | Non vengono archiviati dati. | Sing-In: per mostrare l'utente connesso nell'app officeatwork. Ciò consente di assicurare/confermare all'utente quale account è stato usato per accedere all'app officeatwork. | edb24f8f-38af-4b3e-9475-0da243678d5a |
+>| Files.ReadWrite.All | delegated | Non vengono archiviati dati. | Preferiti: per essere in grado di leggere e scrivere dati agli utenti OneDrive. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Files.ReadWrite.All | delegated | Non vengono archiviati dati. | OneDrive: per essere in grado di leggere e scrivere dati agli utenti OneDrive. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Group.ReadWrite.All | delegated | Non vengono archiviati dati. | Teams: per poter leggere e scrivere dati in un gruppo. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| GroupMember.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online - Supporto dei gruppi di sicurezza: per consentire all'app di elencare i gruppi, leggere le proprietà di base del gruppo e leggere le appartenenze di tutti i gruppi a cui l'utente connesso ha accesso | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Sites.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online: per abilitare la lettura dei dati da SharePoint Online. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| User.Read | delegated | Non vengono archiviati dati. | Sing-In: per consentire all'app officeatwork di leggere le proprietà di base dell'utente. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| User.Read.All | delegated | Non vengono archiviati dati. | Teams: per scoprire a quali gruppi appartiene un utente. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| offline_access | delegated | Non vengono archiviati dati. | Sing-In: per abilitare l'accesso automatico tramite i token di aggiornamento, come senza, gli utenti dovrebbero eseguire manualmente l'accesso ogni volta che avviano l'app officeatwork. Questo ambito è obbligatorio solo per le applicazioni host non abilitate per SSO. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| openid | delegated | Non vengono archiviati dati. | Sing-In: per consentire agli utenti di accedere all'app officeatwork con l'organizzazione e/o l'account Microsoft. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| profilo | delegated | Non vengono archiviati dati. | Sing-In: per mostrare l'utente connesso nell'app officeatwork. Ciò consente di assicurare/confermare all'utente quale account è stato usato per accedere all'app officeatwork. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 

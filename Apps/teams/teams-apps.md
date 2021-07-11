@@ -2,17 +2,17 @@
 title: Sicurezza e conformità app Microsoft Teams - tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/02/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 description: Informazioni disponibili su sicurezza e conformità per tutte le app di Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 52d1f9ed3b066d4df0fa51d230b7967ea3d81bb3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3aff0e5fd1a550d3b0a786711bb1e82ff895a5cd
+ms.sourcegitcommit: 5cd33d38cc7376b28458ee47ebc2c2710ce7f113
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283250"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339787"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Sicurezza e conformità app Microsoft Teams
 
@@ -56,6 +56,7 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [CI-Out di-Office Lite](./ci-solution-gmbh-out-of-office-lite.md) | soluzione ci GmbH | **✓** |  |
 | [Cisco Webex Meetings](./cisco-webex-meetings.md) | Cisco Webex Meetings | **✓** |  |
 | [Clever Ads](./clever-ads.md) | Clever Ads | **✓** |  |
+| [ClipTraining](./cliptraining.md) | ClipTraining | **✓** |  |
 | [Cloverpop](./cloverpop.md) | Cloverpop | **✓** |  |
 | [COCO](./hexaware-technologies-ltd-coco.md) | Hexaware Technologies Ltd. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Complish](./cauzey-pty-ltd-complish.md) | Cauzey Pty Ltd | **✓** |  |
