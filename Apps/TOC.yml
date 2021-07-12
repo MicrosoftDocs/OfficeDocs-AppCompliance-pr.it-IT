@@ -43,6 +43,8 @@
           href: excel/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | Selezione contenuto per Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork | Selezione immagini per Office
+          href: excel/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork | Selezione modelli per Office
           href: excel/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: Grafici QuickCells
@@ -60,6 +62,8 @@
       items:
         - name: officeatwork | Selezione contenuto per Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork | Selezione immagini per Office
+          href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 per Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
     - name: Microsoft Outlook Apps
@@ -126,6 +130,8 @@
           href: powerpoint/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | Selezione contenuto per Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork | Selezione immagini per Office
+          href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork | Selezione diapositive per Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Selezione modelli per Office
@@ -616,6 +622,8 @@
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Progettazione per Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
+        - name: officeatwork | Selezione immagini per Office
+          href: word/officeatwork-officeatworkimage-chooser-for-office.md
         - name: officeatwork | Selezione modelli per Office
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader per Office
@@ -653,6 +661,8 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
+        - name: Selezione diapositive
+          href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser
           href: saas/officeatwork-template-chooser.md
         - name: Browser Selezione modelli
