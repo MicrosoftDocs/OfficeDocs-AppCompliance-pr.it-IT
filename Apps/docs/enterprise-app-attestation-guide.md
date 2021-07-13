@@ -6,19 +6,19 @@ description: Ulteriori dettagli sul programma di Publisher di attestazione
 keywords: app attestation certification 365 questionnaire appSource publisher
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 3479395605bd7e3ecc0ab618b8030987e67d2617
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: d91c11b53f1f807fbb4335918586a7748f14bf91
+ms.sourcegitcommit: a475d48e9538faa7ed682c11829c2e45ba675af6
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315086"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53383729"
 ---
 # <a name="what-is-publisher-attestation"></a>Che cos'è Publisher attestazione?
 
 Publisher L'attestazione è il livello successivo nel Microsoft 365 App Compliance Program. Allo sviluppatore dell'app viene richiesto di completare un'autovalutazione che include le domande frequenti poste dai clienti o dagli amministratori IT quando valutano la sicurezza e la conformità di un'app. Microsoft pubblica quindi queste informazioni per una valutazione più facile e più veloce.
 
 > [!IMPORTANT]
-> Microsoft non convalida le informazioni fornite. Lo sviluppatore dell'app è l'unico responsabile delle informazioni fornite nell'attestazione di pubblicazione. 
+> Microsoft non convalida tutte le informazioni fornite. Lo sviluppatore dell'app è l'unico responsabile delle informazioni fornite nell'attestazione dell'autore. 
 
 Publisher L'attestazione si applica alle WebApp e a tutte le app che si integrano con le piattaforme Microsoft seguenti:
 - Teams
