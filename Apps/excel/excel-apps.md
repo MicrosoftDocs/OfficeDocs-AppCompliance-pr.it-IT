@@ -2,21 +2,21 @@
 title: Microsoft Excel Sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 07/14/2021
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte Microsoft Excel app.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le Microsoft Excel app.
 localization_priority: Normal
-ms.openlocfilehash: 4e420551bcf1b60ddd0a36719fc12d60bb489cbf
-ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
+ms.openlocfilehash: a8cda8484e930dfce615338d027c97eaec60396a
+ms.sourcegitcommit: 0098942ce316ab984e09fd9d2063cbc516c8bfb5
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341162"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53422687"
 ---
-# <a name="microsoft-excel-app-security-and-compliance"></a>Microsoft Excel Sicurezza e conformità delle app
+# <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel Sicurezza e conformità delle app
 
-Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni sulle app Microsoft Excel e sui componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i nostri Microsoft 365 per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app Microsoft Excel e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -34,5 +34,4 @@ Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per forn
 | [Grafici QuickCells](./cc-1c-quickcells-graphs.md) | CC-1C | **✓** |  |
 | [Risolutori QuickCells](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |
 | [Sheetgo](./sheetgo-europe-sl.md) | SHEETGO EUROPE SL | **✓** |  |
-| [Wrike for Office Documents](./wrike-inc-for-office-documents.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Wunder365 per Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |
