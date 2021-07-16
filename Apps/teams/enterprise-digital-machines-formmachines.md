@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per FormMachines Enterprise computer digitali
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 07/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per FormMachines, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: dbd881d2f718a0445aa6ffe4ef651ad017e68fd3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 36ee73c86e0ccb1d8943cbe04da24319789b31c7
+ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552197"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53456592"
 ---
 # <a name="formmachines"></a>FormMachines
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 3, 2020</p>
+<p>Last updated by the developer on: July 5, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/54d8b826-3e30-4589-a77a-ed99cfbbb4c9" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001217" target="_blank">Visualizzazione in AppSource</a>
@@ -37,8 +37,9 @@ Informazioni fornite da Enterprise computer digitali a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Enterprise Digital Machines |
 | URL del sito Web del partner | [https://www.formmachines.com](https://www.formmachines.com) |
-| URL dell'informativa sulla privacy | [https://www.formmachines.com?dirKey=fm-privacy](https://www.formmachines.com?dirKey=fm-privacy) |
-| URL delle Condizioni per l'utilizzo | [https://www.formmachines.com?dirKey=fm-terms-of-use](https://www.formmachines.com?dirKey=fm-terms-of-use) |
+| URL della pagina Teams informazioni sull'applicazione | [https://www.FormMachines.com](https://www.FormMachines.com) |
+| URL dell'informativa sulla privacy | [https://www.formmachines.com/dist/docs#/statements_and_agre...](https://www.formmachines.com/dist/docs#/statements_and_agreements/privacy) |
+| URL delle Condizioni per l'utilizzo | [https://www.formmachines.com/dist/docs#/statements_and_agre...](https://www.formmachines.com/dist/docs#/statements_and_agreements/terms_of_service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -54,9 +55,7 @@ Queste informazioni sono state fornite da Enterprise Digital Machines sul modo i
 
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | (login, email, Azure Guid, displayName, first_login_date_time) | consente all'utente di accedere e consente all'app di accedere al proprio UPN per abilitare l'accesso invisibile all'utente, ci consente di identificare in modo univoco ogni utente | 8c87660f-d36f-41f6-b0ae-025253f380aaa |
+>Questa applicazione non utilizza Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -76,13 +75,13 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->. Vengono solo rilevati errori . Nel registro errori vengono registrate solo le informazioni relative agli errori. Il client o il cliente che ha generato un determinato errore non viene raccolto. Solo i tecnici del supporto hanno accesso ai log degli errori. I log degli errori vengono visualizzati online, non scaricati e visualizzati. I log degli errori vengono eliminati automaticamente dopo 30 giorni
+>Nel log degli errori, in genere vengono registrate solo le informazioni correlate all'errore stesso. Tuttavia, per assistere un cliente specifico, possiamo identificare il dominio correlato, ma non il cliente stesso. I log degli errori vengono visualizzati online, non scaricati e visualizzati. I registri errori vengono eliminati automaticamente dopo 90 giorni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->. I dati vengono archiviati in data center basati su Azure US. I dati forniti dal client, ad esempio modelli e invii, vengono crittografati nel database . I file allegati vengono archiviati in contenitori BLOB di Azure privati, gli utenti devono eseguire l'autenticazione prima di accedervi. Abbiamo al massimo due amministratori che possono accedere alle risorse di produzione per la risoluzione dei problemi e la distribuzione. Questi due account di amministratore sono partizionati in modo diverso rispetto a tutti gli altri account. Il numero di accessi dell'amministratore non supererà mai due
+>I dati vengono archiviati in data center basati su Azure US. I dati forniti dal client, ad esempio modelli e invii, vengono crittografati nel DB/BLOB. I file allegati vengono archiviati in contenitori BLOB di Azure privati, gli utenti devono eseguire l'autenticazione prima di accedervi. Abbiamo al massimo due amministratori che possono accedere alle risorse di produzione per la risoluzione dei problemi e la distribuzione. Questi due account di amministratore sono partizionati in modo diverso rispetto a tutti gli altri account. Il numero di accesso dell'amministratore non supererà due. 
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -106,3 +105,29 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da Enterprise digitali su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
+| L'app supporta i criteri di accesso condizionale? | No |
+| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
+| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
+| L'app supporta la multi-tenancy? | Sì |
+| L'app dispone di un client riservato? | No |
+| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

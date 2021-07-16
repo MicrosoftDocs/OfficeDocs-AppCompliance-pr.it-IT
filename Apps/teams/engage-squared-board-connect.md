@@ -2,24 +2,24 @@
 title: Application Information for Board Connessione by Engage Squared
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/16/2021
+ms.date: 07/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Board Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3b7e2eb64055713e06f927882aa7bbf56cf62991
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7c67ece1e55b265152c8a7664b8f714926d9caff
+ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281895"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53456604"
 ---
 # <a name="board-connect"></a>Board Connect
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 16, 2021</p>
+<p>Last updated by the developer on: July 5, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/e8f06a4e-cefe-4b1e-a24b-c97bea471130" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001955" target="_blank">Visualizzazione in AppSource</a>

@@ -2,24 +2,24 @@
 title: Application Information for Q by ModuleQ
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/17/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per domande e risposte, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2bdf876ddb9ab17d9fa8616edda8b849e0d85df7
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 3444110a1d98a1a9a1157c21e76774373782b8c2
+ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281749"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53456587"
 ---
-# <a name="q"></a>D
+# <a name="q"></a>Q
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 17, 2020</p>
+<p>Last updated by the developer on: July 8, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/72bb25c7-3644-4318-8249-a08e5493a520" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381433" target="_blank">Visualizzazione in AppSource</a>
@@ -32,12 +32,13 @@ Informazioni fornite da ModuleQ a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | D |
+| Nome app | Q |
 | ID | WA104381433 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | ModuleQ |
 | URL del sito Web del partner | [https://moduleq.com](https://moduleq.com) |
-| URL dell'informativa sulla privacy | [https://moduleq.com/privacy-policy](https://moduleq.com/privacy-policy) |
+| URL della pagina Teams informazioni sull'applicazione | [https://moduleq.com/product](https://moduleq.com/product) |
+| URL dell'informativa sulla privacy | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://moduleq.com/terms-of-service](https://moduleq.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -110,3 +111,29 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da ModuleQ su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
+| L'app supporta i criteri di accesso condizionale? | No |
+| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
+| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
+| L'app supporta la multi-tenancy? | Sì |
+| L'app dispone di un client riservato? | No |
+| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/><br/> |
+| L'app espone qualsiasi API Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
