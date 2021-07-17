@@ -6,12 +6,12 @@ description: Ulteriori informazioni sul programma Publisher attestazione
 keywords: app attestation certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: abedb09bc280c0b643f037324178aa854f2f117f
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: 1d3652bb2f0eab3f1f533ce4acf3d13104843eea
+ms.sourcegitcommit: 98b9f17063c7ada0890b37af405990ad5eedd0b9
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315106"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53466026"
 ---
 # <a name="complete-publisher-attestation"></a>Attestazione Publisher completa
 
@@ -20,7 +20,7 @@ Publisher L'attestazione è un programma volontario in cui completi un'autovalut
 > [!IMPORTANT]
 > Microsoft non convalida le informazioni fornite. Lo sviluppatore è l'unico responsabile delle informazioni fornite nell'autovalutazione. 
 
-**Publisher L'attestazione si applica alle WebApp e a tutte le app che si integrano con i prodotti Microsoft seguenti:**
+**Publisher L'attestazione si applica alle app Web (app SaaS pubblicate tramite marketplace commerciale nel Centro per i partner) e a tutte le app che si integrano con i prodotti Microsoft seguenti:**
 - Teams
 - Word
 - Excel
@@ -36,13 +36,13 @@ Publisher L'attestazione è un programma volontario in cui completi un'autovalut
 - Accelerazione della tempistica di revisione interna di sicurezza e conformità di un'organizzazione aziendale.
 - Maggiore trasparenza.
 - Differenziazione dalle altre app nello Store. 
-- Collegamento alla pagina dei documenti dalla voce in AppSource, nell'Teams di amministrazione e nell'interfaccia di amministrazione di Microsoft. 
+- Collegamento alla pagina dei documenti dalla voce in AppSource, nell'interfaccia di amministrazione di Teams, nell'interfaccia di amministrazione di Microsoft e Teams Store. 
 - Qualificazione per avviare la Microsoft 365 certificazioni.
  
 
 ## <a name="publisher-attestation-process"></a>Publisher Processo di attestazione
 
-1. **Prendere parte:** la Publisher di attestazione è ora integrata nel Centro per i partner. Puoi completare l'attestazione in un questionario facile da usare all'interno del Centro per i partner. Per informazioni [dettagliate, fare](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide) riferimento alla guida dell'utente.
+1. **Prendere parte:** l'Publisher dell'attestazione è ora integrata nel [Centro per i partner.](https://partner.microsoft.com) Puoi completare l'attestazione in un questionario facile da usare all'interno del Centro per i partner. Fai riferimento alle nostre guide [utente Office Store](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide) e [Marketplace](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide) commerciale per il processo dettagliato.
 
 2. **Attendi feedback e** risultati della revisione: durante la verifica della coerenza, se gli analisti trovano problemi di blocco, ad esempio dati di risposta inadeguati, ti verrà contattato per ulteriori informazioni. Gli analisti manterranno un registro attività dell'app che dettaglia i risultati della revisione e gli invii di follow-up durante tutto il processo. Una volta stabilito che il rapporto di attestazione è completo e le risposte sono accettabili, l'invio verrà approvato. Il tuo stato di approvazione sarà valido per un anno dal momento dell'invio.
 
