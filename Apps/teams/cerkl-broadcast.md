@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Broadcast, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8037cdbb77a41979e369ec79decbaac8e6c6cae5
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: ab386fe99e96bbe2dae26d2045c8d46447d35fd5
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852108"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522039"
 ---
-# <a name="broadcast"></a>Trasmissione
+# <a name="broadcast"></a>Broadcast
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Informazioni fornite da Cerkl a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Trasmissione |
+| Nome app | Broadcast |
 | ID | WA200002697 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Cerkl |
@@ -56,8 +56,8 @@ Queste informazioni sono state fornite da Cerkl su come questa app raccoglie e a
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | I messaggi di posta elettronica dell'utente vengono raccolti e usati per verificare se l'utente è attualmente nel sistema e sono stati aggiunti da un'organizzazione. | L'app non archivia i dati recuperati da Microsoft Graph API. | 74ef25ab-3685-446c-aa43-4e9cc251ed62 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | I messaggi di posta elettronica dell'utente vengono raccolti e usati per verificare se l'utente è attualmente nel sistema e sono stati aggiunti da un'organizzazione. | L'app non archivia i dati recuperati da Microsoft Graph API. | [74ef25ab-3685-446c-aa43-4e9cc251ed62](https://docs.microsoft.com/microsoft-365-app-certification/azure/74ef25ab-3685-446c-aa43-4e9cc251ed62) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

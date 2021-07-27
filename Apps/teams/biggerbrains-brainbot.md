@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per BrainBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2b2d399cc59b9df98708a41720514a6ecb2d6dea
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: aa9379b91d921edeb6c6a85a0756ba2017bd5fbb
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282009"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522077"
 ---
 # <a name="brainbot"></a>BrainBot
 
@@ -56,8 +56,8 @@ Queste informazioni sono state fornite da Biggerbrains su come questa app raccog
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | application | Usiamo i nomi completi &amp; degli indirizzi di posta elettronica come parte del processo di autenticazione. Inoltre, gli indirizzi di posta elettronica vengono utilizzati per inviare sequenze di apprendimento all'utente quando ha sottoscritto una | Usiamo i nomi completi &amp; degli indirizzi di posta elettronica come parte del processo di autenticazione. Inoltre, gli indirizzi di posta elettronica vengono utilizzati per inviare sequenze di apprendimento all'utente quando ha sottoscritto una | b256b34a-b377-4fc2-b25a-a8f5f0594e86 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | application | Usiamo i nomi completi &amp; degli indirizzi di posta elettronica come parte del processo di autenticazione. Inoltre, gli indirizzi di posta elettronica vengono utilizzati per inviare sequenze di apprendimento all'utente quando ha sottoscritto una | Usiamo i nomi completi &amp; degli indirizzi di posta elettronica come parte del processo di autenticazione. Inoltre, gli indirizzi di posta elettronica vengono utilizzati per inviare sequenze di apprendimento all'utente quando ha sottoscritto una | [b256b34a-b377-4fc2-b25a-a8f5f0594e86](https://docs.microsoft.com/microsoft-365-app-certification/azure/b256b34a-b377-4fc2-b25a-a8f5f0594e86) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -71,7 +71,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Usiamo i nomi completi &amp; degli indirizzi di posta elettronica come parte del processo di autenticazione. Inoltre, gli indirizzi di posta elettronica vengono utilizzati per inviare sequenze di apprendimento all'utente quando ha sottoscritto una | Nomi completi degli &amp; indirizzi di posta elettronica | Vengono usati per l'accesso e come parte della funzionalità dell'app per inviare sequenze di apprendimento all'utente quando ne ha sottoscritto una |
 
 

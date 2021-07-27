@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per 365Projects, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 07ef4c5e5e71ee8034c75869b97d5c8924f502fd
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: aad8e35ad1e02212c23ef2a892412ba3c0ce1312
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281488"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522189"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -56,14 +56,14 @@ Queste informazioni sono state fornite da 365Apps su come questa app raccoglie e
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.ReadBasic.All | delegated | canali all'interno del team per collegare il progetto al canale | canali all'interno del team per collegare il progetto al canale | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| Group.Read.All | delegated | ottenere attività di pianificazione/pianificazione del team, sarà meglio se un altro ambito con privilegi minimi consente all'app di ottenere piani utente e pianifica attività, ma purtroppo non ci sono ambiti che consentono questo | non archiviata nel database | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| Group.ReadWrite.All | application | Creare Teams  | non archiviato nel database | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| People.Read | delegated | nome utente, per aggiungerli come membri del team o assegnare loro attività | il Guid utente viene archiviato nell'assegnazione dell'attività | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| Team.ReadBasic.All | delegated | Nomi dei team aggiunti, per collegare il progetto a Teams Channel | Il Guid del team viene archiviato nei metadati del progetto per stabilire il collegamento | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| User.Read | delegated | recupero delle informazioni utente per la visualizzazione nell'intestazione  | la posta elettronica dell'utente viene archiviata come proprietario al primo provisioning del tenant | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| User.Read.All | delegated | leggere gli utenti per aggiornare l'assegnazione delle attività | solo il Guid utente non viene archiviato nel database | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | delegated | canali all'interno del team per collegare il progetto al canale | canali all'interno del team per collegare il progetto al canale | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Group.Read.All | delegated | ottenere attività di pianificazione/pianificazione del team, sarà meglio se un altro ambito con privilegi minimi consente all'app di ottenere piani utente e pianifica attività, ma purtroppo non ci sono ambiti che consentono questo | non archiviata nel database | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Group.ReadWrite.All | application | Creare Teams  | non archiviato nel database | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| People.Read | delegated | nome utente, per aggiungerli come membri del team o assegnare loro attività | il Guid utente viene archiviato nell'assegnazione dell'attività | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Team.ReadBasic.All | delegated | Nomi dei team aggiunti, per collegare il progetto a Teams Channel | Il Guid del team viene archiviato nei metadati del progetto per stabilire il collegamento | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| User.Read | delegated | recupero delle informazioni utente per la visualizzazione nell'intestazione  | la posta elettronica dell'utente viene archiviata come proprietario al primo provisioning del tenant | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| User.Read.All | delegated | leggere gli utenti per aggiornare l'assegnazione delle attività | solo il Guid utente non viene archiviato nel database | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

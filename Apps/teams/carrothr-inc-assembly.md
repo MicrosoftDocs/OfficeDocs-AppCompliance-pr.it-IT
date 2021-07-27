@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Assembly, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6cc680f1f7ec25df961d2453dcbfdc20afd0b2eb
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: f8d63c77c3fd9b52353ce22954dfa4dadb8dea2f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852107"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522054"
 ---
 # <a name="assembly"></a>Assembly
 
@@ -35,7 +35,7 @@ Informazioni fornite da CarrotHR Inc. a Microsoft:
 | Nome app | Assembly |
 | ID | WA200002271 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Tutto questo è possibile. |
+| Nome società partner | CarrotHR Inc. |
 | URL del sito Web del partner | [https://www.joinassembly.com](https://www.joinassembly.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.joinassembly.com/about](https://www.joinassembly.com/about) |
 | URL dell'informativa sulla privacy | [https://joinassembly.com/privacy-policy](https://joinassembly.com/privacy-policy) |
@@ -56,14 +56,14 @@ Queste informazioni sono state fornite da CarrotHR Inc. Sul modo in cui questa a
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.Create | delegated | Consenti all'utente di assegnare l'app a un canale appena creato dalla nostra app | Archiviamo l'ID canale per mantenere la nostra app sincronizzata con il canale corretto | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| Directory.Read.All | application | Mantenere sincronizzati i profili in modo che i membri siano correttamente disponibili per la ricerca in Assembly | Eventuali informazioni aggiuntive sul profilo che potrebbero essere disponibili per mantenere i membri disponibili per la ricerca in Assembly | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| Group.Read.All | delegated | Osserviamo i dati per essere certi che possano assegnare l'app al gruppo corretto | I gruppi non vengono archiviati | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| Teams. ReadBasic.All | application | Possibilità di assegnare l'app alla scheda del team corretta | We don't store teams expect the one we're appended to  | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| TeamsTab.Create | application | Lo usiamo per consentire all'app di essere accodata correttamente a un canale/team | Non stiamo raccogliendo o archiviando i dati delle schede | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| e-mail | delegated | Posta elettronica dell'utente in modo che possiamo concedere loro l'accesso al loro account specifico | Posta elettronica dell'utente in modo che possiamo concedere loro l'accesso al proprio account specifico e abbinare le identità | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| profilo | delegated | Nome utente per popolare automaticamente Assembly e mantenere la sincronizzazione con le modifiche Microsoft Teams | Nome completo dell'utente | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.Create | delegated | Consenti all'utente di assegnare l'app a un canale appena creato dalla nostra app | Archiviamo l'ID canale per mantenere la nostra app sincronizzata con il canale corretto | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Directory.Read.All | application | Mantenere sincronizzati i profili in modo che i membri siano correttamente disponibili per la ricerca in Assembly | Eventuali informazioni aggiuntive sul profilo che potrebbero essere disponibili per mantenere i membri disponibili per la ricerca in Assembly | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Group.Read.All | delegated | Osserviamo i dati per essere certi che possano assegnare l'app al gruppo corretto | I gruppi non vengono archiviati | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Teams. ReadBasic.All | application | Possibilità di assegnare l'app alla scheda del team corretta | We don't store teams expect the one we're appended to  | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| TeamsTab.Create | application | Lo usiamo per consentire all'app di essere accodata correttamente a un canale/team | Non stiamo raccogliendo o archiviando i dati delle schede | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| e-mail | delegated | Posta elettronica dell'utente in modo che possiamo concedere loro l'accesso al loro account specifico | Posta elettronica dell'utente in modo che possiamo concedere loro l'accesso al proprio account specifico e abbinare le identità | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| profilo | delegated | Nome utente per popolare automaticamente Assembly e mantenere la sincronizzazione con le modifiche Microsoft Teams | Nome completo dell'utente | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

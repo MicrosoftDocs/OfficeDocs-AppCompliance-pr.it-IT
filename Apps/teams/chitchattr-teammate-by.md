@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TeamMate by ChitChattr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4a01e90cbd14eefd9621e1ef93b8a992fc469efa
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 4278150de6faf97f3ce4ceb7361cc2d7bca651ee
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281969"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521989"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -56,8 +56,8 @@ Queste informazioni sono state fornite da ChitChattr su come questa app raccogli
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| People.Read | delegated | L'app consente agli amministratori di scegliere gli utenti a cui assegnare esperienze specifiche, quindi deve archiviare il nome dell'utente, la posta elettronica e l'ID oggetto di Azure AD | L'app consente agli amministratori di scegliere gli utenti a cui assegnare esperienze specifiche, quindi deve archiviare il nome dell'utente, la posta elettronica e l'ID oggetto di Azure AD | a8e903c7-3b7f-4ec5-a474-b5d32e595f50 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| People.Read | delegated | L'app consente agli amministratori di scegliere gli utenti a cui assegnare esperienze specifiche, quindi deve archiviare il nome dell'utente, la posta elettronica e l'ID oggetto di Azure AD | L'app consente agli amministratori di scegliere gli utenti a cui assegnare esperienze specifiche, quindi deve archiviare il nome dell'utente, la posta elettronica e l'ID oggetto di Azure AD | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -71,7 +71,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| In caso di problemi, il bot ricercherà e mostrerà all'utente i nomi e i dettagli di contatto degli utenti registrati come amministratori nell'app (essenzialmente contatta l'amministratore- ecco chi &quot; &quot; sono) | Name, Email | Come descritto nelle sezioni precedenti, per poter identificare gli utenti per le esperienze mirate (in base alla configurazione dell'amministratore) e per consentire agli utenti di vedere chi sono gli amministratori interni dell'azienda per l'app. |
 
 
