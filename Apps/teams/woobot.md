@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Woobot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: db31998a57de8faf11ebd7fff774842629654651
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a90381852e60e09402b766607413154b8da11704
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550826"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528052"
 ---
 # <a name="woobot"></a>Woobot
 
@@ -69,7 +69,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Per mappare gli utenti di Salesforce Teams utenti, è necessario un elenco di ID utente del team. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. Inoltre, archiviamo quali ID utente del team sono stati graditi dall'app e quali no, in modo che quando un nuovo utente entra a far parte di un team, woobot possa personalmente accogliere l'utente. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. |  ID utente, ID team e nome del team, ID canale e nome del canale e di quali utenti sono membri Teams. |  |
 
 

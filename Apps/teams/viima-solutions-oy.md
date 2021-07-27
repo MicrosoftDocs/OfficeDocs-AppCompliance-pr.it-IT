@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Viima, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: badd7c64ad512ad2051da270b07fdc8e87fbf628
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7c9db86a4ffce9107b7345f178fe850a66e26560
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279042"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528072"
 ---
 # <a name="viima"></a>Viima
 
@@ -56,8 +56,8 @@ Queste informazioni sono state fornite da Viima Solutions Oy su come questa app 
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated |  Nome e cognome, UPN/indirizzo di posta elettronica, posizione, impostazioni locali, reparto, sede dell'ufficio. Vengono usati per accedere all'utente e fornire informazioni di base sul profilo all'interno dell'app. | consente all'utente di accedere e consente all'app di accedere all'UPN e alle informazioni di base del profilo per abilitare l'accesso invisibile all'utente | b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated |  Nome e cognome, UPN/indirizzo di posta elettronica, posizione, impostazioni locali, reparto, sede dell'ufficio. Vengono usati per accedere all'utente e fornire informazioni di base sul profilo all'interno dell'app. | consente all'utente di accedere e consente all'app di accedere all'UPN e alle informazioni di base del profilo per abilitare l'accesso invisibile all'utente | [b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

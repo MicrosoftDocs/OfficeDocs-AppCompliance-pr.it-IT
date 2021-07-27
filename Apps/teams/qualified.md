@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Qualified, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6b4f5f034fbdca44cd71c74b0530cfd15664a1c8
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: d47e6f2919fb97eb1c9a162f2ade8c1a1bf485a8
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852092"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521139"
 ---
-# <a name="qualified"></a>Qualificato
+# <a name="qualified"></a>Qualified
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Informazioni fornite da Qualificati a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Qualificato |
+| Nome app | Qualified |
 | ID | WA200002720 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Qualificato |
+| Nome società partner | Qualified |
 | URL del sito Web del partner | [https://www.qualified.com](https://www.qualified.com) |
 | URL della pagina Teams informazioni sull'applicazione | [https://www.qualified.com/university-guide/microsoft-teams-...](https://www.qualified.com/university-guide/microsoft-teams-integration) |
 | URL dell'informativa sulla privacy | [https://www.qualified.com/legal/privacy](https://www.qualified.com/legal/privacy) |
@@ -56,16 +56,16 @@ Queste informazioni sono state fornite da Qualified sul modo in cui questa app r
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.ReadBasic.All | application | Ci consente di selezionare il canale da inviare una notifica | indirizzo di posta elettronica, ID tenant, token di aggiornamento oauth | 2c951ed5-c5c6-493f-9b02-4b42e3ba536c |
->| Team.ReadBasic.All | application | Ci consente di trovare tutti i canali di tutti i team, per consentirci di selezionare i canali di notifica | indirizzo di posta elettronica, ID tenant, token di aggiornamento oauth | 2c951ed5-c5c6-493f-9b02-4b42e3ba536c |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | application | Ci consente di selezionare il canale da inviare una notifica | indirizzo di posta elettronica, ID tenant, token di aggiornamento oauth | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
+>| Team.ReadBasic.All | application | Ci consente di trovare tutti i canali di tutti i team, per consentirci di selezionare i canali di notifica | indirizzo di posta elettronica, ID tenant, token di aggiornamento oauth | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
 Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Bot Framework API | Sì | ID tenant, ID team, ID canale | ID tenant: per determinare service_url per le chiamate api del framework bot; ID team + ID canale: per determinare a quali team/canali è stato aggiunto il bot | ID tenant, ID team, ID canale | ID tenant: per determinare service_url per le chiamate api del framework bot; ID team + ID canale: per determinare a quali team/canali è stato aggiunto il bot |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -73,7 +73,7 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Heroku, Sentry, Papertrail | Nome, Indirizzo di posta elettronica, IP | Questi sistemi ospitano e monitorano il servizio di produzione |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Qubie, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cc884ffa130d572003051bc3516f9a51785948ad
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d0873a510d894772d494487c293551e12dceb929
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282543"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528122"
 ---
 # <a name="qubie"></a>Qubie
 
@@ -69,7 +69,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Mostra il nome quando si eliminano i commenti nella chat del team e per rispondere all'utente che invia un bug o invia domande. Rispondere all'utente che presenta un bug o ha una domanda. Viene visualizzato quando si visualizzano domande sulle prestazioni del team in modo che l'utente conosca il contesto della domanda. Visualizza il nome del team durante la visualizzazione di report e grafici. | Nome visualizzato, Indirizzo di posta elettronica, Nome team  |  |
 
 

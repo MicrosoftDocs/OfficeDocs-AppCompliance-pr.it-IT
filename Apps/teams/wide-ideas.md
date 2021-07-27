@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wide Ideas, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 05daba10da032e947976d99411e0e70982e17f00
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 1e73a7aebbaaffa12572717f7a4a9968fd5667f7
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279050"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528062"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -55,10 +55,10 @@ Queste informazioni sono state fornite da Wide Ideas su come questa app raccogli
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | application | Salviamo l'ID gruppo e quali utenti appartengono a quali gruppi | Consente all'app di leggere i dati nella directory dell'organizzazione Clienti, ad esempio utenti e gruppi.  | 77baef51-6387-4aff-9b3f-23e4654c30cd |
->| Group.ReadWrite.All | application | Salviamo l'ID canale associato al gruppo. | Consente all'utente di creare team, canali e schede all'interno Microsoft Teams dal Portale per i clienti. In questo modo l'utente può anche sincronizzare i team Microsoft Teams nel Portale clienti. | 77baef51-6387-4aff-9b3f-23e4654c30cd |
->| User.Read | delegated | Salviamo il nome &amp; e-mail | Consente agli utenti di accedere e concedere l'accesso a Microsoft Graph per loro conto | 77baef51-6387-4aff-9b3f-23e4654c30cd |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | application | Salviamo l'ID gruppo e quali utenti appartengono a quali gruppi | Consente all'app di leggere i dati nella directory dell'organizzazione Clienti, ad esempio utenti e gruppi.  | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
+>| Group.ReadWrite.All | application | Salviamo l'ID canale associato al gruppo. | Consente all'utente di creare team, canali e schede all'interno Microsoft Teams dal Portale per i clienti. In questo modo l'utente può anche sincronizzare i team Microsoft Teams nel Portale clienti. | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
+>| User.Read | delegated | Salviamo il nome &amp; e-mail | Consente agli utenti di accedere e concedere l'accesso a Microsoft Graph per loro conto | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -66,7 +66,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Mailjet Email che viene utilizzato per le notifiche di posta elettronica. |  | N/D |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
@@ -74,7 +74,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Per creare utenti nel back-end e concedere le autorizzazioni per accedere al contenuto collegato al team. | We store: Name - To shown the name of the user, Email address - To identify the user |  |
 
 

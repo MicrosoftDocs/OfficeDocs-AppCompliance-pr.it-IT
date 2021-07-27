@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per OnePlaceMail per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 97c9b74768b11e3c63a302566a20a2cb762275a0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 18dc1ab4ba71102564c1c85f7ed3846d9f4f1700
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281708"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527932"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail per Outlook
 
@@ -54,22 +54,22 @@ Queste informazioni sono state fornite da OnePlace Solutions sul modo in cui que
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | delegated | Necessario per determinare Teams di cui l'utente corrente è membro. | Nessuno | 44a72516-136f-4a55-ae26-ef09977230be |
->| Mail.ReadWrite.Shared | delegated | Necessario per accedere alle proprietà di posta per impostare SharePoint colonne e aggiungere la categoria Trasferito SharePoint sull'elemento di posta | Nessuno | 44a72516-136f-4a55-ae26-ef09977230be |
->| MailboxSettings.ReadWrite | delegated | Nessun dato raccolto o utilizzato, viene utilizzato per aggiungere una categoria all'elenco delle categorie principali in una cassetta postale degli utenti | Nessuno | 44a72516-136f-4a55-ae26-ef09977230be |
->| Sites.ReadWrite.All | delegated | Obbligatorio per impostare le proprietà per gli elementi caricati dall'app SharePoint. | Nessuno | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.Read | delegated | Obbligatorio per l'autenticazione a Microsoft Graph. | I dati seguenti vengono archiviati dall'app in un database e vengono usati per la registrazione delle licenze utente e delle sottoscrizioni: ID utente, Posta elettronica, Nome, Cognome. | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadBasic.All | delegated | Obbligatorio per visualizzare l'immagine del profilo utente nel campo selezione utenti. | Nessuno | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadBasic.All | delegated | Obbligatorio per visualizzare l'immagine del profilo utente nel campo selezione utenti. | Nessuno | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadWrite.All | delegated | Necessario per determinare se il servizio Teams è abilitato all'interno della tenancy Office 365 utenti. | Nessuno | 44a72516-136f-4a55-ae26-ef09977230be |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | delegated | Necessario per determinare Teams di cui l'utente corrente è membro. | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Mail.ReadWrite.Shared | delegated | Necessario per accedere alle proprietà di posta per impostare SharePoint colonne e aggiungere la categoria Trasferito SharePoint sull'elemento di posta | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| MailboxSettings.ReadWrite | delegated | Nessun dato raccolto o utilizzato, viene utilizzato per aggiungere una categoria all'elenco delle categorie principali in una cassetta postale degli utenti | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Sites.ReadWrite.All | delegated | Obbligatorio per impostare le proprietà per gli elementi caricati dall'app SharePoint. | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.Read | delegated | Obbligatorio per l'autenticazione a Microsoft Graph. | I dati seguenti vengono archiviati dall'app in un database e vengono usati per la registrazione delle licenze utente e delle sottoscrizioni: ID utente, Posta elettronica, Nome, Cognome. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | delegated | Obbligatorio per visualizzare l'immagine del profilo utente nel campo selezione utenti. | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | delegated | Obbligatorio per visualizzare l'immagine del profilo utente nel campo selezione utenti. | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadWrite.All | delegated | Necessario per determinare se il servizio Teams è abilitato all'interno della tenancy Office 365 utenti. | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
 Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint | Sì | SharePoint URL, nomi di raccolta/elenco/cartella | Le informazioni organizzative a cui si accede da vengono utilizzate per facilitare il processo di salvataggio di posta elettronica e allegati da Exchange a SharePoint. Questi dati aggiuntivi non vengono archiviati in pausa e vengono crittografati in transito. Esempi di questi dati includono SharePoint colonna, ad esempio i valori delle colonne Choice, i valori di tassonomia, i nomi dei tipi di contenuto, i nomi delle cartelle, i nomi dei siti.  | Anche se questi dati non vengono archiviati o raccolti dall'app, è possibile che vengano visualizzati in telemetria/log in cui vengono conservati per 90 giorni. | I dati non vengono archiviati |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -77,7 +77,7 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Il servizio Di ricarica viene utilizzato per la gestione e la fatturazione delle sottoscrizioni. Per la creazione dell'abbonamento in-app (gratuito) il nome, cognome, indirizzo e-mail dell'utente sono condivisi con Chargify. Per le sottoscrizioni acquistate (che supportano più utenti con licenza) i dettagli dei singoli utenti non vengono condivisi con il servizio Chargify. | Indirizzo di posta elettronica | Per comunicare gli eventi del ciclo di vita della sottoscrizione all'utente |
 
 

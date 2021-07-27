@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per InStation, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 46b7c4131e1f3897036cf0b2180b2f99c2e6ff2c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 1db56e204dc2fd83916a9ec6f2b20a13e02ed357
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282029"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521809"
 ---
 # <a name="instation"></a>InStation
 
@@ -55,17 +55,17 @@ Queste informazioni sono state fornite dagli sviluppatori invillia sul modo in c
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| OnlineMeetings.Read.All | delegated | stores: id, join_url, join_web_url e chat_id. Consente all'app di creare riunioni | stores: id, join_url, join_web_url e chat_id. Consente all'app di creare riunioni | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| OnlineMeetings.ReadWrite.All | delegated | stores: id, join_url, join_web_url e chat_id. Consente all'app di creare riunioni | stores: id, join_url, join_web_url e chat_id. Consente all'app di creare riunioni | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| Presence.Read | delegated | Consente all'app di accedere all'organizzazione nel primo passaggio | l'attività e l'avalibilità. Consente all'app di acquisire lo stato degli utenti; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| Presence.Read.All | delegated | Consente all'app di accedere all'organizzazione nel primo passaggio, | l'attività e l'avalibilità. Consente all'app di acquisire lo stato degli utenti; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| User.Read | delegated | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| User.Read.All | delegated | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| e-mail | delegated | Consente all'app di acquisire le&#180;di base dell'amministratore al primo accesso | Consente all'app di acquisire le&#180;di base dell'amministratore al primo accesso | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| offline_access | delegated | stores: token e token di aggiornamento. Consente all'app di eseguire un aggiornamento sul token MS | stores: token e token di aggiornamento. Consente all'app di eseguire un aggiornamento sul token MS | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| openid | delegated | Consente all'app di accedere all'organizzazione nel primo passaggio | Consente all'app di accedere all'organizzazione nel primo passaggio | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| profilo | delegated | Consente all'app di acquisire le informazioni di&#180;amministratore sul primo accesso. | Consente all'app di acquisire le informazioni di&#180;amministratore sul primo accesso. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| OnlineMeetings.Read.All | delegated | stores: id, join_url, join_web_url e chat_id. Consente all'app di creare riunioni | stores: id, join_url, join_web_url e chat_id. Consente all'app di creare riunioni | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| OnlineMeetings.ReadWrite.All | delegated | stores: id, join_url, join_web_url e chat_id. Consente all'app di creare riunioni | stores: id, join_url, join_web_url e chat_id. Consente all'app di creare riunioni | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Presence.Read | delegated | Consente all'app di accedere all'organizzazione nel primo passaggio | l'attività e l'avalibilità. Consente all'app di acquisire lo stato degli utenti; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Presence.Read.All | delegated | Consente all'app di accedere all'organizzazione nel primo passaggio, | l'attività e l'avalibilità. Consente all'app di acquisire lo stato degli utenti; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| User.Read | delegated | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| User.Read.All | delegated | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| e-mail | delegated | Consente all'app di acquisire le&#180;di base dell'amministratore al primo accesso | Consente all'app di acquisire le&#180;di base dell'amministratore al primo accesso | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| offline_access | delegated | stores: token e token di aggiornamento. Consente all'app di eseguire un aggiornamento sul token MS | stores: token e token di aggiornamento. Consente all'app di eseguire un aggiornamento sul token MS | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| openid | delegated | Consente all'app di accedere all'organizzazione nel primo passaggio | Consente all'app di accedere all'organizzazione nel primo passaggio | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| profilo | delegated | Consente all'app di acquisire le informazioni di&#180;amministratore sul primo accesso. | Consente all'app di acquisire le informazioni di&#180;amministratore sul primo accesso. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

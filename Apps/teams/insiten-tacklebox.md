@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TackleBox, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3ca294c588f6447c5e54c53cf1dec33b1e849a47
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: bf5841d5b51470b6aaab29f303b1ee1c5c5a0141
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281829"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521463"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -56,12 +56,12 @@ Queste informazioni sono state fornite da Insiten su come questa app raccoglie e
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | delegated | Consente agli utenti di esplorare le OneDrive, le cartelle e i file. collegare i file a TackleBox; leggere Excel file per estrarre automaticamente grafici, grafici, tabelle, aree di stampa e intervalli denominati; creare e aggiornare PowerPoint file con questi Excel visivi | Drive ID, Folder ID, File ID, View Link, Created By, Created Date, Modified By, Modified Date, Version ID, File Name | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
->| Sites.Read.All | delegated | Consentire agli utenti di esplorare e collegare Excel file che si trovano in canali Teams privati | Nessuno | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
->| User.Read | delegated | Consente all'app di leggere il profilo degli utenti connessi e di ritrattare l'indirizzo di posta elettronica per le notifiche | Posta elettronica | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
->| openid | delegated | Consente agli utenti di accedere all'applicazione usando Microsoft 365 account | ID tenant e ID oggetto per l'utente | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
->| profilo | delegated | Consente all'app di visualizzare il profilo di base degli utenti (nome, nome utente) per facilitare la collaborazione | UPN, Nome, Cognome | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.ReadWrite.All | delegated | Consente agli utenti di esplorare le OneDrive, le cartelle e i file. collegare i file a TackleBox; leggere Excel file per estrarre automaticamente grafici, grafici, tabelle, aree di stampa e intervalli denominati; creare e aggiornare PowerPoint file con questi Excel visivi | Drive ID, Folder ID, File ID, View Link, Created By, Created Date, Modified By, Modified Date, Version ID, File Name | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| Sites.Read.All | delegated | Consentire agli utenti di esplorare e collegare Excel file che si trovano in canali Teams privati | Nessuno | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| User.Read | delegated | Consente all'app di leggere il profilo degli utenti connessi e di ritrattare l'indirizzo di posta elettronica per le notifiche | Posta elettronica | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| openid | delegated | Consente agli utenti di accedere all'applicazione usando Microsoft 365 account | ID tenant e ID oggetto per l'utente | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| profilo | delegated | Consente all'app di visualizzare il profilo di base degli utenti (nome, nome utente) per facilitare la collaborazione | UPN, Nome, Cognome | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

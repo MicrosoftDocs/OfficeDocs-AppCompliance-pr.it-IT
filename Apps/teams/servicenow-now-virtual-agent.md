@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Now Virtual Agent, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bbd2b42fe7ad81e2ba0ba8157a34da67878e09c8
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1ac2988c550894341d5933afbc59de6f63c51b68
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551666"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53520999"
 ---
 # <a name="now-virtual-agent"></a>Now Virtual Agent
 
@@ -56,8 +56,8 @@ Queste informazioni sono state fornite da ServiceNow su come questa app raccogli
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | Il dominio viene archiviato nel data center per scopi futuri di routing dei messaggi. | Quando l'amministratore di ServiceNow installa l'integrazione con MS Teams, l'amministratore deve accedere al proprio account MS Teams. Il dominio viene letto dall'indirizzo di posta elettronica (non dall'indirizzo di posta elettronica completo). |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | Il dominio viene archiviato nel data center per scopi futuri di routing dei messaggi. | Quando l'amministratore di ServiceNow installa l'integrazione con MS Teams, l'amministratore deve accedere al proprio account MS Teams. Il dominio viene letto dall'indirizzo di posta elettronica (non dall'indirizzo di posta elettronica completo). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

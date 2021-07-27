@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Navo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 11346ff15831615ac6b617d8d14f83f38c7de0a5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: e17eac9ef2db9418a38900d0de84ce62fad71097
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283110"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521209"
 ---
 # <a name="navo"></a>Navo
 
@@ -55,9 +55,9 @@ Queste informazioni sono state fornite da Regroove Solutions sul modo in cui que
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | application | Il numero di utenti viene archiviata ed eseguita una query una sola volta per ogni ciclo di fatturazione. Usiamo anche l'ID tenancy come ID per l'organizzazione. | Ci consente di contare il numero di utenti presenti nella tenancy, che usiamo per scopi di fatturazione. Ci consente inoltre di eseguire una query per vedere in quali gruppi si trova un utente, in modo da poter usare la limitazione per motivi di sicurezza per proteggere determinati dati. Viene inoltre eseguita una query sull'ID tenancy dell'organizzazione. | 75ce4e02-e37b-479c-81c7-438348a2a251 |
->| User.Read | delegated | Nessun dato archiviato | Accedere e leggere il profilo utente | 75ce4e02-e37b-479c-81c7-438348a2a251 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | application | Il numero di utenti viene archiviata ed eseguita una query una sola volta per ogni ciclo di fatturazione. Usiamo anche l'ID tenancy come ID per l'organizzazione. | Ci consente di contare il numero di utenti presenti nella tenancy, che usiamo per scopi di fatturazione. Ci consente inoltre di eseguire una query per vedere in quali gruppi si trova un utente, in modo da poter usare la limitazione per motivi di sicurezza per proteggere determinati dati. Viene inoltre eseguita una query sull'ID tenancy dell'organizzazione. | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
+>| User.Read | delegated | Nessun dato archiviato | Accedere e leggere il profilo utente | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -65,7 +65,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| L'ID tenancy e il numero di utenti vengono archiviati in Stripe. |  | User.Read | Delegated | Accedere e leggere il profilo utente - Nessun dato archiviato |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot

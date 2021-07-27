@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Listy, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bfa36c199e7839ce0756ecb5dfb3f5b923821405
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 9f8d7a9060a53b5261bbb0378c2181a2ec8bfa3b
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281839"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521549"
 ---
 # <a name="listy"></a>Listy
 
@@ -56,8 +56,8 @@ Queste informazioni sono state fornite da Information Age Technologies su come q
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| TeamSettings.Read.Group | entrambi | Per creare un account dell'app locale in modo che l'utente non deve popolare manualmente i dati | Per creare un account dell'app locale in modo che l'utente non deve popolare manualmente i dati | 8aa22b64-9a2c-403b-83c1-feaf774c764c |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| TeamSettings.Read.Group | entrambi | Per creare un account dell'app locale in modo che l'utente non deve popolare manualmente i dati | Per creare un account dell'app locale in modo che l'utente non deve popolare manualmente i dati | [8aa22b64-9a2c-403b-83c1-feaf774c764c](https://docs.microsoft.com/microsoft-365-app-certification/azure/8aa22b64-9a2c-403b-83c1-feaf774c764c) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

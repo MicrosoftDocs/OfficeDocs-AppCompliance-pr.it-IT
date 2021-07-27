@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per HeyTaco!, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 66739977ba4aa3eef7456d4ec60530f94065a2b9
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7b4641b33166043dd311bdd89568c9eaea4b87a1
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553127"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521639"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
@@ -55,10 +55,10 @@ Queste informazioni sono state fornite da HeyTaco! informazioni su come questa a
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| e-mail | delegated | utilizzato per associare l'utente per i trasferimenti di dati da Slack a MS Teams | utilizzato per associare l'utente ai trasferimenti di dati da Slack a MS Team | be8d11cf-265a-4974-9912-4ff28c29fc21 |
->| openid | delegated | usato per accedere a HeyTaco! | usato per accedere a HeyTaco! | be8d11cf-265a-4974-9912-4ff28c29fc21 |
->| profilo | delegated | usato per acquisire il nome utente, l'immagine del profilo, lo scostamento del fuso orario, l'ID tenant e l'ID team | usato per acquisire nome utente, avatar, offset fuso orario, ID tenant e ID team | be8d11cf-265a-4974-9912-4ff28c29fc21 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| e-mail | delegated | utilizzato per associare l'utente per i trasferimenti di dati da Slack a MS Teams | utilizzato per associare l'utente ai trasferimenti di dati da Slack a MS Team | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| openid | delegated | usato per accedere a HeyTaco! | usato per accedere a HeyTaco! | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| profilo | delegated | usato per acquisire il nome utente, l'immagine del profilo, lo scostamento del fuso orario, l'ID tenant e l'ID team | usato per acquisire nome utente, avatar, offset fuso orario, ID tenant e ID team | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -72,7 +72,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Per indicare all'utente di aver ricevuto un taco e da chi è. | Indirizzo di posta elettronica (per i tacos di migrazione da una piattaforma a un'altra) Nome (per il saluto dell'utente) Immagine del profilo (da visualizzare nella classifica) Fuso orario (per mostrare correttamente i tacos dati nella pagina attività) ID tenant (Per l'aggregazione dei dati per tenant) ID team (Per l'aggregazione dei dati per team)  |  |
 
 

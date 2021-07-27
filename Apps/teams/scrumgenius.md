@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ScrumGenius, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fb8b30ddc27b512a5731ef3ec42cb76ed097c56c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: be8873fecd5dc50ab4db6def68c7c25f73e677fd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283050"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521039"
 ---
 # <a name="scrumgenius"></a>ScrumGenius
 
@@ -55,9 +55,9 @@ Queste informazioni sono state fornite da ScrumGenius sul modo in cui questa app
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | delegated | Date di ferie impostate nel calendario dell'utente. | Per consentire agli utenti di sincronizzare le proprie ferie con ScrumGenius. |  |
->| User.Read | delegated | Nome e indirizzo di posta elettronica dell'utente. | Per consentire all'utente di accedere con Microsoft Login. |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | delegated | Date di ferie impostate nel calendario dell'utente. | Per consentire agli utenti di sincronizzare le proprie ferie con ScrumGenius. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegated | Nome e indirizzo di posta elettronica dell'utente. | Per consentire all'utente di accedere con Microsoft Login. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -71,7 +71,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Si accede all'elenco dei team, quindi quando un amministratore del team installa scrumgenius, è possibile sincronizzare il resto dell'elenco dei team con scrumgenius in modo da poter eseguire l'onboardboard con la piattaforma per consentire loro di configurare un report di supporto e assegnare i membri del team che devono ottenere il report. | nome, cognome, nome visualizzato, indirizzo di posta elettronica |  |
 
 

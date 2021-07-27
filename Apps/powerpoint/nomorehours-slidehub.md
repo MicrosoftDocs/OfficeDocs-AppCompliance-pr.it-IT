@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SlideHub, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 39e3c631cdcd79de9eab484749f45354b87ca0cf
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7eca7f35cb46db8450f6805c9e8a4c2503934dd6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282859"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527812"
 ---
 # <a name="slidehub"></a>SlideHub
 
@@ -54,8 +54,8 @@ Queste informazioni sono state fornite da nomorehours su come questa app raccogl
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | application | e-mail e nome. Il messaggio di posta elettronica viene utilizzato come nome utente nell'applicazione. La raccolta del messaggio di posta elettronica consente di registrare e accedere più rapidamente all'applicazione. Il nome viene utilizzato nel caso di un evento di registrazione. | Il messaggio di posta elettronica viene utilizzato per abilitare l'accesso tramite Office 365 e in alcuni casi registrare gli utenti che fanno parte dell'organizzazione che hanno già accettato le condizioni per loro conto. | 33ccef75-8248-44e8-88d3-24526ca9c2d3 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | application | e-mail e nome. Il messaggio di posta elettronica viene utilizzato come nome utente nell'applicazione. La raccolta del messaggio di posta elettronica consente di registrare e accedere più rapidamente all'applicazione. Il nome viene utilizzato nel caso di un evento di registrazione. | Il messaggio di posta elettronica viene utilizzato per abilitare l'accesso tramite Office 365 e in alcuni casi registrare gli utenti che fanno parte dell'organizzazione che hanno già accettato le condizioni per loro conto. | [33ccef75-8248-44e8-88d3-24526ca9c2d3](https://docs.microsoft.com/microsoft-365-app-certification/azure/33ccef75-8248-44e8-88d3-24526ca9c2d3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

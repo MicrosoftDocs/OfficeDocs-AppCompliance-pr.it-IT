@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Email TeamMate, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 21c17ca6e6ac518063e9ba097b17422907e7189e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a5d84cc70ee039a4b2973fb5ec9bfd9f20a9a179
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553107"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521659"
 ---
 # <a name="email-teammate"></a>Email TeamMate
 
@@ -56,13 +56,13 @@ Queste informazioni sono state fornite da harmon.ie su come questa app raccoglie
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Chat.Read | delegated | Richiesto da TeamMate per ottenere i membri della chat di una conversazione specifica per condividere i file di salvataggio in SharePoint/Un'unità con i membri della chat di conversazione | nessuno | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
->| Files.ReadWrite.All | delegated | Richiesto da TeamMate per salvare gli allegati di posta elettronica &amp; in SharePoint/Teams/OneDrive | nessuno | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
->| Mail.ReadWrite | delegated | Richiesto da TeamMate per visualizzare i messaggi di posta elettronica dell'utente e per rispondere ai messaggi di posta elettronica salvati in Teams | nessuno | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
->| People.Read | delegated | Richiesto da TeamMate per cercare i messaggi di posta elettronica delle persone e per suggerire le persone che si stanno contattando di frequente. | nessuno | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
->| User.Read | delegated | consente agli utenti di accedere a TeamMate con il proprio account e consente a TeamMate di visualizzare le informazioni di base del profilo utente | nessuno | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
->| User.ReadBasic.All | delegated | Richiesto da TeamMate per risolvere gli indirizzi di posta elettronica dei membri della chat in modo che i file di condivisione salvati OneDrive con loro  | nessuno | 74a31d8c-1ee9-4fb8-bc22-640ba5f457f4 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Chat.Read | delegated | Richiesto da TeamMate per ottenere i membri della chat di una conversazione specifica per condividere i file di salvataggio in SharePoint/Un'unità con i membri della chat di conversazione | nessuno | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Files.ReadWrite.All | delegated | Richiesto da TeamMate per salvare gli allegati di posta elettronica &amp; in SharePoint/Teams/OneDrive | nessuno | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Mail.ReadWrite | delegated | Richiesto da TeamMate per visualizzare i messaggi di posta elettronica dell'utente e per rispondere ai messaggi di posta elettronica salvati in Teams | nessuno | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| People.Read | delegated | Richiesto da TeamMate per cercare i messaggi di posta elettronica delle persone e per suggerire le persone che si stanno contattando di frequente. | nessuno | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| User.Read | delegated | consente agli utenti di accedere a TeamMate con il proprio account e consente a TeamMate di visualizzare le informazioni di base del profilo utente | nessuno | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| User.ReadBasic.All | delegated | Richiesto da TeamMate per risolvere gli indirizzi di posta elettronica dei membri della chat in modo che i file di condivisione salvati OneDrive con loro  | nessuno | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

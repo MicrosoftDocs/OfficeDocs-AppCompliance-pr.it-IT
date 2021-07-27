@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ecBooking, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b1806ca26bb20d1f4f24d87d7b617ad9ff108397
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f36edd400f35d7e4ccbfef5edd0225855f73ab69
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281879"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521729"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -56,13 +56,13 @@ Queste informazioni sono state fornite da Expert Systems IVR(Asia) Co.Ltd. infor
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | application | Vengono archiviati dati come e-mail utente, eventi utente. Gli eventi utente vengono raccolti per controllare la disponibilità delle sale e creare eventi. | Id dell'evento degli utenti, nome della posizione e dettagli di altri eventi verranno archiviati. I dati vengono raccolti per controllare la disponibilità delle sale e creare eventi. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| Mail.Send | application | Dati come e-mail utente. I messaggi di posta elettronica dell'utente vengono raccolti per l'invio di e-mail di promemoria per la prenotazione della sala. | Dati come e-mail utente. I messaggi di posta elettronica dell'utente vengono raccolti per l'invio di e-mail di promemoria per la prenotazione della sala. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| User.Read | delegated | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| User.Read.All | application | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| e-mail | delegated | Dati come e-mail utente. L'e-mail dell'utente è stata raccolta per controllare la disponibilità dell'utente e creare eventi. | Dati come e-mail utente. L'e-mail dell'utente è stata raccolta per controllare la disponibilità dell'utente e creare eventi. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| openid | delegated | L'openid dell'utente per consentire all'utente di accedere all'applicazione. | L'openid dell'utente per consentire all'utente di accedere all'applicazione. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | application | Vengono archiviati dati come e-mail utente, eventi utente. Gli eventi utente vengono raccolti per controllare la disponibilità delle sale e creare eventi. | Id dell'evento degli utenti, nome della posizione e dettagli di altri eventi verranno archiviati. I dati vengono raccolti per controllare la disponibilità delle sale e creare eventi. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| Mail.Send | application | Dati come e-mail utente. I messaggi di posta elettronica dell'utente vengono raccolti per l'invio di e-mail di promemoria per la prenotazione della sala. | Dati come e-mail utente. I messaggi di posta elettronica dell'utente vengono raccolti per l'invio di e-mail di promemoria per la prenotazione della sala. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| User.Read | delegated | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| User.Read.All | application | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| e-mail | delegated | Dati come e-mail utente. L'e-mail dell'utente è stata raccolta per controllare la disponibilità dell'utente e creare eventi. | Dati come e-mail utente. L'e-mail dell'utente è stata raccolta per controllare la disponibilità dell'utente e creare eventi. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| openid | delegated | L'openid dell'utente per consentire all'utente di accedere all'applicazione. | L'openid dell'utente per consentire all'utente di accedere all'applicazione. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

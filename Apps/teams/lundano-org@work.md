@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Org@Work, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6791c124a7d18f6a6d0554857cad1f35b6fd7781
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 2c1cfec539c8db4ddd597b8125079521d40615c4
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281759"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521419"
 ---
 # <a name="orgwork"></a>Org@Work
 
@@ -56,12 +56,12 @@ Queste informazioni sono state fornite da Lundano su come questa app raccoglie e
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | Nessuno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| e-mail | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | Nessuno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| offline_access | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | Nessuno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| openid | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | Nessuno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| profilo | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | nessuno | aa1c54a1-f482-424d-9389-dbd131233483 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | Nessuno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| e-mail | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | Nessuno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| offline_access | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | Nessuno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| openid | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | Nessuno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| profilo | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | nessuno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -75,7 +75,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Il push bot deve menzionare il nome del dipendente per il responsabile della pianificazione per confermarlo | First Last &amp; names, email adress, workplace and organization | Queste informazioni sono necessarie al responsabile della pianificazione Org@Work completare il flusso di lavoro del &amp; processo |
 
 

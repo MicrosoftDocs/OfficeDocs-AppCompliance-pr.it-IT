@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Zoho CRM per la posta elettronica, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2c4d85b33c0d43bc492fe6e04058bd4e92768077
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 70b8cb54057dfb9c08068a444127bc78e736c84c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282400"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527882"
 ---
 # <a name="zoho-crm-for-email"></a>Zoho CRM per la posta elettronica
 
@@ -54,16 +54,16 @@ Queste informazioni sono state fornite da Zoho Corporation Private Limited su co
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegated | L'ID cartella calendario viene archiviato per sincronizzare i contatti da Zoho CRM a Microsoft &amp; viceversa. Le informazioni del calendario event_name, event_location, participant_details vengono archiviate. | Consente all'utente di sincronizzare gli eventi di Office365 con Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.ReadWrite | delegated | L'ID cartella Contatti viene archiviato per sincronizzare i contatti da Zoho CRM a Microsoft &amp; viceversa. Le informazioni di contatto first_name, last_name,indirizzo di posta elettronica vengono archiviate. | Consente all'utente di sincronizzare i contatti di Office365 con Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read | delegated |  | Consente all'utente di importare il file di Office365 in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.All | delegated |  | Consente all'utente di importare il file di Office365 in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.Selected | delegated | UserPrincipalName viene archiviato per l'identificazione dell'utente | Consente all'utente di importare il file di Office365 in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | delegated | Proprietà utente come first_name, last_name, indirizzo di posta elettronica. | Leggere i profili di base di tutti gli utenti | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| e-mail | delegated | UserPrincipaName viene archiviato per l'indentificazione dell'utente | Visualizzare l'indirizzo di posta elettronica dell'utente | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| offline_access | delegated |  | Mantenimento dell'accesso ai dati a cui è stato concesso l'accesso | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| profilo | delegated |  | Visualizzare il profilo di base dell'utente | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated | L'ID cartella calendario viene archiviato per sincronizzare i contatti da Zoho CRM a Microsoft &amp; viceversa. Le informazioni del calendario event_name, event_location, participant_details vengono archiviate. | Consente all'utente di sincronizzare gli eventi di Office365 con Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.ReadWrite | delegated | L'ID cartella Contatti viene archiviato per sincronizzare i contatti da Zoho CRM a Microsoft &amp; viceversa. Le informazioni di contatto first_name, last_name,indirizzo di posta elettronica vengono archiviate. | Consente all'utente di sincronizzare i contatti di Office365 con Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read | delegated |  | Consente all'utente di importare il file di Office365 in Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.All | delegated |  | Consente all'utente di importare il file di Office365 in Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.Selected | delegated | UserPrincipalName viene archiviato per l'identificazione dell'utente | Consente all'utente di importare il file di Office365 in Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | delegated | Proprietà utente come first_name, last_name, indirizzo di posta elettronica. | Leggere i profili di base di tutti gli utenti | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| e-mail | delegated | UserPrincipaName viene archiviato per l'indentificazione dell'utente | Visualizzare l'indirizzo di posta elettronica dell'utente | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| offline_access | delegated |  | Mantenimento dell'accesso ai dati a cui è stato concesso l'accesso | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| profilo | delegated |  | Visualizzare il profilo di base dell'utente | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

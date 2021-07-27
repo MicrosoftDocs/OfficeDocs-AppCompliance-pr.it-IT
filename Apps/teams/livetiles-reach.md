@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Reach, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 91729da78b1a031be38569bfd4e4168f2a96f83a
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d188c61f6f87dbe528219d82f1b58477b184da8a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281779"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521467"
 ---
 # <a name="reach"></a>Reach
 
@@ -56,12 +56,12 @@ Queste informazioni sono state fornite da LiveTiles su come questa app raccoglie
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| TeamsActivity.Send | application | Nessuno | Nessuno | a7c1920d-3ac0-42db-9757-078a2b321fd8  |
->| User.Read | delegated | User DisplayName, User Email Address, UPN. Obbligatorio per consentire agli utenti di accedere all'app e ottenere le informazioni di base dell'utente connesso, ad esempio il nome visualizzato. L'indirizzo di posta elettronica viene utilizzato per inviare notifiche tramite posta elettronica.  | User DisplayName, User Email Address, UPN. Obbligatorio per consentire agli utenti di accedere all'app e ottenere le informazioni di base dell'utente connesso, ad esempio il nome visualizzato. L'indirizzo di posta elettronica viene utilizzato per inviare notifiche tramite posta elettronica.  | d492530a-8cff-481c-90da-9c3c3f1be7da |
->| User.ReadBasic.All | delegated | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Telefono Number, User Business Telefono Number, User Office Location. Obbligatorio per consentire agli utenti di cercare altri utenti all'interno dell'app (Rubrica telefonica) e visualizzare le informazioni di contatto e il profilo di base di altri utenti.  | nessuno | d492530a-8cff-481c-90da-9c3c3f1be7da |
->| Directory.Read.All | application | Appartenenza a gruppi, Gruppi di Active Directory in Directory. L'appartenenza a gruppi di utenti viene archiviata in una cache per ridurre al minimo le chiamate all'API microsoft Graph. Obbligatorio per consentire agli utenti di cercare gruppi di Active Directory. Inoltre, questa autorizzazione è necessaria per consentire all'applicazione di risolvere l'appartenenza al gruppo ACTIVE degli utenti nei processi Web del back-end. | Appartenenza a un gruppo di utenti. L'appartenenza a gruppi di utenti viene archiviata in una cache per ridurre al minimo le chiamate all'API microsoft Graph. Obbligatorio per consentire agli utenti di cercare gruppi di Active Directory. Inoltre, questa autorizzazione è necessaria per consentire all'applicazione di risolvere l'appartenenza al gruppo ACTIVE degli utenti nei processi Web del back-end.  | d492530a-8cff-481c-90da-9c3c3f1be7da  |
->| User.Read.All | application | I dati recuperati dal profilo utente dipendono dalla configurazione della funzionalità Di destinazione del gruppo di destinatari specificata nell'app. Obbligatorio per consentire all'app di leggere i profili utente senza un utente connesso. La lettura dei dati del profilo è necessaria per la funzionalità di destinazione delle informazioni all'interno dell'applicazione, in modo che le informazioni vengono visualizzate a utenti specifici in base a un valore di proprietà del profilo specifico.  | nessuno | d492530a-8cff-481c-90da-9c3c3f1be7da  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| TeamsActivity.Send | application | Nessuno | Nessuno | [a7c1920d-3ac0-42db-9757-078a2b321fd8 ](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7c1920d-3ac0-42db-9757-078a2b321fd8 ) |
+>| User.Read | delegated | User DisplayName, User Email Address, UPN. Obbligatorio per consentire agli utenti di accedere all'app e ottenere le informazioni di base dell'utente connesso, ad esempio il nome visualizzato. L'indirizzo di posta elettronica viene utilizzato per inviare notifiche tramite posta elettronica.  | User DisplayName, User Email Address, UPN. Obbligatorio per consentire agli utenti di accedere all'app e ottenere le informazioni di base dell'utente connesso, ad esempio il nome visualizzato. L'indirizzo di posta elettronica viene utilizzato per inviare notifiche tramite posta elettronica.  | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
+>| User.ReadBasic.All | delegated | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Telefono Number, User Business Telefono Number, User Office Location. Obbligatorio per consentire agli utenti di cercare altri utenti all'interno dell'app (Rubrica telefonica) e visualizzare le informazioni di contatto e il profilo di base di altri utenti.  | nessuno | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
+>| Directory.Read.All | application | Appartenenza a gruppi, Gruppi di Active Directory in Directory. L'appartenenza a gruppi di utenti viene archiviata in una cache per ridurre al minimo le chiamate all'API microsoft Graph. Obbligatorio per consentire agli utenti di cercare gruppi di Active Directory. Inoltre, questa autorizzazione è necessaria per consentire all'applicazione di risolvere l'appartenenza al gruppo ACTIVE degli utenti nei processi Web del back-end. | Appartenenza a un gruppo di utenti. L'appartenenza a gruppi di utenti viene archiviata in una cache per ridurre al minimo le chiamate all'API microsoft Graph. Obbligatorio per consentire agli utenti di cercare gruppi di Active Directory. Inoltre, questa autorizzazione è necessaria per consentire all'applicazione di risolvere l'appartenenza al gruppo ACTIVE degli utenti nei processi Web del back-end.  | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
+>| User.Read.All | application | I dati recuperati dal profilo utente dipendono dalla configurazione della funzionalità Di destinazione del gruppo di destinatari specificata nell'app. Obbligatorio per consentire all'app di leggere i profili utente senza un utente connesso. La lettura dei dati del profilo è necessaria per la funzionalità di destinazione delle informazioni all'interno dell'applicazione, in modo che le informazioni vengono visualizzate a utenti specifici in base a un valore di proprietà del profilo specifico.  | nessuno | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -69,7 +69,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| SendGrid, OneSignal | indirizzo di posta elettronica, nome visualizzato | Inviare una notifica all'utente tramite posta elettronica e notifiche push per dispositivi mobili |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
