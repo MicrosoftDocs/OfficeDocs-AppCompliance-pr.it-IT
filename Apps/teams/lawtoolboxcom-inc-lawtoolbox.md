@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per LawToolBox, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2e97d65822a5baeb0cd78101660084e4142e98ea
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9023d2321d5c6a6a62c8480538cc5bf8315b2fc9
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553007"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525520"
 ---
 # <a name="lawtoolbox"></a>LawToolBox
 
@@ -56,29 +56,29 @@ Queste informazioni sono state fornite da LawToolBox.com Inc. Su come questa app
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | delegated |  | [Facoltativo] Leggere il calendario dell'utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Calendars.ReadWrite | delegated |  | Per creare l'invito del calendario nel calendario dell'utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Calendars.ReadWrite.Shared | delegated |  | Per creare l'invito del calendario nel calendario condiviso. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Contacts.ReadWrite | delegated |  | [Facoltativo]- per leggere i contatti dell'utente e connettere gli utenti dall'elenco dei contatti al gruppo. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Contacts.ReadWrite.Shared | delegated |  | [Facoltativo]- Per leggere i contatti condivisi degli utenti per gestire l'elenco dei contatti rilevanti per il caso. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Directory.AccessAsUser.All | delegated |  | [Facoltativo] Leggere le informazioni relative a gruppi e utenti come utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Directory.ReadWrite.All | delegated |  | [Facoltativo] Leggere le informazioni relative a gruppi e utenti come utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Files.Read | delegated |  | [Facoltativo] Leggere i dati dell'OneDrive. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Files.Read.All | delegated |  | [Facoltativo]-Lettura dell'OneDrive. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Files.ReadWrite | delegated |  | [Facoltativo]-Leggere e modificare i file nel OneDrive. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Files.ReadWrite.All | delegated |  | [Facoltativo] File di OneDrive utente di lettura/scrittura associato all'oggetto Matter. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Group.ReadWrite.All | delegated | GroupID, GroupName, GroupEmail | Creiamo un gruppo per ogni materia creata nel nostro sistema. Questo consente agli utenti di archiviare le informazioni relative alla materia nel gruppo, che a sua volta salva i dati nel proprio tenant. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Mail.Read | delegated |  | [Facoltativo] [InProgress] Leggere la posta elettronica dell'utente per Matters. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Mail.ReadWrite | delegated |  | [Facoltativo] [InProgress] Posta elettronica di lettura/scrittura per gli utenti. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Mail.ReadWrite.Shared | delegated |  | [Facoltativo] [InProgress] Posta elettronica di lettura/scrittura per gli utenti. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Mail.Send | delegated |  | [Facoltativo] [InProgress] Invia scadenze tramite posta elettronica come utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| Tasks.ReadWrite.Shared | delegated |  | [Optional]-[InProgress] Read Write Deadlines as Task for users. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| User.Read | delegated |  | Leggere le informazioni dell'utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| User.ReadWrite | delegated |  | Informazioni utente di lettura/scrittura. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| User.ReadWrite.All | delegated |  | Informazioni utente di lettura/scrittura. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| e-mail | delegated | Email, Office365 UserID, ObjectID, TenantID. | Leggere l'indirizzo di posta elettronica dell'utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
->| profilo | delegated |  | Leggere le informazioni sul profilo utente. | 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | delegated |  | [Facoltativo] Leggere il calendario dell'utente. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite | delegated |  | Per creare l'invito del calendario nel calendario dell'utente. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite.Shared | delegated |  | Per creare l'invito del calendario nel calendario condiviso. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Contacts.ReadWrite | delegated |  | [Facoltativo]- per leggere i contatti dell'utente e connettere gli utenti dall'elenco dei contatti al gruppo. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Contacts.ReadWrite.Shared | delegated |  | [Facoltativo]- Per leggere i contatti condivisi degli utenti per gestire l'elenco dei contatti rilevanti per il caso. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Directory.AccessAsUser.All | delegated |  | [Facoltativo] Leggere le informazioni relative a gruppi e utenti come utente. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Directory.ReadWrite.All | delegated |  | [Facoltativo] Leggere le informazioni relative a gruppi e utenti come utente. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.Read | delegated |  | [Facoltativo] Leggere i dati dell'OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.Read.All | delegated |  | [Facoltativo]-Lettura dell'OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite | delegated |  | [Facoltativo]-Leggere e modificare i file nel OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite.All | delegated |  | [Facoltativo] File di OneDrive utente di lettura/scrittura associato all'oggetto Matter. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Group.ReadWrite.All | delegated | GroupID, GroupName, GroupEmail | Creiamo un gruppo per ogni materia creata nel nostro sistema. Questo consente agli utenti di archiviare le informazioni relative alla materia nel gruppo, che a sua volta salva i dati nel proprio tenant. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Read | delegated |  | [Facoltativo] [InProgress] Leggere la posta elettronica dell'utente per Matters. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite | delegated |  | [Facoltativo] [InProgress] Posta elettronica di lettura/scrittura per gli utenti. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite.Shared | delegated |  | [Facoltativo] [InProgress] Posta elettronica di lettura/scrittura per gli utenti. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Send | delegated |  | [Facoltativo] [InProgress] Invia scadenze tramite posta elettronica come utente. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Tasks.ReadWrite.Shared | delegated |  | [Optional]-[InProgress] Read Write Deadlines as Task for users. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.Read | delegated |  | Leggere le informazioni dell'utente. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.ReadWrite | delegated |  | Informazioni utente di lettura/scrittura. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.ReadWrite.All | delegated |  | Informazioni utente di lettura/scrittura. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| e-mail | delegated | Email, Office365 UserID, ObjectID, TenantID. | Leggere l'indirizzo di posta elettronica dell'utente. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| profilo | delegated |  | Leggere le informazioni sul profilo utente. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -92,7 +92,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Per identificare l'utente appena aggiunto nel team e verificare la presenza di un potenziale lead | Email, UserId |  |
 
 

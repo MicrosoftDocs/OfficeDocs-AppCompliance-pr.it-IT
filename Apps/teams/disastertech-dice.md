@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per DisasterTech DICE, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c9aceaf48c36012ad8c6eb062c1161746d55da6a
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d8eec2ad9c7047a33dae446943c3ab2d934cc78c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281921"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525710"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -55,12 +55,12 @@ Queste informazioni sono state fornite da DisasterTech su come questa app raccog
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | Indirizzo di posta elettronica utente archiviato per stabilire i diritti di accesso e nome utente per identificare gli utenti in base al nome | Consente all'utente di accedere e consente all'app di accedere all'UPN per abilitare l'accesso invisibile all'utente, oltre Teams login, anche per stabilire nomi utente e indirizzi di posta elettronica. | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| e-mail | delegated | Nessuno | Obbligatorio per Teams single Sign-On | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| offline_access | delegated | Nessuno | Obbligatorio per Teams single Sign-On | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| openid | delegated | Nessuno | Obbligatorio per Teams single Sign-On | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| profilo | delegated | Nessuno | Obbligatorio Teams Single Sign-On. | 36d23b76-c58b-4a34-a60f-dceac6962bad |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | Indirizzo di posta elettronica utente archiviato per stabilire i diritti di accesso e nome utente per identificare gli utenti in base al nome | Consente all'utente di accedere e consente all'app di accedere all'UPN per abilitare l'accesso invisibile all'utente, oltre Teams login, anche per stabilire nomi utente e indirizzi di posta elettronica. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| e-mail | delegated | Nessuno | Obbligatorio per Teams single Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| offline_access | delegated | Nessuno | Obbligatorio per Teams single Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| openid | delegated | Nessuno | Obbligatorio per Teams single Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| profilo | delegated | Nessuno | Obbligatorio Teams Single Sign-On. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

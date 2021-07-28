@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per SalesTim, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ada23e0899e67432b0718ec34f32c236e8768a18
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: b15cf2f87b6707b6fa82dfc3968444d7cad85e8a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283070"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53524759"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -54,14 +54,14 @@ Queste informazioni sono state fornite da SalesTim su come questa app raccoglie 
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.ReadWrite.All | delegated | No | Consenti all'app di installare e aggiornare i propri pacchetti nel catalogo app aziendale. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Directory.AccessAsUser.All | delegated | È&#8217;solo alcuni ID utente, non i dati del profilo. | Consente a un utente di selezionare altri utenti in diverse posizioni dell'applicazione, ad esempio selezionando i responsabili approvazione in un flusso di lavoro. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Group.ReadWrite.All | delegated | È&#8217;solo l'archiviazione di gruppi/ID team,&#8217;non vengono archiviati i contenuti di gruppi/team. | Consente all'app di creare gruppi, leggere tutte le proprietà e le appartenenze del gruppo per conto dell'utente connesso. Consente inoltre ai proprietari dei gruppi di gestire i propri gruppi e consente ai membri del gruppo di aggiornare il contenuto del gruppo. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Mail.Send | delegated | È&#8217;i metadati di questa azione, ad esempio la data della notifica, il destinatario (solo ID), l'ID richiesta. | Consente all'app di inviare messaggi di posta elettronica di notifica, ad esempio durante un flusso di lavoro di approvazione. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Sites.ReadWrite.All | delegated | Stiamo usando alcuni servizi di Azure per archiviare i dati, in particolare Redis in Azure e Cosmos DB | Consente all'app di gestire le unità (file e cartelle) associate a un team durante un processo di provisioning del team. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| User.Read.All | delegated | È&#8217;solo alcuni ID utente, non i dati del profilo. | Consente all'app di leggere il set completo di proprietà del profilo, report e responsabili di qualsiasi utente. Viene utilizzato soprattutto durante il processo di destinazione del gruppo di destinatari, per filtrare alcuni contenuti in base al profilo utente corrente. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| offlineaccess | delegated | No | Consente all'app di eseguire alcune operazioni e azioni in background come utente. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| AppCatalog.ReadWrite.All | delegated | No | Consenti all'app di installare e aggiornare i propri pacchetti nel catalogo app aziendale. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Directory.AccessAsUser.All | delegated | È&#8217;solo alcuni ID utente, non i dati del profilo. | Consente a un utente di selezionare altri utenti in diverse posizioni dell'applicazione, ad esempio selezionando i responsabili approvazione in un flusso di lavoro. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Group.ReadWrite.All | delegated | È&#8217;solo l'archiviazione di gruppi/ID team,&#8217;non vengono archiviati i contenuti di gruppi/team. | Consente all'app di creare gruppi, leggere tutte le proprietà e le appartenenze del gruppo per conto dell'utente connesso. Consente inoltre ai proprietari dei gruppi di gestire i propri gruppi e consente ai membri del gruppo di aggiornare il contenuto del gruppo. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Mail.Send | delegated | È&#8217;i metadati di questa azione, ad esempio la data della notifica, il destinatario (solo ID), l'ID richiesta. | Consente all'app di inviare messaggi di posta elettronica di notifica, ad esempio durante un flusso di lavoro di approvazione. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Sites.ReadWrite.All | delegated | Stiamo usando alcuni servizi di Azure per archiviare i dati, in particolare Redis in Azure e Cosmos DB | Consente all'app di gestire le unità (file e cartelle) associate a un team durante un processo di provisioning del team. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| User.Read.All | delegated | È&#8217;solo alcuni ID utente, non i dati del profilo. | Consente all'app di leggere il set completo di proprietà del profilo, report e responsabili di qualsiasi utente. Viene utilizzato soprattutto durante il processo di destinazione del gruppo di destinatari, per filtrare alcuni contenuti in base al profilo utente corrente. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| offlineaccess | delegated | No | Consente all'app di eseguire alcune operazioni e azioni in background come utente. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -69,7 +69,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Stiamo usando Intercom come applicazione di supporto principale. Intercom può contenere alcune informazioni di base sul profilo utente, come descritto di seguito: https://developers.salestim.com/platform/datamanagement.html#support-data |  | Stiamo usando le API GitHub per generare automaticamente i problemi dall'ambiente di produzione. Vengono inoltre archiviati alcuni log tecnici in GitHub (come descritto qui: https://developers.salestim.com/platform/datamanagement.html#error-reporting-data) . Questi problemi e registri possono contenere alcune informazioni di base sul profilo utente. Questi problemi e registri vengono eliminati automaticamente ogni 15 giorni. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ezTeam, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: da54d5a540fd43c2bdc25a6f4e31ba88520ecbc3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 6c4ad813b21963005857c69a05727ca261a73f9c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553177"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525660"
 ---
 # <a name="ezteam"></a>ezTeam
 
@@ -56,31 +56,31 @@ Queste informazioni sono state fornite da EnterprizID Inc su come questa app rac
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.Read.All | delegated | Elenco di app disponibili in Teams in modo da poterlo visualizzare nel processo di Teams di creazione delle richieste | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Application.Read.All | delegated | Consente all'app di leggere le applicazioni e le entità servizio per conto dell'utente connesso. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Directory.AccessAsUser.All | delegated | Consente all'app di avere lo stesso accesso alle informazioni nella directory dell'utente connesso. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Directory.Read.All | delegated | Consente all'app di leggere i dati nella directory dell'organizzazione, ad esempio utenti, gruppi e app. | Teams Informazioni sulla proprietà e sull'appartenenza  | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Directory.Read.All | application | Consente all'app di leggere i dati nella directory dell'organizzazione, ad esempio utenti, gruppi e app, senza un utente connesso. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Directory.ReadWrite.All | delegated | Consente all'app di leggere e scrivere dati nella directory dell'organizzazione, ad esempio utenti e gruppi | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Directory.ReadWrite.All | application | Consente all'app di leggere e scrivere dati nella directory dell'organizzazione, ad esempio utenti e gruppi, senza un utente connesso. Non consente l'eliminazione di utenti o gruppi. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Files.Read.All | application | Consente all'app di leggere tutti i file in tutte le raccolte siti senza un utente connesso. | Quantità di dati sotto la governance degli utenti finali in GB | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Group.Create | application | Consente all'app di creare gruppi senza un utente connesso. | Dettagli sulle nuove proprietà del gruppo. | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Group.Read.All | delegated | Consente all'app di elencare i gruppi e di leggerne le proprietà e tutte le appartenenze a gruppi per conto dell'utente connesso. Usato per determinare My Teams  | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Group.Read.All | application | Consente all'app di leggere le proprietà e le appartenenze dei gruppi e di leggere il calendario e le conversazioni per tutti i gruppi, senza un utente connesso. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Group.ReadWrite.All | delegated | Consente all'app di creare gruppi e leggere tutte le proprietà e le appartenenze del gruppo per conto dell'utente connesso.  | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Group.ReadWrite.All | application | Consente all'app di creare gruppi, leggere tutte le proprietà e le appartenenze ai gruppi, aggiornare le proprietà e le appartenenze dei gruppi ed eliminare i gruppi. Consente inoltre all'app di leggere e scrivere il calendario e le conversazioni di gruppo.  | Ultima attività del team. | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| GroupMember.Read.All | application | Consente all'app di leggere le appartenenze e le proprietà di base dei gruppi per tutti i gruppi senza un utente connesso. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| GroupMember.ReadWrite.All | application | Consente all'app di elencare i gruppi, leggere le proprietà di base, leggere e aggiornare l'appartenenza dei gruppi a cui l'app ha accesso senza un utente connesso. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| People.Read.All | application | Consente all'app di leggere l'elenco di persone pertinenti con punteggio di qualsiasi utente, senza un utente connesso. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Reports.Read.All | delegated | Consente a un'app di leggere tutti i report sull'utilizzo del servizio per conto dell'utente connesso. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Reports.Read.All | application | Consente a un'app di leggere tutti i report sull'utilizzo del servizio senza un utente connesso. | Ultima attività utente per gruppo | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| Sites.ReadWrite.All | application | Consente all'app di creare, leggere, aggiornare ed eliminare documenti ed elementi di elenco in tutte le raccolte siti senza un utente connesso. | Top 10 sites by size for each user | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| User.Read | delegated | Consente agli utenti di accedere all'app e consente all'app di leggere il profilo degli utenti connessi. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| User.Read.All | application | Consente all'app di leggere i profili utente senza un utente connesso. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| offline_access | delegated | Consente all'app di visualizzare e aggiornare i dati a cui hai concesso l'accesso, anche quando gli utenti attualmente non usano l'app.  | Notifiche bot | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| openid | delegated | Consente agli utenti di accedere all'app con i propri account aziendali o dell'istituto di istruzione e consente all'app di visualizzare le informazioni di base del profilo utente. | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
->| profilo | delegated | Consente all'app di visualizzare il profilo di base degli utenti (nome, immagine, nome utente) | N/D | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| AppCatalog.Read.All | delegated | Elenco di app disponibili in Teams in modo da poterlo visualizzare nel processo di Teams di creazione delle richieste | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Application.Read.All | delegated | Consente all'app di leggere le applicazioni e le entità servizio per conto dell'utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Directory.AccessAsUser.All | delegated | Consente all'app di avere lo stesso accesso alle informazioni nella directory dell'utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Directory.Read.All | delegated | Consente all'app di leggere i dati nella directory dell'organizzazione, ad esempio utenti, gruppi e app. | Teams Informazioni sulla proprietà e sull'appartenenza  | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Directory.Read.All | application | Consente all'app di leggere i dati nella directory dell'organizzazione, ad esempio utenti, gruppi e app, senza un utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Directory.ReadWrite.All | delegated | Consente all'app di leggere e scrivere dati nella directory dell'organizzazione, ad esempio utenti e gruppi | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Directory.ReadWrite.All | application | Consente all'app di leggere e scrivere dati nella directory dell'organizzazione, ad esempio utenti e gruppi, senza un utente connesso. Non consente l'eliminazione di utenti o gruppi. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Files.Read.All | application | Consente all'app di leggere tutti i file in tutte le raccolte siti senza un utente connesso. | Quantità di dati sotto la governance degli utenti finali in GB | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Group.Create | application | Consente all'app di creare gruppi senza un utente connesso. | Dettagli sulle nuove proprietà del gruppo. | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Group.Read.All | delegated | Consente all'app di elencare i gruppi e di leggerne le proprietà e tutte le appartenenze a gruppi per conto dell'utente connesso. Usato per determinare My Teams  | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Group.Read.All | application | Consente all'app di leggere le proprietà e le appartenenze dei gruppi e di leggere il calendario e le conversazioni per tutti i gruppi, senza un utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Group.ReadWrite.All | delegated | Consente all'app di creare gruppi e leggere tutte le proprietà e le appartenenze del gruppo per conto dell'utente connesso.  | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Group.ReadWrite.All | application | Consente all'app di creare gruppi, leggere tutte le proprietà e le appartenenze ai gruppi, aggiornare le proprietà e le appartenenze dei gruppi ed eliminare i gruppi. Consente inoltre all'app di leggere e scrivere il calendario e le conversazioni di gruppo.  | Ultima attività del team. | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| GroupMember.Read.All | application | Consente all'app di leggere le appartenenze e le proprietà di base dei gruppi per tutti i gruppi senza un utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| GroupMember.ReadWrite.All | application | Consente all'app di elencare i gruppi, leggere le proprietà di base, leggere e aggiornare l'appartenenza dei gruppi a cui l'app ha accesso senza un utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| People.Read.All | application | Consente all'app di leggere l'elenco di persone pertinenti con punteggio di qualsiasi utente, senza un utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Reports.Read.All | delegated | Consente a un'app di leggere tutti i report sull'utilizzo del servizio per conto dell'utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Reports.Read.All | application | Consente a un'app di leggere tutti i report sull'utilizzo del servizio senza un utente connesso. | Ultima attività utente per gruppo | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Sites.ReadWrite.All | application | Consente all'app di creare, leggere, aggiornare ed eliminare documenti ed elementi di elenco in tutte le raccolte siti senza un utente connesso. | Top 10 sites by size for each user | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| User.Read | delegated | Consente agli utenti di accedere all'app e consente all'app di leggere il profilo degli utenti connessi. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| User.Read.All | application | Consente all'app di leggere i profili utente senza un utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| offline_access | delegated | Consente all'app di visualizzare e aggiornare i dati a cui hai concesso l'accesso, anche quando gli utenti attualmente non usano l'app.  | Notifiche bot | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| openid | delegated | Consente agli utenti di accedere all'app con i propri account aziendali o dell'istituto di istruzione e consente all'app di visualizzare le informazioni di base del profilo utente. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| profilo | delegated | Consente all'app di visualizzare il profilo di base degli utenti (nome, immagine, nome utente) | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -94,7 +94,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Notifiche relative a messaggi di benvenuto, approvazione e attestazione | Archiviamo il nome visualizzato delle identità  | Il nostro strumento consente agli utenti finali di creare richieste per diversi elementi del servizio e archivia il nome visualizzato del richiedente. Una richiesta segue un flusso di lavoro di approvazione e il nome visualizzato del responsabile approvazione deve essere visualizzato nei dettagli della richiesta. Inoltre, nei membri di un processo di certificazione del team è elencato il nome visualizzato dei membri. |
 
 

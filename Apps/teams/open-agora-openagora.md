@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per OpenAgora, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e078e126a4d155fedc2cda86e12ff1341722962c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c1538e5ad361469b5c8b3c07a085ed91d45a70dd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551866"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525410"
 ---
 # <a name="openagora"></a>OpenAgora
 
@@ -56,8 +56,8 @@ Queste informazioni sono state fornite da Open Agora su come questa app raccogli
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | ID&#8217;di Azure Active Directory utente. | Identificazione dell'utente, per garantire che gli utenti possano visualizzare e gestire solo i dati visibili. |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | ID&#8217;di Azure Active Directory utente. | Identificazione dell'utente, per garantire che gli utenti possano visualizzare e gestire solo i dati visibili. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -71,7 +71,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| **Nome** - Utilizzato per visualizzare il nome del votanti. **Posta** elettronica- usato per identificare gli utenti tra team e chat; utilizzato come identificatore univoco del votanti; utilizzato per rispondere ai commenti e suggerimenti degli utenti Teams. Non vengono inviati messaggi di posta elettronica indesiderati agli utenti. | Nome e cognome, nome visualizzato, indirizzo di posta elettronica |  |
 
 

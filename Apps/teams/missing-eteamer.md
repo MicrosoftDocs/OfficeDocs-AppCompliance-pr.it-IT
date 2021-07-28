@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per eTeamer, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 61646392953ecd8ed21de5ba7029f8ec0d11db2f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 149cc78306c01d767de2a646a67d4d2848bf95db
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282549"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525470"
 ---
 # <a name="eteamer"></a>eTeamer
 
@@ -55,8 +55,8 @@ Queste informazioni sono state fornite da &#28145;&#22323;&#20234;&#30331;&#3671
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ChannelMember.ReadWrite.All | entrambi | L'ID applicazione tenant e la password dell'applicazione vengono raccolti per l'autorizzazione implicita OAuth 2.0 per sincronizzare le informazioni utente | L'ID tenant, l'ID applicazione tenant, la password dell'applicazione e le informazioni utente vengono archiviati nel database, che viene utilizzato per ottenere le informazioni sui file di canale degli utenti in Teams e operare sui file | 3407e97c-3eed-4eca-add5-2549ed881269 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ChannelMember.ReadWrite.All | entrambi | L'ID applicazione tenant e la password dell'applicazione vengono raccolti per l'autorizzazione implicita OAuth 2.0 per sincronizzare le informazioni utente | L'ID tenant, l'ID applicazione tenant, la password dell'applicazione e le informazioni utente vengono archiviati nel database, che viene utilizzato per ottenere le informazioni sui file di canale degli utenti in Teams e operare sui file | [3407e97c-3eed-4eca-add5-2549ed881269](https://docs.microsoft.com/microsoft-365-app-certification/azure/3407e97c-3eed-4eca-add5-2549ed881269) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

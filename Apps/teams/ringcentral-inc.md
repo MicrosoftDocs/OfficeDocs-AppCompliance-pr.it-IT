@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per RingCentral, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2035f615146f8809d6113192d796d2760d87f50e
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: bb0787720195363368e3d822e45f173acee67870
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987800"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525400"
 ---
 # <a name="ringcentral"></a>RingCentral
 
@@ -56,11 +56,11 @@ Queste informazioni sono state fornite da RingCentral, Inc. Sul modo in cui ques
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegated |  Consente all'applicazione di inviare gli inviti alle riunioni tramite il calendario | Nessuno |  0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
->| offline_access | delegated |  Consente all'applicazione di ottenere e aggiornare il token oauth |  Token di accesso, token di aggiornamento per l'accesso all'API ms Graph |  0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
->| User.Read | delegated |  Consente all'app di leggere un&#8217;di base (e-mail, nome) per fare corrispondenze di contatto alla fine. E consente all'utente di accedere e collegare il proprio account O365 con l'account RingCentral |  Posta elettronica, nome, cognome | 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
->| User.Read.All | delegated | Consente all'applicazione di leggere il profilo completo di un utente con numeri di telefono per effettuare chiamate telefoniche con i nostri servizi. | Nessuno | 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated |  Consente all'applicazione di inviare gli inviti alle riunioni tramite il calendario | Nessuno | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| offline_access | delegated |  Consente all'applicazione di ottenere e aggiornare il token oauth |  Token di accesso, token di aggiornamento per l'accesso all'API ms Graph | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| User.Read | delegated |  Consente all'app di leggere un&#8217;di base (e-mail, nome) per fare corrispondenze di contatto alla fine. E consente all'utente di accedere e collegare il proprio account O365 con l'account RingCentral |  Posta elettronica, nome, cognome | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| User.Read.All | delegated | Consente all'applicazione di leggere il profilo completo di un utente con numeri di telefono per effettuare chiamate telefoniche con i nostri servizi. | Nessuno | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

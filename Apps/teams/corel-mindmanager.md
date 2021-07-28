@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per MindManager, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 69efbc45560d3271f03f8af8e9cfeb1aa7c89e5d
-ms.sourcegitcommit: 41be194e2be4de3cdb686daee7a8f6e4d1fc765a
+ms.openlocfilehash: 7a431ae7736e2efa22a2d75ff3a1cfc2e1e2234f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904542"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525740"
 ---
 # <a name="mindmanager"></a>MindManager
 
@@ -55,13 +55,13 @@ Queste informazioni sono state fornite da Corel su come questa app raccoglie e a
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ChannelMessage.Send | delegated | Informazioni sulle modifiche apportate all'interno di un file MindManager che possono quindi essere pubblicate come messaggio | metadati dei file, contenuto del file: per il browser di file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Chat.Send | delegated | Informazioni sulle modifiche apportate all'interno di un file MindManager che possono quindi essere pubblicate come messaggio | metadati dei file, contenuto del file: per il browser di file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Files.ReadWrite | delegated | elenco dei siti, presentazione delle cartelle, metadati dei file, contenuto dei file- per il browser dei file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | - Dati del profilo: per identificare l'utente e mostrare il proprio profilo - contenuto del file: durante la sessione di co-modifica (modifica collaborativa in tempo reale sui file con estensione mmap di MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Sites.ReadWrite.All | delegated | elenco dei siti, presentazione delle cartelle, metadati dei file, contenuto dei file- per il browser dei file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | contenuto dei file: durante la sessione di modifica in modalità co-modifica (modifica collaborativa in tempo reale sui file con estensione mmap di MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| User.Read | delegated | dati del profilo: per identificare l'utente e mostrare il proprio profilo | dati del profilo: per identificare l'utente e mostrare il proprio profilo | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| offline_access | delegated | In questo modo è possibile salvare un file nel percorso originale per conto dell'utente in un secondo momento, se necessario. | contenuto dei file: durante la sessione di modifica in modalità co-modifica (modifica collaborativa in tempo reale sui file con estensione mmap di MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ChannelMessage.Send | delegated | Informazioni sulle modifiche apportate all'interno di un file MindManager che possono quindi essere pubblicate come messaggio | metadati dei file, contenuto del file: per il browser di file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Chat.Send | delegated | Informazioni sulle modifiche apportate all'interno di un file MindManager che possono quindi essere pubblicate come messaggio | metadati dei file, contenuto del file: per il browser di file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Files.ReadWrite | delegated | elenco dei siti, presentazione delle cartelle, metadati dei file, contenuto dei file- per il browser dei file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | - Dati del profilo: per identificare l'utente e mostrare il proprio profilo - contenuto del file: durante la sessione di co-modifica (modifica collaborativa in tempo reale sui file con estensione mmap di MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Sites.ReadWrite.All | delegated | elenco dei siti, presentazione delle cartelle, metadati dei file, contenuto dei file- per il browser dei file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | contenuto dei file: durante la sessione di modifica in modalità co-modifica (modifica collaborativa in tempo reale sui file con estensione mmap di MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| User.Read | delegated | dati del profilo: per identificare l'utente e mostrare il proprio profilo | dati del profilo: per identificare l'utente e mostrare il proprio profilo | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| offline_access | delegated | In questo modo è possibile salvare un file nel percorso originale per conto dell'utente in un secondo momento, se necessario. | contenuto dei file: durante la sessione di modifica in modalità co-modifica (modifica collaborativa in tempo reale sui file con estensione mmap di MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -69,7 +69,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Amazon Web Services | Nome organizzazione, Dominio organizzazione | L'organizzazione necessita di una configurazione dell'account all'interno dell'infrastruttura applicativa per usare l'applicazione all'interno Teams |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot

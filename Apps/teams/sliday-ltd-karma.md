@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Karma, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ffdd34522178c481b84d0a5b102fab20f41ea3ed
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: a7603ed4676653b26d93027e5c3e3d47065e83db
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281038"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53524694"
 ---
 # <a name="karma"></a>Karma
 
@@ -56,8 +56,8 @@ Queste informazioni sono state fornite da Sliday LTD su come questa app raccogli
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | application | Nome, cognome e indirizzo di posta elettronica della società. Nome, cognome per la segnalazione dell'amministratore. Indirizzo di posta elettronica per la comunicazione in merito a Karma, scopi di fatturazione ed herarchy. | Nome visualizzato del consenso dell'amministratore. Accedere e leggere il profilo utente. Descrizione del consenso dell'amministratore. Consente agli utenti di accedere all'app e consente all'app di leggere il profilo degli utenti connessi. Consente inoltre all'app di leggere le informazioni aziendali di base degli utenti connessi. User consent display nameSign you in and read your profile. Descrizione del consenso dell'utente. Consente di accedere all'app con l'account dell'organizzazione e consentire all'app di leggere il profilo. Consente inoltre all'app di leggere le informazioni di base sull'azienda. | 9ff28b02-ccc5-4cac-9d17-4cf6987c371f |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | application | Nome, cognome e indirizzo di posta elettronica della società. Nome, cognome per la segnalazione dell'amministratore. Indirizzo di posta elettronica per la comunicazione in merito a Karma, scopi di fatturazione ed herarchy. | Nome visualizzato del consenso dell'amministratore. Accedere e leggere il profilo utente. Descrizione del consenso dell'amministratore. Consente agli utenti di accedere all'app e consente all'app di leggere il profilo degli utenti connessi. Consente inoltre all'app di leggere le informazioni aziendali di base degli utenti connessi. User consent display nameSign you in and read your profile. Descrizione del consenso dell'utente. Consente di accedere all'app con l'account dell'organizzazione e consentire all'app di leggere il profilo. Consente inoltre all'app di leggere le informazioni di base sull'azienda. | [9ff28b02-ccc5-4cac-9d17-4cf6987c371f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9ff28b02-ccc5-4cac-9d17-4cf6987c371f) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -71,7 +71,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Nome, cognome e indirizzo di posta elettronica della società Nome, cognome per l'amministratore che segnala l'indirizzo di posta elettronica per la comunicazione in merito a Karma. Il roster è necessario per scopi di fatturazione e per suddividere gli utenti in parti separate. | Nome, cognome e indirizzo di posta elettronica della società Nome, cognome per la segnalazione dell'amministratore. Indirizzo di posta elettronica per la comunicazione in merito a Karma, scopi di fatturazione e gerarchia degli utenti di Karma. |  |
 
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Medxnote MT, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ee4a304ac2844bff1fcec309fe0c96edba04208f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 5eff51e5045f299ad8fe9e8335b3c5dac41af919
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282980"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525490"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -55,9 +55,9 @@ Queste informazioni sono state fornite da Medxnote su come questa app raccoglie 
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read.All | application | stiamo memorizzando nella cache nome e posta elettronica, usato sul lato dell'ospedale per controllare i privilegi degli utenti | quando si inviano messaggi alcune volte Il nome e l'indirizzo di posta elettronica vengono aggiunti, vengono memorizzati nella cache i dati sul lato server, vengono utilizzati anche per il controllo dei privilegi facoltativi sul lato dell'ospedale | fc70bbbe-91c4-4d8f-a9c9-a022068d5752 |
->| openid | delegated | stiamo memorizzando nella cache l'ID sessione, l'ID utente, il token del portatore e la posta elettronica, usati per accedere agli utenti nel modulo Attività | usandolo per accedere agli utenti nel modulo Attività, stiamo archiviando ID sessione, id utente, e-mail, token al portatore | fc70bbbe-91c4-4d8f-a9c9-a022068d5752 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read.All | application | stiamo memorizzando nella cache nome e posta elettronica, usato sul lato dell'ospedale per controllare i privilegi degli utenti | quando si inviano messaggi alcune volte Il nome e l'indirizzo di posta elettronica vengono aggiunti, vengono memorizzati nella cache i dati sul lato server, vengono utilizzati anche per il controllo dei privilegi facoltativi sul lato dell'ospedale | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
+>| openid | delegated | stiamo memorizzando nella cache l'ID sessione, l'ID utente, il token del portatore e la posta elettronica, usati per accedere agli utenti nel modulo Attività | usandolo per accedere agli utenti nel modulo Attività, stiamo archiviando ID sessione, id utente, e-mail, token al portatore | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

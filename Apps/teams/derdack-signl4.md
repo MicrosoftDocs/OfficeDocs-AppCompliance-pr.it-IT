@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SIGNL4, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 425c0738b5628f959ba81e5682c22afe6774cfba
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0e42f0d40c157819076af93cbd076c04e9326345
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281328"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525730"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| L'indirizzo di posta elettronica e l'indirizzo di posta elettronica sono necessari per inviare notifiche di fatturazione al cliente quando usa l'app. Twilio, numeri di telefono, avviso del contenuto per l'invio di avvisi tramite SMS SMS |  | API di gestione di Azure, vengono raccolti gli avvisi di Monitoraggio di Azure, la raccolta avviene perché i sistemi inviano notifiche per tali avvisi |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot

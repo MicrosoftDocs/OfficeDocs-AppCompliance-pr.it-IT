@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SecretaryBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bff3e6ebffc94861dc4112375ac943124b4fe386
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8d7e2fce37cf43fe52cb050e85aa9e4fd5e00802
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551886"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525450"
 ---
 # <a name="secretarybot"></a>SecretaryBot
 
@@ -56,15 +56,15 @@ Queste informazioni sono state fornite da MySecretary su come questa app raccogl
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read.Shared | delegated |  | Recuperare le informazioni sul tempo libero dell'utente e dei colleghi. |  |
->| Calendars.ReadWrite | delegated |  | Inviare una convocazione di riunione anziché un utente. |  |
->| MailboxSettings.Read | delegated | Lingua dello Store per la visualizzazione della lingua corretta. Risparmiare il fuso orario per chiamare correttamente l'API Graph calendario MS | Recuperare la lingua e l'impostazione del fuso orario dell'utente. |  |
->| People.Read | delegated |  | Cerca di trovare colleghi che hanno relazioni forti con l'utente. |  |
->| User.Read | delegated | Nome utente dello Store, città, paese e langauge per l'analisi degli utenti. Archiviare la posta elettronica per contattare il cliente. Non abbiamo mai usato l'indirizzo di posta elettronica, ma potrebbe essere usato per il supporto. | Cerca il paese e la lingua preferita dell'utente. Viene utilizzato per il backup per MailboxSettings.Read. |  |
->| e-mail | delegated | Vedere sopra. | Per l'archiviazione della posta elettronica. |  |
->| openid | delegated |  | Per l'autenticazione OpenID. |  |
->| profilo | delegated | Salvare L'OID per identificare l'ID univoco dell'utente nel sistema di identità MS. | Recupero del nome utente e dell'OID. Prova a usare OID per la connessione Outlook addin in futuro. |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read.Shared | delegated |  | Recuperare le informazioni sul tempo libero dell'utente e dei colleghi. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Calendars.ReadWrite | delegated |  | Inviare una convocazione di riunione anziché un utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| MailboxSettings.Read | delegated | Lingua dello Store per la visualizzazione della lingua corretta. Risparmiare il fuso orario per chiamare correttamente l'API Graph calendario MS | Recuperare la lingua e l'impostazione del fuso orario dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| People.Read | delegated |  | Cerca di trovare colleghi che hanno relazioni forti con l'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegated | Nome utente dello Store, città, paese e langauge per l'analisi degli utenti. Archiviare la posta elettronica per contattare il cliente. Non abbiamo mai usato l'indirizzo di posta elettronica, ma potrebbe essere usato per il supporto. | Cerca il paese e la lingua preferita dell'utente. Viene utilizzato per il backup per MailboxSettings.Read. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| e-mail | delegated | Vedere sopra. | Per l'archiviazione della posta elettronica. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| openid | delegated |  | Per l'autenticazione OpenID. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| profilo | delegated | Salvare L'OID per identificare l'ID univoco dell'utente nel sistema di identità MS. | Recupero del nome utente e dell'OID. Prova a usare OID per la connessione Outlook addin in futuro. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -78,7 +78,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Utilizzare questa procedura per pianificare una riunione del team | No |  |
 
 

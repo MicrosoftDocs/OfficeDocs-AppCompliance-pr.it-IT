@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per AtBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3f56d0b3eb19f5bed8f7092507c8605af936b911
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 94cc732dc5f6cf6416fd1b386271b3694d6f3698
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552137"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525620"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -56,15 +56,15 @@ Queste informazioni sono state fornite da H3 Solutions, Inc. Sul modo in cui que
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | application | Nome gruppo AAD, GUID gruppo AAD, UPN | Enumerare i gruppi di AAD per consentire la limitazione per motivi di sicurezza delle competenze dei bot. Enumerare gli utenti per poter applicare le licenze. Enumerare gli utenti da aggiungere come Amministratori/Collaboratori | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| Directory.Read.All | delegated | Nome gruppo AAD, GUID gruppo AAD, UPN | Enumerare i gruppi di AAD per consentire la limitazione per motivi di sicurezza delle competenze dei bot. Enumerare gli utenti per poter applicare le licenze. Enumerare gli utenti da aggiungere come Amministratori/Collaboratori | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| People.Read | delegated | No | Enumerare le persone in un'azione Ottieni persona da Flow.  Consente al bot di recuperare le persone dall'endpoint /People in Microsoft Graph. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| User.Read | delegated | ID tenant, UPN | Ci consente di accedere all'ID tenant&#8217;utente e all'UPN per consentire di collegare flussi/app per la logica creati agli utenti che li hanno creati. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| e-mail | delegated | No | Ci consente di accedere all'indirizzo di posta elettronica dell'utente. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| offline_access | delegated | Token di accesso/aggiornamento. | Ci consente di usare un token di aggiornamento per mantenere gli utenti connessi. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| openid | delegated | No | Consente agli utenti di accedere. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| profilo | delegated | UPN | Accesso all'UPN dell'utente. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | application | Nome gruppo AAD, GUID gruppo AAD, UPN | Enumerare i gruppi di AAD per consentire la limitazione per motivi di sicurezza delle competenze dei bot. Enumerare gli utenti per poter applicare le licenze. Enumerare gli utenti da aggiungere come Amministratori/Collaboratori | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | delegated | Nome gruppo AAD, GUID gruppo AAD, UPN | Enumerare i gruppi di AAD per consentire la limitazione per motivi di sicurezza delle competenze dei bot. Enumerare gli utenti per poter applicare le licenze. Enumerare gli utenti da aggiungere come Amministratori/Collaboratori | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| People.Read | delegated | No | Enumerare le persone in un'azione Ottieni persona da Flow.  Consente al bot di recuperare le persone dall'endpoint /People in Microsoft Graph. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| User.Read | delegated | ID tenant, UPN | Ci consente di accedere all'ID tenant&#8217;utente e all'UPN per consentire di collegare flussi/app per la logica creati agli utenti che li hanno creati. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| e-mail | delegated | No | Ci consente di accedere all'indirizzo di posta elettronica dell'utente. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| offline_access | delegated | Token di accesso/aggiornamento. | Ci consente di usare un token di aggiornamento per mantenere gli utenti connessi. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| openid | delegated | No | Consente agli utenti di accedere. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| profilo | delegated | UPN | Accesso all'UPN dell'utente. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -78,7 +78,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Creazione di menzioni nei messaggi di chat generati dal bot | No |  |
 
 
@@ -86,7 +86,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->ID tenant, UPN Usiamo Application Insights e i log durano 90 giorni prima di essere archiviati automaticamente. (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
+>ID tenant, UPN Usiamo application Insights e i log avranno una durata di 90 giorni prima di essere archiviati automaticamente. (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Lumio by SMART, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 50cde4ecae9abf39b199b381bcf8e5da33b345e6
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7f97e53eb5b4c27aa8bf2be4c97760f8a536cd06
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283303"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53520989"
 ---
 # <a name="lumio-by-smart"></a>Lumio by SMART
 
@@ -56,9 +56,9 @@ Queste informazioni sono state fornite da SMART Technologies ULC su come questa 
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | delegated | I dati vengono utilizzati per verificare le autorizzazioni del gruppo non vengono raccolti dati.  | Nessun dato di directory archiviato nel database | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
->| Group.Read.All | delegated | il gruppo di cui sono appart, viene usato per verificare che siano parte del gruppo di studenti o insegnanti per determinare la funzionalità. Nessun dato raccolto.  | Solo i dati archiviati sono l'ID univoco dei client | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | delegated | I dati vengono utilizzati per verificare le autorizzazioni del gruppo non vengono raccolti dati.  | Nessun dato di directory archiviato nel database | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
+>| Group.Read.All | delegated | il gruppo di cui sono appart, viene usato per verificare che siano parte del gruppo di studenti o insegnanti per determinare la funzionalità. Nessun dato raccolto.  | Solo i dati archiviati sono l'ID univoco dei client | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

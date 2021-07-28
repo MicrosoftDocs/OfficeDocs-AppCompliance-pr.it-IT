@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TeamGether, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1c992ffe3240ed8775832240ab9107debe12b9f2
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 6d52f732a372663b3bb089ee57d43fb5f46299ca
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281909"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525690"
 ---
 # <a name="teamgether"></a>TeamGether
 
@@ -69,7 +69,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Usiamo il nome dell'utente per personalizzare i messaggi e l'indirizzo di posta elettronica dell'utente viene archiviato nel database in modo da poterli inviare e-mail se necessario. | Nome, cognome e indirizzo di posta elettronica | Usiamo il nome dell'utente per personalizzare i messaggi e l'indirizzo di posta elettronica dell'utente viene archiviato nel database in modo da poterli inviare e-mail se necessario. |
 
 
