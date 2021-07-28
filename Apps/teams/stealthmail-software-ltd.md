@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per StealthMail, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4855cb478e8ba2e53b793a1d61f477de88b74058
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 322cdc906ab0cd2ae8980d1412bb4dd9c897a5f6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552737"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528222"
 ---
 # <a name="stealthmail"></a>StealthMail
 
@@ -56,14 +56,14 @@ Queste informazioni sono state fornite da Stealthmail Software Ltd su come quest
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ChannelMessage.Read.All | delegated | L'applicazione invia il messaggio al canale con il riferimento alla posta elettronica protetta creata | nothing | 1ed0a549-c730-44c7-a984-a8c658fe9807 |
->| ChannelMessage.Send | delegated | L'applicazione invia il messaggio al canale con il riferimento alla posta elettronica protetta creata | nothing | 1ed0a549-c730-44c7-a984-a8c658fe9807 |
->| Chat.ReadWrite | delegated | L'applicazione invia il messaggio alla chat con il riferimento alla posta elettronica protetta creata | nothing | 1ed0a549-c730-44c7-a984-a8c658fe9807 |
->| GroupMember.Read.All | delegated | L'applicazione ottiene i membri del canale per rendere sicura la posta elettronica per loro | nothing | 1ed0a549-c730-44c7-a984-a8c658fe9807 |
->| User.Read.All | delegated | L'applicazione ottiene i membri della chat per rendere sicura la posta elettronica per loro | nothing | 1ed0a549-c730-44c7-a984-a8c658fe9807 |
->| User.ReadBasic.All | delegated | L'applicazione ottiene i membri della chat per rendere sicura la posta elettronica per loro | nothing | 1ed0a549-c730-44c7-a984-a8c658fe9807 |
->| e-mail | delegated | Autentica utente | nothing store in database | 1ed0a549-c730-44c7-a984-a8c658fe9807 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ChannelMessage.Read.All | delegated | L'applicazione invia il messaggio al canale con il riferimento alla posta elettronica protetta creata | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
+>| ChannelMessage.Send | delegated | L'applicazione invia il messaggio al canale con il riferimento alla posta elettronica protetta creata | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
+>| Chat.ReadWrite | delegated | L'applicazione invia il messaggio alla chat con il riferimento alla posta elettronica protetta creata | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
+>| GroupMember.Read.All | delegated | L'applicazione ottiene i membri del canale per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
+>| User.Read.All | delegated | L'applicazione ottiene i membri della chat per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
+>| User.ReadBasic.All | delegated | L'applicazione ottiene i membri della chat per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
+>| e-mail | delegated | Autentica utente | nothing store in database | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

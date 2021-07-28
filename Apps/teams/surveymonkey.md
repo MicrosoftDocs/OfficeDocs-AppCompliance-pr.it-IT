@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SurveyMonkey, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: daf5de5437a08ca8b748157a5e136bbe7b114122
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f4898e476e0848ba728d07d0d851fc09f239aecf
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280818"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528202"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -56,8 +56,8 @@ Queste informazioni sono state fornite da SurveyMonkey su come questa app raccog
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | delegated | No | Per fornire un elenco di gruppi/canali con cui condividere un sondaggio |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | delegated | No | Per fornire un elenco di gruppi/canali con cui condividere un sondaggio | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -65,7 +65,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Solo l'ID utente MS viene archiviato in SurveyMonkey per associare risposte e sondaggi all'utente del team. |  | Per i team usiamo il Microsoft Teams SDK javascript nel modulo delle attività crea, prendi sondaggi e risultati del sondaggio in modalità modale. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
@@ -73,7 +73,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Esercitiamo una chiamata a v3/conversations/{id}/pagedmembers per verificare che l'app sia stata aggiunta a un team e ottenere il numero di membri. È per il monitoraggio interno dell'utilizzo, vediamo solo le dimensioni dell'elenco delle chat, altre informazioni vengono ignorate. | Sì, vengono archiviate le dimensioni della chat (un singolo numero intero) |  |
 
 

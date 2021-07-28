@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Bright Poll, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4dc8177da248fffd18ab6a4667cb6f94ea8db07c
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: af6e29845108dee6504e87864c80b5ef5a11aa16
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852084"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525830"
 ---
-# <a name="bright-poll"></a>Sondaggio luminoso
+# <a name="bright-poll"></a>Bright Poll
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Informazioni fornite da App chat, LLC a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Sondaggio luminoso |
+| Nome app | Bright Poll |
 | ID | WA200002562 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | App di chat, LLC |
+| Nome società partner | Chat Apps, LLC |
 | URL del sito Web del partner | [https://brightpoll.app](https://brightpoll.app) |
 | URL dell'informativa sulla privacy | [https://www.brightpoll.app/privacy](https://www.brightpoll.app/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://brightpoll.app/terms/](https://brightpoll.app/terms/) |
@@ -68,7 +68,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| L'archiviazione dei nomi degli utenti, degli ID univoci e degli indirizzi di posta elettronica è necessaria per fornire e supportare la funzionalità di polling. | ID, nomi e indirizzi di posta elettronica univoci per team e utenti. | Id, nomi e indirizzi di posta elettronica univoci sono necessari per le funzionalità dell'app e per supportare l'applicazione. |
 
 

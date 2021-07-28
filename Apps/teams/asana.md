@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Asana, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0f2e4ff08367c5b8694ca9b6f2cfce1a530a64c9
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 14ec3eee9b8ae673565ef91a017019d23d524619
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282049"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525880"
 ---
 # <a name="asana"></a>Asana
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Il componente aggiuntivo trasferisce le informazioni di posta elettronica di base (mittente, destinatario, oggetto, corpo) e gli allegati ad Asana quando richiesto dall'utente. |  | Posta elettronica : legge la posta elettronica attualmente aperta quando viene visualizzata in un riquadro attività. - Legge gli allegati di posta elettronica attualmente aperti da caricare nelle attività di Asana. - In questo modo gli utenti possono eseguire rapidamente attività in Asana con le informazioni dei messaggi di posta elettronica. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot

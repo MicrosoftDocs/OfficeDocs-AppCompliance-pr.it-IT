@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Trivia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6facd1d8622d78a616329030cef6ffa83bf3bec3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: e22205d2584abd257a6fdff585f129fb915ff6b2
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280898"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528362"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -56,12 +56,12 @@ Queste informazioni sono state fornite da Springworks HR Tech su come questa app
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.Read.All | delegated | No | Per ottenere l'elenco Teams di cui fa parte l'utente | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| Team.ReadBasic.All | delegated | Sì, archiviando l'elenco dei team in cui è stato aggiunto il bot | Per raccogliere informazioni di base su tutti i team presenti in un'area di lavoro | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| User.Read.All | delegated | Sì, per archiviare un aadObjectId univoco di un utente. Anche vari dettagli dell'utente come nome utente, posta elettronica e così via e visualizzarlo nel dashboard di Trivia | Per ottenere i dettagli di tutti gli utenti presenti in un'area di lavoro | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| openid | delegated | Sì, per archiviare gli utenti che a accesso all'app. |  Per consentire all'utente di usare l'app con il proprio account e l'app per usare i dati dell'utente | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| profilo | delegated | Sì, per archiviare gli ID utente e i nomi degli host di quiz e altre funzionalità e identificarli in modo univoco | Per leggere le informazioni di base del profilo dell'utente come nome utente, posta elettronica | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.Read.All | delegated | No | Per ottenere l'elenco Teams di cui fa parte l'utente | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| Team.ReadBasic.All | delegated | Sì, archiviando l'elenco dei team in cui è stato aggiunto il bot | Per raccogliere informazioni di base su tutti i team presenti in un'area di lavoro | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| User.Read.All | delegated | Sì, per archiviare un aadObjectId univoco di un utente. Anche vari dettagli dell'utente come nome utente, posta elettronica e così via e visualizzarlo nel dashboard di Trivia | Per ottenere i dettagli di tutti gli utenti presenti in un'area di lavoro | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| openid | delegated | Sì, per archiviare gli utenti che a accesso all'app. |  Per consentire all'utente di usare l'app con il proprio account e l'app per usare i dati dell'utente | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| profilo | delegated | Sì, per archiviare gli ID utente e i nomi degli host di quiz e altre funzionalità e identificarli in modo univoco | Per leggere le informazioni di base del profilo dell'utente come nome utente, posta elettronica | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -69,7 +69,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, Mailchimp, Stripe.  | Nome cliente, e-mail, IP, informazioni di pagamento | Usiamo queste terze parti per offrire ai clienti la migliore esperienza dei clienti |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
@@ -77,7 +77,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Questi dati vengono utilizzati per visualizzare e archiviare l'elenco dei partecipanti a un quiz e altre funzionalità di questo tipo | Name, Email | Sì, l'archiviazione dei dati dell'host e dei partecipanti a quiz e altre funzionalità per l'analisi e la comunicazione con l'host in caso di errori |
 
 

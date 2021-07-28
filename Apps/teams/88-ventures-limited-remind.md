@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Remind, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 56999a3dc9723eab8b56fcdbc434283a7c864534
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f39e0c35b88e3212743e30c7ab5ac40c74c708c3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282099"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525930"
 ---
 # <a name="remind"></a>Remind
 
@@ -55,8 +55,8 @@ Queste informazioni sono state fornite da 88 Ventures Limited sul modo in cui qu
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | delegated | nessuna informazione archiviata nel database | consente all'amministratore di esplorare la directory degli utenti dell'organizzazione per gli utenti che hanno impostato promemoria pubblici | 88546d4f-9973-4716-98e4-cd181c04bc2d |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | delegated | nessuna informazione archiviata nel database | consente all'amministratore di esplorare la directory degli utenti dell'organizzazione per gli utenti che hanno impostato promemoria pubblici | [88546d4f-9973-4716-98e4-cd181c04bc2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/88546d4f-9973-4716-98e4-cd181c04bc2d) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -70,7 +70,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| (1) Quando un utente imposta un promemoria su un messaggio, il bot tenta di ottenere il nome della persona che ha originariamente inviato il messaggio per visualizzare le informazioni nell'elenco dei promemoria dell'utente (2) Quando un utente imposta un promemoria per un altro canale o membro della chat, il bot tenta di ottenere l'identità (utente o bot) e il nome dell'utente menzionato per visualizzarlo nell'elenco dei promemoria dell'utente | (1) Quando un utente imposta un promemoria su un messaggio, il bot tenta di ottenere il nome della persona che ha originariamente inviato il messaggio per visualizzare le informazioni nell'elenco dei promemoria dell'utente (2) Quando un utente imposta un promemoria per un altro canale o membro della chat, il bot tenta di ottenere l'identità (utente o bot) e il nome dell'utente menzionato per visualizzarlo nell'elenco dei promemoria dell'utente |  |
 
 

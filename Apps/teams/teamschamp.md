@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per TeamsChamp di TeamsChamp
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/10/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per TeamsChamp, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 44d3d36d48e6af741cb25154e5a954b8366af9a3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 8ba17c02a5478213d3666651efdbb5e4ed342147
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283440"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527572"
 ---
 # <a name="teamschamp"></a>TeamsChamp
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 10, 2021</p>
+<p>Last updated by the developer on: July 1, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/4fea4594-3f83-4e33-9929-9af6b78a7340" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001487" target="_blank">Visualizzazione in AppSource</a>
@@ -56,10 +56,10 @@ Queste informazioni sono state fornite da TeamsChamp su come questa app raccogli
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | Accedere e leggere il profilo degli utenti | Nessun dato archiviato nel bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
->| User.ReadBasic.All | delegated | Leggere il profilo di base di tutti gli utenti | Nessun dato archiviato nel bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
->| profilo | delegated | Visualizzare il profilo di base degli utenti | Nessun dato archiviato nel bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | Accedere e leggere il profilo degli utenti | Nessun dato archiviato nel bbdd | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
+>| User.ReadBasic.All | delegated | Leggere il profilo di base di tutti gli utenti | Nessun dato archiviato nel bbdd | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
+>| profilo | delegated | Visualizzare il profilo di base degli utenti | Nessun dato archiviato nel bbdd | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -67,7 +67,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Stripe payments | Nome del comnpany, CIF/PARTITA IVA, Indirizzo fiscale | Pagamenti |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot

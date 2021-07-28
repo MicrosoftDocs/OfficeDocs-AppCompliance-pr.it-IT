@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Soapbox, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6e2b43df38aac6307c36c4a2cc8d00fe1c3fb629
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 89151d495479f3390aa179f810325ab56f77337a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552777"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528282"
 ---
 # <a name="soapbox"></a>Soapbox
 
@@ -56,10 +56,10 @@ Queste informazioni sono state fornite da Soapbox su come questa app raccoglie e
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegated | Token di sincronizzazione. | L'accesso al calendario è necessario per sincronizzare le riunioni SoapBox con gli eventi del calendario |  |
->| User.Read | delegated | Nome, e-mail, ID utente Microsoft. | Il nome e la posta elettronica vengono utilizzati per creare utenti SoapBox. |  |
->| offline_access | delegated |  | L'accesso offline ai calendari è necessario per rendere le notifiche SoapBox rilevanti per gli eventi del calendario sincronizzati. |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated | Token di sincronizzazione. | L'accesso al calendario è necessario per sincronizzare le riunioni SoapBox con gli eventi del calendario | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegated | Nome, e-mail, ID utente Microsoft. | Il nome e la posta elettronica vengono utilizzati per creare utenti SoapBox. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | delegated |  | L'accesso offline ai calendari è necessario per rendere le notifiche SoapBox rilevanti per gli eventi del calendario sincronizzati. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -73,7 +73,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| L'app accede a Team Roster e Chat Roster che usiamo per creare canali del team in SoapBox con i membri del team/chat | Nome, posta elettronica, ID utente Microsoft degli utenti per migliorare l'aspetto dell'app per gli utenti di Microsoft Teams e garantire che ogni utente possa impegnarsi completamente nel software per le riunioni. |  |
 
 

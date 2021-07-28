@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CloudExtend Analytics for NetSuite, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2393250c620e3e543eae1d25e1cf0bcf0dd2f7cc
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: 489f4f04afc52476b34a98ecd808c035ff47a676
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987681"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526082"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics for NetSuite
 
@@ -54,9 +54,9 @@ Queste informazioni sono state fornite da Celigo CloudExtend su come questa app 
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | entrambi | Leggere la raccolta di siti per cui l'utente ha accesso per poter ottenere informazioni sulla cartella di lavoro condivisa tramite i siti | store siteid per accedere alla cartella di lavoro offline. | 7040f194-bf08-400e-acb1-69df7939416a |
->| Files.ReadWrite.All | entrambi | Leggere il contenuto della cartella di lavoro come tabelle e fogli ed essere in grado di scrivere contenuto in tali tabelle | dettagli della cartella di lavoro come URL Web, ID cartella di lavoro e percorso della cartella di lavoro per accedervi offline | 7040f194-bf08-400e-acb1-69df7939416a |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | entrambi | Leggere la raccolta di siti per cui l'utente ha accesso per poter ottenere informazioni sulla cartella di lavoro condivisa tramite i siti | store siteid per accedere alla cartella di lavoro offline. | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
+>| Files.ReadWrite.All | entrambi | Leggere il contenuto della cartella di lavoro come tabelle e fogli ed essere in grado di scrivere contenuto in tali tabelle | dettagli della cartella di lavoro come URL Web, ID cartella di lavoro e percorso della cartella di lavoro per accedervi offline | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -64,7 +64,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Chargebee, NetSuite, Salesforce, Intercom, LogRocket, Amazon AWS | Org name, NetSuite Account number, Domain of Org email addresses, Billing contact information | Provisioning delle licenze, convalida e fatturazione Supporto clienti, risoluzione dei problemi e gestione degli account |
 
 

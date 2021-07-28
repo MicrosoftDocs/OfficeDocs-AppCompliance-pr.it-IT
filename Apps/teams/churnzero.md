@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ChurnZero, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a0e92bdd9440e20ebf30cece47ee17e675b35656
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 18ebf804bfc99fe0d31043aee77fa856f42dda7a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852100"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525800"
 ---
 # <a name="churnzero"></a>ChurnZero
 
@@ -55,8 +55,8 @@ Queste informazioni sono state fornite da ChurnZero su come questa app raccoglie
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | ID oggetto Azure dell'utente delegante da correlare a un utente ChurnZero, per identificare e autorizzare tale utente durante una sessione bot futura. | ID oggetto Azure dell'utente delegante da correlare a un utente ChurnZero, per identificare e autorizzare tale utente durante una sessione bot futura. | c2e66b59-725d-4c56-8a0e-ee2587031d9f |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | ID oggetto Azure dell'utente delegante da correlare a un utente ChurnZero, per identificare e autorizzare tale utente durante una sessione bot futura. | ID oggetto Azure dell'utente delegante da correlare a un utente ChurnZero, per identificare e autorizzare tale utente durante una sessione bot futura. | [c2e66b59-725d-4c56-8a0e-ee2587031d9f](https://docs.microsoft.com/microsoft-365-app-certification/azure/c2e66b59-725d-4c56-8a0e-ee2587031d9f) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -70,7 +70,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Consente al cliente di identificare i contatti in base al nome e di inviarli tramite posta elettronica nell'ambito delle normali operazioni aziendali. ChurnZero è un processore di questi dati, non un agente di raccolta. | Nome, Cognome, Indirizzo e-mail dei contatti forniti dal nostro client. | Consente al cliente di identificare i contatti in base al nome e di inviarli tramite posta elettronica nell'ambito delle normali operazioni aziendali. ChurnZero è un processore di questi dati, non un agente di raccolta. |
 
 

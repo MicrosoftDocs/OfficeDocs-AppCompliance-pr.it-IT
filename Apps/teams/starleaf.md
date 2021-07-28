@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per StarLeaf, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9dc0761fa00e94d97f3d29b4ac85e1d607498288
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8f9878d4de6e09c283c6d13ee7351de9fb5f0eb8
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553837"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528232"
 ---
 # <a name="starleaf"></a>StarLeaf
 
@@ -55,9 +55,9 @@ Queste informazioni sono state fornite da StarLeaf su come questa app raccoglie 
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | application | archiviamo l'iCalUId delle riunioni, l'ora/data della riunione, gli indirizzi di posta elettronica dei partecipanti e una proprietà estesa a valore singolo che leggiamo e scriviamo sulla riunione utilizzando l'interfaccia delle proprietà personalizzate di Office.js. L'iCalUId viene utilizzato per correlare la riunione in un calendario&#8217;outlook dell'utente con la riunione video nel servizio. L'ora/data e i partecipanti vengono utilizzati per fornire una riunione video al momento giusto alle persone giuste nel nostro servizio. SVEP viene usato con il componente aggiuntivo di O365 per fornire un'interfaccia per gli utenti per impostare i dettagli sulla riunione video nel servizio, ad esempio la registrazione. | usato per sottoscrivere le notifiche webhook per tenere traccia delle modifiche degli utenti agli eventi nei propri calendari e aggiornare il servizio per mantenerlo coerente. Viene usato anche per creare eventi nel calendario quando un utente interagisce con l'app Teams e pianifica una riunione nel servizio. | 6e86b349-768f-4953-ac2e-fb03f92db4be |
->| User.Read | application | archiviamo il token di aggiornamento oauth per poter eseguire l'accesso. Archiviamo l'ID del profilo degli utenti per essere in grado di confrontare i futuri tentativi OAuth da parte di tale utente e garantire che non&#8217;archiviare i dettagli due volte.  | consentire agli utenti di accedere all'app e consente all'app di ottenere l&#8217;'indirizzo di posta elettronica dell'utente per correlare l'accesso con un account nel servizio.  | 6e86b349-768f-4953-ac2e-fb03f92db4be |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | application | archiviamo l'iCalUId delle riunioni, l'ora/data della riunione, gli indirizzi di posta elettronica dei partecipanti e una proprietà estesa a valore singolo che leggiamo e scriviamo sulla riunione utilizzando l'interfaccia delle proprietà personalizzate di Office.js. L'iCalUId viene utilizzato per correlare la riunione in un calendario&#8217;outlook dell'utente con la riunione video nel servizio. L'ora/data e i partecipanti vengono utilizzati per fornire una riunione video al momento giusto alle persone giuste nel nostro servizio. SVEP viene usato con il componente aggiuntivo di O365 per fornire un'interfaccia per gli utenti per impostare i dettagli sulla riunione video nel servizio, ad esempio la registrazione. | usato per sottoscrivere le notifiche webhook per tenere traccia delle modifiche degli utenti agli eventi nei propri calendari e aggiornare il servizio per mantenerlo coerente. Viene usato anche per creare eventi nel calendario quando un utente interagisce con l'app Teams e pianifica una riunione nel servizio. | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
+>| User.Read | application | archiviamo il token di aggiornamento oauth per poter eseguire l'accesso. Archiviamo l'ID del profilo degli utenti per essere in grado di confrontare i futuri tentativi OAuth da parte di tale utente e garantire che non&#8217;archiviare i dettagli due volte.  | consentire agli utenti di accedere all'app e consente all'app di ottenere l&#8217;'indirizzo di posta elettronica dell'utente per correlare l'accesso con un account nel servizio.  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -65,7 +65,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| In caso di problemi di supporto tecnico, i dati organizzativi possono essere trasferiti a SalesForce per la gestione dei casi. Se l'utente utilizza la funzionalità di accesso remoto PSTN, la chiamata scorrerà attraverso Twilio, Plivo o Voxbone |  | N/D |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
@@ -73,7 +73,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Il bot accede all'elenco del team per prenotare una riunione per conto dell'utente/host che prenota la riunione tramite il bot. Questo consente a StarLeaf di offrire un'esperienza di partecipazione senza problemi con un solo pulsante per partecipare alle riunioni. | Nome, cognome, indirizzo di posta elettronica. In questo modo il bot StarLeaf può prenotare una riunione per conto dell'utente/host che ha interagito con il bot e invitare gli altri membri del team alla riunione. |  |
 
 

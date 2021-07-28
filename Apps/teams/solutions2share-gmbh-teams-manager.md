@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Teams Manager, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fbca7409c87bed006a18b31d7de2fa43afd9b95f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0f135c14a96849a21ebf424b152a257df8e5e9e9
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283190"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528262"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
@@ -55,12 +55,12 @@ Queste informazioni sono state fornite da Solutions2Share GmbH su come questa ap
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | entrambi | Stiamo archiviando TenantID e TeamId per mappare i modelli.  | Consenti l'inserimento Teams e crea Teams. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| Notes.ReadWrite.All | application | Nessuno | Consente all'app di aggiungere blocchi appunti a un team approvato. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.Read | delegated | Nessuno | Consente all'utente di accedere e consente all'app di accedere all'UPN per abilitare l'accesso invisibile all'utente. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.Read.All | entrambi | L'ID dell'utente immesso nella sezione responsabile approvazione/amministratore viene salvato. | Elenca tutti gli utenti per mostrarli nella selezione utenti all'interno dell'app. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.ReadBasic.All | delegated | Nessuno | Elenca tutti gli utenti per mostrarli nella selezione utenti all'interno dell'app. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | entrambi | Stiamo archiviando TenantID e TeamId per mappare i modelli.  | Consenti l'inserimento Teams e crea Teams. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| Notes.ReadWrite.All | application | Nessuno | Consente all'app di aggiungere blocchi appunti a un team approvato. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.Read | delegated | Nessuno | Consente all'utente di accedere e consente all'app di accedere all'UPN per abilitare l'accesso invisibile all'utente. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.Read.All | entrambi | L'ID dell'utente immesso nella sezione responsabile approvazione/amministratore viene salvato. | Elenca tutti gli utenti per mostrarli nella selezione utenti all'interno dell'app. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.ReadBasic.All | delegated | Nessuno | Elenca tutti gli utenti per mostrarli nella selezione utenti all'interno dell'app. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

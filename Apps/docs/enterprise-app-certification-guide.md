@@ -6,23 +6,24 @@ description: Microsoft 365 Dettagli certificazione
 keywords: app attestation microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 4322695ea694e30d42925e8316c848b867394f3b
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: 64e4d36f58c36447c3af48cfde22de6ecc722998
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315076"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526092"
 ---
 # <a name="what-is-microsoft-365-certification"></a>Che cos'è Microsoft 365 certificazioni?
 
 Microsoft 365 La certificazione offre garanzie che i dati e la privacy siano adeguatamente protetti e protetti quando usi un'app di terze parti. La certificazione conferma che un'app è conforme ai criteri descritti nella Guida all'invio Microsoft 365 [certificazione](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide). Le applicazioni che superano la convalida verranno designate Microsoft 365 Certified.
 La certificazione dell'app viene ottenuta attraverso la revisione e l'approvazione di un analista qualificato per una valutazione completa che si centra sui framework, i processi e le procedure di sicurezza e conformità di un'app. Sebbene la partecipazione sia facoltativa, la ricezione di una certificazione è un modo costante per segnalare che l'applicazione e le procedure operative sono state sottoposte a un'intensa revisione della sicurezza.
 
-Microsoft 365 La certificazione si applica alle WebApp e a tutte le app che si integrano con i prodotti Microsoft seguenti:
+Microsoft 365 La certificazione si applica alle app Web (app SaaS pubblicate tramite marketplace commerciale nel Centro per i partner). Le app SaaS sono attualmente in un'anteprima privata, se sei interessato a partecipare compila questo [modulo.](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu) La certificazione include anche tutte le app che si integrano con i seguenti prodotti Microsoft:
+
 - Teams
 - Word
 - Excel
-- PowerPoint
+- PowerPoint 
 - Outlook
 - SharePoint
 - Project

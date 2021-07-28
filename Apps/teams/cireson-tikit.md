@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Tikit, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3c292fa0c8e0ae526c7258f7adc508fcccaeb9d8
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: c17273ad8e2cdc9bd2f60ce5a3157f1f8473bb88
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789968"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525790"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -56,24 +56,24 @@ Queste informazioni sono state fornite da Cireson su come questa app raccoglie e
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Device.Read | application | Informazioni del grafico utente usate per l'accesso Single #A0 tramite la comunicazione bot di Teams  | Vengono archiviati i ruoli utente, il nome della famiglia, il nome, l'indirizzo di posta elettronica, l'ID AAD Teams ID utente. Questa informazione viene utilizzata per l'autenticazione delle applicazioni, la sicurezza, il controllo degli accessi in base al ruolo, l'integrazione dei team, le notifiche di Teams e il mapping delle relazioni utente   | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| Directory.AccessAsUser.All | delegated | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nome gruppo &amp; Nome ruolo, è necessario fornire un controllo di accesso mappato sicuro. | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| Directory.Read.All | delegated | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nome gruppo &amp; Nome ruolo, è necessario fornire un controllo di accesso mappato sicuro. | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| Group.Read.All | entrambi | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| User.Read | delegated | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| User.Read.All | application | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| User.ReadBasic.All | delegated | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| e-mail | delegated | Posta elettronica utente utilizzata per l'accesso e identificazione associata di entità correlate. &quot;Utente assegnato&quot; | Posta elettronica utente utilizzata per l'accesso e identificazione associata di entità correlate. &quot;Utente assegnato&quot; | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| openid | delegated | utilizzato per l'autenticazione tramite MSAL per requisiti  | utilizzato per l'autenticazione tramite MSAL per requisiti  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| profilo | delegated | utilizzato per l'autenticazione tramite MSAL per requisiti  | utilizzato per l'autenticazione tramite MSAL per requisiti  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Device.Read | application | Informazioni del grafico utente usate per l'accesso Single #A0 tramite la comunicazione bot di Teams  | Vengono archiviati i ruoli utente, il nome della famiglia, il nome, l'indirizzo di posta elettronica, l'ID AAD Teams ID utente. Questa informazione viene utilizzata per l'autenticazione delle applicazioni, la sicurezza, il controllo degli accessi in base al ruolo, l'integrazione dei team, le notifiche di Teams e il mapping delle relazioni utente   | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Directory.AccessAsUser.All | delegated | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nome gruppo &amp; Nome ruolo, è necessario fornire un controllo di accesso mappato sicuro. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Directory.Read.All | delegated | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nome gruppo &amp; Nome ruolo, è necessario fornire un controllo di accesso mappato sicuro. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Group.Read.All | entrambi | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read | delegated | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read.All | application | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.ReadBasic.All | delegated | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| e-mail | delegated | Posta elettronica utente utilizzata per l'accesso e identificazione associata di entità correlate. &quot;Utente assegnato&quot; | Posta elettronica utente utilizzata per l'accesso e identificazione associata di entità correlate. &quot;Utente assegnato&quot; | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| openid | delegated | utilizzato per l'autenticazione tramite MSAL per requisiti  | utilizzato per l'autenticazione tramite MSAL per requisiti  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| profilo | delegated | utilizzato per l'autenticazione tramite MSAL per requisiti  | utilizzato per l'autenticazione tramite MSAL per requisiti  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
 Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| QnA Maker | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -87,7 +87,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Nome e posta elettronica per le relazioni tra entità utente &quot; Richiedente ticket&quot;  | Nome e posta elettronica  | per le relazioni tra entità utente &quot; Richiedente ticket&quot;  |
 
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Kudozza, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 85221e2c57cbe5954e3343d8a44cec704c71eda9
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3e457fef49ce1ad352080d5a7f1a74ac7907038e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280778"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528192"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -63,7 +63,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS | userId, teamId, tenantId, username | Il servizio e il database sono ospitati in AWS.  |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
@@ -71,7 +71,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| I complimenti vengono inviati ad altre persone e il messaggio deve essere risentito di frequente. Viene inoltre fornita una classificazione che rende necessario archiviare i nomi e gli ID degli utenti che utilizzano l'applicazione Kudozza. | userid, username | I complimenti vengono inviati ad altre persone e il messaggio deve essere risentito di frequente. Viene inoltre fornita una classificazione che rende necessario archiviare i nomi e gli ID degli utenti che utilizzano l'applicazione Kudozza. |
 
 

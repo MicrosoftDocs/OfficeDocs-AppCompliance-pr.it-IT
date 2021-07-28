@@ -6,12 +6,12 @@ description: Ulteriori dettagli sul programma di Publisher di attestazione
 keywords: app attestation certification 365 questionnaire appSource publisher
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: d91c11b53f1f807fbb4335918586a7748f14bf91
-ms.sourcegitcommit: a475d48e9538faa7ed682c11829c2e45ba675af6
+ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53383729"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526102"
 ---
 # <a name="what-is-publisher-attestation"></a>Che cos'è Publisher attestazione?
 
@@ -20,7 +20,8 @@ Publisher L'attestazione è il livello successivo nel Microsoft 365 App Complian
 > [!IMPORTANT]
 > Microsoft non convalida tutte le informazioni fornite. Lo sviluppatore dell'app è l'unico responsabile delle informazioni fornite nell'attestazione dell'autore. 
 
-Publisher L'attestazione si applica alle WebApp e a tutte le app che si integrano con le piattaforme Microsoft seguenti:
+Publisher L'attestazione si applica alle app Web (app SaaS pubblicate tramite marketplace commerciale nel Centro per i partner). Le app SaaS sono attualmente in un'anteprima privata, se sei interessato a partecipare compila questo [modulo.](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu) L'attestazione include anche tutte le app che si integrano con i seguenti prodotti Microsoft:
+
 - Teams
 - Word
 - Excel

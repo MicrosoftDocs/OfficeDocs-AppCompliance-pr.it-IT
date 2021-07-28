@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ClipTraining, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9eb5383b9bd372e1f46af30b838160bca88e308b
-ms.sourcegitcommit: 5cd33d38cc7376b28458ee47ebc2c2710ce7f113
+ms.openlocfilehash: 5d59d4cbd2d28f1c906e541e7ffc78311c12ffb6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339832"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525770"
 ---
 # <a name="cliptraining"></a>ClipTraining
 
@@ -56,11 +56,11 @@ Queste informazioni sono state fornite da ClipTraining su come questa app raccog
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| e-mail | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| offline_access | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| openid | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| profilo | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | af089bb5-48be-413d-ad34-53c32799da7d |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| e-mail | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| offline_access | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| openid | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| profilo | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -68,7 +68,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| servizio di hosting non Microsoft, non Microsoft CRM | Nome, cognome, indirizzo di posta elettronica | Obbligatorio per l'uso aziendale |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot

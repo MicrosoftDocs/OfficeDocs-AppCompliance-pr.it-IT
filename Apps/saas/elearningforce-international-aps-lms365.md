@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per LMS365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2fa9fb2637b40b439bc6450514e194e222415ec0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: dbae54f25aa4b1a22917bc79c53724fd398b6ed2
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282839"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526000"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -52,22 +52,22 @@ Queste informazioni sono state fornite da ELEARNINGFORCE International Aps su co
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| GroupMember.Read.All | application | Nessuno | Consente all'app di espandere i membri del gruppo di Active Directory, necessari per registrare un gruppo di utenti ai corsi. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| Mail.Send | delegated | Nessuno | L'autorizzazione viene richiesta in modo dinamico durante la configurazione dell'account di posta elettronica per la notifica. Consente all'app di inviare messaggi di posta elettronica di notifica | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| RoleManagement.Read.Directory | application | Nessuno | Consente all'app di ottenere SharePoint dominio durante il provisioning del tenant. Il dominio viene utilizzato per la creazione di URL. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Invite.All | delegated | Nessuno | Consente all'app di invitare utenti esterni per conto dell'utente attualmente connesso | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Read | delegated | Nessuno | Accedere e leggere il profilo utente. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Read.All | delegated | Nessuno | Consente all'app di leggere il profilo completo dell'utente attualmente connesso. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Read.All | application | Consente all'app di leggere il profilo utente completo. È&#8217;necessario leggere gli utenti&#8217; manager per creare report gerarchia. | I dati personali seguenti vengono archiviati in un database dedicato per il rispettivo cliente utilizzato per la funzionalità dashboard di Learner Management &amp; Manager all'interno dell'applicazione. Account Name, User Display Name, Email Address, Department, Job Title, Office, Country, City, Manager ID/Email | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| profilo | delegated | Nessuno | Visualizzare il profilo di base dell'utente. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| GroupMember.Read.All | application | Nessuno | Consente all'app di espandere i membri del gruppo di Active Directory, necessari per registrare un gruppo di utenti ai corsi. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| Mail.Send | delegated | Nessuno | L'autorizzazione viene richiesta in modo dinamico durante la configurazione dell'account di posta elettronica per la notifica. Consente all'app di inviare messaggi di posta elettronica di notifica | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| RoleManagement.Read.Directory | application | Nessuno | Consente all'app di ottenere SharePoint dominio durante il provisioning del tenant. Il dominio viene utilizzato per la creazione di URL. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Invite.All | delegated | Nessuno | Consente all'app di invitare utenti esterni per conto dell'utente attualmente connesso | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read | delegated | Nessuno | Accedere e leggere il profilo utente. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | delegated | Nessuno | Consente all'app di leggere il profilo completo dell'utente attualmente connesso. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | application | Consente all'app di leggere il profilo utente completo. È&#8217;necessario leggere gli utenti&#8217; manager per creare report gerarchia. | I dati personali seguenti vengono archiviati in un database dedicato per il rispettivo cliente utilizzato per la funzionalità dashboard di Learner Management &amp; Manager all'interno dell'applicazione. Account Name, User Display Name, Email Address, Department, Job Title, Office, Country, City, Manager ID/Email | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| profilo | delegated | Nessuno | Visualizzare il profilo di base dell'utente. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
 Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

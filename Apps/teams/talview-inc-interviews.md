@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Talview Interviews, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a641b49729a43c8b12339f162eeee395183f5859
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 38ab0472b84fc2b53c357bed1ad32ed4e3a6ad11
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282940"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528162"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -56,11 +56,11 @@ Queste informazioni sono state fornite da Talview Inc su come questa app raccogl
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegated | Accedere e leggere il profilo utente | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
->| e-mail | delegated | Visualizzare l'indirizzo di posta elettronica degli utenti per il mapping degli account utente | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
->| openid | delegated | Sign users in, To log in to the platform | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
->| profilo | delegated | Visualizzare il profilo di base degli utenti | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegated | Accedere e leggere il profilo utente | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| e-mail | delegated | Visualizzare l'indirizzo di posta elettronica degli utenti per il mapping degli account utente | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| openid | delegated | Sign users in, To log in to the platform | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| profilo | delegated | Visualizzare il profilo di base degli utenti | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

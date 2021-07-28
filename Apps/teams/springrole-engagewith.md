@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per EngageWith, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bc9d21c1c39cb3a5919024bccd077a1e31469bf2
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 9cd618fb9ee580936f33beed27dfc2a39934d1f0
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279118"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528252"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -63,7 +63,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, Mailchimp, Stripe. Nome del cliente, e-mail, IP, informazioni di pagamento. Usiamo queste terze parti per offrire ai clienti la migliore esperienza dei clienti | Nome, posta elettronica | questo componente aggiuntivo non usa API aggiuntive |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
@@ -71,7 +71,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Questi dati vengono usati per visualizzare e archiviare la cronologia di riscatto dei punti &amp; ricompensa. Utilizzato anche nella funzionalità principale dell'app per offrire Kudos e Shoutout ai peer | Nome, e-mail, compleanno e anniversario di lavoro. | Questi dati vengono usati per visualizzare e archiviare la cronologia di riscatto dei punti &amp; ricompensa |
 
 

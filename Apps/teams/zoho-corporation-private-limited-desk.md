@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Zoho Desk, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fd057117b21f9e99476356f1157301c19393a23d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8e76f0cce92e7aa5bac28df505613ec461a3fc06
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550646"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528352"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -56,14 +56,14 @@ Queste informazioni sono state fornite da Zoho Corporation Private Limited su co
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.Read | delegated |  | Leggere i file utente. |  |
->| Files.Read.All | delegated |  | Leggere tutti i file a cui l'utente può accedere. |  |
->| User.Read | delegated |  | Accedere e leggere il profilo utente. |  |
->| User.ReadBasic.All | delegated |  | Leggere i profili di base di tutti gli utenti. |  |
->| e-mail | delegated |  | Visualizzare l'indirizzo di posta elettronica dell'utente. |  |
->| offline_access | delegated |  | Mantenere l'accesso ai dati a cui gli è stato assegnato l'accesso. |  |
->| profilo | delegated |  | Visualizzare il profilo di base dell'utente. |  |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.Read | delegated |  | Leggere i file utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.Read.All | delegated |  | Leggere tutti i file a cui l'utente può accedere. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegated |  | Accedere e leggere il profilo utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.ReadBasic.All | delegated |  | Leggere i profili di base di tutti gli utenti. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| e-mail | delegated |  | Visualizzare l'indirizzo di posta elettronica dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | delegated |  | Mantenere l'accesso ai dati a cui gli è stato assegnato l'accesso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| profilo | delegated |  | Visualizzare il profilo di base dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
