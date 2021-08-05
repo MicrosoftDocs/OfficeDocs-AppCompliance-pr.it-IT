@@ -5,39 +5,39 @@
       items:
         - name: Panoramica
           href: overview.md
-        - name: Che cos'è la verifica dell'autore?
+        - name: Che cos'è Publisher verifica?
           href: 'https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview'
-        - name: Che cos'è l'attestazione dell'autore?
+        - name: Che cos'è Publisher attestazione?
           href: docs/enterprise-app-attestation-guide.md
-        - name: Che cos'è la certificazione Microsoft 365?
+        - name: Che cos'è Microsoft 365 certificazioni?
           href: docs/enterprise-app-certification-guide.md
     - name: Per sviluppatori
       expanded: true
       items:
-        - name: Verifica completa dell'autore
+        - name: Verifica Publisher completa
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
-        - name: Attestazione completa dell'autore
+        - name: Attestazione Publisher completa
           href: docs/attestation.md
-        - name: Completare la certificazione Microsoft 365
+        - name: Certificazione Microsoft 365 completa
           href: docs/certification.md
-        - name: Guida all'invio della certificazione Microsoft 365
+        - name: Microsoft 365 Guida all'invio della certificazione
           href: docs/certification-submission-guide.md
-    - name: App di Microsoft Excel
+    - name: Microsoft Excel App
       href: excel/excel-apps.md
       items:
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Automazione documenti da Excel a Word
+        - name: Excel documenti da Excel word a Word
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: excel/harmonie-corporation-for-office.md
-        - name: Strumento di report iPlanner per Office 365 Planner
+        - name: Strumento di reporting iPlanner per Office 365 Planner
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
         - name: Jira Cloud per Excel
           href: excel/atlassiancom-jira-cloud-for-excel.md
         - name: Diagrammi lucidchart per Excel
           href: excel/lucid-software-inc-lucidchart-diagrams-for-excel.md
-        - name: MeaningCloud Text Analytics for Excel
+        - name: MeaningCloud Text Analytics per Excel
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint per Office
           href: excel/iglobe-office2sharepoint-for-office.md
@@ -55,7 +55,7 @@
           href: excel/sheetgo-europe-sl.md
         - name: Wunder365 per Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft OneNote Apps
+    - name: Microsoft OneNote App
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Selezione contenuto per Office
@@ -64,7 +64,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 per Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: App di Microsoft Outlook
+    - name: Microsoft Outlook Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign Add-In per Outlook
@@ -81,7 +81,7 @@
           href: outlook/harmonie-corporation-for-outlook.md
         - name: Fattura e tracciabilità del tempo - Fattura Zoho
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
-        - name: iPlanner Office 365 Planner Add-in for Outlook
+        - name: Componente aggiuntivo iPlanner Office 365 Planner per Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
@@ -111,12 +111,12 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM per la posta elettronica
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: App di Microsoft PowerPoint
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Automazione documenti da Excel a Word
+        - name: Excel documenti da Excel word a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -134,15 +134,15 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project Apps
+    - name: Microsoft Project App
       href: project/project-apps.md
       items:
         - name: officeatwork | Selezione modelli per Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: App di Microsoft SharePoint
+    - name: Microsoft SharePoint Apps
       href: sharepoint/sharepoint-apps.md
       items:
-        - name: Agile Task Board for SharePoint Online
+        - name: Agile Task Board per SharePoint Online
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
         - name: Connettore FormMachines per SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
@@ -156,9 +156,9 @@
           href: sharepoint/konnect-email-parser.md
         - name: officeatwork | Selezione modelli per SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
-        - name: Collaborazione power bi
+        - name: Opzioni di collaborazione di Power BI
           href: sharepoint/ataira-power-bi-collaboration.md
-    - name: Microsoft Teams Apps
+    - name: Microsoft Teams App
       href: teams/teams-apps.md
       items:
         - name: 365-QA
@@ -181,6 +181,8 @@
           href: teams/capriza-inc-approvesimple.md
         - name: Appspace
           href: teams/appspace-inc.md
+        - name: ArcGIS Mappe
+          href: teams/esri-arcgis-maps.md
         - name: Asana
           href: teams/asana.md
         - name: askR.ai
@@ -251,7 +253,7 @@
           href: teams/codestream.md
         - name: CoffeePals
           href: teams/carnduff-co-coffeepals.md
-        - name: Collection Pot
+        - name: Vaso di raccolta
           href: teams/gifted-to-you-limited-collection-pot.md
         - name: Complish
           href: teams/cauzey-pty-ltd-complish.md
@@ -285,7 +287,7 @@
           href: teams/elmahio.md
         - name: Email TeamMate
           href: teams/harmonie-email-teammate.md
-        - name: Gestione della formazione dei dipendenti
+        - name: Registro formazione dipendenti
           href: teams/sharepointsapiens-employee-training-management.md
         - name: Empuls
           href: teams/empuls.md
@@ -317,6 +319,8 @@
           href: teams/microsoft-corporation-github.md
         - name: Go1
           href: teams/go1.md
+        - name: Good4work
+          href: teams/good4work.md
         - name: Goodera
           href: teams/goodera.md
         - name: Google Analytics Insights
@@ -433,6 +437,8 @@
           href: teams/lundano-org@work.md
         - name: Package Notifier
           href: teams/qburst-technologies-pvt-ltd-package-notifier.md
+        - name: PandaDoc
+          href: teams/pandadoc.md
         - name: Perfony
           href: teams/perfony.md
         - name: Piazza
@@ -443,7 +449,7 @@
           href: teams/teamschamp-playquiz-aprende-and-juega.md
         - name: Polly
           href: teams/polly.md
-        - name: Power BI Collaborazione
+        - name: Opzioni di collaborazione di Power BI
           href: teams/ataira-power-bi-collaboration.md
         - name: Prezi Video
           href: teams/prezi-video.md
@@ -465,7 +471,7 @@
           href: teams/chitchattr-quicklinks.md
         - name: Reach
           href: teams/livetiles-reach.md
-        - name: Tempo reale Translator
+        - name: Traduttore in tempo reale
           href: teams/fairuse-real-time-translator.md
         - name: RememberThis
           href: teams/tom-morgan-rememberthis.md
@@ -475,6 +481,10 @@
           href: teams/chitchattr-reminderz.md
         - name: Retro
           href: teams/baltic-amadeus-retro.md
+        - name: Rezolve.ai
+          href: teams/actionable-science-rezolveai.md
+        - name: Bot RFPIO
+          href: teams/rfpio-bot.md
         - name: RingCentral
           href: teams/ringcentral-inc.md
         - name: RowShare
@@ -617,6 +627,8 @@
           href: teams/cisco-webex-call.md
         - name: Wide Ideas
           href: teams/wide-ideas.md
+        - name: Wired2Perform
+          href: teams/wired2perform.md
         - name: Wisembly
           href: teams/wisembly.md
         - name: Woobot
@@ -668,6 +680,8 @@
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Procedura guidata per Office
           href: word/officeatwork-officeatworkwizard-for-office.md
+        - name: SmartCite per i documenti
+          href: word/digital-science-smartcite-for-papers.md
         - name: Wunder365 per Office
           href: word/jiji-technologies-private-limited-wunder365-for-office.md
         - name: xLaw - Sistema di gestione delle conoscenze
@@ -710,10 +724,14 @@
     - name: ID app Azure
       href: azure/azure-apps.md
       items:
+        - name: 00738e07-f9a4-4bf5-b6f9-851ec7ea31d5
+          href: azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5.md
         - name: 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0
           href: azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0.md
         - name: 066a6b3a-f7a0-450a-98c7-34db1da31594
           href: azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md
+        - name: 07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e
+          href: azure/07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e.md
         - name: 094f3986-3951-4f0c-88fa-514d117c8dd0
           href: azure/094f3986-3951-4f0c-88fa-514d117c8dd0.md
         - name: 0a1b7ca8-390e-4f55-a7b5-eee089c5a905
@@ -842,6 +860,8 @@
           href: azure/9b03f15d-1219-4b2f-9699-640be54e1319.md
         - name: 9de91aee-708c-4d9f-958b-109fdb79d993
           href: azure/9de91aee-708c-4d9f-958b-109fdb79d993.md
+        - name: 9e8e113c-8a08-4606-b08a-de4decc7252f
+          href: azure/9e8e113c-8a08-4606-b08a-de4decc7252f.md
         - name: 9ff28b02-ccc5-4cac-9d17-4cf6987c371f
           href: azure/9ff28b02-ccc5-4cac-9d17-4cf6987c371f.md
         - name: a1a0b277-0efb-4f00-9661-6d1a3df3cddc
@@ -870,6 +890,8 @@
           href: azure/adef9811-448f-4dd5-88d9-68734050fe58.md
         - name: af089bb5-48be-413d-ad34-53c32799da7d
           href: azure/af089bb5-48be-413d-ad34-53c32799da7d.md
+        - name: afd2c390-8b78-40fa-913b-7fc5911e884a
+          href: azure/afd2c390-8b78-40fa-913b-7fc5911e884a.md
         - name: affadfb6-f17b-428f-97f9-9aae3b6175bc
           href: azure/affadfb6-f17b-428f-97f9-9aae3b6175bc.md
         - name: b13c40ee-e073-459e-96b5-3f3cca046a37
@@ -888,6 +910,8 @@
           href: azure/c22c3a9e-5d2c-4177-8ea1-1c53c5af36b8.md
         - name: c2e66b59-725d-4c56-8a0e-ee2587031d9f
           href: azure/c2e66b59-725d-4c56-8a0e-ee2587031d9f.md
+        - name: c4e4c98c-f859-4682-89a5-48b66838c496
+          href: azure/c4e4c98c-f859-4682-89a5-48b66838c496.md
         - name: c68947ae-a07f-44ce-9a13-7b559251731d
           href: azure/c68947ae-a07f-44ce-9a13-7b559251731d.md
         - name: c859de61-8a6b-42e6-ba88-f639df33bc72
@@ -910,6 +934,8 @@
           href: azure/e854ea05-68ab-4204-babe-db4a784fb4d8.md
         - name: e8bea835-c6b0-45aa-9c39-889d3c77d5a3
           href: azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3.md
+        - name: ea4de024-dd5f-4d3e-a092-3b8de6c64200
+          href: azure/ea4de024-dd5f-4d3e-a092-3b8de6c64200.md
         - name: eab5463e-8168-40ee-887a-7ac78de1d266
           href: azure/eab5463e-8168-40ee-887a-7ac78de1d266.md
         - name: ed4df345-c860-4ffe-b614-0460d9106f0f
