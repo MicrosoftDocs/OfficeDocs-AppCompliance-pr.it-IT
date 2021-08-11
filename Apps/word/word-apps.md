@@ -2,17 +2,17 @@
 title: Microsoft Word Sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/22/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte Microsoft Word app.
 localization_priority: Normal
-ms.openlocfilehash: 2c09482ad400f5af899f1b61d87968b0ba311a07
-ms.sourcegitcommit: 2785ea8a6c1b1af129dea2cbe833de98659e3b2d
+ms.openlocfilehash: 2ebfb70a47886b0d05c7d3c54e1e7624f65385f8ec575db816e76d4050c13390
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53547814"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54748036"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Sicurezza e conformità delle app
 
@@ -32,5 +32,6 @@ Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire all
 | [officeatwork | Uploader per Office](./officeatwork-officeatworkuploader-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Verifier per Office](./officeatwork-officeatworkverifier-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Procedura guidata per Office](./officeatwork-officeatworkwizard-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [SmartCite per i documenti](./digital-science-smartcite-for-papers.md) | Digital Science | **✓** |  |
 | [Wunder365 per Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |
 | [xLaw - Sistema di gestione delle conoscenze](./evertn-xlaw-knowledge-management-system.md) | evertn | **✓** |  |

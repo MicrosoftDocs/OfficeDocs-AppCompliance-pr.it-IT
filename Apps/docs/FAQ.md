@@ -1,19 +1,19 @@
 ---
-title: Domande frequenti sull'attestazione dell'autore
+title: Publisher Domande frequenti sull'attestazione
 author: LGerrard
 ms.author: Legerrar
-description: Domande frequenti sull'attestazione dell'autore
+description: Publisher Domande frequenti sull'attestazione
 keywords: app attestation certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1606195453c232f06fe58a6518e289c13907ed15
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 44898296bede4b34837ee18726164a636cc05824aa1710f273a4cc822b448953
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071505"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54747696"
 ---
-# <a name="publisher-attestation-faq"></a>Domande frequenti sull'attestazione dell'autore
+# <a name="publisher-attestation-faq"></a>Publisher Domande frequenti sull'attestazione
 
 |Domanda                                       |Definizione espansa                          |
 |----------------------------------------       |---------------------------------------------|
@@ -21,35 +21,35 @@ ms.locfileid: "52071505"
 |Che cos'è l'URL del sito Web aziendale?   |URL di una home page per l'azienda o l'applicazione|
 |Qual è l'URL per la pagina delle informazioni dell'app? |URL di una pagina che delinea ulteriori informazioni sull'applicazione. Dove è possibile trovare ulteriori informazioni sull'applicazione? Se non si dispone di questa pagina, contrassegnare N/D. |
 |Categoria app? |Classificazione dell'app in base al campo a cui è correlata |
-|Come descriveresti i servizi di base della tua app in 500 charaters o meno?|Descrivi l'app in un massimo di 500 caratteri, inclusi tutti i tuoi integrazioni nella famiglia di app. Ex. Se si dispone di un'integrazione di Teams e Outlook, non viene fornita una descrizione specifica dell'app Teams, bensì una descrizione applicabile a entrambe le app. Questa dovrebbe essere una descrizione molto generale e non specifica del carico di lavoro se l'azienda ha più di un'integrazione per qualsiasi piattaforma ex. Slack, Outlook, Teams, Web App, app per dispositivi mobili. |
+|Come descriveresti i servizi di base della tua app in 500 charaters o meno?|Descrivi l'app in un massimo di 500 caratteri, inclusi tutti i tuoi integrazioni nella famiglia di app. Esempio Se hai un'Teams e un'integrazione Outlook non forniscono una descrizione specifica dell'app Teams, ma forniscono una descrizione applicabile a entrambe le app. Questa dovrebbe essere una descrizione molto generale e non specifica del carico di lavoro se l'azienda ha più di un'integrazione per qualsiasi piattaforma ex. Slack, Outlook, Teams, Web App, App per dispositivi mobili. |
 |Qual è il paese in cui ha sede la società dello sviluppatore?|Ciò è necessario in relazione alle procedure e alle normative di gestione dei dati per diversi paesi/aree geografiche. |
 |Qual è l'anno di fondazione dell'azienda?|Se non si è incorporati, contrassegnare come N/D.|
 |Quali sono i domini univoci usati dall'app?|Stringa di identificazione del provider che definisce l'area di autenticazione dell'autonomia amministrativa, dell'autorità o del controllo all'interno di Internet. La risposta deve includere indirizzi Web. In caso di più, separare con una virgola.|
 |Quale URL viene utilizzato per l'accesso?|Fornire una pagina di accesso che potrebbe includere l'URL di un popup, se applicabile. URL univoco in cui un sottoscrittore può accedere all'applicazione. Se non si dispone di questa opzione, contrassegnare "N/D".|
-|Qual è il nome del provider di servizi cloud di hosting?|Esempi: Microsoft Azure, Amazon AWS, Google... Ciò potrebbe includere anche soluzioni univoche per l'azienda. |
-|L'app usa le autorizzazioni di Microsoft Graph? |Azure AD assegna un ID univoco dell'applicazione, o client, alla tua app. Il portale apre la pagina Panoramica dell'applicazione. Per aggiungere funzionalità all'applicazione, puoi selezionare altre opzioni di configurazione, tra cui personalizzazione, certificati e segreti, autorizzazioni API e altro ancora. Collegamento alla pagina.|
-|Autorizzazione di Microsoft Graph|Ecco l'elenco delle autorizzazioni accettabili. https://docs.microsoft.com/graph/permissions-reference#directory-permissions |
+|Qual è il nome del provider di servizi cloud di hosting?|Alcuni esempi sono: Microsoft Azure, Amazon AWS, Google... Ciò potrebbe includere anche soluzioni univoche per l'azienda. |
+|L'app usa le autorizzazioni Graph Microsoft? |Azure AD assegna un ID univoco dell'applicazione, o client, alla tua app. Il portale apre la pagina Panoramica dell'applicazione. Per aggiungere funzionalità all'applicazione, puoi selezionare altre opzioni di configurazione, tra cui personalizzazione, certificati e segreti, autorizzazioni API e altro ancora. Collegamento alla pagina.|
+|Autorizzazione microsoft Graph|Ecco l'elenco delle autorizzazioni accettabili. https://docs.microsoft.com/graph/permissions-reference#directory-permissions |
 |Quali ID di applicazioni di Azure vengono usati da questa app?|Azure AD assegna un ID univoco dell'applicazione, o client, alla tua app. Il portale https://portal.azure.com/ apre la pagina Panoramica dell'applicazione. Per aggiungere funzionalità all'applicazione, puoi selezionare altre opzioni di configurazione, tra cui personalizzazione, certificati e segreti, autorizzazioni API e altro ancora. |
 |Qual è il tipo di autorizzazione?|"Le autorizzazioni delegate vengono usate dalle app che hanno un utente connesso presente. Per queste app, l'utente o un amministratore acconsente alle autorizzazioni richieste dall'app e l'app può fungere da utente connesso quando effettua chiamate a Microsoft Graph. Alcune autorizzazioni delegate possono essere concesse da utenti non amministrativi, ma alcune autorizzazioni con privilegi più elevati richiedono il consenso dell'amministratore.                                Le autorizzazioni dell'applicazione vengono utilizzate dalle app eseguite senza che sia presente un utente connesso. ad esempio app eseguite come servizi in background o daemon. Le autorizzazioni dell'applicazione possono essere concesse solo da un amministratore.                                                                           https://docs.microsoft.com/graph/auth/auth-concepts#microsoft-graph-permissions"|
 |Quali dati vengono raccolti o utilizzati?  Aggiungere la giustificazione per la raccolta o l'utilizzo dei dati.|Gli esempi sono disponibili nella nostra pagina dei documenti, fai clic su un'app e fai clic su Gestione dei dati per visualizzare esempi https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps di altre giustificazioni. |
-|Quali dati vengono archiviati nell'app nei relativi database?  Aggiungere una giustificazione per l'archiviazione dei dati, inclusi scenari ed esempi, se applicabile. |Si tratta di un'attestazione per un'app Teams con funzionalità bot? https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots|
-|Il bot può accedere alle informazioni personali?|Le informazioni personali sono tutti i dati che possono essere utilizzati per identificare una determinata persona. Ex. Nome, indirizzo di posta elettronica.|
+|Quali dati vengono archiviati nell'app nei relativi database?  Aggiungere una giustificazione per l'archiviazione dei dati, inclusi scenari ed esempi, se applicabile. |Questa attestazione è per un'app Teams con funzionalità bot?https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots|
+|Il bot può accedere alle informazioni personali?|Le informazioni personali sono tutti i dati che possono essere utilizzati per identificare una determinata persona. Esempio Nome, indirizzo di posta elettronica.|
 |Aggiungere la giustificazione per l'accesso alle informazioni personali.|Esempi sono disponibili nella nostra pagina dei documenti, , fai clic su un'app, fai clic su Gestione dei dati puoi vedere esempi di altre giustificazioni nell'accesso ai dati https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps tramite bot.|
-|Quali informazioni personali vengono archiviate?|Le informazioni personali (PII) sono tutti i dati che possono essere utilizzati per identificare una determinata persona. Ex. Nome, indirizzo di posta elettronica.|
+|Quali informazioni personali vengono archiviate?|Le informazioni personali (PII) sono tutti i dati che possono essere utilizzati per identificare una determinata persona. Esempio Nome, indirizzo di posta elettronica.|
 |Aggiungere la giustificazione per l'archiviazione delle informazioni personali.|Perché è necessario archiviare informazioni personali? |
-|Elenca tutte le informazioni identificabili dell'organizzazione raccolte dall'app tramite queste API. |OII è qualsiasi dato che può essere usato per identificare un'organizzazione/tenant. Ex. ID tenant o indirizzo IP, dati di utilizzo del tenant, nome di dominio tenant nell'indirizzo di posta elettronica (joe@contoso.com).|
-|Quali tipi di OII verranno utilizzati dall'app store?|Le informazioni di identificazione organizzative (OII, Organiaztional Identifiable Information) sono tutti i dati che possono essere utilizzati per identificare un'organizzazione/tenant. Ex. ID tenant o indirizzo IP, dati di utilizzo del tenant, nome di dominio tenant nell'indirizzo di posta elettronica (joe@contoso.com).|
+|Elenca tutte le informazioni identificabili dell'organizzazione raccolte dall'app tramite queste API. |OII è qualsiasi dato che può essere usato per identificare un'organizzazione/tenant. Esempio ID tenant o indirizzo IP, dati di utilizzo del tenant, nome di dominio tenant nell'indirizzo di posta elettronica (joe@contoso.com).|
+|Quali tipi di OII verranno utilizzati dall'app store?|Le informazioni di identificazione organizzative (OII, Organiaztional Identifiable Information) sono tutti i dati che possono essere utilizzati per identificare un'organizzazione/tenant. Esempio ID tenant o indirizzo IP, dati di utilizzo del tenant, nome di dominio tenant nell'indirizzo di posta elettronica (joe@contoso.com).|
 |Aggiungere la giustificazione per l'archiviazione di OII.|Perché è necessario archiviare le informazioni di identificazione dell'organizzazione? |
-|Trasferire o condividere informazioni di identificazione dell'utente finale (EUII) o OII con servizi non Microsoft?|EUII è qualsiasi dato che può essere usato per identificare i dati dei clienti. Ex. Nome utente o ID dipendente, informazioni sulla posizione di una persona, indirizzo IP specifico dell'utente. |
-|Elenca tutti i servizi non Microsoft a cui trasferisci OII.|Ex. Google Cloud, AWS|
-|Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner?|Ex. Crittografia, 2FA|
-|Gli utenti possono classificare i dati all'interno dell'app? |Ex. Restricted, Confidential, Interal, Public |
+|Trasferire o condividere informazioni di identificazione dell'utente finale (EUII) o OII con utenti non servizi Microsoft?|EUII è qualsiasi dato che può essere usato per identificare i dati dei clienti. Esempio Nome utente o ID dipendente, informazioni sulla posizione di una persona, indirizzo IP specifico dell'utente. |
+|Elenca tutti gli elementi non servizi Microsoft in cui trasferisci OII.|Esempio Google Cloud, AWS|
+|Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner?|Esempio Crittografia, 2FA|
+|Gli utenti possono classificare i dati all'interno dell'app? |Esempio Restricted, Confidential, Interal, Public |
 |Autenticazione a più fattori|Multi-Factor Authentication (MFA) è un sistema di sicurezza che verifica l'identità di un utente richiedendo più credenziali. Anziché richiedere solo un nome utente e una password, MFA richiede altre credenziali, ad esempio un codice dallo smartphone dell'utente, la risposta a una domanda di sicurezza, un'impronta digitale o il riconoscimento facciale.|
 |Limitazione di indirizzi IP specifici?|Le impostazioni di restrizione IP vengono utilizzate per limitare o concedere l'accesso a cui gli IP possono accedere a risorse specifiche all'interno del servizio. Per le app che supportano la restrizione IP, un amministratore dell'organizzazione può limitare gli indirizzi IP che qualsiasi utente dell'organizzazione può usare per accedere al sistema tramite l'interfaccia utente o le API. |
 |Audit trail per account utente|Gli audit trail sono i record elettronici che catalogano cronologicamente eventi o procedure per fornire supporto, documentazione e cronologia, che vengono utilizzati per autenticare le azioni operative e di sicurezza o per mitigare le sfide. L'audit trail utente includerà informazioni sulle attività degli utenti, ad esempio i tentativi di accesso, il raggiungimento dell'accesso ai file e così via.|
 |Audit trail di amministrazione nell'app| L'audit trail dell'amministratore includerà attività di amministratore come la concessione di nuove autorizzazioni, la modifica delle configurazioni, le chiamate API e così via.|
 |Audit trail dei dati nell'app|L'audit trail dei dati includerà le attività di modifica dei database, ad esempio quando è stato modificato l'ultimo attributo, qual era il valore precedente del record e chi lo ha modificato e così via.|
-|Hai criteri password per la tua app? |Ex. lunghezza minima della password, combinazione di caratteri, non consentire il riutilizzo delle vecchie password, non consentire l'uso di informazioni personali (ad esempio nome, posta elettronica e così via), confermare il rinnovo della password dopo un determinato periodo di tempo|
+|Hai criteri password per la tua app? |Esempio lunghezza minima della password, combinazione di caratteri, non consentire il riutilizzo delle vecchie password, non consentire l'uso di informazioni personali (ad esempio nome, posta elettronica e così via), confermare il rinnovo della password dopo un determinato periodo di tempo|
 |Supportare lo standard SAML (Security Assertion Markup Language) per lo scambio di autenticazione?|Security Assertion Markup Language - SAML - è uno standard aperto per lo scambio di dati di autenticazione e autorizzazione tra parti, in particolare tra un provider di identità e un provider di servizi.|
 |Esegui test di penetrazione per rilevare e valutare le vulnerabilità di rete per la tua app e i servizi associati?|Il test di penetrazione, denominato anche test della penna, è la pratica di testare un sistema di computer, una rete o un'applicazione Web per individuare vulnerabilità di sicurezza che un utente malintenzionato potrebbe sfruttare.|
 |L'app è conforme alla Financial Industry Regulatory Authority (FINRA)? FINRA è uno standard impostato da un'organizzazione no-profit autorizzata dal Congresso degli Stati Uniti che regola e applica il miglioramento delle garanzie degli investitori e dell'integrità del mercato.|Se non si lavora con i clienti del settore finanziario o non si è sicuri, contrassegnare questo come N/D. |
@@ -85,9 +85,9 @@ ms.locfileid: "52071505"
 |L'app è conforme al Digial Millennium Copyright Act (DMCA)? DMCA penalizza qualsiasi tentativo di accedere illegalmente a materiale protetto da copyright.|DMCA criminalizza la produzione e la diffusione di tecnologia, dispositivi o servizi destinati a eludere le misure che controllano l'accesso alle opere protette da copyright.|
 |Seleziona i criteri dell'app per la conservazione dei dati utente dopo la chiusura dell'account.|GDPR - Criteri di conservazione dei dati|
 
-## <a name="learn-more"></a>Altre informazioni
+## <a name="learn-more"></a>Per approfondire
 
-* [Panoramica del programma di conformità delle app di Microsoft 365](~/overview.md)  
-* [Verifica completa dell'autore](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
-* [Che cos'è l'attestazione dell'autore?](~/docs/enterprise-app-attestation-guide.md)  
-* [Completare la certificazione Microsoft 365](~/docs/certification.md)
+* [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)  
+* [Verifica Publisher completa](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
+* [Che cos'è Publisher attestazione?](~/docs/enterprise-app-attestation-guide.md)  
+* [Certificazione Microsoft 365 completa](~/docs/certification.md)
