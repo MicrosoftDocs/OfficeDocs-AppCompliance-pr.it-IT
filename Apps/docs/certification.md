@@ -6,12 +6,12 @@ description: Microsoft 365 Panoramica dei dettagli della certificazione
 keywords: Attestazione certificazione app Microsoft 365 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: e5696890f532589ae4fbec08aaf9f5be7b2e4590
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: bb6434cf94db1b7af437b3317397c0ba26a4c52df23e5837d9bcab1e98ff7a47
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315096"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54750466"
 ---
 # <a name="complete-microsoft-365-certification"></a>Certificazione Microsoft 365 completa
 
@@ -52,7 +52,7 @@ Se la certificazione non viene rinnovata prima della data di scadenza, lo stato 
 
 
 
-## <a name="learn-more"></a>Ulteriori informazioni
+## <a name="learn-more"></a>Per approfondire
 
 * [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)  
 * [Che cos'è Publisher verifica?](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)

@@ -6,12 +6,12 @@ description: Ulteriori informazioni sul programma Publisher attestazione
 keywords: app attestation certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 285fb4c74f2f5bdda3defee92dafa22f07d94314
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 1566ae1d56f6313d7055f122a8444de43ef60d9a73dc9e02e9cb2b1b86ae5a7c
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526112"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54801272"
 ---
 # <a name="complete-publisher-attestation"></a>Attestazione Publisher completa
 
@@ -64,7 +64,7 @@ Ad esempio, *vedi Microsoft Teams* [sicurezza e conformità delle app](../teams/
 >[!IMPORTANT]
 >Partecipando al programma di attestazione di Publisher, l'utente accetta questi termini supplementari e si conforma a qualsiasi documentazione di accompagnamento applicabile alla partecipazione al programma di attestazione di Publisher con Microsoft Corporation ("Microsoft", "microsoft", "noi" o "nostro"). L'utente rappresenta e garantisce a Microsoft di avere l'autorità di accettare queste condizioni supplementari di attestazione Publisher per conto di se stessi, di una società e/o di un'altra entità, a seconda dei casi. Microsoft può modificare, modificare o terminare questi termini supplementari in qualsiasi momento. La tua continua partecipazione al Publisher di attestazione dopo qualsiasi modifica o modifica significa che accetti i nuovi termini supplementari. Se non accetti i nuovi termini supplementari o termini queste condizioni, devi smettere di partecipare al programma di Publisher attestazione.
 
-## <a name="learn-more"></a>Ulteriori informazioni
+## <a name="learn-more"></a>Per approfondire
 
 * [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)  
 * [Verifica Publisher completa](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  

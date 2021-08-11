@@ -1,43 +1,45 @@
 ---
-title: Informazioni sull'applicazione per ngDesk by All Blue Solutions
+title: Informazioni sull'applicazione per Good4work di Good4work
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/28/2021
+ms.date: 06/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per ngDesk, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Good4work, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a0d3f507338a8ef504df171542d0fa8c25c37efc
+ms.openlocfilehash: 3d6854fcf2b53d1eb7baefb2f64d258365d5bdaf
 ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772113"
+ms.locfileid: "53775044"
 ---
-# <a name="ngdesk"></a>ngDesk
+# <a name="good4work"></a>Good4work
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: July 28, 2021</p>
+<p>Last updated by the developer on: June 15, 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200002505" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/d1493af7-8634-4b6a-8cbe-eeb23c6724f4" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002962" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da All Blue Solutions a Microsoft:
+Informazioni fornite da Good4work a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | ngDesk |
-| ID | WA200002505 |
-| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
-| Nome società partner | Tutte le soluzioni blu |
-| URL del sito Web del partner | [https://ngdesk.com](https://ngdesk.com) |
-| URL dell'informativa sulla privacy | [https://ngdesk.com/privacy-policy-office-365/](https://ngdesk.com/privacy-policy-office-365/) |
-| URL delle Condizioni per l'utilizzo | [https://ngdesk.com/terms-of-service/](https://ngdesk.com/terms-of-service/) |
+| Nome app | Good4work |
+| ID | WA200002962 |
+| Office 365 client supportati | Microsoft Teams |
+| Nome società partner | Good4work |
+| URL del sito Web del partner | [https://good4work.com/#product](https://good4work.com/#product) |
+| URL della pagina Teams informazioni sull'applicazione | [https://good4work.com/support/](https://good4work.com/support/) |
+| URL dell'informativa sulla privacy | [https://good4work.com/privacy-policy/](https://good4work.com/privacy-policy/) |
+| URL delle Condizioni per l'utilizzo | [https://good4work.com/good4work-terms/](https://good4work.com/good4work-terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,7 +49,7 @@ Informazioni fornite da All Blue Solutions a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da All Blue Solutions su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Good4work su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -62,6 +64,11 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 
+#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
+
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
+
+>Non è possibile accedere all'UEII.
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -74,13 +81,13 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Non inviiamo dati ad altri sistemi partner
+>I dati degli utenti sono accessibili tramite un portale di amministrazione (dashboard di Django) con un accesso limitato solo allo sviluppatore back-end e al CEO
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
 Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
 
->No
+>Sì
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -90,9 +97,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/42196' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/42196" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -102,7 +109,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da All Blue Solutions sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Good4work sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

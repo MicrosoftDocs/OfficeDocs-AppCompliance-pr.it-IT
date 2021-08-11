@@ -6,12 +6,12 @@ description: Microsoft 365 Visualizzazione granulare della Guida all'invio della
 keywords: team di certificazione delle app Microsoft 365 sicurezza m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: dd3a61b6b9768c278cd7d48dd88847ea9ee56421
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: 31c974a20e17daa0436826432429bd664a9a1f59dee6b351b587ae0b30cc6bac
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315126"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54750541"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guida all'invio della certificazione
 
@@ -105,8 +105,8 @@ Le richieste di prove a supporto della valutazione della certificazione devono e
 
 |Dimensioni della popolazione              | Esempio                  |
 |---------------------------- |-------------------------|
-|<5|1 |
-|>5 & <10|2 |
+|<5|1|
+|>5 & <10|2|
 |>9 & <25|3 |
 |>24|4 |
 
@@ -356,7 +356,7 @@ Questo dominio misura l'allineamento dell'infrastruttura di supporto e dei proce
 ||Fornire una prova dimostrabile che IDPS è configurato per monitorare tutti i flussi di traffico in ingresso.|
 ||Fornire una prova dimostrabile che IDPS è configurato per monitorare tutti i flussi di traffico in uscita.|
 |**Registrazione eventi di sicurezza** |Fornire la documentazione relativa ai criteri per le procedure consigliate che regolano la registrazione degli eventi di sicurezza.|
-|| Fornire prove dimostrabili che mostrano che la registrazione degli eventi di sicurezza è impostata in tutti i componenti di sistema campionati per registrare gli eventi seguenti: Accesso utente ai componenti di sistema e all'applicazione, Tutte le azioni intraprese da un utente con privilegi elevati, Tentativi di accesso logico non validi Creazione o modifica di account con privilegi, Manomissione del registro eventi, Disabilitazione degli strumenti di sicurezza (ad esempio, antimalware o registrazione eventi) , Registrazione antimalware (ad esempio aggiornamenti, rilevamento malware ed errori di analisi).,EVENTI IDPS e WAF, se configurati|
+|| Fornire prove dimostrabili che mostrano che la registrazione degli eventi di sicurezza è impostata in tutti i componenti di sistema campionati per registrare gli eventi seguenti: Accesso utente ai componenti di sistema e all'applicazione, Tutte le azioni intraprese da un utente con privilegi elevati, Tentativi di accesso logico non validi Creazione o modifica di account con privilegi, Manomissione del registro eventi, Disabilitazione degli strumenti di sicurezza (ad esempio, antimalware o registrazione eventi),  Registrazione antimalware (ad esempio aggiornamenti, rilevamento malware ed errori di analisi). Eventi IDPS e WAF, se configurati|
 ||Fornire prove dimostrabili che gli eventi di sicurezza registrati contengono le informazioni minime seguenti: Utente, Tipo di evento, Data e ora, Indicatori di esito positivo o negativo, Etichetta che identifica il sistema interessato|
 ||Fornire una prova dimostrabile che tutti i componenti di sistema campionati vengono sincronizzati nel tempo con gli stessi server primari e secondari.|
 ||Fornire prove dimostrabili quando i sistemi pubblici sono in uso, che i registri eventi di sicurezza vengono inviati a una soluzione di registrazione centralizzata non all'interno della rete perimetrale.|
@@ -1006,7 +1006,7 @@ Microsoft riconosce che distribuirai applicazioni e archivi il codice di app/com
 
 ![Flusso di lavoro](ProcessFlow.jpg)
 
-## <a name="learn-more"></a>Ulteriori informazioni
+## <a name="learn-more"></a>Per approfondire
 
 [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)  
 [Che cos'Microsoft 365'attestazione Publisher app?](~/docs/attestation.md)  

@@ -2,17 +2,17 @@
 title: Sicurezza e conformità delle app per Microsoft Teams - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/27/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.service: attestation
 description: Informazioni complete sulla sicurezza e conformità delle app per Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 1c270d05dad7fe1cd00b141ed20436ff61792131
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.openlocfilehash: 294453e0e22c2deb750a50a63467c7f35fa2bf4b
+ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609816"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772273"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft Teams
 
@@ -30,6 +30,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Alvao Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  |
 | [ApproveSimple](./capriza-inc-approvesimple.md) | Capriza, Inc | **✓** |  |
 | [Appspace](./appspace-inc.md) | Appspace, Inc. | **✓** |  |
+| [ArcGIS Maps](./esri-arcgis-maps.md) | Esri | **✓** |  |
 | [Asana](./asana.md) | Asana | **✓** |  |
 | [askR.ai](./askrai.md) | askR.ai | **✓** |  |
 | [Assembly](./carrothr-inc-assembly.md) | CarrotHR Inc. | **✓** |  |
@@ -98,6 +99,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Fusion Remote](./jujo-inc-fusion-remote.md) | Jujo Inc. | **✓** |  |
 | [GitHub](./microsoft-corporation-github.md) | Microsoft Corporation | **✓** |  |
 | [Go1](./go1.md) | Go1 | **✓** |  |
+| [Good4work](./good4work.md) | Good4work | **✓** |  |
 | [Goodera](./goodera.md) | Goodera | **✓** |  |
 | [Google Analytics Insights](./freevolut-ltd-google-analytics-insights.md) | Freevolut LTD | **✓** |  |
 | [GoToConnect](./logmein-inc-gotoconnect.md) | LogMeIn Inc. | **✓** |  |
@@ -156,6 +158,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [OpenAgora](./open-agora-openagora.md) | Open Agora | **✓** |  |
 | [Org@Work](./lundano-org@work.md) | Lundano | **✓** |  |
 | [Package Notifier](./qburst-technologies-pvt-ltd-package-notifier.md) | QBURST TECHNOLOGIES PVT LTD | **✓** |  |
+| [PandaDoc](./pandadoc.md) | PandaDoc | **✓** |  |
 | [Perfony](./perfony.md) | Perfony | **✓** |  |
 | [Piazza](./piazza.md) | Piazza | **✓** |  |
 | [Planyway Team Calendar](./rubius-planyway-team-calendar.md) | Rubius | **✓** |  |
@@ -177,6 +180,8 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Remind](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
 | [Reminderz](./chitchattr-reminderz.md) | ChitChattr | **✓** |  |
 | [Retro](./baltic-amadeus-retro.md) | Baltic Amadeus | **✓** |  |
+| [Rezolve.ai](./actionable-science-rezolveai.md) | Actionable Science | **✓** |  |
+| [Bot RFPIO](./rfpio-bot.md) | RFPIO | **✓** |  |
 | [RingCentral](./ringcentral-inc.md) | RingCentral, Inc. | **✓** |  |
 | [RowShare](./rowshare.md) | RowShare | **✓** |  |
 | [RSpace](./researchspace-rspace.md) | ResearchSpace | **✓** |  |
@@ -248,6 +253,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [VisualSP](./visualsp.md) | VisualSP | **✓** |  |
 | [Webex Call](./cisco-webex-call.md) | Cisco | **✓** |  |
 | [Wide Ideas](./wide-ideas.md) | Wide Ideas | **✓** |  |
+| [Wired2Perform](./wired2perform.md) | Wired2Perform | **✓** |  |
 | [Wisembly](./wisembly.md) | Wisembly | **✓** |  |
 | [Woobot](./woobot.md) | Woobot | **✓** |  |
 | [Workboard](./workboard.md) | Workboard | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

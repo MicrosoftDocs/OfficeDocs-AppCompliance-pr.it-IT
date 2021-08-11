@@ -1,43 +1,45 @@
 ---
-title: Informazioni sull'applicazione per ngDesk by All Blue Solutions
+title: Informazioni sull'applicazione per Wired2Perform di Wired2Perform
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/28/2021
+ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per ngDesk, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Wired2Perform, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a0d3f507338a8ef504df171542d0fa8c25c37efc
+ms.openlocfilehash: 53e25098f069130505add53c3e7b0d39d287e1ac
 ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772113"
+ms.locfileid: "53774966"
 ---
-# <a name="ngdesk"></a>ngDesk
+# <a name="wired2perform"></a>Wired2Perform
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: July 28, 2021</p>
+<p>Last updated by the developer on: June 1, 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200002505" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/b08f369e-4927-4c66-b997-e1086df7970d" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002935" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da All Blue Solutions a Microsoft:
+Informazioni fornite da Wired2Perform a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | ngDesk |
-| ID | WA200002505 |
-| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
-| Nome società partner | Tutte le soluzioni blu |
-| URL del sito Web del partner | [https://ngdesk.com](https://ngdesk.com) |
-| URL dell'informativa sulla privacy | [https://ngdesk.com/privacy-policy-office-365/](https://ngdesk.com/privacy-policy-office-365/) |
-| URL delle Condizioni per l'utilizzo | [https://ngdesk.com/terms-of-service/](https://ngdesk.com/terms-of-service/) |
+| Nome app | Wired2Perform |
+| ID | WA200002935 |
+| Office 365 client supportati | Microsoft Teams |
+| Nome società partner | Wired2Perform |
+| URL del sito Web del partner | [https://wired2perform.com](https://wired2perform.com) |
+| URL della pagina Teams informazioni sull'applicazione | [https://wired2perform.com](https://wired2perform.com) |
+| URL dell'informativa sulla privacy | [https://wired2perform.com/privacy-for-humans](https://wired2perform.com/privacy-for-humans) |
+| URL delle Condizioni per l'utilizzo | [https://wired2perform.com/terms-conditions](https://wired2perform.com/terms-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,7 +49,7 @@ Informazioni fornite da All Blue Solutions a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da All Blue Solutions su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Wired2Perform su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -55,6 +57,13 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >Questa applicazione non utilizza Microsoft Graph.
 
+#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
+
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+
+>| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| Microsoft Teams API | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
@@ -62,6 +71,11 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 
+#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
+
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
+
+>Non è possibile accedere all'UEII.
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -74,7 +88,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Non inviiamo dati ad altri sistemi partner
+>Queste informazioni non sono condivise, solo interne
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -90,9 +104,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/42198' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/42198" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -102,7 +116,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da All Blue Solutions sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Wired2Perform sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

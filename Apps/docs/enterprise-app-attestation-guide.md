@@ -6,12 +6,12 @@ description: Ulteriori dettagli sul programma di Publisher di attestazione
 keywords: app attestation certification 365 questionnaire appSource publisher
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 10b4bb59d26190535b9aa365c830db774f4865c063678fad02a10c73c6d1ef64
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526102"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54750456"
 ---
 # <a name="what-is-publisher-attestation"></a>Che cos'è Publisher attestazione?
 
@@ -70,7 +70,7 @@ Lo sviluppatore può esaminare informazioni dettagliate sui risultati dell'attes
 
 **Vedi la [presentazione MIPA](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas) per un esempio di app che ha completato la Publisher attestazione.** 
 
-## <a name="learn-more"></a>Ulteriori informazioni
+## <a name="learn-more"></a>Per approfondire
 
 * [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)
 * [Che cos'è Publisher verifica](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
