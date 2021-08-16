@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per MindMup di Sauf Pompiers Ltd
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2020
+ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per MindMup, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 070845caad3e4cb5ccc63b028f248e9c1724ce0b
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+description: Tutte le informazioni di sicurezza e conformità disponibili per MindMup, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 018079ed1d80c0ea3127734a504d56007d06d54e
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53524779"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243155"
 ---
 # <a name="mindmup"></a>MindMup
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 6, 2020</p>
+<p>Last updated by the developer on: August 9, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001759" target="_blank">Visualizzazione in AppSource</a>
@@ -37,6 +37,7 @@ Informazioni fornite da Sauf Pompiers Ltd a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Sauf Pompiers Ltd |
 | URL del sito Web del partner | [https://www.mindmup.com](https://www.mindmup.com) |
+| URL della pagina Teams informazioni sull'applicazione | [https://www.mindmup.com/tutorials/microsoft-teams.html](https://www.mindmup.com/tutorials/microsoft-teams.html) |
 | URL dell'informativa sulla privacy | [https://www.mindmup.com/resources/privacy_policy.html](https://www.mindmup.com/resources/privacy_policy.html) |
 | URL delle Condizioni per l'utilizzo | [https://www.mindmup.com/resources/terms_mindmup.html](https://www.mindmup.com/resources/terms_mindmup.html) |
 
@@ -52,18 +53,21 @@ Queste informazioni sono state fornite da Sauf Pompiers Ltd su come questa app r
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
->Questa applicazione non utilizza Microsoft Graph.
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Teams. ReadBasic.All | delegated | identificatori del team e nomi dei team per gli utenti | Per consentire agli utenti di condividere documenti con team di cui sono membri | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
+>| User.Read | delegated | Identificatore utente, indirizzo di posta elettronica da visualizzare dopo l'autenticazione | identifer utente, indirizzo di posta elettronica | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Sistemi di archiviazione AWS utilizzati per salvare in modo permanente le informazioni di base dei profili utente, per supportare la condivisione di documenti e l'accesso sicuro ai documenti degli utenti in MindMup |  | N/D |
+>| Sistemi di archiviazione AWS utilizzati per salvare in modo permanente le informazioni di base dei profili utente, per supportare la condivisione di documenti e l'accesso sicuro ai documenti degli utenti in MindMup | id tenant | controllo di accesso |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -110,3 +114,28 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da Sauf Pompiers Ltd su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione dei dati?  | Sì |
+| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
+| L'app supporta i criteri di accesso condizionale? | No |
+| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
+| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
+| L'app supporta la multi-tenancy? | Sì |
+| L'app dispone di un client riservato? | No |
+| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/><br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | No |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

@@ -1,45 +1,45 @@
 ---
-title: Informazioni sull'applicazione per Live Chat per finalità sociali
+title: Informazioni sull'applicazione per Chronus di Chronus
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/09/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Live Chat, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Chronus, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 52b8aa65ce11acbe157d61bd46a6f0fee67f9bc6
+ms.openlocfilehash: a64d282947363ef5bbc2ef218edcade22d719f01
 ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243547"
+ms.locfileid: "58242549"
 ---
-# <a name="live-chat"></a>Live Chat
+# <a name="chronus"></a>Chronus
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 9, 2021</p>
+<p>Last updated by the developer on: August 3, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/a55635a5-8def-48e7-bcff-230cd43d3405" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000440" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/bb32d4e5-ae29-4c59-ba7e-a11611ca9710" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003051" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Intenti sociali a Microsoft:
+Informazioni fornite da Chronus a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Live Chat |
-| ID | WA200000440 |
+| Nome app | Chronus |
+| ID | WA200003051 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Social Intents |
-| URL del sito Web del partner | [https://www.socialintents.com](https://www.socialintents.com) |
-| URL della Teams info dell'applicazione | [https://www.socialintents.com/teams-live-chat.jsp](https://www.socialintents.com/teams-live-chat.jsp) |
-| URL dell'informativa sulla privacy | [https://www.socialintents.com/privacy.html](https://www.socialintents.com/privacy.html) |
-| URL delle Condizioni per l'utilizzo | [https://www.socialintents.com/tos.html](https://www.socialintents.com/tos.html) |
+| Nome società partner | Chronus |
+| URL del sito Web del partner | [https://chronus.com](https://chronus.com) |
+| URL della Teams info dell'applicazione | [https://chronus.com/services](https://chronus.com/services) |
+| URL dell'informativa sulla privacy | [https://chronus.com/privacy-policy](https://chronus.com/privacy-policy) |
+| URL delle Condizioni per l'utilizzo | [https://chronus.com/service-terms-conditions](https://chronus.com/service-terms-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Informazioni fornite da Intenti sociali a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Intenti sociali su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Chronus su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -70,20 +70,20 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Quando un membro del team fa clic su Partecipa a chat, usiamo l'e-mail dei membri per identificare quale profilo agente ha accettato la chat. | I messaggi di posta elettronica e il nome del membro del team che ha accettato una chat live vengono archiviati in un database della cronologia delle chat. | Le informazioni vengono facoltativamente raccolte per l'uso da parte del cliente e possono essere disabilitate completamente dal cliente nelle impostazioni delle domande di pre-vendita in chat. |
+>| Per identificare e inviare notifiche agli utenti di MS Teams | ID Teams MS | Per inviare notifiche proattive agli utenti di MS Teams |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->La posta elettronica e il nome possono essere visualizzati nei registri giornalieri che vengono rimossi/eliminati ogni ora.
+>Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati vengono archiviati in un'istanza RDS protetta limitata da IP e 2FA.
+>Chronus raccoglie e gestisce in modo sicuro i dati del cliente per implementare e gestire il sistema per conto del cliente, solo per facilitare il portale di tutoraggio dei clienti. Chronus non esporta, archivia o possiede informazioni sui clienti separate dal portale di tutoraggio stesso. Nel caso in cui il cliente scesi o non rinnovi il contratto chronus Mentor Services, tutti i dati verranno eliminati dal sistema Chronus.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -99,9 +99,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35754' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37472' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35754" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37472" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,7 +111,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite dagli intenti sociali su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Chronus sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

@@ -1,45 +1,45 @@
 ---
-title: Informazioni sull'applicazione per SIGNL4 di Derdack SIGNL4
+title: Informazioni sull'applicazione per Marvel by Marvel
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per SIGNL4, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Marvel, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4cf1eae6ef533a1e744ca3c2968764fed0227d00
+ms.openlocfilehash: 8ba6c9b80db76c43793c42d2265fc563402e39cd
 ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243525"
+ms.locfileid: "58239742"
 ---
-# <a name="signl4"></a>SIGNL4
+# <a name="marvel"></a>Marvel
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 6, 2021</p>
+<p>Last updated by the developer on: June 22, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/bd19c878-00b7-47cd-9b65-74a2def84427" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001239" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/2e7fb70e-f75d-4e85-997e-90ce89000f43" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381801" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Derdack SIGNL4 a Microsoft:
+Informazioni fornite da Marvel a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | SIGNL4 |
-| ID | WA200001239 |
+| Nome app | Marvel |
+| ID | WA104381801 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Derdack SIGNL4 |
-| URL del sito Web del partner | [https://www.derdack.com](https://www.derdack.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.signl4.com](https://www.signl4.com) |
-| URL dell'informativa sulla privacy | [https://www.signl4.com/privacy-policy/](https://www.signl4.com/privacy-policy/) |
-| URL delle Condizioni per l'utilizzo | [https://www.signl4.com/terms_of_use/](https://www.signl4.com/terms_of_use/) |
+| Nome società partner | Marvel |
+| URL del sito Web del partner | [https://marvelapp.com](https://marvelapp.com) |
+| URL della pagina Teams informazioni sull'applicazione | [https://marvelapp.com](https://marvelapp.com) |
+| URL dell'informativa sulla privacy | [https://marvelapp.com/privacy/](https://marvelapp.com/privacy/) |
+| URL delle Condizioni per l'utilizzo | [https://marvelapp.com/terms/](https://marvelapp.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Informazioni fornite da Derdack SIGNL4 a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Derdack SIGNL4 su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Marvel su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -60,11 +60,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutti gli OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Recurly, Twilio | L'indirizzo di posta elettronica e l'indirizzo di posta elettronica sono necessari per inviare notifiche di fatturazione al cliente quando usa l'app. Twilio, numeri di telefono, avviso del contenuto per l'invio di avvisi tramite SMS SMS | API di gestione di Azure, vengono raccolti gli avvisi di Monitoraggio di Azure, la raccolta avviene perché i sistemi inviano notifiche per tali avvisi |
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -77,14 +75,13 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Le informazioni sull'indirizzo di posta elettronica sono contenute nei registri. Nei registri possono essere inclusi anche ulteriori dati del contenuto degli avvisi, inviati dall'organizzazione. Per evitare questo problema, l'organizzazione può terminare l'account nell'app.
-I dati nei log sono necessari per il supporto e la risoluzione dei problemi che il cliente ha con l'app.
+>Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati vengono archiviati nel data center di Azure in Europa. L'accesso è possibile per gli amministratori. 2FA con autenticazione AAD. Le chiavi di accesso agli account di archiviazione vengono utilizzate anche per gestire l'accesso.
+>Tutti i sistemi partner vengono sincronizzati con le responsabilità del GDPR con script automatizzati e integrazioni gestite dal team dei clienti.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -100,9 +97,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35955' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/32883' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35955" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/32883" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,23 +109,22 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Derdack SIGNL4 sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Marvel su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
-| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione dei dati?  | Sì |
+| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
 | Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | Sì |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/><br/> |
 | L'app espone qualsiasi API Web? | Sì |
 | Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
-| La tua app usa le API di anteprima? | No |
+| La tua app usa le API di anteprima? | Sì |
 | L'app usa API deprecate? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

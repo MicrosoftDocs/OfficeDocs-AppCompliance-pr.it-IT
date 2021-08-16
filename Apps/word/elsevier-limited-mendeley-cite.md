@@ -1,45 +1,43 @@
 ---
-title: Application Information for Smartnotation by Smartnotation B.V.
+title: Application Information for Mendeley Cite by ELSEVIER LIMITED
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/09/2021
+ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Smartnotation, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Mendeley Cite, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4b64237390587a005373b02901a11694f15c37d6
+ms.openlocfilehash: e6fd3ba9f600549aba80beb00738c6bd529eb18b
 ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58239761"
+ms.locfileid: "58242559"
 ---
-# <a name="smartnotation"></a>Smartnotation
+# <a name="mendeley-cite"></a>Mendeley Cite
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 9, 2021</p>
+<p>Last updated by the developer on: August 5, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/424b1333-fbf0-4941-acbe-336bf1f316ae" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000681" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104382081" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Smartnotation B.V. a Microsoft:
+Informazioni fornite da ELSEVIER LIMITED a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Smartnotation |
-| ID | WA200000681 |
-| Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Smartnotation B.V. |
-| URL del sito Web del partner | [https://www.smartnotation.com/landing/](https://www.smartnotation.com/landing/) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.smartnotation.com/landing/integrations/](https://www.smartnotation.com/landing/integrations/) |
-| URL dell'informativa sulla privacy | [https://www.smartnotation.com/public/privacy_policy.pdf](https://www.smartnotation.com/public/privacy_policy.pdf) |
-| URL delle Condizioni per l'utilizzo | [https://www.smartnotation.com/public/tos.pdf](https://www.smartnotation.com/public/tos.pdf) |
+| Nome app | Mendeley Cite |
+| ID | WA104382081 |
+| Office 365 client supportati | Word su iPad, Word 2016 o versioni successive su Windows, Word 2016 o versioni successive su Mac, Word sul web |
+| Nome società partner | ELSEVIER LIMITED |
+| URL del sito Web del partner | [https://www.mendeley.com/search/](https://www.mendeley.com/search/) |
+| URL dell'informativa sulla privacy | [https://www.elsevier.com/legal/privacy-policy](https://www.elsevier.com/legal/privacy-policy) |
+| URL delle Condizioni per l'utilizzo | [https://www.mendeley.com/terms/](https://www.mendeley.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +47,7 @@ Informazioni fornite da Smartnotation B.V. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Smartnotation B.V. informazioni su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da ELSEVIER LIMITED su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -57,6 +55,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 >Questa applicazione non utilizza Microsoft Graph.
 
+#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
+
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+
+>| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| Word JavaScript API | No |  |  |  |  |
+>| Office API JavaScript per componenti aggiuntivi | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
@@ -64,30 +70,25 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 
-#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
-
-Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
-
->Non è possibile accedere all'UEII.
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->N/D
+>Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati vengono crittografati. Solo 2 amministratori possono accedervi, la 2FA è impostata per tutti gli amministratori, i criteri di durata delle password sono in atto.
+>n/d
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
 Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
 
->No
+>Sì
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -97,9 +98,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35839' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/33852' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35839" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/33852" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -109,7 +110,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Smartnotation B.V. informazioni su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da ELSEVIER LIMITED sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

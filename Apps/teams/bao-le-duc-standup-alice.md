@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per Standup Alice di Bao Le Duc
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Standup Alice, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 150d837b130b6ad2e75ddc0f8da82a1b90c2621f
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Standup Alice, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 5d1d075f16fed6e0a0029e3c90050068ca5bf9b5
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525870"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243532"
 ---
 # <a name="standup-alice"></a>Standup Alice
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: August 10, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/724b774e-aa53-4d2d-885b-6008c114cb37" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000758" target="_blank">Visualizzazione in AppSource</a>
@@ -37,6 +37,7 @@ Informazioni fornite da Bao Le Duc a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Bao Le Duc |
 | URL del sito Web del partner | [https://www.standupalice.com](https://www.standupalice.com) |
+| URL della Teams info dell'applicazione | [https://www.standupalice.com](https://www.standupalice.com) |
 | URL dell'informativa sulla privacy | [https://www.standupalice.com/privacy](https://www.standupalice.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.standupalice.com/terms](https://www.standupalice.com/terms) |
 
@@ -52,7 +53,7 @@ Queste informazioni sono state fornite da Bao Le Duc su come questa app raccogli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -61,9 +62,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti gli OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Google Cloud: il bot viene ospitato su Google Cloud |  | N/D |
+>| Google Cloud: il bot viene ospitato su Google Cloud | Microsoft Teams TeamId di Microsoft Teams | È necessario TeamId per identificare il Microsoft Teams &quot; team &quot; |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -71,14 +72,14 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Usiamo il nome visualizzato per visualizzare nell'app Web e nei report di supporto per renderlo significativo. Microsoft potrebbe comunicare con Teams amministratore in caso di pagamento gratuito. | Nome visualizzato e indirizzo di posta elettronica. |  |
+>| Usiamo il nome visualizzato per visualizzare nell'app Web e nei report di supporto per renderlo significativo. Microsoft potrebbe comunicare con Teams amministratore in caso di pagamento gratuito. | Nome visualizzato e indirizzo di posta elettronica. | Usiamo il nome visualizzato e l'indirizzo di posta elettronica per creare rapporti di supporto giornalieri.  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->No, non registriamo questo tipo di dati
+>Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -108,3 +109,16 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da Bao Le Duc su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
