@@ -2,21 +2,21 @@
 title: Sicurezza e conformità degli ID app di Azure - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/13/2021
+ms.date: 08/14/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutti gli ID app di Azure.
 localization_priority: Normal
-ms.openlocfilehash: 16c783016cc638854c592326bc737923851577c0
-ms.sourcegitcommit: 89e0443433dfa6a727a657ca5962af8d4f8d3d58
+ms.openlocfilehash: 6615a45f9a39256157d742cf34d90864c82f798c
+ms.sourcegitcommit: bdc1c8f8fdd6592cfbb59c8a7cf38477bca26e2a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58343484"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58376946"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Sicurezza e conformità degli ID app di Azure
 
-Microsoft collabora con i partner Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative agli ID app di Azure e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i nostri Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni sugli ID app di Azure e sui componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **Azure App ID** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:-------------:|
