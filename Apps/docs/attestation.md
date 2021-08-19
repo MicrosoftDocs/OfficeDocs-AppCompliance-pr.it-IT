@@ -2,16 +2,16 @@
 title: Attestazione Publisher completa
 author: LGerrard
 ms.author: legerrar
-description: Ulteriori informazioni sul programma di Publisher di attestazione
+description: Ulteriori informazioni sul programma Publisher attestazione
 keywords: app attestation certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: ad059066c4685cf72e5d0b76b10b5d9ca22b6df9
-ms.sourcegitcommit: dc086ac579e488a38bad3dad10037d43af7efd55
+ms.openlocfilehash: 286d14e580bdb9f24ccf1754685ebeeaef6d0c11
+ms.sourcegitcommit: eae0e45c87fa8f1a87257e1e38122228e6970ba9
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 08/18/2021
-ms.locfileid: "58385872"
+ms.locfileid: "58390460"
 ---
 # <a name="complete-publisher-attestation"></a>Attestazione Publisher completa
 
@@ -32,12 +32,12 @@ Publisher L'attestazione si applica alle app Web (app SaaS pubblicate tramite ma
 
 
 ## <a name="program-benefits"></a>Vantaggi del programma
-- Risparmio di tempo. Puntare i clienti alla pagina dei documenti in cui possono trovare le risposte alle domande frequenti sull'applicazione
-- Accelerazione della tempistica di revisione interna di sicurezza e conformità di un'organizzazione aziendale
-- Maggiore trasparenza
-- Differenziazione dalle altre app nello Store 
-- Collegamento alla pagina dei documenti dalla voce in AppSource, nell'interfaccia di amministrazione di Teams, nell'interfaccia di amministrazione di Microsoft e Teams Store 
-- Qualificazione per l'avvio della Microsoft 365 di certificazione
+- Risparmio di tempo. Indica ai tuoi clienti la pagina dei documenti in cui possono trovare le risposte alle domande frequenti sulla tua applicazione.
+- Accelerazione della tempistica di revisione interna di sicurezza e conformità di un'organizzazione aziendale.
+- Maggiore trasparenza.
+- Differenziazione dalle altre app nello Store. 
+- Collegamento alla pagina dei documenti dalla voce in AppSource, nell'interfaccia di amministrazione di Teams, nell'interfaccia di amministrazione di Microsoft e Teams Store. 
+- Qualificazione per avviare la Microsoft 365 certificazioni.
  
 
 ## <a name="publisher-attestation-process"></a>Publisher Processo di attestazione
@@ -62,11 +62,11 @@ Ad esempio, *vedi Microsoft Teams* [sicurezza e conformità delle app](../teams/
    Se l'attestazione Publisher non viene rinnovata prima della data di scadenza, lo stato dell'attestazione delle app verrà revocato e l'attestazione Publisher verrà rimossa dalle pagine dei documenti Microsoft. 
 
 >[!IMPORTANT]
->Partecipando al programma di attestazione di Publisher, l'utente accetta queste condizioni supplementari e si conforma a qualsiasi documentazione relativa alla partecipazione al programma di attestazione di Publisher con Microsoft Corporation ("Microsoft", "microsoft", "noi" o "nostro"). L'utente rappresenta e garantisce a Microsoft di avere l'autorità di accettare questi termini supplementari di attestazione Publisher per conto di se stessi, di una società e/o di un'altra entità, a seconda dei casi. Microsoft può modificare, modificare o terminare questi termini supplementari in qualsiasi momento. La tua continua partecipazione al Publisher di attestazione dopo qualsiasi modifica o modifica significa che accetti i nuovi termini supplementari. Se non accetti i nuovi termini supplementari o termini queste condizioni, devi smettere di partecipare al programma di Publisher attestazione.
+>Partecipando al programma di attestazione di Publisher, l'utente accetta queste condizioni supplementari e si conforma a qualsiasi documentazione relativa alla partecipazione al programma di attestazione di Publisher con Microsoft Corporation ("Microsoft", "microsoft", "noi" o "nostro"). L'utente rappresenta e garantisce a Microsoft di avere l'autorità di accettare queste condizioni supplementari di attestazione Publisher per conto di se stessi, di una società e/o di un'altra entità, a seconda dei casi. Microsoft può modificare, modificare o terminare questi termini supplementari in qualsiasi momento. La tua continua partecipazione al Publisher di attestazione dopo qualsiasi modifica o modifica significa che accetti i nuovi termini supplementari. Se non accetti i nuovi termini supplementari o termini queste condizioni, devi smettere di partecipare al programma di Publisher attestazione.
 
 ## <a name="learn-more"></a>Ulteriori informazioni
 
 * [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)  
 * [Verifica Publisher completa](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
-* [Che cos'è Publisher attestazione?](~/docs/enterprise-app-attestation-guide.md)  
+* [Che cos'Publisher attestazione?](~/docs/enterprise-app-attestation-guide.md)  
 * [Certificazione Microsoft 365 completa](~/docs/certification.md)
