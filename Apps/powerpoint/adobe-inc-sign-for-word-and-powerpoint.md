@@ -6,14 +6,14 @@ ms.date: 02/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Adobe Sign per Word e PowerPoint, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Adobe Sign per Word e PowerPoint, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 81a0012ebbc0e77af0fee9fa73a22f187972d13c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: ca8f1f0aba2f18c81c76cb50d8d76cb2e86efa84
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527852"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672213"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign per Word e PowerPoint
 
@@ -32,7 +32,7 @@ Informazioni fornite da Adobe Inc. a Microsoft:
 |:----------------|:-------------|
 | Nome app | Adobe Sign per Word e PowerPoint |
 | ID | WA104381155 |
-| Office 365 client supportati | Word 2016 o versione successiva su Mac, PowerPoint 2013 Service Pack 1 o versione successiva su Windows, Word 2013 Service Pack 1 o versione successiva su Windows, Word sul web, PowerPoint sul web, PowerPoint 2016 o versioni successive su Mac |
+| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 Service Pack 1 o versione successiva su Windows, PowerPoint 2016 o versioni successive su Mac, PowerPoint sul web, PowerPoint 2013 Service Pack 1 o versione successiva su Windows |
 | Nome società partner | Adobe Inc. |
 | URL del sito Web del partner | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | URL dell'informativa sulla privacy | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
@@ -50,7 +50,7 @@ Queste informazioni sono state fornite da Adobe Inc. Su come questa app raccogli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -93,7 +93,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11641' frameborder='no' style='width: 100%;'></iframe>
 
@@ -107,7 +107,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Adobe Inc. Sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Adobe Inc. Su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

@@ -2,21 +2,21 @@
 title: Sicurezza e conformità delle app SaaS - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/11/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 966248f8beca85ba64ab3eb38082218f1a73001f
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.openlocfilehash: 567c93c64f94ed6721b7a9d62793c768035301ae
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58239723"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672873"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sicurezza e conformità delle app SaaS
 
-Microsoft collabora con i Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app SaaS e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app SaaS e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|

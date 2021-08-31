@@ -2,23 +2,23 @@
 title: Informazioni sull'applicazione per iGlobe CRM Add-ons by iGlobe
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/17/2020
+ms.date: 08/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per i Componenti aggiuntivi CRM iGlobe, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per i Componenti aggiuntivi CRM iGlobe, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 67cfb36f4720e72e6cbd284aa86d5d7da4c785cb
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 3d5551ff00fa5439329176cf412a45d0490d6d64
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53522199"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672653"
 ---
 # <a name="iglobe-crm-add-ons"></a>iGlobe CRM Add-ons
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: November 17, 2020</p>
+<p>Last updated by the developer on: August 12, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200002010" target="_blank">Visualizzazione in AppSource</a>
 
@@ -58,9 +58,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Contacts.ReadWrite | delegated |  Directory.AccessAsUser.All | Consente all'app di avere lo stesso accesso alle informazioni nella directory dell'utente connesso. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 >| Directory.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Verificare l'autorizzazione e ottenere i siti e gli elenchi. Crea cartelle, ottieni i file e salva i file. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 >| Directory.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Consente all'app di avere lo stesso accesso alle informazioni nella directory dell'utente connesso. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Files.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint, raccolte e file. Per salvare file e dati in SharePoint elenchi. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Group.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint, raccolte e file. Per salvare i file in SharePoint elenchi. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
->| Group.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint, raccolte e file. Per salvare i file in SharePoint elenchi. Integrazione in iGlobe CRM Office 365 | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Files.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint elenco, raccolte e file. Per salvare file e dati in SharePoint elenchi. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint elenco, raccolte e file. Per salvare i file in SharePoint elenchi. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint elenco, raccolte e file. Per salvare i file in SharePoint elenchi. Integrazione in iGlobe CRM Office 365 | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 >| Mail.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Svae the eamil to iGlobe CRM and get informatiopn from iGlobe to a new e-amil | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 >| Sites.Manage.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Creare, modificare ed eliminare elementi ed elenchi in iGlobe CRM | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 >| Sites.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Leggere gli elementi in iGlobe CRM | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
@@ -70,7 +70,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione . Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -143,7 +143,7 @@ Queste informazioni sono state fornite da iGlobe sul modo in cui questa app gest
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | Sì |
 | Elencare i tipi di criteri supportati | Impostazioni predefinite di sicurezza e qualsiasi altro criterio comune come Blocca autenticazione legacy* Richiedi MFA per gli amministratori* Richiedi MFA per la gestione di Azure* Richiedi MFA per tutti gli utenti* |

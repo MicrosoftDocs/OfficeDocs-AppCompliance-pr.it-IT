@@ -2,26 +2,27 @@
 title: Microsoft Excel Sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/11/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le Microsoft Excel app.
 localization_priority: Normal
-ms.openlocfilehash: d8030712f76cdff731c7ff17c94e2e89c5def494
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.openlocfilehash: b039a772748821cad11fbb8d0f9d65e94b544cc5
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243460"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672883"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel Sicurezza e conformità delle app
 
-Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app Microsoft Excel e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app Microsoft Excel e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
+| [Canon EMEA Service Cost Calculator per i partner B2B](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
 | [CloudExtend Analytics for NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | Celigo CloudExtend | **✓** |  |
-| [Excel automazione documenti da Excel word a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
+| [Excel documenti da Excel a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [harmon.ie per Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Strumento di reporting iPlanner per Office 365 Planner](./iglobe-iplanner-reporting-tool-for-office-365-planner.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Jira Cloud per Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |

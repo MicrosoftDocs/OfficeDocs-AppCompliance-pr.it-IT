@@ -2,23 +2,23 @@
 title: Informazioni sull'applicazione per LMS365 di ELEARNINGFORCE International
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/18/2021
+ms.date: 07/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni di sicurezza e conformità disponibili per LMS365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per LMS365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4a4690496c4da8fd31de70bfa796d15d73dba844
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 5a88349d6fa62769d528c66baeb428b791a007b0
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521769"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672743"
 ---
 # <a name="lms365"></a>LMS365
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: March 18, 2021</p>
+<p>Last updated by the developer on: July 28, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/d136f17e-df84-47f2-97a4-13aa24c0c647" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381467" target="_blank">Visualizzazione in AppSource</a>
@@ -36,7 +36,7 @@ Informazioni fornite da ELEARNINGFORCE International a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | ELEARNINGFORCE International |
 | URL del sito Web del partner | [https://www.elearningforce.com](https://www.elearningforce.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
+| URL della Teams info dell'applicazione | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
 | URL dell'informativa sulla privacy | [https://www.elearningforce.com/privacy](https://www.elearningforce.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.elearningforce.com/LMS365-SaaS-Terms](https://www.elearningforce.com/LMS365-SaaS-Terms) |
 
@@ -56,18 +56,19 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| GroupMember.Read.All | application | Nessuno | Consente all'app di espandere i membri del gruppo di Active Directory, necessari per registrare un gruppo di utenti ai corsi. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| GroupMember.Read.All | application | Nessuno | Consente all'app di espandere i membri del gruppo AD, che è necessario registrare ai corsi. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| Mail.Send | delegated | Nessuno | L'autorizzazione viene richiesta in modo dinamico durante la configurazione dell'account di posta elettronica per la notifica. Consente all'app di inviare messaggi di posta elettronica di notifica | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| OnlineMeetings.ReadWrite | delegated | L'autorizzazione viene richiesta in modo dinamico durante la configurazione dell'account di posta elettronica per la notifica. Consente a un'app di creare e leggere riunioni online | L'URL della riunione online viene archiviato come riferimento nell'entità sessione del corso | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| RoleManagement.Read.Directory | application | Nessuno | Consente all'app di ottenere SharePoint dominio durante il provisioning del tenant. Il dominio viene utilizzato per la creazione di URL. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| User.Invite.All | delegated | Nessuno | Consente all'app di invitare utenti esterni per conto dell'utente attualmente connesso | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| User.Read | delegated | Nessuno | Accedere e leggere il profilo utente. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| User.Read.All | delegated | Nessuno | Consente all'app di leggere il profilo completo dell'utente attualmente connesso. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| User.Read.All | application | Consente all'app di leggere il profilo utente completo. È&#8217;necessario leggere gli utenti&#8217; manager per creare report gerarchia. | I dati personali seguenti vengono archiviati in un database dedicato per il rispettivo cliente utilizzato per la funzionalità dashboard di Learner Management &amp; Manager all'interno dell'applicazione. Account Name, User Display Name, Email Address, Department, Job Title, Office, Country, City, Manager ID/Email | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | application | Consente all'app di leggere il profilo utente completo. È&#8217;necessario leggere gli utenti&#8217; manager per creare report di gerarchia. | I dati personali seguenti vengono archiviati in un database dedicato per il rispettivo cliente utilizzato per la funzionalità dashboard di Learner Management &amp; Manager all'interno dell'applicazione. Account Name, User Display Name, Email Address, Department, Job Title, Office, Country, City, Manager ID/Email | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| profilo | delegated | Nessuno | Visualizzare il profilo di base dell'utente. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione . Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -112,7 +113,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35695' frameborder='no' style='width: 100%;'></iframe>
 

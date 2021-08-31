@@ -6,14 +6,14 @@ ms.date: 02/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Adobe Sign per Word e PowerPoint, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Adobe Sign per Word e PowerPoint, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 81a0012ebbc0e77af0fee9fa73a22f187972d13c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: ca8f1f0aba2f18c81c76cb50d8d76cb2e86efa84
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527502"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672493"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign per Word e PowerPoint
 
@@ -32,7 +32,7 @@ Informazioni fornite da Adobe Inc. a Microsoft:
 |:----------------|:-------------|
 | Nome app | Adobe Sign per Word e PowerPoint |
 | ID | WA104381155 |
-| Office 365 client supportati | Word 2016 o versione successiva su Mac, PowerPoint 2013 Service Pack 1 o versione successiva su Windows, Word 2013 Service Pack 1 o versione successiva su Windows, Word sul web, PowerPoint sul web, PowerPoint 2016 o versioni successive su Mac |
+| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 Service Pack 1 o versione successiva su Windows, PowerPoint 2016 o versione successiva su Mac, PowerPoint sul web, PowerPoint 2013 Service Pack 1 o versione successiva su Windows |
 | Nome società partner | Adobe Inc. |
 | URL del sito Web del partner | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | URL dell'informativa sulla privacy | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
@@ -107,12 +107,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Adobe Inc. Sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Adobe Inc. Su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
