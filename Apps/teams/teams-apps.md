@@ -2,17 +2,17 @@
 title: Sicurezza e conformità delle app per Microsoft Teams - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 description: Informazioni complete sulla sicurezza e conformità delle app per Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 3004b8debc30e8bab2f26f149a276b7b70ce86c3
-ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
+ms.openlocfilehash: 72b6bbd87bd01116735911edb6ec6077753fd659
+ms.sourcegitcommit: 90e6c1e10d55dc337c0884b63782cc14cf71b3c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58672853"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58836007"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft Teams
 
@@ -156,6 +156,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  |
 | [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  |
+| [In caso di crisi](./rockdove-solutions-inc-in-case-of-crisis.md) | RockDove Solutions, Inc. | **✓** |  |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Industry Intelligence Team | **✓** |  |
 | [InStation](./developers-invillia-instation.md) | Developers Invillia | **✓** |  |
 | [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  |
@@ -198,6 +199,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [monday.com](./mondaycom.md) | monday.com | **✓** |  |
 | [Monitask](./fest-technologies-llc-monitask.md) | FEST Technologies, LLC | **✓** |  |
 | [Move Work Forward with Jira](./move-work-forward-with-jira.md) | Move Work Forward | **✓** |  |
+| [LTAPP processo di approvazione multipla](./ltapps-software-coltd-multi-approval-process.md) | LTAPPs SOFTWARE CO.,LTD | **✓** |  |
 | [MURAL](./mural.md) | MURAL | **✓** |  |
 | [Mybys](./facilis-mybys.md) | Facilis | **✓** |  |
 | [Myfone](./flexfone-myfone.md) | Flexfone | **✓** |  |
@@ -210,6 +212,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [netDocShare](./kl-software-technologies-netdocshare.md) | KL Software Technologies | **✓** |  |
 | [NewCOS](./newtech-newcos.md) | Newtech | **✓** |  |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | Tutte le soluzioni blu | **✓** |  |
+| [NickNack](./nicknack-ltd.md) | NickNack Ltd. | **✓** |  |
 | [Now Virtual Agent](./servicenow-now-virtual-agent.md) | ServiceNow | **✓** |  |
 | [Nugget](./panviva-nugget.md) | Panviva | **✓** |  |
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  |
@@ -258,6 +261,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [RowShare](./rowshare.md) | RowShare | **✓** |  |
 | [RSpace](./researchspace-rspace.md) | ResearchSpace | **✓** |  |
 | [Saberr](./saberr.md) | Saberr | **✓** |  |
+| [Spazi sicuri](./ecare-vault-inc-safe-spaces.md) | eCare Vault Inc. | **✓** |  |
 | [Sailpoint](./sailpoint-technologies-inc.md) | SailPoint Technologies, Inc. | **✓** |  |
 | [SalesTim](./salestim.md) | SalesTim | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ScanBuddy.ai](./moblizeit-llc-scanbuddyai.md) | Moblize.it LLC | **✓** |  |
@@ -356,8 +360,10 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [WorkJam Schedule](./workjam-schedule.md) | WorkJam | **✓** |  |
 | [WorkplaceBuddy](./workplacebuddy.md) | WorkplaceBuddy | **✓** |  |
 | [Wunder365](./jiji-technologies-pvt-ltd-wunder365.md) | JiJi Technologies Pvt Ltd | **✓** |  |
+| [X0PA ROOM](./x0pa-ai-singapore-room.md) | X0PA AI Singapore | **✓** |  |
 | [YAROOMS](./yarooms.md) | YAROOMS | **✓** |  |
 | [Yeeflow](./akmii-yeeflow.md) | Akmii | **✓** |  |
+| [Zignals](./alight-zignals.md) | Alight | **✓** |  |
 | [Zoho CRM](./zoho-corporation-pvt-ltd-crm.md) | Zoho Corporation Pvt Ltd | **✓** |  |
 | [Zoho Desk](./zoho-corporation-private-limited-desk.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho Notebook](./zoho-corporation-private-limited-notebook.md) | Zoho Corporation Private Limited | **✓** |  |
