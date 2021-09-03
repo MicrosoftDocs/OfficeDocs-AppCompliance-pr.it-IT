@@ -2,17 +2,17 @@
 title: Microsoft Word Sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le Microsoft Word app.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte Microsoft Word app.
 localization_priority: Normal
-ms.openlocfilehash: d87b12f87692d7cc77304bb52f1b0acdef246632
-ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
+ms.openlocfilehash: 678fff6a13edb78eebd2dc28dbefe26b34731e31
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58672903"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58873031"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Sicurezza e conformità delle app
 
@@ -21,9 +21,10 @@ Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire all
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign per Word e PowerPoint](./adobe-inc-sign-for-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [CocoFax - Invio di fax facile da &amp; proteggere](./missing-cocofax-sending-fax-made-easy-and-secure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
-| [Excel documenti da Excel a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
-| [Componente aggiuntivo Office Cloud Fabasoft](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
+| [CocoFax - Invio di fax facile da &amp; proteggere](./cocofax-sending-fax-made-easy-and-secure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
+| [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
+| [Excel automazione documenti da Excel word a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
+| [Componente aggiuntivo Office Fabasoft Cloud](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
 | [harmon.ie per Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
 | [Assistente contratto Loio](./loio-inc-contract-assistant.md) | Loio Inc. | **✓** |  |

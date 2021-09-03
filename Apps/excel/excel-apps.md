@@ -2,17 +2,17 @@
 title: Microsoft Excel Sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le Microsoft Excel app.
 localization_priority: Normal
-ms.openlocfilehash: b039a772748821cad11fbb8d0f9d65e94b544cc5
-ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
+ms.openlocfilehash: db1cee3dbc08e6bcbf3e4ece40f4ee916e058f2d
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58672883"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58873041"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel Sicurezza e conformità delle app
 
@@ -22,7 +22,7 @@ Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire all
 |:--------|:------------|:----------------------:|:-------------:|
 | [Canon EMEA Service Cost Calculator per i partner B2B](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
 | [CloudExtend Analytics for NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | Celigo CloudExtend | **✓** |  |
-| [Excel documenti da Excel a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
+| [Excel automazione documenti da Excel word a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [harmon.ie per Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Strumento di reporting iPlanner per Office 365 Planner](./iglobe-iplanner-reporting-tool-for-office-365-planner.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Jira Cloud per Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |

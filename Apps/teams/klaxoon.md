@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per Klaxoon di Klaxoon
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/15/2020
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Klaxoon, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e55059ec1274476e4234a5347b3f56065eb6e0c3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+description: Tutte le informazioni di sicurezza e conformità disponibili per Klaxoon, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 146f6faa9874719bdf42397f8419ced0415a8add
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525530"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58873451"
 ---
 # <a name="klaxoon"></a>Klaxoon
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 15, 2020</p>
+<p>Last updated by the developer on: August 31, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/6adc8d55-eb37-4537-a66d-743b3cd4511b" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104382058" target="_blank">Visualizzazione in AppSource</a>
@@ -37,8 +37,9 @@ Informazioni fornite da Klaxoon a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Klaxoon |
 | URL del sito Web del partner | [https://klaxoon.com](https://klaxoon.com) |
-| URL dell'informativa sulla privacy | [https://klaxoon.com/privacy-policy](https://klaxoon.com/privacy-policy) |
-| URL delle Condizioni per l'utilizzo | [https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06...](https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06814d1c3354495b2.pdf) |
+| URL della Teams info dell'applicazione | [https://klaxoon.com](https://klaxoon.com) |
+| URL dell'informativa sulla privacy | [https://klaxoon.com/legal](https://klaxoon.com/legal) |
+| URL delle Condizioni per l'utilizzo | [https://static.klaxoon.com/website/pdf/eula.pdf](https://static.klaxoon.com/website/pdf/eula.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,18 +53,18 @@ Queste informazioni sono state fornite da Klaxoon sul modo in cui questa app rac
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Nessuno |  | Nessuno |
+>| zendesk | nome di dominio | customer relationship management, centro assistenza |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -71,20 +72,20 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Usiamo l'elenco per personalizzare la risposta dell'utente. Ad esempio: Hello {{givenName}}, grazie per la tua domanda! | No |  |
+>| Usiamo l'elenco per personalizzare la risposta dell'utente. Ad esempio: Hello {{givenName}}, grazie per la tua domanda! | firstname, lastname, avatar, email and password (depending if delegated SSO or not). | gestione degli account utente |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->sì
+>access and error logs for debug purpose including : ip address,email Offline logs are encrypted and archived for one year. I log online vengono conservati un mese
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Archiviati in sistemi Klaxoon Cloud. Crittografia in pausa. L'accesso ai server Klaxoon è limitato a uno specifico intervallo di indirizzi IP in modalità HTTPS/SSH (chiave SSH + passphrase). Questo accesso è possibile solo tramite un bastion univoco.
+>I dati vengono conservati per tutta la durata dell'attivazione dell'account. L'eliminazione e/o il recupero dei dati in formato flat (pdf, xlsx, csv, immagini) o in formato Klaxoon (.klx) è disponibile in qualsiasi momento tramite l'applicazione stessa. È manuale e sotto la responsabilità del proprietario, unico titolare delle credenziali per accedervi. Una volta disattivato l'account, l'accesso utente viene chiuso.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -98,7 +99,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36053' frameborder='no' style='width: 100%;'></iframe>
 
@@ -108,3 +109,28 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da Klaxoon sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
+| L'app supporta i criteri di accesso condizionale? | No |
+| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | No |
+| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
+| L'app supporta la multi-tenancy? | Sì |
+| L'app dispone di un client riservato? | Sì |
+| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
+| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | No |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
