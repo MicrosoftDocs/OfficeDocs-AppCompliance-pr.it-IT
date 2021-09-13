@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Woobot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a90381852e60e09402b766607413154b8da11704
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528052"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283609"
 ---
 # <a name="woobot"></a>Woobot
 
@@ -37,7 +37,7 @@ Informazioni fornite da Woobot a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Woobot |
 | URL del sito Web del partner | [https://woobot.io](https://woobot.io) |
-| URL della pagina Teams informazioni sull'applicazione | [https://woobot.io/support](https://woobot.io/support) |
+| URL della Teams info dell'applicazione | [https://woobot.io/support](https://woobot.io/support) |
 | URL dell'informativa sulla privacy | [https://woobot.io/privacy](https://woobot.io/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://woobot.io/terms](https://woobot.io/terms) |
 
@@ -70,7 +70,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Per mappare gli utenti di Salesforce Teams utenti, è necessario un elenco di ID utente del team. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. Inoltre, archiviamo quali ID utente del team sono stati graditi dall'app e quali no, in modo che quando un nuovo utente entra a far parte di un team, woobot possa personalmente accogliere l'utente. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. |  ID utente, ID team e nome del team, ID canale e nome del canale e di quali utenti sono membri Teams. |  |
+>| Per mappare gli utenti di Salesforce Teams utenti, è necessario un elenco di ID utente del team. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. Inoltre, archiviamo quali ID utente del team sono stati graditi dall'app e quali no, in modo che quando un nuovo utente entra a far parte di un team, woobot possa personalmente accogliere tale utente. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. |  ID utente, ID team e nome del team, ID canale e nome del canale e gli utenti di cui sono membri Teams. |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria

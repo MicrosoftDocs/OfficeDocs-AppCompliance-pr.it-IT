@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Kronos, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3a20e3a40ce61d6610b6f36e4c2943da1e9293d2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552997"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282978"
 ---
 # <a name="kronos"></a>Kronos
 
@@ -37,7 +37,7 @@ Informazioni fornite da Kronos, Inc. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Kronos, Inc. |
 | URL del sito Web del partner | [https://www.kronos.com/](https://www.kronos.com/) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.kronos.com/contact/en-us/form](https://www.kronos.com/contact/en-us/form) |
+| URL della Teams info dell'applicazione | [https://www.kronos.com/contact/en-us/form](https://www.kronos.com/contact/en-us/form) |
 | URL dell'informativa sulla privacy | [https://www.kronos.com/privacy-policy](https://www.kronos.com/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.kronos.com/terms-of-use](https://www.kronos.com/terms-of-use) |
 
@@ -49,7 +49,7 @@ Informazioni fornite da Kronos, Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Kronos, Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Kronos, Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -75,7 +75,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Viene archiviato solo nel sistema di gestione tenant separato da Teams
+>Questo viene archiviato solo nel sistema di gestione tenant separato da Teams
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -90,7 +90,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/17313' frameborder='no' style='width: 100%;'></iframe>
 

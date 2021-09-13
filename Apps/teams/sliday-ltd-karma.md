@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Karma, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a7603ed4676653b26d93027e5c3e3d47065e83db
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53524694"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281143"
 ---
 # <a name="karma"></a>Karma
 
@@ -37,7 +37,7 @@ Informazioni fornite da Sliday LTD a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Sliday LTD |
 | URL del sito Web del partner | [https://sliday.com](https://sliday.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://karmabot.readme.io/](https://karmabot.readme.io/) |
+| URL della Teams info dell'applicazione | [https://karmabot.readme.io/](https://karmabot.readme.io/) |
 | URL dell'informativa sulla privacy | [https://karmabot.readme.io/docs/privacy-policy-for-microsof...](https://karmabot.readme.io/docs/privacy-policy-for-microsoft-teams) |
 | URL delle Condizioni per l'utilizzo | [https://karmabot.readme.io/docs/terms-and-conditions](https://karmabot.readme.io/docs/terms-and-conditions) |
 
@@ -89,7 +89,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 SÌ, i dati vengono crittografati sia in transito che in pausa.
 
-2. **Quali tipi di meccanismi vengono implementati per garantire che l'integrità dei dati sia protetta da errori, danneggiamenti o uso improprio e la frequenza con cui vengono controllati**
+2. **Quali tipi di meccanismi vengono implementati per assicurarsi che l'integrità dei dati sia protetta da errori, danneggiamenti o uso improprio e con quale frequenza vengono controllati**
 
 Tutti i server eseguono RAID hardware con livelli RAID diversi, ma in ogni caso sono necessari più errori di unità contemporaneamente per eventuali perdite di dati. Microsoft è molto sicura e dispone di backup sia automatici che manuali. Il backup dei database viene eseguito automaticamente ogni giorno e archiviato per sette giorni.
 Il backup delle macchine virtuali viene eseguito automaticamente ogni settimana e archiviato per 1 mese.
@@ -100,7 +100,7 @@ Il backup delle macchine virtuali viene eseguito automaticamente ogni settimana 
 
 Archiviati in database diversi.
 
-4. **Che tipo di crittografia si propone (algoritmi, protocolli, lunghezze delle chiavi) per i dati in transito e i dati in pausa**
+4. **Quale tipo di crittografia si propone (algoritmi, protocolli, lunghezze delle chiavi) per i dati in transito e i dati in pausa**
 
 Tutti i dati in transito sono crittografati da TLS o SSL. HTTP è crittografato da TLS 1.2 o TLS 1.3 Traffico del database crittografato da SSL.
 
@@ -110,13 +110,13 @@ I dati vengono archiviati in Digital ocean cloud center nei data center statunit
 
 Gestito da Digital Ocean.
 
-6. **Descrivere il processo di gestione degli accessi in atto al termine del provider indicando come garantire la rimozione in tempo reale degli accessi non più necessari e come controllare l'inadeguatezza dei privilegi per il ruolo del processo. Descrivere inoltre i processi di riconvalida e la frequenza di esecuzione**
+6. **Descrivere il processo di gestione degli accessi in atto alla fine del provider indicando come garantire la rimozione in tempo reale degli accessi non più necessari e come controllare l'inadeguatezza dei privilegi per il ruolo di processo. Descrivere inoltre i processi di riconvalida e la frequenza di esecuzione**
 
 Usiamo l'autenticazione a due fattori per accedere al pannello di controllo. Solo 3 persone hanno accesso a questo tipo di accesso, cambiano le password ogni mese, mantengono controllati i log di accesso e ci assicuriamo che gli account degli utenti che non lavorano più con noi siano stati rimossi dalla piattaforma.
 
 7. **Fornire la procedura implementata al termine per gestire gli ID condivisi (ad esempio root, Sys, System e così via), gli ID di gruppo (account generici utilizzati da più persone appartenenti allo stesso team, ad esempio) e gli account locali. Descrivere come limitare, registrare e monitorare l'utilizzo e l'accesso degli account con privilegi ai dispositivi di sicurezza (ad esempio, hypervisor, firewall, scanner di vulnerabilità, sniffer di rete, API e così via), come si garantisce che gli utenti che cambiano team o lasciano non possano più accedere all'ID gruppo e qual è il livello di tracciabilità di tali ID**
 
-Usiamo 1Password per condividere l'ID condivisibile&#8217;s, abbiamo un feed attività separato ogni volta che si accede alla risorsa condivisa da un deposito di password condiviso. A meno che non sia assolutamente necessario, non usiamo account condivisi e usiamo invece singoli account. Non è possibile accedere alle informazioni nel database Karma tramite un account di accesso condiviso. 2FA viene utilizzato per accedere a 1Password per recuperare un singolo account di accesso.
+Usiamo 1Password per condividere l'ID condivisibile&#8217;s, abbiamo un feed attività separato ogni volta che si accede alla risorsa condivisa da un deposito di password condivisa. A meno che non sia assolutamente necessario, non usiamo account condivisi e usiamo invece singoli account. Non è possibile accedere alle informazioni nel database Karma tramite un account di accesso condiviso. 2FA viene utilizzato per accedere a 1Password per recuperare un singolo account di accesso.
 
 8. **Descrivere il processo per garantire e monitorare il rispetto della separazione dei compiti e la frequenza con cui viene controllato**
 
@@ -136,7 +136,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35674' frameborder='no' style='width: 100%;'></iframe>
 

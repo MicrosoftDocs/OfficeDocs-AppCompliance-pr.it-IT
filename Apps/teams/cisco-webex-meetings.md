@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per le riunioni Cisco Webex, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per le riunioni Cisco Webex, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: b46674ef9171747267a6f2142fa2d83c8cb7687b
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525780"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281340"
 ---
 # <a name="cisco-webex-meetings"></a>Cisco Webex Meetings
 
@@ -37,7 +37,7 @@ Informazioni fornite da Cisco Webex Meetings a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Cisco Webex Meetings |
 | URL del sito Web del partner | [https://www.cisco.com](https://www.cisco.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://collaborationhelp.cisco.com/](https://collaborationhelp.cisco.com/) |
+| URL della Teams info dell'applicazione | [https://collaborationhelp.cisco.com/](https://collaborationhelp.cisco.com/) |
 | URL dell'informativa sulla privacy | []() |
 | URL delle Condizioni per l'utilizzo | []() |
 
@@ -49,7 +49,7 @@ Informazioni fornite da Cisco Webex Meetings a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Cisco Webex Meetings sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Cisco Webex Meetings su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -83,7 +83,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->L'app archivia dati non personali, ad esempio Team_ID, Channel_ID e così via. L'accesso ai dati è protetto dall'accesso con autenticazione a più fattori.
+>L'app archivia dati non personali come Team_ID, Channel_ID e così via. L'accesso ai dati è protetto dall'accesso con autenticazione a più fattori.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

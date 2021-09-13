@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Hi5, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 1356b3e31e309379e1943dc5ca59e10c72c23410
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525600"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281257"
 ---
 # <a name="hi5"></a>Hi5
 
@@ -37,7 +37,7 @@ Informazioni fornite da Hi5Technologies a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Hi5Technologies |
 | URL del sito Web del partner | [https://www.get5.io](https://www.get5.io) |
-| URL della pagina Teams informazioni sull'applicazione | [https://help.get5.io](https://help.get5.io) |
+| URL della Teams info dell'applicazione | [https://help.get5.io](https://help.get5.io) |
 | URL dell'informativa sulla privacy | [https://www.get5.io/privacy](https://www.get5.io/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.get5.io/terms](https://www.get5.io/terms) |
 
@@ -58,8 +58,8 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Obbligatorio per l'accesso SSO e l'autenticazione nel server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| e-mail | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Obbligatorio per l'accesso SSO e l'autenticazione nel server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| offline_access | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Mantiene che l'utente veda le informazioni corrette e che possiamo inviare le informazioni corrette ad altri utenti che aderiscono alla stessa società/area di lavoro. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| email | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Obbligatorio per l'accesso SSO e l'autenticazione nel server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| offline_access | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Mantiene che l'utente veda le informazioni corrette e possiamo inviare le informazioni corrette ad altri utenti che aderiscono alla stessa società/area di lavoro. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
 >| openid | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Obbligatorio per l'accesso SSO e l'autenticazione nel server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
 >| profilo | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Obbligatorio per l'accesso SSO e l'autenticazione nel server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
 
@@ -107,7 +107,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36143' frameborder='no' style='width: 100%;'></iframe>
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per InStation, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 1db56e204dc2fd83916a9ec6f2b20a13e02ed357
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521809"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282109"
 ---
 # <a name="instation"></a>InStation
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Presence.Read.All | delegated | Consente all'app di accedere all'organizzazione nel primo passaggio, | l'attività e l'avalibilità. Consente all'app di acquisire lo stato degli utenti; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| User.Read | delegated | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| User.Read.All | delegated | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | stores: id, mail, display name, surname and picture. Consente all'app di cercare dati utente. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
->| e-mail | delegated | Consente all'app di acquisire le&#180;di base dell'amministratore al primo accesso | Consente all'app di acquisire le&#180;di base dell'amministratore al primo accesso | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| email | delegated | Consente all'app di acquisire le&#180;di base dell'amministratore al primo accesso | Consente all'app di acquisire le&#180;di base dell'amministratore al primo accesso | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| offline_access | delegated | stores: token e token di aggiornamento. Consente all'app di eseguire un aggiornamento sul token MS | stores: token e token di aggiornamento. Consente all'app di eseguire un aggiornamento sul token MS | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| openid | delegated | Consente all'app di accedere all'organizzazione nel primo passaggio | Consente all'app di accedere all'organizzazione nel primo passaggio | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| profilo | delegated | Consente all'app di acquisire le informazioni di&#180;amministratore sul primo accesso. | Consente all'app di acquisire le informazioni di&#180;amministratore sul primo accesso. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
@@ -91,7 +91,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Salviamo solo i log di utilizzo degli utenti all'interno dell'applicazione. Niente di riservato, che non richiede alcuna crittografia e solo i nostri amministratori specifici hanno accesso a questi dati.
+>Salviamo solo i log di utilizzo degli utenti all'interno dell'applicazione. Niente di riservato, senza bisogno di crittografia e solo i nostri amministratori specifici hanno accesso a questi dati.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

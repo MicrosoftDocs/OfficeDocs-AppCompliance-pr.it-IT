@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Good4work, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 3d6854fcf2b53d1eb7baefb2f64d258365d5bdaf
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53775044"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281521"
 ---
 # <a name="good4work"></a>Good4work
 
@@ -37,7 +37,7 @@ Informazioni fornite da Good4work a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Good4work |
 | URL del sito Web del partner | [https://good4work.com/#product](https://good4work.com/#product) |
-| URL della pagina Teams informazioni sull'applicazione | [https://good4work.com/support/](https://good4work.com/support/) |
+| URL della Teams info dell'applicazione | [https://good4work.com/support/](https://good4work.com/support/) |
 | URL dell'informativa sulla privacy | [https://good4work.com/privacy-policy/](https://good4work.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://good4work.com/good4work-terms/](https://good4work.com/good4work-terms/) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

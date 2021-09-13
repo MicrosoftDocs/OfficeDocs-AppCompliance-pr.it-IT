@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Zignals, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 313529eecfcf1e8e129bb22cb5ee4c7b53b9e2c5
-ms.sourcegitcommit: 90e6c1e10d55dc337c0884b63782cc14cf71b3c8
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58835881"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283080"
 ---
 # <a name="zignals"></a>Zignals
 
@@ -53,18 +53,18 @@ Queste informazioni sono state fornite da Alight su come questa app raccoglie e 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | delegated | Per l'area Riunioni personali si ottengono le riunioni &quot; &quot; dell'utente oggi e domani. | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Sites.ReadWrite.All | delegated | Tutti i siti di SharePoint seguiti dall'utente vengono visualizzati nell'area My Teamwork e vengono visualizzate tutte le attività SharePoint &quot; &quot; dell'utente nell'area Attività personali &quot; &quot; . | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
+>| Sites.ReadWrite.All | delegated | Tutti i siti di SharePoint seguiti dall'utente vengono visualizzati nell'area My Teamwork e vengono visualizzate tutte le attività SharePoint &quot; &quot; dell'utente nell'area &quot; Attività &quot; personali. | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| Tasks.ReadWrite | delegated | Microsoft legge la pianificazione dell'utente e To Do attività e le visualizza nell'area &quot; Attività. &quot; | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| Team.ReadBasic.All | delegated | I team aggiunti all'utente vengono visualizzati &quot; nell'area My &quot; Teamwork. | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| User.ReadBasic.All | delegated | &quot;Nell'area Documenti viene visualizzato l'utente di cui &quot; è stata collaborazione | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| User.ReadWrite | delegated | I documenti recenti dell'utente vengono visualizzati nell'area &quot; &quot; Documenti. Le app preferite dell'utente vengono archiviate come estensione dello schema in MS Graph. Questo livello di autorizzazione è necessario per leggere e scrivere dati nel grafico. | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| email | delegated | Ottenere la posta elettronica degli utenti (ambito Teams MS standard) | Non archiviato nel database | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| offline_access | delegated | Ambito Teams ms standard | Non archiviato nel database | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
+>| offline_access | delegated | Standard MS Teams ambito | Non archiviato nel database | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| openid | delegated | Accedere agli utenti. | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| profilo | delegated | Processo di accesso MS Teams | Non archiviato nel database | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 
@@ -125,7 +125,7 @@ Queste informazioni sono state fornite da Alight sul modo in cui questa app gest
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |

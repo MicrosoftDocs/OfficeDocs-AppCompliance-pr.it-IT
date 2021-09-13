@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per timeghost, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c024080e1471388a5c3803f685a136052cb56d44
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521482"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282979"
 ---
 # <a name="timeghost"></a>timeghost
 
@@ -37,7 +37,7 @@ Informazioni fornite da K&#246;llisch GmbH a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | K&#246;llisch GmbH |
 | URL del sito Web del partner | [https://timeghost.io](https://timeghost.io) |
-| URL della pagina Teams informazioni sull'applicazione | [https://timeghost.io](https://timeghost.io) |
+| URL della Teams info dell'applicazione | [https://timeghost.io](https://timeghost.io) |
 | URL dell'informativa sulla privacy | [https://timeghost.io/privacy-policy/](https://timeghost.io/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://timeghost.io/terms-and-conditions/](https://timeghost.io/terms-and-conditions/) |
 
@@ -69,7 +69,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Sentry.io, Chargebee | Vorname, Nachname, E-Mail-Adresse, Firmenname  | Zur Fehlerermittlung, Zahlungs&#252;bermittlung |
 

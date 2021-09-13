@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per isLucid, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: d29616471c22a2fd4f01a849d14b965ae106aa80
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58872085"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281047"
 ---
 # <a name="islucid"></a>isLucid
 
@@ -35,7 +35,7 @@ Informazioni fornite dai contratti UAB Lucid a Microsoft:
 | Nome app | isLucid |
 | ID | WA200002385 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Contratti lucidi UAB |
+| Nome società partner | UAB Lucid Agreements |
 | URL del sito Web del partner | [https://islucid.com](https://islucid.com) |
 | URL della Teams info dell'applicazione | [https://islucid.com](https://islucid.com) |
 | URL dell'informativa sulla privacy | [https://islucid.com/privacy-policy/](https://islucid.com/privacy-policy/) |
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite dagli accordi di lucidità UAB sul modo i
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -63,16 +63,16 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 >| OnlineMeetings.Read.All | entrambi | L'applicazione raccoglie i titoli delle riunioni in modo che gli utenti in un secondo momento (al termine della riunione) trovino più facilmente le trascrizioni e le attività precedenti. | Titolo della riunione, timestamp della riunione, organizzatore della riunione | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| Tasks.ReadWrite | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | Il titolo dell'attività, il creatore dell'attività, il timestamp dell'attività e la descrizione dell'attività vengono archiviati in modo che gli utenti possono accedere alla cronologia delle attività, effettuata da una riunione specifica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| User.ReadWrite.All | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | Il titolo dell'attività, il creatore dell'attività, il timestamp dell'attività e la descrizione dell'attività vengono archiviati in modo che gli utenti possono accedere alla cronologia delle attività, effettuata da una riunione specifica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| openid | entrambi | ID utente, ID tenant raccolto per fornire Azure Active Directory di accesso per gli utenti | ID utente, ID tenant per ulteriori rights management | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| openid | entrambi | ID utente, ID tenant raccolto per fornire la Azure Active Directory di accesso degli utenti | ID utente, ID tenant per ulteriori rights management | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| hubspot.com | Nome, cognome, e-mail e Telefono numero di nuovi utenti registrati | Microsoft usa Hubspot CRM per mantenere le informazioni relative alle vendite |
+>| hubspot.com | Nome, cognome, e-mail e Telefono numero di nuovi utenti registrati | Microsoft utilizza Hubspot CRM per la gestione delle informazioni correlate alle vendite |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -107,7 +107,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

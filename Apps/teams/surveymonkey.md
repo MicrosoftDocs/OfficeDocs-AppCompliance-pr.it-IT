@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SurveyMonkey, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: f4898e476e0848ba728d07d0d851fc09f239aecf
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528202"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282361"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -37,7 +37,7 @@ Informazioni fornite da SurveyMonkey a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | SurveyMonkey |
 | URL del sito Web del partner | [https://www.surveymonkey.com](https://www.surveymonkey.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://help.surveymonkey.com/articles/en_US/kb/Microsoft-T...](https://help.surveymonkey.com/articles/en_US/kb/Microsoft-Teams-Integration) |
+| URL della Teams info dell'applicazione | [https://help.surveymonkey.com/articles/en_US/kb/Microsoft-T...](https://help.surveymonkey.com/articles/en_US/kb/Microsoft-Teams-Integration) |
 | URL dell'informativa sulla privacy | [https://www.surveymonkey.com/mp/legal/privacy-policy/](https://www.surveymonkey.com/mp/legal/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.surveymonkey.com/mp/legal/terms-of-use/](https://www.surveymonkey.com/mp/legal/terms-of-use/) |
 
@@ -64,9 +64,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Solo l'ID utente MS viene archiviato in SurveyMonkey per associare risposte e sondaggi all'utente del team. |  | Per i team usiamo il Microsoft Teams SDK javascript nel modulo delle attività crea, prendi sondaggi e risultati del sondaggio in modalità modale. |
+>| Solo l'ID utente MS viene archiviato in SurveyMonkey per associare risposte e sondaggi all'utente del team. |  | Per i team usiamo il Microsoft Teams SDK javascript nel modulo attività crea, prendi sondaggi e risultati del sondaggio in modalità modale. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -81,7 +81,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->EUII - Ogni volta che un sondaggio riceve una risposta, viene creato un log di esito positivo/negativo e si tenta di inviare tale risposta a Teams tramite il connettore, questo registro include user_id, survey_id, integration_id (che nel database può essere utilizzato per cercare l'ID team MS, l'ID utente MS)
+>EUII - Ogni volta che un sondaggio riceve una risposta, viene creato un log di esito positivo/negativo e si tenta di inviare tale risposta a Teams tramite il connettore, questo registro include user_id, survey_id, integration_id (che nel database può essere utilizzato per cercare l'ID team MS, ID utente MS)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -89,7 +89,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 >Il nostro data center principale si trova a Las Vegas, NV e il nostro data center secondario si trova a Santa Clara, CA. SurveyMonkey possiede e gestisce tutti i server e l'infrastruttura in queste posizioni. Abbiamo anche una residenza dati canadese per alcuni clienti di SurveyMonkey Enterprise residenti in Canada. Tutti i dati vengono crittografati in pausa utilizzando TDE con AES256 e i dati in transito vengono crittografati con TLS 1.2.
 
-SurveyMonkey utilizza l'autenticazione utente centrale per mantenere la gestione delle identità e degli accessi. Questo sistema gestisce tutte le autenticazioni e le autorizzazioni per qualsiasi infrastruttura, sistemi e servizi aziendali e di produzione. I criteri di accesso rigorosi vengono mantenuti e esaminati su base trimestrale. Le recensioni includono, ma non sono limitate a: elenchi di accesso degli utenti, gruppi di criteri e revisioni di accesso di terze parti. Per accedere all'ambiente di produzione (ad esempio per ottenere un account con privilegi), è necessario ottenere l'approvazione del manager, completare una serie di corsi di formazione necessari e ottenere l'approvazione dal team di sicurezza. In quel momento viene effettuato il provisioning di un account VPN aggiuntivo, che differenzia l'account &#8216;&#8217; normale da un account &#8216;con&#8217; privilegiato.
+SurveyMonkey utilizza l'autenticazione utente centrale per mantenere la gestione delle identità e degli accessi. Questo sistema gestisce tutte le autenticazioni e le autorizzazioni per qualsiasi infrastruttura, sistemi e servizi aziendali e di produzione. I criteri di accesso rigorosi vengono mantenuti e esaminati su base trimestrale. Le recensioni includono, ma non sono limitate a: elenchi di accesso degli utenti, gruppi di criteri e revisioni di accesso di terze parti. Per accedere all'ambiente di produzione (ad esempio per ottenere un account con privilegi), è necessario ottenere l'approvazione del manager, completare una serie di corsi di formazione necessari e ottenere l'approvazione dal team di sicurezza. In quel momento, viene effettuato il provisioning di un account VPN aggiuntivo, che differenzia l'account &#8216;&#8217; normale da un account &#8216;con&#8217; privilegiato.
 
 Solo i dispositivi emessi dall'azienda possono accedere alla rete di produzione. Tutte le impostazioni predefinite del fornitore wireless vengono modificate prima dell'installazione, incluse le chiavi di crittografia wireless predefinite, le password e le stringhe della community SNMP. Per eseguire questa operazione in remoto sono necessari 2FA e VPN. Abbiamo una rete WiFi separata per l'accesso guest presso i nostri uffici aziendali.
 
@@ -107,7 +107,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12024' frameborder='no' style='width: 100%;'></iframe>
 

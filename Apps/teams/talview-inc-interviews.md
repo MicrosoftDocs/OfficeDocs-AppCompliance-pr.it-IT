@@ -6,14 +6,14 @@ ms.date: 02/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Talview Interviews, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Talview Interviews, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 38ab0472b84fc2b53c357bed1ad32ed4e3a6ad11
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528162"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281100"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -37,7 +37,7 @@ Informazioni fornite da Talview Inc a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Talview Inc. |
 | URL del sito Web del partner | [https://talview.com](https://talview.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://info.talview.com/talview-partners-microsoft-teams](https://info.talview.com/talview-partners-microsoft-teams) |
+| URL della Teams info dell'applicazione | [https://info.talview.com/talview-partners-microsoft-teams](https://info.talview.com/talview-partners-microsoft-teams) |
 | URL dell'informativa sulla privacy | [https://www.talview.com/privacy](https://www.talview.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.talview.com/terms](https://www.talview.com/terms) |
 
@@ -58,7 +58,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | Accedere e leggere il profilo utente | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
->| e-mail | delegated | Visualizzare l'indirizzo di posta elettronica degli utenti per il mapping degli account utente | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| email | delegated | Visualizzare l'indirizzo di posta elettronica degli utenti per il mapping degli account utente | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
 >| openid | delegated | Sign users in, To log in to the platform | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
 >| profilo | delegated | Visualizzare il profilo di base degli utenti | Indirizzo di posta elettronica/Nomi utente per le notifiche e l'autenticazione | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
 
@@ -67,7 +67,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

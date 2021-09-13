@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ecBooking, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: f36edd400f35d7e4ccbfef5edd0225855f73ab69
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521729"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283033"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -37,7 +37,7 @@ Informazioni fornite da Expert Systems IVR(Asia) Co.Ltd. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Expert Systems IVR (Asia) Co.Ltd. |
 | URL del sito Web del partner | [https://www.esi-asia.com](https://www.esi-asia.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/) |
+| URL della Teams info dell'applicazione | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/) |
 | URL dell'informativa sulla privacy | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/#1510822239639-efecac03-d43200b0-aa88) |
 | URL delle Condizioni per l'utilizzo | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/#1598241760681-29d114e0-5c2b) |
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Mail.Send | application | Dati come e-mail utente. I messaggi di posta elettronica dell'utente vengono raccolti per l'invio di e-mail di promemoria per la prenotazione della sala. | Dati come e-mail utente. I messaggi di posta elettronica dell'utente vengono raccolti per l'invio di e-mail di promemoria per la prenotazione della sala. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
 >| User.Read | delegated | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
 >| User.Read.All | application | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | Dati come ID utente, nome e posta elettronica. I dati utente vengono raccolti per l'accesso dell'utente nell'applicazione. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
->| e-mail | delegated | Dati come e-mail utente. L'e-mail dell'utente è stata raccolta per controllare la disponibilità dell'utente e creare eventi. | Dati come e-mail utente. L'e-mail dell'utente è stata raccolta per controllare la disponibilità dell'utente e creare eventi. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| email | delegated | Dati come e-mail utente. L'e-mail dell'utente è stata raccolta per controllare la disponibilità dell'utente e creare eventi. | Dati come e-mail utente. L'e-mail dell'utente è stata raccolta per controllare la disponibilità dell'utente e creare eventi. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
 >| openid | delegated | L'openid dell'utente per consentire all'utente di accedere all'applicazione. | L'openid dell'utente per consentire all'utente di accedere all'applicazione. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
 
 
@@ -69,7 +69,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

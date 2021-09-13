@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per PlayQuiz - Aprende Juega, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema &amp; CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 2d538edf2b96311ea7f2611a33d2362786453ee3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528142"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281449"
 ---
 # <a name="playquiz---aprende-amp-juega"></a>PlayQuiz - Aprende &amp; Juega
 
@@ -37,7 +37,7 @@ Informazioni fornite da TeamsChamp a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | TeamsChamp |
 | URL del sito Web del partner | [https://www.encamina.com](https://www.encamina.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.teamsquiz.com](https://www.teamsquiz.com) |
+| URL della Teams info dell'applicazione | [https://www.teamsquiz.com](https://www.teamsquiz.com) |
 | URL dell'informativa sulla privacy | [https://www.teamsquiz.com/en/privacy-policy/](https://www.teamsquiz.com/en/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.teamsquiz.com/en/terms/](https://www.teamsquiz.com/en/terms/) |
 
@@ -58,7 +58,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | Nome, e-mail e immagine del profilo dell'utente | e-mail, per la sua indossazione nell'app e il nome per visualizzarla nell'app | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
->| User.ReadBasic.All | delegated | Nome, e-mail e immagine del profilo | non archiviare i dati, ma leggerlo solo per visualizzarli nel leaderboad (applicazione) | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| User.ReadBasic.All | delegated | Nome, e-mail e immagine del profilo | non archiviare i dati, leggerlo solo per visualizzarli nella guida (applicazione) | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
 >| openid | delegated | visualizzare il profilo di base dell'utente | e-mail, per la sua esecuzione nell'app e il nome per visualizzarlo nell'app | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
 >| profilo | delegated | Leggere il profilo di base dell'utente | e-mail, per la sua esecuzione nell'app e il nome per visualizzarlo nell'app | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
 
@@ -114,7 +114,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da TeamsChamp su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da TeamsChamp sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

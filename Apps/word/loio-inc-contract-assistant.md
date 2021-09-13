@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Loio Contract Assistant, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 5a6d1718ce6e6aefe04e8487a0077293720f57df
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404432"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281749"
 ---
 # <a name="loio-contract-assistant"></a>Assistente contratto Loio
 
@@ -33,7 +33,7 @@ Informazioni fornite da Loio Inc. a Microsoft:
 |:----------------|:-------------|
 | Nome app | Assistente contratto Loio |
 | ID | WA200002273 |
-| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versione successiva Windows |
+| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versioni successive Windows |
 | Nome società partner | Loio Inc. |
 | URL del sito Web del partner | [https://loio.com](https://loio.com) |
 | URL dell'informativa sulla privacy | [https://loio.com/privacy-policy/](https://loio.com/privacy-policy/) |
@@ -90,7 +90,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

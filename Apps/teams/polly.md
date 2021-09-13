@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Polly, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3637dd9f14fb7a887372442c9b4a067b30b35d8a
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521359"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283261"
 ---
 # <a name="polly"></a>Polly
 
@@ -37,7 +37,7 @@ Informazioni fornite da Polly a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Polly |
 | URL del sito Web del partner | [https://www.polly.ai](https://www.polly.ai) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.polly.ai/help/msteams](https://www.polly.ai/help/msteams) |
+| URL della Teams info dell'applicazione | [https://www.polly.ai/help/msteams](https://www.polly.ai/help/msteams) |
 | URL dell'informativa sulla privacy | [https://www.polly.ai/privacy](https://www.polly.ai/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.polly.ai/tos](https://www.polly.ai/tos) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -70,7 +70,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Fornire un elenco di utenti e canali | Tutti |  |
+>| Fornire un elenco di utenti e canali | Tutto |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -83,7 +83,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I clienti sono in grado di controllare la conservazione dei dati ed eseguire il controllo nell'ambito del piano di Enterprise Polly.
+>I clienti sono in grado di controllare la conservazione dei dati ed eseguire il controllo come parte del piano di Enterprise Polly.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

@@ -6,14 +6,14 @@ ms.date: 03/11/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per TeamMate by ChitChattr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per TeamMate di ChitChattr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 4278150de6faf97f3ce4ceb7361cc2d7bca651ee
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521989"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282145"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -37,7 +37,7 @@ Informazioni fornite da ChitChattr a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | ChitChattr |
 | URL del sito Web del partner | [https://www.chitchattr.com](https://www.chitchattr.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.chitchattr.com/teammate/](https://www.chitchattr.com/teammate/) |
+| URL della Teams info dell'applicazione | [https://www.chitchattr.com/teammate/](https://www.chitchattr.com/teammate/) |
 | URL dell'informativa sulla privacy | [https://www.chitchattr.com/privacy?p=teammate](https://www.chitchattr.com/privacy?p=teammate) |
 | URL delle Condizioni per l'utilizzo | [https://www.chitchattr.com/termsofuse](https://www.chitchattr.com/termsofuse) |
 
@@ -64,7 +64,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

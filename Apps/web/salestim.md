@@ -6,14 +6,14 @@ ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per SalesTim, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per SalesTim, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: a8f6bc2575a68f17e8a00701fa4a55b3a7906f91
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275318"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282721"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -54,10 +54,10 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.ReadWrite.All | delegated | No | Consenti all'app di installare e aggiornare i propri pacchetti nel catalogo app aziendale. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| AppCatalog.ReadWrite.All | delegated | NO | Consenti all'app di installare e aggiornare i propri pacchetti nel catalogo app aziendale. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Directory.AccessAsUser.All | delegated | È&#8217;solo alcuni ID utente, non i dati del profilo. | Consente a un utente di selezionare altri utenti in diverse posizioni dell'applicazione, ad esempio selezionando i responsabili approvazione in un flusso di lavoro. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Group.ReadWrite.All | delegated | È&#8217;solo l'archiviazione di gruppi/ID team,&#8217;non vengono archiviati i contenuti di gruppi/team. | Consente all'app di creare gruppi, leggere tutte le proprietà e le appartenenze del gruppo per conto dell'utente connesso. Consente inoltre ai proprietari dei gruppi di gestire i propri gruppi e consente ai membri del gruppo di aggiornare il contenuto del gruppo. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Mail.Send | delegated | È&#8217;i metadati di questa azione, ad esempio la data della notifica, il destinatario (solo ID), l'ID richiesta. | Consente all'app di inviare messaggi di posta elettronica di notifica, ad esempio durante un flusso di lavoro di approvazione. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| Mail.Send | delegated | Microsoft&#8217;i metadati di questa azione, ad esempio la data della notifica, il destinatario (solo ID), l'ID della richiesta. | Consente all'app di inviare messaggi di posta elettronica di notifica, ad esempio durante un flusso di lavoro di approvazione. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Sites.ReadWrite.All | delegated | Stiamo usando alcuni servizi di Azure per archiviare i dati, in particolare Redis in Azure e Cosmos DB | Consente all'app di gestire le unità (file e cartelle) associate a un team durante un processo di provisioning del team. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| User.Read.All | delegated | È&#8217;solo alcuni ID utente, non i dati del profilo. | Consente all'app di leggere il set completo di proprietà del profilo, report e responsabili di qualsiasi utente. Viene utilizzato soprattutto durante il processo di destinazione del gruppo di destinatari, per filtrare alcuni contenuti in base al profilo utente corrente. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| offline_access | delegated | No | Consente all'app di eseguire alcune operazioni e azioni in background come utente. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
@@ -67,9 +67,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Stiamo usando Intercom come applicazione di supporto principale. Intercom può contenere alcune informazioni di base sul profilo utente, come descritto di seguito: https://developers.salestim.com/platform/datamanagement.html#support-data | Nome dell'azienda | Stiamo usando le API GitHub per generare automaticamente i problemi dall'ambiente di produzione. Vengono inoltre archiviati alcuni log tecnici in GitHub (come descritto qui: https://developers.salestim.com/platform/datamanagement.html#error-reporting-data) . Questi problemi e registri possono contenere alcune informazioni di base sul profilo utente. Questi problemi e registri vengono eliminati automaticamente ogni 15 giorni. |
+>| Stiamo usando Intercom come applicazione di supporto principale. Intercom può contenere alcune informazioni di base sul profilo utente, come descritto di seguito: https://developers.salestim.com/platform/datamanagement.html#support-data | Nome dell'azienda | Stiamo usando le API GitHub per generare automaticamente i problemi dall'ambiente di produzione. Vengono archiviati anche alcuni log tecnici in GitHub (come descritto qui: https://developers.salestim.com/platform/datamanagement.html#error-reporting-data) . Questi problemi e registri possono contenere alcune informazioni di base sul profilo utente. Questi problemi e registri vengono eliminati automaticamente ogni 15 giorni. |
 
 
 
@@ -83,7 +83,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->La maggior parte dei dati vengono archiviati in Azure Cosmos DB.
+>La maggior parte dei dati sono archiviati in Azure Cosmos DB.
 L'accesso all'ambiente di produzione è limitato a due persone e questi account di amministratore vengono applicati a MFA.
 Questi account sono dedicati e diversi dagli account aziendali.
 I dati vengono crittografati a riposo in tutti i servizi di Azure in uso.

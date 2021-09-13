@@ -6,14 +6,14 @@ ms.date: 03/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per GoToConnect, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per GoToConnect, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 2e3b563c4799049e9447ba7c0dbe56aa84e24a44
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282770"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282475"
 ---
 # <a name="gotoconnect"></a>GoToConnect
 
@@ -37,7 +37,7 @@ Informazioni fornite da LogMeIn Inc. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | LogMeIn Inc. |
 | URL del sito Web del partner | [https://logmein.com](https://logmein.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.goto.com/integrations/microsoft-teams/gotoconne...](https://www.goto.com/integrations/microsoft-teams/gotoconnect) |
+| URL della Teams info dell'applicazione | [https://www.goto.com/integrations/microsoft-teams/gotoconne...](https://www.goto.com/integrations/microsoft-teams/gotoconnect) |
 | URL dell'informativa sulla privacy | [https://www.logmeininc.com/legal/privacy](https://www.logmeininc.com/legal/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.logmeininc.com/legal/terms-and-conditions](https://www.logmeininc.com/legal/terms-and-conditions) |
 

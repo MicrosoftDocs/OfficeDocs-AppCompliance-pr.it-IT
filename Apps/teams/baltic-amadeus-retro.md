@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Retro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2ccca5bd5160eb1772245841df037d2033f58881
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527622"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282523"
 ---
 # <a name="retro"></a>Retro
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| L'app Retro ha una propria API Web che non è considerata un servizio Microsoft. Come accennato in precedenza, archivia posta elettronica e nome completo per scopi di identificazione e visualizzazione del contenuto appropriati. Questi dati non vengono inviati altrove. Inoltre, Retro ha una funzionalità facoltativa per esportare i dati dello sprint nello spazio di confluenza di Atlante. A tale scopo, l'utente deve immettere il nome utente e la password di confluenza. Questi dati vengono utilizzati solo per effettuare richieste autenticate di api di confluenza per conto dell'utente e non vengono archiviati né registrati da nessuna parte. |  | Retro ha una propria API Web registrata anche in azure. Per poterlo usare, l'utente deve essere autenticato tramite Microsoft Identity Platform. L'utente deve essere autenticato in modo che l'app Retro possa server contenuto specifico dell'utente |
 
@@ -84,7 +84,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati vengono archiviati nel database di sql server di azure. Viene archiviato tramite l'app Retro e il bot Retro.
+>I dati vengono archiviati nel database sql server di azure. Viene archiviato tramite l'app Retro e il bot Retro.
 Per impostazione predefinita, nel database sql di azure è abilitata la crittografia dei dati trasparente.
 Il database è bloccato dall'autenticazione di base.
 

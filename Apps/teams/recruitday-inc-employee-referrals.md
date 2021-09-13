@@ -9,13 +9,13 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per le segnalazioni dei dipendenti, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 2aa10a6034260c3774a134eeace4e677f29c83ba
-ms.sourcegitcommit: 823d3d853f6063f34785cab2f3316ac4ac99cdcf
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58392896"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282084"
 ---
-# <a name="employee-referrals"></a>Segnalazioni dei dipendenti
+# <a name="employee-referrals"></a>Referenze dipendenti
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ Informazioni fornite da Recruitday Inc. a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Segnalazioni dei dipendenti |
+| Nome app | Referenze dipendenti |
 | ID | WA200002708 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Recruitday Inc. |
 | URL del sito Web del partner | [https://www.recruitday.com](https://www.recruitday.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://employer.recruitday.com/solutions/employee-referral...](https://employer.recruitday.com/solutions/employee-referrals/microsoft-teams) |
+| URL della Teams info dell'applicazione | [https://employer.recruitday.com/solutions/employee-referral...](https://employer.recruitday.com/solutions/employee-referrals/microsoft-teams) |
 | URL dell'informativa sulla privacy | [https://www.recruitday.com/privacy-policy](https://www.recruitday.com/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.recruitday.com/terms-of-use](https://www.recruitday.com/terms-of-use) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 

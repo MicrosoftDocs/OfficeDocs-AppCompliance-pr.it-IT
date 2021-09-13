@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Fellow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 581b41bdf80bcbdd77bb3406b35556308a13b8f9
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525640"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281556"
 ---
 # <a name="fellow"></a>Fellow
 
@@ -72,7 +72,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -85,13 +85,13 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Fellow archivia le informazioni fornite direttamente dall'utente, inclusi i dati personali. Fellow archivia anche alcune informazioni di sistemi di terze parti, ad esempio i dati OAuth, i dati del calendario e le informazioni personali, ad esempio la posta &amp; elettronica del nome. Conserviamo tutti i dati a tempo indeterminato, per tutto il tempo necessario e legalmente consentito per lo scopo per cui sono stati raccolti. Queste informazioni vengono eliminate in modo sicuro in una data precedente dopo la ricezione di una richiesta da parte degli utenti. I dati del registro vengono conservati per 30 giorni.
+>Fellow archivia le informazioni fornite direttamente dall'utente, inclusi i dati personali. Fellow archivia anche alcune informazioni di sistemi di terze parti, ad esempio i dati OAuth, i dati del calendario e le informazioni personali, ad esempio la posta &amp; elettronica del nome. Conserviamo tutti i dati a tempo indeterminato, per tutto il tempo necessario e legalmente consentito per lo scopo per cui sono stati raccolti. Queste informazioni vengono eliminate in modo sicuro in una data precedente alla ricezione di una richiesta da parte degli utenti. I dati del registro vengono conservati per 30 giorni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Tutti i trasferimenti di dati vengono eseguiti tramite API protette per i sistemi back-end. Fellow impiega molti controlli per garantire la sicurezza e la riservatezza dei propri sistemi, in base al framework SOC 2 definito da AICPA. I controlli dei colleghi vengono sottoposti a un controllo annuale per garantire la conformità continua. Un report SOC 2 può essere condiviso su richiesta e NDA.
+>Tutti i trasferimenti di dati vengono eseguiti tramite API protette per i sistemi back-end. Fellow impiega molti controlli per garantire la sicurezza e la riservatezza dei suoi sistemi, in base al framework SOC 2 definito da AICPA. I controlli dei colleghi vengono sottoposti a un controllo annuale per garantire la conformità continua. Un report SOC 2 può essere condiviso su richiesta e NDA.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

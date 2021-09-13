@@ -6,14 +6,14 @@ ms.date: 06/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per NewCOS, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per NewCOS, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: cb787aa76a30e5c7b0559eaf4ec28b7035636fbe
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53610111"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283201"
 ---
 # <a name="newcos"></a>NewCOS
 
@@ -37,7 +37,7 @@ Informazioni fornite da Newtech a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Newtech |
 | URL del sito Web del partner | [https://newtech.com.ar](https://newtech.com.ar) |
-| URL della pagina Teams informazioni sull'applicazione | [https://N.A](https://N.A) |
+| URL della Teams info dell'applicazione | [https://N.A](https://N.A) |
 | URL dell'informativa sulla privacy | [https://www.newtech.com.ar/privacystatement](https://www.newtech.com.ar/privacystatement) |
 | URL delle Condizioni per l'utilizzo | [https://newtech.com.ar/termsofservice](https://newtech.com.ar/termsofservice) |
 
@@ -65,7 +65,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

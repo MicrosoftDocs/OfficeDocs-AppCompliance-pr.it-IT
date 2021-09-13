@@ -6,14 +6,14 @@ ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Beesy, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Beesy, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: ff8d420d7ea17219b2c94e9e9ac6bf4b8fa4efcb
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525860"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283453"
 ---
 # <a name="beesy"></a>Beesy
 
@@ -71,7 +71,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Accedono a questi dati per fornire contesto al bot per registrare le azioni direttamente alla persona che chatta (il bot è un assistente virtuale). | Non vengono archiviati dati direttamente dall'elenco, il membro del team viene confrontato con una persona già integrata nei dati beesy.me servizio, solo per la corrispondenza. |  |
+>| Accedono a questi dati per fornire contesto al bot per registrare le azioni direttamente alla persona che chatta (il bot è un assistente virtuale). | Non vengono archiviati dati direttamente dall'elenco, il membro del team viene confrontato con una persona già integrata beesy.me dati del servizio, ma solo la corrispondenza. |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -98,7 +98,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35940' frameborder='no' style='width: 100%;'></iframe>
 

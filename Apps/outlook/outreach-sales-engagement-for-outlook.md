@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Outreach Sales Engagement per Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 6a009dbc5c075f99bb71105834f3f5208ed91dea
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404789"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283092"
 ---
 # <a name="outreach-sales-engagement-for-outlook"></a>Impegno per le vendite di sensibilizzazione per Outlook
 
@@ -51,7 +51,7 @@ Queste informazioni sono state fornite da Outreach su come questa app raccoglie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -77,7 +77,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->L'outreach non applica periodi di conservazione ai dati&#8217;clienti. L'outreach opera come un elaboratore di dati e come tale non apporta mai modifiche ai dati&#8217;dei clienti senza l'autorizzazione espressa. Tutti i dati dei clienti vengono eliminati 60 giorni dopo la fine della relazione commerciale, in base a MSA e DPA.
+>L'outreach non applica periodi di conservazione ai dati&#8217;clienti. L'outreach opera come un data processor e come tale non apporta mai modifiche ai dati&#8217;dei clienti senza l'autorizzazione espressa. Tutti i dati dei clienti vengono eliminati 60 giorni dopo la fine della relazione commerciale, in base a MSA e DPA.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 

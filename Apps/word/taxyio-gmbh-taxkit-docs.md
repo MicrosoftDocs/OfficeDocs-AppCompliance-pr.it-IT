@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TaxKit Docs, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 941ba359f865c2f6b0fe2f0b66b32f5caf2d3f9d
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404384"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282876"
 ---
 # <a name="taxkit-docs"></a>Documenti TaxKit
 
@@ -33,7 +33,7 @@ Informazioni fornite da Taxy.io GmbH a Microsoft:
 |:----------------|:-------------|
 | Nome app | Documenti TaxKit |
 | ID | WA200002849 |
-| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versione successiva Windows |
+| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versioni successive Windows |
 | Nome società partner | Taxy.io GmbH |
 | URL del sito Web del partner | [https://www.taxy.io](https://www.taxy.io) |
 | URL dell'informativa sulla privacy | [https://www.taxy.io/tk-datenschutz](https://www.taxy.io/tk-datenschutz) |
@@ -60,7 +60,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 

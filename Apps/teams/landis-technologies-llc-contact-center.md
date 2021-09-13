@@ -6,14 +6,14 @@ ms.date: 07/20/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per il Contact Center, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per il Contact Center, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 57fd0d98d6c7139c6356b4c23a6ac8a21c48e6b6
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521497"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281814"
 ---
 # <a name="contact-center"></a>Contact Center
 
@@ -57,7 +57,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calls.AccessMedia.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente l'accodamento delle chiamate, i report &amp; ivR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
->| Calls.Initiate. All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente l'accodamento delle chiamate, i report &amp; ivR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.Initiate.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente l'accodamento delle chiamate, i report &amp; ivR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
 >| Calls.InitiateGroupCall.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente l'accodamento delle chiamate, i report &amp; ivR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
 >| Calls.JoinGroupCall.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente l'accodamento delle chiamate, i report &amp; ivR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
 >| Calls.JoinGroupCallAsGuest.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente l'accodamento delle chiamate, i report &amp; ivR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
@@ -66,7 +66,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| User.Read | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente l'accodamento delle chiamate, i report &amp; ivR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
 >| User.Read.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente l'accodamento delle chiamate, i report &amp; ivR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
 >| Calls.AccessMedia.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente il rilevamento del sentiment per &amp; la registrazione delle chiamate | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
->| Calls.Initiate. All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente il rilevamento del sentiment per &amp; la registrazione delle chiamate | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.Initiate.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente il rilevamento del sentiment per &amp; la registrazione delle chiamate | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
 >| Calls.InitiateGroupCall.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente il rilevamento del sentiment per &amp; la registrazione delle chiamate | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
 >| Calls.JoinGroupCall.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente il rilevamento del sentiment per &amp; la registrazione delle chiamate | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
 >| Calls.JoinGroupCallAsGuest.All | application | Report dettagli chiamata, registrazione del sentiment &amp; delle chiamate | Consente il rilevamento del sentiment per &amp; la registrazione delle chiamate | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
@@ -80,7 +80,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -95,7 +95,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Sì. Ms Graph le richieste API vengono registrate per agevolare l'incidenza del supporto. Viene eliminato in base Microsoft Azure impostazioni predefinite Insights applicazioni.
+>Sì. Ms Graph le richieste API vengono registrate per agevolare l'incidenza del supporto. Viene eliminato in base Microsoft Azure impostazioni Insights predefinite dell'applicazione.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 

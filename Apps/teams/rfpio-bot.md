@@ -6,14 +6,14 @@ ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per il bot RFPIO, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per il bot RFPIO, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 53a0dc00f9ac1c34577bd8351ebf6ecfda66cf4d
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53775053"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281652"
 ---
 # <a name="rfpio-bot"></a>Bot RFPIO
 
@@ -37,7 +37,7 @@ Informazioni fornite da RFPIO a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | RFPIO |
 | URL del sito Web del partner | [https://www.rfpio.com](https://www.rfpio.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.rfpio.com/product/](https://www.rfpio.com/product/) |
+| URL della Teams info dell'applicazione | [https://www.rfpio.com/product/](https://www.rfpio.com/product/) |
 | URL dell'informativa sulla privacy | [https://www.rfpio.com/privacy-policy/](https://www.rfpio.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.rfpio.com/terms-of-service/](https://www.rfpio.com/terms-of-service/) |
 
@@ -49,7 +49,7 @@ Informazioni fornite da RFPIO a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da RFPIO sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da RFPIO su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| RFPIO | Nome, Indirizzo di posta elettronica, Indirizzo IP | Nome &amp; L'indirizzo di posta elettronica viene utilizzato per l'identificazione dell'utente. Indirizzo IP per la verifica dei controlli.  |
 
@@ -72,7 +72,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Identificazione e autorizzazione dell'utente in base all'indirizzo di posta elettronica.  | Nome, indirizzo di posta elettronica | Identificazione, autorizzazione &amp; Registri di controllo |
+>| Identificazione e autorizzazione dell'utente in base all'indirizzo di posta elettronica.  | Nome, indirizzo di posta elettronica | Identificazione, autorizzazione &amp; Log di controllo |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -99,7 +99,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28197' frameborder='no' style='width: 100%;'></iframe>
 

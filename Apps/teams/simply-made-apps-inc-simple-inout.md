@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Simple In/Out, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 1dc9a66d7d49cb776fa82f7847ba9e06f74c6176
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552797"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281466"
 ---
 # <a name="simple-inout"></a>Simple In/Out
 
@@ -37,7 +37,7 @@ Informazioni fornite da Simply Made Apps, Inc. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Simply Made Apps, Inc. |
 | URL del sito Web del partner | [https://www.simpleinout.com](https://www.simpleinout.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://simpleinout.helpscoutdocs.com/article/262-microsoft...](https://simpleinout.helpscoutdocs.com/article/262-microsoft-teams) |
+| URL della Teams info dell'applicazione | [https://simpleinout.helpscoutdocs.com/article/262-microsoft...](https://simpleinout.helpscoutdocs.com/article/262-microsoft-teams) |
 | URL dell'informativa sulla privacy | [https://www.simpleinout.com/legal/privacy](https://www.simpleinout.com/legal/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.simpleinout.com/legal/terms](https://www.simpleinout.com/legal/terms) |
 
@@ -95,7 +95,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28352' frameborder='no' style='width: 100%;'></iframe>
 

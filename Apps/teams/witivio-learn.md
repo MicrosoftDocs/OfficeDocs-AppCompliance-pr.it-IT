@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Learn, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: f931e75f0a5736ffa49c7366d9928db774c4bdbf
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527532"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283806"
 ---
 # <a name="learn"></a>Formazione
 
@@ -82,7 +82,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
 >La telemetria del bot contiene l'UPN e la diagnostica fr ID AAD.
-Solo gli amministratori di PROD/Run hanno accesso alla telemetria di produzione. I log vengono archiviati per 90 giorni e possono essere eliminati su richiesta su un portale dedicato support.witivio.com o tramite posta elettronica a dpo@witivio.com
+Solo gli amministratori DI PROD/Run hanno accesso alla telemetria di produzione. I log vengono archiviati per 90 giorni e possono essere eliminati su richiesta su un portale dedicato support.witivio.com o tramite posta elettronica a dpo@witivio.com
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 

@@ -9,13 +9,13 @@ certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i gruppi di lavoro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 95f3d60efa1c9cb8cb238fb51af9fa927c17a961
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58405056"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283314"
 ---
-# <a name="mindsets"></a>Idee
+# <a name="mindsets"></a>Mindsets
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -28,14 +28,14 @@ ms.locfileid: "58405056"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Learning a Microsoft:
+Informazioni fornite da Mindsets Learning a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Idee |
+| Nome app | Mindsets |
 | ID | WA200003000 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Mentalità Learning |
+| Nome società partner | Mindsets Learning |
 | URL del sito Web del partner | [https://www.mindsets.com](https://www.mindsets.com) |
 | URL della Teams info dell'applicazione | [https://www.mindsets.com](https://www.mindsets.com) |
 | URL dell'informativa sulla privacy | [https://www.mindsets.com/terms](https://www.mindsets.com/terms) |
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Learning sul modo in cui questa app ra
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 

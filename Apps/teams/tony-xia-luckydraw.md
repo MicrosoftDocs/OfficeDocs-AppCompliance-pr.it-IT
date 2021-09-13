@@ -6,14 +6,14 @@ ms.date: 07/21/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per LuckyDraw, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per LuckyDraw, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 9a9f6b919b9e803b2a9cb81a2caa504126e4a697
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528112"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283543"
 ---
 # <a name="luckydraw"></a>LuckyDraw
 
@@ -37,7 +37,7 @@ Informazioni fornite da Tony Xia a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Tony Xia |
 | URL del sito Web del partner | [https://luckydraw.teetee365.com/](https://luckydraw.teetee365.com/) |
-| URL della pagina Teams informazioni sull'applicazione | [https://luckydraw4web4prd.z7.web.core.windows.net/](https://luckydraw4web4prd.z7.web.core.windows.net/) |
+| URL della Teams info dell'applicazione | [https://luckydraw4web4prd.z7.web.core.windows.net/](https://luckydraw4web4prd.z7.web.core.windows.net/) |
 | URL dell'informativa sulla privacy | [https://luckydraw.teetee365.com/privacy](https://luckydraw.teetee365.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://luckydraw.teetee365.com/terms](https://luckydraw.teetee365.com/terms) |
 
@@ -83,7 +83,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati vengono archiviati in Table Archiviazione. La chiave per l'account di archiviazione è archiviata in KeyVault a cui accede il servizio app (app Bot) tramite MSI (Managed System Identity). Questo servizio app è l'unica identità consentita nell'elenco dei criteri di accesso KeyVault. Tutte le risorse di azure di questa app nell'ambiente PROD sono state create e cablate tramite ARM. Nessuna operazione manuale.
+>I dati vengono archiviati in Table Archiviazione. La chiave per l'account di archiviazione è archiviata in KeyVault a cui accede il servizio app (app Bot) tramite MSI (Managed System Identity). Questo servizio app è l'unica identità consentita nell'elenco dei criteri di accesso KeyVault. Tutte le risorse azure di questa app nell'ambiente PROD sono state create e cablate tramite ARM. Nessuna operazione manuale.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

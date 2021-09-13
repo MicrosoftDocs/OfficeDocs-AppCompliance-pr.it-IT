@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per overflow dello stack per Teams overflow dello stack
+title: Informazioni sull'applicazione per l'overflow dello stack Teams'overflow dello stack
 ms.author: elmalova
 author: elenamalova
 ms.date: 08/06/2020
@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Stack Overflow per Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 7ea59acc5a3a85fd8ad827947c117266e95901fd
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528242"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283644"
 ---
 # <a name="stack-overflow-for-teams"></a>Stack Overflow for Teams
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -76,7 +76,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->No. Il mapping dell'utente DIS Teams e dell'utente Teams so avviene nel prodotto TEAMS.
+>No. Il mapping dell'utente DIS Teams e dell'Teams SO avviene nel prodotto TEAMS.
 MS Teams invia i loro ID identificabili e li salviamo internamente per mappare l'utente.
 Inoltre, MS Teams invia un token JWT per le richieste di bot (impedisce la falsificazione delle richieste) e le richieste tab convalidano usando il cookie SO.
 

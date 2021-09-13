@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione elmah.io per elmah.io
+title: Informazioni sull'applicazione elmah.io da elmah.io
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/10/2021
@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per elmah.io, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 2761f22f1b41c208d7dce1589ac3d62ab41efc54
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525680"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283752"
 ---
 # <a name="elmahio"></a>elmah.io
 
@@ -37,7 +37,7 @@ Informazioni fornite da elmah.io a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | elmah.io |
 | URL del sito Web del partner | [https://elmah.io](https://elmah.io) |
-| URL della pagina Teams informazioni sull'applicazione | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
+| URL della Teams info dell'applicazione | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
 | URL dell'informativa sulla privacy | [https://elmah.io/legal/teams-privacy-policy/](https://elmah.io/legal/teams-privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://elmah.io/legal/terms-of-use/](https://elmah.io/legal/terms-of-use/) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Intercom, Stripe, Mailchimp, Amazon Web Services | Company Name, Name, Email | Condividiamo il nome e la posta elettronica degli utenti con Intercom, Mailchimp e AWS per personalizzare i messaggi di posta elettronica. Condividiamo il nome della società con Stripe per le fatture e così via. |
 
@@ -83,7 +83,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Gli utenti possono aggiornare i propri dati personali in qualsiasi momento. Gli utenti di prova che non acquistano un piano a pagamento vengono eliminati automaticamente dopo 12 mesi dalla registrazione. Tutti gli utenti possono richiedere tramite il supporto di essere rimossi. Gli utenti possono impostare un contrassegno di elaborazione limitato nel proprio profilo, in modo da nascondere le informazioni personali al team di supporto.
+>Gli utenti possono aggiornare i propri dati personali in qualsiasi momento. Gli utenti di prova che non acquistano un piano a pagamento vengono eliminati automaticamente dopo 12 mesi dalla registrazione. Tutti gli utenti possono richiedere tramite il supporto di essere rimossi. Gli utenti possono impostare un contrassegno di elaborazione limitato nel proprio profilo, in modo da nascondere eventuali informazioni personali al team di supporto.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

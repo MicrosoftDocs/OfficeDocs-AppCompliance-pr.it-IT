@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per EngageWith, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 9cd618fb9ee580936f33beed27dfc2a39934d1f0
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528252"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283554"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -37,7 +37,7 @@ Informazioni fornite da SpringRole a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | SpringRole |
 | URL del sito Web del partner | [https://www.springworks.in](https://www.springworks.in) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.springworks.in/engagewith/](https://www.springworks.in/engagewith/) |
+| URL della Teams info dell'applicazione | [https://www.springworks.in/engagewith/](https://www.springworks.in/engagewith/) |
 | URL dell'informativa sulla privacy | [https://engagewith.springworks.in/privacy-policy](https://engagewith.springworks.in/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://engagewith.springworks.in/terms-and-conditions](https://engagewith.springworks.in/terms-and-conditions) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, Mailchimp, Stripe. Nome del cliente, e-mail, IP, informazioni di pagamento. Usiamo queste terze parti per offrire ai clienti la migliore esperienza dei clienti | Nome, posta elettronica | questo componente aggiuntivo non usa API aggiuntive |
 
@@ -99,7 +99,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36381' frameborder='no' style='width: 100%;'></iframe>
 

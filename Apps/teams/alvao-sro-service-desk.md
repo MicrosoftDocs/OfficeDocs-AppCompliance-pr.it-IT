@@ -6,14 +6,14 @@ ms.date: 03/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Alvao Service Desk, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Alvao Service Desk, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 4202c82d8b67030e035c32a8b893b76f8b870979
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527662"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282205"
 ---
 # <a name="alvao-service-desk"></a>Alvao Service Desk
 
@@ -37,7 +37,7 @@ Informazioni fornite da ALVAO s.r.o. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | ALVAO s.r.o. |
 | URL del sito Web del partner | [https://www.alvao.com/en/](https://www.alvao.com/en/) |
-| URL della pagina Teams informazioni sull'applicazione | [https://doc.alvao.com/support/doc/en/alvao_10_4/modules/alv...](https://doc.alvao.com/support/doc/en/alvao_10_4/modules/alvao_teams_addin/default.aspx) |
+| URL della Teams info dell'applicazione | [https://doc.alvao.com/support/doc/en/alvao_10_4/modules/alv...](https://doc.alvao.com/support/doc/en/alvao_10_4/modules/alvao_teams_addin/default.aspx) |
 | URL dell'informativa sulla privacy | [https://www.alvao.com/en/gdpr](https://www.alvao.com/en/gdpr) |
 | URL delle Condizioni per l'utilizzo | [https://www.alvao.com/en/storage/app/media/documents/licens...](https://www.alvao.com/en/storage/app/media/documents/license_SD_10.3_en.pdf) |
 
@@ -83,7 +83,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati vengono archiviati nel Microsoft Azure Cloud. I dati possono essere visualizzati dai tecnici per scopi di debug con l'approvazione da parte del nostro senior management. L'accesso ai dati è controllato tramite VPN interna.
+>I dati vengono archiviati nel Microsoft Azure Cloud. I dati possono essere visualizzati dai tecnici per scopi di debug con l'approvazione da parte dei nostri dirigenti. L'accesso ai dati è controllato tramite VPN interna.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -97,7 +97,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36558' frameborder='no' style='width: 100%;'></iframe>
 

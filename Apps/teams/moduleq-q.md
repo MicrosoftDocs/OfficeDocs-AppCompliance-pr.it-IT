@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per domande e risposte, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: a1a9995b6b723d7ed712f9a0fdbe9315ee53c7f0
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521300"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283303"
 ---
 # <a name="q"></a>Q
 
@@ -37,7 +37,7 @@ Informazioni fornite da ModuleQ a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | ModuleQ |
 | URL del sito Web del partner | [https://moduleq.com](https://moduleq.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://moduleq.com/product](https://moduleq.com/product) |
+| URL della Teams info dell'applicazione | [https://moduleq.com/product](https://moduleq.com/product) |
 | URL dell'informativa sulla privacy | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://moduleq.com/terms-of-service](https://moduleq.com/terms-of-service) |
 
@@ -57,11 +57,11 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | application | archivia i dati della riunione, ad eccezione del corpo del messaggio e degli allegati | Consente all'applicazione di leggere gli eventi del calendario di un utente per comprendere in modo intelligente le priorità aziendali dell'utente. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Calendars.Read | application | archivia i dati delle riunioni, ad eccezione del corpo del messaggio e degli allegati | Consente all'applicazione di leggere gli eventi del calendario di un utente per comprendere in modo intelligente le priorità aziendali dell'utente. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
 >| Group.Read.All | delegated | Nessuno | Consente all'app di interagire in un team per la condivisione di contenuto. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
 >| Mail.Read | application | archivia i dati di posta elettronica, ad eccezione del corpo del messaggio e degli allegati | Consente all'applicazione di leggere la posta di un utente per comprendere in modo intelligente le priorità aziendali dell'utente | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
 >| User.Read | delegated | token di autenticazione e posta elettronica utente | Consente all'utente di accedere e collegare il proprio account Office 365 con l'account ModuleQ | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| User.Read.All | delegated | Nessuno | Consenti all'app di ottenere l'Teams di cui fa parte l'utente. Usato solo per la condivisione  | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| User.Read.All | delegated | Nessuno | Consenti all'app di ottenere l'elenco Teams di cui fa parte l'utente. Usato solo per la condivisione  | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -87,7 +87,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati vengono archiviati nel Microsoft Azure Cloud in più microservizi in base alla loro funzione. Tutti i dati identificabili dall'utente vengono crittografati sul lato client con la crittografia AES-256 prima della trasmissione per l'archiviazione. I dati possono essere visualizzati dai tecnici per scopi di debug con l'approvazione da parte del nostro senior management. L'accesso ai dati è controllato tramite VPN interna.
+>I dati vengono archiviati nel Microsoft Azure Cloud in più microservizi in base alla loro funzione. Tutti i dati identificabili dall'utente vengono crittografati sul lato client con la crittografia AES-256 prima della trasmissione per l'archiviazione. I dati possono essere visualizzati dai tecnici per scopi di debug con l'approvazione da parte dei nostri dirigenti. L'accesso ai dati è controllato tramite VPN interna.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -115,7 +115,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da ModuleQ su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da ModuleQ sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

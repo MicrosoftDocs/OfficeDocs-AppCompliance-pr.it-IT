@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Qubie, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: d0873a510d894772d494487c293551e12dceb929
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528122"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283620"
 ---
 # <a name="qubie"></a>Qubie
 
@@ -37,7 +37,7 @@ Informazioni fornite da Tivian a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Tivian |
 | URL del sito Web del partner | [https://www.questback.com/our-products/performance-suite/te...](https://www.questback.com/our-products/performance-suite/teams-triumph-with-qubie/) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.questback.com/qubie-ms-teams](https://www.questback.com/qubie-ms-teams) |
+| URL della Teams info dell'applicazione | [https://www.questback.com/qubie-ms-teams](https://www.questback.com/qubie-ms-teams) |
 | URL dell'informativa sulla privacy | [https://www.questback.com/qubie-privacy-policy/](https://www.questback.com/qubie-privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.questback.com/qubie-terms-and-conditions/](https://www.questback.com/qubie-terms-and-conditions/) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -70,7 +70,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Mostra il nome quando si eliminano i commenti nella chat del team e per rispondere all'utente che invia un bug o invia domande. Rispondere all'utente che presenta un bug o ha una domanda. Viene visualizzato quando si visualizzano domande sulle prestazioni del team in modo che l'utente conosca il contesto della domanda. Visualizza il nome del team durante la visualizzazione di report e grafici. | Nome visualizzato, Indirizzo di posta elettronica, Nome team  |  |
+>| Mostra il nome quando si eliminano commenti nella chat del team e per rispondere all'utente che invia un bug o invia domande. Rispondere all'utente che presenta un bug o ha una domanda. Visualizzato quando si visualizzano domande sulle prestazioni del team in modo che l'utente conosca il contesto della domanda. Visualizza il nome del team durante la visualizzazione di report e grafici. | Nome visualizzato, Indirizzo di posta elettronica, Nome team  |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria

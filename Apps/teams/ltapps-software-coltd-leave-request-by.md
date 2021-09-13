@@ -6,14 +6,14 @@ ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per leave request by LTAPPs, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Leave Request by LTAPPs, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2db2812a4ba1c2cd191e181ba16b13563752f90a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551987"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282469"
 ---
 # <a name="leave-request-by-ltapps"></a>Leave Request by LTAPPs
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -84,7 +84,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
 >L'app non archivia i dati del client. Tutti i dati degli archivi client nel sito client (sito di Sharepoint).
-Ottiene/imposta solo i dati sul sito client tramite l SharePoint'API Rest ha &amp; usato la registrazione app di Azure per l'autenticazione
+Ottiene/imposta solo i dati sul sito client tramite l SharePoint'API Rest usata per l'autenticazione &amp; di Azure App Registration
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

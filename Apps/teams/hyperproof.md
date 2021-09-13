@@ -6,14 +6,14 @@ ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Hyperproof, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Hyperproof, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: df33449d3b16eb9d521795445b3b03e1b34b627c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281849"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282787"
 ---
 # <a name="hyperproof"></a>Hyperproof
 
@@ -37,7 +37,7 @@ Informazioni fornite da Hyperproof a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Hyperproof |
 | URL del sito Web del partner | [https://hyperproof.io](https://hyperproof.io) |
-| URL della pagina Teams informazioni sull'applicazione | [https://hyperproof.io/product](https://hyperproof.io/product) |
+| URL della Teams info dell'applicazione | [https://hyperproof.io/product](https://hyperproof.io/product) |
 | URL dell'informativa sulla privacy | [https://hyperproof.io/privacy-policy](https://hyperproof.io/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://hyperproof.io/terms-of-use](https://hyperproof.io/terms-of-use) |
 

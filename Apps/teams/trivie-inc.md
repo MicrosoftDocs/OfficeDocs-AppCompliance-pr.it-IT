@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Trivie, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: bca1ad16887845cabb03642b6e456491271df206
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528092"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281064"
 ---
 # <a name="trivie"></a>Trivie
 
@@ -37,7 +37,7 @@ Informazioni fornite da Trivie, Inc. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Trivie, Inc. |
 | URL del sito Web del partner | [https://trivie.com](https://trivie.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://trivie.com](https://trivie.com) |
+| URL della Teams info dell'applicazione | [https://trivie.com](https://trivie.com) |
 | URL dell'informativa sulla privacy | [https://trivie.com/privacy-policy](https://trivie.com/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://trivie.com/terms-of-service](https://trivie.com/terms-of-service) |
 
@@ -49,7 +49,7 @@ Informazioni fornite da Trivie, Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Trivie, Inc. Su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Trivie, Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, MailGun, OneSignal | Nome dell'azienda | Base legale: Interessi legittimi / Contratto |
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per hi Digital Coach, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 2ff4472c9c54234c388508039fd10ab4818154ce
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282555"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283074"
 ---
 # <a name="hi-digital-coach"></a>hi Digital Coach
 
@@ -37,7 +37,7 @@ Informazioni fornite da Digital Attitude Srl a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Digital Attitude Srl |
 | URL del sito Web del partner | [https://www.habitinspiringplatform.com](https://www.habitinspiringplatform.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.habitinspiringplatform.com/coaching-plan](https://www.habitinspiringplatform.com/coaching-plan) |
+| URL della Teams info dell'applicazione | [https://www.habitinspiringplatform.com/coaching-plan](https://www.habitinspiringplatform.com/coaching-plan) |
 | URL dell'informativa sulla privacy | [https://www.iubenda.com/privacy-policy/98527945/full-legal](https://www.iubenda.com/privacy-policy/98527945/full-legal) |
 | URL delle Condizioni per l'utilizzo | [https://www.iubenda.com/termini-e-condizioni/98527945](https://www.iubenda.com/termini-e-condizioni/98527945) |
 
@@ -95,7 +95,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39736' frameborder='no' style='width: 100%;'></iframe>
 

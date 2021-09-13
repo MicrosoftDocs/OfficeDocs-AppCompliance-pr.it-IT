@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ScrumGenius, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: be8873fecd5dc50ab4db6def68c7c25f73e677fd
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521039"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281160"
 ---
 # <a name="scrumgenius"></a>ScrumGenius
 
@@ -72,7 +72,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Si accede all'elenco dei team, quindi quando un amministratore del team installa scrumgenius, è possibile sincronizzare il resto dell'elenco dei team con scrumgenius in modo da poter eseguire l'onboardboard con la piattaforma per consentire loro di configurare un report di supporto e assegnare i membri del team che devono ottenere il report. | nome, cognome, nome visualizzato, indirizzo di posta elettronica |  |
+>| Accedono all'elenco dei team, quindi quando un amministratore del team installa scrumgenius, possiamo sincronizzare il resto dell'elenco dei team con scrumgenius in modo da poter eseguire l'onboardboard con la piattaforma per consentire loro di configurare un report di supporto e assegnare i membri del team che dovrebbero ottenere il report. | nome, cognome, nome visualizzato, indirizzo di posta elettronica |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -94,7 +94,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35745' frameborder='no' style='width: 100%;'></iframe>
 

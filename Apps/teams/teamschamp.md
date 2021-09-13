@@ -6,14 +6,14 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per TeamsChamp, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per TeamsChamp, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 8ba17c02a5478213d3666651efdbb5e4ed342147
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527572"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283632"
 ---
 # <a name="teamschamp"></a>TeamsChamp
 
@@ -37,7 +37,7 @@ Informazioni fornite da TeamsChamp a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | TeamsChamp |
 | URL del sito Web del partner | [https://www.encamina.com](https://www.encamina.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.teamschamp.com](https://www.teamschamp.com) |
+| URL della Teams info dell'applicazione | [https://www.teamschamp.com](https://www.teamschamp.com) |
 | URL dell'informativa sulla privacy | [https://www.teamschamp.com/privacy-policy/](https://www.teamschamp.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.teamschamp.com/terms/](https://www.teamschamp.com/terms/) |
 
@@ -66,7 +66,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Stripe payments | Nome del comnpany, CIF/PARTITA IVA, Indirizzo fiscale | Pagamenti |
 
@@ -115,7 +115,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da TeamsChamp su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da TeamsChamp sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

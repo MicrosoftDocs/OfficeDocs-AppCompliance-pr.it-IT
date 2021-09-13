@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per atSpoke, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2d72ea33577e386c61be6bcd09feeba813e9e1f5
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528102"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281089"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -48,7 +48,7 @@ Informazioni fornite da Townsend Street Labs, Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Townsend Street Labs, Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Townsend Street Labs, Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -65,9 +65,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Sì, usiamo servizi di terze parti per l'efficienza operativa. Google, Inc.: dati archiviati in volumi logici, backup di archiviazione in una rete Google Cloud nativa, registri di servizi e API o registri applicazioni. Gli eventi transazionali registrati possono contenere identificatori utente, informazioni di contatto e contenuto del cliente. MongoDB, Inc.: dati archiviati in raccolte di database basate su cloud. - Contenuto del cliente che include le richieste inviate dagli utenti, le risposte alle richieste aggiunte dagli utenti e gli articoli della Knowledge Base aggiunti dagli utenti. - Identificatori utente (nome, posta elettronica, avatar e numero di telefono utilizzati per creare un account utente Spoke). Mailgun Technologies, Inc.: Identificatore utente e informazioni di contatto per inviare comunicazioni di posta elettronica (ad esempio nome e posta elettronica). Twilio, Inc.: Numero di telefono dell'utente e contenuto del cliente: contenuto scambiato mediante l'utilizzo dei servizi di Twilio&#8217;, ad esempio testo, corpo dei messaggi, contenuti multimediali vocali e video, immagini e audio. Mixpanel, Inc.: I dati personali trasferiti includono nome, posta elettronica, indirizzo IP e dati personali inclusi nel contenuto del messaggio. Cloudinary, Inc.: contenuto dei clienti basato su file inviato dagli utenti finali. Elasticsearch, Inc.: gli eventi transazionali dell'applicazione registrati possono contenere testo troncato dal contenuto del cliente. Stitch, Inc.: Informazioni di contatto, informazioni sull'utilizzo, identificatori non tradizionali degli utenti autorizzati del sottoscrittore e qualsiasi altro dato personale che il Sottoscrittore o gli utenti autorizzati inviano alla piattaforma. Mode Analytics, Inc.: informazioni sugli identificatori utente per fornire analisi per utente. DataDog: gli eventi transazionali dell'applicazione registrati possono contenere testo troncato dal contenuto del cliente; la conservazione dei log è di 14 giorni. Fullstory, Inc.: registrazioni delle azioni eseguite nell'interfaccia utente Web; include l'account utente di Spoke per l'identificazione. |  | Stiamo usando l'API REST di Bot Framework. Usiamo questa API per inviare e ricevere messaggi al servizio bot askSpoke. |
+>| Sì, usiamo servizi di terze parti per l'efficienza operativa. Google, Inc.: dati archiviati in volumi logici, backup di archiviazione in una rete Google Cloud nativa, registri di servizi e API o registri applicazioni. Gli eventi transazionali registrati possono contenere identificatori utente, informazioni di contatto e contenuto del cliente. MongoDB, Inc.: dati archiviati in raccolte di database basate su cloud. - Contenuto del cliente che include le richieste inviate dagli utenti, le risposte alle richieste aggiunte dagli utenti e gli articoli della Knowledge Base aggiunti dagli utenti. - Identificatori utente (nome, posta elettronica, avatar e numero di telefono utilizzati per creare un account utente Spoke). Mailgun Technologies, Inc.: Identificatore utente e informazioni di contatto per inviare comunicazioni di posta elettronica (ad esempio nome e posta elettronica). Twilio, Inc.: Numero di telefono dell'utente e contenuto del cliente: contenuto scambiato mediante l'uso dei servizi di Twilio&#8217;, ad esempio testo, corpo dei messaggi, contenuti multimediali vocali e video, immagini e audio. Mixpanel, Inc.: I dati personali trasferiti includono nome, posta elettronica, indirizzo IP e dati personali inclusi nel contenuto del messaggio. Cloudinary, Inc.: contenuto dei clienti basato su file inviato dagli utenti finali. Elasticsearch, Inc.: gli eventi transazionali dell'applicazione registrati possono contenere testo troncato dal contenuto del cliente. Stitch, Inc.: Informazioni di contatto, informazioni sull'utilizzo, identificatori non tradizionali degli utenti autorizzati del sottoscrittore e qualsiasi altro dato personale che il Sottoscrittore o gli utenti autorizzati inviano alla piattaforma. Mode Analytics, Inc.: informazioni sugli identificatori utente per fornire analisi per utente. DataDog: gli eventi transazionali dell'applicazione registrati possono contenere testo troncato dal contenuto del cliente. la conservazione dei log è di 14 giorni. Fullstory, Inc.: registrazioni delle azioni eseguite nell'interfaccia utente Web; include l'account utente di Spoke per l'identificazione. |  | Stiamo usando l'API REST di Bot Framework. Usiamo questa API per inviare e ricevere messaggi al servizio bot askSpoke. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -75,20 +75,20 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Consente a atSpoke di sincronizzare gli utenti da Microsoft Teams creare utenti e definire le autorizzazioni. | atSpoke archivia solo la posta elettronica Microsoft Teams gli utenti possono accedere a atSpoke come utente valido. |  |
+>| Consente a atSpoke di sincronizzare gli utenti Microsoft Teams creare utenti e definire le autorizzazioni. | atSpoke archivia solo la posta elettronica Microsoft Teams gli utenti possono accedere a atSpoke come utente valido. |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Nei registri dell'applicazione sono contenuti il nome e il cognome dell'utente, l'indirizzo di posta elettronica dell'utente e l'ID oggetto assegnato ad Azure per utenti e gruppi. I log vengono conservati solo per 14 giorni, a quel punto scadono automaticamente. L'accesso ai log è protetto da manomissioni e solo determinati membri del personale hanno accesso per visualizzare i registri.
+>Nei registri dell'applicazione sono contenuti il nome e il cognome dell'utente, l'indirizzo di posta elettronica dell'utente e l'ID oggetto assegnato ad Azure per utenti e gruppi. I registri vengono conservati solo per 14 giorni, a quel punto scadono automaticamente. L'accesso ai log è protetto da manomissioni e solo determinati membri del personale hanno accesso per visualizzare i registri.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati dell'applicazione vengono archiviati in un'istanza gestita di MongoDB. L'accesso al servizio gestito Atlas MongoDB Database viene eseguito tramite un processo di richiesta di accesso utente standardizzato che richiede l'approvazione. Le revisioni periodiche dell'accesso utente vengono eseguite con l'accesso alla gestione. Microsoft limita il numero di membri del personale con accesso ai dati sensibili dei clienti e non consente di modificare direttamente i dati di alcun computer.&#8232; L'accesso remoto a questo database richiede l'autenticazione a più fattori. Il database e tutti i backup vengono crittografati in fase di ripristino utilizzando la crittografia AES-256 bit.
+>I dati dell'applicazione vengono archiviati in un'istanza gestita di MongoDB. L'accesso al servizio gestito Atlas MongoDB Database viene eseguito tramite un processo di richiesta di accesso utente standardizzato che richiede l'approvazione. Le revisioni periodiche dell'accesso utente vengono eseguite con l'accesso alla gestione. Microsoft limita il numero di membri del personale con accesso ai dati sensibili dei clienti e non consente la modifica diretta dei dati provenienti da alcun computer.&#8232; L'accesso remoto a questo database richiede l'autenticazione a più fattori. Il database e tutti i backup vengono crittografati in fase di ripristino utilizzando la crittografia AES-256 bit.
 
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative

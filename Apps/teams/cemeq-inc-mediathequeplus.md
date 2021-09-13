@@ -1,19 +1,19 @@
 ---
-title: Application Information for Mediatheque+ di CEMEQ inc.
+title: Application Information for M&#233;diath&#232;que+ by CEMEQ inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 07/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per M&#233;diath&#232;que+, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per M&#233;diath&#232;que+, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3273664ff9280be9feeb29519f8434cd82415b13
-ms.sourcegitcommit: d4dc71e59ff046c02e575dbd9d73b66c3acce9b8
+ms.openlocfilehash: 8d2a991d23ad12ab197fc89471e4993da6e1e0a8
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58699721"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281569"
 ---
 # <a name="m233diath232que"></a>M&#233;diath&#232;que+
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da CEMEQ inc. Su come questa app raccogli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 

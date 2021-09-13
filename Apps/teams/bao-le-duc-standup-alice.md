@@ -6,14 +6,14 @@ ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Standup Alice, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Standup Alice, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 5d1d075f16fed6e0a0029e3c90050068ca5bf9b5
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243532"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283483"
 ---
 # <a name="standup-alice"></a>Standup Alice
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Bao Le Duc su come questa app raccogli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -62,9 +62,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutti gli OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Google Cloud: il bot viene ospitato su Google Cloud | Microsoft Teams TeamId di Microsoft Teams | È necessario TeamId per identificare il Microsoft Teams &quot; team &quot; |
+>| Google Cloud: il bot viene ospitato su Google Cloud | Microsoft Teams TeamId di Microsoft Teams | È necessario TeamId per identificare il team Microsoft Teams &quot; &quot; team |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -72,7 +72,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Usiamo il nome visualizzato per visualizzare nell'app Web e nei report di supporto per renderlo significativo. Microsoft potrebbe comunicare con Teams amministratore in caso di pagamento gratuito. | Nome visualizzato e indirizzo di posta elettronica. | Usiamo il nome visualizzato e l'indirizzo di posta elettronica per creare rapporti di supporto giornalieri.  |
+>| Usiamo il nome visualizzato per visualizzare nell'app Web e nei report di supporto per renderlo significativo. Microsoft può comunicare con Teams amministratore in caso di pagamento gratuito. | Nome visualizzato e indirizzo di posta elettronica. | Usiamo il nome visualizzato e l'indirizzo di posta elettronica per creare rapporti di supporto giornalieri.  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria

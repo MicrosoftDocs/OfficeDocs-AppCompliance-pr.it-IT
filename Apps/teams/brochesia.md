@@ -6,14 +6,14 @@ ms.date: 06/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Brochesia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Brochesia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: b23afa2d040eb71d2bc15b4931b2bed386148a2d
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609606"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282204"
 ---
 # <a name="brochesia"></a>Brochesia
 
@@ -37,7 +37,7 @@ Informazioni fornite da Brochesia a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Brochesia |
 | URL del sito Web del partner | [https://www.brochesia.com](https://www.brochesia.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.brochesia.com/ar-software-services/](https://www.brochesia.com/ar-software-services/) |
+| URL della Teams info dell'applicazione | [https://www.brochesia.com/ar-software-services/](https://www.brochesia.com/ar-software-services/) |
 | URL dell'informativa sulla privacy | [https://www.brochesia.com/privacy-cookie-policy-en](https://www.brochesia.com/privacy-cookie-policy-en) |
 | URL delle Condizioni per l'utilizzo | [https://brochesia.cloud/privacy_and_term_of_use](https://brochesia.cloud/privacy_and_term_of_use) |
 
@@ -95,7 +95,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/41843' frameborder='no' style='width: 100%;'></iframe>
 

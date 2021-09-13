@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per TeamMood, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: e64ee816ff86bfacca7e479d8d36a95272bd2e44
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521284"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281167"
 ---
 # <a name="teammood"></a>TeamMood
 
@@ -37,7 +37,7 @@ Informazioni fornite da Power Up Conseil a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Power Up Conseil |
 | URL del sito Web del partner | [https://www.teammood.com](https://www.teammood.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://help.teammood.com/en/articles/4294405-microsoft-tea...](https://help.teammood.com/en/articles/4294405-microsoft-teams-integration-for-teammood) |
+| URL della Teams info dell'applicazione | [https://help.teammood.com/en/articles/4294405-microsoft-tea...](https://help.teammood.com/en/articles/4294405-microsoft-teams-integration-for-teammood) |
 | URL dell'informativa sulla privacy | [https://www.teammood.com/en/privacy-policy/](https://www.teammood.com/en/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.teammood.com/en/terms-of-service/](https://www.teammood.com/en/terms-of-service/) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS | indirizzo di posta elettronica della società, nome, cognome | Email adressess to manage the account on TeamMood. Nomi e cognome per personalizzare le comunicazioni con gli utenti. |
 
@@ -97,7 +97,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36362' frameborder='no' style='width: 100%;'></iframe>
 

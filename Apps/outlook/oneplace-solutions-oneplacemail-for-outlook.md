@@ -6,14 +6,14 @@ ms.date: 01/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per OnePlaceMail per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per OnePlaceMail per Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 18dc1ab4ba71102564c1c85f7ed3846d9f4f1700
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527932"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282217"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail per Outlook
 
@@ -33,7 +33,7 @@ Informazioni fornite da OnePlace Solutions a Microsoft:
 |:----------------|:-------------|
 | Nome app | OnePlaceMail per Outlook |
 | ID | WA104380723 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook su Android, Outlook sul web |
+| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook su iOS, Outlook su Android, Outlook sul web |
 | Nome società partner | Soluzioni OnePlace |
 | URL del sito Web del partner | [https://www.oneplacesolutions.com](https://www.oneplacesolutions.com) |
 | URL dell'informativa sulla privacy | [https://www.oneplacesolutions.com/oneplacemailapp-privacy](https://www.oneplacesolutions.com/oneplacemailapp-privacy) |
@@ -59,14 +59,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Mail.ReadWrite.Shared | delegated | Necessario per accedere alle proprietà di posta per impostare SharePoint colonne e aggiungere la categoria Trasferito SharePoint sull'elemento di posta | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| MailboxSettings.ReadWrite | delegated | Nessun dato raccolto o utilizzato, viene utilizzato per aggiungere una categoria all'elenco delle categorie principali in una cassetta postale degli utenti | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| Sites.ReadWrite.All | delegated | Obbligatorio per impostare le proprietà per gli elementi caricati dall'app SharePoint. | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.Read | delegated | Obbligatorio per l'autenticazione a Microsoft Graph. | I dati seguenti vengono archiviati dall'app in un database e vengono usati per la registrazione delle licenze utente e delle sottoscrizioni: ID utente, Posta elettronica, Nome, Cognome. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.Read | delegated | Obbligatorio per l'autenticazione a Microsoft Graph. | I dati seguenti vengono archiviati dall'app in un database e vengono usati per la registrazione delle licenze utente e di sottoscrizione: ID utente, e-mail, nome, cognome. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| User.ReadBasic.All | delegated | Obbligatorio per visualizzare l'immagine del profilo utente nel campo selezione utenti. | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| User.ReadBasic.All | delegated | Obbligatorio per visualizzare l'immagine del profilo utente nel campo selezione utenti. | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| User.ReadWrite.All | delegated | Necessario per determinare se il servizio Teams è abilitato all'interno della tenancy Office 365 utenti. | Nessuno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -76,7 +76,7 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Il servizio Di ricarica viene utilizzato per la gestione e la fatturazione delle sottoscrizioni. Per la creazione dell'abbonamento in-app (gratuito) il nome, cognome, indirizzo e-mail dell'utente sono condivisi con Chargify. Per le sottoscrizioni acquistate (che supportano più utenti con licenza) i dettagli dei singoli utenti non vengono condivisi con il servizio Chargify. | Indirizzo di posta elettronica | Per comunicare gli eventi del ciclo di vita della sottoscrizione all'utente |
 
@@ -86,13 +86,13 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->EUII e OII vengono visualizzati nella telemetria. Queste informazioni vengono archiviate in Application Insights, crittografate in pausa, controllate ed eliminate dopo 90 giorni
+>EUII e OII vengono visualizzati nella telemetria. Queste informazioni vengono archiviate in Application Insights, crittografate in pausa, controllate dall'accesso ed eliminate dopo 90 giorni
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati archiviati nell'applicazione vengono crittografati in transito e in pausa. Ci affidiamo Office 365 credenziali per le nostre app, quindi non archiviamo le password degli utenti nel nostro sistema. L'accesso ai dati/log/telemetria archiviati è strettamente controllato dal personale dell'amministrazione interna con la necessità di accedere alle informazioni allo scopo di eseguire e monitorare l'integrità dell'app. Two-Factor'autenticazione applicata a tutto il personale dell'amministrazione interna.
+>I dati archiviati nell'applicazione vengono crittografati in transito e in pausa. Ci affidiamo Office 365 credenziali per le nostre app, quindi non archiviamo le password degli utenti nel nostro sistema. L'accesso ai dati/log/telemetria archiviati è strettamente controllato dal personale dell'amministrazione interna con la necessità di accedere alle informazioni allo scopo di eseguire e monitorare l'integrità dell'app. Two-Factor autenticazione applicata a tutto il personale dell'amministrazione interna.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

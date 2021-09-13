@@ -6,14 +6,14 @@ ms.date: 06/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Move Work Forward with Jira, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Move Work Forward with Jira, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 7120519c2ecb0643465760677b2bef895b1e2f4d
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521286"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283206"
 ---
 # <a name="move-work-forward-with-jira"></a>Move Work Forward with Jira
 
@@ -37,7 +37,7 @@ Informazioni fornite da Move Work Forward to Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Move Work Forward |
 | URL del sito Web del partner | [https://www.moveworkforward.com](https://www.moveworkforward.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.moveworkforward.com/product/microsoft-teams-jir...](https://www.moveworkforward.com/product/microsoft-teams-jira-connector) |
+| URL della Teams info dell'applicazione | [https://www.moveworkforward.com/product/microsoft-teams-jir...](https://www.moveworkforward.com/product/microsoft-teams-jira-connector) |
 | URL dell'informativa sulla privacy | [https://www.moveworkforward.com/privacy-policy](https://www.moveworkforward.com/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.moveworkforward.com/license-agreement/eula](https://www.moveworkforward.com/license-agreement/eula) |
 
@@ -57,12 +57,12 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.Create | delegated | Usato per creare un canale di discussione dei problemi. | L'URL Web del canale appena creato viene archiviato per essere visualizzato in Jira per accedere rapidamente al Microsoft Teams discussione. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| Channel.Create | delegated | Usato per creare un canale di discussione dei problemi. | L'URL Web del canale appena creato viene archiviato in Jira per accedere rapidamente al canale Microsoft Teams discussione. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 >| Channel.ReadBasic.All | delegated | Il nome e l'ID del canale vengono usati per inviare notifiche da Jira a Microsoft Teams. | L'ID del canale e il nome vengono archiviati per configurare le notifiche da Jira a Microsoft Teams. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 >| Team.ReadBasic.All | delegated | L'autorizzazione viene utilizzata per consentire all'utente di selezionare uno di questi team aggiunti in Jira. | ID del team e nome da visualizzare nella schermata Configurazione in Jira. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 >| TeamsAppInstallation.ReadForTeam | delegated | Leggere le app Teams installate nei team. Quando si configura il recapito Microsoft Teams l'app può inviare a Teams con il bot installato. | Nothing | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 >| User.Read | delegated | Consente all'utente di creare un canale di discussione con i colleghi e di @menzionare in un messaggio di canale | Nothing | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
->| e-mail | delegated | La posta elettronica viene utilizzata per associare gli utenti di Atlassian e Microsoft | Il messaggio di posta elettronica non viene archiviato. Utilizzato solo durante il processo di corrispondenza. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| email | delegated | La posta elettronica viene utilizzata per associare gli utenti di Atlassian e Microsoft | Il messaggio di posta elettronica non viene archiviato. Utilizzato solo durante il processo di corrispondenza. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

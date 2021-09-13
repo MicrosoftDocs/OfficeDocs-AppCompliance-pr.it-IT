@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Now Virtual Agent, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 1ac2988c550894341d5933afbc59de6f63c51b68
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53520999"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282397"
 ---
 # <a name="now-virtual-agent"></a>Now Virtual Agent
 
@@ -37,7 +37,7 @@ Informazioni fornite da ServiceNow a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | ServiceNow |
 | URL del sito Web del partner | [https://www.servicenow.com/](https://www.servicenow.com/) |
-| URL della pagina Teams informazioni sull'applicazione | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |
+| URL della Teams info dell'applicazione | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |
 | URL dell'informativa sulla privacy | [https://www.servicenow.com/service-privacy.html](https://www.servicenow.com/service-privacy.html) |
 | URL delle Condizioni per l'utilizzo | [https://www.servicenow.com/terms-of-use.html](https://www.servicenow.com/terms-of-use.html) |
 
@@ -57,7 +57,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | Il dominio viene archiviato nel data center per scopi futuri di routing dei messaggi. | Quando l'amministratore di ServiceNow installa l'integrazione con MS Teams, l'amministratore deve accedere al proprio account MS Teams. Il dominio viene letto dall'indirizzo di posta elettronica (non dall'indirizzo di posta elettronica completo). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegated | Il dominio viene archiviato nel data center per scopi futuri di routing dei messaggi. | Quando l'amministratore di ServiceNow installa l'integrazione con MS Teams, l'amministratore deve accedere al proprio account ms Teams. Il dominio viene letto dall'indirizzo di posta elettronica (non dall'indirizzo di posta elettronica completo). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -92,7 +92,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/10638' frameborder='no' style='width: 100%;'></iframe>
 

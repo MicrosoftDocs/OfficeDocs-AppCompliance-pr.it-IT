@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SIGNL4, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 4cf1eae6ef533a1e744ca3c2968764fed0227d00
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243525"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282115"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -37,7 +37,7 @@ Informazioni fornite da Derdack SIGNL4 a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Derdack SIGNL4 |
 | URL del sito Web del partner | [https://www.derdack.com](https://www.derdack.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.signl4.com](https://www.signl4.com) |
+| URL della Teams info dell'applicazione | [https://www.signl4.com](https://www.signl4.com) |
 | URL dell'informativa sulla privacy | [https://www.signl4.com/privacy-policy/](https://www.signl4.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.signl4.com/terms_of_use/](https://www.signl4.com/terms_of_use/) |
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Derdack SIGNL4 su come questa app racc
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutti gli OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Recurly, Twilio | L'indirizzo di posta elettronica e l'indirizzo di posta elettronica sono necessari per inviare notifiche di fatturazione al cliente quando usa l'app. Twilio, numeri di telefono, avviso del contenuto per l'invio di avvisi tramite SMS SMS | API di gestione di Azure, vengono raccolti gli avvisi di Monitoraggio di Azure, la raccolta avviene perché i sistemi inviano notifiche per tali avvisi |
 

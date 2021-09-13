@@ -6,14 +6,14 @@ ms.date: 07/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per il rilevamento del tempo di Chronoscope, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per chronoscope Time Tracking, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 9e87baec293d3c18e48da28e1714fce9703f446f
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407466"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282144"
 ---
 # <a name="chronoscope-time-tracking"></a>Cronoscopio Time Tracking
 
@@ -53,18 +53,18 @@ Queste informazioni sono state fornite da Chrono Innovation su come questa app r
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| AccessReview.Read.All | application | the teams tenantId, teams addObjectId e teams user account information. Quando si collegano utenti chronoscope, viene convalidato che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza un passaggio manuale da parte dell'utente | teams tenantId, teams addObjectId e le informazioni sull'account utente di teams. Quando si collegano utenti chronoscope, viene convalidato che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza un passaggio manuale da parte dell'utente | [9bc8244d-a186-4b12-809e-c47b3eee73c6](https://docs.microsoft.com/microsoft-365-app-certification/azure/9bc8244d-a186-4b12-809e-c47b3eee73c6) |
+>| AccessReview.Read.All | application | the teams tenantId, teams addObjectId e teams user account information. Durante il collegamento degli utenti di Chronoscope, stiamo convalidando che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza un passaggio manuale da parte dell'utente | teams tenantId, teams addObjectId e le informazioni sull'account utente di teams. Durante il collegamento degli utenti di Chronoscope, stiamo convalidando che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza un passaggio manuale da parte dell'utente | [9bc8244d-a186-4b12-809e-c47b3eee73c6](https://docs.microsoft.com/microsoft-365-app-certification/azure/9bc8244d-a186-4b12-809e-c47b3eee73c6) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -72,7 +72,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| per trovare l'utente di teams workspaQuando si collegano utenti chronoscope, viene convalidato che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza passaggio manuale dal file user.ce nel database dell'applicazione e autenticare l'utente di teams | tenantId , informazioni sull'account utente come userId, addObjectId, givenName,email,role,objectId | Durante il collegamento degli utenti di Chronoscope, stiamo convalidando che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza un passaggio manuale dell'utente. Anche per essere in grado di inviare notifiche sulle voci di tempo utente precompilato in modo che possano salvarle/modificarle/eliminarle. |
+>| per trovare l'utente di teams workspaQuando si collegano utenti chronoscope, viene convalidato che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza un passaggio manuale dal file user.ce nel database dell'applicazione e autenticare l'utente di teams | tenantId , informazioni sull'account utente come userId, addObjectId, givenName,email,role,objectId | Quando si collegano gli utenti di Chronoscope, viene convalidato che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza un passaggio manuale dell'utente. Anche per essere in grado di inviare notifiche sulle voci di tempo utente precompilato in modo che possano salvarle/modificarle/eliminarle. |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -99,7 +99,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

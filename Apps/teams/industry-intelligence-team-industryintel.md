@@ -6,14 +6,14 @@ ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per IndustryIntel, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per IndustryIntel, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 71102c3a8720b8aa7c6d8cf3b9e329328e532d7d
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525580"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282786"
 ---
 # <a name="industryintel"></a>IndustryIntel
 
@@ -76,7 +76,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->No. Il mapping dell'utente DIS Teams e dell'utente Teams so avviene nel prodotto TEAMS. MS Teams invia i loro ID identificabili e li salviamo internamente per mappare l'utente. Inoltre, MS Teams invia un token JWT per le richieste di bot (impedisce la falsificazione delle richieste) e le richieste tab convalidano usando il cookie SO.
+>No. Il mapping dell'utente DIS Teams e dell'Teams SO avviene nel prodotto TEAMS. MS Teams invia i loro ID identificabili e li salviamo internamente per mappare l'utente. Inoltre, MS Teams invia un token JWT per le richieste di bot (impedisce la falsificazione delle richieste) e le richieste tab convalidano usando il cookie SO.
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner

@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wunder365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 71d163c9dc86fbd21fc9032abcc732168b8210eb
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525550"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282096"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -37,7 +37,7 @@ Informazioni fornite da JiJi Technologies Pvt Ltd a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | JiJi Technologies Pvt Ltd |
 | URL del sito Web del partner | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.wunder365.com/wunder365-for-office](https://www.wunder365.com/wunder365-for-office) |
+| URL della Teams info dell'applicazione | [https://www.wunder365.com/wunder365-for-office](https://www.wunder365.com/wunder365-for-office) |
 | URL dell'informativa sulla privacy | [https://www.wunder365.com/teams-app-privacy-policy](https://www.wunder365.com/teams-app-privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.wunder365.com/terms-of-service](https://www.wunder365.com/terms-of-service) |
 
@@ -65,7 +65,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -95,7 +95,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Tutte le applicazioni Web e le Archiviazione si trovano in una sottoscrizione non connessa all'AAD aziendale con solo amministratori che hanno accesso alle risorse. Per questi amministratori è necessaria la 2FA. 
+>Tutte le applicazioni Web e le Archiviazione si trovano in una sottoscrizione non connessa ad AAD aziendale con solo amministratori che hanno accesso alle risorse. Per questi amministratori è necessaria la 2FA. 
 
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative

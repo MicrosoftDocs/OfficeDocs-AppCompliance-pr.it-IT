@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Zoho Desk, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 8e76f0cce92e7aa5bac28df505613ec461a3fc06
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528352"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282906"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -37,7 +37,7 @@ Informazioni fornite da Zoho Corporation Private Limited a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Zoho Corporation Private Limited |
 | URL del sito Web del partner | [https://www.zoho.com/desk](https://www.zoho.com/desk) |
-| URL della pagina Teams informazioni sull'applicazione | [https://help.zoho.com/portal/kb/zoho-desk](https://help.zoho.com/portal/kb/zoho-desk) |
+| URL della Teams info dell'applicazione | [https://help.zoho.com/portal/kb/zoho-desk](https://help.zoho.com/portal/kb/zoho-desk) |
 | URL dell'informativa sulla privacy | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
 | URL delle Condizioni per l'utilizzo | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Files.Read.All | delegated |  | Leggere tutti i file a cui l'utente può accedere. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | delegated |  | Accedere e leggere il profilo utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.ReadBasic.All | delegated |  | Leggere i profili di base di tutti gli utenti. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| e-mail | delegated |  | Visualizzare l'indirizzo di posta elettronica dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| email | delegated |  | Visualizzare l'indirizzo di posta elettronica dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| offline_access | delegated |  | Mantenere l'accesso ai dati a cui gli è stato assegnato l'accesso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| profilo | delegated |  | Visualizzare il profilo di base dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
@@ -98,7 +98,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308' frameborder='no' style='width: 100%;'></iframe>
 

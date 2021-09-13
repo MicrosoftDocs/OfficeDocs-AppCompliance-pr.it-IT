@@ -6,14 +6,14 @@ ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Power BI Collaboration, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Power BI Collaboration, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 642ac51a231bf583b6cac3facb64ade94b772c3e
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609611"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282528"
 ---
 # <a name="power-bi-collaboration"></a>Opzioni di collaborazione di Power BI
 
@@ -37,7 +37,7 @@ Informazioni fornite da Ataira a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Ataira |
 | URL del sito Web del partner | [https://www.ataira.com](https://www.ataira.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.ataira.com/Microsoft/PowerBI/Collaboration](https://www.ataira.com/Microsoft/PowerBI/Collaboration) |
+| URL della Teams info dell'applicazione | [https://www.ataira.com/Microsoft/PowerBI/Collaboration](https://www.ataira.com/Microsoft/PowerBI/Collaboration) |
 | URL dell'informativa sulla privacy | [https://www.ataira.com/PrivacyPolicy](https://www.ataira.com/PrivacyPolicy) |
 | URL delle Condizioni per l'utilizzo | [https://www.ataira.com/TermsofUse](https://www.ataira.com/TermsofUse) |
 
@@ -57,15 +57,15 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | Autorizzazioni anche per ChannelMessage.Send Team.ReadBasic.All User.Read. Vengono usati per consentire all'utente di selezionare il Teams e il canale per le notifiche | Monitoraggio dell'utilizzo, degli errori e delle licenze. [callback_group_id] ,[datetime_id] ,[session_id] ,[app_type] ,[raw_url] ,[user_id] ,[list_name] ,[user_name] ,[stato] ,[priorità] ,[user_domain] ,[url_text ,[group_name] ,[title_name] ,[comments] ,[file_name] ,[description] ,[group_pbi_name] ,[item_type] ,[organization_id] ,[user_objectid] ,[organization_displayName] ,[group_id] | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5) |
+>| User.Read | delegated | Autorizzazioni anche per ChannelMessage.Send Team.ReadBasic.All User.Read. Vengono usati per consentire all'utente di selezionare il Teams e il canale per le notifiche | Monitoraggio dell'utilizzo, degli errori e delle licenze. [callback_group_id] ,[datetime_id] ,[session_id] ,[app_type] ,[raw_url] ,[user_id] ,[list_name] ,[user_name] ,[state] ,[priority] ,[user_domain] ,[url_text ,[group_name] ,[title_name] ,[comments] ,[file_name] ,[description] ,[group_pbi_name] ,[item_type] ,[organization_id] ,[user_objectid] ,[organization_displayName] ,[group_id] | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| https://analysis.windows.net/powerbi/api/ | Sì | posta elettronica utente, nome area di lavoro, nome elemento, url di incorporamento | Usato per popolare report e dashboard nell'interfaccia SharePoint componente aggiuntivo | [api_pbi_id] ,[datetime_id] ,[session_id] ,[user_name] ,[user_domain] ,[WorkSpace_Name] ,[WorkSpace_Id] ,[item_Id] ,[item_type] ,[item_name] ,[webUrl] ,[embedUrl] ,[displayName] ,[item_title] ,[isOwnedByMe] | Monitoraggio di utilizzo, errori e licenze |
+>| https://analysis.windows.net/powerbi/api/ | Sì | posta elettronica utente, nome area di lavoro, nome elemento, url di incorporamento | Usato per popolare report e dashboard nell'SharePoint componente aggiuntivo | [api_pbi_id] ,[datetime_id] ,[session_id] ,[user_name] ,[user_domain] ,[WorkSpace_Name] ,[WorkSpace_Id] ,[item_Id] ,[item_type] ,[item_name] ,[webUrl] ,[embedUrl] ,[displayName] ,[item_title] ,[isOwnedByMe] | Monitoraggio di utilizzo, errori e licenze |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
@@ -84,7 +84,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Metadati necessari per popolare Power BI report e dashboard, autenticazione Graph Teams API. Altri criteri relativi a dati e privacy sono disponibili sul sito Web. https://www.ataira.com/PrivacyPolicy E poi anche nella pagina di configurazione dell'app in modo specifico per la privacy dei dati. https://www.ataira.com/Microsoft/PowerBI/CollaborationSupport
+>Meta dati necessari per popolare Power BI report e dashboard, autenticazione Graph Teams API. Altri criteri relativi a dati e privacy sono disponibili sul sito Web. https://www.ataira.com/PrivacyPolicy E poi anche nella pagina di configurazione dell'app in modo specifico per la privacy dei dati. https://www.ataira.com/Microsoft/PowerBI/CollaborationSupport
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -104,7 +104,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/41844' frameborder='no' style='width: 100%;'></iframe>
 

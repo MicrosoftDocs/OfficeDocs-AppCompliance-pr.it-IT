@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Spinify, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 112ef7658f0aeae62046da0c1297be5025fa86ec
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551436"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281785"
 ---
 # <a name="spinify"></a>Spinify
 
@@ -37,7 +37,7 @@ Informazioni fornite da Spinify a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Spinify |
 | URL del sito Web del partner | [https://spinify.com](https://spinify.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://spinify.com/integrations/microsoft-teams/](https://spinify.com/integrations/microsoft-teams/) |
+| URL della Teams info dell'applicazione | [https://spinify.com/integrations/microsoft-teams/](https://spinify.com/integrations/microsoft-teams/) |
 | URL dell'informativa sulla privacy | [https://spinify.com/privacy-policy/](https://spinify.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://spinify.com/terms-of-service/](https://spinify.com/terms-of-service/) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

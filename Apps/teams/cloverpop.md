@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Cloverpop, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3865c07aca73134fd9029ee0550559d9a4f93fd2
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521869"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281323"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -56,7 +56,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | archiviare i dati utente come. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Quando gli utenti creano e interagiscono con le decisioni, questi dati vengono associati all'utente, al team e all'organizzazione che li ha creati. Dobbiamo anche visualizzare questa proprietà in un'esperienza utente facile da usare, quindi stiamo archiviando le informazioni di visualizzazione, ad esempio l'utente&#8217;avatar. | consente all'utente di accedere e consente all'app di accedere all'UPN per abilitare il&#8221; di accesso invisibile all'utente - posta elettronica, nome, oid, tid, givenName, surname, familyName, user avatar(photo), organization displayName | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
+>| User.Read | delegated | archiviare i dati utente come. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Quando gli utenti creano e interagiscono con le decisioni, questi dati vengono associati all'utente, al team e all'organizzazione che li ha creati. Dobbiamo anche visualizzare questa proprietà in un'esperienza utente facile da usare, quindi stiamo archiviando le informazioni di visualizzazione, ad esempio l'utente&#8217;avatar. | consente all'utente di accedere e consente all'app di accedere al proprio UPN per abilitare il&#8221; di accesso invisibile all'utente - posta elettronica, nome, oid, tid, givenName, cognome, familyName, avatar utente(foto), displayName dell'organizzazione | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 >| openid | delegated | Archiviare i dati utente come. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Quando gli utenti creano e interagiscono con le decisioni, questi dati vengono associati all'utente, al team e all'organizzazione che li ha creati. Dobbiamo anche visualizzare questa proprietà in un'esperienza utente facile da usare, quindi stiamo archiviando le informazioni di visualizzazione, ad esempio l'utente&#8217;avatar. | Per implementare &#8220;accedere con Teams&#8221;'app Web. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 >| profilo | delegated | Archiviare i dati utente come. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Quando gli utenti creano e interagiscono con le decisioni, questi dati vengono associati all'utente, al team e all'organizzazione che li ha creati. Dobbiamo anche visualizzare questa proprietà in un'esperienza utente facile da usare, quindi stiamo archiviando le informazioni di visualizzazione, ad esempio l'utente&#8217;avatar. | Per implementare &#8220;accedere con Teams&#8221;'app Web. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 
@@ -73,7 +73,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Microsoft accede ai dati del nome del primo/ultimo/nome visualizzato per visualizzare in modo accurato le azioni intraprese da utenti specifici relativi a una decisione. L'indirizzo di posta elettronica viene utilizzato come identificatore univoco per ogni utente nel database in quanto consente a ogni utente di appartenere a più organizzazioni. Accedono a questi dati solo quando interagiscono con la nostra app, ad esempio se rispondono a un sondaggio. | Vengono archiviati i dati del nome del primo/ultimo/nome visualizzato per visualizzare in modo accurato le azioni intraprese da utenti specifici relativi a una decisione.  L'indirizzo di posta elettronica viene archiviato perché viene utilizzato come identificatore univoco per ogni utente nel database in quanto consente a ogni utente di appartenere a più organizzazioni. Questi dati vengono archiviati solo quando interagiscono con la nostra app, ad esempio se rispondono a un sondaggio. I dati sulle decisioni devono essere un sistema di registrazione per le decisioni, quindi è importante archiviare i dati per identificare in che modo ogni utente coinvolto in una decisione ha contribuito a tale decisione. |  |
+>| Microsoft accede ai dati del nome del primo/ultimo/nome visualizzato per visualizzare in modo accurato le azioni intraprese da utenti specifici relativi a una decisione. L'indirizzo di posta elettronica viene utilizzato come identificatore univoco per ogni utente nel database in quanto consente a ogni utente di appartenere a più organizzazioni. Accedono a questi dati solo quando interagiscono con la nostra app, ad esempio se rispondono a un sondaggio. | Vengono archiviati i dati relativi al nome del primo/ultimo/nome visualizzato per visualizzare in modo accurato le azioni intraprese da utenti specifici relativi a una decisione.  L'indirizzo di posta elettronica viene archiviato perché viene utilizzato come identificatore univoco per ogni utente nel database, in quanto consente a ogni utente di appartenere a più organizzazioni. Questi dati vengono archiviati solo quando interagiscono con la nostra app, ad esempio se rispondono a un sondaggio. I dati sulle decisioni devono essere un sistema di registrazione per le decisioni, quindi è importante archiviare i dati per identificare in che modo ogni utente coinvolto in una decisione ha contribuito a tale decisione. |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -81,7 +81,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
 >Sì.
-L'ID del team viene visualizzato nei log quando l'app interagisce in un team.
+L'ID del team viene visualizzato nei log quando l'app viene interagita in un team.
 Abbiamo accesso limitato ai log di produzione ai nostri tre fondatori che hanno tutti sede negli Stati Uniti.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
@@ -90,7 +90,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 >L'app Cloverpop è stata creata usando Ruby on Rails ed è ospitata sulla piattaforma Heroku PaaS (piattaforma come servizio) che utilizza AWS per la sua infrastruttura cloud. Heroku e AWS hanno entrambi report SOC accessibili. L'app usa PostgreSQL per l'archiviazione dei dati crittografati in pausa ed è un ambiente multi-tenant.
  
-Per tutto il codice sono stati scritti test automatizzati che riguardano la sicurezza dell'accesso ai dati. Ogni build viene sottoposta a un rigoroso processo di revisione del codice per la sicurezza e a un processo di test qa manuale che include anche controlli per l'autenticazione degli utenti e l'accesso ai dati tramite azioni utente disponibili. Esiste una chiara separazione tra l'ambiente di produzione e tutti gli altri ambienti, ad esempio lo sviluppo e il testing.
+Per tutto il codice sono stati scritti test automatizzati che riguardano la sicurezza dell'accesso ai dati. Ogni compilazione viene sottoposta a un rigoroso processo di revisione del codice per la sicurezza e a un processo di test qa manuale che include anche controlli per l'autenticazione utente e l'accesso ai dati tramite azioni utente disponibili. Esiste una chiara separazione tra l'ambiente di produzione e tutti gli altri ambienti, ad esempio lo sviluppo e il testing.
  
 Solo il personale selezionato ha accesso all'ambiente di produzione e al database: i fondatori dell'azienda e una piccola parte di dipendenti sottoposti a controlli in background e che hanno un'esigenza quantificata (ad esempio il supporto dei clienti).
 
@@ -106,7 +106,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35992' frameborder='no' style='width: 100%;'></iframe>
 

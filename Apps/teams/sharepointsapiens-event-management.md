@@ -1,19 +1,19 @@
 ---
-title: Informazioni sull'applicazione per la gestione degli eventi da SharePoint| Sapiens
+title: Application Information for Event Management by SharePoint| Sapiens
 ms.author: elmalova
 author: elenamalova
 ms.date: 07/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per La gestione degli eventi, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per La gestione degli eventi, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 39480c170eb59a9f16b703a5182a2f2f23847955
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53610104"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282391"
 ---
 # <a name="event-management"></a>Gestione eventi
 
@@ -37,7 +37,7 @@ Informazioni fornite da SharePoint| Sapiens a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | SharePoint|Sapiens |
 | URL del sito Web del partner | [https://www.sharepointsapiens.com](https://www.sharepointsapiens.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.sharepointsapiens.com/event-management-office36...](https://www.sharepointsapiens.com/event-management-office365/documentation/teams/) |
+| URL della Teams info dell'applicazione | [https://www.sharepointsapiens.com/event-management-office36...](https://www.sharepointsapiens.com/event-management-office365/documentation/teams/) |
 | URL dell'informativa sulla privacy | [https://www.sharepointsapiens.com/privacy/](https://www.sharepointsapiens.com/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://addins.sharepointsapiens.com/licensing/services-agr...](https://addins.sharepointsapiens.com/licensing/services-agreement.html) |
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -71,9 +71,9 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Mailgun.com (facoltativo), Stripe.com (facoltativo) | Nome e indirizzo della società per la fatturazione se Stripe.com viene utilizzato per la fatturazione, inviti di calendario e risposte all'indirizzo e-mail degli utenti se mailgun viene utilizzato come servizio di posta | Se si sceglie di utilizzare il servizio di posta elettronica anziché il servizio di posta elettronica online di Exchange, i servizi inviano e ricevono posta elettronica tramite l'API e l'infrastruttura di mailgun. Se si sceglie di utilizzare la propria cassetta Exchange, nessun dato verrà elaborato da mailgun. Se si sceglie di utilizzare la carta di credito per pagare le tariffe di sottoscrizione, i dati raccolti verranno controllati ed elaborati da stripe.com. Se si sceglie di acquistare tramite ordine di acquisto e fattura anziché con carta di credito, nessun dato verrà elaborato da stripe.com. |
+>| Mailgun.com (facoltativo), Stripe.com (facoltativo) | Nome e indirizzo della società per la fatturazione se viene Stripe.com per la fatturazione, inviti del calendario e risposte a e da utenti indirizzo di posta elettronica se mailgun viene utilizzato come servizio di posta | Se si sceglie di utilizzare il servizio di posta elettronica anziché il servizio di posta elettronica online di Exchange, i servizi inviano e ricevono posta elettronica tramite l'API e l'infrastruttura di mailgun. Se si sceglie di utilizzare la propria cassetta Exchange, nessun dato verrà elaborato da mailgun. Se si sceglie di utilizzare la carta di credito per pagare le tariffe di sottoscrizione, i dati raccolti verranno controllati ed elaborati da stripe.com. Se scegli di acquistare tramite ordine di acquisto e fattura invece della carta di credito, nessun dato verrà elaborato da stripe.com. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -86,7 +86,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Non verrà archiviata alcuna euii. TenantID e SharePoint dominio verranno archiviati nella telemetria dell'app. I log e i dati di telemetria verranno archiviati per 90 giorni.
+>Non verrà archiviato alcun euII. TenantID e SharePoint dominio verranno archiviati nella telemetria dell'app. I log e i dati di telemetria verranno archiviati per 90 giorni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -106,7 +106,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36018' frameborder='no' style='width: 100%;'></iframe>
 

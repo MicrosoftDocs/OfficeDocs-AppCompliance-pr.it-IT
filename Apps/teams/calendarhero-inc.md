@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per CalendarHero, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 41a7dd8a2cb7d900ac26b228c4cc2522d76da59c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527592"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282193"
 ---
 # <a name="calendarhero"></a>CalendarHero
 
@@ -37,7 +37,7 @@ Informazioni fornite da CalendarHero Inc a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | CalendarHero Inc |
 | URL del sito Web del partner | [https://zoom.ai](https://zoom.ai) |
-| URL della pagina Teams informazioni sull'applicazione | [https://faq.zoom.ai/](https://faq.zoom.ai/) |
+| URL della Teams info dell'applicazione | [https://faq.zoom.ai/](https://faq.zoom.ai/) |
 | URL dell'informativa sulla privacy | [https://zoom.ai/privacy-policy](https://zoom.ai/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://zoom.ai/terms-of-use](https://zoom.ai/terms-of-use) |
 
@@ -105,7 +105,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35668' frameborder='no' style='width: 100%;'></iframe>
 

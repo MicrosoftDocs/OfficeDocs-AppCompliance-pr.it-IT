@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CoffeePals, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 2f058ef9ce4f3d19644a6223c394afefa257085b
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609963"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282516"
 ---
 # <a name="coffeepals"></a>CoffeePals
 
@@ -37,7 +37,7 @@ Informazioni fornite da Carnduff Co a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Carnduff Co |
 | URL del sito Web del partner | [https://coffeepals.co](https://coffeepals.co) |
-| URL della pagina Teams informazioni sull'applicazione | [https://coffeepals.co/product](https://coffeepals.co/product) |
+| URL della Teams info dell'applicazione | [https://coffeepals.co/product](https://coffeepals.co/product) |
 | URL dell'informativa sulla privacy | [https://coffeepals.co/privacy](https://coffeepals.co/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://coffeepals.co/terms-of-service](https://coffeepals.co/terms-of-service) |
 
@@ -62,9 +62,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Google Analytics, Stripe, Mailchimp, Heroku, Atlante MongoDB, AWS, Logentries | Indirizzo di posta elettronica utente, informazioni di pagamento (gestite da stripe), Nome e Cognome | L'app viene pagata in modo che richieda informazioni sulla carta di credito e informazioni di contatto. |
+>| Google Analytics, Stripe, Mailchimp, Heroku, Atlante MongoDB, AWS, Logentries | Indirizzo di posta elettronica utente, informazioni di pagamento (gestite da stripe), nome e cognome | L'app viene pagata in modo che richieda informazioni sulla carta di credito e informazioni di contatto. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

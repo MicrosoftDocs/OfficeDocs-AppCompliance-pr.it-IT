@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Tribute, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 589dcefe68d389ecfc2a4ba3f51998878358c58f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283380"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281088"
 ---
 # <a name="tribute"></a>Tribute
 
@@ -37,7 +37,7 @@ Informazioni fornite da Tribute Co. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Tribute Co. |
 | URL del sito Web del partner | [https://www.tributementorship.com](https://www.tributementorship.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
+| URL della Teams info dell'applicazione | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
 | URL dell'informativa sulla privacy | [https://www.tributementorship.com/privacy ](https://www.tributementorship.com/privacy ) |
 | URL delle Condizioni per l'utilizzo | [https://www.tributementorship.com/terms](https://www.tributementorship.com/terms) |
 
@@ -95,7 +95,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
 

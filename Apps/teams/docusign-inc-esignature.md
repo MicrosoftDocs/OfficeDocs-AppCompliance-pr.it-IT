@@ -6,14 +6,14 @@ ms.date: 05/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per DocuSign eSignature, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per DocuSign eSignature, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 6f924fd6777e53a6b854d2249d334fbdab2a54c0
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790045"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282823"
 ---
 # <a name="docusign-esignature"></a>DocuSign eSignature
 
@@ -37,7 +37,7 @@ Informazioni fornite da DocuSign, Inc. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | DocuSign, Inc. |
 | URL del sito Web del partner | [https://www.docusign.com](https://www.docusign.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://docs.docusign.com/supportdocs/ds-for-MS-teams/Conte...](https://docs.docusign.com/supportdocs/ds-for-MS-teams/Content/overview-docusign-for-ms-teams.htm) |
+| URL della Teams info dell'applicazione | [https://docs.docusign.com/supportdocs/ds-for-MS-teams/Conte...](https://docs.docusign.com/supportdocs/ds-for-MS-teams/Content/overview-docusign-for-ms-teams.htm) |
 | URL dell'informativa sulla privacy | [https://www.docusign.com/company/privacy-policy](https://www.docusign.com/company/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.docusign.com/company/terms-and-conditions/web](https://www.docusign.com/company/terms-and-conditions/web) |
 
@@ -49,7 +49,7 @@ Informazioni fornite da DocuSign, Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da DocuSign, Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da DocuSign, Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -81,7 +81,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Coperto dai sistemi descritti nell'Informativa sulla privacy https://www.docusign.com/company/privacy-policy
+>Coperta dai sistemi descritti nell'Informativa sulla privacy https://www.docusign.com/company/privacy-policy
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

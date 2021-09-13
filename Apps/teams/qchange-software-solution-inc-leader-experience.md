@@ -6,14 +6,14 @@ ms.date: 04/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per qChange Leader Experience, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per qChange Leader Experience, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: efa6d9c9165a852ff45f1d6c68d8aeb3343a18e3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521167"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281665"
 ---
 # <a name="qchange-leader-experience"></a>qChange Leader Experience
 
@@ -37,7 +37,7 @@ Informazioni fornite da qChange Software Solution, Inc. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | qChange Software Solution, Inc. |
 | URL del sito Web del partner | [https://qchange.com](https://qchange.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.qchange.com/leader-experience](https://www.qchange.com/leader-experience) |
+| URL della Teams info dell'applicazione | [https://www.qchange.com/leader-experience](https://www.qchange.com/leader-experience) |
 | URL dell'informativa sulla privacy | [https://www.qchange.com/privacy-policy](https://www.qchange.com/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.qchange.com/terms-of-service](https://www.qchange.com/terms-of-service) |
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ClipTraining, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 5d59d4cbd2d28f1c906e541e7ffc78311c12ffb6
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525770"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281334"
 ---
 # <a name="cliptraining"></a>ClipTraining
 
@@ -37,7 +37,7 @@ Informazioni fornite da ClipTraining a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | ClipTraining |
 | URL del sito Web del partner | [https://www.cliptraining.com](https://www.cliptraining.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.cliptraining.com](https://www.cliptraining.com) |
+| URL della Teams info dell'applicazione | [https://www.cliptraining.com](https://www.cliptraining.com) |
 | URL dell'informativa sulla privacy | [https://www.cliptraining.com/privacy-policy/](https://www.cliptraining.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.cliptraining.com/eula/](https://www.cliptraining.com/eula/) |
 
@@ -57,7 +57,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| e-mail | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| email | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 >| offline_access | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 >| openid | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 >| profilo | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
@@ -67,7 +67,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| servizio di hosting non Microsoft, non Microsoft CRM | Nome, cognome, indirizzo di posta elettronica | Obbligatorio per l'uso aziendale |
 
@@ -116,7 +116,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da ClipTraining su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da ClipTraining sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

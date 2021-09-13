@@ -6,14 +6,14 @@ ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Bright Poll, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Bright Poll, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: af6e29845108dee6504e87864c80b5ef5a11aa16
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525830"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282175"
 ---
 # <a name="bright-poll"></a>Bright Poll
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -69,7 +69,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| L'archiviazione dei nomi degli utenti, degli ID univoci e degli indirizzi di posta elettronica è necessaria per fornire e supportare la funzionalità di polling. | ID, nomi e indirizzi di posta elettronica univoci per team e utenti. | Id, nomi e indirizzi di posta elettronica univoci sono necessari per le funzionalità dell'app e per supportare l'applicazione. |
+>| L'archiviazione dei nomi degli utenti, degli ID univoci e degli indirizzi di posta elettronica è necessaria per fornire e supportare la funzionalità di polling. | ID, nomi e indirizzi di posta elettronica univoci per team e utenti. | Id, nomi e indirizzi di posta elettronica univoci sono necessari per la funzionalità dell'app e per supportare l'applicazione. |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria

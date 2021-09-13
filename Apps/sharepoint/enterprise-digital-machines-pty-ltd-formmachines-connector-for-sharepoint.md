@@ -1,5 +1,5 @@
 ---
-title: Application Information for FormMachines Connector for SharePoint by ENTERPRISE DIGITAL MACHINES PTY LTD
+title: Informazioni sull'applicazione per FormMachines Connector per SharePoint da ENTERPRISE DIGITAL MACHINES PTY LTD
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per FormMachines Connector per SharePoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 56c08c242cb3822ebaea854026fb3f758768b7bf
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53522229"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282846"
 ---
 # <a name="formmachines-connector-for-sharepoint"></a>Connettore FormMachines per SharePoint
 
@@ -55,14 +55,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | (login, email, Azure Guid, displayName, first_login_date_time) | consente all'utente di accedere e consente all'app di accedere al proprio UPN per abilitare l'accesso invisibile all'utente, ci consente di identificare in modo univoco ogni utente | [8c87660f-d36f-41f6-b0ae-025253f380aaa](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c87660f-d36f-41f6-b0ae-025253f380aa) |
+>| User.Read | delegated | (account di accesso, posta elettronica, Guid di Azure, displayName, first_login_date_time) | consente all'utente di accedere e consente all'app di accedere al proprio UPN per abilitare l'accesso invisibile all'utente, ci consente di identificare in modo univoco ogni utente | [8c87660f-d36f-41f6-b0ae-025253f380aaa](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c87660f-d36f-41f6-b0ae-025253f380aa) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 
@@ -76,7 +76,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->. I dati vengono archiviati in data center basati su Azure US. I dati forniti dal client, ad esempio modelli e invii, vengono crittografati nel database . I file allegati vengono archiviati in contenitori BLOB di Azure privati, gli utenti devono eseguire l'autenticazione prima di accedervi. Abbiamo al massimo due amministratori che possono accedere alle risorse di produzione per la risoluzione dei problemi e la distribuzione. Questi due account di amministratore sono partizionati in modo diverso rispetto a tutti gli altri account. Il numero di accessi dell'amministratore non supererà mai due
+>. I dati vengono archiviati in data center basati su Azure US. I dati forniti dal client, ad esempio modelli e invii, vengono crittografati nel database . I file allegati vengono archiviati in contenitori BLOB di Azure privati, gli utenti devono eseguire l'autenticazione prima di accedervi. Abbiamo al massimo due amministratori che possono accedere alle risorse di produzione per la risoluzione dei problemi e la distribuzione. Questi due account di amministratore sono partizionati in modo diverso rispetto a tutti gli altri account. Il numero di accesso amministratore non supererà mai due
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

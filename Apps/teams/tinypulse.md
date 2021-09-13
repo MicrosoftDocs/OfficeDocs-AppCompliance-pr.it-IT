@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TINYpulse, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 5ea21e3a277c8b3388c8ae28256a671484d625f1
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283410"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283621"
 ---
 # <a name="tinypulse"></a>TINYpulse
 
@@ -37,7 +37,7 @@ Informazioni fornite da TINYpulse a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | TINYpulse |
 | URL del sito Web del partner | [https://www.tinypulse.com](https://www.tinypulse.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.tinypulse.com/engage](https://www.tinypulse.com/engage) |
+| URL della Teams info dell'applicazione | [https://www.tinypulse.com/engage](https://www.tinypulse.com/engage) |
 | URL dell'informativa sulla privacy | [https://www.tinypulse.com/privacy-policy](https://www.tinypulse.com/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.tinypulse.com/terms-and-conditions](https://www.tinypulse.com/terms-and-conditions) |
 

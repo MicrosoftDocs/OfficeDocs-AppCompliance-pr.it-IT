@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Evernote, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3eaaa3cacc4affc866a967a495687bc53abcfae5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552187"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283704"
 ---
 # <a name="evernote"></a>Evernote
 
@@ -37,7 +37,7 @@ Informazioni fornite da Evernote a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Evernote |
 | URL del sito Web del partner | [https://evernote.com/](https://evernote.com/) |
-| URL della pagina Teams informazioni sull'applicazione | [https://help.evernote.com/hc/en-us/articles/360001244667](https://help.evernote.com/hc/en-us/articles/360001244667) |
+| URL della Teams info dell'applicazione | [https://help.evernote.com/hc/en-us/articles/360001244667](https://help.evernote.com/hc/en-us/articles/360001244667) |
 | URL dell'informativa sulla privacy | [https://evernote.com/privacy](https://evernote.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://evernote.com/legal/terms-of-service](https://evernote.com/legal/terms-of-service) |
 
@@ -94,7 +94,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11693' frameborder='no' style='width: 100%;'></iframe>
 

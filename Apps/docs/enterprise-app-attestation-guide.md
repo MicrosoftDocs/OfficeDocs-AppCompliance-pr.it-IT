@@ -1,19 +1,19 @@
 ---
-title: Che cos'è Publisher attestazione?
+title: Che cos'Publisher attestazione?
 author: LGerrard
 ms.author: legerrar
 description: Ulteriori dettagli sul programma di Publisher di attestazione
 keywords: app attestation certification 365 questionnaire appSource publisher
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 10b4bb59d26190535b9aa365c830db774f4865c063678fad02a10c73c6d1ef64
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54750456"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282619"
 ---
-# <a name="what-is-publisher-attestation"></a>Che cos'è Publisher attestazione?
+# <a name="what-is-publisher-attestation"></a>Che cos'Publisher attestazione?
 
 Publisher L'attestazione è il livello successivo nel Microsoft 365 App Compliance Program. Allo sviluppatore dell'app viene richiesto di completare un'autovalutazione che include le domande frequenti poste dai clienti o dagli amministratori IT quando valutano la sicurezza e la conformità di un'app. Microsoft pubblica quindi queste informazioni per una valutazione più facile e più veloce.
 
@@ -32,7 +32,7 @@ Publisher L'attestazione si applica alle app Web (app SaaS pubblicate tramite ma
 - OneNote
 
 ### <a name="benefits-for-it-admins"></a>Vantaggi per gli amministratori IT
-I vantaggi del completamento dell'Publisher per gli amministratori IT includono:
+I vantaggi derivanti dal completamento dell'attestazione Publisher per gli amministratori IT includono:
 -   Maggiore sicurezza nelle misure di sicurezza e conformità delle applicazioni abilitate nell'organizzazione
 -   Tempo ridotto per esaminare la sicurezza e la conformità di un'app
 
@@ -43,7 +43,7 @@ I vantaggi del completamento dell'attestazione Publisher per gli sviluppatori in
 -   Maggiore trasparenza
 - Microsoft fornisce questo servizio senza costi aggiuntivi
 -   Differenziazione dalle altre app nello Store
--   Collegamento alla pagina dei documenti dalla voce in AppSource, Teams admin center e Microsoft Admin Center
+-   Collegamento alla pagina dei documenti dalla voce in AppSource, Teams di amministrazione e Microsoft Admin Center
 -   Qualificazione per l'avvio della Microsoft 365 di certificazione
 
 
@@ -70,7 +70,7 @@ Lo sviluppatore può esaminare informazioni dettagliate sui risultati dell'attes
 
 **Vedi la [presentazione MIPA](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas) per un esempio di app che ha completato la Publisher attestazione.** 
 
-## <a name="learn-more"></a>Per approfondire
+## <a name="learn-more"></a>Scopri di più
 
 * [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)
 * [Che cos'è Publisher verifica](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)

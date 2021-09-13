@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Mybys, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: ce63aba5257555ddd4fb573aed5c2b1891c37baa
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521679"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281562"
 ---
 # <a name="mybys"></a>Mybys
 
@@ -37,7 +37,7 @@ Informazioni fornite da Facilis a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Facilis |
 | URL del sito Web del partner | [https://facilisglobal.com](https://facilisglobal.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://facilisglobal.com/products/microsoft-teams](https://facilisglobal.com/products/microsoft-teams) |
+| URL della Teams info dell'applicazione | [https://facilisglobal.com/products/microsoft-teams](https://facilisglobal.com/products/microsoft-teams) |
 | URL dell'informativa sulla privacy | [https://facilisglobal.com/privacy-policy](https://facilisglobal.com/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://facilisglobal.com/terms-conditions](https://facilisglobal.com/terms-conditions) |
 
@@ -97,7 +97,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36915' frameborder='no' style='width: 100%;'></iframe>
 

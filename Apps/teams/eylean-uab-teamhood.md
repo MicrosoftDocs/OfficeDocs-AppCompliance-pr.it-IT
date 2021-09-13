@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Teamhood, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 760f57e7fdc562e5ee39d563792c195d38aecb23
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553157"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283218"
 ---
 # <a name="teamhood"></a>Teamhood
 
@@ -37,7 +37,7 @@ Informazioni fornite da Eylean, UAB a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Eylean, UAB |
 | URL del sito Web del partner | [https://teamhood.com](https://teamhood.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://teamhood.com/features/teamhood-and-microsoft-teams-...](https://teamhood.com/features/teamhood-and-microsoft-teams-integration/) |
+| URL della Teams info dell'applicazione | [https://teamhood.com/features/teamhood-and-microsoft-teams-...](https://teamhood.com/features/teamhood-and-microsoft-teams-integration/) |
 | URL dell'informativa sulla privacy | [https://teamhood.com/privacy-policy/](https://teamhood.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://teamhood.com/terms-of-use/](https://teamhood.com/terms-of-use/) |
 

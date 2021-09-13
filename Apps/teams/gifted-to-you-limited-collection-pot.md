@@ -9,13 +9,13 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Collection Pot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 64d48d55cdbb437697f6d001636ed505b4fcbc59
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53610094"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282804"
 ---
-# <a name="collection-pot"></a>Collection Pot
+# <a name="collection-pot"></a>Vaso di raccolta
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Informazioni fornite da Gifted to You Limited to Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Collection Pot |
+| Nome app | Vaso di raccolta |
 | ID | WA200002016 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Gifted to You Limited |
+| Nome società partner | Regalato a te limitato |
 | URL del sito Web del partner | [https://www.collectionpot.com](https://www.collectionpot.com) |
 | URL dell'informativa sulla privacy | [https://www.collectionpot.com/privacy/](https://www.collectionpot.com/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.collectionpot.com/terms-of-service/](https://www.collectionpot.com/terms-of-service/) |
@@ -94,7 +94,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/41842' frameborder='no' style='width: 100%;'></iframe>
 

@@ -6,14 +6,14 @@ ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Sheetgo, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Sheetgo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a91a3ac8e1d7ead5a469a88787b4b5809d48615a
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53524730"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281496"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| MongoDB: Registrare i dati del sistema e degli utenti per funzionare, Google BigQuery: Registrare l'utilizzo dei registri di sistema, Google Firestore: Un sistema che gestisce e orchestra lo stato dei nostri microservizi, Stripe: Sistema di pagamento |  | Queste applicazioni non usano API Microsoft aggiuntive |
 
@@ -82,7 +82,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->MongoDB: registrare i dati del sistema e degli utenti per funzionare Google BigQuery: registrare i registri di sistema di utilizzo di Google Firestore: un sistema che gestisce e orchestra lo stato dei nostri microservizi. L'unico dato critico che questo servizio transita è la credenziale dell'utente, che viene crittografata utilizzando il sistema AES256 Stripe: Payment.
+>MongoDB: registrare i dati del sistema e degli utenti per funzionare Google BigQuery: registrare i registri di sistema di utilizzo di Google Firestore: un sistema che gestisce e orchestra lo stato dei nostri microservizi. L'unico dato critico che questo servizio transita è la credenziale utente, che viene crittografata utilizzando il sistema AES256 Stripe: Payment.
  
 Tutti i dati in transito utilizzano HTTPS per le connessioni protette e tutti i dati sensibili vengono crittografati tramite AES256
 

@@ -1,19 +1,19 @@
 ---
-title: Application Information for harmon.ie for Office by harmon.ie Corporation
+title: Informazioni sull'applicazione harmon.ie per Office da harmon.ie Corporation
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per harmon.ie per Office, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per harmon.ie per Office, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c5a4cc10fdb936e6e0a9c04cc492cd301a374cd8
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528002"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283795"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie per Office
 
@@ -33,7 +33,7 @@ Informazioni fornite da harmon.ie Corporation a Microsoft:
 |:----------------|:-------------|
 | Nome app | harmon.ie per Office |
 | ID | WA104381050 |
-| Office 365 client supportati | PowerPoint 2016 o versioni successive su Windows, Word 2016 o versioni successive su Windows, Excel sul web, Word sul web, PowerPoint sul web, Word 2016 o versioni successive su Mac, PowerPoint 2016 o versioni successive su Mac |
+| Office 365 client supportati | PowerPoint 2016 o versioni successive su Windows, Word 2016 o versioni successive in Windows, Excel sul web, Word sul web, PowerPoint sul web, Word 2016 o versioni successive su Mac, PowerPoint 2016 o versioni successive su Mac |
 | Nome società partner | harmon.ie Corporation |
 | URL del sito Web del partner | [https://harmon.ie](https://harmon.ie) |
 | URL dell'informativa sulla privacy | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
@@ -56,8 +56,8 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.AccessAsUser.All | delegated | Obbligatorio harmon.ie per Outlook consentire agli utenti di accedere e ottenere il ruolo dell'utente | nessuno | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
->| Files.ReadWrite.All | delegated | Obbligatorio da harmon.ie per Outlook consentire il trasferimento degli allegati di posta elettronica da Outlook &amp; e salvarli in SharePoint | nessuno | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
->| Mail.ReadWrite | delegated | Obbligatorio da harmon.ie per Outlook consentire il trasferimento degli allegati di posta elettronica da Outlook &amp; e salvarli in SharePoint | nessuno | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Files.ReadWrite.All | delegated | Obbligatorio da harmon.ie per Outlook per consentire il trasferimento degli allegati di posta elettronica da Outlook &amp; e salvarli in SharePoint | nessuno | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Mail.ReadWrite | delegated | Obbligatorio da harmon.ie per Outlook per consentire il trasferimento degli allegati di posta elettronica da Outlook &amp; e salvarli in SharePoint | nessuno | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 >| User.Read | delegated | Obbligatorio da harmon.ie per Outlook per risolvere l'immagine del profilo degli utenti | nessuno | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 
 
@@ -107,7 +107,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da harmon.ie Corporation sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da harmon.ie Corporation su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione Studi.ly da inLogic-Office Store
+title: Application Information for Studi.ly by inLogic-Office Store
 ms.author: elmalova
 author: elenamalova
 ms.date: 08/24/2020
@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Studi.ly, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: d682e758d9632a2c3ac19296dda7083dc8379689
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525570"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283681"
 ---
 # <a name="studily"></a>Studi.ly
 
@@ -59,7 +59,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Calendars.ReadWrite | delegated | Stiamo archiviando le informazioni relative a classi, scuole e membri e ai termini dell'api per l'istruzione nella nostra api e ne abbiamo bisogno perché se lo riceviamo ogni volta dall'api del grafico che rallenta il funzionamento dell'applicazione. Viene sincronizzato in base a un evento basato sull'ora dall'api education al database. |  | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
 >| Directory.Read.All | delegated | Stiamo archiviando le informazioni relative a classi, scuole e membri e ai termini dell'api per l'istruzione nella nostra api e ne abbiamo bisogno perché se lo riceviamo ogni volta dall'api del grafico che rallenta il funzionamento dell'applicazione. Viene sincronizzato in base a un evento basato sull'ora dall'api education al database. | Scrivi directory nei gruppi per le assegnazioni e i materiali. | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
 >| Directory.ReadWrite.All | application | Stiamo archiviando le informazioni relative a classi, scuole e membri e ai termini dell'api per l'istruzione nella nostra api e ne abbiamo bisogno perché se lo riceviamo ogni volta dall'api del grafico che rallenta il funzionamento dell'applicazione. Viene sincronizzato in base a un evento basato sull'ora dall'api education al database. | Scrivi directory nei gruppi per le assegnazioni e i materiali. | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
->| EduRoster.Read.All | application | Stiamo archiviando le informazioni relative a classi, scuole e membri e ai termini dell'api per l'istruzione nella nostra api e ne abbiamo bisogno perché se lo riceviamo ogni volta dall'api del grafico che rallenta il funzionamento dell'applicazione. Viene sincronizzato in base a un evento basato sull'ora dall'api education al database. | Leggere Education Classes, School, Members e Terms.Get all classes and schools of a tenant for synchronization into app database. | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
+>| EduRoster.Read.All | application | Stiamo archiviando le informazioni relative a classi, scuole, membri e termini dell'api education nella nostra api e ne abbiamo bisogno perché se lo riceviamo ogni volta dall'api del grafico che rallenta il funzionamento dell'applicazione. Viene sincronizzato in base a un evento basato sull'ora dall'api education al database. | Leggere Education Classes, School, Members e Terms.Get all classes and schools of a tenant for synchronization into app database. | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
 >| EduRoster.ReadBasic | delegated | Stiamo archiviando le informazioni relative a classi, scuole e membri e ai termini dell'api per l'istruzione nella nostra api e ne abbiamo bisogno perché se lo riceviamo ogni volta dall'api del grafico che rallenta il funzionamento dell'applicazione. Viene sincronizzato in base a un evento basato sull'ora dall'api education al database. | Leggere Education Classes, School, Members e Terms.Get all classes and schools of a tenant for synchronization into app database. | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
 >| EduRoster.ReadWrite.All | application | Stiamo archiviando le informazioni relative a classi, scuole e membri e ai termini dell'api per l'istruzione nella nostra api e ne abbiamo bisogno perché se lo riceviamo ogni volta dall'api del grafico che rallenta il funzionamento dell'applicazione. Viene sincronizzato in base a un evento basato sull'ora dall'api education al database. | Leggere Education Classes, School, Members e Terms.Get all classes and schools of a tenant for synchronization into app database. | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
 >| Files.ReadWrite.All | delegated | Stiamo archiviando le informazioni relative a classi, scuole e membri e ai termini dell'api per l'istruzione nella nostra api e ne abbiamo bisogno perché se lo riceviamo ogni volta dall'api del grafico che rallenta il funzionamento dell'applicazione. Viene sincronizzato in base a un evento basato sull'ora dall'api education al database. | ReadWrite Files from One Drive | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
@@ -75,7 +75,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -94,7 +94,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->È archiviato nel database cosmo di Azure e qualsiasi crittografia e archiviazione disponibile per impostazione predefinita con il database cosmo è applicabile a questa applicazione.
+>È archiviato nel database cosmo di Azure e qualsiasi crittografia e archiviazione disponibili per impostazione predefinita con il database cosmos è applicabile a questa applicazione.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -108,7 +108,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35976' frameborder='no' style='width: 100%;'></iframe>
 

@@ -6,14 +6,14 @@ ms.date: 07/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Board Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Board Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c04b8be94b4d9a6367c8baa2b3370d82c2bdff5c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525670"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283729"
 ---
 # <a name="board-connect"></a>Board Connect
 
@@ -37,7 +37,7 @@ Informazioni fornite da Engage Squared a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Engage Squared |
 | URL del sito Web del partner | [https://engagesq.com](https://engagesq.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://boardconnect.app](https://boardconnect.app) |
+| URL della Teams info dell'applicazione | [https://boardconnect.app](https://boardconnect.app) |
 | URL dell'informativa sulla privacy | [https://boardconnect.app/privacy/](https://boardconnect.app/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://boardconnect.app/terms](https://boardconnect.app/terms) |
 
@@ -58,11 +58,11 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegated | Per consentire all'app di aggiornare i calendari degli utenti in modo da riflettere le risposte di partecipazione alle riunioni inviate tramite l'app. | Non vengono archiviati dati all'interno dell'archivio tabelle di Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| Group.ReadWrite.All | delegated | Per consentire all'app di creare, aggiornare ed eliminare eventi del calendario di gruppo. | Archiviamo l'ID del gruppo insieme all'ID tenant, che viene archiviato e usato dal punto di vista delle licenze, in modo da poter verificare che l'organizzazione sia concessa in licenza per Il consiglio di amministrazione Connessione. Viene inoltre utilizzato per tenere traccia del numero di installazioni delle applicazioni presenti all'interno del tenant in quanto questo è in linea con il modello di gestione delle licenze | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| Group.ReadWrite.All | delegated | Per consentire all'app di creare, aggiornare ed eliminare eventi del calendario di gruppo. | Archiviamo l'ID del gruppo, insieme all'ID tenant, che viene archiviato e usato dal punto di vista delle licenze, in modo da poter verificare che l'organizzazione sia concessa in licenza per Il consiglio di amministrazione Connessione. Viene inoltre utilizzato per tenere traccia del numero di installazioni delle applicazioni presenti all'interno del tenant in quanto questo è in linea con il modello di gestione delle licenze | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 >| Sites.Manage.All | delegated | Per consentire all'app di creare elenchi e raccolte, gestire gli elementi di elenco e i documenti in una raccolta siti del team. | Nessuno | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 >| User.Read | delegated | Per consentire agli utenti di accedere all'app e consentire all'app di leggere il profilo dell'utente attualmente connesso. | I dati di questo endpoint non vengono archiviati nell'archivio tabelle di Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 >| User.ReadBasic.All | delegated | Per consentire all'app di leggere un set di base di proprietà del profilo di altri utenti per conto dell'utente connesso, per visualizzarlo nell'app. Sono inclusi nome visualizzato, nome e cognome, indirizzo di posta elettronica e foto. | Nessuno, i dati non vengono archiviati nell'archiviazione tabelle di Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| offline_access | delegated | Per consentire all'app di ottenere un token di aggiornamento, che può usare per ottenere un nuovo token di accesso alla scadenza di quello corrente. | Nessuno, i dati non vengono archiviati all'interno dell'archivio tabelle di Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| offline_access | delegated | Per consentire all'app di ottenere un token di aggiornamento, che può usare per ottenere un nuovo token di accesso alla scadenza di quello corrente. | Nessuno, i dati non vengono archiviati all'interno dell'archiviazione tabelle di Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -102,7 +102,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36435' frameborder='no' style='width: 100%;'></iframe>
 

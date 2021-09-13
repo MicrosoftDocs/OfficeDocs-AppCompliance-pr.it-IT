@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Tikit, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c17273ad8e2cdc9bd2f60ce5a3157f1f8473bb88
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525790"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281353"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -37,7 +37,7 @@ Informazioni fornite da Cireson a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Cireson |
 | URL del sito Web del partner | [https://tikit.ai](https://tikit.ai) |
-| URL della pagina Teams informazioni sull'applicazione | [https://tikit.ai](https://tikit.ai) |
+| URL della Teams info dell'applicazione | [https://tikit.ai](https://tikit.ai) |
 | URL dell'informativa sulla privacy | [https://tikit.ai/privacy-statement/](https://tikit.ai/privacy-statement/) |
 | URL delle Condizioni per l'utilizzo | [https://tikit.ai/terms-service/](https://tikit.ai/terms-service/) |
 
@@ -57,20 +57,20 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Device.Read | application | Informazioni del grafico utente usate per l'accesso Single #A0 tramite la comunicazione bot di Teams  | Vengono archiviati i ruoli utente, il nome della famiglia, il nome, l'indirizzo di posta elettronica, l'ID AAD Teams ID utente. Questa informazione viene utilizzata per l'autenticazione delle applicazioni, la sicurezza, il controllo degli accessi in base al ruolo, l'integrazione dei team, le notifiche di Teams e il mapping delle relazioni utente   | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Device.Read | application | Informazioni del grafico utente usate per l'accesso Single #A0 tramite la comunicazione bot di teams  | Vengono archiviati i ruoli utente, il nome della famiglia, il nome, l'indirizzo di posta elettronica, l'ID AAD Teams ID utente. Questa informazione viene utilizzata per l'autenticazione delle applicazioni, la sicurezza, il controllo degli accessi in base al ruolo, l'integrazione dei team, le notifiche di Teams e il mapping delle relazioni utente   | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Directory.AccessAsUser.All | delegated | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nome gruppo &amp; Nome ruolo, è necessario fornire un controllo di accesso mappato sicuro. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Directory.Read.All | delegated | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nome gruppo &amp; Nome ruolo, è necessario fornire un controllo di accesso mappato sicuro. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Group.Read.All | entrambi | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | Nomi e ruoli dei gruppi per il controllo degli accessi in base al ruolo | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read | delegated | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read.All | application | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.ReadBasic.All | delegated | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, utilizzato per l'autenticazione  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| e-mail | delegated | Posta elettronica utente utilizzata per l'accesso e identificazione associata di entità correlate. &quot;Utente assegnato&quot; | Posta elettronica utente utilizzata per l'accesso e identificazione associata di entità correlate. &quot;Utente assegnato&quot; | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read | delegated | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, usato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, usato per l'autenticazione  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read.All | application | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, usato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, usato per l'autenticazione  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.ReadBasic.All | delegated | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, usato per l'autenticazione  | Ruoli utente, nome della famiglia, nome specificato, posta elettronica, ID AAD, Teams ID utente, usato per l'autenticazione  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| email | delegated | Posta elettronica utente utilizzata per l'accesso e identificazione associata di entità correlate. &quot;Utente assegnato&quot; | Posta elettronica utente utilizzata per l'accesso e identificazione associata di entità correlate. &quot;Utente assegnato&quot; | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| openid | delegated | utilizzato per l'autenticazione tramite MSAL per requisiti  | utilizzato per l'autenticazione tramite MSAL per requisiti  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| profilo | delegated | utilizzato per l'autenticazione tramite MSAL per requisiti  | utilizzato per l'autenticazione tramite MSAL per requisiti  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -80,7 +80,7 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -115,7 +115,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36548' frameborder='no' style='width: 100%;'></iframe>
 
@@ -129,7 +129,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Cireson sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Cireson su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -137,7 +137,7 @@ Queste informazioni sono state fornite da Cireson sul modo in cui questa app ges
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | Sì |
-| Elencare i tipi di criteri supportati | Autenticazione a più fattori, consentire solo ai dispositivi registrati in Intune di accedere a servizi specifici, Limitazione delle posizioni degli utenti e dell'intervallo IP |
+| Elencare i tipi di criteri supportati | Autenticazione a più fattori, Consentendo solo ai dispositivi registrati in Intune di accedere a servizi specifici, Limitazione delle posizioni degli utenti e dell'intervallo IP |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
 | Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
 | L'app supporta la multi-tenancy? | Sì |

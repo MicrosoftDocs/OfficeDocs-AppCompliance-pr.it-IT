@@ -6,14 +6,14 @@ ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Canon EMEA Service Cost Calculator per i partner B2B, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Canon EMEA Service Cost Calculator per i partner B2B, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: a5e1d55a50474f1085b6ac856a29c74c8cb0e2a5
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407469"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281982"
 ---
 # <a name="canon-emea-service-cost-calculator-for-b2b-partners"></a>Canon EMEA Service Cost Calculator per i partner B2B
 
@@ -33,7 +33,7 @@ Informazioni fornite da Canon EMEA a Microsoft:
 |:----------------|:-------------|
 | Nome app | Canon EMEA Service Cost Calculator per i partner B2B |
 | ID | WA200003098 |
-| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2013 o versioni successive Windows, Excel sul web |
+| Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2013 o versione successiva Windows, Excel sul web |
 | Nome società partner | Canon EMEA |
 | URL del sito Web del partner | [https://www.canon-europe.com](https://www.canon-europe.com) |
 | URL dell'informativa sulla privacy | [https://www.canon-europe.com/privacy-policy/business/](https://www.canon-europe.com/privacy-policy/business/) |
@@ -60,7 +60,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 

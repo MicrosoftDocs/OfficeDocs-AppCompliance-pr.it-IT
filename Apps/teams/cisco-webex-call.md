@@ -6,14 +6,14 @@ ms.date: 01/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Webex Call, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Webex Call, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: e4addbd6b3ad932c9c987f57cca03c1e6e77cfcd
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521929"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281347"
 ---
 # <a name="webex-call"></a>Webex Call
 
@@ -60,14 +60,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Contacts.Read | delegated | Ottenere contatti utente, in modo che l'utente possa chiamare i contatti con Cisco WebEx | L'app NON archivierebbe dati nei relativi database | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
 >| User.Read | delegated | ottenere la posta elettronica dell'utente, telefoni in modo che possa avviare Cisco WebEx per chiamare e-mail o telefoni | L'app NON archivierebbe dati nei relativi database | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
 >| User.ReadBasic.All | delegated | ottenere la posta elettronica dell'utente, telefoni in modo che possa avviare Cisco WebEx per chiamare e-mail o telefoni | L'app NON archivierebbe dati nei relativi database | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
->| User.ReadWrite | delegated | Questa autorizzazione consente di archiviare le informazioni di composizione rapida nell'interno utente | L'app NON archivierebbe dati nei relativi database  | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| User.ReadWrite | delegated | Questa autorizzazione consente di archiviare le informazioni sulla composizione rapida nell'interno utente | L'app NON archivierebbe dati nei relativi database  | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -75,7 +75,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Questa estensione del messaggio leggeva la posta elettronica/i telefoni dei membri della chat in modo che l'utente potesse chiamarli con Cisco WebEx | No |  |
+>| Questa estensione del messaggio leggeva la posta elettronica e i telefoni dei membri della chat in modo che l'utente potesse chiamarli con Cisco WebEx | No |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria

@@ -6,14 +6,14 @@ ms.date: 06/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per ngDesk, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per ngDesk, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: b361541352b4fb5c21431403aaea8d7b13a0e104
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526455"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282210"
 ---
 # <a name="ngdesk"></a>ngDesk
 
@@ -37,7 +37,7 @@ Informazioni fornite da All Blue Solutions a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Tutte le soluzioni blu |
 | URL del sito Web del partner | [https://ngdesk.com](https://ngdesk.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://ngdesk.com](https://ngdesk.com) |
+| URL della Teams info dell'applicazione | [https://ngdesk.com](https://ngdesk.com) |
 | URL dell'informativa sulla privacy | [https://ngdesk.com/privacy-policy](https://ngdesk.com/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://ngdesk.com/terms-of-service/](https://ngdesk.com/terms-of-service/) |
 

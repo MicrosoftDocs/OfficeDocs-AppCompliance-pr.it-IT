@@ -6,14 +6,14 @@ ms.date: 07/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Smart Connessione per Jira, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Smart Connessione per Jira, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: a4a5a1ad980bba5214811bea5d981a1705ec4f1f
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528031"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283513"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect for Jira
 
@@ -37,7 +37,7 @@ Informazioni fornite da yasoon GmbH a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | yasoon GmbH |
 | URL del sito Web del partner | [https://www.yasoon.com](https://www.yasoon.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
+| URL della Teams info dell'applicazione | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
 | URL dell'informativa sulla privacy | [https://yasoon.com/privacy-policy-services/](https://yasoon.com/privacy-policy-services/) |
 | URL delle Condizioni per l'utilizzo | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474846970/Product_42949680957/Asset_3f25ec80-eacb-454f-8cc2-eeee583b65c6/170825EULAOfficeaddinEN.doc) |
 
@@ -49,7 +49,7 @@ Informazioni fornite da yasoon GmbH a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da yasoon GmbH sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da yasoon GmbH su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -72,9 +72,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Atlassian Jira ed eventualmente uno dei nostri appaltatori, può essere visto qui: https://go.yasoon.com/contractors | Metadati dei messaggi (ID, timestamp), metadati dell'utente e dell'organizzazione (ID utente, ID organizzazione) e indirizzi di posta elettronica degli utenti | Supporto della funzionalità dell'app (ad esempio, corrispondenza degli account di Atlassian con Office) e abilitazione del supporto per la risoluzione dei problemi più velocemente. |
+>| Atlassian Jira ed eventualmente uno dei nostri appaltatori, può essere visto qui: https://go.yasoon.com/contractors | Metadati del messaggio (ID, timestamp), metadati dell'utente e dell'organizzazione (ID utente, ID organizzazione) e indirizzi di posta elettronica utente | Supporto della funzionalità dell'app (ad esempio, corrispondenza degli account di Atlante con Office) e abilitazione del supporto per la risoluzione dei problemi più velocemente. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

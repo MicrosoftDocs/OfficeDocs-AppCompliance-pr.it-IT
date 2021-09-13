@@ -6,14 +6,14 @@ ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per QuickCells Graphs, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per QuickCells Graphs, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 7db491204c22eb49eb155d29e7656c61a1721c2d
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281188"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282589"
 ---
 # <a name="quickcells-graphs"></a>Grafici QuickCells
 
@@ -33,7 +33,7 @@ Informazioni fornite da CC-1C a Microsoft:
 |:----------------|:-------------|
 | Nome app | Grafici QuickCells |
 | ID | WA200001574 |
-| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive Windows, Excel sul web |
+| Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2016 o versione successiva Windows, Excel sul web |
 | Nome società partner | CC-1C |
 | URL del sito Web del partner | [https://quickcells.co](https://quickcells.co) |
 | URL dell'informativa sulla privacy | [https://quickcells.co/legal/privacy](https://quickcells.co/legal/privacy) |

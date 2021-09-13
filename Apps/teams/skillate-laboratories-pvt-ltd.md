@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Skillate, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c64088a0debbb7766a57631841c489a8d8ea1826
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53524709"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282942"
 ---
 # <a name="skillate"></a>Skillate
 
@@ -37,7 +37,7 @@ Informazioni fornite da Skillate Laboratories Pvt. Ltd. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Skillate Laboratories Pvt. Ltd. |
 | URL del sito Web del partner | [https://www.skillate.com](https://www.skillate.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.skillate.com/features/intelligent-hiring/](https://www.skillate.com/features/intelligent-hiring/) |
+| URL della Teams info dell'applicazione | [https://www.skillate.com/features/intelligent-hiring/](https://www.skillate.com/features/intelligent-hiring/) |
 | URL dell'informativa sulla privacy | [https://www.skillate.com/privacy-policy/](https://www.skillate.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.skillate.com/terms-and-conditions/](https://www.skillate.com/terms-and-conditions/) |
 
@@ -57,8 +57,8 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| e-mail | delegated | I dati vengono raccolti per autorizzare l'utente finale in Skillate | Archiviamo l'indirizzo di posta elettronica solo per creare l'account dell'utente nell'app Skillate | [ed4df345-c860-4ffe-b614-0460d9106f0f](https://docs.microsoft.com/microsoft-365-app-certification/azure/ed4df345-c860-4ffe-b614-0460d9106f0f) |
->| openid | delegated | Microsoft usa l'API per registrare l'utente in Microsoft in Skillate con SSO | Vengono archiviati solo nome e cognome dell'utente finale | [ed4df345-c860-4ffe-b614-0460d9106f0f](https://docs.microsoft.com/microsoft-365-app-certification/azure/ed4df345-c860-4ffe-b614-0460d9106f0f) |
+>| email | delegated | I dati vengono raccolti per autorizzare l'utente finale in Skillate | Archiviamo l'indirizzo di posta elettronica solo per creare l'account dell'utente nell'app Skillate | [ed4df345-c860-4ffe-b614-0460d9106f0f](https://docs.microsoft.com/microsoft-365-app-certification/azure/ed4df345-c860-4ffe-b614-0460d9106f0f) |
+>| openid | delegated | Microsoft usa l'API per registrare l'utente in Microsoft in Skillate usando SSO | Vengono archiviati solo nome e cognome dell'utente finale | [ed4df345-c860-4ffe-b614-0460d9106f0f](https://docs.microsoft.com/microsoft-365-app-certification/azure/ed4df345-c860-4ffe-b614-0460d9106f0f) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

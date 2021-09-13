@@ -6,14 +6,14 @@ ms.date: 07/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per SuitePro-G, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per SuitePro-G, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 369a3b2d5527806b111371ec959389c39b43205c
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53610051"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283674"
 ---
 # <a name="suitepro-g"></a>SuitePro-G
 
@@ -37,7 +37,7 @@ Informazioni fornite da IQar a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | IQar |
 | URL del sito Web del partner | [https://iqar-france.fr](https://iqar-france.fr) |
-| URL della pagina Teams informazioni sull'applicazione | [https://admin.suiteprog.com/Terms](https://admin.suiteprog.com/Terms) |
+| URL della Teams info dell'applicazione | [https://admin.suiteprog.com/Terms](https://admin.suiteprog.com/Terms) |
 | URL dell'informativa sulla privacy | [https://iqar-france.fr/privacy](https://iqar-france.fr/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://iqar-france.fr/cgu](https://iqar-france.fr/cgu) |
 
@@ -95,7 +95,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/41838' frameborder='no' style='width: 100%;'></iframe>
 

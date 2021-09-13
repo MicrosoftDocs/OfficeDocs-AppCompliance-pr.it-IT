@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per C.AI Adoption Bot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 5bb11c96f750701128470f3e1c61ea0f5d476233
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521839"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281274"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -37,7 +37,7 @@ Informazioni fornite da contexxt.ai a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | contexxt.ai |
 | URL del sito Web del partner | [https://contexxt.ai](https://contexxt.ai) |
-| URL della pagina Teams informazioni sull'applicazione | [https://contexxt.ai/cai-adoption-bot/](https://contexxt.ai/cai-adoption-bot/) |
+| URL della Teams info dell'applicazione | [https://contexxt.ai/cai-adoption-bot/](https://contexxt.ai/cai-adoption-bot/) |
 | URL dell'informativa sulla privacy | [https://contexxt.ai/privacy-policy](https://contexxt.ai/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://contexxt.ai/terms-of-use](https://contexxt.ai/terms-of-use) |
 
@@ -57,13 +57,13 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | application | La disponibilità dell'utente è in grado di inviare suggerimenti al momento giusto e non durante i tempi di messa a fuoco, ad esempio | Disponibilità dell'utente anonimizzata in grado di inviare suggerimenti al momento giusto e non durante i tempi di messa a fuoco, ad esempio | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Calendars.Read | application | Disponibilità dell'utente in grado di inviare suggerimenti al momento giusto e non durante i tempi di messa a fuoco, ad esempio | Disponibilità dell'utente anonimizzata in grado di inviare suggerimenti al momento giusto e non durante i tempi di messa a fuoco, ad esempio | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| ChannelMessage.Read.All | application | Microsoft Teams metadati del canale, ad esempio Private o no o la quantità di conversazioni per canale per analizzare l'utilizzo di Teams | Metadati del canale Microsoft Teams anonimi, ad esempio Private o no o la quantità di conversazioni per canale per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| Chat.Read.All | application | Microsoft Teams metadati della chat, ad esempio se un messaggio è stato apprezzato o quante chat di gruppo e 1:1 esistono per analizzare l'utilizzo di Teams | Metadati di chat Microsoft Teams anonimi, ad esempio se un messaggio è stato mi piace o quante chat di gruppo e 1:1 esistono per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Directory.Read.All | application | ID oggetto utente per poter inviare suggerimenti all'utente specifico in un secondo momento. | Hashing (anonimizzato) ID oggetto dell'utente per poter inviare suggerimenti a specifi utente in un secondo momento. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Directory.Read.All | application | ID oggetto utente per poter inviare suggerimenti all'utente specifico in un secondo momento. | Hash (anonimizzato) ID oggetto dell'utente per poter inviare suggerimenti per specificare l'utente in un secondo momento. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| Group.Read.All | application | Microsoft Teams metadati, ad esempio la quantità di Teams e canali per analizzare l'utilizzo di Teams | Microsoft Teams metadati, ad esempio la quantità di Teams e canali per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| Mail.Read | application | Metadati di Microsoft Exchange, ad esempio la quantità di messaggi di posta elettronica e di gruppo e messaggi di posta elettronica 1:1 per analizzare l'utilizzo di Exchange (rispetto a Teams) | Metadati di Microsoft Exchange anonimi, ad esempio la quantità di messaggi di posta elettronica e di gruppo e messaggi di posta elettronica 1:1 per analizzare l'utilizzo di Exchange (rispetto a Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| User.Read.All | application | Microsoft Teams metadati di chat e conversazioni, ad esempio se un utente è stato menzionato per analizzare l'utilizzo di Teams | Anonymized Microsoft Teams chat and conversation metadata, like if a user was mentioned to analyze usage of Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| User.Read.All | application | Microsoft Teams metadati di chat e conversazioni, ad esempio se un utente è stato menzionato per analizzare l'utilizzo di Teams | Metadati di chat e conversazioni Microsoft Teams anonimi, ad esempio se un utente è stato menzionato per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

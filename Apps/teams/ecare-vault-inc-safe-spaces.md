@@ -6,16 +6,16 @@ ms.date: 07/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Cassaforte Spaces, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Cassaforte Spaces, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 16c1adeb63cf8004df70293c8e4a188dde811250
-ms.sourcegitcommit: 90e6c1e10d55dc337c0884b63782cc14cf71b3c8
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58836215"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283056"
 ---
-# <a name="safe-spaces"></a>Cassaforte Spazi
+# <a name="safe-spaces"></a>Spazi sicuri
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Informazioni fornite da eCare Vault Inc. a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Cassaforte Spazi |
+| Nome app | Spazi sicuri |
 | ID | WA200002691 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | eCare Vault Inc. |
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da eCare Vault Inc. Su come questa app ra
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 >| Group.Read.All | delegated | Usato per ottenere informazioni sui canali disponibili per la visualizzazione nell'applicazione | Nessuna di questa autorizzazione | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| GroupMember.Read.All | delegated | ID AAD dei membri del gruppo utilizzati per generare un elenco di team eCare Vault | L'ID utente AAD viene archiviato per l'associazione a un account utente eCare Vault per ogni membro | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| User.Read | delegated | Indirizzo di posta elettronica e ID AAD Usato per registrare gli utenti e associarli agli account utente &amp; di eCare Vault | indirizzo di posta elettronica e ID AAD per gli account utente e invio di notifiche all'utente tramite Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| User.Read.All | delegated | Nome e, ID AAD e indirizzo di posta elettronica, solo per gli utenti membri di un canale in cui Cassaforte Spaces è installato | Nome, ID AAD e indirizzo di posta elettronica archiviati in account utente eCare Vault | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| User.Read.All | delegated | Nome e, ID AAD e indirizzo di posta elettronica, solo per gli utenti membri di un Canale in cui Cassaforte Spaces è installato | Nome, ID AAD e indirizzo di posta elettronica archiviati in account utente eCare Vault | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| email | delegated | Solo indirizzo di posta elettronica | Nessuno - Utente che decide di inviare un modulo che  | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| openid | delegated | Indirizzo di posta elettronica e ID AAD Usato per registrare gli utenti e associarli agli account utente &amp; di eCare Vault | indirizzo di posta elettronica e ID AAD per gli account utente e invio di notifiche all'utente tramite Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| profilo | delegated | Il nome dell'utente viene usato per popolare la schermata di iscrizione dell'utente. | Nessuno direttamente: l'utente sceglie di inviare il proprio nome al sistema al momento della registrazione | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
@@ -132,7 +132,7 @@ Queste informazioni sono state fornite da eCare Vault Inc. Su come questa app ge
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |

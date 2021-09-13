@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TaskList, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 9dafc0c1794123bde6b00b4c59066aa43ad6d2bf
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552987"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282481"
 ---
 # <a name="tasklist"></a>TaskList
 
@@ -37,7 +37,7 @@ Informazioni fornite da LimeStat, Inc a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | LimeStat, Inc |
 | URL del sito Web del partner | [https://www.tasklistforteams.com](https://www.tasklistforteams.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.tasklistforteams.com/support](https://www.tasklistforteams.com/support) |
+| URL della Teams info dell'applicazione | [https://www.tasklistforteams.com/support](https://www.tasklistforteams.com/support) |
 | URL dell'informativa sulla privacy | [https://www.tasklistforteams.com/privacy](https://www.tasklistforteams.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.tasklistforteams.com/terms](https://www.tasklistforteams.com/terms) |
 
@@ -90,7 +90,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35676' frameborder='no' style='width: 100%;'></iframe>
 

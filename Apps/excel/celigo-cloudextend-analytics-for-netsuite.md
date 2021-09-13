@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CloudExtend Analytics for NetSuite, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 489f4f04afc52476b34a98ecd808c035ff47a676
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526082"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282582"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics for NetSuite
 
@@ -33,7 +33,7 @@ Informazioni fornite da Celigo CloudExtend a Microsoft:
 |:----------------|:-------------|
 | Nome app | CloudExtend Analytics for NetSuite |
 | ID | WA200002784 |
-| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive Windows, Excel sul web |
+| Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2016 o versione successiva Windows, Excel sul web |
 | Nome società partner | Celigo CloudExtend |
 | URL del sito Web del partner | [https://www.cloudextend.io](https://www.cloudextend.io) |
 | URL dell'informativa sulla privacy | [https://www.celigo.com/privacy/](https://www.celigo.com/privacy/) |
@@ -63,7 +63,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Chargebee, NetSuite, Salesforce, Intercom, LogRocket, Amazon AWS | Org name, NetSuite Account number, Domain of Org email addresses, Billing contact information | Provisioning delle licenze, convalida e fatturazione Supporto clienti, risoluzione dei problemi e gestione degli account |
 

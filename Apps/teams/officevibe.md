@@ -6,14 +6,14 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Officevibe, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Officevibe, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 968e5ba9e3144e4dd987e63af0480311ab7f4cab
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525420"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282757"
 ---
 # <a name="officevibe"></a>Officevibe
 
@@ -37,7 +37,7 @@ Informazioni fornite da Officevibe a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Officevibe |
 | URL del sito Web del partner | [https://officevibe.com](https://officevibe.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://officevibe-portal.zendesk.com/hc/en-us/articles/360...](https://officevibe-portal.zendesk.com/hc/en-us/articles/360048865311-Officevibe-Communications-via-Microsoft-Teams-Coming-soon-) |
+| URL della Teams info dell'applicazione | [https://officevibe-portal.zendesk.com/hc/en-us/articles/360...](https://officevibe-portal.zendesk.com/hc/en-us/articles/360048865311-Officevibe-Communications-via-Microsoft-Teams-Coming-soon-) |
 | URL dell'informativa sulla privacy | [https://officevibe.com/privacy](https://officevibe.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://officevibe.com/terms](https://officevibe.com/terms) |
 
@@ -68,7 +68,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Hubspot, Recurly, Xero, MongoDB Atlas | Nome società e settore | Gestione dei clienti, gestione di pagamenti e sottoscrizioni e archiviazione dei dati delle applicazioni |
 

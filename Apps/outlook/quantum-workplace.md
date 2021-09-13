@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Quantum Workplace, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: b3001fd41b428687dce89807b43361505b3c667e
-ms.sourcegitcommit: 3621f286e5bbd52acf5e0d9c8e4287fcc8c15e38
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567295"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282535"
 ---
 # <a name="quantum-workplace"></a>Quantum Workplace
 
@@ -51,12 +51,12 @@ Queste informazioni sono state fornite da Quantum Workplace su come questa app r
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Viene utilizzato ChatId. | Nessuno archiviato | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
->| User.Read.All | application | User.Id (archiviato): usato per correlare gli utenti inviati all'endpoint bot. User.UserPrincipalName (Non archiviato) - Attualmente inutilizzato. User.Mail (Non archiviato) - Usato per associare gli utenti del sistema con l'ID AzureAD archiviato. | User.ID viene archiviato, Usato per correlare gli utenti inviati all'endpoint bot | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
+>| User.Read.All | application | User.Id (archiviato): usato per correlare gli utenti inviati all'endpoint bot; User.UserPrincipalName (Non archiviato) - Attualmente inutilizzato. User.Mail (Non archiviato) - Usato per associare gli utenti del sistema con l'ID AzureAD archiviato. | User.ID è archiviato, Usato per correlare gli utenti inviati all'endpoint bot | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato

@@ -6,14 +6,14 @@ ms.date: 06/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Beagle, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Beagle, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: b2984bceaa4a6c8871c8413aaf19e4f52c7d620c
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53607632"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282132"
 ---
 # <a name="beagle"></a>Beagle
 
@@ -35,9 +35,9 @@ Informazioni fornite da Decision Point a Microsoft:
 | Nome app | Beagle |
 | ID | WA200002687 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Decision Point |
+| Nome società partner | Punto decisionale |
 | URL del sito Web del partner | [https://decisionpoint.ai](https://decisionpoint.ai) |
-| URL della pagina Teams informazioni sull'applicazione | [https://beagleanalytics.ai](https://beagleanalytics.ai) |
+| URL della Teams info dell'applicazione | [https://beagleanalytics.ai](https://beagleanalytics.ai) |
 | URL dell'informativa sulla privacy | [https://beagleanalytics.ai/wp-content/uploads/2021/02/Beagl...](https://beagleanalytics.ai/wp-content/uploads/2021/02/Beagle-Privacy-Policy.pdf) |
 | URL delle Condizioni per l'utilizzo | [https://beagleanalytics.ai/wp-content/uploads/2021/02/Terms...](https://beagleanalytics.ai/wp-content/uploads/2021/02/Terms-of-Use.pdf) |
 

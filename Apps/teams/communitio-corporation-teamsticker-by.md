@@ -6,14 +6,14 @@ ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per TeamSticker by Communitio, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per TeamSticker by Communitio, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 871c410b520fc7b8697942a4921104329a239338
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521859"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281292"
 ---
 # <a name="teamsticker-by-communitio"></a>TeamSticker by Communitio
 
@@ -37,7 +37,7 @@ Informazioni fornite da Communitio Corporation a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Communitio Corporation |
 | URL del sito Web del partner | [https://www.teamsuite.biz](https://www.teamsuite.biz) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.teamsuite.biz/feature/](https://www.teamsuite.biz/feature/) |
+| URL della Teams info dell'applicazione | [https://www.teamsuite.biz/feature/](https://www.teamsuite.biz/feature/) |
 | URL dell'informativa sulla privacy | [https://www.teamsuite.biz/privacy/](https://www.teamsuite.biz/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.teamsuite.biz/terms/](https://www.teamsuite.biz/terms/) |
 
@@ -62,12 +62,12 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| User.Read | delegated | L'applicazione raccoglie l'immagine del profilo dell'utente. | L'applicazione archivia l'immagine del profilo dell'utente per visualizzare l'icona utente. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
 >| User.Read.All | entrambi | L'applicazione raccoglie objectId / email / nome dell'utente per trovare l'utente per inviare la scheda. | In questo caso, l'applicazione non archivia dati. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
 >| offline_access | delegated | L'applicazione raccoglie il token api dell'utente per usare User.Read / User.Read.All in background. | L'applicazione archivia il token api dell'utente per usare User.Read / User.Read.All in background. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| openid | delegated | Nessun dato raccolto. | L'applicazione utilizza questa autorizzazione per accedere tramite openid. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| openid | delegated | Nessun dato raccolto. | L'applicazione usa questa autorizzazione per accedere tramite openid. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
 >| profilo | delegated | L'applicazione raccoglie objectId / email / nome dell'utente. | L'applicazione archivia objectId / email / name dell'utente. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -112,7 +112,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36366' frameborder='no' style='width: 100%;'></iframe>
 

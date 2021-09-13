@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Nugget, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 6108617e72e1996a335b53941989a707a6544337
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283160"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283189"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -75,14 +75,14 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
 >Sì.
-Teams'ID utente è archiviato: questo è necessario in modo da poter recuperare informazioni sul tenant in cui si trova e se l'utente è amministratore o meno.
+Teams'ID utente è archiviato: questa operazione è necessaria per poter recuperare informazioni sul tenant in cui si trova e se l'utente è amministratore o meno.
 Teams id organizzazione: viene archiviato in modo da poter recuperare gli utenti in un tenant e per recuperare i dettagli della sottoscrizione per quel tenant specifico.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Usiamo Azure CosmosDB per archiviare tutti i dati dell'applicazione. Per accedere ai dati sono necessari un endpoint e una chiave, entrambi inseriti nel servizio di configurazione utilizzato per accedere ai dati. Il servizio di configurazione gestisce solo le richieste con un token di portatore che riceve nella richiesta dal servizio app bot. Questo token viene originariamente creato da Okta quando un utente accede al bot nell'interfaccia del team. Questi dati possono essere accessibili dagli amministratori di Panviva che devono accedere alla piattaforma Microsoft Azure con l'utilizzo dell'autenticazione a 2 fattori. La posta elettronica e il nome dell'utente sono archiviati in OKTA ed è possibile accedervi solo con una chiave privata archiviata in un insieme di credenziali delle chiavi accessibile dal servizio di configurazione. Solo il servizio di configurazione ha accesso all'insieme di credenziali delle chiavi tramite l'uso di identità gestite senza credenziali archiviate nell'app.
+>Usiamo Azure CosmosDB per archiviare tutti i dati dell'applicazione. Per accedere ai dati sono necessari un endpoint e una chiave, entrambi inseriti nel servizio di configurazione utilizzato per accedere ai dati. Il servizio di configurazione gestisce solo le richieste con un token di portatore che riceve nella richiesta dal servizio app bot. Questo token viene originariamente creato da Okta quando un utente accede al bot nell'interfaccia del team. Questi dati sono accessibili dagli amministratori di Panviva che devono accedere alla piattaforma Microsoft Azure con l'utilizzo dell'autenticazione a 2 fattori. La posta elettronica e il nome utente sono archiviati in OKTA e sono accessibili solo con una chiave privata archiviata in un insieme di credenziali delle chiavi a cui il servizio di configurazione accede. Solo il servizio di configurazione ha accesso all'insieme di credenziali delle chiavi tramite l'uso di identità gestite senza credenziali archiviate nell'app.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

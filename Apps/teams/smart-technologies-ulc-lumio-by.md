@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Lumio by SMART, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 7f97e53eb5b4c27aa8bf2be4c97760f8a536cd06
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53520989"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282049"
 ---
 # <a name="lumio-by-smart"></a>Lumio by SMART
 
@@ -37,7 +37,7 @@ Informazioni fornite da SMART Technologies ULC a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | SMART Technologies ULC |
 | URL del sito Web del partner | [https://smarttech.com](https://smarttech.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
+| URL della Teams info dell'applicazione | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
 | URL dell'informativa sulla privacy | [https://www.smarttech.com/en/legal/privacy-policies](https://www.smarttech.com/en/legal/privacy-policies) |
 | URL delle Condizioni per l'utilizzo | [https://www.smarttech.com/legal/sls-terms](https://www.smarttech.com/legal/sls-terms) |
 
@@ -58,7 +58,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | delegated | I dati vengono utilizzati per verificare le autorizzazioni del gruppo non vengono raccolti dati.  | Nessun dato di directory archiviato nel database | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
->| Group.Read.All | delegated | il gruppo di cui sono appart, viene usato per verificare che siano parte del gruppo di studenti o insegnanti per determinare la funzionalità. Nessun dato raccolto.  | Solo i dati archiviati sono l'ID univoco dei client | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
+>| Group.Read.All | delegated | il gruppo di cui sono appart, questo viene usato per verificare che siano parte del gruppo di studenti o insegnanti per determinare la funzionalità. Nessun dato raccolto.  | Solo i dati archiviati sono l'ID univoco dei client | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -98,7 +98,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37582' frameborder='no' style='width: 100%;'></iframe>
 

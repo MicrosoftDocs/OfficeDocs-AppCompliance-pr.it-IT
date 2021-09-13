@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Zoho Projects, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Zoho Projects, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: cb0d9ec4caabe3307474e0927adc4a793046a449
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528342"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282895"
 ---
 # <a name="zoho-projects"></a>Zoho Projects
 
@@ -37,7 +37,7 @@ Informazioni fornite da Zoho Corporation Private Limited a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Zoho Corporation Private Limited |
 | URL del sito Web del partner | [https://www.zoho.com/projects/](https://www.zoho.com/projects/) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.zoho.com/projects/help/microsoft-teams-integrat...](https://www.zoho.com/projects/help/microsoft-teams-integration.html) |
+| URL della Teams info dell'applicazione | [https://www.zoho.com/projects/help/microsoft-teams-integrat...](https://www.zoho.com/projects/help/microsoft-teams-integration.html) |
 | URL dell'informativa sulla privacy | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
 | URL delle Condizioni per l'utilizzo | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CI-Signature, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 3e32777fcce04ad0769fa6b5699925bfc0fd6718
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275378"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283099"
 ---
 # <a name="ci-signature"></a>CI-Signature
 
@@ -33,8 +33,8 @@ Informazioni fornite da ci solution GmbH a Microsoft:
 |:----------------|:-------------|
 | Nome app | CI-Signature |
 | ID | WA200002458 |
-| Office 365 client supportati | Outlook 2016 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
-| Nome società partner | ci solution GmbH |
+| Office 365 client supportati | Outlook 2016 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul web |
+| Nome società partner | soluzione ci GmbH |
 | URL del sito Web del partner | [https://www.ci-solution.com](https://www.ci-solution.com) |
 | URL dell'informativa sulla privacy | [https://www.ci-solution.com/fileadmin/downloads/datenschutz...](https://www.ci-solution.com/fileadmin/downloads/datenschutz/ci-solution_Auftragsverarbeitung_CI-Cloud.pdf) |
 | URL delle Condizioni per l'utilizzo | [https://www.ci-solution.com/agb](https://www.ci-solution.com/agb) |
@@ -47,7 +47,7 @@ Informazioni fornite da ci solution GmbH a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da ci solution GmbH sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da ci solution GmbH su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -88,7 +88,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39113' frameborder='no' style='width: 100%;'></iframe>
 

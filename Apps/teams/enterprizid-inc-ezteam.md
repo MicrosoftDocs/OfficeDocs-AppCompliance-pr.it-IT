@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ezTeam, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 6c4ad813b21963005857c69a05727ca261a73f9c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525660"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283734"
 ---
 # <a name="ezteam"></a>ezTeam
 
@@ -37,7 +37,7 @@ Informazioni fornite da EnterprizID Inc a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | EnterprizID Inc |
 | URL del sito Web del partner | [https://enterprizid.com](https://enterprizid.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://enterprizid.com/discover/](https://enterprizid.com/discover/) |
+| URL della Teams info dell'applicazione | [https://enterprizid.com/discover/](https://enterprizid.com/discover/) |
 | URL dell'informativa sulla privacy | [https://enterprizid.com/privacy-policy/](https://enterprizid.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://enterprizid.com/terms-of-use/](https://enterprizid.com/terms-of-use/) |
 
@@ -57,7 +57,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| AppCatalog.Read.All | delegated | Elenco di app disponibili in Teams in modo da poterlo visualizzare nel processo di Teams di creazione delle richieste | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| AppCatalog.Read.All | delegated | Elenco di app disponibili in Teams in modo che possiamo mostrarlo nel processo di creazione Teams richiesta | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Application.Read.All | delegated | Consente all'app di leggere le applicazioni e le entità servizio per conto dell'utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Directory.AccessAsUser.All | delegated | Consente all'app di avere lo stesso accesso alle informazioni nella directory dell'utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Directory.Read.All | delegated | Consente all'app di leggere i dati nella directory dell'organizzazione, ad esempio utenti, gruppi e app. | Teams Informazioni sulla proprietà e sull'appartenenza  | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
@@ -67,8 +67,8 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Files.Read.All | application | Consente all'app di leggere tutti i file in tutte le raccolte siti senza un utente connesso. | Quantità di dati sotto la governance degli utenti finali in GB | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Group.Create | application | Consente all'app di creare gruppi senza un utente connesso. | Dettagli sulle nuove proprietà del gruppo. | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Group.Read.All | delegated | Consente all'app di elencare i gruppi e di leggerne le proprietà e tutte le appartenenze a gruppi per conto dell'utente connesso. Usato per determinare My Teams  | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Group.Read.All | application | Consente all'app di leggere le proprietà e le appartenenze dei gruppi e di leggere il calendario e le conversazioni per tutti i gruppi, senza un utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Group.ReadWrite.All | delegated | Consente all'app di creare gruppi e leggere tutte le proprietà e le appartenenze del gruppo per conto dell'utente connesso.  | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Group.Read.All | application | Consente all'app di leggere le proprietà e le appartenenze ai gruppi e di leggere il calendario e le conversazioni per tutti i gruppi, senza un utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
+>| Group.ReadWrite.All | delegated | Consente all'app di creare gruppi e leggere tutte le proprietà e le appartenenze dei gruppi per conto dell'utente connesso.  | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Group.ReadWrite.All | application | Consente all'app di creare gruppi, leggere tutte le proprietà e le appartenenze ai gruppi, aggiornare le proprietà e le appartenenze dei gruppi ed eliminare i gruppi. Consente inoltre all'app di leggere e scrivere il calendario e le conversazioni di gruppo.  | Ultima attività del team. | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| GroupMember.Read.All | application | Consente all'app di leggere le appartenenze e le proprietà di base dei gruppi per tutti i gruppi senza un utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| GroupMember.ReadWrite.All | application | Consente all'app di elencare i gruppi, leggere le proprietà di base, leggere e aggiornare l'appartenenza dei gruppi a cui l'app ha accesso senza un utente connesso. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
@@ -87,7 +87,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -95,7 +95,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Notifiche relative a messaggi di benvenuto, approvazione e attestazione | Archiviamo il nome visualizzato delle identità  | Il nostro strumento consente agli utenti finali di creare richieste per diversi elementi del servizio e archivia il nome visualizzato del richiedente. Una richiesta segue un flusso di lavoro di approvazione e il nome visualizzato del responsabile approvazione deve essere visualizzato nei dettagli della richiesta. Inoltre, nei membri di un processo di certificazione del team è elencato il nome visualizzato dei membri. |
+>| Notifiche relative a messaggi di benvenuto, approvazione e attestazione | Archiviamo il nome visualizzato delle identità  | Il nostro strumento consente agli utenti finali di creare richieste per diversi elementi del servizio e archiviamo il nome visualizzato del richiedente. Una richiesta segue un flusso di lavoro di approvazione e il nome visualizzato del responsabile approvazione deve essere visualizzato nei dettagli della richiesta. Inoltre, nei membri di un processo di certificazione del team è elencato il nome visualizzato dei membri. |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria

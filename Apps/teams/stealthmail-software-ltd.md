@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per StealthMail, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 322cdc906ab0cd2ae8980d1412bb4dd9c897a5f6
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528222"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282043"
 ---
 # <a name="stealthmail"></a>StealthMail
 
@@ -37,7 +37,7 @@ Informazioni fornite da Stealthmail Software Ltd a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Stealthmail Software Ltd |
 | URL del sito Web del partner | [https://stealthmail.com](https://stealthmail.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://stealthmail.com/product/teams](https://stealthmail.com/product/teams) |
+| URL della Teams info dell'applicazione | [https://stealthmail.com/product/teams](https://stealthmail.com/product/teams) |
 | URL dell'informativa sulla privacy | [https://stealthmail.com/privacy-statement](https://stealthmail.com/privacy-statement) |
 | URL delle Condizioni per l'utilizzo | [https://stealthmail.com/terms-and-conditions](https://stealthmail.com/terms-and-conditions) |
 
@@ -63,14 +63,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| GroupMember.Read.All | delegated | L'applicazione ottiene i membri del canale per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 >| User.Read.All | delegated | L'applicazione ottiene i membri della chat per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 >| User.ReadBasic.All | delegated | L'applicazione ottiene i membri della chat per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
->| e-mail | delegated | Autentica utente | nothing store in database | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
+>| email | delegated | Autentica utente | nothing store in database | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

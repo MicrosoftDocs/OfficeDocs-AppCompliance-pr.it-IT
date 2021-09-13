@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Empuls, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: a09e41d6efe5e1165635196aea72aaccbc7c14ee
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521759"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283740"
 ---
 # <a name="empuls"></a>Empuls
 
@@ -37,7 +37,7 @@ Informazioni fornite da Empuls a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Empuls |
 | URL del sito Web del partner | [https://www.xoxoday.com](https://www.xoxoday.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.xoxoday.com/empuls](https://www.xoxoday.com/empuls) |
+| URL della Teams info dell'applicazione | [https://www.xoxoday.com/empuls](https://www.xoxoday.com/empuls) |
 | URL dell'informativa sulla privacy | [https://www.xoxoday.com/privacy-policy](https://www.xoxoday.com/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.xoxoday.com/terms-of-use](https://www.xoxoday.com/terms-of-use) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Kudozza, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 3e457fef49ce1ad352080d5a7f1a74ac7907038e
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528192"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281113"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -37,7 +37,7 @@ Informazioni fornite da surviveF5 GmbH a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | surviveF5 GmbH |
 | URL del sito Web del partner | [https://surviveF5.com](https://surviveF5.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://kudozza.com](https://kudozza.com) |
+| URL della Teams info dell'applicazione | [https://kudozza.com](https://kudozza.com) |
 | URL dell'informativa sulla privacy | [https://kudozza.com/privacy](https://kudozza.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://kudozza.com/terms](https://kudozza.com/terms) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS | userId, teamId, tenantId, username | Il servizio e il database sono ospitati in AWS.  |
 
@@ -72,7 +72,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| I complimenti vengono inviati ad altre persone e il messaggio deve essere risentito di frequente. Viene inoltre fornita una classificazione che rende necessario archiviare i nomi e gli ID degli utenti che utilizzano l'applicazione Kudozza. | userid, username | I complimenti vengono inviati ad altre persone e il messaggio deve essere risentito di frequente. Viene inoltre fornita una classificazione che rende necessario archiviare i nomi e gli ID degli utenti che utilizzano l'applicazione Kudozza. |
+>| I complimenti vengono inviati ad altre persone e il messaggio deve essere risentito di frequente. Viene inoltre fornita una classificazione che rende necessario archiviare i nomi e gli ID degli utenti tramite l'applicazione Kudozza. | userid, username | I complimenti vengono inviati ad altre persone e il messaggio deve essere risentito di frequente. Viene inoltre fornita una classificazione che rende necessario archiviare i nomi e gli ID degli utenti tramite l'applicazione Kudozza. |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria

@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Guru, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 87316d020c6658b00fe7e12cc7326917779f2623
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521649"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281503"
 ---
 # <a name="guru"></a>Guru
 
@@ -37,7 +37,7 @@ Informazioni fornite da Guru Technologies a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Guru Technologies |
 | URL del sito Web del partner | [https://www.getguru.com](https://www.getguru.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.getguru.com/integrations/microsoft-teams](https://www.getguru.com/integrations/microsoft-teams) |
+| URL della Teams info dell'applicazione | [https://www.getguru.com/integrations/microsoft-teams](https://www.getguru.com/integrations/microsoft-teams) |
 | URL dell'informativa sulla privacy | [https://www.getguru.com/privacy/](https://www.getguru.com/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.getguru.com/terms-of-service](https://www.getguru.com/terms-of-service) |
 
@@ -62,9 +62,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Applicazione dell'utente finale di Guru e database interni | quando un utente o una società configura l'app Guru per Teams, informazioni comuni come nome utente, posta elettronica e nome della società associate al profilo utente vengono registrate e accessibili da Guru | Dato che un utente deve disporre sia di un account Teams che di un account Guru per utilizzare l'integrazione, è possibile tenere traccia e seguire gli utenti che abilitano l'integrazione per fornire supporto e gestione a tali utenti |
+>| Applicazione dell'utente finale di Guru e database interni | quando un utente o una società configura l'app Guru per Teams, informazioni comuni come nome utente, posta elettronica e nome della società associate al proprio profilo utente vengono registrate e accessibili da Guru | Dato che un utente deve disporre sia di un account Teams che di un account Guru per usare l'integrazione, è possibile tenere traccia e seguire gli utenti che abilitano l'integrazione per fornire supporto e gestione a tali utenti |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

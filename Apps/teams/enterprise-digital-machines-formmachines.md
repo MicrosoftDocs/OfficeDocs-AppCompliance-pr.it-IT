@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per FormMachines, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 36ee73c86e0ccb1d8943cbe04da24319789b31c7
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53456592"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283728"
 ---
 # <a name="formmachines"></a>FormMachines
 
@@ -28,7 +28,7 @@ ms.locfileid: "53456592"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Enterprise computer digitali a Microsoft:
+Informazioni fornite da Enterprise Digital Machines a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -37,7 +37,7 @@ Informazioni fornite da Enterprise computer digitali a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Enterprise Digital Machines |
 | URL del sito Web del partner | [https://www.formmachines.com](https://www.formmachines.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.FormMachines.com](https://www.FormMachines.com) |
+| URL della Teams info dell'applicazione | [https://www.FormMachines.com](https://www.FormMachines.com) |
 | URL dell'informativa sulla privacy | [https://www.formmachines.com/dist/docs#/statements_and_agre...](https://www.formmachines.com/dist/docs#/statements_and_agreements/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.formmachines.com/dist/docs#/statements_and_agre...](https://www.formmachines.com/dist/docs#/statements_and_agreements/terms_of_service) |
 
@@ -95,7 +95,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36144' frameborder='no' style='width: 100%;'></iframe>
 

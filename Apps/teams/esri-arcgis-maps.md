@@ -9,13 +9,13 @@ certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per ArcGIS Mappe, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: b8c18c7116dad546223fe3b799344d973fb1bc23
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53774936"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283722"
 ---
-# <a name="arcgis-maps"></a>ArcGIS Mappe
+# <a name="arcgis-maps"></a>ArcGIS Maps
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ Informazioni fornite da Esri a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | ArcGIS Mappe |
+| Nome app | ArcGIS Maps |
 | ID | WA200002859 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Esri |
 | URL del sito Web del partner | [https://www.esri.com](https://www.esri.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.esri.com/en-us/about/esri-partner-network/our-p...](https://www.esri.com/en-us/about/esri-partner-network/our-partners/global-alliances/microsoft-esri/overview) |
+| URL della Teams info dell'applicazione | [https://www.esri.com/en-us/about/esri-partner-network/our-p...](https://www.esri.com/en-us/about/esri-partner-network/our-partners/global-alliances/microsoft-esri/overview) |
 | URL dell'informativa sulla privacy | [https://www.esri.com/en-us/privacy/privacy-statements/priva...](https://www.esri.com/en-us/privacy/privacy-statements/privacy-statement) |
 | URL delle Condizioni per l'utilizzo | [https://www.esri.com/en-us/legal/terms/master-agreement-pro...](https://www.esri.com/en-us/legal/terms/master-agreement-product) |
 
@@ -81,7 +81,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Gli amministratori dei clienti possono controllare l'accesso dei propri utenti ai dati a livello di organizzazione o di progetto. Le richieste vengono controllate rispetto agli elenchi di controllo di accesso prima di leggere o scrivere dati. I dati in transito da e verso gli utenti finali e i servizi esterni vengono crittografati con HTTPS (solo TLS 1.2). 
+>Gli amministratori dei clienti possono controllare l'accesso degli utenti ai dati a livello di organizzazione o di progetto. Le richieste vengono controllate rispetto agli elenchi di controllo di accesso prima di leggere o scrivere dati. I dati in transito da e verso gli utenti finali e i servizi esterni vengono crittografati con HTTPS (solo TLS 1.2). 
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

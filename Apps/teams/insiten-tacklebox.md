@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TackleBox, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: bf5841d5b51470b6aaab29f303b1ee1c5c5a0141
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521463"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283675"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -37,7 +37,7 @@ Informazioni fornite da Insiten a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Insiten |
 | URL del sito Web del partner | [https://insiten.com](https://insiten.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://tacklebox.app](https://tacklebox.app) |
+| URL della Teams info dell'applicazione | [https://tacklebox.app](https://tacklebox.app) |
 | URL dell'informativa sulla privacy | [https://tacklebox.app/privacy/](https://tacklebox.app/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://tacklebox.app/terms/](https://tacklebox.app/terms/) |
 
@@ -59,7 +59,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.ReadWrite.All | delegated | Consente agli utenti di esplorare le OneDrive, le cartelle e i file. collegare i file a TackleBox; leggere Excel file per estrarre automaticamente grafici, grafici, tabelle, aree di stampa e intervalli denominati; creare e aggiornare PowerPoint file con questi Excel visivi | Drive ID, Folder ID, File ID, View Link, Created By, Created Date, Modified By, Modified Date, Version ID, File Name | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 >| Sites.Read.All | delegated | Consentire agli utenti di esplorare e collegare Excel file che si trovano in canali Teams privati | Nessuno | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
->| User.Read | delegated | Consente all'app di leggere il profilo degli utenti connessi e di ritrattare l'indirizzo di posta elettronica per le notifiche | Posta elettronica | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| User.Read | delegated | Consente all'app di leggere il profilo degli utenti connessi e di ricevere nuovamente l'indirizzo di posta elettronica per le notifiche | Posta elettronica | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 >| openid | delegated | Consente agli utenti di accedere all'applicazione usando Microsoft 365 account | ID tenant e ID oggetto per l'utente | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 >| profilo | delegated | Consente all'app di visualizzare il profilo di base degli utenti (nome, nome utente) per facilitare la collaborazione | UPN, Nome, Cognome | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 
@@ -101,7 +101,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35957' frameborder='no' style='width: 100%;'></iframe>
 
