@@ -6,16 +6,16 @@ ms.date: 06/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per l'Translator in tempo reale, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Translator in tempo reale, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: ab70701438884aef3939f49bf3db8d6eacd03d8a
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53610101"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59289340"
 ---
-# <a name="real-time-translator"></a>Tempo reale Translator
+# <a name="real-time-translator"></a>Traduttore in tempo reale
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ Informazioni fornite da Fairuse a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Tempo reale Translator |
+| Nome app | Traduttore in tempo reale |
 | ID | WA200002171 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Fairuse |
 | URL del sito Web del partner | [https://fairuse.jp](https://fairuse.jp) |
-| URL della pagina Teams informazioni sull'applicazione | [https://fairuse.jp/download/RTTManual/RTTApp_Browser_Manual...](https://fairuse.jp/download/RTTManual/RTTApp_Browser_Manual_JP.pdf) |
+| URL della Teams info dell'applicazione | [https://fairuse.jp/download/RTTManual/RTTApp_Browser_Manual...](https://fairuse.jp/download/RTTManual/RTTApp_Browser_Manual_JP.pdf) |
 | URL dell'informativa sulla privacy | [https://fairuse.jp/RTTChatApp_Privacypolicy.html](https://fairuse.jp/RTTChatApp_Privacypolicy.html) |
 | URL delle Condizioni per l'utilizzo | [https://fairuse.jp/real_time_translator/term_of_use_RTT_Tea...](https://fairuse.jp/real_time_translator/term_of_use_RTT_Teams_Browser.pdf) |
 
@@ -57,13 +57,13 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| e-mail | delegated | &#12469;&#12540;&#12499;&#12473;&#21033;&#29992;&#32773;&#12398; posta elettronica &#12450;&#12489;&#12524;&#12473;&#12364;&#21454;&#38598;&#12373;&#12428;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12434;&#35672;&#21029;&#12377;&#12427;&#12383;&#12417;&#12398;&#24773;&#22577;&#12392;&#12375;&#12390;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | &#12518;&#12540;&#12470;&#12540;&#12364;&#12393;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12395;&#20837;&#23460;&#12375;&#12390;&#12381;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12398;&#20013;&#12391;&#12393;&#12398;&#12424;&#12358;&#12394;&#20250;&#35441;&#12434;&#12375;&#12383;&#12363;&#12434;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12364;&#24460;&#12363;&#12425;&#20250;&#35441;&#23653;&#27508;&#12434;&#21442;&#29031;&#12377;&#12427;&#12383;&#12417;&#12395;&#24517;&#35201;&#12395;&#12394;&#12426;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
+>| email | delegated | &#12469;&#12540;&#12499;&#12473;&#21033;&#29992;&#32773;&#12398; posta elettronica &#12450;&#12489;&#12524;&#12473;&#12364;&#21454;&#38598;&#12373;&#12428;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12434;&#35672;&#21029;&#12377;&#12427;&#12383;&#12417;&#12398;&#24773;&#22577;&#12392;&#12375;&#12390;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | &#12518;&#12540;&#12470;&#12540;&#12364;&#12393;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12395;&#20837;&#23460;&#12375;&#12390;&#12381;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12398;&#20013;&#12391;&#12393;&#12398;&#12424;&#12358;&#12394;&#20250;&#35441;&#12434;&#12375;&#12383;&#12363;&#12434;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12364;&#24460;&#12363;&#12425;&#20250;&#35441;&#23653;&#27508;&#12434;&#21442;&#29031;&#12377;&#12427;&#12383;&#12417;&#12395;&#24517;&#35201;&#12395;&#12394;&#12426;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
 >| openid | delegated | &#35469;&#35388;&#12398;&#12383;&#12417;&#12395;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | &#12518;&#12540;&#12470;&#12540;&#12364;&#12393;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12395;&#20837;&#23460;&#12375;&#12390;&#12381;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12398;&#20013;&#12391;&#12393;&#12398;&#12424;&#12358;&#12394;&#20250;&#35441;&#12434;&#12375;&#12383;&#12363;&#12434;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12364;&#24460;&#12363;&#12425;&#20250;&#35441;&#23653;&#27508;&#12434;&#21442;&#29031;&#12377;&#12427;&#12383;&#12417;&#12395;&#24517;&#35201;&#12395;&#12394;&#12426;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
 >| profilo | delegated | &#12518;&#12540;&#12470;&#12540;&#12398;&#21517;&#21069;&#12420;&#12518;&#12540;&#12470;&#12540;&#12503;&#12522;&#12531;&#12471;&#12497;&#12523;&#21517;&#12434;&#12518;&#12540;&#12470;&#12540;&#29305;&#23450;&#12377;&#12427;&#12383;&#12417;&#12395;&#21462;&#24471;&#12375;&#12414;&#12377;&#12290; | &#12518;&#12540;&#12470;&#12540;&#12364;&#12393;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12395;&#20837;&#23460;&#12375;&#12390;&#12381;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12398;&#20013;&#12391;&#12393;&#12398;&#12424;&#12358;&#12394;&#20250;&#35441;&#12434;&#12375;&#12383;&#12363;&#12434;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12364;&#24460;&#12363;&#12425;&#20250;&#35441;&#23653;&#27508;&#12434;&#21442;&#29031;&#12377;&#12427;&#12383;&#12417;&#12395;&#24517;&#35201;&#12395;&#12394;&#12426;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|

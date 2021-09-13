@@ -6,14 +6,14 @@ ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per SurveySparrow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per SurveySparrow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: f27230d2cd0535b5828bff6eaa4e58eb03bf29e4
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53522159"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59289411"
 ---
 # <a name="surveysparrow"></a>SurveySparrow
 
@@ -37,7 +37,7 @@ Informazioni fornite da admin@surveysparrow.com a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | admin@surveysparrow.com |
 | URL del sito Web del partner | [https://surveysparrow.com](https://surveysparrow.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://surveysparrow.com/apps/microsoft-teams-survey-integ...](https://surveysparrow.com/apps/microsoft-teams-survey-integration/) |
+| URL della Teams info dell'applicazione | [https://surveysparrow.com/apps/microsoft-teams-survey-integ...](https://surveysparrow.com/apps/microsoft-teams-survey-integration/) |
 | URL dell'informativa sulla privacy | [https://surveysparrow.com/legal/privacy-policy/](https://surveysparrow.com/legal/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://surveysparrow.com/legal/terms-of-service/](https://surveysparrow.com/legal/terms-of-service/) |
 

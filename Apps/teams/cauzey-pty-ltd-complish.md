@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Complish, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: d9cd325ef8585b5cdc6da00f4f0f40a306cf1b21
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987788"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59289400"
 ---
 # <a name="complish"></a>Complish
 
@@ -37,7 +37,7 @@ Informazioni fornite da Cauzey Pty Ltd a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Cauzey Pty Ltd |
 | URL del sito Web del partner | [https://www.complish.app](https://www.complish.app) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.complish.app](https://www.complish.app) |
+| URL della Teams info dell'applicazione | [https://www.complish.app](https://www.complish.app) |
 | URL dell'informativa sulla privacy | [https://www.complish.app/privacy-policy](https://www.complish.app/privacy-policy) |
 | URL delle Condizioni per l'utilizzo | [https://www.complish.app/privacy-and-terms](https://www.complish.app/privacy-and-terms) |
 
@@ -95,7 +95,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39734' frameborder='no' style='width: 100%;'></iframe>
 

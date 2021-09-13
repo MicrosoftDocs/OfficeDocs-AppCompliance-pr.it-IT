@@ -6,14 +6,14 @@ ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Monitask, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Monitask, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 959d904123910480e62a1d8b11539a317f481ac6
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404408"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59289330"
 ---
 # <a name="monitask"></a>Monitask
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da FEST Technologies, LLC su come questa 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -69,14 +69,14 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| EUII è necessario per trovare una corrispondenza tra l'utente Monitask e l'Teams ms | ID Teams MS, ID conversazione bot di MS Teams, MS Teams AadObjectId | MS Teams'ID utente necessario per trovare una corrispondenza tra l'utente Monitask e l'utente di MS Teams nel contesto della conversazione con il bot; L'ID conversazione bot è necessario per inviare a un utente il "rapporto giornaliero" da Monitask. MS Teams AadObjectId è necessario per trovare una corrispondenza tra l'utente Monitask e l'utente di MS Teams nel contesto di "Tab" in MS Teams  |
+>| EUII è necessario per trovare una corrispondenza tra l'utente Monitask e l'Teams MS | ID Teams MS, ID conversazione bot di MS Teams, MS Teams AadObjectId | MS Teams ID utente necessario per trovare una corrispondenza tra l'utente Monitask e l'utente di MS Teams nel contesto della conversazione con il bot; L'ID conversazione bot è necessario per inviare a un utente il "rapporto giornaliero" da Monitask. MS Teams AadObjectId è necessario per trovare una corrispondenza tra l'utente Monitask e l'utente di MS Teams nel contesto di "Tab" in MS Teams  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->MS Teams'identificatore utente e l'identificatore di conversazione vengono archiviati nei registri. I log vengono archiviati in Azure Application Insights per 90 giorni
+>Ms Teams'identificatore utente e l'identificatore di conversazione vengono archiviati nei registri. I log vengono archiviati in Azure Application Insights per 90 giorni
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -96,7 +96,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

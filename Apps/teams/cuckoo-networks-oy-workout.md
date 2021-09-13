@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Cuckoo Workout, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 3544854ed952a23af34da1cc1b0ab82465c0966e
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609969"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59289390"
 ---
 # <a name="cuckoo-workout"></a>Cuckoo Workout
 
@@ -37,7 +37,7 @@ Informazioni fornite da Cuckoo Networks Oy a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Cuckoo Networks Oy |
 | URL del sito Web del partner | [https://cuckooworkout.com](https://cuckooworkout.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://cuckooworkout.com](https://cuckooworkout.com) |
+| URL della Teams info dell'applicazione | [https://cuckooworkout.com](https://cuckooworkout.com) |
 | URL dell'informativa sulla privacy | [https://cuckooworkout.com/service-privacy-policy/](https://cuckooworkout.com/service-privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://cuckooworkout.com/terms-of-service/](https://cuckooworkout.com/terms-of-service/) |
 
@@ -58,7 +58,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | Nome utente, ID tenant per le comunicazioni e il mapping delle sottoscrizioni | Nome utente, ID tenant per le comunicazioni e il mapping delle sottoscrizioni | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| e-mail | delegated | Posta elettronica, necessaria per l'autenticazione e il supporto | Posta elettronica, necessaria per l'autenticazione e il supporto | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
+>| email | delegated | Posta elettronica, necessaria per l'autenticazione e il supporto | Posta elettronica, necessaria per l'autenticazione e il supporto | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
 >| offline_access | delegated | N/D | N/D | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
 >| openid | delegated | ID utente per l'autenticazione | ID utente per l'autenticazione | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
 >| profilo | delegated | ID profilo per l'autenticazione | ID profilo per l'autenticazione | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
@@ -68,7 +68,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Amazon AWS | Tenant ID | Per associare l'utente al piano di sottoscrizione aziendale  |
 
