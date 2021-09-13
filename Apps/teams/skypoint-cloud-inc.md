@@ -6,14 +6,14 @@ ms.date: 03/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per SkyPoint Cloud, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per SkyPoint Cloud, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 6c23bac241d7456f7811e74af2dff6b93ef57e6c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283230"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279847"
 ---
 # <a name="skypoint-cloud"></a>SkyPoint Cloud
 
@@ -37,7 +37,7 @@ Informazioni fornite da SkyPoint Cloud Inc. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | SkyPoint Cloud Inc. |
 | URL del sito Web del partner | [https://skypointcloud.com](https://skypointcloud.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://skypointcloud.com/platform/](https://skypointcloud.com/platform/) |
+| URL della Teams info dell'applicazione | [https://skypointcloud.com/platform/](https://skypointcloud.com/platform/) |
 | URL dell'informativa sulla privacy | [https://skypointcloud.com/privacy/](https://skypointcloud.com/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://skypointcloud.com/terms/](https://skypointcloud.com/terms/) |
 
@@ -95,7 +95,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36550' frameborder='no' style='width: 100%;'></iframe>
 
@@ -109,7 +109,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da SkyPoint Cloud Inc. Su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da SkyPoint Cloud Inc. Sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

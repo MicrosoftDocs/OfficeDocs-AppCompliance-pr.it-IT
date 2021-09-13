@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Connessione+, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 573f6bbf833f08720b6ace0fe6d1f0b92bcc4a53
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521179"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279883"
 ---
 # <a name="connect"></a>Connessione+
 
@@ -37,7 +37,7 @@ Informazioni fornite da Reward Gateway a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Gateway di ricompensa |
 | URL del sito Web del partner | [https://www.rewardgateway.com](https://www.rewardgateway.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://success.rewardgateway.com/hc/en-us/articles/3600158...](https://success.rewardgateway.com/hc/en-us/articles/360015834078-Installing-the-MS-Teams-Integration) |
+| URL della Teams info dell'applicazione | [https://success.rewardgateway.com/hc/en-us/articles/3600158...](https://success.rewardgateway.com/hc/en-us/articles/360015834078-Installing-the-MS-Teams-Integration) |
 | URL dell'informativa sulla privacy | [https://policies.rewardgateway.net/ms-teams-connect-plus/pr...](https://policies.rewardgateway.net/ms-teams-connect-plus/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://policies.rewardgateway.net/ms-teams-connect-plus/te...](https://policies.rewardgateway.net/ms-teams-connect-plus/terms-of-use/) |
 
@@ -111,7 +111,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Reward Gateway sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Reward Gateway su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

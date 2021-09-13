@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Bigfish, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 1d156c5b08b9c8e9a22c9a0c40c4a6492610cd8f
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58405066"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279906"
 ---
 # <a name="bigfish"></a>Bigfish
 
@@ -35,7 +35,7 @@ Informazioni fornite da Pvt di Pvt. Ltd. a Microsoft:
 | Nome app | Bigfish |
 | ID | WA200002985 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Pvt per i consulenti dell'India Disaspirazione. Ltd. |
+| Nome società partner | Breathe India Advisors Pvt. Ltd. |
 | URL del sito Web del partner | [https://www.bigfishbenefits.com](https://www.bigfishbenefits.com) |
 | URL dell'informativa sulla privacy | [https://bigfishbenefits.com/policy.html](https://bigfishbenefits.com/policy.html) |
 | URL delle Condizioni per l'utilizzo | [https://www.bigfishbenefits.com/termsOfUse.html](https://www.bigfishbenefits.com/termsOfUse.html) |
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da Pvt di Pvt. Ltd. su come questa app ra
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 

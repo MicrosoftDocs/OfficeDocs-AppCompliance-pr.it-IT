@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per StaffCircle, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: ced13a2c048e02cf2853717827e74db61581082e
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53607640"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280614"
 ---
 # <a name="staffcircle"></a>StaffCircle
 
@@ -37,7 +37,7 @@ Informazioni fornite da StaffCircle a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | StaffCircle |
 | URL del sito Web del partner | [https://www.staffcircle.com](https://www.staffcircle.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.staffcircle.com/integrations/microsoft-teams-in...](https://www.staffcircle.com/integrations/microsoft-teams-integration/) |
+| URL della Teams info dell'applicazione | [https://www.staffcircle.com/integrations/microsoft-teams-in...](https://www.staffcircle.com/integrations/microsoft-teams-integration/) |
 | URL dell'informativa sulla privacy | [https://www.staffcircle.com/privacy-policy/](https://www.staffcircle.com/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.staffcircle.com/terms](https://www.staffcircle.com/terms) |
 
@@ -70,7 +70,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Bot usato per prenotare festività e one2one con il manager o altri membri del team | No |  |
+>| Bot usato per prenotare le festività e uno2one con il manager o altri membri del team | No |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria

@@ -6,14 +6,14 @@ ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per RowShare, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per RowShare, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: fd0b3530a08eb3071beded8497fbd21995b2221a
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53610044"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280662"
 ---
 # <a name="rowshare"></a>RowShare
 
@@ -37,7 +37,7 @@ Informazioni fornite da RowShare a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | RowShare |
 | URL del sito Web del partner | [https://www.rowshare.com](https://www.rowshare.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.rowshare.com/features](https://www.rowshare.com/features) |
+| URL della Teams info dell'applicazione | [https://www.rowshare.com/features](https://www.rowshare.com/features) |
 | URL dell'informativa sulla privacy | [https://my.rowshare.com/privacypolicy](https://my.rowshare.com/privacypolicy) |
 | URL delle Condizioni per l'utilizzo | [https://my.rowshare.com/termsofuse](https://my.rowshare.com/termsofuse) |
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Chargebee, Stripe | Nome e indirizzo della società e dettagli di fatturazione | Questi servizi gestiscono la fatturazione e il pagamento per noi |
 
@@ -97,7 +97,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/41848' frameborder='no' style='width: 100%;'></iframe>
 

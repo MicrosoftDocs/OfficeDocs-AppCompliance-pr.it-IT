@@ -6,14 +6,14 @@ ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Sensei Labs Conductor, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Sensei Labs Conductor, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 0c7fa93ad3521decc194fcddf94d86d161a864ea
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521019"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280626"
 ---
 # <a name="sensei-labs-conductor"></a>Sensei Labs Conductor
 
@@ -48,7 +48,7 @@ Informazioni fornite da Sensei Labs Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Sensei Labs Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Sensei Labs Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -58,11 +58,11 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| framework bot | Sì | Teams ID istanza | per mappare Teams'istanza dell'applicazione associata all'organizzazione  | Teams ID istanza | per mappare Teams'istanza dell'applicazione associata all'organizzazione  |
+>| framework bot | Sì | Teams ID istanza | per mappare Teams'istanza all'istanza dell'applicazione associata all'organizzazione  | Teams ID istanza | per mappare Teams'istanza all'istanza dell'applicazione associata all'organizzazione  |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
@@ -83,7 +83,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Teams appartenenza al team. Associazione tra l'istanza Teams del cliente e l'istanza di Conductor. Dati conservati fino a quando sono clienti Distret. Rimozione quando l'istanza di Conductor del cliente viene rimossa o su richiesta
+>Teams appartenenza al team. Associazione tra l'istanza di Teams del cliente e l'istanza di Conductor. Dati conservati fino a quando sono clienti di Conductor. Rimozione quando l'istanza di Conductor del cliente viene rimossa o su richiesta
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 

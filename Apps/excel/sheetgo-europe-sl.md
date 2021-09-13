@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Sheetgo, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 77da98d015480716b848a47f4d6d04d35035f5fb
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526532"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280710"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -33,7 +33,7 @@ Informazioni fornite da SHEETGO EUROPE SL a Microsoft:
 |:----------------|:-------------|
 | Nome app | Sheetgo |
 | ID | WA200002128 |
-| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive Windows, Excel sul web |
+| Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2016 o versione successiva Windows, Excel sul web |
 | Nome società partner | SHEETGO EUROPE SL |
 | URL del sito Web del partner | [https://www.sheetgo.com/](https://www.sheetgo.com/) |
 | URL dell'informativa sulla privacy | [https://www.sheetgo.com/legal/privacy/](https://www.sheetgo.com/legal/privacy/) |
@@ -60,7 +60,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| MongoDB: Registrare i dati del sistema e degli utenti per funzionare, Google BigQuery: Registrare l'utilizzo dei registri di sistema, Google Firestore: Un sistema che gestisce e orchestra lo stato dei nostri microservizi, Stripe: Sistema di pagamento |  | Queste applicazioni non usano API Microsoft aggiuntive |
 
@@ -76,7 +76,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->MongoDB: registrare i dati del sistema e degli utenti per funzionare Google BigQuery: registrare i registri di sistema di utilizzo di Google Firestore: un sistema che gestisce e orchestra lo stato dei nostri microservizi. L'unico dato critico che questo servizio transita è la credenziale dell'utente, che viene crittografata utilizzando il sistema AES256 Stripe: Payment.
+>MongoDB: registrare i dati del sistema e degli utenti per funzionare Google BigQuery: registrare i registri di sistema di utilizzo di Google Firestore: un sistema che gestisce e orchestra lo stato dei nostri microservizi. L'unico dato critico che questo servizio transita è la credenziale utente, che viene crittografata utilizzando il sistema AES256 Stripe: Payment.
  
 Tutti i dati in transito utilizzano HTTPS per le connessioni protette e tutti i dati sensibili vengono crittografati tramite AES256
 

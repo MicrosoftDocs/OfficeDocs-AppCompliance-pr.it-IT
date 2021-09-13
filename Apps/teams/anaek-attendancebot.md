@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per AttendanceBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: f313d823c7123b419b1ac5be33ba5b418171d45e
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525910"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280015"
 ---
 # <a name="attendancebot"></a>AttendanceBot
 
@@ -37,7 +37,7 @@ Informazioni fornite da Anaek a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Anaek |
 | URL del sito Web del partner | [https://www.harmonizehq.com](https://www.harmonizehq.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.attendancebot.com](https://www.attendancebot.com) |
+| URL della Teams info dell'applicazione | [https://www.attendancebot.com](https://www.attendancebot.com) |
 | URL dell'informativa sulla privacy | [https://www.attendancebot.com/privacy](https://www.attendancebot.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.attendancebot.com/attendance/tos/](https://www.attendancebot.com/attendance/tos/) |
 
@@ -97,7 +97,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35980' frameborder='no' style='width: 100%;'></iframe>
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Appspace, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 592194c022b276a07d7fb91d9c0253724d8f28e7
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527642"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279955"
 ---
 # <a name="appspace"></a>Appspace
 
@@ -37,7 +37,7 @@ Informazioni fornite da Appspace, Inc. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Appspace, Inc. |
 | URL del sito Web del partner | [https://www.appspace.com](https://www.appspace.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.appspace.com](https://www.appspace.com) |
+| URL della Teams info dell'applicazione | [https://www.appspace.com](https://www.appspace.com) |
 | URL dell'informativa sulla privacy | [https://www.appspace.com/legal/privacy-policy/](https://www.appspace.com/legal/privacy-policy/) |
 | URL delle Condizioni per l'utilizzo | [https://www.appspace.com/legal/user-agreement/](https://www.appspace.com/legal/user-agreement/) |
 
@@ -65,7 +65,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

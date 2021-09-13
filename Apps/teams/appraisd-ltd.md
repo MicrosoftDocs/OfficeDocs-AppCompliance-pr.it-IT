@@ -6,16 +6,16 @@ ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per la valutazione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per la valutazione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: baebeaa3079fbe38cc9c1fb76f1841059346be9c
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407511"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279966"
 ---
-# <a name="appraisd"></a>Valutazione
+# <a name="appraisd"></a>Appraisd
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Informazioni fornite da Appraisd ltd. a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Valutazione |
+| Nome app | Appraisd |
 | ID | WA200003123 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Valutazione ltd. |
+| Nome società partner | Appraisd ltd. |
 | URL del sito Web del partner | [https://www.appraisd.com](https://www.appraisd.com) |
 | URL della Teams info dell'applicazione | [https://www.appraisd.com](https://www.appraisd.com) |
 | URL dell'informativa sulla privacy | [https://help.appraisd.com/hc/en-us/articles/360007779298-Pr...](https://help.appraisd.com/hc/en-us/articles/360007779298-Privacy-Policy) |
@@ -53,12 +53,12 @@ Queste informazioni sono state fornite da Appraisd ltd. sul modo in cui questa a
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| People.Read | delegated | La selezione utenti presenta all'utente un elenco dei membri del team. Ciò consente di supportare le funzionalità di base all'interno di Valutazione. | Questi dati non vengono archiviati. | [4f037969-20ef-4a41-8330-422b7b115eb6](https://docs.microsoft.com/microsoft-365-app-certification/azure/4f037969-20ef-4a41-8330-422b7b115eb6) |
->| User.Read | delegated | L'indirizzo di posta elettronica dell'utente (upn) e l'ID utente vengono utilizzati per trovare l'utente all'interno di Valutazione e collegarlo al Teams account. | L'indirizzo di posta elettronica dell'utente (upn) e l'ID utente vengono archiviati per ricordare il collegamento tra l'account di valutazione e Teams dell'utente. | [4f037969-20ef-4a41-8330-422b7b115eb6](https://docs.microsoft.com/microsoft-365-app-certification/azure/4f037969-20ef-4a41-8330-422b7b115eb6) |
+>| User.Read | delegated | L'indirizzo di posta elettronica dell'utente (upn) e l'ID utente vengono utilizzati per trovare l'utente all'interno di Valutazione e collegarlo al Teams account. | L'indirizzo di posta elettronica (upn) e l'ID utente dell'utente vengono archiviati per ricordare il collegamento tra l'account di valutazione dell'utente e Teams utente. | [4f037969-20ef-4a41-8330-422b7b115eb6](https://docs.microsoft.com/microsoft-365-app-certification/azure/4f037969-20ef-4a41-8330-422b7b115eb6) |
 >| User.ReadBasic.All | delegated | La selezione utenti presenta all'utente informazioni di base sul membro del team. Ciò consente di supportare le funzionalità di base all'interno di Valutazione. | Questi dati non vengono archiviati. | [4f037969-20ef-4a41-8330-422b7b115eb6](https://docs.microsoft.com/microsoft-365-app-certification/azure/4f037969-20ef-4a41-8330-422b7b115eb6) |
 
 
@@ -66,7 +66,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -74,7 +74,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Per supportare le funzionalità di base in Valutazione. | Indirizzo di posta elettronica, ID utente | Per creare un collegamento tra gli account di valutazione e Teams dell'utente e supportare le funzionalità di base in Valutazione. |
+>| Per supportare le funzionalità di base in Valutazione. | Indirizzo di posta elettronica, ID utente | Per creare un collegamento tra gli account di valutazione e Teams utente e supportare le funzionalità di base in Valutazione. |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -101,7 +101,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

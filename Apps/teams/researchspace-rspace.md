@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per RSpace, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3327e47994935c3beace465b60238a2c0978175c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551816"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279882"
 ---
 # <a name="rspace"></a>RSpace
 
@@ -37,7 +37,7 @@ Informazioni fornite da ResearchSpace a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | ResearchSpace |
 | URL del sito Web del partner | [https://www.researchspace.com](https://www.researchspace.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.researchspace.com/enterprise/help-and-support-r...](https://www.researchspace.com/enterprise/help-and-support-resources-enterprise/) |
+| URL della Teams info dell'applicazione | [https://www.researchspace.com/enterprise/help-and-support-r...](https://www.researchspace.com/enterprise/help-and-support-resources-enterprise/) |
 | URL dell'informativa sulla privacy | [https://www.researchspace.com/terms-conditions/#privacy](https://www.researchspace.com/terms-conditions/#privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.researchspace.com/terms-conditions](https://www.researchspace.com/terms-conditions) |
 
@@ -49,7 +49,7 @@ Informazioni fornite da ResearchSpace a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da ResearchSpace sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da ResearchSpace su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -90,7 +90,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35671' frameborder='no' style='width: 100%;'></iframe>
 

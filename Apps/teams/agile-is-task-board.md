@@ -6,14 +6,14 @@ ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Agile Task Board, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Agile Task Board, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a5062da73958a88a7b788a74771e76ae506b314d
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281468"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280009"
 ---
 # <a name="agile-task-board"></a>Agile Task Board
 
@@ -74,7 +74,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Microsoft raccoglie il nome di dominio e un ID utente con hash nei dati di telemetria di Application Insights. All'interno di ogni istanza dell'app la trasmissione dei dati di telemetria può essere controllata e disattivata. Una successiva eliminazione dei dati deve essere richiesta da Microsoft.
+>Microsoft raccoglie il nome di dominio e un ID utente con hash all'interno dei dati di telemetria di Application Insights. All'interno di ogni istanza dell'app la trasmissione dei dati di telemetria può essere controllata e disattivata. Una successiva eliminazione dei dati deve essere richiesta da Microsoft.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 

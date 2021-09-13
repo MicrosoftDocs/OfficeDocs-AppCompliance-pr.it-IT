@@ -6,14 +6,14 @@ ms.date: 08/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per CodeTwo Email Signatures per Office 365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per CodeTwo Email Signatures for Office 365, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 79db12fe65495df15e21b46e810abd8bbd017359
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58245315"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280026"
 ---
 # <a name="codetwo-email-signatures-for-office-365"></a>CodeTwo Email Signatures for Office 365
 
@@ -50,14 +50,14 @@ Queste informazioni sono state fornite da CodeTwo sul modo in cui questa app rac
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | Consente agli utenti di accedere all'app e consente all'app di leggere il profilo degli utenti connessi. Consente inoltre all'app di leggere le informazioni di base sull'organizzazione degli utenti connessi. | Non vengono archiviati dati. | [2a93620e-4345-4e3b-9bae-0195f08aab69](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a93620e-4345-4e3b-9bae-0195f08aab69) |
 >| User.Read | delegated | Consente agli utenti di accedere all'app e consente all'app di leggere il profilo degli utenti connessi. Consente inoltre all'app di leggere le informazioni aziendali di base degli utenti connessi. | Non vengono archiviati dati. | [7afd058a-f568-4496-96b1-28d06ab3500f](https://docs.microsoft.com/microsoft-365-app-certification/azure/7afd058a-f568-4496-96b1-28d06ab3500f) |
 >| Directory.AccessAsUser.All | delegated | Consente all'app di avere lo stesso accesso alle informazioni nella directory dell'utente connesso. | Non vengono archiviati dati. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| Directory.Read.All | entrambi | Consente all'app di leggere i dati nell'organizzazione&#8217;directory, ad esempio utenti, gruppi e app. | Non vengono archiviati dati. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
+>| Directory.Read.All | entrambi | Consente all'app di leggere i dati nell'organizzazione&#8217;directory s, ad esempio utenti, gruppi e app. | Non vengono archiviati dati. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
 >| User.ReadBasic.All | delegated | Consente all'app di leggere un set di base di proprietà del profilo di altri utenti dell'organizzazione per conto dell'utente connesso. Sono inclusi nome visualizzato, nome e cognome, indirizzo di posta elettronica e foto. Le informazioni vengono utilizzate per personalizzare automaticamente le firme di posta elettronica per gli utenti. | Non vengono archiviati dati. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
 >| User.Read | delegated | Consente agli utenti di accedere all'app e consente all'app di leggere il profilo degli utenti connessi. Consente inoltre all'app di leggere le informazioni aziendali di base degli utenti connessi. Usato per registrare l'utente nel servizio CodeTwo. | Non vengono archiviati dati. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 >| email | delegated | Consente all'app di leggere l'indirizzo di posta elettronica principale degli utenti. Usato per registrare l'utente nel servizio CodeTwo. | Non vengono archiviati dati. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
@@ -68,7 +68,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzati.
 
@@ -84,7 +84,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I clienti possono accedere e rettificare i dati dell'organizzazione di contatto e le impostazioni &amp; del servizio tramite il Pannello di amministrazione codeTwo. Possono inoltre contattare il team di sicurezza delle informazioni CodeTwo tramite un modulo dedicato ( per esercitare uno dei diritti descritti in Condizioni e privacy codeTwo ( , ad esempio: accesso ai dati, rettifica dei dati, cancellazione e restrizione del trattamento, revoca del consenso e diritto all'oggetto del https://www.codetwo.com/form/security-officer/) https://www.codetwo.com/regulations/privacy) trattamento.
+>I clienti possono accedere e rettificare i dati dell'organizzazione di contatto e le impostazioni &amp; del servizio tramite il Pannello di amministrazione codeTwo. Possono inoltre contattare il team di sicurezza delle informazioni CodeTwo tramite un modulo dedicato ( per esercitare i diritti descritti in Condizioni e privacy codeTwo ( , ad esempio: accesso ai dati, rettifica dei dati, cancellazione e restrizione del trattamento, revoca del consenso e diritto all'oggetto del https://www.codetwo.com/form/security-officer/) https://www.codetwo.com/regulations/privacy) trattamento.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -117,7 +117,7 @@ Queste informazioni sono state fornite da CodeTwo sul modo in cui questa app ges
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione dei dati?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |

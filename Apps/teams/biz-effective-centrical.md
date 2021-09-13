@@ -1,19 +1,19 @@
 ---
-title: Application Information for Centrical by Biz-Effective
+title: Informazioni sull'applicazione per Centrical by Biz-Effective
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Centrical, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Centrical, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 5ae0fcf2e8bd17619f723eeadcf1be5ec505dfe1
-ms.sourcegitcommit: 5cd33d38cc7376b28458ee47ebc2c2710ce7f113
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339797"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279948"
 ---
 # <a name="centrical"></a>Centrical
 
@@ -37,7 +37,7 @@ Informazioni fornite da Biz-Effective a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Biz-Effective |
 | URL del sito Web del partner | [https://centrical.com](https://centrical.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://centrical.com/solutions/solutions-by-use-case-2/mic...](https://centrical.com/solutions/solutions-by-use-case-2/microsoft-teams-gamification/) |
+| URL della Teams info dell'applicazione | [https://centrical.com/solutions/solutions-by-use-case-2/mic...](https://centrical.com/solutions/solutions-by-use-case-2/microsoft-teams-gamification/) |
 | URL dell'informativa sulla privacy | [https://centrical.com/privacy](https://centrical.com/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://centrical.com/terms](https://centrical.com/terms) |
 
@@ -95,7 +95,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36383' frameborder='no' style='width: 100%;'></iframe>
 

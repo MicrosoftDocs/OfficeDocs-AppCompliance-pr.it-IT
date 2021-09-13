@@ -6,14 +6,14 @@ ms.date: 06/23/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Prezi Video, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Prezi Video, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 8e7e9c70ee848fd284e3297a915ec9847d3ef1ee
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521267"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280663"
 ---
 # <a name="prezi-video"></a>Prezi Video
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Per informazioni dettagliate, visitare https://prezi.com/privacy-policy/ |  | Le API/SDK seguenti vengono usate per l'integrazione insieme a 1. Botbuilder-SDK (python): usando questo SDK archiviamo l'ID oggetto Azure Active Directory (indicato dall'API come aad_object_id). Queste informazioni sono necessarie per mappare un Microsoft Teams utente a qualsiasi contenuto correlato a Prezi Video creato in prezi.com.  2. Botbuilder-js (javascript): non Microsoft Teams dati specifici vengono raccolti con questo SDK. |
 
@@ -87,7 +87,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 >In un database RDS vengono archiviate le informazioni seguenti:
 
-1. Azure Active Directory ID oggetto (indicato dall'API come aad_object_id) viene archiviato per recuperare un Microsoft Teams utente&#8217;video. Il aad_object_id viene recuperato in modo sicuro usando l'sdk botbuilder ufficiale di Microsoft&#8217;sui nostri server.
+1. Azure Active Directory ID oggetto (indicato dall'API come aad_object_id) viene archiviato per recuperare un Microsoft Teams utente&#8217;video. Il aad_object_id viene recuperato in modo sicuro utilizzando l'sdk botbuilder ufficiale di Microsoft&#8217;sui nostri server.
 
 2. Collegamenti video creati in prezi.com. Il contenuto creato prezi.com viene archiviato in base alla sezione 14 nell'URL seguente: https://prezi.com/privacy-policy/ 
 

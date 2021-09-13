@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Zoho Sign, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Zoho Sign, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: f164b4afadb0d85971cdaa40ab1bb43828ecb290
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528332"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280567"
 ---
 # <a name="zoho-sign"></a>Zoho Sign
 
@@ -37,7 +37,7 @@ Informazioni fornite da Zoho Corporation Private Limited a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Zoho Corporation Private Limited |
 | URL del sito Web del partner | [https://zoho.com](https://zoho.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.zoho.com/sign/help/teams-extension.html](https://www.zoho.com/sign/help/teams-extension.html) |
+| URL della Teams info dell'applicazione | [https://www.zoho.com/sign/help/teams-extension.html](https://www.zoho.com/sign/help/teams-extension.html) |
 | URL dell'informativa sulla privacy | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
 | URL delle Condizioni per l'utilizzo | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
 
@@ -63,7 +63,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Files.ReadWrite.All | delegated |  | Avere accesso completo a tutti i file a cui l'utente può accedere. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Files.ReadWrite.Selected | delegated |  | Lettura e scrittura dei file selezionati dall'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.ReadBasic.All | delegated |  | Leggere tutti i profili di base dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| e-mail | delegated |  | Visualizzare l'indirizzo di posta elettronica dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| email | delegated |  | Visualizzare l'indirizzo di posta elettronica dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| offline_access | delegated |  | Mantenere l'accesso ai dati a cui gli è stato assegnato l'accesso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| profilo | delegated |  | Visualizzare il profilo di base dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
@@ -72,7 +72,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

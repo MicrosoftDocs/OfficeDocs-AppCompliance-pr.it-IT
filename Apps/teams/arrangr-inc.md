@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Arrangr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 3ccc0e501a899fcb5dc613c254de9aa62911d023
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404839"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279954"
 ---
 # <a name="arrangr"></a>Arrangr
 
@@ -60,17 +60,17 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Calendars.ReadWrite | delegated | Microsoft raccoglie i nomi dei calendari degli utenti e i dettagli relativi agli eventi del calendario per facilitare la pianificazione delle riunioni. | I nomi dei calendari connessi vengono archiviati in modo che possano visualizzare e modificare i calendari connessi. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| Channel.ReadBasic.All | delegated | Raccogli l'elenco dei canali disponibili per l'utente, in modo che possiamo mostrargli un elenco dei canali in cui sceglierne uno in cui condividere un invito di Arrangr. | Le informazioni non vengono archiviate nei canali dell'utente | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| ChannelMessage.Send | delegated | Questa autorizzazione viene utilizzata per inviare inviti di Arrangr nei canali del team per conto dell'utente. Non viene utilizzato per la raccolta di dati. | Non vengono archiviati dati raccolti con questa autorizzazione. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Chat.ReadWrite | delegated | Questa autorizzazione viene utilizzata per inviare inviti di Arrangr in una chat Teams per conto dell'utente. Questa autorizzazione non viene utilizzata per raccogliere dati. | Non vengono archiviati dati raccolti con questa autorizzazione. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| Chat.ReadWrite | delegated | Questa autorizzazione viene utilizzata per inviare inviti di Arrangr in Teams chat per conto dell'utente. Questa autorizzazione non viene utilizzata per raccogliere dati. | Non vengono archiviati dati raccolti con questa autorizzazione. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| ChatMessage.Send | delegated | Questa autorizzazione viene utilizzata per inviare inviti di Arrangr in 1:1 e chat di gruppo per conto dell'utente. Non viene utilizzato per raccogliere dati. | Non vengono archiviati dati raccolti con questa autorizzazione. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| OnlineMeetings.ReadWrite | delegated | Arrangr raccoglie Microsoft Teams collegamenti alle riunioni nel processo di generazione con questa autorizzazione. Generiamo Teams riunioni per conto dell'utente in modo che possano organizzare Teams chiamate su Arrangr. | I collegamenti alle riunioni vengono archiviati in modo che possano essere condivisi con le parti appropriate per partecipare alla riunione. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| People.Read | delegated | Raccogliamo nomi e messaggi di posta elettronica di persone rilevanti per l'utente. In questo modo possiamo semplificare la selezione da parte dell'utente come destinatari degli inviti di Arrangr. | Se l'utente finisce per selezionare un destinatario offerto tramite questa API, salviamo il nome e la posta elettronica di tale destinatario per condurre la riunione e per semplificare la selezione di un destinatario in futuro. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Team.ReadBasic.All | delegated | Raccogliamo i nomi del Teams dell'utente, in modo che possano selezionare il Teams che desiderano connettersi a Arrangr e il team in cui vogliono condividere un invito di Arrangr. | Arrangr archivia i nomi di Teams che l'utente ha scelto di collegare a Arrangr, in modo da poter visualizzare tali Teams nelle loro impostazioni e consentire loro di scegliere tra quelle Teams quando decidono dove condividere un invito di Arrangr. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| Team.ReadBasic.All | delegated | Raccogliamo i nomi del Teams dell'utente, in modo che possano selezionare Teams che desiderano connettersi a Arrangr e in quale team vogliono condividere un invito di Arrangr. | Arrangr archivia i nomi di Teams che l'utente ha scelto di collegare a Arrangr, in modo da poter visualizzare tali Teams nelle impostazioni e consentire loro di scegliere tra quelle Teams quando decidono dove condividere un invito di Arrangr. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| TeamsAppInstallation.ReadWriteSelfForUser | delegated | Leggiamo se l'app è stata installata o meno nell'account Teams dell'utente, in modo che possiamo chiedere loro se vogliono installare la nostra app e in modo che possiamo installarla per loro. | I dati raccolti tramite questa autorizzazione non vengono archiviati. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| profilo | delegated | Nome e indirizzo di posta elettronica | Nome e indirizzo di posta elettronica, per mostrare all'utente quale account ha connesso al servizio. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione . Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -117,7 +117,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

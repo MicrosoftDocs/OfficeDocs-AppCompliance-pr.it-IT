@@ -6,14 +6,14 @@ ms.date: 05/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per RingCentral, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per RingCentral, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: bb0787720195363368e3d822e45f173acee67870
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525400"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279846"
 ---
 # <a name="ringcentral"></a>RingCentral
 
@@ -37,7 +37,7 @@ Informazioni fornite da RingCentral, Inc. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | RingCentral, Inc. |
 | URL del sito Web del partner | [https://www.ringcentral.com](https://www.ringcentral.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.ringcentral.com/apps/ringcentral-for-microsoft-...](https://www.ringcentral.com/apps/ringcentral-for-microsoft-teams) |
+| URL della Teams info dell'applicazione | [https://www.ringcentral.com/apps/ringcentral-for-microsoft-...](https://www.ringcentral.com/apps/ringcentral-for-microsoft-teams) |
 | URL dell'informativa sulla privacy | [https://www.ringcentral.com/legal/privacy-notice.html](https://www.ringcentral.com/legal/privacy-notice.html) |
 | URL delle Condizioni per l'utilizzo | [https://www.ringcentral.com/legal/last-update-October-15-20...](https://www.ringcentral.com/legal/last-update-October-15-2019/eulatos.html) |
 
@@ -86,7 +86,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Se usiamo un'altra organizzazione, controlliamo comunque le tue informazioni personali. E abbiamo controlli rigorosi in atto per assicurarsi che&#8217;correttamente protetto. Infine, la sezione precedente descrive le situazioni in cui le informazioni personali vengono condivise con altre organizzazioni, enti pubblici e forze dell'ordine.  Quando condividiamo le tue informazioni con altre organizzazioni,&#8217;che siano protette&#8217;, per quanto ragionevolmente possibile.
+>Se usiamo un'altra organizzazione, controlliamo comunque le tue informazioni personali. E abbiamo controlli rigorosi in atto per assicurarsi che&#8217;correttamente protetto. Infine, la sezione precedente descrive le situazioni in cui le informazioni personali vengono condivise con altre organizzazioni, enti pubblici e forze dell'ordine.  Quando condividiamo le tue informazioni con altre organizzazioni,&#8217;assicurarci che&#8217;siano protette, per quanto ragionevolmente possibile.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

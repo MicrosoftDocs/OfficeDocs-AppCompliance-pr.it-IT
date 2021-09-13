@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SlideHub, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 7eca7f35cb46db8450f6805c9e8a4c2503934dd6
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527812"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280068"
 ---
 # <a name="slidehub"></a>SlideHub
 
@@ -33,7 +33,7 @@ Informazioni fornite da nomorehours a Microsoft:
 |:----------------|:-------------|
 | Nome app | SlideHub |
 | ID | WA200001625 |
-| Office 365 client supportati | PowerPoint 2016 o versione successiva su Mac, PowerPoint sul web, PowerPoint 2013 o versione successiva su Windows |
+| Office 365 client supportati | PowerPoint 2016 o versioni successive su Mac, PowerPoint sul web, PowerPoint 2013 o versioni successive Windows |
 | Nome società partner | nomorehours |
 | URL del sito Web del partner | [https://nomorehours.com](https://nomorehours.com) |
 | URL dell'informativa sulla privacy | [https://nomorehours.com/privacy](https://nomorehours.com/privacy) |

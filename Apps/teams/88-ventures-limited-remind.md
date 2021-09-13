@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Remind, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: f39e0c35b88e3212743e30c7ab5ac40c74c708c3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525930"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280014"
 ---
 # <a name="remind"></a>Remind
 
@@ -71,7 +71,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| (1) Quando un utente imposta un promemoria su un messaggio, il bot tenta di ottenere il nome della persona che ha originariamente inviato il messaggio per visualizzare le informazioni nell'elenco dei promemoria dell'utente (2) Quando un utente imposta un promemoria per un altro canale o membro della chat, il bot tenta di ottenere l'identità (utente o bot) e il nome dell'utente menzionato per visualizzarlo nell'elenco dei promemoria dell'utente | (1) Quando un utente imposta un promemoria su un messaggio, il bot tenta di ottenere il nome della persona che ha originariamente inviato il messaggio per visualizzare le informazioni nell'elenco dei promemoria dell'utente (2) Quando un utente imposta un promemoria per un altro canale o membro della chat, il bot tenta di ottenere l'identità (utente o bot) e il nome dell'utente menzionato per visualizzarlo nell'elenco dei promemoria dell'utente |  |
+>| (1) Quando un utente imposta un promemoria su un messaggio, il bot tenta di ottenere il nome della persona che originariamente ha inviato il messaggio per visualizzare le informazioni nell'elenco dei promemoria dell'utente (2) Quando un utente imposta un promemoria per un altro canale o membro della chat, il bot tenta di ottenere l'identità (utente o bot) e il nome dell'utente menzionato per visualizzarlo nell'elenco dei promemoria dell'utente | (1) Quando un utente imposta un promemoria su un messaggio, il bot tenta di ottenere il nome della persona che originariamente ha inviato il messaggio per visualizzare le informazioni nell'elenco dei promemoria dell'utente (2) Quando un utente imposta un promemoria per un altro canale o membro della chat, il bot tenta di ottenere l'identità (utente o bot) e il nome dell'utente menzionato per visualizzarlo nell'elenco dei promemoria dell'utente |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -98,7 +98,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36058' frameborder='no' style='width: 100%;'></iframe>
 

@@ -9,13 +9,13 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Agenda Boss, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: e2f48c8a563e83f040907acf393d6794264a02cf
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987799"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280002"
 ---
-# <a name="agenda-boss"></a>Capo agenda
+# <a name="agenda-boss"></a>Agenda Boss
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,12 +32,12 @@ Informazioni fornite da Appfluence Inc a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Capo agenda |
+| Nome app | Agenda Boss |
 | ID | WA200002607 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Appfluence Inc |
 | URL del sito Web del partner | [https://agendaboss.com](https://agendaboss.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://agendaboss.com/about](https://agendaboss.com/about) |
+| URL della Teams info dell'applicazione | [https://agendaboss.com/about](https://agendaboss.com/about) |
 | URL dell'informativa sulla privacy | [https://agendaboss.com/privacy/](https://agendaboss.com/privacy/) |
 | URL delle Condizioni per l'utilizzo | [https://agendaboss.com/eula](https://agendaboss.com/eula) |
 

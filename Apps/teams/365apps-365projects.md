@@ -6,14 +6,14 @@ ms.date: 03/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per 365Projects, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per 365Projects, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: aad8e35ad1e02212c23ef2a892412ba3c0ce1312
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53522189"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280020"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -37,7 +37,7 @@ Informazioni fornite da 365Apps a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | 365Apps |
 | URL del sito Web del partner | [https://365apps.com.au](https://365apps.com.au) |
-| URL della pagina Teams informazioni sull'applicazione | [https://365projects.app](https://365projects.app) |
+| URL della Teams info dell'applicazione | [https://365projects.app](https://365projects.app) |
 | URL dell'informativa sulla privacy | [https://365projects.app/privacy](https://365projects.app/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://365projects.app/eula](https://365projects.app/eula) |
 

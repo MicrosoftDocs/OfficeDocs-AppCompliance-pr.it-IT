@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Rezolve.ai, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 22c71b78374956fb69f0f3f5fd5fc860d2184363
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53775026"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280680"
 ---
 # <a name="rezolveai"></a>Rezolve.ai
 
@@ -35,7 +35,7 @@ Informazioni fornite da Actionable Science a Microsoft:
 | Nome app | Rezolve.ai |
 | ID | WA200002724 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Scienze utilizzabili |
+| Nome società partner | Actionable Science |
 | URL del sito Web del partner | [https://www.rezolve.ai](https://www.rezolve.ai) |
 | URL dell'informativa sulla privacy | [https://www.rezolve.ai/privacyPolicy](https://www.rezolve.ai/privacyPolicy) |
 | URL delle Condizioni per l'utilizzo | [https://www.rezolve.ai/generalTerms](https://www.rezolve.ai/generalTerms) |
@@ -63,7 +63,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 

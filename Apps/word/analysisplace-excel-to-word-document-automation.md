@@ -9,13 +9,13 @@ certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per l'automazione dei documenti da Excel a Word, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 8dc1ac8d012545326f0d3c4f96764d5a2ed391b7
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279158"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279822"
 ---
-# <a name="excel-to-word-document-automation"></a>Excel documenti da Excel word a Word
+# <a name="excel-to-word-document-automation"></a>Excel automazione documenti da Excel word a Word
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,7 +31,7 @@ Informazioni fornite da AnalysisPlace a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Excel documenti da Excel word a Word |
+| Nome app | Excel automazione documenti da Excel word a Word |
 | ID | WA104380955 |
 | Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive su Windows, Word 2016 o versioni successive su Mac, Word 2016 o versioni successive su Windows, PowerPoint 2016 o versioni successive su Mac, PowerPoint 2016 o versioni successive su Windows, Excel sul web, Word sul web, PowerPoint sul web |
 | Nome società partner | AnalysisPlace |
@@ -88,7 +88,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/29278' frameborder='no' style='width: 100%;'></iframe>
 
@@ -102,7 +102,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da AnalysisPlace su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da AnalysisPlace sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

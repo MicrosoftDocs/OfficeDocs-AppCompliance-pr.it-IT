@@ -9,11 +9,11 @@ certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Trivia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: e22205d2584abd257a6fdff585f129fb915ff6b2
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528362"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280615"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -37,7 +37,7 @@ Informazioni fornite da Springworks HR Tech a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Springworks HR Tech |
 | URL del sito Web del partner | [https://www.springworks.in](https://www.springworks.in) |
-| URL della pagina Teams informazioni sull'applicazione | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
+| URL della Teams info dell'applicazione | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
 | URL dell'informativa sulla privacy | [https://trivia.springworks.in/policy](https://trivia.springworks.in/policy) |
 | URL delle Condizioni per l'utilizzo | [https://trivia.springworks.in/tnc](https://trivia.springworks.in/tnc) |
 
@@ -59,7 +59,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | delegated | No | Per ottenere l'elenco Teams di cui fa parte l'utente | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 >| Team.ReadBasic.All | delegated | Sì, archiviando l'elenco dei team in cui è stato aggiunto il bot | Per raccogliere informazioni di base su tutti i team presenti in un'area di lavoro | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
->| User.Read.All | delegated | Sì, per archiviare un aadObjectId univoco di un utente. Anche vari dettagli dell'utente come nome utente, posta elettronica e così via e visualizzarlo nel dashboard di Trivia | Per ottenere i dettagli di tutti gli utenti presenti in un'area di lavoro | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| User.Read.All | delegated | Sì, per archiviare un aadObjectId univoco di un utente. Anche vari dettagli dell'utente come nome utente, e-mail e così via e visualizzarli nel dashboard di Trivia | Per ottenere i dettagli di tutti gli utenti presenti in un'area di lavoro | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 >| openid | delegated | Sì, per archiviare gli utenti che a accesso all'app. |  Per consentire all'utente di usare l'app con il proprio account e l'app per usare i dati dell'utente | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 >| profilo | delegated | Sì, per archiviare gli ID utente e i nomi degli host di quiz e altre funzionalità e identificarli in modo univoco | Per leggere le informazioni di base del profilo dell'utente come nome utente, posta elettronica | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 
@@ -68,7 +68,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, Mailchimp, Stripe.  | Nome cliente, e-mail, IP, informazioni di pagamento | Usiamo queste terze parti per offrire ai clienti la migliore esperienza dei clienti |
 
@@ -92,7 +92,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Dati archiviati in RDS, AWS. è crittografato. L'accesso è solo a un tecnico DevOps, un capo di progettazione e un fondatore
+>Dati archiviati in RDS, AWS. è crittografato. L'accesso è solo a un DevOps tecnico, tecnico e fondatore
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
