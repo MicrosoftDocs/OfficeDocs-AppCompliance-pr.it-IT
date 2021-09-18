@@ -2,17 +2,17 @@
 title: Microsoft Word Sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/13/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le Microsoft Word app.
 localization_priority: Normal
-ms.openlocfilehash: 4ecbb89758a3f3a66bc8fd4dd64c337a50415124
-ms.sourcegitcommit: 400dc76d16649c45cc4bc1b45dee07ba3661f890
+ms.openlocfilehash: 98817d7e3b75bc3ce8c07dc5c1e297afd2e73bc7
+ms.sourcegitcommit: 9010c9bace5d935309eae5098f5a126a55270eb6
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353877"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59434853"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Sicurezza e conformità delle app
 
