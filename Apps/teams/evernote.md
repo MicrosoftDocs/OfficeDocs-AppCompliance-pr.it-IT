@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per Evernote di Evernote
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Evernote, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3eaaa3cacc4affc866a967a495687bc53abcfae5
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 6965e328f3e976462d900e227a74411599ad959c
+ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283704"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59785306"
 ---
 # <a name="evernote"></a>Evernote
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: September 21, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/4e1f8576-93d5-4c24-abb5-f02782e00a4e" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381639" target="_blank">Visualizzazione in AppSource</a>
@@ -36,9 +36,9 @@ Informazioni fornite da Evernote a Microsoft:
 | ID | WA104381639 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Evernote |
-| URL del sito Web del partner | [https://evernote.com/](https://evernote.com/) |
-| URL della Teams info dell'applicazione | [https://help.evernote.com/hc/en-us/articles/360001244667](https://help.evernote.com/hc/en-us/articles/360001244667) |
-| URL dell'informativa sulla privacy | [https://evernote.com/privacy](https://evernote.com/privacy) |
+| URL del sito Web del partner | [https://evernote.com](https://evernote.com) |
+| URL della Teams info dell'applicazione | [https://evernote.com/about-us](https://evernote.com/about-us) |
+| URL dell'informativa sulla privacy | [https://evernote.com/privacy/policy](https://evernote.com/privacy/policy) |
 | URL delle Condizioni per l'utilizzo | [https://evernote.com/legal/terms-of-service](https://evernote.com/legal/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -75,18 +75,19 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->I dati OII o EUII vengono visualizzati nella telemetria o nei log.
+>Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->La console di amministrazione consente agli amministratori dell'account di gestire le informazioni, gli utenti e il contenuto dell'account Evernote Business. Alcune delle operazioni che gli amministratori dell'account possono eseguire nella console di amministrazione:
-- Visualizzare il riepilogo dell'account
-- Aggiungere e gestire utenti
-- Visualizzare e gestire spazi, blocchi appunti, note, tag e cestino
-- Visualizzare e gestire le integrazioni, la sicurezza e la fatturazione degli account https://help.evernote.com/hc/en-us/articles/209005497-Evernote-Business-Admin-Console-Overview
+>Criterio dell'utente finale, invia solo dati anonimi. Non inviare mai informazioni personali
 
+#### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
+
+Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
+
+>No
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -94,7 +95,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11693' frameborder='no' style='width: 100%;'></iframe>
 
@@ -104,3 +105,16 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da Evernote su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

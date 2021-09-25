@@ -1,0 +1,127 @@
+---
+title: Application Information for Weet Screen Recording by FYZ SERVICES
+ms.author: elmalova
+author: elenamalova
+ms.date: 09/23/2021
+ms.topic: article
+ms.service: attestation
+certification_type: attested
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per weet Screen Recording, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 8dc2f7f77b62661226a3ebf184e0bd9f0efc1756
+ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59785747"
+---
+# <a name="weet-screen-recording"></a>Weet Screen Recording
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: September 23, 2021</p>
+
+* <a href="https://teams.microsoft.com/l/app/f0c0f156-329e-4083-a1a7-89649407a31b" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003284" target="_blank">Visualizzazione in AppSource</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>Informazioni generali
+
+Informazioni fornite da FYZ SERVICES a Microsoft:
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Nome app | Weet Screen Recording |
+| ID | WA200003284 |
+| Office 365 client supportati | Microsoft Teams |
+| Nome società partner | SERVIZI FYZ |
+| URL del sito Web del partner | [https://weet.co](https://weet.co) |
+| URL della Teams info dell'applicazione | [https://weet.co/weet-teams-integration/](https://weet.co/weet-teams-integration/) |
+| URL dell'informativa sulla privacy | [https://weet.co/privacy-policy/](https://weet.co/privacy-policy/) |
+| URL delle Condizioni per l'utilizzo | [https://weet.co/terms-of-service/](https://weet.co/terms-of-service/) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
+
+Queste informazioni sono state fornite da FYZ SERVICES su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | delegated | Consenti di rilevare se l'app weet è già installata | nessun archivio dati | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
+>| User.Read | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | Non archiviamo informazioni sull'utente, usiamo la posta elettronica solo per il completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
+>| User.ReadBasic.All | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | Non archiviamo informazioni sull'utente, usiamo la posta elettronica solo per il completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
+>| offline_access | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | Non archiviamo informazioni sull'utente, usiamo la posta elettronica solo per il completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
+>| openid | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | Non archiviamo informazioni sull'utente, usiamo la posta elettronica solo per il completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
+>| profile | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | Non archiviamo informazioni sull'utente, usiamo la posta elettronica solo per il completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
+
+
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+
+>Non vengono servizi Microsoft non vengono utilizzati.
+
+#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
+
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
+
+>Non è possibile accedere all'UEII.
+
+
+#### <a name="telemetry-data"></a>Dati di telemetria
+
+Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
+
+>Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
+
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
+
+>È possibile richiedere l'eliminazione delle informazioni personali. Se si richiede di eliminare le informazioni personali, microsoft rispetterà la richiesta ed eliminerà le informazioni personali, in base a determinate eccezioni previste dalla legge, ad esempio (ma non solo) all'esercizio da parte di un altro utente del suo diritto alla libertà di parola, ai requisiti di conformità derivanti da un obbligo legale o da qualsiasi trattamento che potrebbe essere necessario per proteggere da attività illegali.
+
+#### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
+
+Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
+
+>No
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da FYZ SERVICES sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

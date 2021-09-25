@@ -2,24 +2,24 @@
 title: Application Information for Appraisd by Appraisd ltd.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/03/2021
+ms.date: 09/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per la valutazione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: baebeaa3079fbe38cc9c1fb76f1841059346be9c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2ed2853f03b9b3e6e235e87d634fb5c2aafaaec6
+ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279966"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59784756"
 ---
 # <a name="appraisd"></a>Appraisd
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 3, 2021</p>
+<p>Last updated by the developer on: September 7, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/4f037969-20ef-4a41-8330-422b7b115eb6" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003123" target="_blank">Visualizzazione in AppSource</a>
@@ -39,7 +39,7 @@ Informazioni fornite da Appraisd ltd. a Microsoft:
 | URL del sito Web del partner | [https://www.appraisd.com](https://www.appraisd.com) |
 | URL della Teams info dell'applicazione | [https://www.appraisd.com](https://www.appraisd.com) |
 | URL dell'informativa sulla privacy | [https://help.appraisd.com/hc/en-us/articles/360007779298-Pr...](https://help.appraisd.com/hc/en-us/articles/360007779298-Privacy-Policy) |
-| URL delle Condizioni per l'utilizzo | [https://app.appraisd.com/account/terms](https://app.appraisd.com/account/terms) |
+| URL delle Condizioni per l'utilizzo | [https://www.appraisd.com/terms](https://www.appraisd.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -66,7 +66,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -74,7 +74,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Per supportare le funzionalità di base in Valutazione. | Indirizzo di posta elettronica, ID utente | Per creare un collegamento tra gli account di valutazione e Teams utente e supportare le funzionalità di base in Valutazione. |
+>| Per supportare le funzionalità di base in Valutazione. | Indirizzo di posta elettronica, ID utente | Per creare un collegamento tra gli account di valutazione dell'utente e Teams e supportare le funzionalità di base in Valutazione. |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
