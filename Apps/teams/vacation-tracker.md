@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Vacation Tracker, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7fb611741379a3c4d2f9f7a80708385e1b7f2675
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 0bd430bb14f85f563d490148f00988fa7634176e
+ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785156"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59971698"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -82,7 +82,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Il bot può visualizzare le informazioni di base sull'utente che comunica con il bot. Tuttavia, queste informazioni non vengono archiviate o usate. Usiamo solo l'ID dell'utente, l'ID conversazione e un messaggio inviato al bot. | Archiviamo l'indirizzo di posta elettronica dell'utente, il nome dell'utente (come definito in Microsoft AAD) e la foto del profilo dell'utente (da Microsoft AAD) | Usiamo un indirizzo di posta elettronica come identificatore univoco per gli utenti e il nome e la foto del profilo dell'utente per consentire ad amministratori e responsabili approvazione della stessa società di riconoscere i dipendenti nel dashboard.  |
+>| Il bot può visualizzare le informazioni di base sull'utente che comunica con il bot. Tuttavia, queste informazioni non vengono archiviate o usate. Usiamo solo l'ID dell'utente, l'ID conversazione e un messaggio inviato al bot. | Archiviamo l'indirizzo di posta elettronica dell'utente, il nome dell'utente (come definito in Microsoft AAD) e la foto del profilo dell'utente (da Microsoft AAD) | Usiamo un indirizzo di posta elettronica come identificatore univoco per i nostri utenti e il nome e la foto del profilo dell'utente per consentire ad amministratori e responsabili approvazione della stessa società di riconoscere i dipendenti nel dashboard.  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -111,9 +111,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
