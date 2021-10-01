@@ -2,21 +2,21 @@
 title: Sicurezza e conformità degli ID app di Azure - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutti gli ID app di Azure.
 localization_priority: Normal
-ms.openlocfilehash: 7ed2479aa194bc7b20edb4706986f845934143b1
-ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
+ms.openlocfilehash: 48040ce7fa9c21a65118f888a80b905e5d11ad79
+ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992106"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60080230"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Sicurezza e conformità degli ID app di Azure
 
-Microsoft collabora con i partner Microsoft 365 per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni sugli ID app di Azure e sui componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i nostri Microsoft 365 per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni sugli ID app di Azure e sui componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **Azure App ID** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:-------------:|
@@ -67,6 +67,7 @@ Microsoft collabora con i partner Microsoft 365 per fornire le informazioni nece
 | [3b1655d0-505a-4b03-a01f-519a91f77625](./3b1655d0-505a-4b03-a01f-519a91f77625.md) | **✓** |  |
 | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](./3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c.md) | **✓** |  |
 | [3e500164-df82-4d1e-9db8-0901e07d374d](./3e500164-df82-4d1e-9db8-0901e07d374d.md) | **✓** |  |
+| [3e701664-cc46-49e4-b356-1a7ac6500998](./3e701664-cc46-49e4-b356-1a7ac6500998.md) | **✓** |  |
 | [3e745135-a761-48a7-ab54-5c0277b2e642](./3e745135-a761-48a7-ab54-5c0277b2e642.md) | **✓** |  |
 | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](./3ee373aa-62fa-4fc6-b11f-9627d5b4a73d.md) | **✓** |  |
 | [3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d](./3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d.md) | **✓** |  |

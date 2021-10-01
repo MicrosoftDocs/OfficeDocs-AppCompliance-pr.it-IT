@@ -7,7 +7,7 @@
           href: overview.md
         - name: Che cos'è Publisher verifica?
           href: 'https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview'
-        - name: Che cos'Publisher attestazione?
+        - name: Che cos'è Publisher attestazione?
           href: docs/enterprise-app-attestation-guide.md
         - name: Che cos'è Microsoft 365 certificazioni?
           href: docs/enterprise-app-certification-guide.md
@@ -29,7 +29,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: excel/harmonie-corporation-for-office.md
@@ -107,6 +107,8 @@
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
         - name: Impegno per le vendite di sensibilizzazione per Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
+        - name: Pexip One per Outlook
+          href: outlook/pexipas-pexip-one-for-outlook.md
         - name: Matrice priorità - Trasformare i messaggi di posta elettronica in attività
           href: outlook/appfluence-inc-priority-matrix-turn-emails-into-tasks.md
         - name: Quantum Workplace
@@ -130,7 +132,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -160,7 +162,7 @@
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
         - name: ArcGIS Maps
           href: sharepoint/esri-inc-arcgis-maps.md
-        - name: FormMachines Connector per SharePoint
+        - name: Connettore FormMachines per SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: Gaggle per SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
@@ -170,6 +172,8 @@
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: Konnect eMail Parser
           href: sharepoint/konnect-email-parser.md
+        - name: Lightning Tools Lightning Conductor
+          href: sharepoint/lightning-tools-conductor.md
         - name: officeatwork | Selezione modelli per SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
         - name: Opzioni di collaborazione di Power BI
@@ -223,6 +227,8 @@
           href: teams/askrai.md
         - name: Assembly
           href: teams/carrothr-inc-assembly.md
+        - name: Aster
+          href: teams/aster.md
         - name: AtBot
           href: teams/h3-solutions-inc-atbot.md
         - name: atSpoke
@@ -335,7 +341,7 @@
           href: teams/reward-gateway-connectplus.md
         - name: Contact Center
           href: teams/landis-technologies-llc-contact-center.md
-        - name: Gestione contenuto
+        - name: Responsabile della gestione del contenuto
           href: teams/colligo-inc-content-manager.md
         - name: Contextere AVA
           href: teams/contextere-ava.md
@@ -511,8 +517,6 @@
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
-        - name: Kronos
-          href: teams/kronos-inc.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
         - name: LawToolBox
@@ -941,6 +945,8 @@
           href: teams/jiji-technologies-pvt-ltd-wunder365.md
         - name: X0PA ROOM
           href: teams/x0pa-ai-singapore-room.md
+        - name: xMatters
+          href: teams/xmatters-inc.md
         - name: YAROOMS
           href: teams/yarooms.md
         - name: Yeeflow
@@ -970,9 +976,9 @@
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Componente aggiuntivo Office Cloud Fabasoft
+        - name: Componente aggiuntivo per Office Fabasoft Cloud
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
@@ -988,7 +994,7 @@
           href: word/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | Selezione contenuto per Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | Designer per Office
+        - name: officeatwork | Progettazione per Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
         - name: officeatwork | Selezione immagini per Office
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
@@ -1146,6 +1152,8 @@
           href: azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c.md
         - name: 3e500164-df82-4d1e-9db8-0901e07d374d
           href: azure/3e500164-df82-4d1e-9db8-0901e07d374d.md
+        - name: 3e701664-cc46-49e4-b356-1a7ac6500998
+          href: azure/3e701664-cc46-49e4-b356-1a7ac6500998.md
         - name: 3e745135-a761-48a7-ab54-5c0277b2e642
           href: azure/3e745135-a761-48a7-ab54-5c0277b2e642.md
         - name: 3ee373aa-62fa-4fc6-b11f-9627d5b4a73d
