@@ -2,21 +2,21 @@
 title: Sicurezza e conformità di Microsoft Outlook Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/24/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 15e11ed9334d1db23d1cf2403db95f62354b039a
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 430c4c9b40caeb717899d7d6d0983ca6e531701d
+ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785336"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60080867"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft Outlook Apps
 
-Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni su Microsoft Outlook Apps e i componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni su Microsoft Outlook Apps e i componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -38,6 +38,7 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [officeatwork | Selezione contenuto per Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [OnePlaceMail per Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | Soluzioni OnePlace | **✓** |  |
 | [Impegno per le vendite di sensibilizzazione per Outlook](./outreach-sales-engagement-for-outlook.md) | Outreach | **✓** |  |
+| [Pexip One per Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
 | [Matrice priorità - Trasformare i messaggi di posta elettronica in attività](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
