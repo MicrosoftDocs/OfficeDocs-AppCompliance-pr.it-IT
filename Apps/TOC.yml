@@ -29,10 +29,12 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: excel/harmonie-corporation-for-office.md
+        - name: Firme impression
+          href: excel/impression-signatures.md
         - name: Strumento di reporting iPlanner per Office 365 Planner
           href: excel/iglobe-iplanner-reporting-tool-for-office-365-planner.md
         - name: Jira Cloud per Excel
@@ -87,6 +89,8 @@
           href: outlook/evernote.md
         - name: harmon.ie per Outlook
           href: outlook/harmonie-corporation-for-outlook.md
+        - name: Firme impression per Outlook
+          href: outlook/impression-signatures-for-outlook.md
         - name: Fattura e tracciabilità del tempo - Fattura Zoho
           href: outlook/zoho-corporation-private-limited-invoice-and-time-tracking.md
         - name: Componente aggiuntivo iPlanner Office 365 Planner per Outlook
@@ -132,7 +136,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -158,6 +162,8 @@
     - name: Microsoft SharePoint Apps
       href: sharepoint/sharepoint-apps.md
       items:
+        - name: Adobe Sign per SharePoint
+          href: sharepoint/adobe-inc-sign-for-sharepoint.md
         - name: Agile Task Board per SharePoint Online
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
         - name: ArcGIS Maps
@@ -877,6 +883,8 @@
           href: teams/approved-contact-text.md
         - name: ThoughtWire EWS
           href: teams/thoughtwire-corp-ews.md
+        - name: ti8m places
+          href: teams/tiandm-ag-ti8m-places.md
         - name: Tikit
           href: teams/cireson-tikit.md
         - name: TimeClock 365
@@ -984,12 +992,14 @@
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel documenti da Excel word a Word
           href: word/analysisplace-excel-to-word-document-automation.md
         - name: Componente aggiuntivo Office Cloud Fabasoft
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
+        - name: Firme impression
+          href: word/impression-signatures.md
         - name: LegalMind Word AddIn
           href: word/legalmind-word-addin.md
         - name: Assistente contratto Loio
@@ -1002,7 +1012,7 @@
           href: word/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | Selezione contenuto per Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | Designer per Office
+        - name: officeatwork | Progettazione per Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
         - name: officeatwork | Selezione immagini per Office
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
@@ -1122,6 +1132,8 @@
           href: azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af.md
         - name: 272032ad-0c2e-4928-910e-5d52b19f70d5
           href: azure/272032ad-0c2e-4928-910e-5d52b19f70d5.md
+        - name: 27c89ce8-b449-4959-b801-988d8b727512
+          href: azure/27c89ce8-b449-4959-b801-988d8b727512.md
         - name: 286a2e24-18ad-432d-8698-694bcd77ecfc
           href: azure/286a2e24-18ad-432d-8698-694bcd77ecfc.md
         - name: 2a651f59-97ce-42bb-97d7-cf7a2af4b635
@@ -1228,6 +1240,8 @@
           href: azure/626ce0a3-4620-483d-953d-53b106b9ffad.md
         - name: 6919164d-b678-4c3d-a268-e6fbecc1e68d
           href: azure/6919164d-b678-4c3d-a268-e6fbecc1e68d.md
+        - name: 69609b5a-e416-4d72-b10b-8903e84780c3
+          href: azure/69609b5a-e416-4d72-b10b-8903e84780c3.md
         - name: 6996cad6-a969-487a-9182-f4dc4c6c8803
           href: azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md
         - name: 6b4a2fee-5642-41a7-b452-d555fac690b0
@@ -1330,6 +1344,8 @@
           href: azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md
         - name: a938ae1e-a791-4751-9e6a-178c991fa0fa
           href: azure/a938ae1e-a791-4751-9e6a-178c991fa0fa.md
+        - name: a96cbd10-e960-47b8-855b-3af4b5dbd6f4
+          href: azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md
         - name: a9a866c4-e5cf-47f2-932c-db14cb89008f
           href: azure/a9a866c4-e5cf-47f2-932c-db14cb89008f.md
         - name: a9d28fcf-036e-4a85-9003-332303e3a29b
