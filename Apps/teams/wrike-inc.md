@@ -2,23 +2,24 @@
 title: Application Information for Wrike di Wrike Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/23/2020
+ms.date: 10/04/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Wrike, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c175c36e7ecb9bc19b2ff3ad95b56bfab38cdcab
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+certification_type: attested
+description: Tutte le informazioni di sicurezza e conformità disponibili per Wrike, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: f5f044ee38389321d9f566d1e5f8e5c95586df4c
+ms.sourcegitcommit: e339fa9776aae99797dbc1f0a28932e71b4eb823
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283340"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60131704"
 ---
 # <a name="wrike"></a>Wrike
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: March 23, 2020</p>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: October 4, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/05274a45-7312-4c23-8f64-d57fe4a28d6d" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381390" target="_blank">Visualizzazione in AppSource</a>
@@ -35,10 +36,10 @@ Informazioni fornite da Wrike Inc. a Microsoft:
 | ID | WA104381390 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Wrike Inc. |
-| URL del sito Web del partner | [https://www.wrike.com/](https://www.wrike.com/) |
-| URL della pagina Teams informazioni sull'applicazione | [https://help.wrike.com/hc/en-us/articles/115001825869-Micro...](https://help.wrike.com/hc/en-us/articles/115001825869-Microsoft-Teams) |
-| URL dell'informativa sulla privacy | [https://www.wrike.com/privacy/](https://www.wrike.com/privacy/) |
-| URL delle Condizioni per l'utilizzo | [https://www.wrike.com/terms/](https://www.wrike.com/terms/) |
+| URL del sito Web del partner | [https://wrike.com](https://wrike.com) |
+| URL della Teams info dell'applicazione | [https://wrike.com](https://wrike.com) |
+| URL dell'informativa sulla privacy | [https://www.wrike.com/security/privacy/](https://www.wrike.com/security/privacy/) |
+| URL delle Condizioni per l'utilizzo | [https://www.wrike.com/security/terms/](https://www.wrike.com/security/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,49 +57,41 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >Questa applicazione non utilizza Microsoft Graph.
 
-#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
-
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
-
->| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| API JavaScript per Office | Sì | Il componente aggiuntivo usa l'API Office.js per l'integrazione con l'Office applicazione. |  | I dati dell'organizzazione non vengono archiviati nei database di Wrike. |  |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->| **Tutte le informazioni non servizi Microsoft OII vengono trasferite a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento di OII?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Wrike ha le integrazioni con i fornitori seguenti che hanno accesso ad alcuni dati: Marketo è servizi di acquisizione dei lead di posta elettronica- vengono forniti solo nomi e messaggi di posta elettronica. Outreach è l'impegno per le vendite basato sul cloud: vengono forniti solo nomi e messaggi di posta elettronica. Sistema CRM Salesforce: contiene informazioni di contatto e fatturazione (senza dati sensibili) dei clienti. Zuora - Fatturazione e fatturazione dei clienti. È disponibile un DPA per tutti i fornitori. |  | Usiamo l'API JS Office, ma non raccogliamo/processiamo/archiviamo informazioni sull'organizzazione. |
+>| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| https://learn.wrike.com/subprocessor-list/ | Dati di contatto utente, Nome società, Dimensioni società | Dati necessari per la registrazione dell'account in Wrike |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
 
->Non è possibile accedere all'UEII.
+>| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Nomi di utenti Wrike e titoli di attività per menzioni personilizzate | come sopra | come sopra |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->No
+>Solo ID, conservazione di 14 giorni
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Wrike ha un'architettura multi-tenant che separa logicamente i clienti&#8217; dati tramite il controllo di accesso in base ai metadati dei clienti. Questi metadati sono associati al tenant specifico e ai relativi diritti di accesso in base alle regole di accesso basate sui ruoli all'interno dello specifico account Wrike. I dati sono logicamente isolati e separati e l'accesso ai dati è disponibile solo tramite l'applicazione per garantire sicurezza e privacy. La sicurezza a livello di applicazione impedisce ai tenant di accedere o modificare i dati dell'applicazione di proprietà di un altro tenant. L'applicazione di Wrike dispone di un'autenticazione estesa, controllo dell'accesso basato sui ruoli, autorizzazione e meccanismi di condivisione e controllo dei dati (vedere e che consentono l'accesso ai dati solo per https://help.wrike.com/hc/en-us/articles/209603589-Access-Roles https://help.wrike.com/hc/en-us/articles/209602969) gli utenti autorizzati. Inoltre, la crittografia in pausa viene applicata per i file utente caricati nei server Wrike nell'archiviazione dei file tramite l'applicazione Web e l'API; i file vengono crittografati automaticamente utilizzando la crittografia AES a 256 bit. Inoltre, tutti i server vengono crittografati a riposo utilizzando la crittografia del file system e inoltre Wrike offre il componente aggiuntivo Wrike Lock per la chiave di crittografia gestita da un cliente, vedere https://www.wrike.com/add-on-wrike-lock/ e https://help.wrike.com/hc/en-us/articles/360012347934-Wrike-Lock . Come ulteriore livello di sicurezza dei dati, Wrike offre funzionalità di controllo e creazione di report che consentono agli amministratori di eseguire revisioni complete della sicurezza, pur essendo in grado di aumentare la visibilità su ciò che accade nel proprio account Wrike, altri dettagli sono disponibili all'indirizzo https://help.wrike.com/hc/en-us/articles/209606309-Audit-Reports . Infine, Wrike offre funzionalità che consentono il monitoraggio granulare dei ruoli di accesso per consentire ai clienti di controllare completamente la condivisione dei dati esistenti, vedere i dettagli all'indirizzo https://help.wrike.com/hc/en-us/articles/360002004534-Access-Reports .
-L'accesso ai dati dei clienti può essere considerato in due casi:
-- Accesso da parte del team di supporto Wrike: in caso di risoluzione dei problemi o di verifica del problema, il supporto richiede l'accesso al tuo account; l'accesso può essere concesso solo dall'utente. Questo è abilitato da un token di sicurezza generato dal sistema che fornisci fuori banda al team di supporto, consentendo al supporto di approfondire la risoluzione del problema per un periodo di tempo limitato. Questo approccio sistemico garantisce ulteriore riservatezza per i dati archiviati in Wrike.
-- Accesso da parte del team operativo Wrike: il team operativo Wrike è responsabile della manutenzione e del supporto dell'ambiente di produzione, tra cui monitoraggio, applicazione di patch e aggiornamento, recapito delle nuove build alla produzione e così via. L'accesso in questo caso è severamente proibito sia dagli aspetti procedurali che tecnici, e sono in atto controlli di autorizzazione rigorosi, tra cui VPN, 2FA e certificato personale, inoltre viene monitorato in dettaglio tramite HIDS (Sistema di rilevamento delle intrusioni basato su host) e esaminato dal team Wrike Operational Security. Nel caso di Amazon Servizio di gestione delle chiavi (funzionalità Wrike Lock), i dati dei clienti vengono archiviati crittografati nel database Wrike, quindi i dati non sono direttamente o indirettamente disponibili dal team operativo Wrike, perché i dati possono essere decrittografati utilizzando l'accesso a Amazon Servizio di gestione delle chiavi del cliente, che viene gestito e controllato solo dal cliente.
+>In condizioni di DPA
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
 Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
 
->No
+>Sì
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,3 +109,29 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da Wrike Inc. Sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
+| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
+| L'app supporta i criteri di accesso condizionale? | No |
+| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
+| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
+| L'app supporta la multi-tenancy? | Sì |
+| L'app dispone di un client riservato? | Sì |
+| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
+| Per la tua app, cosa evita di usare? | ,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/>- Flusso roPC (Resource Owner Password Credential) |
+| L'app espone qualsiasi API Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
+| La tua app usa le API di anteprima? | No |
+| L'app usa API deprecate? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
