@@ -2,17 +2,17 @@
 title: Sicurezza e conformità di Microsoft Outlook Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/05/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 6357d5364c1cc66b57d2c401073c88fd6fd7d00c
-ms.sourcegitcommit: 2781622670a06d5221dcba8838cc262f93d228d0
+ms.openlocfilehash: 45f96f7433f5096420e675ba3b23b75b06b10a18
+ms.sourcegitcommit: 4817af6bd92bcc7624a43ea79ba6b9362da38035
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60123746"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60233230"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft Outlook Apps
 
@@ -26,6 +26,7 @@ Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per forn
 | [Asana per Outlook](./asana-for-outlook.md) | Asana | **✓** |  |
 | [CI-Signature](./ci-solution-gmbh-signature.md) | soluzione ci GmbH | **✓** |  |
 | [CodeTwo per Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
+| [Pendolarità](./commuty.md) | Pendolarità | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [harmon.ie per Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  |
 | [Firme impression per Outlook](./impression-signatures-for-outlook.md) | Firme impression | **✓** |  |
@@ -36,7 +37,7 @@ Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per forn
 | [MIPA - Assistente personale](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | Tutte le soluzioni blu | **✓** |  |
 | [Office2SharePoint per Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | Selezione contenuto per Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Selezione contenuto per Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** |  |
 | [OnePlaceMail per Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | Soluzioni OnePlace | **✓** |  |
 | [Impegno per le vendite di sensibilizzazione per Outlook](./outreach-sales-engagement-for-outlook.md) | Outreach | **✓** |  |
 | [Pexip One per Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |

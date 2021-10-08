@@ -7,7 +7,7 @@
           href: overview.md
         - name: Che cos'è Publisher verifica?
           href: 'https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview'
-        - name: Che cos'è Publisher attestazione?
+        - name: Che cos'Publisher attestazione?
           href: docs/enterprise-app-attestation-guide.md
         - name: Che cos'è Microsoft 365 certificazioni?
           href: docs/enterprise-app-certification-guide.md
@@ -85,6 +85,8 @@
           href: outlook/ci-solution-gmbh-signature.md
         - name: CodeTwo per Outlook
           href: outlook/codetwo-for-outlook.md
+        - name: Pendolarità
+          href: outlook/commuty.md
         - name: Evernote
           href: outlook/evernote.md
         - name: harmon.ie per Outlook
@@ -1016,7 +1018,7 @@
           href: word/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | Selezione contenuto per Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | Progettazione per Office
+        - name: officeatwork | Designer per Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
         - name: officeatwork | Selezione immagini per Office
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
@@ -1059,6 +1061,8 @@
           href: saas/elearningforce-international-aps-lms365.md
         - name: MIPA - Assistente personale intelligente
           href: saas/iglobe-mipa-my-intelligent-personal-assistant.md
+        - name: MyHub per Teams
+          href: saas/avepoint-inc-myhub-for-teams.md
         - name: Office2SharePoint
           href: saas/iglobe-office2sharepoint.md
         - name: Priority Matrix
