@@ -7,7 +7,7 @@
           href: overview.md
         - name: Che cos'è Publisher verifica?
           href: 'https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview'
-        - name: Che cos'Publisher attestazione?
+        - name: Che cos'è Publisher attestazione?
           href: docs/enterprise-app-attestation-guide.md
         - name: Che cos'è Microsoft 365 certificazioni?
           href: docs/enterprise-app-certification-guide.md
@@ -29,7 +29,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel documenti da Excel word a Word
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: excel/harmonie-corporation-for-office.md
@@ -101,6 +101,10 @@
           href: outlook/iglobe-iplanner-pro-office-365.md
         - name: Jira Cloud per Outlook (ufficiale)
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
+        - name: LawToolBox Deadlines and Matter Management - Outlook
+          href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
+        - name: 'LawToolBox è importante per Outlook, Teams e SharePoint'
+          href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
         - name: MIPA - Assistente personale
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
         - name: ngDesk
@@ -138,7 +142,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel documenti da Excel word a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -371,6 +375,8 @@
           href: teams/degreed.md
         - name: DELTAoverC
           href: teams/deltaoverc.md
+        - name: Desk365
+          href: teams/kani-technologies-inc-desk365.md
         - name: Digiplein
           href: teams/educatieve-uitgeversgroep-bv-digiplein.md
         - name: DisasterTech DICE
@@ -529,12 +535,16 @@
           href: teams/sliday-ltd-karma.md
         - name: Kazoo
           href: teams/kazoo.md
+        - name: Keepass Pro
+          href: teams/witivio-keepass-pro.md
         - name: Klaxoon
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
+        - name: Kunjani
+          href: teams/faceboard-pty-ltd-kunjani.md
         - name: LawToolBox
           href: teams/lawtoolboxcom-inc-lawtoolbox.md
         - name: Formazione
@@ -585,6 +595,8 @@
           href: teams/mentimeter.md
         - name: Message Reminder
           href: teams/message-reminder.md
+        - name: MGR360
+          href: teams/mgr360.md
         - name: Micromate
           href: teams/paixon-gmbh-micromate.md
         - name: MindManager
@@ -645,6 +657,8 @@
           href: teams/officespace-software.md
         - name: Officevibe
           href: teams/officevibe.md
+        - name: OLIVE VLE
+          href: teams/olivegroup-olive-vle.md
         - name: Onluyen
           href: teams/edmicro-onluyen.md
         - name: Onsight Connect
@@ -763,8 +777,6 @@
           href: teams/sentry.md
         - name: ServiceDesk Plus Cloud
           href: teams/zoho-corporation-private-limited-servicedesk-plus-cloud.md
-        - name: Sheetgo
-          href: teams/sheetgo-europe-sl.md
         - name: SHL
           href: teams/shl.md
         - name: Shortlinks
@@ -1063,6 +1075,8 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
+        - name: Luware Nimbus per Microsoft Teams
+          href: saas/luware-ag-nimbus-for-microsoft-teams.md
         - name: MIPA - Assistente personale intelligente
           href: saas/iglobe-mipa-my-intelligent-personal-assistant.md
         - name: MyHub per Teams

@@ -1,0 +1,129 @@
+---
+title: Application Information for Kunjani by FACEBOARD (PTY) LTD
+ms.author: elmalova
+author: elenamalova
+ms.date: 10/10/2021
+ms.topic: article
+ms.service: attestation
+certification_type: attested
+description: Tutte le informazioni di sicurezza e conformità disponibili per Kunjani, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 2ec75882d07a0a00d85f4af8faadd3f8cdab952a
+ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60285993"
+---
+# <a name="kunjani"></a>Kunjani
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: October 10, 2021</p>
+
+* <a href="https://teams.microsoft.com/l/app/6b4ac65a-764d-4021-bf3f-40cb2d137a33" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003049" target="_blank">Visualizzazione in AppSource</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>Informazioni generali
+
+Informazioni fornite da FACEBOARD (PTY) LTD a Microsoft:
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Nome app | Kunjani |
+| ID | WA200003049 |
+| Office 365 client supportati | Microsoft Teams |
+| Nome società partner | FACEBOARD (PTY) LTD |
+| URL del sito Web del partner | [https://www.kunjani.co](https://www.kunjani.co) |
+| URL della Teams info dell'applicazione | [https://Kunjani.co](https://Kunjani.co) |
+| URL dell'informativa sulla privacy | [https://www.kunjani.co/privacypolicy](https://www.kunjani.co/privacypolicy) |
+| URL delle Condizioni per l'utilizzo | [https://www.kunjani.co/termsandconditions](https://www.kunjani.co/termsandconditions) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
+
+Queste informazioni sono state fornite da FACEBOARD (PTY) LTD su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+
+>Questa applicazione non utilizza Microsoft Graph.
+
+#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
+
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+
+>| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| Microsoft Teams Bot API | No |  |  |  |  |
+
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+
+>Non vengono servizi Microsoft non vengono utilizzate.
+
+#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
+
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
+
+>| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Il nome del partecipante è necessario per il tabellone del gioco e per il relatore della riunione per designare utenti specifici per lanciare dadi  | Nome utente | I nomi vengono archiviati per le relazioni e le classifiche post-riunione  |
+
+
+#### <a name="telemetry-data"></a>Dati di telemetria
+
+Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
+
+>Indirizzo di posta elettronica dell'utente per l'accesso. Gli utenti hanno &#8216;giochi di apprendimento&#8217; domande, risposte e contenuti multimediali. Il backup dei dati viene eseguito ogni giorno e può essere rimosso dall'utente finale 
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
+
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
+
+>Usa un host server cloud affidabile. Heroku Crittografa i dati in transito. Abilitare HTTPS per le applicazioni e le connessioni al database SSL per proteggere i dati sensibili trasmessi da e verso le applicazioni
+
+#### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
+
+Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
+
+>No
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da FACEBOARD (PTY) LTD su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
