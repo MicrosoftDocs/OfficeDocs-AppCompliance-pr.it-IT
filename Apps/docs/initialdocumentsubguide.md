@@ -3,15 +3,15 @@ ms.author: oromalle
 title: Microsoft 365 Certificazione - Guida all'invio di documenti iniziale
 author: orionomalley
 description: Microsoft 365 Visualizzazione granulare della Guida all'invio della certificazione
-keywords: team di certificazione app Microsoft 365 sicurezza conformità m365 invio documento iniziale
+keywords: team di certificazione delle app Microsoft 365 sicurezza conformità m365 invio documento iniziale
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: f8b45c5130d4c4a231f2d7ce7b1bc6992757bf46
-ms.sourcegitcommit: 1e461d44be2da90b41fdcb60b35a6a180d52c9d6
+ms.openlocfilehash: 0352b64649d87b40d185a2bc06ce23da6cf341ef
+ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59497122"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60378814"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification - Initial Document Submission Guide
 
@@ -24,9 +24,25 @@ Includi il report completo dei test di penetrazione con le date che segnalano ch
 -   Questo report deve includere l'ambiente che supporta la distribuzione dell'app/aggiunta insieme a qualsiasi ambiente aggiuntivo che supporti il funzionamento dell'app o dei componenti aggiuntivi.
 
 
+## <a name="system-component-inventory"></a>Inventario componenti di sistema
+
+Un'inventaroy aggiornata di tutti i componenti di sistema utilizzati dall'infrastruttura di supporto. Verrà usato per facilitare il campionamento durante l'esecuzione della fase di valutazione. Se l'ambiente include PaaS, sarebbe utile fornire dettagli su tutti i servizi PaaS utilizzati.
+
+**Nota:** IaaS/PaaS non avrebbe hardware sotto il controllo isv.  In questo caso, fornire un elenco o uno screenshot di tutte le risorse viruali.
+
+**Esempio:**
+
+|Nome risorsa|    Tipo di risorsa| Descrizione|    Produttore|   Modello|
+|-|-|-|-|-|
+|D212|  Windows  Computer|   Macchina virtuale|    N/D| N/D|
+|LT101| Portatili| Workstation|    Microsoft|  Surface 3|
+|C2938| Opzione| Opzione|N/D|N/D|     
+|LXM2|  Linux Machine|  Computer di test|N/D|N/D|       
+
+
 ## <a name="software-inventory"></a>Inventario software
 
-Un inventario software aggiornato che include tutto il software utilizzato nell'ambiente nell'ambito insieme alle versioni.
+Un inventario aggiornato di tutti gli asset software, incluso tutto il software utilizzato nell'ambiente nell'ambito insieme alle versioni.
 
 **Esempio:**
 
@@ -40,23 +56,7 @@ Un inventario software aggiornato che include tutto il software utilizzato nell'
 |IIS|   Microsoft|  10.0|   Supporta le API.|
 
 
-## <a name="hardware-inventory"></a>Inventario hardware
-
-Un inventario hardware aggiornato utilizzato dall'infrastruttura di supporto. Verrà usato per facilitare il campionamento durante l'esecuzione della fase di valutazione. Se l'ambiente include PaaS, sarebbe utile fornire dettagli su tutti i servizi PaaS utilizzati.
-
-**Nota:** IaaS/PaaS non dispone di hardware sotto il controllo isv.  
-
-**Esempio:**
-
-|Nome risorsa|    Tipo di risorsa| Descrizione|    Produttore|   Modello|
-|-|-|-|-|-|
-|D212|  Windows  Computer|   Macchina virtuale|    N/D| N/D|
-|LT101| Portatili| Workstation|    Microsoft|  Surface 3|
-|C2938| Opzione| Opzione|N/D|N/D|     
-|LXM2|  Linux Machine|  Computer di test|N/D|N/D|       
-
-
-## <a name="web-dependencies"></a>Dipendenze Web
+## <a name="third-party-dependencies"></a>Dipendenze di terze parti
 
 Documentazione che elenca tutte le dipendenze usate dall'app o dal componente aggiuntivo con le versioni correnti in esecuzione.
 

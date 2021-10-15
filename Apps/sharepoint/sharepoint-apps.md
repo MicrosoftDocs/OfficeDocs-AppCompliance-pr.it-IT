@@ -2,21 +2,21 @@
 title: Sicurezza e conformità di Microsoft SharePoint Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/05/2021
+ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni di sicurezza e conformità disponibili per tutte le app SharePoint Microsoft.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app SharePoint Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: e440f85e4bd0957a95c3eb8681c1108b50b7fba8
-ms.sourcegitcommit: 2781622670a06d5221dcba8838cc262f93d228d0
+ms.openlocfilehash: 9b21ca00253596b5253626985215a871c61d87f9
+ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60123766"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60378824"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft SharePoint Apps
 
-Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni su Microsoft SharePoint Apps e i componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni su Microsoft SharePoint Apps e i componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -25,9 +25,11 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [ArcGIS Maps](./esri-inc-arcgis-maps.md) | Esri, Inc. | **✓** |  |
 | [Connettore FormMachines per SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | ENTERPRISE DIGITAL MACHINES PTY LTD | **✓** |  |
 | [Gaggle per SharePoint](./gagglenet-inc-gaggle-for-sharepoint.md) | Gaggle.net, Inc. | **✓** |  |
+| [HelloSign per SharePoint](./dropbox-inc-hellosign-for-sharepoint.md) | Dropbox Inc. | **✓** |  |
 | [iGlobe CRM Add-ons](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iGlobe CRM Office 365 per Microsoft Office 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Konnect eMail Parser](./konnect-email-parser.md) | Konnect eMail | **✓** |  |
 | [Lightning Tools Lightning Conductor](./lightning-tools-conductor.md) | Strumenti Lightning | **✓** |  |
-| [officeatwork | Selezione modelli per SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Selezione modelli per SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** |  |
 | [Opzioni di collaborazione di Power BI](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
+| [Prenotazione degli eventi più intelligente](./smarter-business-solutions-gmbh-event-booking.md) | Soluzioni aziendali più intelligenti GmbH | **✓** |  |

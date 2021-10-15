@@ -6,18 +6,18 @@ description: Microsoft 365 Dettagli certificazione
 keywords: app attestation microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 49bb08fa252a3907df67766dce39ef810381be27
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 1088e80ba5d67d8565cf4499a91a84df277b4f80
+ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282601"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60378764"
 ---
 # <a name="what-is-microsoft-365-certification"></a>Che cos'è Microsoft 365 certificazioni?
 
 La certificazione Microsoft 365 è una certificazione progettata per mostrare ai clienti che un'app è stata verificata rispetto ai controlli derivati da framework standard di settore leader e che sono in atto forti procedure di sicurezza e conformità per proteggere i dati dei clienti. 
 
->[!VIDEO https://www.youtube.com/embed/Aff_35f10B8]
+>[!VIDEO https://www.youtube.com/embed/Wv1lcNAycuE]
 
 
 ## <a name="microsoft-365-certification-scope"></a>Microsoft 365 Ambito di certificazione
@@ -35,14 +35,14 @@ Microsoft 365 La certificazione si applica a tutte le app che si integrano con i
 
 
 ## <a name="program-benefits"></a>Vantaggi del programma
-La partecipazione e il completamento Microsoft 365 certificazioni possono offrire grandi vantaggi agli amministratori IT e agli sviluppatori:
+La partecipazione e il completamento della Microsoft 365 possono offrire grandi vantaggi agli amministratori IT e agli sviluppatori:
 
 **Vantaggi per sviluppatori di app** I vantaggi per lo sviluppatore dell'app includono: 
 -   Una valutazione e una verifica gratuite della sicurezza e della conformità
 -   Badge stampato nella presentazione delle app in AppSource, Documenti Microsoft e portali di amministrazione
 -   Riduzione del tempo dedicato ad alleviare i problemi di sicurezza dei clienti 
 -   L'opportunità di contribuire a un ecosistema attendibile di app commerciali verificate
-- Uso di materiali di marketing per promuovere lo stato di Microsoft 365 app certificata
+- Uso di materiali di marketing per promuovere il tuo stato di Microsoft 365 app certificata
 
 **Vantaggi per gli amministratori IT** I vantaggi per l'amministratore IT includono:
 -   Maggiore sicurezza dei dati
@@ -60,7 +60,7 @@ Anche se la partecipazione è facoltativa, quando un'app viene certificata segna
 
 
 ### <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>Utilizzo del badge Microsoft 365 e dei materiali di marketing associati
-Il logo Microsoft 365 certification dimostra che un'app è stata esaminata per la conformità ai controlli messi in campo da Microsoft che valuta in modo meticoloso le procedure di sicurezza e privacy dei dati. È possibile utilizzare il logo Microsoft 365 certificazione al consenso scritto espresso di Microsoft al termine della Microsoft 365 certificazioni. Se la certificazione viene revocata o il processo di ricertificazione non viene avviato entro un anno dal giorno in cui la certificazione è stata assegnata, è necessario interrompere l'uso di tutti i materiali di marketing correlati alla certificazione Microsoft 365. 
+Il logo Microsoft 365 certification dimostra che un'app è stata rivista per verificare la conformità ai controlli di Microsoft che valutano in modo meticoloso le procedure di sicurezza e privacy dei dati. È possibile utilizzare il logo Microsoft 365 certificazione al consenso scritto espresso di Microsoft al termine della certificazione Microsoft 365. Se la certificazione viene revocata o il processo di ricertificazione non viene avviato entro un anno dal giorno in cui è stata assegnata la certificazione, è necessario interrompere l'uso di tutti i materiali di marketing correlati alla certificazione Microsoft 365. 
 
 Questo logo può essere utilizzato su siti Web, comunicati stampa e altri forum in cui si riferiscono in modo specifico all'applicazione che ha completato il Microsoft 365 di certificazione. Il logo deve essere presentato in dimensioni e posizione ragionevoli all'interno del contenuto digitale. 
 

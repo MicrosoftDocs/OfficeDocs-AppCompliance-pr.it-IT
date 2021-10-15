@@ -2,17 +2,17 @@
 title: Sicurezza e conformità delle app per Microsoft Teams - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/13/2021
+ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 description: Informazioni complete sulla sicurezza e conformità delle app per Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: aff6731152d48d152d4f5099335f045d60ec0683
-ms.sourcegitcommit: d49943662d5e28a9c1289ee23318818f1f68ff96
+ms.openlocfilehash: 9f7fbd5d90bbc90b19bc06e147c660006083f9a4
+ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60341436"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60378834"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft Teams
 
@@ -267,6 +267,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Piazza](./piazza.md) | Piazza | **✓** |  |
 | [Planyway Team Calendar](./rubius-planyway-team-calendar.md) | Rubius | **✓** |  |
 | [PlayQuiz - Aprende &amp; Juega](./teamschamp-playquiz-aprende-and-juega.md) | TeamsChamp | **✓** |  |
+| [Plumm](./plumm-health-ltd.md) | Plumm Health LTD | **✓** |  |
 | [Polly](./polly.md) | Polly | **✓** |  |
 | [Connettore VoIP cloud POPP](./popp-communications-cloud-voip-connector.md) | Comunicazioni POPP | **✓** |  |
 | [PostBeyond](./postbeyond.md) | PostBeyond | **✓** |  |
