@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Guru by Guru Technologies
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/01/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Guru, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 87316d020c6658b00fe7e12cc7326917779f2623
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 014546ad1e5e4ee5beb0b8512ed2247e1ae34ccf
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281503"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411674"
 ---
 # <a name="guru"></a>Guru
 
@@ -60,7 +60,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -83,7 +83,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Il Impostazioni team di Guru consente agli amministratori di un team di determinare quali gruppi e controlli di accesso/ruolo effettuare il provisioning in base alla raccolta, con la possibilità di aggiungere, rimuovere e rias assegnare schede a utenti alternativi. Enterprise clienti che hanno distribuito SSO hanno anche il vantaggio della console del provider SSO per eseguire l'onboard o l'offboard e stabilire gruppi tramite SCIM
+>Il Impostazioni del team di Guru consente agli amministratori di un team di determinare i gruppi e i controlli di accesso/ruolo di cui eseguire il provisioning in base alla raccolta, con la possibilità di aggiungere, rimuovere e rias assegnare schede a singoli utenti alternativi. Enterprise clienti che hanno distribuito SSO hanno anche il vantaggio della console del provider SSO per eseguire l'onboard o l'offboard e stabilire gruppi tramite SCIM
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -120,3 +120,4 @@ Queste informazioni sono state fornite da Guru Technologies su come questa app g
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

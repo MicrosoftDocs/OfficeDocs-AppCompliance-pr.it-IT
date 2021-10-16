@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Karma di Sliday LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/14/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Karma, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a7603ed4676653b26d93027e5c3e3d47065e83db
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 69163a7c191e9a7e8d460a7f20623466d208042e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281143"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410910"
 ---
 # <a name="karma"></a>Karma
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Sliday LTD su come questa app raccogli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -64,7 +64,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -112,11 +112,11 @@ Gestito da Digital Ocean.
 
 6. **Descrivere il processo di gestione degli accessi in atto alla fine del provider indicando come garantire la rimozione in tempo reale degli accessi non più necessari e come controllare l'inadeguatezza dei privilegi per il ruolo di processo. Descrivere inoltre i processi di riconvalida e la frequenza di esecuzione**
 
-Usiamo l'autenticazione a due fattori per accedere al pannello di controllo. Solo 3 persone hanno accesso a questo tipo di accesso, cambiano le password ogni mese, mantengono controllati i log di accesso e ci assicuriamo che gli account degli utenti che non lavorano più con noi siano stati rimossi dalla piattaforma.
+Usiamo l'autenticazione a due fattori per accedere al pannello di controllo. Solo 3 persone hanno accesso a questo, cambiamo le password ogni mese, teniamo controllati i log di accesso e ci assicuriamo che le persone che non lavorano più con noi hanno i loro account rimossi dalla piattaforma.
 
-7. **Fornire la procedura implementata al termine per gestire gli ID condivisi (ad esempio root, Sys, System e così via), gli ID di gruppo (account generici utilizzati da più persone appartenenti allo stesso team, ad esempio) e gli account locali. Descrivere come limitare, registrare e monitorare l'utilizzo e l'accesso degli account con privilegi ai dispositivi di sicurezza (ad esempio, hypervisor, firewall, scanner di vulnerabilità, sniffer di rete, API e così via), come si garantisce che gli utenti che cambiano team o lasciano non possano più accedere all'ID gruppo e qual è il livello di tracciabilità di tali ID**
+7. **Fornire la procedura implementata al termine per gestire gli ID condivisi (ad esempio root, Sys, System e così via), gli ID di gruppo (account generici utilizzati da più persone appartenenti allo stesso team, ad esempio) e gli account locali. Descrivere come limitare, registrare e monitorare l'utilizzo e l'accesso di account privilegiati ai dispositivi di sicurezza (ad esempio, hypervisor, firewall, scanner di vulnerabilità, sniffer di rete, API e così via), come si garantisce che gli utenti che cambiano team o lasciano non possano più accedere all'ID gruppo e qual è il livello di tracciabilità di tali ID**
 
-Usiamo 1Password per condividere l'ID condivisibile&#8217;s, abbiamo un feed attività separato ogni volta che si accede alla risorsa condivisa da un deposito di password condivisa. A meno che non sia assolutamente necessario, non usiamo account condivisi e usiamo invece singoli account. Non è possibile accedere alle informazioni nel database Karma tramite un account di accesso condiviso. 2FA viene utilizzato per accedere a 1Password per recuperare un singolo account di accesso.
+Usiamo 1Password per condividere l'ID condivisibile&#8217;s, abbiamo un feed attività separato ogni volta che si accede alla risorsa condivisa da un deposito di password condiviso. A meno che non sia assolutamente necessario, non usiamo account condivisi e usiamo invece singoli account. Non è possibile accedere alle informazioni nel database Karma tramite un account di accesso condiviso. 2FA viene utilizzato per accedere a 1Password per recuperare un singolo account di accesso.
 
 8. **Descrivere il processo per garantire e monitorare il rispetto della separazione dei compiti e la frequenza con cui viene controllato**
 
@@ -136,7 +136,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35674' frameborder='no' style='width: 100%;'></iframe>
 
@@ -145,4 +145,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

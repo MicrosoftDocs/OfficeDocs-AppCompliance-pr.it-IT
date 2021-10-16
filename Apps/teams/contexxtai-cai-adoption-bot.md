@@ -2,18 +2,18 @@
 title: Application Information for C.AI Adoption Bot by contexxt.ai
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/06/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per C.AI Adoption Bot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per C.AI Adoption Bot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5bb11c96f750701128470f3e1c61ea0f5d476233
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 655d6801d05e2f909cbe5d1ee9578092a43f6778
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281274"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410339"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -59,10 +59,10 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | application | Disponibilità dell'utente in grado di inviare suggerimenti al momento giusto e non durante i tempi di messa a fuoco, ad esempio | Disponibilità dell'utente anonimizzata in grado di inviare suggerimenti al momento giusto e non durante i tempi di messa a fuoco, ad esempio | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| ChannelMessage.Read.All | application | Microsoft Teams metadati del canale, ad esempio Private o no o la quantità di conversazioni per canale per analizzare l'utilizzo di Teams | Metadati del canale Microsoft Teams anonimi, ad esempio Private o no o la quantità di conversazioni per canale per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Chat.Read.All | application | Microsoft Teams metadati della chat, ad esempio se un messaggio è stato apprezzato o quante chat di gruppo e 1:1 esistono per analizzare l'utilizzo di Teams | Metadati di chat Microsoft Teams anonimi, ad esempio se un messaggio è stato mi piace o quante chat di gruppo e 1:1 esistono per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Chat.Read.All | application | Microsoft Teams metadati della chat, ad esempio se un messaggio è stato apprezzato o quante chat di gruppo e 1:1 esistono per analizzare l'utilizzo di Teams | Metadati di chat Microsoft Teams anonimi, ad esempio se un messaggio è stato apprezzato o quante chat di gruppo e 1:1 esistono per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| Directory.Read.All | application | ID oggetto utente per poter inviare suggerimenti all'utente specifico in un secondo momento. | Hash (anonimizzato) ID oggetto dell'utente per poter inviare suggerimenti per specificare l'utente in un secondo momento. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| Group.Read.All | application | Microsoft Teams metadati, ad esempio la quantità di Teams e canali per analizzare l'utilizzo di Teams | Microsoft Teams metadati, ad esempio la quantità di Teams e canali per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Mail.Read | application | Metadati di Microsoft Exchange, ad esempio la quantità di messaggi di posta elettronica e di gruppo e messaggi di posta elettronica 1:1 per analizzare l'utilizzo di Exchange (rispetto a Teams) | Metadati di Microsoft Exchange anonimi, ad esempio la quantità di messaggi di posta elettronica e di gruppo e messaggi di posta elettronica 1:1 per analizzare l'utilizzo di Exchange (rispetto a Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Mail.Read | application | Metadati di Microsoft Exchange, ad esempio la quantità di messaggi di posta elettronica e messaggi di posta elettronica di gruppo e 1:1 per analizzare l'utilizzo di Exchange (rispetto a Teams) | Metadati di Microsoft Exchange anonimi, ad esempio la quantità di messaggi di posta elettronica e di gruppo e messaggi di posta elettronica 1:1 per analizzare l'utilizzo di Exchange (rispetto a Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| User.Read.All | application | Microsoft Teams metadati di chat e conversazioni, ad esempio se un utente è stato menzionato per analizzare l'utilizzo di Teams | Metadati di chat e conversazioni Microsoft Teams anonimi, ad esempio se un utente è stato menzionato per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 
 
@@ -124,7 +124,7 @@ Queste informazioni sono state fornite da contexxt.ai su come questa app gestisc
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -139,3 +139,4 @@ Queste informazioni sono state fornite da contexxt.ai su come questa app gestisc
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -1,19 +1,19 @@
 ---
-title: Informazioni sull'applicazione per Smartsheet by Smartsheet
+title: Informazioni sull'applicazione per Smartsheet per Smartsheet
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/11/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Smartsheet, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Smartsheet, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3b6f823a27352d3623826cf09f97c9a2f560307a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f95e090af5a83db8053bf60582a73dd77a2905d0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279841"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410890"
 ---
 # <a name="smartsheet"></a>Smartsheet
 
@@ -59,7 +59,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| AppCatalog.ReadWrite.All | delegated | Nessuna. | Consente all'app di installare le app per conto dell'utente. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
 >| Directory.Read.All | delegated | tenantId per il recupero delle informazioni da visualizzare nell'interfaccia utente. | Ci consente di leggere le app in uso da questo tenant in modo da poter controllare se è necessario installare l'app per loro. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
->| Group.Read.All | delegated | teamId/groupId per il recapito dei messaggi. | Consente all'app di leggere informazioni di base su un gruppo (o Teams team) e sulle conversazioni. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| Group.Read.All | delegated | teamId/groupId per il recapito dei messaggi. | Consente alla nostra app di leggere informazioni di base su un gruppo (o Teams team) e sulle conversazioni. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
 >| Group.ReadWrite.All | delegated | teamId/groupId per il recapito dei messaggi. | Consente all'app di avviare nuove conversazioni nei team. Questa autorizzazione include anche l'ambito Read.All precedente, ma è necessaria anche per motivi tecnici. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
 >| User.Read.All | delegated | userId. | Ci consente di leggere le informazioni di base su un utente durante il processo di autenticazione. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
 >| offline_access | delegated | refreshToken. | Consente alla nostra app di ricevere token di aggiornamento e aggiornare il token di autenticazione per conto dell'utente quando usa l'app. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
@@ -113,7 +113,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11934' frameborder='no' style='width: 100%;'></iframe>
 
@@ -122,4 +122,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

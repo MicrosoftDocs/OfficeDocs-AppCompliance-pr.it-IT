@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wunder365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7762883d8a13c9c914cc88db4c03f20be2f830f3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4bd6d8579cda1b05a447e7c8151fe9cb3da1a813
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282228"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411200"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -33,7 +33,7 @@ Informazioni fornite da JiJi Technologies Private Limited per Microsoft:
 |:----------------|:-------------|
 | Nome app | Wunder365 |
 | ID | WA200000391 |
-| Office 365 client supportati | Outlook 2016 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul web |
+| Office 365 client supportati | Outlook 2016 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | JiJi Technologies Private Limited |
 | URL del sito Web del partner | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | URL dell'informativa sulla privacy | [https://www.wunder365.com/outlook-addin-privacy-policy](https://www.wunder365.com/outlook-addin-privacy-policy) |
@@ -59,14 +59,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Mail.Send | delegated | Nessun dato archiviato. | Consenti all'app di inviare notifiche tramite posta elettronica agli utenti | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
 >| offline_access | delegated | Nessun dato archiviato. | Per mantenere l'utente connesso. | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
 >| openid | delegated | Nessun dato archiviato. | Consente agli utenti di accedere con un account aziendale | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
->| profilo | delegated | UPN, ID utente, ID e-mail,ID tenant per la verifica delle licenze, licenza gratuita. | Consente agli utenti di accedere con un account aziendale | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| profile | delegated | UPN, ID utente, ID e-mail,ID tenant per la verifica delle licenze, licenza gratuita. | Consente agli utenti di accedere con un account aziendale | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 
 
@@ -81,7 +81,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Tutte le applicazioni Web e le Archiviazione si trovano in una sottoscrizione non connessa ad AAD aziendale con solo amministratori che hanno accesso alle risorse. Per questi amministratori è necessaria la 2FA. 
+>Tutte le applicazioni Web e le Archiviazione si trovano in una sottoscrizione non connessa alla società AAD con solo amministratori che hanno accesso alle risorse. Per questi amministratori è necessaria la 2FA. 
 
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
@@ -115,10 +115,10 @@ Queste informazioni sono state fornite da JiJi Technologies Private Limited sul 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | Sì |
-| Elencare i tipi di criteri supportati | Richiedere l'autenticazione a più fattori per gli utenti con ruoli amministrativi, Richiedere l'autenticazione a più fattori per le attività di gestione di Azure, Blocco degli accessi per gli utenti che tentano di utilizzare protocolli di autenticazione legacy, Richiesta di percorsi attendibili per la registrazione di Azure AD Multi-Factor Authentication, Blocco o concessione dell'accesso da posizioni specifiche, Blocco del comportamento di accesso rischioso |
+| Elencare i tipi di criteri supportati | Richiedere l'autenticazione a più fattori per gli utenti con ruoli amministrativi, Richiedere l'autenticazione a più fattori per le attività di gestione di Azure, Bloccare gli accessi per gli utenti che tentano di utilizzare i protocolli di autenticazione legacy, Richiedere percorsi attendibili per la registrazione di Azure AD Multi-Factor Authentication, Bloccare o concedere l'accesso da posizioni specifiche, Blocco del comportamento di accesso rischioso |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
 | Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
 | L'app supporta la multi-tenancy? | Sì |
@@ -132,3 +132,4 @@ Queste informazioni sono state fornite da JiJi Technologies Private Limited sul 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

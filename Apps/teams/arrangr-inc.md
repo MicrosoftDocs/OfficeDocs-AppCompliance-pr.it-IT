@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Arrangr di Arrangr, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/15/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Arrangr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3ccc0e501a899fcb5dc613c254de9aa62911d023
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a79f5d727ae54489bf5623d41c2bf77c32f4be81
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279954"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410420"
 ---
 # <a name="arrangr"></a>Arrangr
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Arrangr, Inc. Su come questa app racco
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -64,9 +64,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| ChatMessage.Send | delegated | Questa autorizzazione viene utilizzata per inviare inviti di Arrangr in 1:1 e chat di gruppo per conto dell'utente. Non viene utilizzato per raccogliere dati. | Non vengono archiviati dati raccolti con questa autorizzazione. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| OnlineMeetings.ReadWrite | delegated | Arrangr raccoglie Microsoft Teams collegamenti alle riunioni nel processo di generazione con questa autorizzazione. Generiamo Teams riunioni per conto dell'utente in modo che possano organizzare Teams chiamate su Arrangr. | I collegamenti alle riunioni vengono archiviati in modo che possano essere condivisi con le parti appropriate per partecipare alla riunione. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| People.Read | delegated | Raccogliamo nomi e messaggi di posta elettronica di persone rilevanti per l'utente. In questo modo possiamo semplificare la selezione da parte dell'utente come destinatari degli inviti di Arrangr. | Se l'utente finisce per selezionare un destinatario offerto tramite questa API, salviamo il nome e la posta elettronica di tale destinatario per condurre la riunione e per semplificare la selezione di un destinatario in futuro. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Team.ReadBasic.All | delegated | Raccogliamo i nomi del Teams dell'utente, in modo che possano selezionare Teams che desiderano connettersi a Arrangr e in quale team vogliono condividere un invito di Arrangr. | Arrangr archivia i nomi di Teams che l'utente ha scelto di collegare a Arrangr, in modo da poter visualizzare tali Teams nelle impostazioni e consentire loro di scegliere tra quelle Teams quando decidono dove condividere un invito di Arrangr. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| TeamsAppInstallation.ReadWriteSelfForUser | delegated | Leggiamo se l'app è stata installata o meno nell'account Teams dell'utente, in modo che possiamo chiedere loro se vogliono installare la nostra app e in modo che possiamo installarla per loro. | I dati raccolti tramite questa autorizzazione non vengono archiviati. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| profilo | delegated | Nome e indirizzo di posta elettronica | Nome e indirizzo di posta elettronica, per mostrare all'utente quale account ha connesso al servizio. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| Team.ReadBasic.All | delegated | Raccogliamo i nomi del Teams dell'utente, in modo che possano selezionare Teams che desiderano connettersi a Arrangr e in quale team vogliono condividere un invito di Arrangr. | Arrangr archivia i nomi di Teams che l'utente ha scelto di collegare a Arrangr, in modo da poter visualizzare questi Teams nelle loro impostazioni e consentire loro di scegliere tra quelle Teams quando decidono dove condividere un invito di Arrangr. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| TeamsAppInstallation.ReadWriteSelfForUser | delegated | Leggiamo se la nostra app è stata installata o meno nell'account Teams dell'utente, in modo che possiamo chiedere loro se vogliono installare la nostra app e in modo che possiamo installarla per loro. | I dati raccolti tramite questa autorizzazione non vengono archiviati. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| profile | delegated | Nome e indirizzo di posta elettronica | Nome e indirizzo di posta elettronica, per mostrare all'utente quale account ha connesso al servizio. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
@@ -78,7 +78,7 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -103,7 +103,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Controlliamo i dati archiviati in Google Cloud Datastore tramite la loro API e possiamo eliminare tutti i dati necessari. I nostri utenti possono richiedere la rimozione degli account e l'eliminazione dei dati.
+>Controlliamo i dati archiviati in Google Cloud Datastore tramite l'API e possiamo eliminare tutti i dati necessari. I nostri utenti possono richiedere la rimozione degli account e l'eliminazione dei dati.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -115,17 +115,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -140,3 +129,4 @@ Queste informazioni sono state fornite da Arrangr, Inc. Sul modo in cui questa a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

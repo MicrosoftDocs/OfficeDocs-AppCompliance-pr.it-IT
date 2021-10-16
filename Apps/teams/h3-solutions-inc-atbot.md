@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per AtBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d71404e66489ba3f1e81ca5f1a1a92c17b36f9e6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b5f7db2aba878720e33c5c1df2236fd034819dfb
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283032"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411664"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -57,21 +57,21 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | application | Nome gruppo AAD, GUID gruppo AAD, UPN | Enumerare i gruppi AAD per consentire la limitazione per motivi di sicurezza delle competenze dei bot. Enumerare gli utenti per poter applicare le licenze. Enumerare gli utenti da aggiungere come Amministratori/Collaboratori | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| Directory.Read.All | delegated | Nome gruppo AAD, GUID gruppo AAD, UPN | Enumerare i gruppi AAD per consentire la limitazione per motivi di sicurezza delle competenze dei bot. Enumerare gli utenti per poter applicare le licenze. Enumerare gli utenti da aggiungere come Amministratori/Collaboratori | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | application | AAD Nome gruppo, AAD GUID gruppo, UPN | Enumerare AAD gruppi per consentire la limitazione per motivi di sicurezza delle competenze dei bot. Enumerare gli utenti per poter applicare le licenze. Enumerare gli utenti da aggiungere come Amministratori/Collaboratori | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | delegated | AAD Nome gruppo, AAD GUID gruppo, UPN | Enumerare AAD gruppi per consentire la limitazione per motivi di sicurezza delle competenze dei bot. Enumerare gli utenti per poter applicare le licenze. Enumerare gli utenti da aggiungere come Amministratori/Collaboratori | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| People.Read | delegated | No | Enumerare le persone in un'azione Ottieni persona da Flow.  Consente al bot di recuperare le persone dall'endpoint /People in Microsoft Graph. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| User.Read | delegated | ID tenant, UPN | Ci consente di accedere all'ID tenant&#8217;utente e all'UPN per consentire di collegare flussi/app per la logica creati agli utenti che li hanno creati. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| email | delegated | Gli indirizzi di posta elettronica vengono utilizzati per contattare il supporto tramite il nostro sistema di supporto. | Ci consente di accedere all'indirizzo di posta elettronica dell'utente. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| offline_access | delegated | Token di accesso/aggiornamento. | Ci consente di usare un token di aggiornamento per mantenere gli utenti connessi. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| openid | delegated | UPN, identifica l'utente all'interno del sistema | Consente agli utenti di accedere. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| profilo | delegated | UPN | Accesso all'UPN dell'utente. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| profile | delegated | UPN | Accesso all'UPN dell'utente. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -86,13 +86,13 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->ID tenant, UPN. Usiamo application Insights e i registri avranno una durata di 90 giorni prima di essere archiviati automaticamente. (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
+>ID tenant, UPN. Usiamo application Insights e i log avranno una durata di 90 giorni prima di essere archiviati automaticamente. (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Gli amministratori hanno la possibilità di eliminare configurazioni di bot che possono contenere nomi/GUID di gruppi AAD.
+>Gli amministratori hanno la possibilità di eliminare configurazioni di bot che possono contenere AAD nomi di gruppo/GUID.
 Dopo l'annullamento del servizio, tutti gli UPN verranno rimossi dal database delle licenze.
 Vedere "Servizi di Azure" in Data Residency.  La maggior parte dei dati specifici del cliente prodotti tramite l'uso di AtBot viene archiviata nel tenant del cliente e pertanto gli amministratori di tale tenant hanno il controllo completo dei dati presenti.
 
@@ -127,7 +127,7 @@ Queste informazioni sono state fornite da H3 Solutions, Inc. Sul modo in cui que
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -142,3 +142,4 @@ Queste informazioni sono state fornite da H3 Solutions, Inc. Sul modo in cui que
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

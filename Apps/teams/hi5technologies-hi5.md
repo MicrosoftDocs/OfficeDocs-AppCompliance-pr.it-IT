@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Hi5, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1356b3e31e309379e1943dc5ca59e10c72c23410
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 898df3b321b140473aa408cdba2447d70356859d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281257"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410209"
 ---
 # <a name="hi5"></a>Hi5
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| email | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Obbligatorio per l'accesso SSO e l'autenticazione nel server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
 >| offline_access | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Mantiene che l'utente veda le informazioni corrette e possiamo inviare le informazioni corrette ad altri utenti che aderiscono alla stessa società/area di lavoro. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
 >| openid | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Obbligatorio per l'accesso SSO e l'autenticazione nel server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| profilo | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Obbligatorio per l'accesso SSO e l'autenticazione nel server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| profile | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | Obbligatorio per l'accesso SSO e l'autenticazione nel server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -107,7 +107,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36143' frameborder='no' style='width: 100%;'></iframe>
 
@@ -126,7 +126,7 @@ Queste informazioni sono state fornite da Hi5Technologies sul modo in cui questa
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -142,3 +142,4 @@ Queste informazioni sono state fornite da Hi5Technologies sul modo in cui questa
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

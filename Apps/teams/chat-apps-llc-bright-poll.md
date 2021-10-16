@@ -2,18 +2,18 @@
 title: Application Information for Bright Poll by Chat Apps, LLC
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/06/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Bright Poll, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: af6e29845108dee6504e87864c80b5ef5a11aa16
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: cafd73f853c260c9d15218abfef95f7ddfb14234
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282175"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410380"
 ---
 # <a name="bright-poll"></a>Bright Poll
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da Chat Apps, LLC su come questa app racc
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -69,7 +69,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| L'archiviazione dei nomi degli utenti, degli ID univoci e degli indirizzi di posta elettronica è necessaria per fornire e supportare la funzionalità di polling. | ID, nomi e indirizzi di posta elettronica univoci per team e utenti. | Id, nomi e indirizzi di posta elettronica univoci sono necessari per la funzionalità dell'app e per supportare l'applicazione. |
+>| L'archiviazione dei nomi degli utenti, degli ID univoci e degli indirizzi di posta elettronica è necessaria per fornire e supportare la funzionalità di polling. | ID, nomi e indirizzi di posta elettronica univoci per team e utenti. | Id, nomi e indirizzi di posta elettronica univoci sono necessari per le funzionalità dell'app e per supportare l'applicazione. |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -119,3 +119,4 @@ Queste informazioni sono state fornite da App chat, LLC su come questa app gesti
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

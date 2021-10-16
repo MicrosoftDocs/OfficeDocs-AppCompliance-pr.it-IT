@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Commuty, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 8107880619d85a0ea80ba3aa26d9f10edc9cef48
-ms.sourcegitcommit: 4817af6bd92bcc7624a43ea79ba6b9362da38035
+ms.openlocfilehash: ec9a5806126e5e8625d591985084b00f0a60c0fd
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60234094"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411230"
 ---
 # <a name="commuty"></a>Pendolarità
 
@@ -66,7 +66,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 
@@ -74,7 +74,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Dati personali comuni (Indirizzo di posta elettronica principale, Messaggio di posta elettronica secondario su cui possono ricevere notifiche (facoltativo), Nome, Cognome,numero di Telefono (facoltativo), Immagine del profilo (facoltativo), Lingua preferita, Indirizzo personale (facoltativo, può essere solo la città),Dati di parcheggio (targhetta), Dati per dispositivi mobili: (Passaggio di carpooling, Più viaggi di lavoro a casa, Departure-Return ore (facoltativo), Disponibilità dell'auto (facoltativo), Pendolari, Giorni fuori sede. Retention: on user request OR on end of contract with our client
+>Dati personali comuni (Indirizzo di posta elettronica principale, Indirizzo secondario in cui possono ricevere notifiche (facoltativo), Nome, Cognome ,numero di Telefono (facoltativo), Immagine del profilo (facoltativo), Lingua preferita, Indirizzo personale (facoltativo, può essere solo città),Dati di parcheggio (targhe), Dati di mobilità: (Passaggio del carpooling, Più spostamenti a casa, Departure-Return ore (facoltativo), Disponibilità dell'auto (facoltativo), Pendolari, Giorni fuori sede. Retention: on user request OR on end of contract with our client
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -92,17 +92,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -130,3 +119,4 @@ Queste informazioni sono state fornite da Commuty sul modo in cui questa app ges
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

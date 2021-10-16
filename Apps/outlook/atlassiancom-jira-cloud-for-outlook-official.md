@@ -2,18 +2,18 @@
 title: Application Information for Jira Cloud for Outlook (Official) by Atlassian.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud for Outlook (Official), i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud for Outlook (Official), i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b4c7c0bb245c602d1650f13fb231894a86b3e8b0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 122875d5bd68dc375ef5960a8583b03addbdff0f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280080"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411250"
 ---
 # <a name="jira-cloud-for-outlook-official"></a>Jira Cloud per Outlook (ufficiale)
 
@@ -33,7 +33,7 @@ Informazioni fornite da Atlassian.com a Microsoft:
 |:----------------|:-------------|
 | Nome app | Jira Cloud per Outlook (ufficiale) |
 | ID | WA200000056 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook su iOS, Outlook su Android, Outlook sul web |
+| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook su Android, Outlook sul web |
 | Nome società partner | Atlassian.com |
 | URL del sito Web del partner | [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) |
 | URL dell'informativa sulla privacy | [https://www.msteams-atlassian.com/privacy-policy/](https://www.msteams-atlassian.com/privacy-policy/) |
@@ -51,7 +51,7 @@ Queste informazioni sono state fornite da Atlassian.com su come questa app racco
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -60,7 +60,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 
@@ -90,7 +90,7 @@ Richiedi di smettere di usare le tue informazioni: in alcuni casi, potresti chie
 
 Rifiutare esplicitamente le comunicazioni: è possibile rifiutare esplicitamente di ricevere comunicazioni promozionali da microsoft utilizzando il collegamento annulla la sottoscrizione all'interno di ogni messaggio di posta elettronica, aggiornando le preferenze di posta elettronica nel menu impostazioni dell'account del servizio oppure contattandoci come indicato di seguito per rimuovere le informazioni di contatto dall'elenco di posta elettronica promozionale o dal database di registrazione.  Anche dopo aver scelto di rifiutare esplicitamente la ricezione di messaggi promozionali da parte di Microsoft, continuerai a ricevere messaggi transazionali da Microsoft per quanto riguarda i nostri Servizi. Puoi rifiutare esplicitamente alcuni messaggi di notifica nelle impostazioni dell'account. 
 
-Potresti essere in grado di rifiutare esplicitamente la ricezione di annunci personalizzati da altre società che sono membri della Network Advertising Initiative o che sottoscrivino i Principi di Self-Regulatory della Digital Advertising Alliance per la pubblicità comportamentale online. Per ulteriori informazioni su questa procedura e per comprendere le opzioni disponibili, visitare: https://www.aboutads.info , https://optout.networkadvertising.org/ e https://www.youronlinechoices.eu . 
+Potresti essere in grado di rifiutare esplicitamente la ricezione di annunci personalizzati da altre società che sono membri della Network Advertising Initiative o che sottoscrivino i principi di Self-Regulatory Principles for Online Behavioral Advertising della Digital Advertising Alliance. Per ulteriori informazioni su questa procedura e per comprendere le opzioni disponibili, visitare: https://www.aboutads.info , https://optout.networkadvertising.org/ e https://www.youronlinechoices.eu . 
 
 Disattiva controlli cookie: i controlli cookie pertinenti basati su browser sono descritti nel nostro Avviso di &amp; monitoraggio dei cookie.
 
@@ -105,7 +105,7 @@ Portabilità dei dati: la portabilità dei dati è la possibilità di ottenere a
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596' frameborder='no' style='width: 100%;'></iframe>
 
@@ -114,4 +114,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

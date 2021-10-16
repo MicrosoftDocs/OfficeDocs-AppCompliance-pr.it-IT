@@ -174,8 +174,8 @@
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
         - name: Agile Task Board per SharePoint Online
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
-        - name: ArcGIS Maps
-          href: sharepoint/esri-inc-arcgis-maps.md
+        - name: ArcGIS per SharePoint
+          href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: Connettore FormMachines per SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: Gaggle per SharePoint
@@ -487,6 +487,8 @@
           href: teams/controlex-gmbh-grouplotse.md
         - name: Gtmhub
           href: teams/gtmhub.md
+        - name: GuideSpark Communicate Cloud
+          href: teams/guidespark-communicate-cloud.md
         - name: Guru
           href: teams/guru-technologies.md
         - name: Health Hero
@@ -693,7 +695,7 @@
           href: teams/rubius-planyway-team-calendar.md
         - name: PlayQuiz - Aprende e Juega
           href: teams/teamschamp-playquiz-aprende-and-juega.md
-        - name: Prugna
+        - name: Plumm
           href: teams/plumm-health-ltd.md
         - name: Polly
           href: teams/polly.md
@@ -1028,9 +1030,9 @@
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Componente aggiuntivo Office Cloud Fabasoft
+        - name: Componente aggiuntivo Office Fabasoft Cloud
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
@@ -1048,7 +1050,7 @@
           href: word/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | Selezione contenuto per Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | Designer per Office
+        - name: officeatwork | Progettazione per Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
         - name: officeatwork | Selezione immagini per Office
           href: word/officeatwork-officeatworkimage-chooser-for-office.md

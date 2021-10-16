@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per i grafici di QuickCells per CC-1C
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/05/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per QuickCells Graphs, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7db491204c22eb49eb155d29e7656c61a1721c2d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: aad03bb23ad053a4259a3ec779340dcaabd88f6a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282589"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410730"
 ---
 # <a name="quickcells-graphs"></a>Grafici QuickCells
 
@@ -33,7 +33,7 @@ Informazioni fornite da CC-1C a Microsoft:
 |:----------------|:-------------|
 | Nome app | Grafici QuickCells |
 | ID | WA200001574 |
-| Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2016 o versione successiva Windows, Excel sul web |
+| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive Windows, Excel sul web |
 | Nome società partner | CC-1C |
 | URL del sito Web del partner | [https://quickcells.co](https://quickcells.co) |
 | URL dell'informativa sulla privacy | [https://quickcells.co/legal/privacy](https://quickcells.co/legal/privacy) |
@@ -107,7 +107,7 @@ Queste informazioni sono state fornite da CC-1C sul modo in cui questa app gesti
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | No |
@@ -123,3 +123,4 @@ Queste informazioni sono state fornite da CC-1C sul modo in cui questa app gesti
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

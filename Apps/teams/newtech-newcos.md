@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per NewCOS di Newtech
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/17/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per NewCOS, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cb787aa76a30e5c7b0559eaf4ec28b7035636fbe
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: baeb52e72158bcb796e90c5daea2bfdba9c80985
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283201"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411561"
 ---
 # <a name="newcos"></a>NewCOS
 
@@ -53,11 +53,11 @@ Queste informazioni sono state fornite da Newtech su come questa app raccoglie e
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| profilo | entrambi | Questi dati vengono usati per l'autenticazione per le autorizzazioni dell'app | Il profilo utente viene archiviato per identificare all'interno dell'app l'utente | [07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e](https://docs.microsoft.com/microsoft-365-app-certification/azure/07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e) |
+>| profile | entrambi | Questi dati vengono usati per l'autenticazione per le autorizzazioni dell'app | Il profilo utente viene archiviato per identificare all'interno dell'app l'utente | [07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e](https://docs.microsoft.com/microsoft-365-app-certification/azure/07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e) |
 >| openid | entrambi | Microsoft Teams, per creare report e governance | Microsoft Teams utilizzo e informazioni | [ea4de024-dd5f-4d3e-a092-3b8de6c64200](https://docs.microsoft.com/microsoft-365-app-certification/azure/ea4de024-dd5f-4d3e-a092-3b8de6c64200) |
 
 
@@ -117,7 +117,7 @@ Queste informazioni sono state fornite da Newtech sul modo in cui questa app ges
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -133,3 +133,4 @@ Queste informazioni sono state fornite da Newtech sul modo in cui questa app ges
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

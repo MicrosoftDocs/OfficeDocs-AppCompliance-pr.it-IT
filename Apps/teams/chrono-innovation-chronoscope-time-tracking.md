@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per il rilevamento del tempo del cronoscopio da parte di Chrono Innovation
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/23/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per chronoscope Time Tracking, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per il rilevamento del tempo di Chronoscope, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9e87baec293d3c18e48da28e1714fce9703f446f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: bbf812cc60f8c11658fec34eea297798eded20e4
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282144"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410359"
 ---
 # <a name="chronoscope-time-tracking"></a>Cronoscopio Time Tracking
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzate.
 
@@ -72,7 +72,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| per trovare l'utente di teams workspaQuando si collegano utenti chronoscope, viene convalidato che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza un passaggio manuale dal file user.ce nel database dell'applicazione e autenticare l'utente di teams | tenantId , informazioni sull'account utente come userId, addObjectId, givenName,email,role,objectId | Quando si collegano gli utenti di Chronoscope, viene convalidato che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza un passaggio manuale dell'utente. Anche per essere in grado di inviare notifiche sulle voci di tempo utente precompilato in modo che possano salvarle/modificarle/eliminarle. |
+>| per trovare l'utente di teams workspaQuando si collegano utenti chronoscope, viene convalidato che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza passaggio manuale dal file user.ce nel database dell'applicazione e autenticare l'utente di teams | tenantId , informazioni sull'account utente come userId, addObjectId, givenName,email,role,objectId | Quando si collegano gli utenti di Chronoscope, viene convalidato che il messaggio di posta elettronica corrisponde a un account Teams in modo da poter collegare l'account senza un passaggio manuale da parte dell'utente. Anche per essere in grado di inviare notifiche sulle voci di tempo utente precompilato in modo che possano salvarle/modificarle/eliminarle. |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -97,17 +97,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -118,7 +107,7 @@ Queste informazioni sono state fornite da Chrono Innovation su come questa app g
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -134,3 +123,4 @@ Queste informazioni sono state fornite da Chrono Innovation su come questa app g
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

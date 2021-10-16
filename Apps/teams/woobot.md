@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Woobot di Woobot
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/14/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Woobot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a90381852e60e09402b766607413154b8da11704
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2fe1f97a0a0f11caf7817192f2f7ac81f06f0b37
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283609"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411381"
 ---
 # <a name="woobot"></a>Woobot
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Woobot su come questa app raccoglie e 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -70,7 +70,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Per mappare gli utenti di Salesforce Teams utenti, è necessario un elenco di ID utente del team. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. Inoltre, archiviamo quali ID utente del team sono stati graditi dall'app e quali no, in modo che quando un nuovo utente entra a far parte di un team, woobot possa personalmente accogliere tale utente. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. |  ID utente, ID team e nome del team, ID canale e nome del canale e gli utenti di cui sono membri Teams. |  |
+>| Per mappare gli utenti di Salesforce Teams utenti, è necessario un elenco di ID utente del team. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. Inoltre, archiviamo quali ID utente del team sono stati graditi dall'app e quali no, in modo che quando un nuovo utente entra a far parte di un team, woobot possa personalmente accogliere l'utente. Vengono inoltre archiviati i nomi del team e dei canali in modo che gli utenti possano inviare notifiche a questi team. |  ID utente, ID team e nome del team, ID canale e nome del canale e gli utenti di cui sono membri Teams. |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -101,4 +101,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 
