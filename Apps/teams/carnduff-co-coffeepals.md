@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per CoffeePals di Carnduff Co
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/09/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CoffeePals, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2f058ef9ce4f3d19644a6223c394afefa257085b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b88028bd31f6ad32b8c0007644fa407a0d968604
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282516"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415193"
 ---
 # <a name="coffeepals"></a>CoffeePals
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Carnduff Co su come questa app raccogl
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -122,3 +122,4 @@ Queste informazioni sono state fornite da Carnduff Co su come questa app gestisc
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

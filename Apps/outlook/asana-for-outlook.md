@@ -2,18 +2,18 @@
 title: Application Information for Asana for Outlook by Asana
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/02/2020
+ms.date: 10/29/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Asana per Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 412b9d00d98f955dae3624d7d015970901afcba7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f335ce57adf88ac5159839811abe05c1fc5d6b03
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281395"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413980"
 ---
 # <a name="asana-for-outlook"></a>Asana per Outlook
 
@@ -33,7 +33,7 @@ Informazioni fornite da Asana a Microsoft:
 |:----------------|:-------------|
 | Nome app | Asana per Outlook |
 | ID | WA104381833 |
-| Office 365 client supportati | Outlook 2016 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul web |
+| Office 365 client supportati | Outlook 2016 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | Asana |
 | URL del sito Web del partner | [https://asana.com](https://asana.com) |
 | URL dell'informativa sulla privacy | [https://asana.com/terms#privacy-policy](https://asana.com/terms#privacy-policy) |
@@ -100,4 +100,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

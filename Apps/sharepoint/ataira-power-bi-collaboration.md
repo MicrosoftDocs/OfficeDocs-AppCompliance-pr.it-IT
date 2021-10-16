@@ -1,19 +1,19 @@
 ---
-title: Application Information for Power BI Collaboration by Ataira
+title: Informazioni sull'applicazione Power BI collaborazione di Ataira
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/14/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Power BI Collaboration, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Power BI Collaboration, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c370b6058ef25fd4665e651489e0b1092539b1dd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 8f5b4117ce5508d627bea6878d5c4ac00d2b2677
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281838"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413940"
 ---
 # <a name="power-bi-collaboration"></a>Opzioni di collaborazione di Power BI
 
@@ -51,25 +51,25 @@ Queste informazioni sono state fornite da Ataira su come questa app raccoglie e 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | Autorizzazioni anche per ChannelMessage.Send Team.ReadBasic.All User.Read. Vengono usati per consentire all'utente di selezionare il Teams e il canale per le notifiche | Monitoraggio dell'utilizzo, degli errori e delle licenze. [callback_group_id] ,[datetime_id] ,[session_id] ,[app_type] ,[raw_url] ,[user_id] ,[list_name] ,[user_name] ,[state] ,[priority] ,[user_domain] ,[url_text ],[group_name] ,[title_name] ,[comments] ,[file_name] ,[description] ,[group_pbi_name] ,[item_type] ,[organization_id] ,[user_objectid] ,[organization_displayName] ,[group_id] | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5) |
+>| User.Read | delegated | Autorizzazioni anche per ChannelMessage.Send Team.ReadBasic.All User.Read. Vengono usati per consentire all'utente di selezionare il Teams e il canale per le notifiche | Monitoraggio dell'utilizzo, degli errori e delle licenze. [callback_group_id] ,[datetime_id] ,[session_id] ,[app_type] ,[raw_url] ,[user_id] ,[list_name] ,[user_name] ,[state] ,[priority] ,[user_domain] ,[url_text ,[group_name] ,[title_name] ,[comments] ,[file_name] ,[description] ,[group_pbi_name] ,[item_type] ,[organization_id] ,[user_objectid] ,[organization_displayName] ,[group_id] | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| https://analysis.windows.net/powerbi/api/ | Sì | posta elettronica utente, nome area di lavoro, nome elemento, url di incorporamento | Usato per popolare report e dashboard nell'SharePoint componente aggiuntivo | [api_pbi_id] ,[datetime_id] ,[session_id] ,[user_name] ,[user_domain] ,[WorkSpace_Name] ,[WorkSpace_Id] ,[item_Id] ,[item_type] ,[item_name] ,[webUrl] ,[embedUrl] ,[displayName] ,[item_title] ,[isOwnedByMe] | Monitoraggio di utilizzo, errori e licenze |
+>| https://analysis.windows.net/powerbi/api/ | Sì | posta elettronica utente, nome area di lavoro, nome elemento, url di incorporamento | Usato per popolare report e dashboard nell'interfaccia SharePoint componente aggiuntivo | [api_pbi_id] ,[datetime_id] ,[session_id] ,[user_name] ,[user_domain] ,[WorkSpace_Name] ,[WorkSpace_Id] ,[item_Id] ,[item_type] ,[item_name] ,[webUrl] ,[embedUrl] ,[displayName] ,[item_title] ,[isOwnedByMe] | Monitoraggio di utilizzo, errori e licenze |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 
@@ -97,7 +97,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/41844' frameborder='no' style='width: 100%;'></iframe>
 
@@ -116,7 +116,7 @@ Queste informazioni sono state fornite da Ataira sul modo in cui questa app gest
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | Sì |
 | Elencare i tipi di criteri supportati | Autenticazione a più fattori Che consente solo ai dispositivi registrati in Intune di accedere a servizi specifici Limitando le posizioni utente e gli intervalli IP |
@@ -133,3 +133,4 @@ Queste informazioni sono state fornite da Ataira sul modo in cui questa app gest
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

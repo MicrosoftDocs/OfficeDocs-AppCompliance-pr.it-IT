@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Neelix.Team da Neelix.IO
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/10/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Neelix.Team, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 74f41c23436f1bfc47db6fea7dfca2e8b12731bb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c67a0cb706d4e9651b40dc4070ed9608cbd858d5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282408"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413638"
 ---
 # <a name="neelixteam"></a>Neelix.Team
 
@@ -57,11 +57,11 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | l'app usa ID e nomi di canale per offrire agli utenti la comodità di gestire le preferenze predefinite quando inviano feedback da MS Treams | Gli ID canale e i nomi vengono archiviati per la gestione delle impostazioni predefinite per comodità dell'utente | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
+>| Channel.ReadBasic.All | delegated | l'app usa ID e nomi di canale per offrire agli utenti la comodità di gestire le preferenze predefinite quando inviano feedback da MS Treams | Gli ID canale e i nomi vengono archiviati per la gestione delle impostazioni predefinite per comodità degli utenti | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
 >| Team.ReadBasic.All | delegated | l'app usa id e nomi del team per offrire agli utenti la comodità di gestire le preferenze predefinite quando inviano feedback da MS Treams | vengono archiviati gli ID e i nomi del team. Questi dati ci consentono di configurare impostazioni predefinite di comodità che consentono il completamento più rapido del modulo di feedback. | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
 >| email | delegated | la posta elettronica viene utilizzata come parte della registrazione dell'utente all'interno di Neelix. Dopo la registrazione iniziale, la posta elettronica viene usata per le notifiche.  | la posta elettronica viene archiviata nel profilo utente. La posta elettronica viene utilizzata anche per controllare che l'utente non teni di usare la stessa posta elettronica tramite un altro canale oauth. | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
 >| offline_access | delegated | Usato per ottenere il token di aggiornamento |  il token di aggiornamento viene archiviato per ottenere un nuovo token di accesso | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| profilo | delegated | Il nome utente viene utilizzato per creare un account utente durante la registrazione con Neelix.  | Il nome utente viene archiviato nell'account utente. Ciò è necessario perché l'utente sia riconosciuto da altri membri del team nel journal del team. L'utente può aggiornare il nome archiviato in Neelix. | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
+>| profile | delegated | Il nome utente viene utilizzato per creare un account utente durante la registrazione con Neelix.  | Il nome utente viene archiviato nell'account utente. Ciò è necessario perché l'utente sia riconosciuto da altri membri del team nel journal del team. L'utente può aggiornare il nome archiviato in Neelix. | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
 >| User.Read | delegated | L'app bot usa user.read per poter inviare informazioni all'utente in modo che la piattaforma di base Neelix possa identificare l'utente | Le informazioni non vengono archiviate | [bed170ee-dbd7-4efa-b48e-b0937ded1689](https://docs.microsoft.com/microsoft-365-app-certification/azure/bed170ee-dbd7-4efa-b48e-b0937ded1689) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
@@ -74,7 +74,7 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -111,17 +111,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -132,7 +121,7 @@ Queste informazioni sono state fornite da Neelix.IO su come questa app gestisce 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -149,3 +138,4 @@ Queste informazioni sono state fornite da Neelix.IO su come questa app gestisce 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

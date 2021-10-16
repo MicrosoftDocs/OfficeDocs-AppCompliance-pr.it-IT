@@ -2,23 +2,23 @@
 title: Informazioni sull'applicazione per Adobe Sign di Adobe Systems Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/01/2021
+ms.date: 10/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni di sicurezza e conformità disponibili per Adobe Sign, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Adobe Sign, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 98b936fd86d111e9bb6c194318dab50d115b6a28
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 873ce70caf1e4d9212d43e4bc8e9c94e100f6996
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281574"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411965"
 ---
 # <a name="adobe-sign"></a>Adobe Sign
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: March 1, 2021</p>
+<p>Last updated by the developer on: August 26, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/0f56a9d1-f502-40f9-a9e8-816d7adbb68b" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381233" target="_blank">Visualizzazione in AppSource</a>
@@ -52,19 +52,19 @@ Queste informazioni sono state fornite da Adobe Systems Inc. Sul modo in cui que
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Mail.ReadWrite | delegated | Per popolare il documento allegato, i messaggi di posta elettronica del mittente e del destinatario e il contenuto del messaggio dai messaggi di posta elettronica a Adobe Sign da inviare per la firma. Ciò consente di risparmiare tempo all'utente per digitare di nuovo i campi in Adobe Sign. Dopo la firma di un contratto, componi automaticamente un nuovo messaggio di posta elettronica per l'utente per inviare un messaggio di posta elettronica per informare i destinatari che la transazione è stata eseguita. | Adobe Sign salverà gli allegati come file temporanei, con una scadenza di 24 ore. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
->| People.Read | delegated | Per riempire automaticamente l'indirizzo di posta elettronica nell'esperienza invia per la firma, digitando alcune lettere iniziali, non è necessario che gli utenti di &quot; &quot; digitare l'intero messaggio di posta elettronica. | Adobe Sign archivia solo i messaggi di posta elettronica e displayName dei destinatari nei contratti. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
->| User.Read | delegated | Per leggere il profilo dell'utente e associare il proprio profilo (fondamentalmente, la posta elettronica e l'ID utente) al database in modo che possa usare Adobe Sign. | Per leggere il profilo dell'utente e associare il proprio profilo (fondamentalmente, la posta elettronica e l'ID utente) al database in modo che possa usare Adobe Sign. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
->| offline_access | delegated | Per aggiornare il token di accesso, quando quello corrente è scaduto. Ad esempio, quando l'utente è in una finestra di invio per la firma e lo lascia inattivo per troppo tempo, è necessario aggiornare un nuovo token per mantenere attivo &quot; &quot; l'utente | Per aggiornare il token di accesso, quando quello corrente è scaduto. Ad esempio, quando l'utente è in una finestra di invio per la firma e lo lascia inattivo per troppo tempo, è necessario aggiornare un nuovo token per mantenere attivo &quot; &quot; l'utente. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
->| openid | delegated | Email e UserId. Per accedere all'utente per garantire il consenso per l'autorizzazione all'uso dell'app Adobe Sign.  | Email è l'identificatore univoco per gli utenti in Adobe Sign. Archiviamo l'ID di posta elettronica in modo da poter mappare tutte le attività dell'utente al suo record Adobe Sign.  | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| Mail.ReadWrite | delegated | Per popolare il documento allegato, i messaggi di posta elettronica del mittente e del destinatario e il contenuto del messaggio dai messaggi di posta elettronica a Adobe Sign da inviare per la firma. Ciò consente di risparmiare tempo all'utente per digitare di nuovo i campi in Adobe Sign. Dopo la firma di un contratto, componi automaticamente un nuovo messaggio di posta elettronica per l'utente per inviare un messaggio di posta elettronica per informare i destinatari che la transazione è stata eseguita. | Adobe Sign salverà gli allegati come file temporanei, con una scadenza di 24 ore. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
+>| People.Read | delegated | Per riempire automaticamente l'indirizzo di posta elettronica nell'esperienza invia per la firma, digitando alcune lettere iniziali, non è necessario che gli utenti di &quot; &quot; digitare l'intero messaggio di posta elettronica. | Adobe Sign archivia solo i messaggi di posta elettronica e displayName dei destinatari nei contratti. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
+>| User.Read | delegated | Per leggere il profilo dell'utente e associare il proprio profilo (fondamentalmente, la posta elettronica e l'ID utente) al database in modo che possa usare Adobe Sign. | Per leggere il profilo dell'utente e associare il proprio profilo (fondamentalmente, la posta elettronica e l'ID utente) al database in modo che possa usare Adobe Sign. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
+>| offline_access | delegated | Per aggiornare il token di accesso, quando quello corrente è scaduto. Ad esempio, quando l'utente è in una finestra di invio per la firma e lo lascia inattivo per troppo tempo, è necessario aggiornare un nuovo token per mantenere attivo &quot; &quot; l'utente | Per aggiornare il token di accesso, quando quello corrente è scaduto. Ad esempio, quando l'utente è in una finestra di invio per la firma e lo lascia inattivo per troppo tempo, è necessario aggiornare un nuovo token per mantenere attivo &quot; &quot; l'utente. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
+>| openid | delegated | Email e UserId. Per accedere all'utente per garantire il consenso per l'autorizzazione all'uso dell'app Adobe Sign.  | Email è l'identificatore univoco per gli utenti in Adobe Sign. Archiviamo l'ID di posta elettronica in modo da poter mappare tutte le attività dell'utente al suo record Adobe Sign.  | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -74,7 +74,7 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -109,7 +109,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11641' frameborder='no' style='width: 100%;'></iframe>
 
@@ -128,7 +128,7 @@ Queste informazioni sono state fornite da Adobe Systems Inc. Su come questa app 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -145,3 +145,4 @@ Queste informazioni sono state fornite da Adobe Systems Inc. Su come questa app 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

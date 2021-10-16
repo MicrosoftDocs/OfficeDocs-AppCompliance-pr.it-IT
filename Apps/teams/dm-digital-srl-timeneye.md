@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Timeneye da DM Digital SRL
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/31/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Timeneye, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: ab8d61b542baaacd406df7596ecdcd4d8c87e327
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 30c0543469970b94d1020a3c1c64f668ab833075
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281263"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412446"
 ---
 # <a name="timeneye"></a>Timeneye
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da DM Digital SRL su come questa app racc
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -66,7 +66,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| email | delegated | Posta elettronica. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | Posta elettronica. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
 >| offline_access | delegated | Autorizzazione necessaria per sincronizzare il calendario/planner mentre l'utente non è online. | Autorizzazione necessaria per sincronizzare il calendario/planner mentre l'utente non è online. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
 >| openid | delegated | id_token. Accesso dell'utente tramite Microsoft SSO | id_token. Accesso dell'utente tramite Microsoft SSO. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| profilo | delegated | e-mail, nome. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | e-mail, nome. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
+>| profile | delegated | e-mail, nome. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | e-mail, nome. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
@@ -78,9 +78,9 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -111,17 +111,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -132,7 +121,7 @@ Queste informazioni sono state fornite da DM Digital SRL su come questa app gest
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -149,3 +138,4 @@ Queste informazioni sono state fornite da DM Digital SRL su come questa app gest
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

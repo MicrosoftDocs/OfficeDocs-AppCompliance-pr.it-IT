@@ -2,18 +2,18 @@
 title: Application Information for Agile Task Board by Agile-IS
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Agile Task Board, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Agile Task Board, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a5062da73958a88a7b788a74771e76ae506b314d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ed25a77c5f07371bad9d2754b53c0b42deab11d6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280009"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411945"
 ---
 # <a name="agile-task-board"></a>Agile Task Board
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da Agile-IS su come questa app raccoglie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -82,7 +82,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 >L'applicazione archivia tutti i dati negli SharePoint online e nelle raccolte documenti nello stesso sito in cui viene eseguita la rispettiva istanza dell'app. Il controllo di accesso a questi dati dipende dalla configurazione del tenant del cliente. 
 
-Per il controllo delle licenze, il dominio e l'UPN vengono trasferiti a un servizio ospitato in Azure. Queste informazioni sono protette dall'autenticazione di Azure AD.
+Per il controllo delle licenze, il dominio e l'UPN vengono trasferiti a un servizio ospitato in Azure. Queste informazioni vengono protette tramite Azure AD autenticazione.
 
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
@@ -106,4 +106,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

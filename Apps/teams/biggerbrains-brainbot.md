@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per BrainBot di Biggerbrains
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/28/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per BrainBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: aa9379b91d921edeb6c6a85a0756ba2017bd5fbb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c6db3fdfd92513cd670fab84eecc4fa711a7449e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282522"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413082"
 ---
 # <a name="brainbot"></a>BrainBot
 
@@ -64,7 +64,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -118,7 +118,7 @@ Queste informazioni sono state fornite da Biggerbrains su come questa app gestis
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | No |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -134,3 +134,4 @@ Queste informazioni sono state fornite da Biggerbrains su come questa app gestis
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

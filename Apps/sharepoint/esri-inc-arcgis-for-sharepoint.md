@@ -1,45 +1,43 @@
 ---
-title: Informazioni sull'applicazione per Il tributo di Tribute Co.
+title: Application Information for ArcGIS for SharePoint by Esri, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/05/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Tribute, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per ArcGIS per SharePoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 40784780329bac272702741c6fec0af25ea46ab6
+ms.openlocfilehash: dff8fbff60364c07cb2e0c5849ae63be7410daca
 ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413298"
+ms.locfileid: "60412273"
 ---
-# <a name="tribute"></a>Tribute
+# <a name="arcgis-for-sharepoint"></a>ArcGIS per SharePoint
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: April 16, 2021</p>
+<p>Last updated by the developer on: July 21, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/cfb46a87-a75b-4045-9f22-a0ae0614fd60" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002589" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003118" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Tribute Co. a Microsoft:
+Informazioni fornite da Esri, Inc. a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Tribute |
-| ID | WA200002589 |
-| Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Tribute Co. |
-| URL del sito Web del partner | [https://www.tributementorship.com](https://www.tributementorship.com) |
-| URL della Teams info dell'applicazione | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
-| URL dell'informativa sulla privacy | [https://www.tributementorship.com/privacy ](https://www.tributementorship.com/privacy ) |
-| URL delle Condizioni per l'utilizzo | [https://www.tributementorship.com/terms](https://www.tributementorship.com/terms) |
+| Nome app | ArcGIS per SharePoint |
+| ID | WA200003118 |
+| Office 365 client supportati | SharePoint 2016 o versione successiva |
+| Nome società partner | Esri, Inc. |
+| URL del sito Web del partner | [https://www.esri.com](https://www.esri.com) |
+| URL dell'informativa sulla privacy | [https://www.esri.com/legal/privacy-arcgis](https://www.esri.com/legal/privacy-arcgis) |
+| URL delle Condizioni per l'utilizzo | [https://www.esri.com/en-us/legal/terms/master-agreement-pro...](https://www.esri.com/en-us/legal/terms/master-agreement-product) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +47,7 @@ Informazioni fornite da Tribute Co. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Tribute Co. sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Esri, Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -60,15 +58,10 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
-#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
-
-Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
-
->Non è possibile accedere all'UEII.
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -81,7 +74,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Siamo un processore di dati, non un controller. 
+>Gli amministratori dei clienti possono controllare l'accesso degli utenti ai dati a livello di organizzazione o di progetto. Le richieste vengono controllate rispetto agli elenchi di controllo di accesso prima di leggere o scrivere dati. I dati in transito da e verso gli utenti finali e i servizi esterni vengono crittografati con HTTPS (solo TLS 1.2).
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -97,9 +90,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/27233' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/27233" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -109,20 +102,22 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Tribute Co. sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Esri, Inc. Sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
-| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
-| L'app supporta i criteri di accesso condizionale? | No |
+| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
+| L'app supporta i criteri di accesso condizionale? | Sì |
+| Elencare i tipi di criteri supportati | ArcGIS Online si basa sul modello RBAC (Role Based Access Control). Tutti gli utenti della soluzione devono disporre di un ruolo per il quale sono autorizzati ad accedere. |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
 | Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | No |
 | L'app supporta la multi-tenancy? | Sì |
 | L'app dispone di un client riservato? | Sì |
 | Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| L'app espone qualsiasi API Web? | No |
+| L'app espone qualsiasi API Web? | Sì |
+| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
 | La tua app usa le API di anteprima? | No |
 | L'app usa API deprecate? | No |
 

@@ -2,18 +2,18 @@
 title: Application Information for Bulletin Board - NextSet by NextSet,Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/21/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Bulletin Board - NextSet, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c423181155ac9b777bb03576032f01a8a16578b4
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d08a21f9d99f37ed754239729387e34eb928ad8d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281802"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414160"
 ---
 # <a name="bulletin-board---nextset"></a>Bulletin Board - NextSet
 
@@ -60,7 +60,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Files.ReadWrite.All | entrambi | &#25237;&#31295;&#12487;&#12540;&#12479;&#12434;Excel&#12458;&#12531;&#12521;&#12452;&#12531;&#12395;&#20986;&#21147;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#25237;&#31295;&#20869;&#23481;&#12434;Excel&#12458;&#12531;&#12521;&#12452;&#12531;&#12398;&#12501;&#12449;&#12452;&#12523;&#12395;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
 >| email | delegated | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;ID&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
 >| openid | delegated | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;ID&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
->| profilo | entrambi | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;ID&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [ff5f406c-2ded-423f-b6ba-2950a2532b69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ff5f406c-2ded-423f-b6ba-2950a2532b69) |
+>| profile | entrambi | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;ID&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [ff5f406c-2ded-423f-b6ba-2950a2532b69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ff5f406c-2ded-423f-b6ba-2950a2532b69) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
@@ -72,7 +72,7 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzate.
 
@@ -126,7 +126,7 @@ Queste informazioni sono state fornite da NextSet,Inc. Sul modo in cui questa ap
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -143,3 +143,4 @@ Queste informazioni sono state fornite da NextSet,Inc. Sul modo in cui questa ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

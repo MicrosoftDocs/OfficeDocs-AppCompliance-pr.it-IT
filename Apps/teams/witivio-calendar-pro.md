@@ -1,19 +1,19 @@
 ---
-title: Application Information for Calendar Pro by Witivio
+title: Informazioni sull'applicazione per Pro calendario di Witivio
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/02/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Calendar Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Calendar Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 89731f0dcdbcd6fcb8d27588179189a0d634284b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5f8b6dcbf99d26e867cc79194cb57c1393316a2b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283614"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414863"
 ---
 # <a name="calendar-pro"></a>Calendario Pro
 
@@ -61,14 +61,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| email | delegated | Viene utilizzato il messaggio di posta elettronica | Il messaggio di posta elettronica viene usato per identificare l'utente nell'interfaccia utente | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
 >| offline_access | delegated | I dati vengono utilizzati | L'accesso offline viene utilizzato per abilitare SSO con Microsoft Teams | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
 >| openid | delegated | Autenticazione | OpenID viene utilizzato per l'autenticazione con Microsoft Teams | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
->| profilo | delegated | I dati vengono utilizzati | Il profilo viene usato per abilitare SSO con Microsoft Teams | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
+>| profile | delegated | I dati vengono utilizzati | Il profilo viene usato per abilitare SSO con Microsoft Teams | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -81,13 +81,13 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->La telemetria contiene l'UPN e l'ID AAD per la diagnostica. Solo gli amministratori DI PROD/Run hanno accesso alla telemetria di produzione. I log vengono archiviati per 90 giorni e possono essere eliminati su richiesta tramite posta elettronica all'dpo@witivio.com
+>La telemetria contiene l'UPN e l'ID AAD per la diagnostica. Solo gli amministratori DI PROD/Run hanno accesso alla telemetria di produzione. I log vengono archiviati per 90 giorni e possono essere eliminati su richiesta tramite posta elettronica all'indirizzo dpo@witivio.com
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Witivio usa solo Microsoft Azure componenti aggiuntivi, distribuiti nell'area nord Europa. Usiamo informazioni dettagliate sulle applicazioni e Cosmos database per l'analisi e l'archiviazione dei dati. Witivio usa MFA per tutti gli utenti, inclusi gli amministratori. Gli amministratori hanno un account utente (per la workstation) e un account con privilegi per accedere ai ressource di Azure.
+>Witivio usa solo Microsoft Azure componenti aggiuntivi, distribuiti nell'area nord Europa. Usiamo informazioni dettagliate sulle applicazioni e Cosmos database per l'analisi e l'archiviazione dei dati. Witivio usa MFA per tutti gli utenti, inclusi gli amministratori. Gli amministratori dispongono di un account utente (per la workstation) e di un account con privilegi per l'accesso ai ressource di Azure.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -99,17 +99,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -120,7 +109,7 @@ Queste informazioni sono state fornite da Witivio sul modo in cui questa app ges
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -137,3 +126,4 @@ Queste informazioni sono state fornite da Witivio sul modo in cui questa app ges
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

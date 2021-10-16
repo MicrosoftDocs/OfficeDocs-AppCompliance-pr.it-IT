@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Beekast di Beekast
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/16/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Beekast, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Beekast, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3fe1f857d283cf3b582744351590d0d2a0959190
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c78b03756ef538373a12b2f3601fb6df05c2602b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283465"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411865"
 ---
 # <a name="beekast"></a>Beekast
 
@@ -57,7 +57,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | Posta elettronica, nome e cognome: questi dati vengono utilizzati per collaborare all'interno dell'applicazione beekast. | Posta elettronica, nome e cognome: questi dati vengono utilizzati per collaborare all'interno dell'applicazione beekast e devono essere archiviati per essere utilizzati sia all'interno che all'esterno del contesto Teams MS. | [4d0997dc-df53-4b18-9df1-bb283f8a0377](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d0997dc-df53-4b18-9df1-bb283f8a0377) |
+>| User.Read | delegated | Posta elettronica, nome e cognome : questi dati vengono utilizzati per collaborare all'interno dell'applicazione beekast. | Posta elettronica, nome e cognome: questi dati vengono utilizzati per collaborare all'interno dell'applicazione beekast e devono essere archiviati per essere utilizzati sia all'interno che all'esterno del contesto Teams MS. | [4d0997dc-df53-4b18-9df1-bb283f8a0377](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d0997dc-df53-4b18-9df1-bb283f8a0377) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -113,7 +113,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Beekast sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da Beekast su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -122,3 +122,4 @@ Queste informazioni sono state fornite da Beekast sul modo in cui questa app ges
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

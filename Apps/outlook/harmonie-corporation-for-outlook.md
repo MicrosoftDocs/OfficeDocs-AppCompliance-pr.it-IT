@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione harmon.ie per Outlook da harmon.ie Corporation
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/04/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per harmon.ie per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e63a6614f0e0d6fb62cae5343982f4118a4c9168
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c98557ec48ab829f8194eb1255c5604bf5931da7
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281389"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414270"
 ---
 # <a name="harmonie-for-outlook"></a>harmon.ie per Outlook
 
@@ -33,7 +33,7 @@ Informazioni fornite da harmon.ie Corporation a Microsoft:
 |:----------------|:-------------|
 | Nome app | harmon.ie per Outlook |
 | ID | WA103004101 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook su iOS, Outlook su Android, Outlook sul web |
+| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook su Android, Outlook sul web |
 | Nome società partner | harmon.ie Corporation |
 | URL del sito Web del partner | [https://harmon.ie](https://harmon.ie) |
 | URL dell'informativa sulla privacy | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
@@ -47,7 +47,7 @@ Informazioni fornite da harmon.ie Corporation a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da harmon.ie Corporation su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da harmon.ie Corporation sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -63,9 +63,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 
@@ -107,12 +107,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da harmon.ie Corporation su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da harmon.ie Corporation sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -129,3 +129,4 @@ Queste informazioni sono state fornite da harmon.ie Corporation su come questa a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

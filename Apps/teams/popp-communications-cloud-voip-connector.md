@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per popp Cloud VoIP Connector by POPP Communications
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/20/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per il connettore VoIP cloud POPP, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9f64b18c26d3fd38e4272171e7a90f493e76de5f
-ms.sourcegitcommit: 11288ac2cbae57aaa7820be0d9fb87c631805b7b
+ms.openlocfilehash: 42930c1020e86aeb6f55fb81929f30285e17dae3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60112281"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414973"
 ---
 # <a name="popp-cloud-voip-connector"></a>Connettore VoIP cloud POPP
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da POPP Communications su come questa app
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -60,7 +60,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Chat.Read | delegated |  Quali dati vengono raccolti o utilizzati? Aggiungere la giustificazione per la raccolta o l'utilizzo dei dati. ID utente e nomi visualizzati dei membri della chat corrente. L'app lo usa per presentare all'utente un elenco di membri della chat da chiamare. | Metaswitch non archivia questi dati. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
 >| TeamMember.Read.All | delegated | ID utente e nomi visualizzati dei membri del team corrente. L'app lo usa per presentare all'utente un elenco di membri del team da chiamare. | Metaswitch non archivia questi dati. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
 >| User.Read.All | delegated |  Quali dati vengono raccolti o utilizzati? Aggiungere la giustificazione per la raccolta o l'utilizzo dei dati. Numeri di telefono dell'azienda e del cellulare degli utenti. Questa operazione è necessaria per poter inizializzare le chiamate telefoniche a questi numeri. |   Metaswitch non archivia questi dati | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
->| openid | delegated | Un token di autorizzazione per l'utente, che autorizza l'app ad accedere agli altri endpoint dell Graph API elencati per loro conto. | Metaswitch non archivia questi dati. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
+>| openid | delegated | Un token di autorizzazione per l'utente, che autorizza l'app ad accedere agli altri endpoint api Graph elencati per loro conto. | Metaswitch non archivia questi dati. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
@@ -76,7 +76,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Reti metaswitch e comunicazioni POPP | L'interfaccia OII seguente viene trasferita al server MCT Hosted Bot: ID tenant di Azure AD Id team Id Canale/ID chat Vengono trasferiti anche i contenuti dei messaggi, che potrebbero includere OII Il seguente OII può essere trasferito all'API JSON CommPortal: Telefono numero di utenti in un gruppo aziendale I domini di indirizzi di posta elettronica Indirizzi IP degli utenti | Aggiungere una giustificazione per il motivo per cui è necessario trasferire OII L'app&#8217;scopo principale è facilitare le chiamate telefoniche. Se un utente tenta di effettuare una chiamata telefonica, queste informazioni devono essere fornite per accedere al proprio account CommPortal e correlare la chiamata all'utente corretto.  L'interfaccia OII trasferita al server MCT Hosted Bot è incorporata nell'API Bot Framework che viene usata per l'integrazione con Teams e non può essere evitata. |
+>| Reti metaswitch e comunicazioni POPP | L'interfaccia OII seguente viene trasferita al server MCT Hosted Bot: id tenant di Azure AD Id team Id canale/ID chat Vengono trasferiti anche i contenuti dei messaggi, che potrebbero includere OII Il seguente OII può essere trasferito all'API JSON CommPortal: Telefono numero di utenti in un gruppo aziendale I domini di indirizzi di posta elettronica Indirizzi IP degli utenti | Aggiungere una giustificazione per il motivo per cui è necessario trasferire OII L'app&#8217;scopo principale è facilitare le chiamate telefoniche. Se un utente tenta di effettuare una chiamata telefonica, queste informazioni devono essere fornite per accedere al proprio account CommPortal e correlare la chiamata all'utente corretto.  L'interfaccia OII che viene trasferita al server bot ospitato MCT è incorporata nell'API Bot Framework che viene usata per l'integrazione con Teams e non può essere evitata. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -109,17 +109,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -130,7 +119,7 @@ Queste informazioni sono state fornite da POPP Communications su come questa app
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | No |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | Sì |
 | Elencare i tipi di criteri supportati | Criteri di accesso condizionale nella misura in cui tale supporto viene fornito automaticamente dalla libreria MSAL utilizzata per l'autenticazione.  |
@@ -147,3 +136,4 @@ Queste informazioni sono state fornite da POPP Communications su come questa app
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

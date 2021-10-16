@@ -2,18 +2,18 @@
 title: Application Information for email-texting by Voice Elements Corporation
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/28/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per l'invio di messaggi di posta elettronica, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per l'invio di messaggi di posta elettronica, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 1b07b7d55d9e12ec47b5c2f58b13bc3523299aa4
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: afdd7e636fc38fe5c413d0ec175a6ab3847385da
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282025"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414392"
 ---
 # <a name="email-texting"></a>email-texting
 
@@ -53,14 +53,14 @@ Queste informazioni sono state fornite da Voice Elements Corporation su come que
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | Necessario per SSO da Teams | Identità degli utenti, necessaria per SSO | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
 >| email | delegated | Necessario per SSO da Teams | Identità degli utenti, necessaria per SSO | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
 >| openid | delegated | Necessario per SSO da Teams | Identità degli utenti, necessaria per SSO | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
->| profilo | delegated | Necessario per SSO da Teams | Identità degli utenti, necessaria per SSO | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
+>| profile | delegated | Necessario per SSO da Teams | Identità degli utenti, necessaria per SSO | [806359be-da23-4538-80bb-baa82107ec2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/806359be-da23-4538-80bb-baa82107ec2d) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -98,17 +98,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -119,7 +108,7 @@ Queste informazioni sono state fornite da Voice Elements Corporation sul modo in
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -135,3 +124,4 @@ Queste informazioni sono state fornite da Voice Elements Corporation sul modo in
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

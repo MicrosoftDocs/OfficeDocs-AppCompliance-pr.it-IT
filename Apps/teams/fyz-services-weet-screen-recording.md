@@ -2,18 +2,18 @@
 title: Application Information for Weet Screen Recording by FYZ SERVICES
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/23/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per weet Screen Recording, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 8dc2f7f77b62661226a3ebf184e0bd9f0efc1756
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: fa9dee24b0953351451c92c553ac4f6e6426d87d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785747"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412997"
 ---
 # <a name="weet-screen-recording"></a>Weet Screen Recording
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da FYZ SERVICES su come questa app raccog
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -69,7 +69,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -88,7 +88,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->È possibile richiedere l'eliminazione delle informazioni personali. Se si richiede di eliminare le informazioni personali, microsoft rispetterà la richiesta ed eliminerà le informazioni personali, in base a determinate eccezioni previste dalla legge, ad esempio (ma non solo) all'esercizio da parte di un altro utente del suo diritto alla libertà di parola, ai requisiti di conformità derivanti da un obbligo legale o da qualsiasi trattamento che potrebbe essere necessario per proteggere da attività illegali.
+>È possibile richiedere l'eliminazione delle informazioni personali. Se si richiede di eliminare le informazioni personali, microsoft rispetterà la richiesta e eliminerà le informazioni personali, a condizione che siano previste alcune eccezioni previste dalla legge, ad esempio (ma non solo) l'esercizio da parte di un altro utente del suo diritto alla libertà di parola, i requisiti di conformità derivanti da un obbligo legale o da qualsiasi trattamento che potrebbe essere necessario per proteggere da attività illegali.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -100,23 +100,12 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da FYZ SERVICES sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da FYZ SERVICES su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -125,3 +114,4 @@ Queste informazioni sono state fornite da FYZ SERVICES sul modo in cui questa ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

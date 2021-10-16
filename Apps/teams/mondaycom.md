@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione monday.com da monday.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/03/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per monday.com, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3779d91614f3413034e8bd86d28ec329cf341b67
-ms.sourcegitcommit: e339fa9776aae99797dbc1f0a28932e71b4eb823
+ms.openlocfilehash: 9cd1bfefcd9a56e23cae31f18638cea652d1becd
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60131695"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415043"
 ---
 # <a name="mondaycom"></a>monday.com
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da monday.com su come questa app raccogli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -63,7 +63,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| monday.com utilizza i sottoprocessori seguenti per le prestazioni del servizio:&#160;https://monday.com/terms/subprocessors | Dipende dal servizio fornito dai sottoprocessori. | monday.com non usa LE API. Usiamo i seguenti framework Microsoft per le prestazioni del servizio (come descritto in precedenza): &#8216;botbuilder&#8217; &#8216;botframework-connector&#8217; &#8216;@micorosft/teams-js&#8217; |
+>| monday.com utilizza i sottoprocessori seguenti per le prestazioni del servizio:&#160;https://monday.com/terms/subprocessors | Dipende dal servizio fornito dai sottoprocessori. | monday.com non usa LE API. Usiamo i seguenti framework Microsoft per le prestazioni del nostro servizio (come descritto in precedenza): &#8216;botbuilder&#8217; &#8216;botframework-connector&#8217; &#8216;@micorosft/teams-js&#8217; |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -76,7 +76,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->monday.com i log delle applicazioni che contengono contenuto generato dagli utenti per un periodo di tempo limitato per consentire al personale R D di risolvere i bug e i problemi segnalati &amp; dagli utenti. I registri di sicurezza che contengono indirizzi IP vengono conservati per un periodo di tempo più lungo, in base ai criteri di conservazione dei dati.
+>monday.com vengono archiviati i log delle applicazioni che contengono contenuto generato dagli utenti per un periodo di tempo limitato per consentire al personale R D di risolvere i bug e i problemi segnalati &amp; dagli utenti. I registri di sicurezza che contengono indirizzi IP vengono conservati per un periodo di tempo più lungo, in base ai criteri di conservazione dei dati.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -115,7 +115,7 @@ Queste informazioni sono state fornite da monday.com su come questa app gestisce
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -131,3 +131,4 @@ Queste informazioni sono state fornite da monday.com su come questa app gestisce
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Application Information for Health Hero by Health Hero
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/01/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Health Hero, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Health Hero, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 53f2892563172775e8dc6def8c4ae9cb7d2af0c8
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d1b716209a69f4526b900fd1a56049ffc2d3dbc8
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283014"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414602"
 ---
 # <a name="health-hero"></a>Health Hero
 
@@ -52,11 +52,11 @@ Queste informazioni sono state fornite da Health Hero su come questa app raccogl
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | application | Solo informazioni utente per la creazione dell'account. | Archiviamo i dati external_id , object_id per autenticare l'utente con ms graph, anche per l'uso dei servizi bot | [5f1f4eb7-479e-42f3-b86f-4c1f53e1c222](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f1f4eb7-479e-42f3-b86f-4c1f53e1c222) |
+>| User.Read | application | Solo informazioni utente per la creazione dell'account. | Archiviamo i dati external_id , object_id per autenticare l'utente con ms graph, anche per l'utilizzo dei servizi bot | [5f1f4eb7-479e-42f3-b86f-4c1f53e1c222](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f1f4eb7-479e-42f3-b86f-4c1f53e1c222) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -115,7 +115,7 @@ Queste informazioni sono state fornite da Health Hero su come questa app gestisc
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -131,3 +131,4 @@ Queste informazioni sono state fornite da Health Hero su come questa app gestisc
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

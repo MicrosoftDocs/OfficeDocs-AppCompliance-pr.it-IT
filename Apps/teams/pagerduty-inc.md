@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per PagerDuty di PagerDuty, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per PagerDuty, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3729a9523ea4af31015f6e8111c6843e90d465f3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a296483ba42328a306131aee8a2f29aed8d7006b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282714"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412836"
 ---
 # <a name="pagerduty"></a>PagerDuty
 
@@ -53,11 +53,11 @@ Queste informazioni sono state fornite da PagerDuty, Inc. Sul modo in cui questa
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| OnlineMeetings.ReadWrite | delegated | Dalla creazione o dalla risposta alle riunioni vengono utilizzati questi campi: join_web_url, audioConferencing. Questi campi sono necessari per mostrare all'utente un collegamento a una riunione o modi alternativi per connettersi durante la riunione. | Salviamo: join_web_url, audioConferencing. Questi campi sono necessari per mostrare all'utente un collegamento a una riunione o modi alternativi per connettersi durante la riunione. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
+>| OnlineMeetings.ReadWrite | delegated | Dalla creazione/risposta alle riunioni vengono utilizzati campi di questo tipo: join_web_url, audioconferenze. Questi campi sono necessari per mostrare all'utente un collegamento a una riunione o modi alternativi per connettersi durante la riunione. | Salviamo: join_web_url, audioConferencing. Questi campi sono necessari per mostrare all'utente un collegamento a una riunione o modi alternativi per connettersi durante la riunione. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
 >| TeamsAppInstallation.ReadForTeam | delegated | Using for adding pagerduty app to chat. | Using for adding pagerduty app to chat. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
 >| TeamsAppInstallation.ReadWriteForTeam.All | delegated | Using for adding pagerduty app to chat. | Using for adding pagerduty app to chat. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
 >| TeamsTab.ReadWrite.All | delegated | Uso per l'aggiunta di un'app pagerduty come scheda in riunione | Uso per l'aggiunta di un'app pagerduty come scheda in riunione | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
@@ -66,22 +66,22 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| email | delegated | Utilizzo per le richieste di autorizzazione e token. Vengono utilizzati i dati: access_token, refresh_token, expires_in, ambito | access_token, refresh_token, expires_in, ambito. Questi dati sono necessari per ottenere informazioni sulle riunioni online e degli utenti | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
 >| offline_access | delegated | Utilizzo per le richieste di autorizzazione e token. Vengono utilizzati i dati: access_token, refresh_token, expires_in, ambito | access_token, refresh_token, expires_in, ambito. Questi dati vengono reiqured per ottenere informazioni sulle riunioni online e degli utenti | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
 >| openid | delegated | Utilizzo per le richieste di autorizzazione e token. Vengono utilizzati i dati: access_token, refresh_token, expires_in, ambito | access_token, refresh_token, expires_in, ambito. Questi dati vengono requred per ottenere informazioni sull'utente e creare/ottenere riunioni online | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| profilo | delegated | Utilizzo per le richieste di autorizzazione e token. Vengono utilizzati i dati: access_token, refresh_token, expires_in, ambito | access_token, refresh_token, expires_in, ambito. Questi dati vengono requred per ottenere informazioni sull'utente e creare/ottenere riunioni online | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| OnlineMeetings.ReadWrite | delegated | Dalla creazione o dalla risposta alle riunioni vengono utilizzati questi campi: join_web_url, audioConferencing. Questi campi sono necessari per mostrare all'utente un collegamento a una riunione o modi alternativi per connettersi durante la riunione. | Salviamo: join_web_url, audioConferencing. Questi campi sono necessari per mostrare all'utente un collegamento a una riunione o modi alternativi per connettersi durante la riunione. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| TeamsAppInstallation.ReadForTeam | delegated | Using for adding pagerduty app to chat. | Using for adding pagerduty app to chat. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| TeamsAppInstallation.ReadForTeam.All | delegated | Using for adding pagerduty app to chat. | Using for adding pagerduty app to chat. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
+>| profile | delegated | Utilizzo per le richieste di autorizzazione e token. Vengono utilizzati i dati: access_token, refresh_token, expires_in, ambito | access_token, refresh_token, expires_in, ambito. Questi dati vengono requred per ottenere informazioni sull'utente e creare/ottenere riunioni online | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
+>| OnlineMeetings.ReadWrite | delegated | Dalla creazione/risposta alle riunioni vengono utilizzati campi di questo tipo: join_web_url, audioconferenze. Questi campi sono necessari per mostrare all'utente un collegamento a una riunione o modi alternativi per connettersi durante la riunione. | Salviamo: join_web_url, audioConferencing. Questi campi sono necessari per mostrare all'utente un collegamento a una riunione o modi alternativi per connettersi durante la riunione. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
+>| TeamsAppInstallation.ReadForTeam | delegated | Uso per l'aggiunta di un'app pagerduty alla chat. | Uso per l'aggiunta di un'app pagerduty alla chat. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
+>| TeamsAppInstallation.ReadForTeam.All | delegated | Uso per l'aggiunta di un'app pagerduty alla chat. | Uso per l'aggiunta di un'app pagerduty alla chat. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
 >| TeamsTab.ReadWrite.All | delegated | Uso per l'aggiunta di un'app pagerduty come scheda in riunione | Uso per l'aggiunta di un'app pagerduty come scheda in riunione | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
 >| User.Read | delegated | Vengono utilizzati i dati: id, userPrincipalName . Viene utilizzato per consentire agli utenti di Microsoft Teams di aggiungerli alla riunione come partecipanti | Vengono utilizzati i dati: id, userPrincipalName . Viene utilizzato per consentire agli utenti di Microsoft Teams di aggiungerli alla riunione come partecipanti | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
 >| User.ReadBasic.All | delegated | Vengono utilizzati i dati: id, userPrincipalName . Viene utilizzato per consentire agli utenti di Microsoft Teams di aggiungerli alla riunione come partecipanti | Vengono utilizzati i dati: id, userPrincipalName . Viene utilizzato per consentire agli utenti di Microsoft Teams di aggiungerli alla riunione come partecipanti | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
 >| email | delegated | Utilizzo per le richieste di autorizzazione e token. Vengono utilizzati i dati: access_token, refresh_token, expires_in, ambito | access_token, refresh_token, expires_in, ambito. Questi dati sono necessari per ottenere informazioni sulle riunioni online e degli utenti | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
 >| offline_access | delegated | Utilizzo per le richieste di autorizzazione e token. Vengono utilizzati i dati: access_token, refresh_token, expires_in, ambito | access_token, refresh_token, expires_in, ambito. Questi dati sono necessari per ottenere informazioni sulle riunioni online e degli utenti | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
 >| openid | delegated | Utilizzo per le richieste di autorizzazione e token. Vengono utilizzati i dati: access_token, refresh_token, expires_in, ambito | access_token, refresh_token, expires_in, ambito. Questi dati vengono requred per ottenere informazioni sull'utente e creare/ottenere riunioni online | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
->| profilo | delegated | Utilizzo per le richieste di autorizzazione e token. Vengono utilizzati i dati: access_token, refresh_token, expires_in, ambito | access_token, refresh_token, expires_in, ambito. Questi dati vengono requred per ottenere informazioni sull'utente e creare/ottenere riunioni online | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
+>| profile | delegated | Utilizzo per le richieste di autorizzazione e token. Vengono utilizzati i dati: access_token, refresh_token, expires_in, ambito | access_token, refresh_token, expires_in, ambito. Questi dati vengono requred per ottenere informazioni sull'utente e creare/ottenere riunioni online | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -116,17 +116,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -141,3 +130,4 @@ Queste informazioni sono state fornite da PagerDuty, Inc. Sul modo in cui questa
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

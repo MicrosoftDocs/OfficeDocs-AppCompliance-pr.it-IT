@@ -2,18 +2,18 @@
 title: Application Information for Cassaforte Spaces di eCare Vault Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/14/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Cassaforte Spaces, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 16c1adeb63cf8004df70293c8e4a188dde811250
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 39ca1a0a99e62bbedb14d0248cb751bf4089a70f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283056"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414692"
 ---
 # <a name="safe-spaces"></a>Spazi sicuri
 
@@ -59,12 +59,12 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| EduRoster.Read | delegated | Nome e Data di nascita vengono utilizzati per prepopolare i campi di input | Nessuno: tutti i dati archiviati vengono inviati dall'utente (dati prepopolato solo nei campi, quindi inviati dall'utente) | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| Group.Read.All | delegated | Usato per ottenere informazioni sui canali disponibili per la visualizzazione nell'applicazione | Nessuna di questa autorizzazione | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| GroupMember.Read.All | delegated | ID AAD dei membri del gruppo utilizzati per generare un elenco di team eCare Vault | L'ID utente AAD viene archiviato per l'associazione a un account utente eCare Vault per ogni membro | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| User.Read | delegated | Indirizzo di posta elettronica e ID AAD Usato per registrare gli utenti e associarli agli account utente &amp; di eCare Vault | indirizzo di posta elettronica e ID AAD per gli account utente e invio di notifiche all'utente tramite Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| User.Read.All | delegated | Nome e, ID AAD e indirizzo di posta elettronica, solo per gli utenti membri di un Canale in cui Cassaforte Spaces è installato | Nome, ID AAD e indirizzo di posta elettronica archiviati in account utente eCare Vault | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| GroupMember.Read.All | delegated | AAD ID dei membri del gruppo utilizzati per generare un elenco di team eCare Vault | AAD L'ID utente viene archiviato per l'associazione a un account utente eCare Vault per ogni membro | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| User.Read | delegated | Indirizzo di posta elettronica AAD ID utente Usato per registrare gli utenti e associarli agli account utente &amp; di eCare Vault | indirizzo di posta elettronica AAD ID utente per gli account utente e invio di notifiche all'utente tramite Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| User.Read.All | delegated | Nome e ID AAD e Indirizzo di posta elettronica, solo per gli utenti membri di un Canale in cui è installato Cassaforte Spaces | Nome, ID AAD e indirizzo di posta elettronica archiviati in account utente eCare Vault | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| email | delegated | Solo indirizzo di posta elettronica | Nessuno - Utente che decide di inviare un modulo che  | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| openid | delegated | Indirizzo di posta elettronica e ID AAD Usato per registrare gli utenti e associarli agli account utente &amp; di eCare Vault | indirizzo di posta elettronica e ID AAD per gli account utente e invio di notifiche all'utente tramite Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| profilo | delegated | Il nome dell'utente viene usato per popolare la schermata di iscrizione dell'utente. | Nessuno direttamente: l'utente sceglie di inviare il proprio nome al sistema al momento della registrazione | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| openid | delegated | Indirizzo di posta elettronica AAD ID utente Usato per registrare gli utenti e associarli agli account utente &amp; di eCare Vault | indirizzo di posta elettronica AAD ID utente per gli account utente e invio di notifiche all'utente tramite Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| profile | delegated | Il nome dell'utente viene usato per popolare la schermata di iscrizione dell'utente. | Nessuno direttamente: l'utente sceglie di inviare il proprio nome al sistema al momento della registrazione | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
@@ -111,17 +111,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -132,7 +121,7 @@ Queste informazioni sono state fornite da eCare Vault Inc. Su come questa app ge
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -149,3 +138,4 @@ Queste informazioni sono state fornite da eCare Vault Inc. Su come questa app ge
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

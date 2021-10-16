@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per XQ Secure Email by XQ Message
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/04/2021
+ms.date: 09/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per la posta elettronica sicura XQ, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 32a27529004dc7c2b5d5981f84466e31a94dec7a
-ms.sourcegitcommit: 400dc76d16649c45cc4bc1b45dee07ba3661f890
+ms.openlocfilehash: 02dbb1e1ce0204485f67b54edeb75258fe0a29ff
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353829"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413508"
 ---
 # <a name="xq-secure-email"></a>XQ Secure Email
 
@@ -60,7 +60,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 
 
@@ -86,17 +86,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -111,3 +100,4 @@ Queste informazioni sono state fornite da XQ Message sul modo in cui questa app 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

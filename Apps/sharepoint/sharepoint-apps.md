@@ -2,27 +2,27 @@
 title: Sicurezza e conformità di Microsoft SharePoint Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/14/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app SharePoint Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 9b21ca00253596b5253626985215a871c61d87f9
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: 7fadd914a01b3b02ce14791b31d36385472ec917
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378824"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412025"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft SharePoint Apps
 
-Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni su Microsoft SharePoint Apps e i componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app e ai componenti aggiuntivi di Microsoft SharePoint che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign per SharePoint](./adobe-inc-sign-for-sharepoint.md) | Adobe Inc. | **✓** |  |
 | [Agile Task Board per SharePoint Online](./agile-is-task-board-for-sharepoint-online.md) | Agile-IS | **✓** |  |
-| [ArcGIS Maps](./esri-inc-arcgis-maps.md) | Esri, Inc. | **✓** |  |
+| [ArcGIS per SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
 | [Connettore FormMachines per SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | ENTERPRISE DIGITAL MACHINES PTY LTD | **✓** |  |
 | [Gaggle per SharePoint](./gagglenet-inc-gaggle-for-sharepoint.md) | Gaggle.net, Inc. | **✓** |  |
 | [HelloSign per SharePoint](./dropbox-inc-hellosign-for-sharepoint.md) | Dropbox Inc. | **✓** |  |

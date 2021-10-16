@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Sheetgo di SHEETGO EUROPE SL
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Sheetgo, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Sheetgo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 77da98d015480716b848a47f4d6d04d35035f5fb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 491049af0b675c477fce225476afb1e05919ae2a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280710"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414812"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -33,7 +33,7 @@ Informazioni fornite da SHEETGO EUROPE SL a Microsoft:
 |:----------------|:-------------|
 | Nome app | Sheetgo |
 | ID | WA200002128 |
-| Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2016 o versione successiva Windows, Excel sul web |
+| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive Windows, Excel sul web |
 | Nome società partner | SHEETGO EUROPE SL |
 | URL del sito Web del partner | [https://www.sheetgo.com/](https://www.sheetgo.com/) |
 | URL dell'informativa sulla privacy | [https://www.sheetgo.com/legal/privacy/](https://www.sheetgo.com/legal/privacy/) |
@@ -58,7 +58,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -101,4 +101,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

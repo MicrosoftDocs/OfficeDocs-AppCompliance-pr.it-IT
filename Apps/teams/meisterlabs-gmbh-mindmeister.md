@@ -2,18 +2,18 @@
 title: Application Information for MindMeister by MeisterLabs GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 10/31/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per MindMeister, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 75177ef60be80889a14c75fbb76bc1d4aaa9aa49
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 6b36f41be86496cdca75a77d9564b2c13e5536b3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281209"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413708"
 ---
 # <a name="mindmeister"></a>MindMeister
 
@@ -49,15 +49,15 @@ Informazioni fornite da MeisterLabs GmbH a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da MeisterLabs GmbH su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da MeisterLabs GmbH sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | ID AAD, ID tenant, e-mail, displayName - per essere in grado di identificare ogni utente all'interno dell'applicazione e di poter collegare i dati specifici di MindMeister a un utente Microsoft (ad esempio, quali mappe appartengono a quale utente). | Consente all'utente di accedere e consente all'app di accedere all'UPN per abilitare l'accesso invisibile all'utente. | [d312ff80-0c2b-42ad-887b-c6392bcf6353](https://docs.microsoft.com/microsoft-365-app-certification/azure/d312ff80-0c2b-42ad-887b-c6392bcf6353) |
+>| User.Read | delegated | AAD ID, ID tenant, e-mail, displayName - per essere in grado di identificare ogni utente all'interno dell'applicazione e di poter collegare i dati specifici di MindMeister a un utente Microsoft (ad esempio, quali mappe appartengono a quale utente). | Consente all'utente di accedere e consente all'app di accedere all'UPN per abilitare l'accesso invisibile all'utente. | [d312ff80-0c2b-42ad-887b-c6392bcf6353](https://docs.microsoft.com/microsoft-365-app-certification/azure/d312ff80-0c2b-42ad-887b-c6392bcf6353) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -108,4 +108,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

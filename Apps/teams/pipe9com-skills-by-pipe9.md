@@ -2,18 +2,18 @@
 title: Application Information for Skills by Pipe9 by Pipe9.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Skills by Pipe9, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2fc2175eab043dce659f00c0c5e9ae66e702e94e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5248d640209c480eee1f862ecbb7f2ceb7d2a659
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283669"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413688"
 ---
 # <a name="skills-by-pipe9"></a>Skills by Pipe9
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da Pipe9.com su come questa app raccoglie
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -103,4 +103,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

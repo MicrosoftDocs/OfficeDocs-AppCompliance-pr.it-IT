@@ -2,18 +2,18 @@
 title: Application Information for Excel-to-Word Document Automation by AnalysisPlace
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/15/2021
+ms.date: 02/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per l'automazione dei documenti da Excel a Word, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per l'automazione dei documenti da Excel a Word, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8dc1ac8d012545326f0d3c4f96764d5a2ed391b7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d8dee2b12160b94cc55d1be0b355b9e5212b595a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283219"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413970"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel automazione documenti da Excel word a Word
 
@@ -33,7 +33,7 @@ Informazioni fornite da AnalysisPlace a Microsoft:
 |:----------------|:-------------|
 | Nome app | Excel automazione documenti da Excel word a Word |
 | ID | WA104380955 |
-| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive su Windows, Word 2016 o versioni successive su Mac, Word 2016 o versioni successive su Windows, PowerPoint 2016 o versioni successive su Mac, PowerPoint 2016 o versioni successive su Windows, Excel sul web, Word sul web, PowerPoint sul web |
+| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive su Windows, Word 2016 o versioni successive su Mac, Word 2016 o versioni successive su Windows, PowerPoint 2016 o versioni successive su Mac, PowerPoint 2016 o versioni successive Windows, Excel sul web, Word sul web, PowerPoint sul web |
 | Nome società partner | AnalysisPlace |
 | URL del sito Web del partner | [https://analysisplace.com](https://analysisplace.com) |
 | URL dell'informativa sulla privacy | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
@@ -102,12 +102,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da AnalysisPlace sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da AnalysisPlace su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -123,3 +123,4 @@ Queste informazioni sono state fornite da AnalysisPlace sul modo in cui questa a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

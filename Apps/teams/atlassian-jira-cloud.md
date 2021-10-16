@@ -2,18 +2,18 @@
 title: Application Information for Jira Cloud by Atlassian
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8044715d2f2f743b194d080c9a74b9651f9dac24
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: bb6857d460cb648d45cf63a5bfcac66508ec6f1d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283573"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413097"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da Atlassian su come questa app raccoglie
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -90,7 +90,7 @@ Accedere e aggiornare le informazioni: i Servizi e la documentazione correlata o
 
 Disattivare l'account: se non si desidera più utilizzare i servizi, l'utente o l'amministratore potrebbe essere in grado di disattivare l'account servizi. Se è possibile disattivare il proprio account, tale impostazione è disponibile nelle impostazioni dell'account. In caso contrario, contattare l'amministratore. Se sei un amministratore e non sei in grado di disattivare un account tramite le impostazioni dell'amministratore, contatta il supporto di Atlassian. Tenere presente che la disattivazione dell'account non elimina le informazioni. le informazioni rimangono visibili agli altri utenti del servizio in base alla partecipazione passata all'interno dei Servizi. Per altre informazioni su come eliminare le informazioni, vedi di seguito.   
 
-Eliminare le informazioni: i Servizi e la documentazione correlata offrono la possibilità di eliminare determinate informazioni sull'utente dall'interno del Servizio. Ad esempio, è possibile rimuovere contenuto che contiene informazioni sull'utente utilizzando gli strumenti di ricerca e modifica delle parole chiave associati a tale contenuto e alcune informazioni del profilo all'interno delle impostazioni del profilo. Tenere presente, tuttavia, che potrebbe essere necessario conservare determinate informazioni a scopo di conservazione dei record, per completare le transazioni o per ottemperare ai nostri obblighi legali.   
+Eliminare le informazioni: i Servizi e la documentazione correlata offrono la possibilità di eliminare determinate informazioni sull'utente dall'interno del Servizio. Ad esempio, è possibile rimuovere il contenuto che contiene informazioni sull'utente utilizzando gli strumenti di ricerca e modifica delle parole chiave associati a tale contenuto e alcune informazioni del profilo all'interno delle impostazioni del profilo. Tenere presente, tuttavia, che potrebbe essere necessario conservare determinate informazioni a scopo di conservazione dei record, per completare le transazioni o per ottemperare ai nostri obblighi legali.   
 
 Richiedi di smettere di usare le tue informazioni: in alcuni casi, potresti chiederci di interrompere l'accesso, l'archiviazione, l'utilizzo e in altro modo l'elaborazione delle informazioni in cui pensi che non abbiamo i diritti appropriati per farlo. Ad esempio, se si ritiene che sia stato creato un account servizi senza l'autorizzazione dell'utente o non si è più un utente attivo, è possibile richiedere l'eliminazione dell'account come indicato in questo criterio. Se ci hai concesso il consenso a usare le tue informazioni per uno scopo limitato, puoi contattarci per ritirare tale consenso, ma ciò non influirà su qualsiasi elaborazione già eseguita al momento. Puoi anche rifiutare esplicitamente l'uso delle tue informazioni per scopi di marketing contattandoci, come indicato di seguito. Quando si effettuano tali richieste, potrebbe essere necessario del tempo per analizzare e facilitare la richiesta. In caso di ritardo o controversia sul fatto che abbiamo il diritto di continuare a usare le tue informazioni, limiteremo qualsiasi ulteriore uso delle tue informazioni fino a quando la richiesta non viene rispettata o la controversia non viene risolta, a condizione che l'amministratore non si osezione (ove applicabile). Se ritieni contrario alle informazioni sulla condivisione con un'app di terze parti, disabilita l'app o contatta l'amministratore per farlo.
 
@@ -120,4 +120,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Vacation Tracker da Vacation Tracker
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/15/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Vacation Tracker, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 0bd430bb14f85f563d490148f00988fa7634176e
-ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 1acd1c49f70e9571c1ec71dbf110fd898b18d5ca
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59971698"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413267"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -58,11 +58,11 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | delegated | Gli ID e i nomi dei canali pubblici vengono letti quando gli utenti impostano le notifiche settimanali o giornaliere. | Gli utenti possono selezionare un canale in cui desiderano ricevere notifiche giornaliere o settimanali da Vacation Tracker. Quando un utente sceglie il canale preferito, archivia l'ID del canale. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| Team.ReadBasic.All | delegated | Vengono elencati i Microsoft Teams team aggiunti durante l'iscrizione per consentire agli utenti di selezionare un team che desidera iscriversi a Vacation Tracker. In alternativa, possono iscriversi all'intera organizzazione. | L'ID del team Microsoft Teams per un team selezionato viene archiviata solo se l'utente accede a Vacation Tracker come singolo team (non come intera organizzazione). Usiamo gli ID del team per connettere un utente connesso a un account esistente in Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| Team.ReadBasic.All | delegated | Vengono elencati i Microsoft Teams team aggiunti durante l'iscrizione per consentire agli utenti di selezionare un team a cui iscriversi per Vacation Tracker. In alternativa, possono iscriversi all'intera organizzazione. | L'ID del team Microsoft Teams per un team selezionato viene archiviata solo se l'utente si i annota a Vacation Tracker come singolo team (non come intera organizzazione). Usiamo gli ID del team per connettere un utente connesso a un account esistente in Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| User.Read | delegated | Raccogliamo le informazioni dell'utente di base, inclusi il nome, l'ID e l'ID tenant. Questi dati vengono utilizzati per connettere gli utenti connessi all'organizzazione in Vacation Tracker. | Il nome, l'ID e l'ID tenant dell'utente vengono archiviati. Questi dati vengono utilizzati per connettere gli utenti connessi all'organizzazione in Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.Read.All | delegated | I nostri utenti possono importare tutti gli utenti dalla Microsoft 365 o dal team Microsoft Teams team. Questa autorizzazione viene utilizzata per importare solo utenti con licenza per un team o Microsoft Teams o un'organizzazione selezionati. | Vengono archiviate informazioni di base sugli utenti importati, tra cui il nome, l'indirizzo di posta elettronica e l'ID utente. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.ReadBasic.All | delegated | Microsoft consente agli utenti di importare gli altri utenti dall'organizzazione o dal Microsoft Teams team. Questa autorizzazione viene utilizzata per elencare gli utenti disponibili e i relativi indirizzi di posta elettronica nel popup di importazione. | Quando gli utenti selezionano i propri colleghi da importare in Vacation Tracker, archiviamo informazioni di base su questi utenti importati, tra cui il nome, l'indirizzo e-mail e l'ID utente. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| email | delegated | Quando l'utente accede utilizzando Microsoft AAD, il suo indirizzo di posta elettronica viene archiviato come identificatore univoco. | I messaggi di posta elettronica dell'utente vengono archiviati come identificatore univoco. Non usiamo questo messaggio di posta elettronica per le comunicazioni, gli utenti inserisce il loro indirizzo di posta elettronica aziendale che usiamo per la comunicazione durante l'iscrizione. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| User.Read.All | delegated | I nostri utenti possono importare tutti gli utenti dalla Microsoft 365 o dal team Microsoft Teams team. Questa autorizzazione viene utilizzata per importare solo gli utenti con licenza per un team Microsoft Teams o un'organizzazione selezionati. | Vengono archiviate informazioni di base sugli utenti importati, tra cui il nome, l'indirizzo di posta elettronica e l'ID utente. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| User.ReadBasic.All | delegated | Microsoft consente agli utenti di importare gli altri utenti dall'organizzazione o dal Microsoft Teams team. Questa autorizzazione viene utilizzata per elencare gli utenti disponibili e i relativi indirizzi di posta elettronica nel popup di importazione. | Quando gli utenti selezionano i propri colleghi da importare in Vacation Tracker, vengono archiviate informazioni di base su questi utenti importati, tra cui il nome, l'indirizzo di posta elettronica e l'ID utente. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| email | delegated | Quando l'utente accede usando Microsoft AAD, il suo indirizzo di posta elettronica viene archiviata come identificatore univoco. | I messaggi di posta elettronica dell'utente vengono archiviati come identificatore univoco. Non usiamo questo messaggio di posta elettronica per le comunicazioni, gli utenti inserisce il loro indirizzo di posta elettronica aziendale che usiamo per la comunicazione durante l'iscrizione. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| offline_access | delegated | Con questa autorizzazione non vengono raccolti dati. Viene utilizzato per mantenere l'accesso ai dati a cui si è autorizzati ad accedere. | Con questa autorizzazione non vengono archiviati dati. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| openid | delegated | Questa autorizzazione viene utilizzata per accedere o registrare gli utenti a Vacation Tracker. Con questa autorizzazione non vengono raccolti dati specifici. | Questa autorizzazione viene utilizzata per accedere o registrare gli utenti a Vacation Tracker. Con questa autorizzazione non vengono archiviati dati specifici. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| profile | delegated | Raccogliamo le informazioni dell'utente di base, inclusi il nome, l'ID e l'ID tenant. Questi dati vengono utilizzati per connettere gli utenti connessi all'organizzazione in Vacation Tracker. | Il nome, l'ID e l'ID tenant dell'utente vengono archiviati. Questi dati vengono utilizzati per connettere gli utenti connessi all'organizzazione in Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
@@ -70,7 +70,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -82,7 +82,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Il bot può visualizzare le informazioni di base sull'utente che comunica con il bot. Tuttavia, queste informazioni non vengono archiviate o usate. Usiamo solo l'ID dell'utente, l'ID conversazione e un messaggio inviato al bot. | Archiviamo l'indirizzo di posta elettronica dell'utente, il nome dell'utente (come definito in Microsoft AAD) e la foto del profilo dell'utente (da Microsoft AAD) | Usiamo un indirizzo di posta elettronica come identificatore univoco per i nostri utenti e il nome e la foto del profilo dell'utente per consentire ad amministratori e responsabili approvazione della stessa società di riconoscere i dipendenti nel dashboard.  |
+>| Il bot può visualizzare le informazioni di base sull'utente che comunica con il bot. Tuttavia, queste informazioni non vengono archiviate o usate. Usiamo solo l'ID dell'utente, l'ID conversazione e un messaggio inviato al bot. | Vengono archiviati l'indirizzo di posta elettronica dell'utente, il nome dell'utente (come definito in Microsoft AAD) e la foto del profilo dell'utente (da Microsoft AAD) | Usiamo un indirizzo di posta elettronica come identificatore univoco per i nostri utenti e il nome e la foto del profilo dell'utente per consentire ad amministratori e responsabili approvazione della stessa società di riconoscere i dipendenti nel dashboard.  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -111,9 +111,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -132,3 +132,4 @@ Queste informazioni sono state fornite da Vacation Tracker su come questa app ge
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

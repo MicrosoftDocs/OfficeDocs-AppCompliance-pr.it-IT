@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Salesforce per salesforce.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Salesforce, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 152885012f81c077fc0bb018fda7080867c54986
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 749e4cf95c8eefb650f6fd0f8ceb59721d7efcc8
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283375"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413528"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -51,24 +51,24 @@ Queste informazioni sono state fornite da salesforce.com su come questa app racc
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| API JavaScript per Office | Sì | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità Outlook'utente corrente, GetItem (.js and EWS) to get and set AdditionalProperties and the content of the current email message when saving to Salesforce records, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità Outlook'utente corrente, GetItem (.js and EWS) to get and set AdditionalProperties and the content of the current email message when saving to Salesforce records, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. |
->| Servizi Web Exchange (EWS) | Sì | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità Outlook'utente corrente, GetItem (.js and EWS) to get and set AdditionalProperties and the content of the current email message when saving to Salesforce records, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità Outlook'utente corrente, GetItem (.js and EWS) to get and set AdditionalProperties and the content of the current email message when saving to Salesforce records, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. |
+>| API JavaScript per Office | Sì | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità utente corrente di Outlook, GetItem (.js ed EWS) per ottenere e impostare AdditionalProperties e il contenuto del messaggio di posta elettronica corrente durante il salvataggio nei record di Salesforce, GetAttachment (EWS) per recuperare gli allegati da Exchange e aggiungere alla posta elettronica di Salesforce associata, UpdateItem (.js), GetFolder (.js) per ottenere la cartella delle bozze,  CreateItem (.js), che viene utilizzato per creare una bozza di messaggio. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità utente corrente di Outlook, GetItem (.js ed EWS) per ottenere e impostare AdditionalProperties e il contenuto del messaggio di posta elettronica corrente durante il salvataggio nei record di Salesforce, GetAttachment (EWS) per recuperare gli allegati da Exchange e aggiungere alla posta elettronica di Salesforce associata, UpdateItem (.js), GetFolder (.js) per ottenere la cartella delle bozze,  CreateItem (.js), che viene utilizzato per creare una bozza di messaggio. |
+>| Servizi Web Exchange (EWS) | Sì | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità utente corrente di Outlook, GetItem (.js ed EWS) per ottenere e impostare AdditionalProperties e il contenuto del messaggio di posta elettronica corrente durante il salvataggio nei record di Salesforce, GetAttachment (EWS) per recuperare gli allegati da Exchange e aggiungere alla posta elettronica di Salesforce associata, UpdateItem (.js), GetFolder (.js) per ottenere la cartella delle bozze,  CreateItem (.js), che viene utilizzato per creare una bozza di messaggio. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità utente corrente di Outlook, GetItem (.js ed EWS) per ottenere e impostare AdditionalProperties e il contenuto del messaggio di posta elettronica corrente durante il salvataggio nei record di Salesforce, GetAttachment (EWS) per recuperare gli allegati da Exchange e aggiungere alla posta elettronica di Salesforce associata, UpdateItem (.js), GetFolder (.js) per ottenere la cartella delle bozze,  CreateItem (.js), che viene utilizzato per creare una bozza di messaggio. |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 
@@ -94,17 +94,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -119,3 +108,4 @@ Queste informazioni sono state fornite da salesforce.com su come questa app gest
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

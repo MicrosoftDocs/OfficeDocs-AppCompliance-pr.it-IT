@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per LuckyDraw di Tony Xia
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/21/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per LuckyDraw, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per LuckyDraw, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9a9f6b919b9e803b2a9cb81a2caa504126e4a697
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 32568a24ba4bf4dc00a9076e3f95676c7ba86c29
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283543"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413318"
 ---
 # <a name="luckydraw"></a>LuckyDraw
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Tony Xia su come questa app raccoglie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -83,7 +83,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati vengono archiviati in Table Archiviazione. La chiave per l'account di archiviazione è archiviata in KeyVault a cui accede il servizio app (app Bot) tramite MSI (Managed System Identity). Questo servizio app è l'unica identità consentita nell'elenco dei criteri di accesso KeyVault. Tutte le risorse azure di questa app nell'ambiente PROD sono state create e cablate tramite ARM. Nessuna operazione manuale.
+>I dati vengono archiviati in Table Archiviazione. La chiave per l'account di archiviazione è archiviata in KeyVault a cui accede il servizio app (app Bot) tramite MSI (Managed System Identity). Questo servizio app è l'unica identità consentita nell'elenco dei criteri di accesso KeyVault. Tutte le risorse di azure di questa app nell'ambiente PROD sono state create e cablate tramite ARM. Nessuna operazione manuale.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -106,4 +106,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

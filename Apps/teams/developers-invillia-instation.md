@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per InStation da parte degli sviluppatori invillia
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2020
+ms.date: 06/30/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per InStation, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1db56e204dc2fd83916a9ec6f2b20a13e02ed357
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 33ef3024f1b0e9b70cb6445e28c71ee1f6de22be
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282109"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411774"
 ---
 # <a name="instation"></a>InStation
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite dagli sviluppatori invillia sul modo in c
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -65,14 +65,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| email | delegated | Consente all'app di acquisire le&#180;di base dell'amministratore al primo accesso | Consente all'app di acquisire le&#180;di base dell'amministratore al primo accesso | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| offline_access | delegated | stores: token e token di aggiornamento. Consente all'app di eseguire un aggiornamento sul token MS | stores: token e token di aggiornamento. Consente all'app di eseguire un aggiornamento sul token MS | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| openid | delegated | Consente all'app di accedere all'organizzazione nel primo passaggio | Consente all'app di accedere all'organizzazione nel primo passaggio | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
->| profilo | delegated | Consente all'app di acquisire le informazioni di&#180;amministratore sul primo accesso. | Consente all'app di acquisire le informazioni di&#180;amministratore sul primo accesso. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| profile | delegated | Consente all'app di acquisire le informazioni di&#180;amministratore sul primo accesso; | Consente all'app di acquisire le informazioni di&#180;amministratore sul primo accesso; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -91,7 +91,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Salviamo solo i log di utilizzo degli utenti all'interno dell'applicazione. Niente di riservato, senza bisogno di crittografia e solo i nostri amministratori specifici hanno accesso a questi dati.
+>Salviamo solo i log di utilizzo degli utenti all'interno dell'applicazione. Niente di riservato, che non richiede alcuna crittografia e solo i nostri amministratori specifici hanno accesso a questi dati.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -114,4 +114,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

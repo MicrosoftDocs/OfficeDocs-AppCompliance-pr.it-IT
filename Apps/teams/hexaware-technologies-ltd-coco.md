@@ -2,23 +2,23 @@
 title: Informazioni sull'applicazione per COCO di Hexaware Technologies Ltd.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2020
+ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per COCO, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8a25a95b277f41f30477182c9eec0b3b25b9351e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 8e0dbf1b70767805b01cb6a318e4d00c3399c8ee
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283002"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414592"
 ---
 # <a name="coco"></a>COCO
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: June 23, 2020</p>
+<p>Last updated by the developer on: August 9, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/c3f021f9-1fe2-44c7-972e-58f3cd0e7762" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001468" target="_blank">Visualizzazione in AppSource</a>
@@ -36,8 +36,9 @@ Informazioni fornite da Hexaware Technologies Ltd. a Microsoft:
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Hexaware Technologies Ltd. |
 | URL del sito Web del partner | [https://hexaware.com](https://hexaware.com) |
+| URL della Teams info dell'applicazione | [https://tinyurl.com/2c6b9cdm](https://tinyurl.com/2c6b9cdm) |
 | URL dell'informativa sulla privacy | [https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-...](https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-Privacy-Policy-and-Additional-Terms_V2.1.pdf) |
-| URL delle Condizioni per l'utilizzo | [https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-...](https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-Privacy-Policy-and-Additional-Terms_V2.1.pdf#page=6) |
+| URL delle Condizioni per l'utilizzo | [https://tinyurl.com/2c6b9cdm](https://tinyurl.com/2c6b9cdm) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -66,9 +67,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -76,7 +77,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Per gestire i dati della sessione | Nome, ID posta elettronica |  |
+>| Per gestire i dati della sessione | Nome, ID posta elettronica | Gestione delle sessioni chatbot |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -103,11 +104,25 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35906' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35906" target="_blank">Visualizzazione in una nuova scheda</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Informazioni sull'identità
+
+Queste informazioni sono state fornite da Hexaware Technologies Ltd. sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

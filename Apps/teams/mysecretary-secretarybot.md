@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per SecretaryBot di MySecretary
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per SecretaryBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per SecretaryBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8d7e2fce37cf43fe52cb050e85aa9e4fd5e00802
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ad8e6b2a2f1a7214db66f37de774c01e65ed92e6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282415"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415033"
 ---
 # <a name="secretarybot"></a>SecretaryBot
 
@@ -59,19 +59,19 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read.Shared | delegated |  | Recuperare le informazioni sul tempo libero dell'utente e dei colleghi. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Calendars.ReadWrite | delegated |  | Inviare una convocazione di riunione anziché un utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| MailboxSettings.Read | delegated | Lingua dello Store per la visualizzazione della lingua corretta. Risparmiare fuso orario per chiamare correttamente l'API Graph calendario MS | Recuperare la lingua e l'impostazione del fuso orario dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| MailboxSettings.Read | delegated | Lingua dello Store per la visualizzazione della lingua corretta. Risparmiare il fuso orario per chiamare correttamente l'API Graph calendario MS | Recuperare la lingua e l'impostazione del fuso orario dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| People.Read | delegated |  | Cerca di trovare colleghi che hanno relazioni forti con l'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | delegated | Nome utente dello Store, città, paese e langauge per l'analisi degli utenti. Archiviare la posta elettronica per contattare il cliente. Non abbiamo mai usato l'indirizzo di posta elettronica, ma potrebbe essere usato per il supporto. | Cerca il paese e la lingua preferita dell'utente. Viene utilizzato per il backup per MailboxSettings.Read. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| email | delegated | Vedere sopra. | Per l'archiviazione della posta elettronica. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| openid | delegated |  | Per l'autenticazione OpenID. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| profilo | delegated | Salvare OID per identificare l'ID univoco dell'utente nel sistema di identità MS. | Recupero del nome utente e dell'OID. Prova a usare OID per la connessione Outlook componente aggiuntivo in futuro. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| profile | delegated | Salvare OID per identificare l'ID univoco dell'utente nel sistema di identità MS. | Recupero del nome utente e dell'OID. Prova a usare OID per connetterti Outlook addin in futuro. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -110,4 +110,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

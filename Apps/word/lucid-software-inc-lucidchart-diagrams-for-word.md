@@ -2,18 +2,18 @@
 title: Application Information for Lucidchart Diagrams for Word by Lucid Software Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i diagrammi Lucidchart per Word, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 36eb26fa83f894db60f1b615ce58f5c17ba3f19c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 1e5c76df854304b05af209288315c762c8300ca7
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281737"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414301"
 ---
 # <a name="lucidchart-diagrams-for-word"></a>Diagrammi lucidchart per Word
 
@@ -33,7 +33,7 @@ Informazioni fornite da Lucid Software Inc a Microsoft:
 |:----------------|:-------------|
 | Nome app | Diagrammi lucidchart per Word |
 | ID | WA104380118 |
-| Office 365 client supportati | Word 2016 o versione successiva su Mac, Word 2013 o versione successiva Windows, Word sul web |
+| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word 2013 o versioni successive Windows, Word sul web |
 | Nome società partner | Lucid Software Inc |
 | URL del sito Web del partner | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL dell'informativa sulla privacy | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
@@ -57,7 +57,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidchart di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidchart per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| openid | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidchart di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidchart per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| profilo | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidchart di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidchart per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| profile | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidchart di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidchart per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
@@ -65,11 +65,11 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| API JavaScript per Office | Sì | Usiamo javascript SDK Office OneDrive per aprire lo strumento OneDrive selezione file usando OneDrive.open(). Non generiamo alcun token di accesso e non eserciteremo alcuna richiesta per OneDrive api di microsoft; l OneDrive SDK di Selezione file esegue questa operazione. Vengono visualizzati solo i nomi di file che l'utente sceglie. |  | Se l'utente seleziona un file usando lo strumento OneDrive selezione file, il nome del file viene archiviato. |  |
+>| API JavaScript per Office | Sì | Usiamo javascript SDK Office OneDrive per aprire lo strumento OneDrive selezione file usando OneDrive.open(). Non generiamo alcun token di accesso e non eserciteremo alcuna richiesta per OneDrive api di microsoft; l OneDrive SDK di Selezione file esegue questa operazione per noi. Vengono visualizzati solo i nomi di file che l'utente sceglie. |  | Se l'utente seleziona un file usando lo strumento OneDrive selezione file, il nome del file viene archiviato. |  |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -110,4 +110,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

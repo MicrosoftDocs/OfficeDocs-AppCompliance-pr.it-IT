@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Asana di Asana
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/02/2020
+ms.date: 10/29/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Asana, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 14ec3eee9b8ae673565ef91a017019d23d524619
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 70342ec2e686a1436fa8810022867bf687e13726
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279949"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415223"
 ---
 # <a name="asana"></a>Asana
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da Asana su come questa app raccoglie e a
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -82,8 +82,8 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Enterprise clienti hanno garantito la crittografia a riposo usando AES-256. I dati vengono archiviati in Amazon Web Services e AWS gestisce le chiavi di crittografia utilizzando il sistema di gestione delle chiavi. Abbiamo 2FA per tutti gli amministratori. L'accesso viene fornito in base al principio dei privilegi minimi.
-Gli amministratori dell'organizzazione Asana hanno la possibilità di configurare saml, SCIM, account di servizio e di avere una visualizzazione generale dei dati inseriti nello strumento. Gli amministratori possono richiedere un'esportazione completa dell'organizzazione dalla Console di amministrazione e controllare in base alle esigenze.
+>Enterprise clienti hanno garantito la crittografia in stato di inaltere usando AES-256. I dati vengono archiviati in Amazon Web Services e AWS gestisce le chiavi di crittografia utilizzando il sistema di gestione delle chiavi. Abbiamo 2FA per tutti gli amministratori. L'accesso viene fornito in base al principio dei privilegi minimi.
+Gli amministratori dell'organizzazione Di Asana hanno la possibilità di configurare saml, SCIM, account di servizio e di avere una visualizzazione generale dei dati inseriti nello strumento. Gli amministratori possono richiedere un'esportazione completa dell'organizzazione dalla Console di amministrazione e controllare in base alle esigenze.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -106,4 +106,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

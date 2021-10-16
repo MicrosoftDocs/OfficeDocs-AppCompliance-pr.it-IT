@@ -2,18 +2,18 @@
 title: Application Information for Group Address Book - NextSet by NextSet,Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/21/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per la Rubrica di gruppo - NextSet, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 1fe6aa3843708b6fac9f9688575708355d43d6a5
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 813966b77b9eac36696f07ba7d2647654739e8d8
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282967"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414998"
 ---
 # <a name="group-address-book---nextset"></a>Group Address Book - NextSet
 
@@ -67,7 +67,7 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Exchange Online PowerShell, 365 PowerShell | Sì | 365&#12398;&#12464;&#12523;&#12540;&#12503;&#12420;&#12518;&#12540;&#12470;&#12540;&#24773;&#22577;&#12398;&#12484;&#12522;&#12540; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; | &#32068;&#32340;&#21517;&#12420;ID&#12289;&#12518;&#12540;&#12470;&#12540;&#21517;&#12420;ID&#12289;&#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#12408;&#12398;&#25152;&#23646;&#27083;&#25104; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; |
+>| Exchange Online PowerShell, 365 PowerShell | Sì | 365&#12398;&#12464;&#12523;&#12540;&#12503;&#12420;&#12518;&#12540;&#12470;&#12540;&#24773;&#22577;&#12398;&#12484;&#12522;&#12540; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; | &#32068;&#32340;&#21517;&#12420;ID&#12289;&#12518;&#12540;&#12470;&#12540;&#21517;&#12420;id&#12289;&#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#12408;&#12398;&#25152;&#23646;&#27083;&#25104; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
@@ -104,17 +104,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -125,7 +114,7 @@ Queste informazioni sono state fornite da NextSet,Inc. Sul modo in cui questa ap
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -142,3 +131,4 @@ Queste informazioni sono state fornite da NextSet,Inc. Sul modo in cui questa ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

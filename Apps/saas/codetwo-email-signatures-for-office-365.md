@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per CodeTwo Email Signatures for Office 365 by CodeTwo
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per CodeTwo Email Signatures for Office 365, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per CodeTwo Email Signatures per Office 365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 79db12fe65495df15e21b46e810abd8bbd017359
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 13a8b7200513d09c77416ea93be55178c9b2a762
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280026"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413157"
 ---
 # <a name="codetwo-email-signatures-for-office-365"></a>CodeTwo Email Signatures for Office 365
 
@@ -63,7 +63,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| email | delegated | Consente all'app di leggere l'indirizzo di posta elettronica principale degli utenti. Usato per registrare l'utente nel servizio CodeTwo. | Non vengono archiviati dati. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 >| offline_access | delegated | Consente all'app di visualizzare e aggiornare i dati a cui hai concesso l'accesso, anche quando gli utenti attualmente non usano l'app. In questo modo non vengono concesse all'app autorizzazioni aggiuntive. | Non vengono archiviati dati. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 >| openid | delegated | Consente agli utenti di accedere all'app con i propri account aziendali o dell'istituto di istruzione e consente all'app di visualizzare le informazioni di base del profilo utente. Usato per registrare l'utente nel servizio CodeTwo. | Non vengono archiviati dati. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| profilo | delegated | Consente all'app di visualizzare il profilo di base degli utenti (nome, immagine, nome utente). Usato per registrare l'utente nel servizio CodeTwo. | Non vengono archiviati dati. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
+>| profile | delegated | Consente all'app di visualizzare il profilo di base degli utenti (nome, immagine, nome utente). Usato per registrare l'utente nel servizio CodeTwo. | Non vengono archiviati dati. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -84,7 +84,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I clienti possono accedere e rettificare i dati dell'organizzazione di contatto e le impostazioni &amp; del servizio tramite il Pannello di amministrazione codeTwo. Possono inoltre contattare il team di sicurezza delle informazioni CodeTwo tramite un modulo dedicato ( per esercitare i diritti descritti in Condizioni e privacy codeTwo ( , ad esempio: accesso ai dati, rettifica dei dati, cancellazione e restrizione del trattamento, revoca del consenso e diritto all'oggetto del https://www.codetwo.com/form/security-officer/) https://www.codetwo.com/regulations/privacy) trattamento.
+>I clienti possono accedere e rettificare i dati dell'organizzazione di contatto e le impostazioni &amp; del servizio tramite il Pannello di amministrazione codeTwo. Possono inoltre contattare il team di sicurezza delle informazioni CodeTwo tramite un modulo dedicato ( per esercitare uno dei diritti descritti in Condizioni e privacy codeTwo ( , ad esempio: accesso ai dati, rettifica dei dati, cancellazione e restrizione del trattamento, revoca del consenso e diritto all'oggetto del https://www.codetwo.com/form/security-officer/) https://www.codetwo.com/regulations/privacy) trattamento.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -117,7 +117,7 @@ Queste informazioni sono state fornite da CodeTwo sul modo in cui questa app ges
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -134,3 +134,4 @@ Queste informazioni sono state fornite da CodeTwo sul modo in cui questa app ges
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

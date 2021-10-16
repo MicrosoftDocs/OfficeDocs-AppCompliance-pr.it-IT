@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Beagle per punto decisionale
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/21/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Beagle, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Beagle, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b2984bceaa4a6c8871c8413aaf19e4f52c7d620c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c2b27ed465588096f1645dbeba4546b9c152acc3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282132"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414702"
 ---
 # <a name="beagle"></a>Beagle
 
@@ -120,3 +120,4 @@ Queste informazioni sono state fornite da Decision Point sul modo in cui questa 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

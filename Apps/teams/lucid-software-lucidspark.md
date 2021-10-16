@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Lucidspark di Lucid Software
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/13/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Lucidspark, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Lucidspark, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e79bed420b3081ae31a0abda25299610eeb1bc5f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 97dd4245e0bba6f82adea01c08638f6cfc20698e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282462"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412225"
 ---
 # <a name="lucidspark"></a>Lucidspark
 
@@ -59,12 +59,12 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidspark di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidspark per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
 >| openid | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidspark di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidspark per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
->| profilo | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidspark di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidspark per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| profile | delegated | Nome e indirizzo di posta elettronica. | Le autorizzazioni di posta elettronica, openid e profilo consentono a Lucidspark di generare un token openid per un utente e ottenere informazioni di base sufficienti sull'utente per registrare un account Lucidspark per loro, se necessario. Per verificare i dati che provengono da Microsoft, viene inviata una richiesta per ottenere la chiave pubblica con cui viene firmata la risposta. Nessun altro dato viene ricevuto o inviato a Microsoft come parte del flusso SSO. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -124,3 +124,4 @@ Queste informazioni sono state fornite da Lucid Software su come questa app gest
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

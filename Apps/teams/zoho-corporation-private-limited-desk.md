@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Zoho Desk di Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Zoho Desk, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8e76f0cce92e7aa5bac28df505613ec461a3fc06
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2882f70ce6c44de4b797ae15bee2bec446212a82
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282906"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414341"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -63,14 +63,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| User.ReadBasic.All | delegated |  | Leggere i profili di base di tutti gli utenti. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| email | delegated |  | Visualizzare l'indirizzo di posta elettronica dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| offline_access | delegated |  | Mantenere l'accesso ai dati a cui gli è stato assegnato l'accesso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| profilo | delegated |  | Visualizzare il profilo di base dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| profile | delegated |  | Visualizzare il profilo di base dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -89,7 +89,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->1)Nell'interfaccia utente è disponibile un'opzione per eliminare le entità, gli amministratori e gli agenti all'interno della scrivania di Zoho con opzioni di eliminazione che possono eseguire questa operazione. 2) Sono disponibili anche opzioni per l'esportazione tramite le quali l'amministratore può esportare e raggiungere i propri scopi.  3) Manteniamo il controllo nel back-end, su richiesta del cliente queste informazioni possono essere fornite.
+>1)Nell'interfaccia utente è disponibile un'opzione per eliminare le entità, gli amministratori e gli agenti all'interno della scrivania di Zoho con opzioni di eliminazione che possono eseguire questa operazione. 2) Sono disponibili anche opzioni per l'esportazione tramite le quali l'amministratore può esportare e ottenere per il proprio scopo.  3) Manteniamo il controllo nel back-end, su richiesta del cliente queste informazioni possono essere fornite.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -98,7 +98,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308' frameborder='no' style='width: 100%;'></iframe>
 
@@ -107,4 +107,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

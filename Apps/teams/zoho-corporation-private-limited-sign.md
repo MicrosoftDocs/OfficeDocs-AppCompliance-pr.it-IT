@@ -2,18 +2,18 @@
 title: Application Information for Zoho Sign by Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Zoho Sign, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Zoho Sign, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f164b4afadb0d85971cdaa40ab1bb43828ecb290
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9841df652531e49025ed8021527c6da1dd77d8a3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280567"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413247"
 ---
 # <a name="zoho-sign"></a>Zoho Sign
 
@@ -65,14 +65,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| User.ReadBasic.All | delegated |  | Leggere tutti i profili di base dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| email | delegated |  | Visualizzare l'indirizzo di posta elettronica dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| offline_access | delegated |  | Mantenere l'accesso ai dati a cui gli è stato assegnato l'accesso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| profilo | delegated |  | Visualizzare il profilo di base dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| profile | delegated |  | Visualizzare il profilo di base dell'utente. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -109,4 +109,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

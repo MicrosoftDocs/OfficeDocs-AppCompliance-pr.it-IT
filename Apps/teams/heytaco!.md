@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per HeyTaco! di HeyTaco!
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/09/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per HeyTaco!, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per HeyTaco!, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7b4641b33166043dd311bdd89568c9eaea4b87a1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e52056b40599ab98a69a6a93e7b2187ddf5f3765
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282997"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412375"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
@@ -58,7 +58,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegated | utilizzato per associare l'utente ai trasferimenti di dati da Slack a MS Teams | utilizzato per associare l'utente ai trasferimenti di dati da Slack a MS Team | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 >| openid | delegated | usato per accedere a HeyTaco! | usato per accedere a HeyTaco! | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
->| profilo | delegated | usato per acquisire il nome utente, l'immagine del profilo, lo scostamento del fuso orario, l'ID tenant e l'ID team | usato per acquisire nome utente, avatar, offset fuso orario, ID tenant e ID team | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| profile | delegated | usato per acquisire il nome utente, l'immagine del profilo, lo scostamento del fuso orario, l'ID tenant e l'ID team | usato per acquisire nome utente, avatar, offset fuso orario, ID tenant e ID team | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -90,7 +90,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 Le operazioni del data center di Amazon sono state accreditate con ISO 27001, SOC 1 e SOC 2/SSAE 16/ISAE 3402 (in precedenza SAS 70 Type II), PCI Level 1, FISMA Moderate e Sarbanes-Oxley (SOX).
 
-Quando invii informazioni tramite il nostro servizio, le tue informazioni vengono protette e crittografate sia in fase di riposo che in transito tramite connessioni sicure. Implementiamo un'ampia gamma di misure di sicurezza per mantenere la sicurezza delle tue informazioni personali.
+Quando invii informazioni tramite il nostro servizio, le tue informazioni vengono protette e crittografate sia in fase di riposo che in transito tramite connessioni sicure. Implementiamo una serie di misure di sicurezza per mantenere la sicurezza delle tue informazioni personali.
 
 È in corso la gestione degli accessi con privilegi per proteggere i dati nei server.
 
@@ -106,7 +106,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36139' frameborder='no' style='width: 100%;'></iframe>
 
@@ -115,4 +115,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

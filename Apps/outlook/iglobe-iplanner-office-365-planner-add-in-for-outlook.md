@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per il componente aggiuntivo planner iPlanner Office 365 per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ce453be96beb466b4420912a29b30593851f3547
-ms.sourcegitcommit: 9010c9bace5d935309eae5098f5a126a55270eb6
+zone_pivot_groups: app-info-data-mcas-identity-certification
+ms.openlocfilehash: 0dd9e0dfbff342238dd46dd9db8a9338158c7f2f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59436437"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412125"
 ---
 # <a name="iplanner-office-365-planner-add-in-for-outlook"></a>Componente aggiuntivo iPlanner Office 365 Planner per Outlook
 
@@ -50,7 +50,7 @@ Queste informazioni sono state fornite da iGlobe su come questa app raccoglie e 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -59,14 +59,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 >| Directory.AccessAsUser.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Consente all'app di avere lo stesso accesso alle informazioni nella directory dell'utente connesso. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 >| Files.Read | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Per accedere a un file come allegato e caricare file in un'attività | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 >| Files.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Ottenere l'oggetto della posta dal messaggio selezionato. Consente all'app di ottenere informazioni dal messaggio di posta elettronica selezionato, consentendo di copiare il campo della descrizione nella descrizione dell'attività e di salvare gli allegati dalla posta o dalla posta stessa all'attività. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
->| Group.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. |  per ottenere l'attività planner e aggiungere nuove attività aggiornare il bucket e la linea di nuoto per l'utente specifico | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Group.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. |  per ottenere l'attività di pianificazione e aggiungere nuove attività aggiornare il bucket e la linea di nuoto per l'utente specifico | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 >| User.Read | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Per ottenere l'attività di pianificazione e aggiungere nuove attività, aggiornare il bucket e la linea di nuoto per l'utente specifico | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 >| User.ReadBasic.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. |  Verificare l'autorizzazione e ottenere l'attività di pianificazione e aggiungere nuove attività aggiornare il bucket e la linea di nuoto per l'utente specifico | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 >| profile | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Per ottenere l'attività di pianificazione e aggiungere nuove attività, aggiornare il bucket e la linea di nuoto per l'utente specifico | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione . Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -82,7 +82,7 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 
@@ -90,7 +90,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->iGlobe raccoglie i dati per operare in modo efficace e offrire le migliori esperienze con i nostri prodotti e servizi. Per le licenze: dati raccolti per amministrare l'account di licenza dell'organizzazione&#8217;, ad esempio quando si distribuisce un componente aggiuntivo gratuito, si crea una sottoscrizione di valutazione o si acquista una sottoscrizione. Vengono raccolte le informazioni seguenti. 
+>iGlobe raccoglie i dati per operare in modo efficace e offrire le migliori esperienze con i nostri prodotti e servizi. Per le licenze: dati raccolti per amministrare l'&#8217;dell'organizzazione, ad esempio quando si distribuisce un componente aggiuntivo gratuito, si crea una sottoscrizione di valutazione o si acquista una sottoscrizione. Vengono raccolte le informazioni seguenti. 
 - Per scopi finanziari: nome e indirizzo della società
 - Utenti sottoscritti: nome utente e posta elettronica
 
@@ -131,7 +131,7 @@ Queste informazioni sono state fornite da iGlobe sul modo in cui questa app gest
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | Sì |
 | Elencare i tipi di criteri supportati | Impostazioni predefinite di sicurezza e qualsiasi altro criterio comune come Blocca autenticazione legacy* Richiedi MFA per gli amministratori* Richiedi MFA per la gestione di Azure* Richiedi MFA per tutti gli utenti* |
@@ -143,6 +143,43 @@ Queste informazioni sono state fornite da iGlobe sul modo in cui questa app gest
 | L'app espone qualsiasi API Web? | No |
 | La tua app usa le API di anteprima? | No |
 | L'app usa API deprecate? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Informazioni sulla certificazione
+
+| **Controllo** | **Microsoft 365 Risultato certificazione** |
+|:------------|:---------------------------------------|
+| [**SICUREZZA DELL'APPLICAZIONE**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/D** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test di penetrazione | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valutazione delle vulnerabilità (DAST/SAST/Test di penetrazione) | N/D |
+| [**SICUREZZA OPERATIVA**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/D** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione antimalware - Anti-Virus | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione antimalware - Controllo applicazioni | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Classificazione dei rischi | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Applicazione di patch | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisi delle vulnerabilità | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall (o tecnologie equivalenti) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall applicazione Web (WAF) (facoltativo) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change Control | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sviluppo/distribuzione di software sicuro | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione account | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rilevamento e prevenzione delle intrusioni (facoltativo) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrazione eventi di sicurezza | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisione (dati di registrazione) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avviso eventi di sicurezza | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione dei rischi per la sicurezza delle informazioni | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Risposta agli eventi imprevisti | N/D |
+| [**PRIVACY DI SICUREZZA PER LA GESTIONE DEI &amp; DATI**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/D** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in transito | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in pausa | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservazione e eliminazione dei dati | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione accesso ai dati | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | N/D |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

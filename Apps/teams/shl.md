@@ -2,18 +2,18 @@
 title: Application Information for SHL by SHL
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/25/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SHL, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5c5b98779e7c038d809a8ecaee60fee1cdf0ca71
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 10d1b85a8f4d57ed956355ecc5247a5a4c3a5b43
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281485"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414943"
 ---
 # <a name="shl"></a>SHL
 
@@ -66,7 +66,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| I dati vengono trasferiti ai servizi della propria applicazione (Talentcentral : https://talentcentral.eu.shl.com/admin) | EUII : Nome utente e ID utente di Microsoft Teams | Il nome utente Teams'app viene usato in un'altra applicazione che attiva i messaggi di posta elettronica con nome utente in essa. e l'ID utente che stiamo mantenendo come identificatore e il mapping con l'ID&#8217;'id utente dell'applicazione. |
+>| I dati vengono trasferiti ai servizi della propria applicazione (Talentcentral : https://talentcentral.eu.shl.com/admin) | EUII : Nome utente e ID utente di Microsoft Teams | Il nome utente dell Teams app viene usato in un'altra applicazione che attiva i messaggi di posta elettronica con nome utente in essa. e l'ID utente che stiamo mantenendo come identificatore e mappato con l'ID&#8217;'id utente dell'applicazione. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -74,7 +74,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Il nome utente Teams'app viene usato in un'altra applicazione che attiva i messaggi di posta elettronica con nome utente in essa. e l'ID utente che stiamo mantenendo come identificatore e mapparlo con l'ID&#8217;'id utente dell'applicazione | Nome utente e ID utente di Microsoft Teams | Il nome utente Teams'app viene usato in un'altra applicazione che attiva i messaggi di posta elettronica con nome utente in essa. e l'ID utente che stiamo mantenendo come identificatore e mapparlo con l'ID&#8217;'id utente dell'applicazione |
+>| Il nome utente dell Teams app viene usato in un'altra applicazione che attiva i messaggi di posta elettronica con nome utente in essa. e l'ID utente che stiamo mantenendo come identificatore e mapparlo con l'ID&#8217;'id utente dell'applicazione | Nome utente e ID utente di Microsoft Teams | Il nome utente dell Teams app viene usato in un'altra applicazione che attiva i messaggi di posta elettronica con nome utente in essa. e l'ID utente che stiamo mantenendo come identificatore e mapparlo con l'ID&#8217;'id utente dell'applicazione |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -124,3 +124,4 @@ Queste informazioni sono state fornite da SHL su come questa app gestisce l'aute
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Application Information for Fellow by Fellow Insights Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/21/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Fellow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 581b41bdf80bcbdd77bb3406b35556308a13b8f9
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3dc9a5d3bcd6e5bbc356efab77ad15406e9fb772
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281556"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414632"
 ---
 # <a name="fellow"></a>Fellow
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Directory.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I dati della directory vengono utilizzati per sincronizzare un elenco di utenti ed eseguire automaticamente il provisioning degli account. | Se e solo se l'amministratore esegue un'installazione a livello di organizzazione dall'interno delle impostazioni dell'area di lavoro all'interno di Fellow, gli amministratori hanno la possibilità di abilitare la sincronizzazione automatica di tutti gli utenti da Azure AD a Fellow (provisioning automatico). In questo caso, vengono archiviate informazioni utente quali ID, Nome, Posta elettronica e Manager e appartenenze a gruppi (per le funzionalità di gestione dei team). | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
 >| Group.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I dati della directory vengono utilizzati per sincronizzare un elenco di utenti ed eseguire automaticamente il provisioning degli account. | Se e solo se l'amministratore esegue un'installazione a livello di organizzazione dall'interno delle impostazioni dell'area di lavoro all'interno di Fellow, gli amministratori hanno la possibilità di abilitare la sincronizzazione automatica di tutti gli utenti da Azure AD a Fellow (provisioning automatico). In questo caso, vengono archiviate informazioni utente quali ID, Nome, Posta elettronica e Manager e appartenenze a gruppi (per le funzionalità di gestione dei team). | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
 >| People.Read | delegated | I contatti dell'utente vengono raccolti, in displayNames e indirizzi di posta elettronica specifici dei contatti. Questo viene usato all'interno di Fellow per fornire un elenco di utenti da invitare a invitare in una nota / condividere una nota con. | I contatti dell'utente vengono raccolti, in displayNames e indirizzi di posta elettronica specifici dei contatti. Questo viene usato all'interno di Fellow per fornire un elenco di utenti da invitare a invitare in una nota / condividere una nota con. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| People.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I contatti dell'utente vengono raccolti, in displayNames e indirizzi di posta elettronica specifici dei contatti. Questo viene usato all'interno di Fellow per fornire un elenco di utenti da invitare a invitare in una nota / condividere una nota con. | Se e solo se l'amministratore esegue un'installazione a livello di organizzazione dall'interno delle impostazioni dell'area di lavoro all'interno di Fellow, gli amministratori hanno la possibilità di abilitare la sincronizzazione automatica di tutti gli utenti da Azure AD a Fellow (provisioning automatico). In questo caso i contatti dell'utente vengono raccolti, in displayNames e indirizzi di posta elettronica specifici del contatto. Questo viene usato all'interno di Fellow per fornire un elenco di utenti da invitare a invitare in una nota / condividere una nota con. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| People.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I contatti dell'utente vengono raccolti, in displayNames e indirizzi di posta elettronica specifici dei contatti. Questo viene usato all'interno di Fellow per fornire un elenco di utenti da invitare a invitare in una nota / condividere una nota con. | Se e solo se l'amministratore esegue un'installazione a livello di organizzazione dall'interno delle impostazioni dell'area di lavoro all'interno di Fellow, gli amministratori hanno la possibilità di abilitare la sincronizzazione automatica di tutti gli utenti da Azure AD a Fellow (provisioning automatico). In questo caso, i contatti dell'utente vengono raccolti, in displayNames e indirizzi di posta elettronica specifici del contatto. Questo viene usato all'interno di Fellow per fornire un elenco di utenti da invitare a invitare in una nota / condividere una nota con. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
 >| Team.ReadBasic.All | delegated | Viene raccolto un elenco di team di cui fa parte l'utente. Questo viene usato all'interno di fellow allo scopo di consentire all'utente di inviare note da Fellow a un team. | I nomi e gli ID dei team di cui è membro un utente vengono memorizzati nella cache per consentire agli utenti di inviare note da Colleghi al canale di teams specificato. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
 >| User.Read | delegated | Vengono raccolte le informazioni di base dell'utente. Nome utente, e-mail, posizione professionale. Queste informazioni vengono utilizzate all'interno di Fellow per creare account utente e account aziendali. | Vengono archiviate le informazioni di base dell'utente. Nome utente, e-mail, posizione professionale. Queste informazioni vengono utilizzate all'interno di Fellow per gestire gli account utente e gli account aziendali. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
 >| User.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I dati della directory vengono utilizzati per sincronizzare un elenco di utenti ed eseguire automaticamente il provisioning degli account. | Se e solo se l'amministratore esegue un'installazione a livello di organizzazione dall'interno delle impostazioni dell'area di lavoro all'interno di Fellow, gli amministratori hanno la possibilità di abilitare la sincronizzazione automatica di tutti gli utenti da Azure AD a Fellow (provisioning automatico). In questo caso, vengono archiviate informazioni utente quali ID, Nome, Posta elettronica e Manager e appartenenze a gruppi (per le funzionalità di gestione dei team). | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
@@ -124,7 +124,7 @@ Queste informazioni sono state fornite da Fellow Insights Inc su come questa app
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -140,3 +140,4 @@ Queste informazioni sono state fornite da Fellow Insights Inc su come questa app
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

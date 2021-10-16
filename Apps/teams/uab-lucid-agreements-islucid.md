@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per isLucid by UAB Lucid Agreements
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/09/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per isLucid, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per isLucid, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d29616471c22a2fd4f01a849d14b965ae106aa80
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7270fa4f4a08ca820d1fe7452dea13fb107f2294
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281047"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414903"
 ---
 # <a name="islucid"></a>isLucid
 
@@ -53,17 +53,17 @@ Queste informazioni sono state fornite dagli accordi di lucidità UAB sul modo i
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calls.AccessMedia.All | entrambi | Con un consenso specifico dell'utente per ogni chiamata separatamente (trascrizione avviata) accede al flusso audio. Il flusso audio viene inoltrato a un servizio di trascrizione per consentire agli utenti di ottenere ulteriori funzionalità. | Archivi app in contenitori separati in Azure (archiviazione BLOB e Cosmos DB per ogni client separatamente) trascrizione e meta informazioni correlate. Ciò è necessario per fornire un ulteriore accesso alle informazioni di una riunione per l'utente, che ha utilizzato l'applicazione e si trovava nella riunione specifica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| Calls.JoinGroupCall.All | entrambi | Con un consenso specifico dell'utente per ogni chiamata separatamente (trascrizione avviata) accede al flusso audio. Il flusso audio viene inoltrato a un servizio di trascrizione per consentire agli utenti di ottenere ulteriori funzionalità. | Archivi app in contenitori separati in Azure (archiviazione BLOB e Cosmos DB per ogni client separatamente) trascrizione e meta informazioni correlate. Ciò è necessario per fornire un ulteriore accesso alle informazioni di una riunione per l'utente, che ha utilizzato l'applicazione e si trovava nella riunione specifica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| Group.ReadWrite.All | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | Il titolo dell'attività, il creatore dell'attività, il timestamp dell'attività e la descrizione dell'attività vengono archiviati in modo che gli utenti possono accedere alla cronologia delle attività, effettuata da una riunione specifica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| Group.ReadWrite.All | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione, l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | Il titolo dell'attività, il creatore dell'attività, il timestamp dell'attività e la descrizione dell'attività vengono archiviati in modo che gli utenti possono accedere alla cronologia delle attività, effettuata da una riunione specifica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| OnlineMeetings.Read.All | entrambi | L'applicazione raccoglie i titoli delle riunioni in modo che gli utenti in un secondo momento (al termine della riunione) trovino più facilmente le trascrizioni e le attività precedenti. | Titolo della riunione, timestamp della riunione, organizzatore della riunione | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| Tasks.ReadWrite | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | Il titolo dell'attività, il creatore dell'attività, il timestamp dell'attività e la descrizione dell'attività vengono archiviati in modo che gli utenti possono accedere alla cronologia delle attività, effettuata da una riunione specifica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| User.ReadWrite.All | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | Il titolo dell'attività, il creatore dell'attività, il timestamp dell'attività e la descrizione dell'attività vengono archiviati in modo che gli utenti possono accedere alla cronologia delle attività, effettuata da una riunione specifica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| openid | entrambi | ID utente, ID tenant raccolto per fornire la Azure Active Directory di accesso degli utenti | ID utente, ID tenant per ulteriori rights management | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| Tasks.ReadWrite | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione, l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | Il titolo dell'attività, il creatore dell'attività, il timestamp dell'attività e la descrizione dell'attività vengono archiviati in modo che gli utenti possono accedere alla cronologia delle attività, effettuata da una riunione specifica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| User.ReadWrite.All | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione, l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | Il titolo dell'attività, il creatore dell'attività, il timestamp dell'attività e la descrizione dell'attività vengono archiviati in modo che gli utenti possono accedere alla cronologia delle attività, effettuata da una riunione specifica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| openid | entrambi | ID utente, ID tenant raccolto per fornire agli utenti Azure Active Directory di accesso | ID utente, ID tenant per ulteriori rights management | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -87,7 +87,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Gli utenti che usano il servizio generano trascrizioni. Nelle trascrizioni presentate i partecipanti alla riunione (nomi, cognomi). Potenzialmente, durante la chiamata è possibile menzionare qualsiasi elemento. Questi dati vengono archiviati per gli utenti purché utilizzino i nostri servizi. Una volta che il client termina con noi, entro 30 giorni distruriamo tutti i dati associati.
+>Gli utenti che usano il servizio generano trascrizioni. Nelle trascrizioni presentate i partecipanti alla riunione (nomi, cognomi). Potenzialmente, durante la chiamata è possibile menzionare qualsiasi elemento. Questi dati vengono archiviati per gli utenti purché utilizzino i nostri servizi. Una volta che il client termina di usarlo, entro 30 giorni distruriamo tutti i dati associati.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -105,17 +105,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -126,7 +115,7 @@ Queste informazioni sono state fornite dai contratti UAB Lucid su come questa ap
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -143,3 +132,4 @@ Queste informazioni sono state fornite dai contratti UAB Lucid su come questa ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

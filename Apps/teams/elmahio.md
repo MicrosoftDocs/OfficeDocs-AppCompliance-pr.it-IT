@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione elmah.io da elmah.io
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/10/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per elmah.io, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2761f22f1b41c208d7dce1589ac3d62ab41efc54
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b3e652415a7adf625ada6ba19e4bbb6625b7c5f1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283752"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414682"
 ---
 # <a name="elmahio"></a>elmah.io
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da elmah.io su come questa app raccoglie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -120,3 +120,4 @@ Queste informazioni sono state fornite da elmah.io su come questa app gestisce l
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

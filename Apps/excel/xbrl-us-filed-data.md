@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per i dati di XBRL filed by XBRL US
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per i dati di archiviazione XBRL, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per I dati file XBRL, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 71c06644f03598cb265554891a8dc33632be32da
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 915cf51cc4670603e7637374ca1439cd4ae00554
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283380"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413990"
 ---
 # <a name="xbrl-filed-data"></a>Dati file XBRL
 
@@ -33,7 +33,7 @@ Informazioni fornite da XBRL US a Microsoft:
 |:----------------|:-------------|
 | Nome app | Dati file XBRL |
 | ID | WA200002591 |
-| Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2016 o versione successiva Windows, Excel sul web |
+| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive Windows, Excel sul web |
 | Nome società partner | XBRL US |
 | URL del sito Web del partner | [https://xbrl.us](https://xbrl.us) |
 | URL dell'informativa sulla privacy | [https://xbrl.us/privacy](https://xbrl.us/privacy) |
@@ -51,7 +51,7 @@ Queste informazioni sono state fornite da XBRL US su come questa app raccoglie e
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -60,7 +60,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 
@@ -111,3 +111,4 @@ Queste informazioni sono state fornite da XBRL US su come questa app gestisce l'
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

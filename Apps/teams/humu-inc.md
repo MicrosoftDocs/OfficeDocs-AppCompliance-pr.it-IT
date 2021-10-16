@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Humu di Humu Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/20/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Humu, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1c4f09d20ef885ae5c7e26a4c02d3d877bf7ef00
-ms.sourcegitcommit: 11288ac2cbae57aaa7820be0d9fb87c631805b7b
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 772974445cbe3962521bd25019a1172f961590dc
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60112280"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415093"
 ---
 # <a name="humu"></a>Humu
 
@@ -96,17 +96,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/4e95a4f5-304c-4629-901c-72341d8f2a0' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/4e95a4f5-304c-4629-901c-72341d8f2a0" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -121,3 +110,4 @@ Queste informazioni sono state fornite da Humu Inc. Sul modo in cui questa app g
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

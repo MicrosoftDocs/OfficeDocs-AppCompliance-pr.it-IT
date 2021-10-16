@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per TackleBox di Insiten
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/12/2021
+ms.date: 01/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TackleBox, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bf5841d5b51470b6aaab29f303b1ee1c5c5a0141
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a40a1d6e1acb87917956766be21b0d6b364dfcba
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283675"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413768"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -57,18 +57,18 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Files.ReadWrite.All | delegated | Consente agli utenti di esplorare le OneDrive, le cartelle e i file. collegare i file a TackleBox; leggere Excel file per estrarre automaticamente grafici, grafici, tabelle, aree di stampa e intervalli denominati; creare e aggiornare PowerPoint file con questi Excel visivi | Drive ID, Folder ID, File ID, View Link, Created By, Created Date, Modified By, Modified Date, Version ID, File Name | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| Files.ReadWrite.All | delegated | Consente agli utenti di esplorare le OneDrive, le cartelle e i file; collegare i file a TackleBox; leggere Excel file per estrarre automaticamente grafici, grafici, tabelle, aree di stampa e intervalli denominati; creare e aggiornare PowerPoint file con questi Excel visivi | Drive ID, Folder ID, File ID, View Link, Created By, Created Date, Modified By, Modified Date, Version ID, File Name | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 >| Sites.Read.All | delegated | Consentire agli utenti di esplorare e collegare Excel file che si trovano in canali Teams privati | Nessuno | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 >| User.Read | delegated | Consente all'app di leggere il profilo degli utenti connessi e di ricevere nuovamente l'indirizzo di posta elettronica per le notifiche | Posta elettronica | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 >| openid | delegated | Consente agli utenti di accedere all'applicazione usando Microsoft 365 account | ID tenant e ID oggetto per l'utente | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
->| profilo | delegated | Consente all'app di visualizzare il profilo di base degli utenti (nome, nome utente) per facilitare la collaborazione | UPN, Nome, Cognome | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| profile | delegated | Consente all'app di visualizzare il profilo di base degli utenti (nome, nome utente) per facilitare la collaborazione | UPN, Nome, Cognome | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -101,7 +101,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35957' frameborder='no' style='width: 100%;'></iframe>
 
@@ -120,7 +120,7 @@ Queste informazioni sono state fornite da Insiten su come questa app gestisce l'
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -136,3 +136,4 @@ Queste informazioni sono state fornite da Insiten su come questa app gestisce l'
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Report Builder, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3cdce812cc93cb5a42abf0180f99cf4858a2fc09
-ms.sourcegitcommit: d49943662d5e28a9c1289ee23318818f1f68ff96
+ms.openlocfilehash: eaba58a8a2a63b51dad4489c1104dc5d38ae51b1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60340845"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412155"
 ---
 # <a name="report-builder"></a>Report Builder
 
@@ -33,7 +33,7 @@ Informazioni fornite da Adobe Inc. a Microsoft:
 |:----------------|:-------------|
 | Nome app | Report Builder |
 | ID | WA200003101 |
-| Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2013 o versioni successive Windows, Excel sul web |
+| Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2013 o versione successiva Windows, Excel sul web |
 | Nome società partner | Adobe Inc. |
 | URL del sito Web del partner | [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com) |
 | URL dell'informativa sulla privacy | [https://www.adobe.com/privacy/policy-linkfree.html](https://www.adobe.com/privacy/policy-linkfree.html) |
@@ -51,14 +51,14 @@ Queste informazioni sono state fornite da Adobe Inc. Su come questa app raccogli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -88,17 +88,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -113,3 +102,4 @@ Queste informazioni sono state fornite da Adobe Inc. Su come questa app gestisce
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

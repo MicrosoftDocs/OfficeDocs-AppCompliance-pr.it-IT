@@ -2,21 +2,21 @@
 title: Sicurezza e conformità di Microsoft Outlook Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/13/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: ad9237be7d803047cd3f4b7517c92b805026bef8
-ms.sourcegitcommit: d49943662d5e28a9c1289ee23318818f1f68ff96
+ms.openlocfilehash: c8af6c6a109fd329386c8926b5a4daac4fc84f41
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60341246"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413678"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft Outlook Apps
 
-Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni su Microsoft Outlook Apps e i componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app e ai componenti aggiuntivi di Microsoft Outlook che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|

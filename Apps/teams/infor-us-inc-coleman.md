@@ -2,18 +2,18 @@
 title: Application Information for Infor Coleman by INFOR (US), INC.
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/05/2021
+ms.date: 10/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Infor Coleman, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Infor Coleman, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b93279356130f5343efaa0c7326483bbf1a0f467
-ms.sourcegitcommit: 085c227ffcf8f88e6e55d3c40752a3df25642592
+ms.openlocfilehash: d06dec9fe442345491d60964d8ec346f72fa6645
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60255699"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413778"
 ---
 # <a name="infor-coleman"></a>Infor Coleman
 
@@ -35,7 +35,7 @@ Informazioni fornite da INFOR (STATI UNITI), INC. a Microsoft:
 | Nome app | Infor Coleman |
 | ID | WA200003314 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | INFOR (STATI UNITI), INC. |
+| Nome società partner | INFOR (US), INC. |
 | URL del sito Web del partner | [https://www.infor.com](https://www.infor.com) |
 | URL dell'informativa sulla privacy | [https://www.infor.com/about/privacy](https://www.infor.com/about/privacy) |
 | URL delle Condizioni per l'utilizzo | [https://www.infor.com/about/legal](https://www.infor.com/about/legal) |
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da INFOR (STATI UNITI), INC. informazioni
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -92,17 +92,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,3 +106,4 @@ Queste informazioni sono state fornite da INFOR (STATI UNITI), INC. informazioni
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

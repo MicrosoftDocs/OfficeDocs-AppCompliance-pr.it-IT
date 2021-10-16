@@ -2,18 +2,18 @@
 title: Application Information for Brightcove Video Connessione by Brightcove Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/15/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Brightcove Video Connessione, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Brightcove Video Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: ff2235d0ba6c3607581e03a5a48d6ccad9a415e2
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 53b0ea912c57bb18b70a42712263aba6c4e67551
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785506"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413087"
 ---
 # <a name="brightcove-video-connect"></a>Brightcove Video Connessione
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Brightcove Inc. Su come questa app rac
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -64,7 +64,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Fare riferimento a Brightcove&#8217;pagina del sottoprocessore: https://www.brightcove.com/en/legal/services-subprocessors | Schedule A of Brightcove&#8217;s DPA elenca le categorie di dati elaborati: https://files.brightcove.com/legal/en/cDPAv2.html | Schedule A of Brightcove&#8217;s DPA elenca i motivi per l'elaborazione di questi dati: https://files.brightcove.com/legal/en/cDPAv2.html |
+>| Fai riferimento a Brightcove&#8217;pagina del sottoprocessore: https://www.brightcove.com/en/legal/services-subprocessors | Schedule A of Brightcove&#8217;s DPA elenca le categorie di dati elaborati: https://files.brightcove.com/legal/en/cDPAv2.html | Schedule A of Brightcove&#8217;s DPA elenca i motivi per l'elaborazione di questi dati: https://files.brightcove.com/legal/en/cDPAv2.html |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -95,17 +95,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -120,3 +109,4 @@ Queste informazioni sono state fornite da Brightcove Inc. Sul modo in cui questa
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per il segnale dinamico tramite segnale dinamico
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Dynamic Signal, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5b5906e8eee51821481de11c3cbd720600d4c36e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 1380163dee988fd928596cd3024c0ddc2d6e8be5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283062"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412435"
 ---
 # <a name="dynamic-signal"></a>Dynamic Signal
 
@@ -57,15 +57,15 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegated | Segnale dinamico sincronizza l'utente da Azure AD alla sua piattaforma per consentire l'attivazione e la disattivazione semplificate degli utenti in tempo reale. I dati vengono archiviati in Segnale dinamico per consentire agli utenti di utilizzare tale applicazione durante la sincronizzazione. | Autorizzazioni di lettura di un utente specifico per sincronizzare gli utenti della piattaforma segnale dinamico con Azure AD. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
->| User.Read.All | delegated | Segnale dinamico sincronizza l'utente da Azure AD alla sua piattaforma per consentire l'attivazione e la disattivazione semplificate degli utenti in tempo reale. I dati vengono archiviati in Segnale dinamico per consentire agli utenti di utilizzare tale applicazione durante la sincronizzazione. | Autorizzazioni di lettura di un utente specifico per sincronizzare gli utenti della piattaforma segnale dinamico con Azure AD. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
->| offline_access | delegated | Segnale dinamico sincronizza l'utente da Azure AD alla sua piattaforma per consentire l'attivazione e la disattivazione semplificate degli utenti in tempo reale. I dati vengono archiviati in Segnale dinamico per consentire agli utenti di utilizzare tale applicazione durante la sincronizzazione. | Mantenere l'accesso ai gruppi e ai team del tenant. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
->| openid | delegated | Segnale dinamico sincronizza l'utente da Azure AD alla sua piattaforma per consentire l'attivazione e la disattivazione semplificate degli utenti in tempo reale. I dati vengono archiviati in Segnale dinamico per consentire agli utenti di utilizzare tale applicazione durante la sincronizzazione. | Autenticare gli utenti con l'applicazione segnale dinamico. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| User.Read | delegated | Segnale dinamico sincronizza l'utente Azure AD alla sua piattaforma per consentire l'attivazione e la disattivazione semplificate degli utenti in tempo reale. I dati vengono archiviati in Segnale dinamico per consentire agli utenti di utilizzare tale applicazione durante la sincronizzazione. | Autorizzazioni di lettura di un utente specifico per sincronizzare gli utenti della piattaforma segnale dinamico con Azure AD. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| User.Read.All | delegated | Segnale dinamico sincronizza l'utente Azure AD alla sua piattaforma per consentire l'attivazione e la disattivazione semplificate degli utenti in tempo reale. I dati vengono archiviati in Segnale dinamico per consentire agli utenti di utilizzare tale applicazione durante la sincronizzazione. | Autorizzazioni di lettura di un utente specifico per sincronizzare gli utenti della piattaforma segnale dinamico con Azure AD. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| offline_access | delegated | Segnale dinamico sincronizza l'utente Azure AD alla sua piattaforma per consentire l'attivazione e la disattivazione semplificate degli utenti in tempo reale. I dati vengono archiviati in Segnale dinamico per consentire agli utenti di utilizzare tale applicazione durante la sincronizzazione. | Mantenere l'accesso ai gruppi e ai team del tenant. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| openid | delegated | Segnale dinamico sincronizza l'utente Azure AD alla sua piattaforma per consentire l'attivazione e la disattivazione semplificate degli utenti in tempo reale. I dati vengono archiviati in Segnale dinamico per consentire agli utenti di utilizzare tale applicazione durante la sincronizzazione. | Autenticare gli utenti con l'applicazione segnale dinamico. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzate.
 
@@ -111,4 +111,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

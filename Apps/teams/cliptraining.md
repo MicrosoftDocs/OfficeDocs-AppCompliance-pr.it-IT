@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per ClipTraining tramite ClipTraining
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ClipTraining, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5d59d4cbd2d28f1c906e541e7ffc78311c12ffb6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f69ccfc65a7f5b3f27610b424bf27817436bc065
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281334"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413858"
 ---
 # <a name="cliptraining"></a>ClipTraining
 
@@ -53,14 +53,14 @@ Queste informazioni sono state fornite da ClipTraining su come questa app raccog
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 >| offline_access | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 >| openid | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
->| profilo | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| profile | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -116,7 +116,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da ClipTraining sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da ClipTraining su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -125,3 +125,4 @@ Queste informazioni sono state fornite da ClipTraining sul modo in cui questa ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

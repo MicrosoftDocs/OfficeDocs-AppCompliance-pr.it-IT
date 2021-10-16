@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Cloverpop di Cloverpop
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 08/04/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Cloverpop, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3865c07aca73134fd9029ee0550559d9a4f93fd2
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 28d424f384d8b16ff70e7d00f366c3a0f89f64b5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281323"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412516"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -52,20 +52,20 @@ Queste informazioni sono state fornite da Cloverpop su come questa app raccoglie
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegated | archiviare i dati utente come. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Quando gli utenti creano e interagiscono con le decisioni, questi dati vengono associati all'utente, al team e all'organizzazione che li ha creati. Dobbiamo anche visualizzare questa proprietà in un'esperienza utente facile da usare, quindi stiamo archiviando le informazioni di visualizzazione, ad esempio l'utente&#8217;avatar. | consente all'utente di accedere e consente all'app di accedere al proprio UPN per abilitare il&#8221; di accesso invisibile all'utente - posta elettronica, nome, oid, tid, givenName, cognome, familyName, avatar utente(foto), displayName dell'organizzazione | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 >| openid | delegated | Archiviare i dati utente come. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Quando gli utenti creano e interagiscono con le decisioni, questi dati vengono associati all'utente, al team e all'organizzazione che li ha creati. Dobbiamo anche visualizzare questa proprietà in un'esperienza utente facile da usare, quindi stiamo archiviando le informazioni di visualizzazione, ad esempio l'utente&#8217;avatar. | Per implementare &#8220;accedere con Teams&#8221;'app Web. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
->| profilo | delegated | Archiviare i dati utente come. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Quando gli utenti creano e interagiscono con le decisioni, questi dati vengono associati all'utente, al team e all'organizzazione che li ha creati. Dobbiamo anche visualizzare questa proprietà in un'esperienza utente facile da usare, quindi stiamo archiviando le informazioni di visualizzazione, ad esempio l'utente&#8217;avatar. | Per implementare &#8220;accedere con Teams&#8221;'app Web. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
+>| profile | delegated | Archiviare i dati utente come. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Quando gli utenti creano e interagiscono con le decisioni, questi dati vengono associati all'utente, al team e all'organizzazione che li ha creati. Dobbiamo anche visualizzare questa proprietà in un'esperienza utente facile da usare, quindi stiamo archiviando le informazioni di visualizzazione, ad esempio l'utente&#8217;avatar. | Per implementare &#8220;accedere con Teams&#8221;'app Web. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -73,7 +73,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Microsoft accede ai dati del nome del primo/ultimo/nome visualizzato per visualizzare in modo accurato le azioni intraprese da utenti specifici relativi a una decisione. L'indirizzo di posta elettronica viene utilizzato come identificatore univoco per ogni utente nel database in quanto consente a ogni utente di appartenere a più organizzazioni. Accedono a questi dati solo quando interagiscono con la nostra app, ad esempio se rispondono a un sondaggio. | Vengono archiviati i dati relativi al nome del primo/ultimo/nome visualizzato per visualizzare in modo accurato le azioni intraprese da utenti specifici relativi a una decisione.  L'indirizzo di posta elettronica viene archiviato perché viene utilizzato come identificatore univoco per ogni utente nel database, in quanto consente a ogni utente di appartenere a più organizzazioni. Questi dati vengono archiviati solo quando interagiscono con la nostra app, ad esempio se rispondono a un sondaggio. I dati sulle decisioni devono essere un sistema di registrazione per le decisioni, quindi è importante archiviare i dati per identificare in che modo ogni utente coinvolto in una decisione ha contribuito a tale decisione. |  |
+>| Microsoft accede ai dati del nome del primo/ultimo/nome visualizzato per visualizzare in modo accurato le azioni intraprese da utenti specifici relativi a una decisione. L'indirizzo di posta elettronica viene utilizzato come identificatore univoco per ogni utente nel database in quanto consente a ogni utente di appartenere a più organizzazioni. Accedono a questi dati solo quando interagiscono con la nostra app, ad esempio se rispondono a un sondaggio. | Vengono archiviati i dati relativi al nome del primo/ultimo/nome visualizzato per visualizzare in modo accurato le azioni intraprese da utenti specifici in relazione a una decisione.  L'indirizzo di posta elettronica viene archiviato perché viene utilizzato come identificatore univoco per ogni utente nel database, in quanto consente a ogni utente di appartenere a più organizzazioni. Questi dati vengono archiviati solo quando interagiscono con la nostra app, ad esempio se rispondono a un sondaggio. I dati sulle decisioni devono essere un sistema di registrazione per le decisioni, quindi è importante archiviare i dati per identificare in che modo ogni utente coinvolto in una decisione ha contribuito a tale decisione. |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -81,7 +81,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
 >Sì.
-L'ID del team viene visualizzato nei log quando l'app viene interagita in un team.
+L'ID del team viene visualizzato nei log quando l'app interagisce in un team.
 Abbiamo accesso limitato ai log di produzione ai nostri tre fondatori che hanno tutti sede negli Stati Uniti.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
@@ -106,7 +106,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35992' frameborder='no' style='width: 100%;'></iframe>
 
@@ -115,4 +115,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

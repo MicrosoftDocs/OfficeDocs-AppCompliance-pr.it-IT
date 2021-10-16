@@ -2,18 +2,18 @@
 title: Application Information for Kanban Tool by Shore Labs
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/15/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Lo strumento Kanban, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b73351d77f68cf00b904d95336f83d8089095791
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7422dcff9386dbb64599660eea58941d2a862b13
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281479"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413398"
 ---
 # <a name="kanban-tool"></a>Kanban Tool
 
@@ -59,15 +59,15 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegated | Indirizzo di posta elettronica dell'utente per la comunicazione, la corrispondenza dell'identità e il recapito delle notifiche. | Indirizzo di posta elettronica. | [4e820d60-9e62-403c-accd-857b987cc13c](https://docs.microsoft.com/microsoft-365-app-certification/azure/4e820d60-9e62-403c-accd-857b987cc13c) |
 >| Team.ReadBasic.All | delegated | Identificatori e nomi dei team di cui l'utente è membro diretto. Vengono utilizzati per assegnare automaticamente gli utenti ai gruppi corretti nello strumento Kanban. | Gli identificatori e i nomi dei team di cui l'utente connesso è un membro diretto sono mappati a gruppi nello strumento Kanban. Ciò consente la gestione degli accessi in base al gruppo e la condivisione di Boards Disa Boards tra team diversi nella stessa organizzazione. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| User.Read | delegated | Informazioni aziendali di base degli utenti connessi. Viene utilizzato per popolare i dettagli dell'account per i nuovi account e per riconoscere gli utenti che appartengono all'organizzazione per fornire funzionalità Sign-On singola. | Nome e un identificatore Microsoft univoco dell'organizzazione. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| User.Read | delegated | Informazioni aziendali di base degli utenti connessi. Viene utilizzato per popolare i dettagli dell'account per i nuovi account e per riconoscere gli utenti che appartengono all'organizzazione per fornire funzionalità di Sign-On singola. | Nome e un identificatore Microsoft univoco dell'organizzazione. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| offline_access | delegated | Consente la funzionalità "Accedi con Microsoft" e la sincronizzazione dei dati a cui hai fornito l'accesso all'app, al momento dell'accesso dell'utente. | Mantenere l'accesso ai dati a cui gli è stato assegnato l'accesso. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| openid | delegated | Token OPEN ID che consentono agli utenti di accedere all'app con i propri account aziendali o dell'istituto di istruzione tramite il pulsante "Accedi con Microsoft". | Identificatore non modificabile per l'account utente nel sistema di identità Microsoft. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| profilo | delegated | Nome utente da popolare automaticamente nello strumento Kanban e mantenere sincronizzato con le modifiche apportate Microsoft Teams. | Nome completo dell'utente. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| profile | delegated | Nome utente da popolare automaticamente nello strumento Kanban e mantenere sincronizzato con le modifiche apportate Microsoft Teams. | Nome completo dell'utente. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -102,17 +102,6 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -123,7 +112,7 @@ Queste informazioni sono state fornite da Shore Labs su come questa app gestisce
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -140,3 +129,4 @@ Queste informazioni sono state fornite da Shore Labs su come questa app gestisce
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

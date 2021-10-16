@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Priority Matrix, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e88ba3c98c9ab444f2500ed09013071a6b5ab2c3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f92d80badce772b5de28faef4a6330b58ea204c1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279967"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413107"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
@@ -71,7 +71,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -92,7 +92,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati dell'applicazione vengono archiviati in modo sicuro in un database crittografato con accesso limitato a un piccolo gruppo di amministratori. Per proteggere ulteriormente l'accesso, viene applicata l'autenticazione a 2 fattori, si limita l'accesso a un set controllato di indirizzi IP e si individua il database nella propria subnet privata, direttamente inaccessibile da Internet aperto.
+>I dati delle applicazioni vengono archiviati in modo sicuro in un database crittografato con accesso limitato a un piccolo gruppo di amministratori. Per proteggere ulteriormente l'accesso, viene applicata l'autenticazione a 2 fattori, si limita l'accesso a un set controllato di indirizzi IP e si individua il database nella propria subnet privata, direttamente inaccessibile da Internet aperto.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -125,7 +125,7 @@ Queste informazioni sono state fornite da Appfluence Inc su come questa app gest
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
@@ -142,3 +142,4 @@ Queste informazioni sono state fornite da Appfluence Inc su come questa app gest
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

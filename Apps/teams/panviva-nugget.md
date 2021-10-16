@@ -2,18 +2,18 @@
 title: Informazioni sull'applicazione per Nugget di Panviva
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/12/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Nugget, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6108617e72e1996a335b53941989a707a6544337
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: de483c47b529b889a6e3cc0b6ff51de8546c2f93
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283189"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413608"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -75,8 +75,8 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
 >Sì.
-Teams'ID utente è archiviato: questa operazione è necessaria per poter recuperare informazioni sul tenant in cui si trova e se l'utente è amministratore o meno.
-Teams id organizzazione: viene archiviato in modo da poter recuperare gli utenti in un tenant e per recuperare i dettagli della sottoscrizione per quel tenant specifico.
+Teams'ID utente è archiviato: questo è necessario per poter recuperare informazioni sul tenant in cui si trova e se l'utente è amministratore o meno.
+Teams id organizzazione : viene archiviato in modo da poter recuperare gli utenti in un tenant e per recuperare i dettagli della sottoscrizione per quel tenant specifico.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -105,4 +105,5 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

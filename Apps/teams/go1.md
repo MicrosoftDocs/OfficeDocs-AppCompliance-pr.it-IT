@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Go1, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 265d4cf5cef2f7fb685159ebf2cb6d516d32cb0f
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: e632c6611df3bc0ad86381a75683520f0f3a6333
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60287358"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413798"
 ---
 # <a name="go1"></a>Go1
 
@@ -52,12 +52,12 @@ Queste informazioni sono state fornite da Go1 su come questa app raccoglie e arc
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.ReadWrite.All | application | l'app non archivia i dati dei file | consente agli utenti di caricare e condividere file da onedrive | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
->| Group.ReadWrite.All | application | Teams il nome del canale e l'ID univoco archiviati per supportare l'ambiente di apprendimento per la gestione dell'app | consente all'app di configurare in modo dinamico Teams e canali per supportare l'apprendimento strutturato in Teams ambiente | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
+>| Group.ReadWrite.All | application | Teams il nome del canale e l'ID univoco archiviati per supportare l'ambiente di apprendimento per la gestione dell'app | consente all'app di configurare dinamicamente Teams e canali per supportare l'apprendimento strutturato in Teams ambiente | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
 >| User.Read.All | application | nome degli utenti, posta elettronica e UPN archiviati per offrire un'esperienza di apprendimento personale diretta | consente di utilizzare per firmare e supportare la condivisione delle risorse di apprendimento tra i membri del team | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
 
 
@@ -135,3 +135,4 @@ Queste informazioni sono state fornite da Go1 su come questa app gestisce l'aute
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
