@@ -6,14 +6,14 @@ ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per SecretaryBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per SecretaryBot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ad8e6b2a2f1a7214db66f37de774c01e65ed92e6
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f3f373b4d507e96e12c77e8c9aef3228138095a8
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415033"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430445"
 ---
 # <a name="secretarybot"></a>SecretaryBot
 
@@ -64,14 +64,14 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| User.Read | delegated | Nome utente dello Store, città, paese e langauge per l'analisi degli utenti. Archiviare la posta elettronica per contattare il cliente. Non abbiamo mai usato l'indirizzo di posta elettronica, ma potrebbe essere usato per il supporto. | Cerca il paese e la lingua preferita dell'utente. Viene utilizzato per il backup per MailboxSettings.Read. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| email | delegated | Vedere sopra. | Per l'archiviazione della posta elettronica. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| openid | delegated |  | Per l'autenticazione OpenID. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| profile | delegated | Salvare OID per identificare l'ID univoco dell'utente nel sistema di identità MS. | Recupero del nome utente e dell'OID. Prova a usare OID per connetterti Outlook addin in futuro. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| profile | delegated | Salvare OID per identificare l'ID univoco dell'utente nel sistema di identità MS. | Recupero del nome utente e dell'OID. Provare a usare OID per connettersi Outlook addin in futuro. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -110,5 +110,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

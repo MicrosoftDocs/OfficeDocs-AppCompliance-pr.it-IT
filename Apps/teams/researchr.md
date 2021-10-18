@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per researcHR, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: bc174eb69b69cdf2d04c27bc4649f18111d87811
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c66735e8d928de6cd469773477be5a9258128c16
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412806"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429113"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -62,15 +62,15 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Group.Read.All | application | Usiamo questo ambito per ottenere gli ID e i nomi dei canali per visualizzare questi dati nel nostro sito Web. Vedi: https://docs.microsoft.com/en-us/graph/api/channel-list | Questi dati non vengono archiviati nel database. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| Team.ReadBasic.All | application | Questo ambito viene utilizzato per ottenere i membri del team in modo che gli utenti possano visualizzare i membri del team nel sito Web. Vedi: https://docs.microsoft.com/en-us/graph/api/group-list-members | Questi dati non vengono archiviati nel database in uscita. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| User.Read.All | application | Questo ambito viene utilizzato per ottenere i canali aggiunti dell'utente in modo che gli utenti possano visualizzare i team aggiunti nel sito Web. Vedi: https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | Questi dati non vengono archiviati nel database. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| User.ReadBasic.All | delegated | Questo ambito viene utilizzato per abilitare l'accesso OAuth e raccogliere l'ID AAD, il token di accesso e il token di aggiornamento dell'utente. Vedi: https://docs.microsoft.com/en-us/graph/auth-v2-user | Archiviamo l'ID AAD, il token di accesso e il token di aggiornamento dell'utente nel database in modo che l'utente possa accedere al sito Web con OAuth. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
+>| User.ReadBasic.All | delegated | Questo ambito viene utilizzato per abilitare l'account di accesso OAuth e raccogliere l'ID AAD, il token di accesso e il token di aggiornamento dell'utente. Vedi: https://docs.microsoft.com/en-us/graph/auth-v2-user | Archiviamo l'ID AAD, il token di accesso e il token di aggiornamento dell'utente nel database in modo che l'utente possa accedere al sito Web con OAuth. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| offline_access | delegated | Usiamo questo ambito per ottenere il token di aggiornamento in modo da poter aggiornare il token di accesso degli utenti autenticati senza alcuna interazione dell'utente. Vedi: https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | Il token di aggiornamento viene archiviato nel database in modo da poter aggiornare il token di accesso senza alcuna interazione dell'utente. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -115,4 +115,3 @@ Queste informazioni sono state fornite da KBE&#26666;&#24335;&#20250;&#31038; su
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

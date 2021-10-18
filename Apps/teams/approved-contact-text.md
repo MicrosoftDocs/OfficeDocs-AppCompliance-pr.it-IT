@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Text, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9db552e3a7a285c06d105ed01d624d1ce309baac
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 8e240f0ab1d45781cd5d685b882f152b2a11ee91
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412586"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430646"
 ---
 # <a name="text"></a>Testo
 
@@ -56,7 +56,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Group.ReadWrite.All | delegated | Per il bot di testo acquisisciamo l'identificatore del team per la creazione di canali futuri per i messaggi di testo in ingresso. | Ci consente di creare canali Teams per gli utenti. | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
+>| Group.ReadWrite.All | delegated | Per il bot di testo acquisisciamo l'identificatore del team per la creazione di canali futuri per i messaggi di testo in ingresso. | Ci consente di creare Teams per gli utenti. | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
 >| email | delegated | indirizzi di posta elettronica | Recupero delle informazioni di contatto dell'utente. | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
 >| offline_access | delegated | I token di aggiornamento vengono archiviati nel database. | Usato per salvare in modo permanente i token di aggiornamento nel database | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
 >| openid | delegated | Credenziali di accesso | Consente all'utente di eseguire l'accesso. in modo che i testi possano essere recapitati Teams canali | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
@@ -136,4 +136,3 @@ Queste informazioni sono state fornite dal contatto approvato sul modo in cui qu
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

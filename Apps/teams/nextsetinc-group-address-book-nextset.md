@@ -6,14 +6,14 @@ ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per la Rubrica di gruppo - NextSet, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per la Rubrica di gruppo - NextSet, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 813966b77b9eac36696f07ba7d2647654739e8d8
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 7a9a8cc45cfaca970fa66826af0f024dcca986f6
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414998"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430798"
 ---
 # <a name="group-address-book---nextset"></a>Group Address Book - NextSet
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da NextSet,Inc. Sul modo in cui questa ap
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -63,17 +63,17 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Exchange Online PowerShell, 365 PowerShell | Sì | 365&#12398;&#12464;&#12523;&#12540;&#12503;&#12420;&#12518;&#12540;&#12470;&#12540;&#24773;&#22577;&#12398;&#12484;&#12522;&#12540; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; | &#32068;&#32340;&#21517;&#12420;ID&#12289;&#12518;&#12540;&#12470;&#12540;&#21517;&#12420;id&#12289;&#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#12408;&#12398;&#25152;&#23646;&#27083;&#25104; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; |
+>| Exchange Online PowerShell, 365 PowerShell | Sì | 365&#12398;&#12464;&#12523;&#12540;&#12503;&#12420;&#12518;&#12540;&#12470;&#12540;&#24773;&#22577;&#12398;&#12484;&#12522;&#12540; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; | &#32068;&#32340;&#21517;&#12420;ID&#12289;&#12518;&#12540;&#12470;&#12540;&#21517;&#12420;ID&#12289;&#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#12408;&#12398;&#25152;&#23646;&#27083;&#25104; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; |
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -131,4 +131,3 @@ Queste informazioni sono state fornite da NextSet,Inc. Sul modo in cui questa ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

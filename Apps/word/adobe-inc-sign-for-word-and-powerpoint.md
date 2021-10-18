@@ -1,5 +1,5 @@
 ---
-title: Application Information for Adobe Sign for Word and PowerPoint by Adobe Inc.
+title: Informazioni sull'applicazione per Adobe Sign per Word e PowerPoint di Adobe Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/22/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Adobe Sign per Word e PowerPoint, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5ed7e962014ea7cf2c63c2ff2bbcb97da3939233
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 199ab1c46f52102d9f6eb0e10a44c7c0603376bf
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411310"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430014"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign per Word e PowerPoint
 
@@ -32,7 +32,7 @@ Informazioni fornite da Adobe Inc. a Microsoft:
 |:----------------|:-------------|
 | Nome app | Adobe Sign per Word e PowerPoint |
 | ID | WA104381155 |
-| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 Service Pack 1 o versione successiva su Windows, PowerPoint 2016 o versione successiva su Mac, PowerPoint sul web, PowerPoint 2013 Service Pack 1 o versione successiva su Windows |
+| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 Service Pack 1 o versione successiva su Windows, PowerPoint 2016 o versioni successive su Mac, PowerPoint sul web, PowerPoint 2013 Service Pack 1 o versione successiva su Windows |
 | Nome società partner | Adobe Inc. |
 | URL del sito Web del partner | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | URL dell'informativa sulla privacy | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
@@ -63,9 +63,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 
 
@@ -129,4 +129,3 @@ Queste informazioni sono state fornite da Adobe Inc. Su come questa app gestisce
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

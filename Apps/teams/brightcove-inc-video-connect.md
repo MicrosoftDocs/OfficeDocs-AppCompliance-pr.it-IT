@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Brightcove Video Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 53b0ea912c57bb18b70a42712263aba6c4e67551
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e4496d019a73216088a4809f203745eb0a3fbcd9
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413087"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429203"
 ---
 # <a name="brightcove-video-connect"></a>Brightcove Video Connessione
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Brightcove Inc. Su come questa app rac
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -64,7 +64,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Fai riferimento a Brightcove&#8217;pagina del sottoprocessore: https://www.brightcove.com/en/legal/services-subprocessors | Schedule A of Brightcove&#8217;s DPA elenca le categorie di dati elaborati: https://files.brightcove.com/legal/en/cDPAv2.html | Schedule A of Brightcove&#8217;s DPA elenca i motivi per l'elaborazione di questi dati: https://files.brightcove.com/legal/en/cDPAv2.html |
+>| Fare riferimento a Brightcove&#8217;pagina del sottoprocessore: https://www.brightcove.com/en/legal/services-subprocessors | Schedule A of Brightcove&#8217;s DPA elenca le categorie di dati elaborati: https://files.brightcove.com/legal/en/cDPAv2.html | Schedule A of Brightcove&#8217;s DPA elenca i motivi per l'elaborazione di questi dati: https://files.brightcove.com/legal/en/cDPAv2.html |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -109,4 +109,3 @@ Queste informazioni sono state fornite da Brightcove Inc. Sul modo in cui questa
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

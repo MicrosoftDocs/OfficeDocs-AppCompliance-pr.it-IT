@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per PagerDuty, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a296483ba42328a306131aee8a2f29aed8d7006b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 7c929966d7ab24f4e353ced553ea89737d5b7058
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412836"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430174"
 ---
 # <a name="pagerduty"></a>PagerDuty
 
@@ -53,13 +53,13 @@ Queste informazioni sono state fornite da PagerDuty, Inc. Sul modo in cui questa
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| OnlineMeetings.ReadWrite | delegated | Dalla creazione/risposta alle riunioni vengono utilizzati campi di questo tipo: join_web_url, audioconferenze. Questi campi sono necessari per mostrare all'utente un collegamento a una riunione o modi alternativi per connettersi durante la riunione. | Salviamo: join_web_url, audioConferencing. Questi campi sono necessari per mostrare all'utente un collegamento a una riunione o modi alternativi per connettersi durante la riunione. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| TeamsAppInstallation.ReadForTeam | delegated | Using for adding pagerduty app to chat. | Using for adding pagerduty app to chat. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
->| TeamsAppInstallation.ReadWriteForTeam.All | delegated | Using for adding pagerduty app to chat. | Using for adding pagerduty app to chat. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
+>| TeamsAppInstallation.ReadForTeam | delegated | Uso per l'aggiunta di un'app pagerduty alla chat. | Uso per l'aggiunta di un'app pagerduty alla chat. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
+>| TeamsAppInstallation.ReadWriteForTeam.All | delegated | Uso per l'aggiunta di un'app pagerduty alla chat. | Uso per l'aggiunta di un'app pagerduty alla chat. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
 >| TeamsTab.ReadWrite.All | delegated | Uso per l'aggiunta di un'app pagerduty come scheda in riunione | Uso per l'aggiunta di un'app pagerduty come scheda in riunione | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
 >| User.Read | delegated | Vengono utilizzati i dati: id, userPrincipalName . Viene utilizzato per consentire agli utenti di Microsoft Teams di aggiungerli alla riunione come partecipanti | Vengono utilizzati i dati: id, userPrincipalName . Viene utilizzato per consentire agli utenti di Microsoft Teams di aggiungerli alla riunione come partecipanti | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
 >| User.ReadBasic.All | delegated | Vengono utilizzati i dati: id, userPrincipalName . Viene utilizzato per consentire agli utenti di Microsoft Teams di aggiungerli alla riunione come partecipanti | Vengono utilizzati i dati: id, userPrincipalName . Viene utilizzato per consentire agli utenti di Microsoft Teams di aggiungerli alla riunione come partecipanti | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
@@ -130,4 +130,3 @@ Queste informazioni sono state fornite da PagerDuty, Inc. Sul modo in cui questa
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

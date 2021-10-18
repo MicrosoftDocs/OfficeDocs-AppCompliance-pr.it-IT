@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SmartCite for Papers, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ec979feae01a67ca76dd5b5cfbb94eabac946c9a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 2a3821da8b8a3fc662f7c315229a1f667ab2a465
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60404658"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429434"
 ---
 # <a name="smartcite-for-papers"></a>SmartCite per i documenti
 
@@ -118,4 +118,3 @@ Queste informazioni sono state fornite da Digital Science su come questa app ges
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

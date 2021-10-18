@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per atSpoke, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 86a4512603429feff61ceeee485e8e4042bb9a6d
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 17fc89d254fd558c318c48de53456e9fa23054f7
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413308"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429824"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -75,20 +75,20 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Consente a atSpoke di sincronizzare gli utenti da Microsoft Teams creare utenti e definire le autorizzazioni. | atSpoke archivia solo la posta elettronica Microsoft Teams gli utenti possono accedere a atSpoke come utente valido. |  |
+>| Consente a atSpoke di sincronizzare gli utenti da Microsoft Teams creare utenti e definire le autorizzazioni. | atSpoke archivia solo il messaggio di posta elettronica Microsoft Teams gli utenti possono accedere a atSpoke come utente valido. |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Nei registri dell'applicazione sono contenuti il nome e il cognome dell'utente, l'indirizzo di posta elettronica dell'utente e l'ID oggetto assegnato ad Azure per utenti e gruppi. I log vengono conservati solo per 14 giorni, a quel punto scadono automaticamente. L'accesso ai log è protetto da manomissioni e solo determinati membri del personale hanno accesso per visualizzare i registri.
+>Nei registri dell'applicazione sono contenuti il nome e il cognome dell'utente, l'indirizzo di posta elettronica dell'utente e l'ID oggetto assegnato ad Azure per utenti e gruppi. I registri vengono conservati solo per 14 giorni, a quel punto scadono automaticamente. L'accesso ai log è protetto da manomissioni e solo determinati membri del personale hanno accesso per visualizzare i registri.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati dell'applicazione vengono archiviati in un'istanza gestita di MongoDB. L'accesso al servizio gestito Atlas MongoDB Database viene eseguito tramite un processo di richiesta di accesso utente standardizzato che richiede l'approvazione. Le revisioni periodiche dell'accesso utente vengono eseguite con l'accesso alla gestione. Microsoft limita il numero di membri del personale con accesso ai dati sensibili dei clienti e non consente la modifica diretta dei dati provenienti da alcun computer.&#8232; L'accesso remoto a questo database richiede l'autenticazione a più fattori. Il database e tutti i backup vengono crittografati in fase di ripristino utilizzando la crittografia AES-256 bit.
+>I dati dell'applicazione vengono archiviati in un'istanza gestita di MongoDB. L'accesso al servizio gestito Atlas MongoDB Database viene eseguito tramite un processo di richiesta di accesso utente standardizzato che richiede l'approvazione. Le revisioni periodiche dell'accesso utente vengono eseguite con l'accesso alla gestione. Microsoft limita il numero di membri del personale con accesso ai dati sensibili dei clienti e non consente la modifica diretta dei dati da alcun computer.&#8232; L'accesso remoto a questo database richiede l'autenticazione a più fattori. Il database e tutti i backup vengono crittografati in fase di ripristino utilizzando la crittografia AES-256 bit.
 
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
@@ -112,5 +112,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

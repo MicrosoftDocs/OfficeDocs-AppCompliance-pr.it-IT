@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Jetdocs, i relativi criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 598832239c67b4c470695f7a3f07ef3488dd6e74
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 64a1c2620f9d3d94eef1eb93360dae3a4c227897
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413758"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429354"
 ---
 # <a name="jetdocs"></a>Jetdocs
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da Jetdocs su come questa app raccoglie e
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -80,7 +80,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati sono attualmente archiviati in un database AWS. L'accesso viene controllato tramite un gruppo di sicurezza che consente solo all'applicazione back-end distribuita di accedervi, nonché gli INDIRIZZI IP consentiti per gli sviluppatori di amministratori all'interno dell'azienda (attualmente solo alex@jetdocs.io IP personale). I dati archiviati vengono crittografati.
+>I dati sono attualmente archiviati in un database AWS. L'accesso è controllato tramite un gruppo di sicurezza che consente solo all'applicazione back-end distribuita di accedervi, nonché gli INDIRIZZI IP consentiti per gli sviluppatori di amministratori all'interno dell'azienda (attualmente solo alex@jetdocs.io IP personale). I dati archiviati vengono crittografati.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -103,5 +103,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

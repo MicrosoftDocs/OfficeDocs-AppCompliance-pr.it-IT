@@ -6,14 +6,14 @@ ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per DELTAoverC, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per DELTAoverC, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 63e6f41e0d86b1df0a334c5a0f8376724ac7dfcb
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 5b640e56d5ad99ceebf7ddc4fed4c2a9b783d93d
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411784"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428613"
 ---
 # <a name="deltaoverc"></a>DELTAoverC
 
@@ -57,16 +57,16 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| GroupMember.Read.All | delegated | Vengono recuperati i dettagli del tenant, gli utenti di Office365 e i gruppi del tenant. Questi dati sono necessari per eseguire determinate azioni in un'app. | id tenant, nome tenant, URL tenant, indirizzo 1, indirizzo 2, Paese, stato, Capcodice, numero Telefono, contatto primario, posta elettronica utente | [4c9110eb-5991-4def-acf3-3332325d708f](https://docs.microsoft.com/microsoft-365-app-certification/azure/4c9110eb-5991-4def-acf3-3332325d708f) |
+>| GroupMember.Read.All | delegated | Vengono recuperati i dettagli del tenant, gli utenti di Office365 e i gruppi del tenant. Questi dati sono necessari per eseguire determinate azioni in un'app. | id tenant, nome tenant, URL tenant, indirizzo 1, indirizzo 2, Paese, stato, Capcodice, numero Telefono, contatto principale, posta elettronica utente | [4c9110eb-5991-4def-acf3-3332325d708f](https://docs.microsoft.com/microsoft-365-app-certification/azure/4c9110eb-5991-4def-acf3-3332325d708f) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Recuperiamo i dettagli del tenant dell'organizzazione quando un'APP viene aggiunta per la prima volta per identificarla come client. Non vengono trasferite altre informazioni. Questi dati vengono trasferiti in un'app Web ospitata in Azure da MS Teams. | ID tenant, Nome tenant, URL tenant, Indirizzo 1, Indirizzo 2, Paese, Stato, Capcodice, Telefono, Contatto principale. | Le informazioni sull'organizzazione vengono recuperate quando un'APP viene aggiunta per la prima volta per identificarla come client. |
+>| Recuperiamo i dettagli del tenant dell'organizzazione quando un'APP viene aggiunta per la prima volta per identificarla come client. Non vengono trasferite altre informazioni. Questi dati vengono trasferiti in un'app Web ospitata in Azure da MS Teams. | ID tenant, Nome tenant, URL tenant, Indirizzo 1, Indirizzo 2, Paese, Stato, Capcodice, numero Telefono, Contatto principale. | Le informazioni sull'organizzazione vengono recuperate quando un'APP viene aggiunta per la prima volta per identificarla come client. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -102,7 +102,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da DELTAoverC su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Queste informazioni sono state fornite da DELTAoverC sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -124,4 +124,3 @@ Queste informazioni sono state fornite da DELTAoverC su come questa app gestisce
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

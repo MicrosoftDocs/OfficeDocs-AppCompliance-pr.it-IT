@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Smart Connessione per Jira, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4342897ef390842396e62798debc54e146a979e3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3c5dbcb87b2d99c727b01ff903ec9daf83935978
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413257"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430284"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect for Jira
 
@@ -144,4 +144,3 @@ Queste informazioni sono state fornite da yasoon GmbH sul modo in cui questa app
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

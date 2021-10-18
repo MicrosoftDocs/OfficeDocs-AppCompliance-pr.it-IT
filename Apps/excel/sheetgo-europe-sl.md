@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Sheetgo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 491049af0b675c477fce225476afb1e05919ae2a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a08a105f6dd7aa04035d23cb11e35893e864850f
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414812"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430264"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -51,18 +51,18 @@ Queste informazioni sono state fornite da SHEETGO EUROPE SL su come questa app r
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| MongoDB: Registrare i dati del sistema e degli utenti per funzionare, Google BigQuery: Registrare l'utilizzo dei registri di sistema, Google Firestore: Un sistema che gestisce e orchestra lo stato dei nostri microservizi, Stripe: Sistema di pagamento |  | Queste applicazioni non usano API Microsoft aggiuntive |
+>| MongoDB: registrare i dati del sistema e degli utenti per funzionare, Google BigQuery: Registrare l'utilizzo dei registri di sistema, Google Firestore: Un sistema che gestisce e orchestra lo stato dei nostri microservizi, Stripe: Sistema di pagamento |  | Queste applicazioni non usano API Microsoft aggiuntive |
 
 
 
@@ -70,7 +70,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Telemetria/log include l'indirizzo di posta elettronica dell'utente solo come informazioni identificabili dall'utente finale. Quando richiesto dall'utente, il team di supporto dell'applicazione esegue una routine automatica interna che sfoca gli indirizzi di posta elettronica tra telemetria/log e rende i dati dell'utente non più identificabili.
+>Telemetria/registri include l'indirizzo di posta elettronica dell'utente solo come informazioni identificabili dall'utente finale. Quando richiesto dall'utente, il team di supporto dell'applicazione esegue una routine automatica interna che sfoca gli indirizzi di posta elettronica tra telemetria/log e rende i dati dell'utente non più identificabili.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -101,5 +101,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

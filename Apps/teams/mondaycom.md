@@ -6,14 +6,14 @@ ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per monday.com, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per monday.com, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9cd1bfefcd9a56e23cae31f18638cea652d1becd
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: bcac468f04682f2f574868fc574de82863dec690
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415043"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429904"
 ---
 # <a name="mondaycom"></a>monday.com
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da monday.com su come questa app raccogli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -76,7 +76,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->monday.com vengono archiviati i log delle applicazioni che contengono contenuto generato dagli utenti per un periodo di tempo limitato per consentire al personale R D di risolvere i bug e i problemi segnalati &amp; dagli utenti. I registri di sicurezza che contengono indirizzi IP vengono conservati per un periodo di tempo più lungo, in base ai criteri di conservazione dei dati.
+>monday.com i log delle applicazioni che contengono contenuto generato dagli utenti per un periodo di tempo limitato per consentire al personale R D di risolvere i bug e i problemi segnalati &amp; dagli utenti. I registri di sicurezza che contengono indirizzi IP vengono conservati per un periodo di tempo più lungo, in base ai criteri di conservazione dei dati.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -131,4 +131,3 @@ Queste informazioni sono state fornite da monday.com su come questa app gestisce
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

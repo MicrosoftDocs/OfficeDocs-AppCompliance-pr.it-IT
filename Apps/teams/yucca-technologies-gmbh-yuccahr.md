@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per yuccaHR, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: f97ff60095ef47effd6e1e4c741a5cecaba0c594
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 74da74ff7eb808b2f0903a4bfce25f2fae7ebf03
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412676"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429314"
 ---
 # <a name="yuccahr"></a>yuccaHR
 
@@ -58,7 +58,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | application |  Creazione di appuntamenti per conoscere due dipendenti, in base a slot gratuiti.  | - | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
 >| Channel.ReadBasic.All | application | Configurazione di una campagna. (rete dei dipendenti) | ObjectId. Per richiedere la risorsa di canale. | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| ChannelMember.Read.All | application | ObjectIds dei membri nel canale per avviare una campagna di creazione di corrispondenze. | ObjectId. Per tenere traccia della corrispondenza tra dipendenti. | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| ChannelMember.Read.All | application | ObjectIds dei membri nel canale per avviare una campagna di creazione di corrispondenze. | ObjectId. Per tenere traccia della corrispondenza tra i dipendenti. | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
 >| Group.Read.All | application |   Configurazione della campagna (rete dei dipendenti). | ObjectId. Per richiedere la risorsa del team. | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
 >| MailboxSettings.Read | application | Determinazione della lingua preferita e della navigazione per chattare con il rispettivo dipendente. | - | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
 >| User.Read.All | application | Name, ObjectId, UserPrinzipalName. Spostamento nella chat con il rispettivo dipendente. | - | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
@@ -127,4 +127,3 @@ Queste informazioni sono state fornite da Yucca Technologies GmbH sul modo in cu
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

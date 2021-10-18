@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per HelloSign per SharePoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 5ff681f19369a1020cd67e6c161fb1a1dcca135e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: fb96325377e779b0bb933aef7238baa38e0c9380
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412095"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428419"
 ---
 # <a name="hellosign-for-sharepoint"></a>HelloSign per SharePoint
 
@@ -69,11 +69,11 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| https://www.hellosign.com/subprocessors | Posta elettronica, ID tenant, ID sito | JN Projects, Inc. dba HelloSign (&#8220;HelloSign&#8221;) usa alcuni sottoprocessori per fornire i nostri servizi. Microsoft utilizza provider di servizi che possono archiviare ed elaborare i dati personali relativi all'utente e agli utenti finali (ognuno dei quali &#8220;Sub-Processor&#8221;). Questa pagina fornisce informazioni importanti sull'identità, la posizione e il ruolo di questi sub-processori materiali. I termini utilizzati in questa pagina, ma non definiti, hanno il significato definito nel Contratto di servizio (il contratto &#8220;contratto&#8221;). |
+>| https://www.hellosign.com/subprocessors | Posta elettronica, ID tenant, ID sito | JN Projects, Inc. dba HelloSign (&#8220;HelloSign&#8221;) usa alcuni sottoprocessori per fornire i nostri servizi. Microsoft utilizza provider di servizi che possono archiviare ed elaborare i dati personali relativi all'utente e agli utenti finali (ognuno dei quali &#8220;Sub-Processor&#8221;). In questa pagina vengono fornite informazioni importanti sull'identità, sulla posizione e sul ruolo di questi sub-processori materiali. I termini utilizzati in questa pagina, ma non definiti, hanno il significato definito nel Contratto di servizio (&#8220;Agreement&#8221;). |
 
 
 
@@ -124,4 +124,3 @@ Queste informazioni sono state fornite da Dropbox Inc. Sul modo in cui questa ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

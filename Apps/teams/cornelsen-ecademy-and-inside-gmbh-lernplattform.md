@@ -6,14 +6,14 @@ ms.date: 08/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per eCademy Lernplattform, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per eCademy Lernplattform, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6149d1358d4cf0531386724f40ae112e2d13b81e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a6108725baabc61e0033e0a3500b7ee80269785f
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410319"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428633"
 ---
 # <a name="ecademy-lernplattform"></a>eCademy Lernplattform
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Cornelsen eCademy all'interno di GmbH 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -64,7 +64,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Intercom, Segment, Google Cloud, MailJet, Mixpanel, Honeycomb, Sentry, Heroku | vedere il documento sulla sicurezza dei dati/privacy dei dati. | L Teams'app è solo un'integrazione con schede, è necessaria L'OII per eseguire l'orchestrazione del servizio. |
+>| Intercom, Segment, Google Cloud, MailJet, Mixpanel, Honeycomb, Sentry, Heroku | vedere il documento sulla sicurezza dei dati/privacy dei dati. | L Teams app è solo un'integrazione con schede, è necessario OII per eseguire l'orchestrazione del servizio. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -109,4 +109,3 @@ Queste informazioni sono state fornite da Cornelsen eCademy all'interno di GmbH 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

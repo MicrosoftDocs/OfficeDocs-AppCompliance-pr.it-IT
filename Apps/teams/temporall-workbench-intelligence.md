@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Workbench Intelligence, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7adf907a083a4fcf5c7c57fe0cf048ba771d0d6e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4aaa94f3a1319a2eb06e332e1f23d4c5a1f07439
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414432"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429023"
 ---
 # <a name="workbench-intelligence"></a>Workbench Intelligence
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da Temporall su come questa app raccoglie
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -63,7 +63,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 >| Directory.Read.All | application | ClientId, Elenco di utenti, elenco di organizzazioni e canali secondari. Giustificazione: necessario per leggere gli utenti &amp; di sincronizzazione in Temporall Workbench | User Name, Email, Icon, Conversational Reference. Justification:&#160;Temporall Workbench consente agli utenti di filtrare e classificare i dati in base ai canali. I dati dell'organizzazione vengono archiviati per riconnettersi ai team dopo l'installazione | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 >| Group.ReadWrite.All | application | Nome ID &amp; gruppo. Giustificazione: per installare l'app in ogni gruppo/canale | Nome id &amp; gruppo insieme all'oggetto dati non elaborati per riferimento. Giustificazione: Temporall Workbench consente agli utenti di filtrare e classificare i dati in base a gruppi/team. Questi dati non elaborati vengono salvati per fare riferimento all'oggetto originale | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 >| TeamMember.Read.All | application | Appartenenza degli utenti al team. Giustificazione: consente la sincronizzazione di tutti gli utenti in Teams con Temporall Workbench | Indirizzo di posta elettronica, nome e cognome. Giustificazione: consentire la corrispondenza degli utenti nei team con gli utenti in Temporall Workbench per consentire la sincronizzazione degli utenti tramite posta elettronica. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamsAppInstallation.ReadWriteForTeam.All | application | Leggi l'elenco delle app installate per Team. Giustificazione: controlla se l'app è già installata altrimenti la installa per essere in grado di ottenere l'attività dei messaggi tramite l'api graph | N/D | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
+>| TeamsAppInstallation.ReadWriteForTeam.All | application | Leggi l'elenco delle app installate per Team. Giustificazione: verificare se l'app è già installata altrimenti la installa per essere in grado di ottenere l'attività dei messaggi tramite l'api graph | N/D | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 >| TeamsAppInstallation.ReadWriteForUser.All | application | Leggi l'elenco delle app installate. Controlla se l'app è già installata altrimenti la installa per interagire con l'utente tramite un questionario | ND | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 >| User.Read | delegated | Informazioni di base &amp; sull'azienda dell'utente. Giustificazione: usato per classificare l'attività dei messaggi per utente, consente al bot di partecipare alla messaggistica proattiva. | User Name, Email, Icon, Conversational Reference. Giustificazione: consente al bot di inviare in modo proattivo messaggi agli utenti con informazioni pertinenti. Utenti del gruppo per la visualizzazione dei dati | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 
@@ -131,4 +131,3 @@ Queste informazioni sono state fornite da Temporall su come questa app gestisce 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

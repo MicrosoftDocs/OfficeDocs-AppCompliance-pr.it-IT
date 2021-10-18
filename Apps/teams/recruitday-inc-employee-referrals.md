@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per le segnalazioni dei dipendenti, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d83797a31c7ec68009ebf17773c3b8d2fe587fce
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3f169a817828d56501225bd8a92752ec7f799771
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413466"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428983"
 ---
 # <a name="employee-referrals"></a>Referenze dipendenti
 
@@ -122,4 +122,3 @@ Queste informazioni sono state fornite da Recruitday Inc. Su come questa app ges
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

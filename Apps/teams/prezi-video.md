@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Prezi Video, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a6e3cf632919160819471385eff35cdf82f005e3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b85c9508c1090afd8faa2c86cff23f58af70f03d
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414963"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430395"
 ---
 # <a name="prezi-video"></a>Prezi Video
 
@@ -52,14 +52,14 @@ Queste informazioni sono state fornite da Prezi su come questa app raccoglie e a
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -87,7 +87,7 @@ Descrivere in che modo gli amministratori dell'organizzazione possono controllar
 
 >In un database RDS vengono archiviate le informazioni seguenti:
 
-1. Azure Active Directory ID oggetto (indicato dall'API come aad_object_id) viene archiviato per recuperare un Microsoft Teams utente&#8217;video. Il aad_object_id viene recuperato in modo sicuro usando l'sdk botbuilder ufficiale di Microsoft&#8217;sui nostri server.
+1. Azure Active Directory'ID oggetto (indicato dall'API come aad_object_id) viene archiviato per recuperare un Microsoft Teams utente&#8217;video. Il aad_object_id viene recuperato in modo sicuro usando l'sdk botbuilder ufficiale di Microsoft&#8217;sui nostri server.
 
 2. Collegamenti video creati in prezi.com. Il contenuto creato prezi.com viene archiviato in base alla sezione 14 nell'URL seguente: https://prezi.com/privacy-policy/ 
 
@@ -118,5 +118,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

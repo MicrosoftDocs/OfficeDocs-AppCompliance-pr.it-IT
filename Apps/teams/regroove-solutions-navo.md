@@ -6,14 +6,14 @@ ms.date: 01/20/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Navo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Navo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 554d59fbb03382ab517bb2f928823a33b2ec4ee0
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: eb66654c0780e7b743b30c1a1397d6679805a1e3
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411531"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428523"
 ---
 # <a name="navo"></a>Navo
 
@@ -52,17 +52,17 @@ Queste informazioni sono state fornite da Regroove Solutions sul modo in cui que
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | application | Il numero di utenti viene archiviata ed eseguita una query una sola volta per ogni ciclo di fatturazione. Usiamo anche l'ID tenancy come ID per l'organizzazione. | Ci consente di contare il numero di utenti presenti nella tenancy, che usiamo per scopi di fatturazione. Ci consente inoltre di eseguire query per vedere in quali gruppi si trova un utente, in modo da poter usare la limitazione per motivi di sicurezza per proteggere determinati dati. Viene inoltre eseguita una query sull'ID tenancy dell'organizzazione. | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
+>| Directory.Read.All | application | Il numero di utenti viene archiviata ed eseguita una query una sola volta per ogni ciclo di fatturazione. Usiamo anche l'ID tenancy come ID per l'organizzazione. | Ci consente di contare il numero di utenti presenti nella tenancy, che usiamo a scopo di fatturazione. Ci consente inoltre di eseguire query per vedere in quali gruppi si trova un utente, in modo da poter usare la limitazione per motivi di sicurezza per proteggere determinati dati. Viene inoltre eseguita una query sull'ID tenancy dell'organizzazione. | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 >| User.Read | delegated | Nessun dato archiviato | Accedere e leggere il profilo utente | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -108,5 +108,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

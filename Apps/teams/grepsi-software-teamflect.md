@@ -6,14 +6,14 @@ ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Teamflect, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Teamflect, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 99c3dad8bedb9cf986207cb577ca7d58aa8cbef1
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 93fa21382d60f73ebed1a843700f34061e52fd43
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410229"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429624"
 ---
 # <a name="teamflect"></a>Teamflect
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da Grepsi Software su come questa app rac
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -87,7 +87,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Microsoft usa Microsoft Azure per ospitare i server applicazioni e i database. Usiamo solo un servizio di posta elettronica di terze parti per recapitare notifiche tramite posta elettronica ai nostri utenti. Questo sistema di posta elettronica di terze parti archivia gli indirizzi di posta elettronica dell'utente finale, ma è controllato da microsoft in base ai criteri di conservazione e privacy dei dati.
+>Usiamo i Microsoft Azure per ospitare i server applicazioni e i database. Usiamo solo un servizio di posta elettronica di terze parti per recapitare notifiche tramite posta elettronica ai nostri utenti. Questo sistema di posta elettronica di terze parti archivia gli indirizzi di posta elettronica dell'utente finale, ma è controllato da microsoft in base ai criteri di conservazione e privacy dei dati.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -126,4 +126,3 @@ Queste informazioni sono state fornite da Grepsi Software sul modo in cui questa
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

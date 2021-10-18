@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Report Builder, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: eaba58a8a2a63b51dad4489c1104dc5d38ae51b1
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: dcaed8c47b599a581f61097e55f42a1e0f2a3b92
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412155"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429264"
 ---
 # <a name="report-builder"></a>Report Builder
 
@@ -58,11 +58,11 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Adobe Analytics  | Nome utente di accesso, Organizzazione di accesso | Supporto per gli utenti: vogliamo garantire che tutte le funzionalità implementate nell'applicazione funzionino correttamente. Monitorando la frequenza con cui una funzionalità viene usata nell'app, possiamo rilevare un calo di utilizzo che potrebbe essere il risultato di un difetto di regressione introdotto nella base di codice. Questo monitoraggio è esclusivamente a vantaggio dell'utente finale. Monitoriamo il nome utente in modo che se si verifica un arresto anomalo, potremmo contattarlo per il supporto personalizzato |
+>| Adobe Analytics  | Nome utente di accesso, Organizzazione di accesso | Supporto per gli utenti: vogliamo garantire che tutte le funzionalità implementate nell'applicazione funzionino correttamente. Monitorando la frequenza di utilizzo di una funzionalità nell'app, possiamo rilevare un calo di utilizzo che potrebbe essere il risultato di un difetto di regressione introdotto nella codebase. Questo monitoraggio è esclusivamente a vantaggio dell'utente finale. Monitoriamo il nome utente in modo che se si verifica un arresto anomalo, potremmo contattarlo per il supporto personalizzato |
 
 
 
@@ -102,4 +102,3 @@ Queste informazioni sono state fornite da Adobe Inc. Su come questa app gestisce
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

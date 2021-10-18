@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per i Risolutori QuickCells, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: df49b24ba9d9d2164866a507aacf795523ce8dde
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 1df93f3ba6bbf027344333199f2d3a232413eaf1
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414230"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429254"
 ---
 # <a name="quickcells-solvers"></a>Risolutori QuickCells
 
@@ -123,4 +123,3 @@ Queste informazioni sono state fornite da CC-1C sul modo in cui questa app gesti
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
