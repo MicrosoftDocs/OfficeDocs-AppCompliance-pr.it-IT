@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Bigfish, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 62e1b0e1c5ed31582c55777c25be9c9a02b66691
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6302db518cf198c7c85e4603a4f163fcf5966094
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413900"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430878"
 ---
 # <a name="bigfish"></a>Bigfish
 
@@ -106,4 +106,3 @@ Queste informazioni sono state fornite da Pvt di Pvt. Ltd. su come questa app ge
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

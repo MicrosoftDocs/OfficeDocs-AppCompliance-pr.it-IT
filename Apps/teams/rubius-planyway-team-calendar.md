@@ -6,14 +6,14 @@ ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per planyway Team Calendar, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per il calendario del team di Planyway, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d118e41b6c93f2eca85b86f870240f31f9911dd1
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 560e562383d317e3940876627f99559b708f8687
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412780"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430978"
 ---
 # <a name="planyway-team-calendar"></a>Planyway Team Calendar
 
@@ -118,4 +118,3 @@ Queste informazioni sono state fornite da Rubius su come questa app gestisce l'a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per i criteri LTAP del processo di approvazione multipla, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: e605fa6dd849def2c87e611182a47c80c895ff99
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d294d48e99a87e6516488fa4b6eca1257390ceaa
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410159"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60431018"
 ---
 # <a name="multi-approval-process-ltapps"></a>LTAPP processo di approvazione multipla
 
@@ -127,4 +127,3 @@ Queste informazioni sono state fornite da LTAPPs SOFTWARE CO.,LTD su come questa
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

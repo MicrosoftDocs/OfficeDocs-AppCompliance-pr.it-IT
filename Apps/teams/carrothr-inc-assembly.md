@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Assembly, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3597930ccf3200a42afe3ac7335199cbe5e9e885
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: ec566b8195ee476fa1b971cd638ebc1899a3a629
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411110"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430868"
 ---
 # <a name="assembly"></a>Assembly
 
@@ -62,15 +62,15 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Group.Read.All | delegated | Osserviamo i dati per essere certi che possano assegnare l'app al gruppo corretto | I gruppi non vengono archiviati | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
 >| Teams. ReadBasic.All | application | Possibilità di assegnare l'app alla scheda del team corretta | We don't store teams expect the one we're appended to  | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
 >| TeamsTab.Create | application | Lo usiamo per consentire all'app di essere accodata correttamente a un canale/team | Non stiamo raccogliendo o archiviando i dati delle schede | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| email | delegated | Posta elettronica dell'utente in modo che possiamo concedere loro l'accesso al loro account specifico | Posta elettronica dell'utente in modo che possiamo concedere loro l'accesso al proprio account specifico e abbinare le identità | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| email | delegated | Posta elettronica dell'utente in modo che possiamo concedere loro l'accesso al proprio account specifico | Posta elettronica dell'utente in modo che possiamo concedere loro l'accesso al proprio account specifico e abbinare le identità | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
 >| profile | delegated | Nome utente per popolare automaticamente Assembly e mantenere la sincronizzazione con le modifiche Microsoft Teams | Nome completo dell'utente | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -139,4 +139,3 @@ Queste informazioni sono state fornite da CarrotHR Inc. Sul modo in cui questa a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
