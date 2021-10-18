@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Kazoo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 4e12a15bcbf86c36829c45d6d7b9c528a798848f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d4bd65ea0c358fb8913f740e160bdc063a17c882
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412906"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60423178"
 ---
 # <a name="kazoo"></a>Kazoo
 
@@ -108,4 +108,3 @@ Queste informazioni sono state fornite da Kazoo sul modo in cui questa app gesti
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

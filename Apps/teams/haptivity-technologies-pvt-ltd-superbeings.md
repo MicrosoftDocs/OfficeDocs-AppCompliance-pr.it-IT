@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SuperBeings, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 22b42969049261c0456cd6ce842f64255b907423
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d16100c156419c55e199268168cfb9d667e00802
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411654"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430475"
 ---
 # <a name="superbeings"></a>SuperBeings
 
@@ -92,7 +92,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Tutti i nostri partner sono conformi al GDPR. In questo modo è possibile richiedere l'eliminazione/archiviazione e la conservazione dei dati per tutti i sistemi utilizzati da SuperBeings o con cui interagisce.
+>Tutti i nostri partner sono conformi al GDPR. In questo modo possiamo richiedere l'eliminazione/archiviazione e la conservazione dei dati per tutti i sistemi che SuperBeings usa o interagisce.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -118,4 +118,3 @@ Queste informazioni sono state fornite da Haptivity Technologies Pvt Ltd su come
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

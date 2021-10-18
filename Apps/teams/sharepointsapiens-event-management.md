@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per la gestione degli eventi da SharePoint| Sapiens
+title: Application Information for Event Management by SharePoint| Sapiens
 ms.author: elmalova
 author: elenamalova
 ms.date: 07/27/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per La gestione degli eventi, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 74e6e3963a03ff6cc6da44ffc33184f6b5fe1cf9
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6c01ea167bc634296e6eb9972192db14f61839a9
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412756"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60423108"
 ---
 # <a name="event-management"></a>Gestione eventi
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da SharePoint| Sapiens su come questa app
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -61,7 +61,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -73,7 +73,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Mailgun.com (facoltativo), Stripe.com (facoltativo) | Nome e indirizzo della società per la fatturazione se viene Stripe.com per la fatturazione, inviti del calendario e risposte all'indirizzo e-mail degli utenti se mailgun viene utilizzato come servizio di posta | Se si sceglie di utilizzare il servizio di posta elettronica anziché il servizio di posta elettronica online di Exchange, i servizi inviano e ricevono posta elettronica tramite l'API e l'infrastruttura di mailgun. Se si sceglie di utilizzare la propria cassetta Exchange, nessun dato verrà elaborato da mailgun. Se si sceglie di utilizzare la carta di credito per pagare le tariffe di sottoscrizione, i dati raccolti verranno controllati ed elaborati da stripe.com. Se si sceglie di acquistare tramite ordine di acquisto e fattura anziché con carta di credito, nessun dato verrà elaborato da stripe.com. |
+>| Mailgun.com (facoltativo), Stripe.com (facoltativo) | Nome e indirizzo della società per la fatturazione se viene Stripe.com per la fatturazione, inviti del calendario e risposte all'indirizzo e-mail degli utenti se mailgun viene utilizzato come servizio di posta | Se si sceglie di utilizzare il servizio di posta elettronica anziché il servizio di posta elettronica online di Exchange, i servizi inviano e ricevono posta elettronica tramite l'API e l'infrastruttura di mailgun. Se si sceglie di utilizzare la propria cassetta Exchange, nessun dato verrà elaborato da mailgun. Se si sceglie di utilizzare la carta di credito per pagare le tariffe di sottoscrizione, i dati raccolti verranno controllati ed elaborati da stripe.com. Se scegli di acquistare tramite ordine di acquisto e fattura invece della carta di credito, nessun dato verrà elaborato da stripe.com. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -86,7 +86,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Non verrà archiviato alcun euII. TenantID e SharePoint dominio verranno archiviati nella telemetria dell'app. I log e i dati di telemetria verranno archiviati per 90 giorni.
+>Non verrà archiviata alcuna euii. TenantID e SharePoint dominio verranno archiviati nella telemetria dell'app. I log e i dati di telemetria verranno archiviati per 90 giorni.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -141,4 +141,3 @@ Queste informazioni sono state fornite da SharePoint| Sapiens su come questa app
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

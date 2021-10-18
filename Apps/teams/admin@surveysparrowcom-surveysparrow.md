@@ -6,14 +6,14 @@ ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per SurveySparrow, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per SurveySparrow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0abbaa0a9615c1196a56efc3e07e893c1f964e1f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 8f7e8743f6221e73f900a2bf3a58b3f5dabd0598
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411975"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427888"
 ---
 # <a name="surveysparrow"></a>SurveySparrow
 
@@ -132,4 +132,3 @@ Queste informazioni sono state fornite da admin@surveysparrow.com su come questa
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

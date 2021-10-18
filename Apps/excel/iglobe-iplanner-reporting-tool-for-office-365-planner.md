@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per lo strumento di creazione di report iPlanner per Office 365 Planner, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ac38f244a862b89ee17ded8ce1432fdb00fb451a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 354eaa3d38bd05834d7083a52ee6f5b723aaab64
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411270"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428168"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>Strumento di reporting iPlanner per Office 365 Planner
 
@@ -63,15 +63,15 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| Mail.Read | delegated | Nessun dato viene archiviato nei database dell'applicazione. | User.Read, per ottenere l'attività di pianificazione Outlook To Do messaggi di posta elettronica contrassegnati e aggiornarli. Per creare una nuova attività di Planner | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Per visualizzare i messaggi e inviare posta. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Ottenere l'oggetto della posta dal messaggio selezionato. Consente all'app di ottenere informazioni dal messaggio di posta elettronica selezionato, consentendo di copiare il campo della descrizione nella descrizione dell'attività e di salvare gli allegati dalla posta o dalla posta stessa all'attività. Invia notifica. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Tasks.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Per ottenere l'accesso degli utenti Outlook To Do e aggiornare User.Read, per ottenere l'attività di pianificazione Outlook To Do, contrassegnare i messaggi di posta elettronica e aggiornarli. Per creare una nuova attività di Planner. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Tasks.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Per ottenere gli utenti connessi Outlook To Do e aggiornare User.Read, per ottenere l'attività di pianificazione Outlook To Do, contrassegnare i messaggi di posta elettronica e aggiornarli. Per creare una nuova attività di Planner. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Accedere e leggere il profilo utente | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 
 
@@ -79,7 +79,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->iGlobe raccoglie i dati per operare in modo efficace e offrire le migliori esperienze con i nostri prodotti e servizi. Per le licenze: dati raccolti per amministrare l'&#8217;dell'organizzazione, ad esempio quando si distribuisce un componente aggiuntivo gratuito, si crea una sottoscrizione di valutazione o si acquista una sottoscrizione. Vengono raccolte le informazioni seguenti. 
+>iGlobe raccoglie i dati per operare in modo efficace e offrire le migliori esperienze con i nostri prodotti e servizi. Per le licenze: dati raccolti per amministrare l'&#8217;account di licenza dell'organizzazione, ad esempio quando si distribuisce un componente aggiuntivo gratuito, si crea una sottoscrizione di valutazione o si acquista una sottoscrizione. Vengono raccolte le informazioni seguenti. 
 - Per scopi finanziari: nome e indirizzo della società
 - Utenti sottoscritti: nome utente e posta elettronica
 
@@ -110,5 +110,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

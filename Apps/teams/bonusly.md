@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Bonusly, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ae9017d8a1f7b1493880f38d9427d169dc8f0021
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: af3e80fd1fd37b6e9d6e356d3130a0ad9ed3500c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410400"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428148"
 ---
 # <a name="bonusly"></a>Bonusly
 
@@ -77,7 +77,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Sì, i messaggi di posta elettronica degli utenti vengono visualizzati nei log durante l'interazione con il Teams bot. I dati del registro vengono archiviati per un anno e quindi rimossi.
+>Sì, i messaggi di posta elettronica degli utenti vengono visualizzati nei log quando interagiscono con il Teams bot. I dati del registro vengono archiviati per un anno e quindi rimossi.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -101,5 +101,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

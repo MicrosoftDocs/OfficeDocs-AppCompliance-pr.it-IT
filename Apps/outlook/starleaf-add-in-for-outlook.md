@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per il componente aggiuntivo StarLeaf per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a47dfedd6354fae038e4fbcc3ed768866fd8aec2
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: abf5b74e015e427d90ddaabee09a51846261f4cc
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413518"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427908"
 ---
 # <a name="starleaf-add-in-for-outlook"></a>Componente aggiuntivo StarLeaf per Outlook
 
@@ -51,12 +51,12 @@ Queste informazioni sono state fornite da StarLeaf su come questa app raccoglie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | application | vengono archiviati l'iCalUId delle riunioni, l'ora/data della riunione, gli indirizzi di posta elettronica dei partecipanti e una proprietà estesa a valore singolo che viene letta e scrittura nella riunione utilizzando l'interfaccia delle proprietà personalizzate di Office.js. ICalUId viene utilizzato per correlare la riunione in un&#8217;calendario di Outlook con la riunione video nel servizio. L'ora/data e i partecipanti vengono utilizzati per fornire una riunione video al momento giusto alle persone giuste nel nostro servizio. SVEP viene usato con il componente aggiuntivo di O365 per fornire un'interfaccia per gli utenti per impostare i dettagli sulla riunione video nel servizio, ad esempio la registrazione. | usato per sottoscrivere le notifiche webhook per tenere traccia delle modifiche degli utenti agli eventi nei propri calendari e aggiornare il servizio per mantenerlo coerente. Viene usato anche per creare eventi nel calendario quando un utente interagisce con l'app Teams e pianifica una riunione nel servizio. | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
->| User.Read | application | archiviamo il token di aggiornamento oauth per poter eseguire l'accesso. Archiviamo l'ID del profilo degli utenti per essere in grado di confrontare i futuri tentativi OAuth di quell'utente e garantiamo che non&#8217;i loro dettagli due volte.  | consenti agli utenti di accedere all'app e consente all'app di ottenere l&#8217;'indirizzo di posta elettronica dell'utente per correlare l'accesso con un account nel servizio.  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
+>| User.Read | application | archiviamo il token di aggiornamento oauth per poter eseguire l'accesso. Archiviamo l'ID del profilo degli utenti per essere in grado di confrontare i futuri tentativi OAuth da parte di tale utente e garantire che non&#8217;archiviare i dettagli due volte.  | consentire agli utenti di accedere all'app e consente all'app di ottenere l&#8217;'indirizzo di posta elettronica dell'utente per correlare l'accesso con un account nel servizio.  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -102,5 +102,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 
