@@ -6,14 +6,14 @@ ms.date: 06/28/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud for Outlook (Official), i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud for Outlook (Official), i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 122875d5bd68dc375ef5960a8583b03addbdff0f
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6d8ec55284baf0275551495bc1214949302a4573
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411250"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60442181"
 ---
 # <a name="jira-cloud-for-outlook-official"></a>Jira Cloud per Outlook (ufficiale)
 
@@ -51,7 +51,7 @@ Queste informazioni sono state fornite da Atlassian.com su come questa app racco
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
@@ -60,7 +60,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 
 
@@ -80,7 +80,7 @@ Scelte dell'utente: l'utente ha il diritto di richiedere una copia delle informa
 
 La richiesta e le scelte possono essere limitate in alcuni casi: ad esempio, se soddisfare la richiesta rivela informazioni su un'altra persona o se si chiede di eliminare le informazioni che l'utente o l'amministratore sono autorizzati per legge o che hanno interessi legittimi convincenti da conservare. Se ci hai chiesto di condividere i dati con terze parti, ad esempio installando app di terze parti, dovrai contattare direttamente tali provider di servizi di terze parti per eliminare le informazioni o altrimenti limitarti. In caso di problemi irrisolti, si potrebbe avere il diritto di presentare reclamo a un'autorità di protezione dei dati nel paese in cui si vive, dove si lavora o dove si sente che i diritti sono stati violati.
 
-Accedere e aggiornare le informazioni: i Servizi e la documentazione correlata offrono la possibilità di accedere e aggiornare determinate informazioni sull'utente dall'interno del Servizio. Ad esempio, puoi accedere alle informazioni del profilo dal tuo account e cercare contenuti contenenti informazioni sull'utente usando le ricerche di parole chiave nel servizio. Puoi aggiornare le informazioni del profilo all'interno delle impostazioni del profilo e modificare il contenuto che contiene informazioni sull'utente usando gli strumenti di modifica associati a tale contenuto.
+Accedere e aggiornare le informazioni: i Servizi e la documentazione correlata offrono la possibilità di accedere e aggiornare determinate informazioni sull'utente dall'interno del Servizio. Ad esempio, puoi accedere alle informazioni del tuo profilo dal tuo account e cercare contenuti contenenti informazioni sull'utente usando le ricerche di parole chiave nel servizio. Puoi aggiornare le informazioni del profilo all'interno delle impostazioni del profilo e modificare il contenuto che contiene informazioni sull'utente usando gli strumenti di modifica associati a tale contenuto.
 
 Disattivare l'account: se non si desidera più utilizzare i servizi, l'utente o l'amministratore potrebbe essere in grado di disattivare l'account servizi. Se è possibile disattivare il proprio account, tale impostazione è disponibile nelle impostazioni dell'account. In caso contrario, contattare l'amministratore. Se sei un amministratore e non sei in grado di disattivare un account tramite le impostazioni dell'amministratore, contatta il supporto di Atlassian. Tenere presente che la disattivazione dell'account non elimina le informazioni. le informazioni rimangono visibili agli altri utenti del servizio in base alla partecipazione passata all'interno dei Servizi. Per altre informazioni su come eliminare le informazioni, vedi di seguito.   
 
@@ -114,5 +114,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

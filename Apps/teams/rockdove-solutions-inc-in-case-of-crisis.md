@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430988"
+ms.locfileid: "60440994"
 ---
 # <a name="in-case-of-crisis"></a>In caso di crisi
 

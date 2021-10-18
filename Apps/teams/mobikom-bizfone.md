@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Bizfone, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c9e2f8ce67921b36adaa058d59e2ae3ca188e083
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: da9869a2690b16e39b80f8ff0ca53d7949f33d26
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415053"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444466"
 ---
 # <a name="bizfone"></a>Bizfone
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da MobiKOM su come questa app raccoglie e
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -64,7 +64,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -76,7 +76,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Ribbon Communications, Voxbone, team.blue, Fakturaservice.dk A/S, Elastic | Nome della società, nomi dei dipendenti e numeri di telefono | La barra multifunzione fornisce Teams SBC. Voxbone viene utilizzato per i numeri internazionali, ma solo se sono disponibili. team.blue è il nostro provider di hosting. FakturaService.dk'utente viene utilizzato per la fatturazione. Elastic viene utilizzato per la registrazione |
+>| Ribbon Communications, Voxbone, team.blue, Fakturaservice.dk A/S, Elastic | Nome della società, nomi dei dipendenti e numeri di telefono | Ribbon provides our Teams SBC. Voxbone viene utilizzato per i numeri internazionali, ma solo se sono disponibili. team.blue è il nostro provider di hosting. FakturaService.dk'utente viene utilizzato per la fatturazione. Elastic viene utilizzato per la registrazione |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -134,4 +134,3 @@ Queste informazioni sono state fornite da MobiKOM su come questa app gestisce l'
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

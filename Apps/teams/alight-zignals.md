@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Zignals, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9a9e3f1cd6456e1e3c943091325caaff8b934b98
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f0c3c319b43d72bf3c825700cfe3bfe1e93e0d5f
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413117"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434695"
 ---
 # <a name="zignals"></a>Zignals
 
@@ -53,12 +53,12 @@ Queste informazioni sono state fornite da Alight su come questa app raccoglie e 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | delegated | Per l'area Riunioni personali si ottengono le riunioni &quot; &quot; dell'utente oggi e domani. | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Sites.ReadWrite.All | delegated | Tutti i siti di SharePoint seguiti dall'utente vengono visualizzati nell'area My Teamwork e vengono visualizzate tutte le attività SharePoint dell'utente e vengono visualizzate &quot; &quot; nell'area &quot; Attività &quot; personali. | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
+>| Sites.ReadWrite.All | delegated | Tutti i siti di SharePoint seguiti dall'utente vengono visualizzati nell'area My Teamwork e vengono visualizzate tutte le attività SharePoint dell'utente e vengono visualizzate &quot; &quot; nell'area &quot; Attività personali &quot; . | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| Tasks.ReadWrite | delegated | Microsoft legge la pianificazione dell'utente e To Do attività e le visualizza nell'area &quot; Attività. &quot; | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| Team.ReadBasic.All | delegated | I team aggiunti all'utente vengono visualizzati &quot; nell'area My &quot; Teamwork. | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| User.ReadBasic.All | delegated | &quot;Nell'area Documenti viene visualizzato l'utente di cui &quot; è stata collaborazione | Nessuna informazione viene archiviata nel database delle app. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
@@ -71,7 +71,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzate.
 
@@ -130,4 +130,3 @@ Queste informazioni sono state fornite da Alight sul modo in cui questa app gest
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

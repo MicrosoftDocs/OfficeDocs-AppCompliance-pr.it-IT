@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per il connettore VoIP cloud POPP, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 42930c1020e86aeb6f55fb81929f30285e17dae3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c13790c3baa08d584343e9d504251e3920204b22
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414973"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60438725"
 ---
 # <a name="popp-cloud-voip-connector"></a>Connettore VoIP cloud POPP
 
@@ -52,7 +52,7 @@ Queste informazioni sono state fornite da POPP Communications su come questa app
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -64,7 +64,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -76,7 +76,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Reti metaswitch e comunicazioni POPP | L'interfaccia OII seguente viene trasferita al server MCT Hosted Bot: id tenant di Azure AD Id team Id canale/ID chat Vengono trasferiti anche i contenuti dei messaggi, che potrebbero includere OII Il seguente OII può essere trasferito all'API JSON CommPortal: Telefono numero di utenti in un gruppo aziendale I domini di indirizzi di posta elettronica Indirizzi IP degli utenti | Aggiungere una giustificazione per il motivo per cui è necessario trasferire OII L'app&#8217;scopo principale è facilitare le chiamate telefoniche. Se un utente tenta di effettuare una chiamata telefonica, queste informazioni devono essere fornite per accedere al proprio account CommPortal e correlare la chiamata all'utente corretto.  L'interfaccia OII che viene trasferita al server bot ospitato MCT è incorporata nell'API Bot Framework che viene usata per l'integrazione con Teams e non può essere evitata. |
+>| Reti metaswitch e comunicazioni POPP | L'interfaccia OII seguente viene trasferita al server MCT Hosted Bot: Azure AD tenant ID team ID Canale/ID chat Vengono trasferiti anche i contenuti dei messaggi, che potrebbero includere OII Il seguente OII può essere trasferito all'API JSON CommPortal: Telefono numero di utenti in un gruppo aziendale I domini di indirizzi di posta elettronica Indirizzi IP degli utenti | Aggiungere una giustificazione per il motivo per cui è necessario trasferire OII L'app&#8217;scopo principale è facilitare le chiamate telefoniche. Se un utente tenta di effettuare una chiamata telefonica, queste informazioni devono essere fornite per accedere al proprio account CommPortal e correlare la chiamata all'utente corretto.  L'interfaccia OII trasferita al server MCT Hosted Bot è incorporata nell'API Bot Framework che viene usata per l'integrazione con Teams e non può essere evitata. |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -136,4 +136,3 @@ Queste informazioni sono state fornite da POPP Communications su come questa app
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

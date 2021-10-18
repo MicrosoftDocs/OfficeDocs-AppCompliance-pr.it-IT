@@ -6,14 +6,14 @@ ms.date: 06/30/2011
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per SurveyMonkey, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per SurveyMonkey, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4d792807b4a8160b3e62c7c1a23b4cf8a49b2148
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a67e1c8db56a621253fe8ad0471d4db234dc7d70
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413348"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432861"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -62,7 +62,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -74,7 +74,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Esercitiamo una chiamata a v3/conversations/{id}/pagedmembers per verificare che l'app sia stata aggiunta a un team e ottenere il numero di membri. È per il monitoraggio interno dell'utilizzo, vediamo solo le dimensioni dell'elenco delle chat, altre informazioni vengono ignorate. | Sì, vengono archiviate le dimensioni della chat (un singolo numero intero) |  |
+>| Esercitiamo una chiamata a v3/conversations/{id}/pagedmembers per verificare che l'app sia stata aggiunta a un team e ottenere il numero di membri. È per la verifica interna dell'utilizzo, vediamo solo le dimensioni dell'elenco delle chat, altre informazioni vengono ignorate. | Sì, vengono archiviate le dimensioni della chat (un singolo numero intero) |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -87,9 +87,9 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Il nostro data center principale si trova a Las Vegas, NV e il nostro data center secondario si trova a Santa Clara, CA. SurveyMonkey possiede e gestisce tutti i server e l'infrastruttura in queste posizioni. Abbiamo anche la residenza dei dati canadese per alcuni clienti di SurveyMonkey Enterprise residenti in Canada. Tutti i dati vengono crittografati in pausa utilizzando TDE con AES256 e i dati in transito vengono crittografati con TLS 1.2.
+>Il nostro data center principale si trova a Las Vegas, NV e il nostro data center secondario si trova a Santa Clara, CA. SurveyMonkey è proprietaria e gestisce tutti i server e l'infrastruttura in queste posizioni. Abbiamo anche una residenza dati canadese per alcuni clienti di SurveyMonkey Enterprise residenti in Canada. Tutti i dati vengono crittografati in pausa utilizzando TDE con AES256 e i dati in transito vengono crittografati con TLS 1.2.
 
-SurveyMonkey utilizza l'autenticazione utente centrale per mantenere la gestione delle identità e degli accessi. Questo sistema gestisce tutte le autenticazioni e le autorizzazioni per qualsiasi infrastruttura, sistemi e servizi aziendali e di produzione. I criteri di accesso rigorosi vengono mantenuti e esaminati su base trimestrale. Le recensioni includono, ma non sono limitate a: elenchi di accesso degli utenti, gruppi di criteri e revisioni di accesso di terze parti. Per accedere all'ambiente di produzione (ad esempio per ottenere un account con privilegi), è necessario ottenere l'approvazione del manager, completare una serie di corsi di formazione necessari e ottenere l'approvazione dal team di sicurezza. In quel momento, viene effettuato il provisioning di un account VPN aggiuntivo, che differenzia l'account &#8216;normale&#8217; da un account &#8216;con&#8217; privilegiato.
+SurveyMonkey utilizza l'autenticazione utente centrale per mantenere la gestione delle identità e degli accessi. Questo sistema gestisce tutte le autenticazioni e le autorizzazioni per qualsiasi infrastruttura, sistemi e servizi aziendali e di produzione. I criteri di accesso rigorosi vengono mantenuti e esaminati su base trimestrale. Le recensioni includono, ma non sono limitate a: elenchi di accesso degli utenti, gruppi di criteri e revisioni di accesso di terze parti. Per accedere all'ambiente di produzione (ad esempio per ottenere un account con privilegi), è necessario ottenere l'approvazione del manager, completare una serie di corsi di formazione necessari e ottenere l'approvazione dal team di sicurezza. In quel momento, viene effettuato il provisioning di un account VPN aggiuntivo, che differenzia l'account &#8216;&#8217; normale da un account &#8216;con&#8217; privilegiato.
 
 Solo i dispositivi emessi dall'azienda possono accedere alla rete di produzione. Tutte le impostazioni predefinite del fornitore wireless vengono modificate prima dell'installazione, incluse le chiavi di crittografia wireless predefinite, le password e le stringhe della community SNMP. Per eseguire questa operazione in remoto sono necessari 2FA e VPN. Abbiamo una rete WiFi separata per l'accesso guest presso i nostri uffici aziendali.
 
@@ -116,5 +116,4 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

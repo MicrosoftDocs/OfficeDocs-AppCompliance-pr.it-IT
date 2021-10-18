@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Guru, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 014546ad1e5e4ee5beb0b8512ed2247e1ae34ccf
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 2697126a901dde102be0ee29c153b69d0021acf5
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411674"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60437150"
 ---
 # <a name="guru"></a>Guru
 
@@ -53,18 +53,18 @@ Queste informazioni sono state fornite da Guru Technologies su come questa app r
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Applicazione dell'utente finale di Guru e database interni | quando un utente o una società configura l'app Guru per Teams, informazioni comuni come nome utente, posta elettronica e nome della società associate al proprio profilo utente vengono registrate e accessibili da Guru | Dato che un utente deve disporre sia di un account Teams che di un account Guru per usare l'integrazione, è possibile tenere traccia e seguire gli utenti che abilitano l'integrazione per fornire supporto e gestione a tali utenti |
+>| Applicazione dell'utente finale di Guru e database interni | quando un utente o una società configura l'app Guru per Teams, le informazioni comuni come nome utente, posta elettronica e nome della società associate al profilo utente vengono registrate e accessibili da Guru | Dato che un utente deve disporre sia di un account Teams che di un account Guru per usare l'integrazione, è possibile tenere traccia e seguire gli utenti che abilitano l'integrazione per fornire supporto e gestione a tali utenti |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -120,4 +120,3 @@ Queste informazioni sono state fornite da Guru Technologies su come questa app g
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -6,14 +6,14 @@ ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per TELUS Business Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per TELUS Business Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: d39d9d969d09d711de1d879dd869543e06d3a596
 ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430998"
+ms.locfileid: "60445198"
 ---
 # <a name="telus-business-connect"></a>TELUS Business Connect
 
@@ -53,7 +53,7 @@ Queste informazioni sono state fornite da RingCentral, Inc. Sul modo in cui ques
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -65,7 +65,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microso
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >Non vengono servizi Microsoft non vengono utilizzate.
 
@@ -86,7 +86,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Se usiamo un'altra organizzazione, controlliamo comunque le tue informazioni personali. E abbiamo controlli rigorosi in atto per assicurarsi che&#8217;correttamente protetto. Infine, la sezione precedente descrive le situazioni in cui le informazioni personali vengono condivise con altre organizzazioni, enti pubblici e forze dell'ordine.  Quando condividiamo le tue informazioni con altre organizzazioni,&#8217;garantiremo che&#8217;protetto, per quanto ragionevolmente possibile.
+>Se usiamo un'altra organizzazione, controlliamo comunque le tue informazioni personali. E abbiamo controlli rigorosi in atto per assicurarsi che&#8217;correttamente protetto. Infine, la sezione precedente descrive le situazioni in cui le informazioni personali vengono condivise con altre organizzazioni, enti pubblici e forze dell'ordine.  Quando condividiamo le tue informazioni con altre organizzazioni,&#8217;che siano protette&#8217;, per quanto ragionevolmente possibile.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 

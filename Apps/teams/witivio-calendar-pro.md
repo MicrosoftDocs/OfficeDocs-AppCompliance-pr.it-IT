@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Calendar Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 5f8b6dcbf99d26e867cc79194cb57c1393316a2b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 262747068d05ac8aa5c0987c8f6838715eabdf0c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414863"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444936"
 ---
 # <a name="calendar-pro"></a>Calendario Pro
 
@@ -66,9 +66,9 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -81,13 +81,13 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->La telemetria contiene l'UPN e l'ID AAD per la diagnostica. Solo gli amministratori DI PROD/Run hanno accesso alla telemetria di produzione. I log vengono archiviati per 90 giorni e possono essere eliminati su richiesta tramite posta elettronica all'indirizzo dpo@witivio.com
+>La telemetria contiene l'UPN e l'ID AAD per la diagnostica. Solo gli amministratori DI PROD/Run hanno accesso alla telemetria di produzione. I registri vengono archiviati per 90 giorni e possono essere eliminati su richiesta tramite posta elettronica all'dpo@witivio.com
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Witivio usa solo Microsoft Azure componenti aggiuntivi, distribuiti nell'area nord Europa. Usiamo informazioni dettagliate sulle applicazioni e Cosmos database per l'analisi e l'archiviazione dei dati. Witivio usa MFA per tutti gli utenti, inclusi gli amministratori. Gli amministratori dispongono di un account utente (per la workstation) e di un account con privilegi per l'accesso ai ressource di Azure.
+>Witivio usa solo Microsoft Azure componenti, distribuiti nell'area nord Europa. Usiamo informazioni dettagliate sulle applicazioni e Cosmos database per l'analisi e l'archiviazione dei dati. Witivio usa MFA per tutti gli utenti, inclusi gli amministratori. Gli amministratori hanno un account utente (per la workstation) e un account con privilegi per accedere ai ressource di Azure.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -126,4 +126,3 @@ Queste informazioni sono state fornite da Witivio sul modo in cui questa app ges
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
