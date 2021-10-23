@@ -2,16 +2,16 @@
 title: Manuale dell'utente per le app SaaS
 author: LGerrard
 ms.author: legerrar
-description: Guida dell'utente ISV per Microsoft 365 SaaS del programma di conformità delle app
-keywords: Guida dell'utente ISV per Microsoft 365 SaaS del programma di conformità delle app
+description: Guida dell'utente ISV per Microsoft 365 App Compliance Program SaaS
+keywords: Guida dell'utente ISV per Microsoft 365 App Compliance Program SaaS
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 39eed9158ab9cbaa5e26efe036c98fc2ab2b1695d615d8b28930f0d8d4735430
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 5f12c95e413ab069b1f8849a09be50251660fbb1
+ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54801383"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60545838"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>Guida per l'utente del partner per Microsoft 365 App Compliance Program - SaaS
 
@@ -22,7 +22,7 @@ ms.locfileid: "54801383"
 
 ## <a name="1-overview"></a>1. Panoramica 
 
-Questo documento funge da guida utente dettagliata per i partner, iscritti al programma conformità app Microsoft 365 che mira a sottoporsi Publisher attestazione e certificazione per le proprie app SaaS, anche se il portale del Centro per i partner.
+Questo documento funge da guida utente dettagliata per i nostri partner, registrati per il programma di conformità delle app Microsoft 365 con l'obiettivo di sottoporsi Publisher attestazione e certificazione per le proprie app SaaS, anche se il portale del Centro per i partner.
 
 ## <a name="2-acronyms--definitions"></a>2. Acronimi & Definizioni
 |Acronimi | Definizione |
@@ -32,30 +32,25 @@ Questo documento funge da guida utente dettagliata per i partner, iscritti al pr
 |Origine app | Catalogo di app |
 |Esempio |[Agente virtuale](https://appsource.microsoft.com/product/office/WA104381816)|
 
-## <a name="3-publisher-attestation-workflow"></a>3. Publisher flusso di lavoro di attestazione
+## <a name="3-publisher-attestation-workflow"></a>3. Publisher flusso di lavoro attestazione
 
 **Home Page:** questa è la pagina di destinazione quando un partner accede al Centro per i partner.
 
-![Schermata iniziale del Centro per i partner](../media/Saas1.PNG)
   
-**Passaggio 1:** nella barra di spostamento a sinistra della pagina:
+**Passaggio 1:** selezionare Offerte Marketplace
 
-- Seleziona Marketplace commerciale
-- Seleziona panoramica
+![Marketplace commerciale nel Centro per i partner](../media/NewPChomepage.png)
 
-![Marketplace commerciale nel Centro per i partner](../media/Saas2.PNG)
   
-Dopo aver selezionato "Panoramica", il partner può visualizzare l'elenco delle app disponibili per avviare il programma Microsoft 365 conformità.
-  
-**Passaggio 2:** selezionare un'app dall'elenco per iniziare Publisher processo di attestazione.
+**Passaggio 2:** dopo aver selezionato "Offerte Marketplace", passa a "Marketplace commerciale".
 
-![Selezione di un'app in Commercial Marketplace](../media/Saas3.PNG)
+![Selezione di un'app in Commercial Marketplace](../media/NewPCOffersOffice.png)
 
-Quando selezioni un'app, verrà visualizzata un'altra barra di spostamento con l'opzione "Conformità app".
+Seleziona un'app dall'elenco e verrà visualizzata un'altra barra di spostamento con l'opzione "Conformità app".
   
 **Passaggio 3:** selezionare "Conformità app"
   
-![Conformità delle app in Commercial Marketplace](../media/Saas4.PNG)
+![Conformità delle app in Commercial Marketplace](../media/PCappcompliance3.png)
   
 **Passaggio 4:** compilare il questionario di autovalutazione per Publisher attestazione.
 
@@ -71,7 +66,7 @@ Quando selezioni un'app, verrà visualizzata un'altra barra di spostamento con l
  
 **Passaggio 5:** una volta completato, fare clic su "Invia", la valutazione sarà ora "In revisione".
  
- ![Invia Publisher Attesa conferma ](../media/UserGuidePhotos/07.png) ![ dell'invio](../media/UserGuidePhotos/08.png)
+ ![Invia Publisher attesa conferma ](../media/UserGuidePhotos/07.png) ![ dell'invio](../media/UserGuidePhotos/08.png)
   
 **Approva/Rifiuta scenari:**
   
@@ -101,7 +96,7 @@ B.  Publisher Approvazione attestazione
   
 Un partner può iniziare il processo di certificazione selezionando la casella di controllo e facendo clic su "Invia"
   
-![Avviare Microsoft 365 certificazione](../media/UserGuidePhotos/13.png) 
+![Start Microsoft 365 Certification](../media/UserGuidePhotos/13.png) 
   
 **Passaggio 1** : Invio documento iniziale
 
@@ -122,7 +117,7 @@ Dopo che l'analista ha approvato l'invio del documento iniziale, il partner deve
   
 **Passaggio 2:** Controllare l'invio dei requisiti
   
-Compilare tutti i dettagli, caricare i documenti pertinenti e fare clic su 'Invia'
+Compila tutti i dettagli, carica i documenti pertinenti e fai clic su 'Invia'
 
 ![Requisiti di controllo completo](../media/UserGuidePhotos/18.png)
   
@@ -156,7 +151,7 @@ Una volta soddisfatti tutti gli standard di sicurezza, l'analista approverà l'i
 
 ![Approvazione post-certificazione](../media/UserGuidePhotos/27.png)
  
-## <a name="5---microsoft-365-renewal-workflow"></a>5. Microsoft 365 flusso di lavoro per il rinnovo:
+## <a name="5---microsoft-365-renewal-workflow"></a>5. Flusso Microsoft 365 rinnovo:
   
 **Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione:**  
 
@@ -170,7 +165,7 @@ Microsoft 365 Il programma di conformità delle app ora offre un processo di rin
 
 Il nuovo processo di rinnovo è disponibile nel [Centro per i partner](https://partner.microsoft.com/dashboard/home) per offrire un'esperienza senza problemi. Un promemoria di rinnovo verrà visualizzato nel Centro per i partner a partire da 90 giorni prima della data di scadenza. I promemoria periodici verranno inviati anche tramite posta elettronica a 90, 60 e 30 giorni prima della scadenza. 
  
-**Fase 1: Publisher rinnovo dell'attestazione:**
+**Fase 1: rinnovo Publisher attestazione:**
   
 Le risposte dell'Publisher'attestazione dell'app dovranno essere reinviato su base annuale. Quando l'attestazione si avvicina al contrassegno di 1 anno, verrà inviato un promemoria tramite posta elettronica per incoraggiare il reinvio dell'attestazione. 
  
@@ -178,9 +173,9 @@ Le risposte dell'Publisher'attestazione dell'app dovranno essere reinviato su ba
   
 ![Renewel approvato](../media/UserGuidePhotos/31.png)
   
-**Passaggio 2:** esaminare le risposte Publisher attestazione e aggiornare con le informazioni più recenti in base alle esigenze. 
+**Passaggio 2:** esaminare le risposte precedenti Publisher attestazione e aggiornarsi con le informazioni più recenti in base alle esigenze. 
   
-Inviare Publisher'attestazione per il rinnovo quando è pronto. Verrà esaminato da un analista di conformità delle app M365.
+Invia Publisher'attestazione per il rinnovo quando è pronto. Verrà esaminato da un analista di conformità delle app M365.
 
 ![Rinnova fino all'attestazione](../media/UserGuidePhotos/29.png)
   
@@ -190,7 +185,7 @@ Inviare Publisher'attestazione per il rinnovo quando è pronto. Verrà esaminato
   
 **Publisher Attestazione scaduta:**
   
-Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina dell'attestazione Publisher'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre continui problemi e icone per l'app in vari storefront. 
+Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina di attestazione Publisher'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre continui problemi e icone per l'app in vari storefront. 
  
 ![Renewel approvato](../media/UserGuidePhotos/31.png)
 
@@ -198,7 +193,7 @@ Le informazioni dell'app devono essere rinnovate prima della data di scadenza pe
  
 **Fase 2: rinnovo Microsoft 365 certificazione**
   
-Le informazioni sulla certificazione dell'app devono essere reinvii su base annuale. Ciò richiederà la riconvalida dei controlli nell'ambito dell'ambiente corrente. Quando la certificazione si avvicina a 1 anno, verrà inviata una notifica tramite posta elettronica che incoraggia il reinvio dei documenti e delle prove.
+Le informazioni sulla certificazione dell'app devono essere reinvii su base annuale. Ciò richiederà la riconvalida dei controlli nell'ambito dell'ambiente corrente. Quando la certificazione si avvicina a 1 anno, verrà inviata una notifica tramite posta elettronica per incoraggiare il reinvio dei documenti e delle prove.
  
 ![Attestazione Renewel](../media/UserGuidePhotos/32.png) 
 
@@ -227,7 +222,7 @@ Il rinnovo della certificazione è approvato
 
 **Scadenza certificazione:**
 
-Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina Certificazione dell'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource e Nello Store del team.
+Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina Certificazione dell'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà anche il continuo ritardo e le icone per l'app in AppSource e Team Store.
 
 ![Approvazione rinnovo certificazione](../media/UserGuidePhotos/36.png)
   

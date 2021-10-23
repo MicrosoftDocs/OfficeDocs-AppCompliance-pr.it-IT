@@ -1,24 +1,24 @@
 ---
-title: Informazioni sull'applicazione per Adobe Sign Add-In per Outlook da Adobe Inc.
+title: Application Information for Adobe Sign Add-In for Outlook by Adobe Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/06/2021
+ms.date: 10/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni di sicurezza e conformità disponibili per Adobe Sign Add-In per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Adobe Sign Add-In per Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d5c347a461d9b3901f880fb7e3c7ff03f4505051
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 2de39ef437ba0bc7740d4fc6124d7b500ddc6c62
+ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430686"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60545866"
 ---
 # <a name="adobe-sign-add-in-for-outlook"></a>Adobe Sign Add-In per Outlook
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: October 1, 2021</p>
+<p>Last updated by the developer on: October 19, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104381158" target="_blank">Visualizzazione in AppSource</a>
 
@@ -65,7 +65,7 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 
@@ -79,7 +79,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Non abbiamo alcuna interazione dell'amministratore del cliente nel nostro sistema per l'applicazione Microsoft Outlook microsoft.
+>Non abbiamo alcuna interazione dell'amministratore del cliente nel nostro sistema per l'Outlook Microsoft.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
