@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per Jira Cloud per Excel da Atlassian.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/28/2019
+ms.date: 10/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud per Excel, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a09523899c3d8c16174e29594c772ada9a751aa7
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 19b53d36151c1397b1789060423f810a6ccc18c7
+ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428208"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60682336"
 ---
 # <a name="jira-cloud-for-excel"></a>Jira Cloud per Excel
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: October 22, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200000556" target="_blank">Visualizzazione in AppSource</a>
 
@@ -35,9 +35,13 @@ Informazioni fornite da Atlassian.com a Microsoft:
 | ID | WA200000556 |
 | Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive Windows, Excel sul web |
 | Nome società partner | Atlassian.com |
-| URL del sito Web del partner | [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) |
-| URL dell'informativa sulla privacy | [https://www.msteams-atlassian.com/privacy-policy/](https://www.msteams-atlassian.com/privacy-policy/) |
-| URL delle Condizioni per l'utilizzo | [https://www.msteams-atlassian.com/legal/](https://www.msteams-atlassian.com/legal/) |
+| Sito Web aziendale | [https://www.atlassian.com](https://www.atlassian.com) |
+| Condizioni per l'uso dell'app | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
+| Funzionalità di base dell'app | Pianificare, tenere traccia, rilasciare software. Gestire il supporto, il servizio clienti e i progetti. |
+| Sede centrale dell'azienda | Australia |
+| Pagina delle informazioni dell'app | |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
+| Quali provider di cloud di hosting usa l'app? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,67 +53,118 @@ Informazioni fornite da Atlassian.com a Microsoft:
 
 Queste informazioni sono state fornite da Atlassian.com su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
-
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
-
->Questa applicazione non utilizza Microsoft Graph.
-
-
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
-
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
-
->Non vengono servizi Microsoft non vengono utilizzate.
-
-
-
-#### <a name="telemetry-data"></a>Dati di telemetria
-
-Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
-
->Non vengono archiviate informazioni UEII o OII. 
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
-
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
-
->Quando si tratta di informazioni, sono disponibili alcune opzioni. Di seguito è riportato un riepilogo di queste scelte, di come esercitarle e di eventuali limitazioni.
-
-Scelte dell'utente: l'utente ha il diritto di richiedere una copia delle informazioni, di osare l'uso delle informazioni (anche a scopo di marketing), di richiedere l'eliminazione o la restrizione delle informazioni o di richiedere le informazioni in un formato elettronico strutturato. Di seguito vengono descritti gli strumenti e i processi per effettuare queste richieste. Puoi esercitare alcune scelte accedendo ai Servizi e usando le impostazioni disponibili all'interno dei Servizi o del tuo account. Se i servizi vengono amministrati da un amministratore (vedere Avviso agli utenti finali di seguito), potrebbe essere necessario contattare l'amministratore per assistenza &quot; &quot; &quot; &quot; nelle richieste. Per tutte le altre richieste, puoi contattarci come indicato nella sezione Contattaci di seguito per richiedere assistenza.
-
-La richiesta e le scelte possono essere limitate in alcuni casi: ad esempio, se soddisfare la richiesta rivela informazioni su un'altra persona o se si chiede di eliminare le informazioni che l'utente o l'amministratore sono autorizzati per legge o che hanno interessi legittimi convincenti da conservare. Se ci hai chiesto di condividere i dati con terze parti, ad esempio installando app di terze parti, dovrai contattare direttamente tali provider di servizi di terze parti per eliminare le informazioni o altrimenti limitarti. In caso di problemi irrisolti, si potrebbe avere il diritto di presentare reclamo a un'autorità di protezione dei dati nel paese in cui si vive, dove si lavora o dove si sente che i diritti sono stati violati.
-
-Accedere e aggiornare le informazioni: i Servizi e la documentazione correlata offrono la possibilità di accedere e aggiornare determinate informazioni sull'utente dall'interno del Servizio. Ad esempio, puoi accedere alle informazioni del profilo dal tuo account e cercare contenuti contenenti informazioni sull'utente usando le ricerche di parole chiave nel servizio. Puoi aggiornare le informazioni del profilo all'interno delle impostazioni del profilo e modificare il contenuto che contiene informazioni sull'utente usando gli strumenti di modifica associati a tale contenuto.
-
-Disattivare l'account: se non si desidera più utilizzare i servizi, l'utente o l'amministratore potrebbe essere in grado di disattivare l'account servizi. Se è possibile disattivare il proprio account, tale impostazione è disponibile nelle impostazioni dell'account. In caso contrario, contattare l'amministratore. Se sei un amministratore e non sei in grado di disattivare un account tramite le impostazioni dell'amministratore, contatta il supporto di Atlassian. Tenere presente che la disattivazione dell'account non elimina le informazioni. le informazioni rimangono visibili agli altri utenti del servizio in base alla partecipazione passata all'interno dei Servizi. Per altre informazioni su come eliminare le informazioni, vedi di seguito.   
-
-Eliminare le informazioni: i Servizi e la documentazione correlata offrono la possibilità di eliminare determinate informazioni sull'utente dall'interno del Servizio. Ad esempio, è possibile rimuovere contenuto che contiene informazioni sull'utente utilizzando gli strumenti di ricerca e modifica delle parole chiave associati a tale contenuto e alcune informazioni del profilo all'interno delle impostazioni del profilo. Tenere presente, tuttavia, che potrebbe essere necessario conservare determinate informazioni a scopo di conservazione dei record, per completare le transazioni o per ottemperare ai nostri obblighi legali.   
-
-Richiedi di smettere di usare le tue informazioni: in alcuni casi, potresti chiederci di interrompere l'accesso, l'archiviazione, l'utilizzo e in altro modo l'elaborazione delle informazioni in cui pensi che non abbiamo i diritti appropriati per farlo. Ad esempio, se si ritiene che sia stato creato un account servizi senza l'autorizzazione dell'utente o non si è più un utente attivo, è possibile richiedere l'eliminazione dell'account come indicato in questo criterio. Se ci hai concesso il consenso a usare le tue informazioni per uno scopo limitato, puoi contattarci per ritirare tale consenso, ma ciò non influirà su qualsiasi elaborazione già eseguita al momento. Puoi anche rifiutare esplicitamente l'uso delle tue informazioni per scopi di marketing contattandoci, come indicato di seguito. Quando si effettuano tali richieste, potrebbe essere necessario del tempo per analizzare e facilitare la richiesta. In caso di ritardo o controversia sul fatto che abbiamo il diritto di continuare a usare le tue informazioni, limiteremo qualsiasi ulteriore uso delle tue informazioni fino a quando la richiesta non viene rispettata o la controversia non viene risolta, a condizione che l'amministratore non si osezione (ove applicabile). Se ritieni contrario alle informazioni sulla condivisione con un'app di terze parti, disabilita l'app o contatta l'amministratore per farlo.
-
-Rifiutare esplicitamente le comunicazioni: è possibile rifiutare esplicitamente di ricevere comunicazioni promozionali da microsoft utilizzando il collegamento annulla la sottoscrizione all'interno di ogni messaggio di posta elettronica, aggiornando le preferenze di posta elettronica nel menu impostazioni dell'account del servizio oppure contattandoci come indicato di seguito per rimuovere le informazioni di contatto dall'elenco di posta elettronica promozionale o dal database di registrazione.  Anche dopo aver scelto di rifiutare esplicitamente la ricezione di messaggi promozionali da parte di Microsoft, continuerai a ricevere messaggi transazionali da Microsoft per quanto riguarda i nostri Servizi. Puoi rifiutare esplicitamente alcuni messaggi di notifica nelle impostazioni dell'account. 
-
-Potresti essere in grado di rifiutare esplicitamente la ricezione di annunci personalizzati da altre società che sono membri della Network Advertising Initiative o che sottoscrivino i principi di Self-Regulatory Principles for Online Behavioral Advertising della Digital Advertising Alliance. Per ulteriori informazioni su questa procedura e per comprendere le opzioni disponibili, visitare: https://www.aboutads.info , https://optout.networkadvertising.org/ e https://www.youronlinechoices.eu . 
-
-Disattiva controlli cookie: i controlli cookie pertinenti basati su browser sono descritti nel nostro Avviso di &amp; monitoraggio dei cookie.
-
-Invia segnali do not track: alcuni browser hanno incorporato funzionalità &quot; &quot; &quot; &quot; Do Not &quot; &quot; Track &quot; &quot; (DNT) che possono inviare un segnale ai siti Web visitati indicando che non si desidera essere monitorati. Poiché non esiste ancora una comprensione comune di come interpretare il segnale DNT, i servizi non rispondono attualmente ai segnali DNT del browser. Puoi usare la gamma di altri strumenti che forniamo per controllare la raccolta e l'uso dei dati, inclusa la possibilità di rifiutare esplicitamente la ricezione di marketing da microsoft come descritto in precedenza.
-
-Portabilità dei dati: la portabilità dei dati è la possibilità di ottenere alcune delle informazioni in un formato che è possibile spostare da un provider di servizi a un altro (ad esempio, quando si trasferisce il numero di cellulare a un altro operatore).  A seconda del contesto, ciò si applica ad alcune delle informazioni, ma non a tutte le informazioni.  In caso di richiesta, microsoft fornirà un file elettronico delle informazioni di base dell'account e delle informazioni create negli spazi sotto il tuo unico controllo, come il repository bitbucket personale.  
-
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
+| Quali dati vengono archiviati nei database? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
+| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
+| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
+| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596' frameborder='no' style='width: 100%;'></iframe>
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Esegui test di penetrazione annuali nell'app? | Sì |
+| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware, ApplicationControls |
+| Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? | Sì |
+| Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
+| L'ambiente include sistemi operativi o software non supportati? | Sì |
+| Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? | Sì |
+| Nel limite di rete esterno è installato un firewall? | Sì |
+| Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? | Sì |
+| Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? | Sì |
+| Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
+| Autenticazione a più fattori abilitata per: | Credential, DNSManagement, CodeRepositories |
+| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
+| Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? | N/D |
+| La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? | Sì |
+| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì|
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
+| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
+| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596" target="_blank">Visualizzazione in una nuova scheda</a>
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="compliance"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | No |
+| L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | No |
+| Data di certificazione SOC1 più recente |   |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | Sì |
+| Quale certificazione SOC 2 hai raggiunto? |  type2 |
+| Data di certificazione SOC2 più recente |  2020-10-31 |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
+| Data di certificazione SOC3 più recente | |
+| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | No |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
+| L'app è conforme all'International Organization for Standardization (ISO 27018)? | Sì |
+| L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
+| L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | No |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | No |
+| L'app è conforme Sarbanes-Oxley Act (SOX)? | Sì |
+| L'app è conforme al NIST 800-171? | N/D |
+| L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | Sì |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Hai un GDPR o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | No |
+| L'app ha un avviso sulla privacy rivolto all'esterno che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | No |
+| L'app esegue processi decisionali automatizzati, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
+| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
+| Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? | No |
+| L'app raccoglie o elabora dati da minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
+| L'app dispone di funzionalità per eliminare i dati personali di un individuo su richiesta? | No |
+| L'app dispone di funzionalità per limitare o limitare l'elaborazione dei dati personali di un individuo su richiesta? | No |
+| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | No |
+| Vengono eseguite revisioni regolari sulla sicurezza e sulla privacy dei dati (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | No |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
+| Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
+| L'app supporta i criteri di accesso condizionale? | No |
+| L'app supporta la valutazione dell'accesso continuo (CAE) | No |
+| L'app archivia credenziali nel codice? | No |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |
+
+>Questa applicazione non utilizza Microsoft Graph.
+
+>Questa applicazione non dispone di API aggiuntive.
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
