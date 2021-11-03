@@ -12,8 +12,8 @@ ms.openlocfilehash: a986a6f8fbbf98f408dcbf3e90b6bf219951889f
 ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60683734"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60719728"
 ---
 # <a name="netskope-for-microsoft-teams"></a>Netskope per Microsoft Teams
 
@@ -36,7 +36,7 @@ Informazioni fornite da Netskope a Microsoft:
 | Nome società partner | Netskope |
 | Sito Web aziendale | [https://www.netskope.com](https://www.netskope.com) |
 | Condizioni per l'uso dell'app | [https://www.netskope.com/subscription-terms/](https://www.netskope.com/subscription-terms/) |
-| Funzionalità di base dell'app | Netskope ha l'unica soluzione&#8217;settore con CASB leader di mercato unificato, SWG di nuova generazione, isolamento dei browser remoti, firewall cloud, sicurezza cloud pubblica e accesso privato senza attendibilità in una piattaforma: Netskope Security Cloud.  Oltre a queste funzionalità modulari, Netskope offre anche microservizi di sicurezza aggiuntivi che possono essere aggiunti per ottimizzare ulteriormente la posizione di sicurezza dei clienti, ad esempio le funzionalità avanzate di prevenzione della perdita dei dati, crittografia e protezione dalle minacce. |
+| Funzionalità di base dell'app | Netskope ha l'unica soluzione&#8217;settore con CASB leader di mercato unificato, SWG di nuova generazione, Isolamento remoto dei browser, Firewall cloud, Sicurezza cloud pubblica e Accesso privato senza attendibilità in una piattaforma: Netskope Security Cloud.  Oltre a queste funzionalità modulari, Netskope offre anche microservizi di sicurezza aggiuntivi che possono essere aggiunti per ottimizzare ulteriormente la posizione di sicurezza dei clienti, ad esempio le funzionalità avanzate di prevenzione della perdita dei dati, crittografia e protezione dalle minacce. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |

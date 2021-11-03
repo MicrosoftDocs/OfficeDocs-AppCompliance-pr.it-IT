@@ -10,8 +10,8 @@ ms.openlocfilehash: e41a9c0d09fec10b0034e7da5e8a335cbc4473fc
 ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60683579"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60719558"
 ---
 # <a name="what-is-microsoft-365-certification"></a>Che cos'è Microsoft 365 certificazioni?
 
@@ -22,7 +22,7 @@ La certificazione Microsoft 365 è una certificazione progettata per mostrare ai
 
 ## <a name="attestation"></a>Attestazione
 
-La fase di attestazione è al centro di un ampio questionario che dettaglia gli attributi di sicurezza, gestione dei dati e conformità di un'app. Le informazioni fornite dagli ISV coprono l'intera funzionalità dell'app esposta quando l'app viene attivata nella piattaforma Microsoft 365 di un'organizzazione e include quanto segue:
+La fase di attestazione è al centro di un ampio questionario che dettaglia gli attributi di sicurezza, gestione dei dati e conformità di un'app. Le informazioni fornite dagli ISV coprono l'intera funzionalità dell'app esposta quando l'app viene attivata nella piattaforma di Microsoft 365 di un'organizzazione e include quanto segue:
 
 - Gestione dei dati: modalità di raccolta e archiviazione dei dati dell'organizzazione da parte di un'app e controllo di un'organizzazione su di loro
 - Sicurezza: protocolli, processi e procedure che un'app deve proteggere i dati e rilevare e respingere gli attacchi informatici
@@ -64,7 +64,7 @@ Microsoft 365 La certificazione si applica a tutte le app che si integrano con i
 La partecipazione e il completamento Microsoft 365 certificazioni possono offrire grandi vantaggi agli amministratori IT e agli sviluppatori:
 
 **Vantaggi per sviluppatori di app**
--   **Valutazione GRATUITA** - Non vi è alcun costo monetario per l'ISV per ottenere una Microsoft 365 certificazioni
+-   **Valutazione GRATUITA** - Non c'è alcun costo monetario per l'ISV per ottenere una Microsoft 365 certificazioni
 -   **Maggiore esposizione:** il badge di certificazione Microsoft 365 stampato sulla presentazione delle app in Marketplace (AppSource, Teams, Office), Portali di amministrazione (Teams, M365) e Documenti Microsoft
 -   **Risparmio di tempo** - Riduzione del tempo dedicato ad alleviare i problemi di sicurezza dei clienti durante il processo RFP 
 - **Materiali di marketing** - Kit di marketing gratuito per promuovere il tuo stato di Microsoft 365 app certificata
@@ -77,7 +77,7 @@ La partecipazione e il completamento Microsoft 365 certificazioni possono offrir
 
 
 ### <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>Utilizzo del badge Microsoft 365 e dei materiali di marketing associati
-Il logo Microsoft 365 certification dimostra che un'app è stata esaminata per la conformità ai controlli messi in campo da Microsoft che valuta in modo meticoloso le procedure di sicurezza e privacy dei dati. È possibile utilizzare il logo Microsoft 365 certificazione al consenso scritto espresso di Microsoft al termine della Microsoft 365 certificazioni. Se la certificazione viene revocata o il processo di ricertificazione non viene avviato entro un anno dal giorno in cui la certificazione è stata assegnata, è necessario interrompere l'uso di tutti i materiali di marketing correlati alla certificazione Microsoft 365. 
+Il logo Microsoft 365 certification dimostra che un'app è stata esaminata per verificare la conformità ai controlli di Microsoft che valutano in modo meticoloso le procedure di sicurezza e privacy dei dati. È possibile utilizzare il logo Microsoft 365 certificazione al consenso scritto espresso di Microsoft al termine della Microsoft 365 certificazioni. Se la certificazione viene revocata o il processo di ricertificazione non viene avviato entro un anno dal giorno in cui la certificazione è stata assegnata, è necessario interrompere l'uso di tutti i materiali di marketing correlati alla certificazione Microsoft 365. 
 
 Questo logo può essere utilizzato su siti Web, comunicati stampa e altri forum in cui si riferiscono in modo specifico all'applicazione che ha completato il Microsoft 365 di certificazione. Il logo deve essere presentato in dimensioni e posizione ragionevoli all'interno del contenuto digitale. 
 
