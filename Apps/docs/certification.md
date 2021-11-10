@@ -3,15 +3,15 @@ title: Certificazione Microsoft 365 completa
 author: OrionOmalley
 ms.author: oromalle
 description: Microsoft 365 Panoramica dei dettagli della certificazione
-keywords: attestazione della certificazione app Microsoft 365 appSource
+keywords: Attestazione della certificazione app Microsoft 365 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 55125deec809aef3e74ab96bedf88b43ad8ac46e
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: ec401c9e1418c0023931300efe8c0206824d3506
+ms.sourcegitcommit: ddd67912ff4e8901300556ff85c2cf416f54dea1
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60544946"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60885291"
 ---
 # <a name="complete-microsoft-365-certification"></a>Certificazione Microsoft 365 completa
 
@@ -22,7 +22,7 @@ Completamento La certificazione Microsoft 365 richiede il completamento di entra
 
 ### <a name="attestation"></a>Attestazione
 
-1. **Prendere parte:** entrambe le fasi della Microsoft 365 sono ora integrate nel [Centro per i partner.](https://partner.microsoft.com) Puoi completare l'attestazione in un questionario facile da usare all'interno del Centro per i partner. Fai riferimento alle nostre guide utente [Office Store](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide) e [Marketplace](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide) commerciale per il processo dettagliato.
+1. **Prendere parte:** entrambe le fasi Microsoft 365 certificazione sono ora integrate nel [Centro per i partner.](https://partner.microsoft.com) Puoi completare l'attestazione in un questionario facile da usare all'interno del Centro per i partner. Fai riferimento alle nostre guide utente [Office Store](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide) e [Marketplace](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide) commerciale per il processo dettagliato.
 
 1. **Visualizzare il portale online:** dopo l'approvazione dell'attestazione, l'app verrà elencata nel repository online e includerà quanto segue:
    - Timestamp di invio.
@@ -39,7 +39,10 @@ Completamento La certificazione Microsoft 365 richiede il completamento di entra
 
 1. **Invia prova:** dopo l'accettazione dell'invio del documento iniziale, il set di controlli di sicurezza necessari per la tua app verrà visualizzato automaticamente nel portale. Verrà quindi richiesto di inviare la prova per ogni controllo dimostrando che il controllo è in atto. Tieni presente che ti verranno dati **60** giorni per inviare tutte le prove. Un analista rivedrà le prove e approverà il controllo o richiederà prove nuove o aggiuntive. Controlla spesso questa pagina per vedere se la tua prova è stata accettata.
 
-1. **Ottenere la certificazione:** dopo che l'invio è stato convalidato da un analista, si riceverà una notifica della decisione di certificazione. Le app che ricevono una certificazione riceveranno un badge sulla loro applicazione nelle pagine **marketplace (Teams, Office, AppSource)** e nei portali di amministrazione **(Teams, M365)** e nelle pagine **documenti Microsoft.** Per informazioni sui vantaggi completi della certificazione, [vedere](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide#program-benefits).
+>[!NOTE]
+> Dai un'occhiata alla [Guida alle prove di esempio](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-sample-evidence-guide) per esempi concreti delle prove necessarie.
+
+1. **Ottenere la certificazione:** dopo che l'invio è stato convalidato da un analista, si riceverà una notifica della decisione di certificazione. Le app che ricevono una certificazione riceveranno un badge sulla loro applicazione nelle pagine **marketplace (Teams, Office, AppSource)** e portali di amministrazione **(Teams, M365)** e nelle pagine **documenti Microsoft.** Per informazioni sui vantaggi completi della certificazione, [vedere](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide#program-benefits).
 
 
 ## <a name="review-and-re-certification"></a>Revisione e ricertificazione
@@ -47,14 +50,14 @@ Nel caso in cui l'applicazione subisca [modifiche](https://docs.microsoft.com/mi
 
 Sarà inoltre necessario eseguire la ricertificazione su base annuale. Ciò richiederà la riconvalida dei controlli nell'ambito rispetto all'ambiente corrente. Questo processo può iniziare fino a 90 giorni prima della scadenza della certificazione. La certificazione esistente non scadrà durante il periodo di ricertificazione. La nuova certificazione in tutti i programmi scade nell'anniversario di un anno della Microsoft 365 certificazioni.
 
-Se la certificazione non viene rinnovata prima della data di scadenza, lo stato della certificazione delle app verrà revocato. Tutti i messaggi non consentiti, le icone e il marchio di certificazione associato verranno rimossi dalla tua app e ti sarà proibito pubblicizzare la tua app come Microsoft 365 Certificata.
+Se la certificazione non viene rinnovata prima della data di scadenza, lo stato della certificazione delle app verrà revocato. Tutti i messaggi non consentiti, le icone e il marchio di certificazione associato verranno rimossi dalla tua app e ti sarà proibito pubblicizzare la tua app come Microsoft 365 Certified.
 
 
 > [!IMPORTANT]
-> Partecipando al programma di certificazione Microsoft 365, l'utente accetta queste condizioni supplementari e si conforma a qualsiasi documentazione di accompagnamento applicabile alla partecipazione al programma di certificazione Microsoft 365 con Microsoft Corporation ("Microsoft", "microsoft", "noi" o "nostro"). L'utente rappresenta e garantisce a Microsoft di avere l'autorità di accettare queste condizioni supplementari di certificazione Microsoft 365 per conto di se stessi, di una società e/o di un'altra entità, a seconda dei casi. Microsoft può modificare, modificare o terminare questi termini supplementari in qualsiasi momento. La tua continua partecipazione al programma Microsoft 365 certificazione dopo qualsiasi modifica o modifica significa che accetti i nuovi termini supplementari. Se non accetti i nuovi termini supplementari o termini questi termini supplementari, devi smettere di partecipare al programma di Microsoft 365 Certification.
-Tutte le prove, incluse, ma non limitate a documenti, screenshot e immagini, verranno conservate in un archivio sicuro per 18 mesi dal momento dell'invio come prova di controllo. Dopo 18 mesi tutte le prove verranno cancellate
+> Partecipando al programma di certificazione Microsoft 365, l'utente accetta queste condizioni supplementari e si conforma a qualsiasi documentazione di accompagnamento applicabile alla partecipazione al programma di certificazione Microsoft 365 con Microsoft Corporation ("Microsoft", "microsoft", "noi" o "nostro"). L'utente rappresenta e garantisce a Microsoft di avere l'autorità di accettare queste condizioni supplementari di certificazione Microsoft 365 per conto di se stessi, di una società e/o di un'altra entità, se applicabile. Microsoft può modificare, modificare o terminare questi termini supplementari in qualsiasi momento. La tua continua partecipazione al programma Microsoft 365 certificazione dopo qualsiasi modifica o modifica significa che accetti i nuovi termini supplementari. Se non accetti i nuovi termini supplementari o termini questi termini supplementari, devi smettere di partecipare al programma di Microsoft 365 Certification.
+Tutte le prove, incluse ma non limitate a documenti, screenshot e immagini, verranno conservate in un archivio sicuro per 18 mesi dal momento dell'invio come prova di controllo. Dopo 18 mesi tutte le prove verranno cancellate
 
-## <a name="learn-more"></a>Ulteriori informazioni
+## <a name="learn-more"></a>Scopri di più
 
 * [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)  
 * [Che cos'è Publisher verifica?](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
