@@ -18,14 +18,14 @@
           href: docs/certification.md
         - name: Microsoft 365 di invio della certificazione
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel app
+    - name: Microsoft Excel App
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator per i partner B2B
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: excel/harmonie-corporation-for-office.md
@@ -115,7 +115,7 @@
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
         - name: OnePlaceMail per Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Impegno per le vendite di sensibilizzazione per Outlook
+        - name: Impegno per le vendite per la Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One per Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -142,7 +142,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -215,6 +215,8 @@
           href: teams/agile-is-task-board.md
         - name: Alvao Service Desk
           href: teams/alvao-sro-service-desk.md
+        - name: Ambra
+          href: teams/infeedo-amber.md
         - name: Ambition
           href: teams/ambition.md
         - name: AMEX GBT
@@ -1066,7 +1068,7 @@
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel-to-Word Document Automation
           href: word/analysisplace-excel-to-word-document-automation.md
         - name: Componente aggiuntivo Office Cloud Fabasoft
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
@@ -1088,7 +1090,7 @@
           href: word/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | Selezione contenuto per Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | Progettazione per Office
+        - name: officeatwork | Designer per Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
         - name: officeatwork | Selezione immagini per Office
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
