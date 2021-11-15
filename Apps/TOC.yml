@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Certificazione Microsoft 365 completa
           href: docs/certification.md
-        - name: Microsoft 365 di invio della certificazione
+        - name: Microsoft 365 per l'invio della certificazione
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel App
       href: excel/excel-apps.md
@@ -103,8 +103,8 @@
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox Deadlines and Matter Management - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: 'LawToolBox è importante per Outlook, Teams e SharePoint'
-          href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
+        - name: LawToolBox Deadlines and Matter Management - Outlook
+          href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
         - name: MIPA - Assistente personale
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
         - name: ngDesk
@@ -115,7 +115,7 @@
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
         - name: OnePlaceMail per Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Impegno per le vendite per la Outlook
+        - name: Impegno per le vendite di sensibilizzazione per Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One per Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -160,7 +160,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project app
+    - name: Microsoft Project App
       href: project/project-apps.md
       items:
         - name: officeatwork | Selezione modelli per Office
@@ -194,7 +194,7 @@
           href: sharepoint/ataira-power-bi-collaboration.md
         - name: Prenotazione degli eventi più intelligente
           href: sharepoint/smarter-business-solutions-gmbh-event-booking.md
-    - name: Microsoft Teams app
+    - name: Microsoft Teams App
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -351,7 +351,7 @@
           href: teams/gifted-to-you-limited-collection-pot.md
         - name: Commander
           href: teams/nimbella-commander.md
-        - name: Navigatore società
+        - name: Navigatore aziendale
           href: teams/konica-minolta-it-solutions-company-navigator.md
         - name: Complish
           href: teams/cauzey-pty-ltd-complish.md
@@ -459,7 +459,7 @@
           href: teams/fifty.md
         - name: File Fabric
           href: teams/storage-made-easy-file-fabric.md
-        - name: Lucciole AI
+        - name: Fireflies AI
           href: teams/firefliesai-fireflies-ai.md
         - name: FireWatch
           href: teams/infographics-uk-ltd-firewatch.md
@@ -567,6 +567,8 @@
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
+        - name: Riunioni multilingue KUDO
+          href: teams/kudo-inc-multilingual-meetings.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
         - name: Kunjani
@@ -1065,7 +1067,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word App
+    - name: Microsoft Word app
       href: word/word-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
@@ -1076,9 +1078,9 @@
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel-to-Word Document Automation
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Componente aggiuntivo Office Cloud Fabasoft
+        - name: Componente aggiuntivo per Office Fabasoft Cloud
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
@@ -1328,6 +1330,8 @@
           href: azure/5022e09d-d2f9-499f-8925-554c324ad23a.md
         - name: 50356ee3-b48b-424b-a7a7-35e53c2ce736
           href: azure/50356ee3-b48b-424b-a7a7-35e53c2ce736.md
+        - name: 5123b34d-663d-4ae9-a3c9-d2298be203f2
+          href: azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md
         - name: 512b84d2-5840-45d6-8d01-5f073836d039
           href: azure/512b84d2-5840-45d6-8d01-5f073836d039.md
         - name: 51e2b67d-9854-446a-8da1-cdd89ef0b987
