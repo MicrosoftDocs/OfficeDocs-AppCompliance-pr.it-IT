@@ -2,17 +2,17 @@
 title: Sicurezza e conformità delle app per Microsoft Teams - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/12/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.service: attestation
 description: Informazioni complete sulla sicurezza e conformità delle app per Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: aeca6ab37c806c4b9966bc1be5f4fa229120a8c1
-ms.sourcegitcommit: bbdf2ba4c6b7682eb6645aa40671738f64105876
+ms.openlocfilehash: 8abcec0c92fdadf15e3328fafb2d857e7b1e59dd
+ms.sourcegitcommit: e2058327f6190424ecc5d6d8b12afe60bd7dc1f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60930959"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60964992"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft Teams
 
@@ -40,7 +40,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [ArcGIS Maps](./esri-arcgis-maps.md) | Esri | **✓** |  |
 | [ARGUSnylar](./argus-data-insights-schweiz-ag-argusnylar.md) | ARGUS DATA INSIGHTS Schweiz AG | **✓** |  |
 | [Arrangr](./arrangr-inc.md) | Arrangr, Inc. | **✓** |  |
-| [Asa](./two-app-studio-pte-ltd-asa.md) | Two App Studio Pte Ltd. | **✓** |  |
+| [Asa](./two-app-studio-pte-ltd-asa.md) | Due App Studio Pte Ltd. | **✓** |  |
 | [Asana](./asana.md) | Asana | **✓** |  |
 | [ASC Recording Insights](./asc-technologies-ag-recording-insights.md) | ASC Technologies AG | **✓** |  |
 | [Assembly](./carrothr-inc-assembly.md) | CarrotHR Inc. | **✓** |  |
@@ -97,6 +97,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [CoffeePals](./carnduff-co-coffeepals.md) | Carnduff Co | **✓** |  |
 | [Vaso di raccolta](./gifted-to-you-limited-collection-pot.md) | Regalato a te limitato | **✓** |  |
 | [Commander](./nimbella-commander.md) | Nimbella | **✓** |  |
+| [Navigatore aziendale](./konica-minolta-it-solutions-company-navigator.md) | Soluzioni informatiche Konica Minolta | **✓** |  |
 | [Complish](./cauzey-pty-ltd-complish.md) | Cauzey Pty Ltd | **✓** |  |
 | [Conferences i/o](./conferences-io.md) | Conferences i/o | **✓** |  |
 | [Confluence Cloud](./atlassian-confluence-cloud.md) | Atlassian | **✓** |  |
@@ -150,6 +151,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Fellow](./fellow-insights-inc.md) | Fellow Insights, Inc. | **✓** |  |
 | [Fifty](./fifty.md) | Fifty | **✓** |  |
 | [File Fabric](./storage-made-easy-file-fabric.md) | Storage Made Easy | **✓** |  |
+| [Fireflies AI](./firefliesai-fireflies-ai.md) | Fireflies.ai | **✓** |  |
 | [FireWatch](./infographics-uk-ltd-firewatch.md) | Infographics UK Ltd. | **✓** |  |
 | [FloQast](./floqast.md) | FloQast | **✓** |  |
 | [ForceManager CRM](./tritium-software-sl-forcemanager-crm.md) | Tritium Software SL | **✓** |  |
@@ -203,9 +205,10 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Kippa](./klippas-technologies-inc-kippa.md) | KLIPPAS Technologies inc. | **✓** |  |
 | [Klaxoon](./klaxoon.md) | Klaxoon | **✓** |  |
 | [Koan](./koan-inc.md) | Koan, Inc. | **✓** |  |
+| [Riunioni multilingue KUDO](./kudo-inc-multilingual-meetings.md) | KUDO, Inc. | **✓** |  |
 | [Kudozza](./survivef5-gmbh-kudozza.md) | surviveF5 GmbH | **✓** |  |
 | [Kunjani](./faceboard-pty-ltd-kunjani.md) | FACEBOARD (PTY) LTD | **✓** |  |
-| [LawToolBox](./lawtoolboxcominc-lawtoolbox.md) | LawToolBox.com Inc. | **✓** |  |
+| [LawToolBox](./lawtoolboxcominc-lawtoolbox.md) | LawToolBox.com,Inc. | **✓** |  |
 | [Learn](./witivio-learn.md) | Witivio | **✓** |  |
 | [Leave Request by LTAPPs](./ltapps-software-coltd-leave-request-by.md) | LTAPPs SOFTWARE CO.,LTD | **✓** |  |
 | [Lexion](./lexion.md) | Lexion | **✓** |  |
@@ -262,6 +265,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Nugget](./panviva-nugget.md) | Panviva | **✓** |  |
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  |
 | [OfficeAmp](./anaek-inc-officeamp.md) | Anaek Inc | **✓** |  |
+| [OfficeRnD Hybrid Work](./officernd-hybrid-work.md) | OfficeRnD | **✓** |  |
 | [OfficeSpace](./officespace-software.md) | OfficeSpace Software | **✓** |  |
 | [Officevibe](./officevibe.md) | Officevibe | **✓** |  |
 | [OLIVE VLE](./olivegroup-olive-vle.md) | OliveGroup | **✓** |  |
@@ -339,6 +343,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [SkilledHuman](./saltflat-limited-skilledhuman.md) | SaltFlat Limited | **✓** |  |
 | [Skills by Pipe9](./pipe9com-skills-by-pipe9.md) | Pipe9.com | **✓** |  |
 | [Skillsoft Percipio](./skillsoft-percipio.md) | Skillsoft | **✓** |  |
+| [Skoach](./cultify-lda-skoach.md) | Cultify, Lda | **✓** |  |
 | [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  |
 | [Slido](./slido.md) | Slido | **✓** |  |
 | [Smart Connect for Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  |
