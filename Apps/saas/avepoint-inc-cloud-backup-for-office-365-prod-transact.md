@@ -5,20 +5,19 @@ author: elenamalova
 ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Cloud Backup per Office 365 - Prod (transact), i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+certification_type: certified
+description: Tutte le informazioni di sicurezza e conformità disponibili per Cloud Backup per Office 365 - Prod (transazione), i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9c147dc754f420e0c7f1c1392cb2e75616557cfe
-ms.sourcegitcommit: cb50f8967ff1ca98c98bcadb26c05b3a5c5a6ea8
+ms.openlocfilehash: b9257448bd15bc23647a3567fb0f66a7325fe1fd
+ms.sourcegitcommit: 7989546de4aa2bbd2a751281d1aa215facae2d15
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60875035"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61039998"
 ---
 # <a name="cloud-backup-for-office-365---prod-transact"></a>Cloud Backup per Office 365 - Prod (transazione)
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Last updated by the developer on: September 29, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/avepoint.cloudbackup_o365_transact" target="_blank">Visualizzazione in AppSource</a>
@@ -37,7 +36,7 @@ Informazioni fornite da AvePoint Inc. a Microsoft:
 | Sito Web aziendale | [https://www.avepoint.com](https://www.avepoint.com) |
 | Condizioni per l'uso dell'app | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 | Funzionalità di base dell'app | AvePoint Cloud Backup è la soluzione&#8217;di backup da cloud a cloud più completa per Microsoft 365. Con
-backup automatizzati illimitati e archiviazione sicura nell'archiviazione di Azure di AvePoint&#8217;o nel cloud, è sufficiente decidere quanto ripristinare e quando. Il ripristino a livello di elemento su richiesta e granulare consente di accedere in qualsiasi momento a messaggi di posta elettronica, file, conversazioni, registrazioni, progetti, attività, gruppi, Teams, Planner e siti critici per l'azienda. | | Sede della società | Stati Uniti d'America | | Pagina info app | | | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas | | Quali provider di cloud di hosting usa l'app? | Azure |
+backup illimitati, automatizzati e archiviazione sicura in AvePoint&#8217;'archiviazione di Azure o nel cloud, è sufficiente decidere quanto ripristinare e quando. Il ripristino a livello di elemento su richiesta e granulare consente di accedere in qualsiasi momento a messaggi di posta elettronica, file, conversazioni, registrazioni, progetti, attività, gruppi, Teams, Planner e siti critici per l'azienda. | | Sede centrale aziendale | Stati Uniti d'America | | Pagina info app | | | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas | | Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,7 +56,7 @@ Queste informazioni sono state fornite da AvePoint Inc. Su come questa app racco
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | SharePoint sito/sito ODFB/Microsoft 365/ID team, nome, url; |
 | Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
-| Si dispone di un processo di affiliazione e eliminazione dei dati stabilito? | Sì |
+| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
 | Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
@@ -77,7 +76,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
 | L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | ApplicationControls |
 | Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
-| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? | Sì |
 | Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
 | L'ambiente include sistemi operativi o software non supportati? | No |
 | Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? | Sì |
@@ -93,7 +92,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
 | Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento?| |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,7 +115,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
 | L'app è conforme all'International Organization for Standardization (ISO 27018)? | N/D |
 | L'app è conforme all'International Organization for Standardization (ISO 27017)? | Sì |
-| L'app è conforme a International Organization for Standardization (ISO 27002)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | Sì |
 | L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
 | L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
@@ -155,7 +154,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | Sì |
@@ -166,7 +165,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph Autorizzazione**  | **Tipo autorizzazione** |          **Giustificazione**          |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
 >|:------------------------|:--------------------|:------------------------------------|
 >| User.Read | delegated | Accedere e leggere il profilo utente |
 >| Directory.Read.All | application | Leggere i dati della directory |
