@@ -6,18 +6,19 @@ ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per officeatwork | Template Chooser for Office, i relativi criteri di gestione dei dati, le Microsoft Cloud App Security del catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i servizi | Template Chooser for Office, i relativi criteri di gestione dei dati, le Microsoft Cloud App Security del catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 902198ce1bb7e3b805c2b6c20879a6b77b144954
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 007a116d9a52d3a32b664c8f564118445cfbcc5d
+ms.sourcegitcommit: 1ae3b2c9057829f6d868439ba674d8d8d9f30663
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281953"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61066484"
 ---
 # <a name="officeatwork--template-chooser-for-office"></a>officeatwork | Selezione modelli per Office
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 23, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380050" target="_blank">Visualizzazione in AppSource</a>
@@ -32,7 +33,7 @@ Informazioni fornite da officeatwork a Microsoft:
 |:----------------|:-------------|
 | Nome app | officeatwork - Selezione modelli per Office |
 | ID | WA104380050 |
-| Office 365 client supportati | Excel su iPad, Excel 2016 o versione successiva su Mac, Excel 2013 o versione successiva su Windows, Excel sul web, Word su iPad, Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versioni successive su Windows, PowerPoint su iPad, PowerPoint 2016 o versioni successive su Mac, PowerPoint sul web, PowerPoint 2013 o versioni successive su Windows, Project 2016 o versioni successive su Windows |
+| Office 365 client supportati | Excel in iPad, Excel 2016 o versioni successive su Mac, Excel 2013 o versioni successive su Windows, Excel sul web, Word su iPad, Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versioni successive Windows, PowerPoint in iPad, PowerPoint 2016 o versioni successive su Mac, PowerPoint sul web, PowerPoint 2013 o versioni successive su Windows, Project 2016 o versioni successive Windows |
 | Nome società partner | officeatwork |
 | URL del sito Web del partner | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL dell'informativa sulla privacy | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -52,21 +53,21 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD'ID app** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.ReadWrite.All | delegated | Non vengono archiviati dati. | Preferiti: per essere in grado di leggere e scrivere dati agli utenti OneDrive; OneDrive: per essere in grado di leggere e scrivere dati agli utenti OneDrive. | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
->| Group.ReadWrite.All | delegated | Non vengono archiviati dati. | Teams: per essere in grado di leggere e scrivere dati in un gruppo. | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
+>| Group.ReadWrite.All | delegated | Non vengono archiviati dati. | Teams: per poter leggere e scrivere dati in un gruppo. | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
 >| GroupMember.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online: autorizzazione utente per abilitare la lettura dei dati da SharePoint Online. | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
 >| Sites.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online: per abilitare la lettura dei dati da SharePoint Online. | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
 >| User.Read | delegated | Non vengono archiviati dati. | Sing-In: per consentire all'app officeatwork di leggere le proprietà di base dell'utente. | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
 >| User.Read.All | delegated | Non vengono archiviati dati. | Teams: per scoprire a quali gruppi appartiene un utente. | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
 >| offline_access | delegated | Non vengono archiviati dati. | Sing-In: per abilitare l'accesso automatico tramite i token di aggiornamento, come senza, gli utenti dovrebbero eseguire manualmente l'accesso ogni volta che avviano l'app officeatwork. Questo ambito è necessario solo per le applicazioni host non abilitate per SSO. | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
 >| openid | delegated | Non vengono archiviati dati. | Sing-In: per consentire agli utenti di accedere all'app officeatwork con l'organizzazione e/o l'account Microsoft | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
->| profilo | delegated | Non vengono archiviati dati. | Sing-In: per mostrare l'utente connesso nell'app officeatwork. Ciò consente di assicurare/confermare all'utente quale account è stato usato per accedere all'app officeatwork. | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
+>| profile | delegated | Non vengono archiviati dati. | Sing-In: per mostrare l'utente connesso nell'app officeatwork. Ciò consente di assicurare/confermare all'utente quale account è stato usato per accedere all'app officeatwork. | [dae2eacf-3eb5-4440-baff-984fbd5cae68](https://docs.microsoft.com/microsoft-365-app-certification/azure/dae2eacf-3eb5-4440-baff-984fbd5cae68) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -74,9 +75,9 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 
 
@@ -106,7 +107,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35385' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35385' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35385" target="_blank">Visualizzazione in una nuova scheda</a>
 

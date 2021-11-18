@@ -1,22 +1,22 @@
 ---
-title: Microsoft Word Sicurezza e conformità delle app - Tutte le app
+title: Microsoft Word sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/08/2021
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le Microsoft Word app.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte Microsoft Word app.
 localization_priority: Normal
-ms.openlocfilehash: a09af68319bc84d6186de28126382d3349f462e1
-ms.sourcegitcommit: cb50f8967ff1ca98c98bcadb26c05b3a5c5a6ea8
+ms.openlocfilehash: a393f652e193ab3b4dbeca233159e4e98350b5e9
+ms.sourcegitcommit: 1ae3b2c9057829f6d868439ba674d8d8d9f30663
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60872222"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61066294"
 ---
-# <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Sicurezza e conformità delle app
+# <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word sicurezza e conformità delle app
 
-Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app Microsoft Word e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative Microsoft Word app e componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -24,8 +24,8 @@ Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per forn
 | [Componente aggiuntivo AuditBoard](./auditboard-inc-add-in.md) | Auditboard, Inc. | **✓** |  |
 | [CocoFax - Invio di fax facile da &amp; proteggere](./cocofax-sending-fax-made-easy-and-secure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
-| [Excel automazione documenti da Excel word a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
-| [Componente aggiuntivo per Office Cloud Fabasoft](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
+| [Excel-to-Word Document Automation](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
+| [Componente aggiuntivo per Office Fabasoft Cloud](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
 | [harmon.ie per Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Firme impression](./impression-signatures.md) | Firme impression | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
@@ -34,7 +34,7 @@ Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per forn
 | [Mendeley Cite](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [neopoli](./neopolis-gmbh.md) | neopolis GmbH | **✓** |  |
 | [Office2SharePoint per Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | Selezione contenuto per Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Selezione contenuto per Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Designer per Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Selezione immagini per Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Selezione modelli per Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** |  |

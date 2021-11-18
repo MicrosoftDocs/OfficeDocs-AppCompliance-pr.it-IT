@@ -1,23 +1,24 @@
 ---
-title: Application Information for officeatwork | Uploader per Office da officeatwork
+title: Application Information for officeatwork | Uploader per Office da ufficio
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per officeatwork | Caricatore per Office, criteri di gestione dei dati, Microsoft Cloud App Security informazioni sul catalogo app e informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i servizi | Uploader per Office, i criteri di gestione dei dati, le Microsoft Cloud App Security del catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4db105d3bfc1ba2ae292110b30c37ae3832ac7f6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ffde80edf2a5e9fe247a91af61faef54fbf8fdd7
+ms.sourcegitcommit: 1ae3b2c9057829f6d868439ba674d8d8d9f30663
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283164"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61066437"
 ---
 # <a name="officeatwork--uploader-for-office"></a>officeatwork | Uploader per Office
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 23, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104381430" target="_blank">Visualizzazione in AppSource</a>
@@ -32,7 +33,7 @@ Informazioni fornite da officeatwork a Microsoft:
 |:----------------|:-------------|
 | Nome app | officeatwork - Uploader per Office |
 | ID | WA104381430 |
-| Office 365 client supportati | Word su iPad, Word 2016 o versione successiva su Mac, Word 2016 o versioni successive Windows, Word sul web |
+| Office 365 client supportati | Word su iPad, Word 2016 o versioni successive su Mac, Word 2016 o versioni successive Windows, Word sul web |
 | Nome società partner | officeatwork |
 | URL del sito Web del partner | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL dell'informativa sulla privacy | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -52,9 +53,9 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 
 Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD'ID app** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Files.ReadWrite.All | delegated | Non vengono archiviati dati. | OneDrive: per essere in grado di leggere e scrivere dati nella OneDrive. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| Files.ReadWrite.All | delegated | Non vengono archiviati dati. | OneDrive: per essere in grado di leggere e scrivere dati nell'OneDrive. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
 >| Group.ReadWrite.All | delegated | Non vengono archiviati dati. | Teams: per leggere e scrivere dati in un gruppo. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
 >| GroupMember.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online - Supporto dei gruppi di sicurezza: per consentire all'app di elencare i gruppi, leggere le proprietà di base dei gruppi e leggere le appartenenze di tutti i gruppi a cui l'utente connesso ha accesso. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
 >| Sites.Read.All | delegated | Non vengono archiviati dati. | SharePoint Online: per abilitare la lettura dei dati in SharePoint Online, l'utente connesso ha accesso a. Per abilitare il caricamento dei dati in SharePoint Online | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
@@ -62,11 +63,11 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 >| User.Read.All | delegated | Non vengono archiviati dati. | Teams: per scoprire a quali gruppi appartiene un utente. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
 >| offline_access | delegated | Non vengono archiviati dati. | Sing-In: per abilitare l'accesso automatico tramite i token di aggiornamento, come senza, gli utenti dovrebbero eseguire manualmente l'accesso ogni volta che avviano l'app officeatwork. Questo ambito è necessario solo per le applicazioni host non abilitate per SSO. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
 >| openid | delegated | Non vengono archiviati dati. | Sing-In: per consentire agli utenti di accedere all'app officeatwork con l'organizzazione e/o l'account Microsoft. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
->| profilo | delegated | Non vengono archiviati dati. | Sing-In: per mostrare l'utente connesso nell'app officeatwork. Ciò consente di assicurare/confermare all'utente quale account è stato usato per accedere all'app officeatwork. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| profile | delegated | Non vengono archiviati dati. | Sing-In: per mostrare l'utente connesso nell'app officeatwork. Ciò consente di assicurare/confermare all'utente quale account è stato usato per accedere all'app officeatwork. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app usa.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -74,9 +75,9 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzati.
+>Non vengono servizi Microsoft non vengono utilizzate.
 
 
 
@@ -90,7 +91,7 @@ Le informazioni di identificazione dell'organizzazione (OII) o dell'utente final
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->I dati delle impostazioni delle applicazioni (flag di funzionalità, nome visualizzato dell'organizzazione, tenantId, elenco di oid degli amministratori) vengono archiviati in un'istanza del database di Azure Cosmos (un file per tenant). I file DB sono crittografati e l'accesso è limitato ai tecnici e al personale di supporto tecnico selezionati. Il cliente può accedere e modificare i dati delle impostazioni dell'app officeatwork usando l'app Web dell'interfaccia di amministrazione.
+>I dati delle impostazioni delle applicazioni (flag di funzionalità, nome visualizzato dell'organizzazione, tenantId, elenco di oid amministratori) vengono archiviati in un'istanza del database di Azure Cosmos (un file per tenant). I file DB sono crittografati e l'accesso è limitato ai tecnici e al personale di supporto tecnico selezionati. Il cliente può accedere e modificare i dati delle impostazioni dell'app officeatwork usando l'app Web dell'interfaccia di amministrazione.
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -104,9 +105,9 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 ::: zone pivot="mcas"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35750' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35750' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35750" target="_blank">Visualizzazione in una nuova scheda</a>
 
