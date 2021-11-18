@@ -16,16 +16,16 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Certificazione Microsoft 365 completa
           href: docs/certification.md
-        - name: Microsoft 365 per l'invio della certificazione
+        - name: Microsoft 365 di invio della certificazione
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel App
+    - name: Microsoft Excel app
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator per i partner B2B
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel documenti da Excel word a Word
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: excel/harmonie-corporation-for-office.md
@@ -142,7 +142,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel documenti da Excel word a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -174,7 +174,7 @@
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
         - name: ArcGIS per SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
-        - name: Connettore FormMachines per SharePoint
+        - name: FormMachines Connector per SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: Gaggle per SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
@@ -1348,8 +1348,6 @@
           href: azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md
         - name: 56412014-bafe-474e-95b4-ebfea106a167
           href: azure/56412014-bafe-474e-95b4-ebfea106a167.md
-        - name: 57de46f8-193a-400c-9a34-c862333aed55
-          href: azure/57de46f8-193a-400c-9a34-c862333aed55.md
         - name: 5971c986-9d39-409c-a6f8-1385b1f690ef
           href: azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md
         - name: 597cc93d-8951-4f62-b549-eca97ba5c042
