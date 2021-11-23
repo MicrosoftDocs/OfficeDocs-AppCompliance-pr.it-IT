@@ -1,43 +1,44 @@
 ---
-title: Application Information for LawToolBox Deadlines and Matter Management - Outlook by LawToolBox.com Inc.
+title: Application Information for SurveySparrow by SurveySparrow inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/24/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per LawToolBox Deadlines e Matter Management - Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per SurveySparrow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9baa7ea9b51626f8d887d568b428a83999b77940
+ms.openlocfilehash: 0bdcd162a9407454ba7294d424946f5e22217b93
 ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148124"
+ms.locfileid: "61148160"
 ---
-# <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox Deadlines and Matter Management - Outlook
+# <a name="surveysparrow"></a>SurveySparrow
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 24, 2021</p>
+<p>Last updated by the developer on: April 19, 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200003103" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/1b923c85-b04c-43d4-b2c2-0fdc0f598658" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002257" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da LawToolBox.com Inc. a Microsoft:
+Informazioni fornite da SurveySparrow inc. a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | LawToolBox Deadlines and Matter Management - Outlook |
-| ID | WA200003103 |
-| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versione successiva su Mac, Outlook sul web |
-| Nome società partner | LawToolBox.com Inc. |
-| Sito Web aziendale | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
-| Condizioni per l'uso dell'app | [https://www.lawtoolbox.com/customersupport/2019/LawToolBox_...](https://www.lawtoolbox.com/customersupport/2019/LawToolBox_End_User_License_Agreement_and_SLA_LAWTOOLBOX_2019_APR.pdf) |
-| Funzionalità di base dell'app | Gestire le scadenze e cercare i file con le Microsoft 365 per legali |
+| Nome app | SurveySparrow |
+| ID | WA200002257 |
+| Office 365 client supportati | Microsoft Teams |
+| Nome società partner | SurveySparrow inc. |
+| Sito Web aziendale | [https://surveysparrow.com](https://surveysparrow.com) |
+| Condizioni per l'uso dell'app | [https://surveysparrow.com/legal/terms-of-service/](https://surveysparrow.com/legal/terms-of-service/) |
+| Funzionalità di base dell'app | Condurre stand-up giornalieri, felicitazioni mensili e misurare facilmente il polso dei dipendenti. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
@@ -50,7 +51,7 @@ Informazioni fornite da LawToolBox.com Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da LawToolBox.com Inc. Su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da SurveySparrow inc. Su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -59,7 +60,7 @@ Queste informazioni sono state fornite da LawToolBox.com Inc. Su come questa app
 | Quali dati vengono archiviati nei database? |  |
 | Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 2 settimana |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
 | Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
 | Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
@@ -74,8 +75,8 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Esegui test di penetrazione annuali nell'app? | No |
-| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | No |
+| Esegui test di penetrazione annuali nell'app? | Sì |
+| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
 | L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? |  |
 | Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? |  |
 | Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? |  |
@@ -105,7 +106,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | Sì |
-| L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
 | Data di certificazione SOC1 più recente |   |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
@@ -115,13 +116,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Data di certificazione SOC3 più recente | |
 | Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | Sì |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | No |
-| L'app è conforme all'International Organization for Standardization (ISO 27018)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27018)? | N/D |
 | L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
 | L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
-| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | Sì |
-| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
-| L'app è conforme Sarbanes-Oxley Act (SOX)? | Sì |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | Sì |
+| L'app è conforme Sarbanes-Oxley Act (SOX)? | No |
 | L'app è conforme al NIST 800-171? |  |
 | L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | No |
 
@@ -153,11 +154,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
-| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | true |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | false |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
-| L'app supporta i criteri di accesso condizionale? | Sì |
-| Elencare i tipi di criteri supportati | Per un maggiore controllo, l'amministratore può implementare le autorizzazioni per le app |
+| L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) |  |
 | L'app archivia credenziali nel codice? |  |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |

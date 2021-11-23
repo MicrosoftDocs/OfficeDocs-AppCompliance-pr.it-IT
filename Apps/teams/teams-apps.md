@@ -2,17 +2,17 @@
 title: Sicurezza e conformità delle app per Microsoft Teams - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/18/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
 description: Informazioni complete sulla sicurezza e conformità delle app per Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 91e2a350d2037ec8ce22e11ecd34b1aeb854488b
-ms.sourcegitcommit: 8695694a7da27a4114480a394616e66ae180b7e3
+ms.openlocfilehash: 825c33040a6b9a22c3cf998c08cbd0dc5cc8284f
+ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61070350"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "61148074"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft Teams
 
