@@ -2,21 +2,21 @@
 title: Microsoft Word sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/08/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte Microsoft Word app.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le Microsoft Word app.
 localization_priority: Normal
-ms.openlocfilehash: a393f652e193ab3b4dbeca233159e4e98350b5e9
-ms.sourcegitcommit: 1ae3b2c9057829f6d868439ba674d8d8d9f30663
+ms.openlocfilehash: 10e3f16c158e8abfdaf91188dd933ea4626f37b7
+ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61066294"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "61144820"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word sicurezza e conformità delle app
 
-Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative Microsoft Word app e componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app Microsoft Word e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -25,11 +25,11 @@ Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire all
 | [CocoFax - Invio di fax facile da &amp; proteggere](./cocofax-sending-fax-made-easy-and-secure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
 | [Excel-to-Word Document Automation](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
-| [Componente aggiuntivo per Office Fabasoft Cloud](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
+| [Componente aggiuntivo Office Cloud Fabasoft](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
 | [harmon.ie per Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Firme impression](./impression-signatures.md) | Firme impression | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
-| [Assistente contratto Loio](./loio-inc-contract-assistant.md) | Loio Inc. | **✓** |  |
+| [Loio Contract Review Software](./loio-inc-contract-review-software.md) | Loio Inc. | **✓** |  |
 | [Diagrammi lucidchart per Word](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  |
 | [Mendeley Cite](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [neopoli](./neopolis-gmbh.md) | neopolis GmbH | **✓** |  |
