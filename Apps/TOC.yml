@@ -25,7 +25,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel documenti da Excel a Word
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
@@ -63,7 +63,7 @@
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: Dati file XBRL
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote app
+    - name: Microsoft OneNote App
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Selezione contenuto per Office
@@ -144,7 +144,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel documenti da Excel a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -162,7 +162,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project app
+    - name: Microsoft Project App
       href: project/project-apps.md
       items:
         - name: officeatwork | Selezione modelli per Office
@@ -215,6 +215,8 @@
           href: teams/appfluence-inc-agenda-boss.md
         - name: Agile Task Board
           href: teams/agile-is-task-board.md
+        - name: Assistente per Self-Service leghe
+          href: teams/alloy-software-self-service-assistant.md
         - name: Alvao Service Desk
           href: teams/alvao-sro-service-desk.md
         - name: Ambra
@@ -381,6 +383,8 @@
           href: teams/cultr-connect.md
         - name: Cyberday
           href: teams/digiturvamalli-cyberday.md
+        - name: DataMiner
+          href: teams/skyline-communications-dataminer.md
         - name: Datto Workplace
           href: teams/datto-inc-workplace.md
         - name: DBit
@@ -409,8 +413,6 @@
           href: teams/dynamic-signal.md
         - name: Easy Projects
           href: teams/logic-software-inc-easy-projects.md
-        - name: Easy2Meet
-          href: teams/easy2meet-bv.md
         - name: eCademy Lernplattform
           href: teams/cornelsen-ecademy-and-inside-gmbh-lernplattform.md
         - name: ecBooking
@@ -509,6 +511,8 @@
           href: teams/guru-technologies.md
         - name: Health Hero
           href: teams/health-hero.md
+        - name: Heedify
+          href: teams/heedify.md
         - name: HelloTeam
           href: teams/helloteam-inc.md
         - name: HeyTaco!
@@ -535,10 +539,14 @@
           href: teams/hyperproof.md
         - name: iManage
           href: teams/imanage.md
+        - name: imDocShare
+          href: teams/kl-software-technologies-imdocshare.md
         - name: In caso di crisi
           href: teams/rockdove-solutions-inc-in-case-of-crisis.md
         - name: InCaseIT
           href: teams/pilotech-as-incaseit.md
+        - name: Indeqa
+          href: teams/indeqa-bv.md
         - name: IndustryIntel
           href: teams/industry-intelligence-team-industryintel.md
         - name: Infor Coleman
@@ -651,6 +659,8 @@
           href: teams/fest-technologies-llc-monitask.md
         - name: Move Work Forward with Jira
           href: teams/move-work-forward-with-jira.md
+        - name: MSPBots
+          href: teams/jexet-technologies-llc-mspbots.md
         - name: LTAPP processo di approvazione multipla
           href: teams/ltapps-software-coltd-multi-approval-process.md
         - name: MURAL
@@ -1075,7 +1085,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word App
+    - name: Microsoft Word app
       href: word/word-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
@@ -1088,7 +1098,7 @@
           href: word/krevealllc-crosscheck.md
         - name: Excel-to-Word Document Automation
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Componente aggiuntivo per Office Fabasoft Cloud
+        - name: Componente aggiuntivo Office Cloud Fabasoft
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
@@ -1222,8 +1232,6 @@
           href: azure/1040474b-572d-4575-a423-95dd262a8b8a.md
         - name: 14cf575a-fae2-48e2-af39-e3448d3a48bb
           href: azure/14cf575a-fae2-48e2-af39-e3448d3a48bb.md
-        - name: 1533d702-7604-463a-9fa3-63077c425e76
-          href: azure/1533d702-7604-463a-9fa3-63077c425e76.md
         - name: 15439749-b811-4e89-b777-4fe6ef247801
           href: azure/15439749-b811-4e89-b777-4fe6ef247801.md
         - name: 170cef4c-862a-443c-b02a-c5ba04ecc7f3
@@ -1464,8 +1472,6 @@
           href: azure/99a0a9b1-5d28-45df-9f99-792aa32795f4.md
         - name: 99a3ad8d-8682-4f2a-9c2c-b4b27e99585c
           href: azure/99a3ad8d-8682-4f2a-9c2c-b4b27e99585c.md
-        - name: 9a7ce614-bdc8-4640-aaea-d8c626c58966
-          href: azure/9a7ce614-bdc8-4640-aaea-d8c626c58966.md
         - name: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
           href: azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71.md
         - name: 9b03f15d-1219-4b2f-9699-640be54e1319
