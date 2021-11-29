@@ -1,48 +1,47 @@
 ---
-title: Application Information for Kaptain Charlie by askR.ai
+title: Informazioni sull'applicazione per le connessioni LifeWorks Viva di Lifeworks Inc
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Kaptain Charlie, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per LifeWorks Viva Connections, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7bc855b2097b0625b23869f034c4dee071856291
+ms.openlocfilehash: c28ebeaff41e331d55fdefda09b2cf242eb22e0a
 ms.sourcegitcommit: 79e749c1746f3658789e7b080e413be97883abef
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 11/29/2021
-ms.locfileid: "61217083"
+ms.locfileid: "61217215"
 ---
-# <a name="kaptain-charlie"></a>Kaptain Charlie
+# <a name="lifeworks-viva-connections"></a>Connessioni LifeWorks Viva
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 25, 2021</p>
+<p>Last updated by the developer on: November 23, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/1f36eaf6-30a3-4488-a73f-4754b91e865d" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001583" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003517" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da askR.ai a Microsoft:
+Informazioni fornite da Lifeworks Inc a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Kaptain Charlie |
-| ID | WA200001583 |
-| Office 365 client supportati | Microsoft Teams |
-| Nome società partner | askR.ai |
-| Sito Web aziendale | [https://en.askr.ai](https://en.askr.ai) |
-| Condizioni per l'uso dell'app | [https://en.askr.ai/terms-of-use-askr-ai](https://en.askr.ai/terms-of-use-askr-ai) |
-| Funzionalità di base dell'app | Chatta con i tuoi dati ! askR.ai l'assistente per i dati personali Si dispone di dati, ma non si desidera il processo tecnico per accedervi? Usa un assistente dati per rispondere alle tue domande e per aiutarti a esplorare ! Che cosa askR.ai, il primo assistente dati in Microsoft Teams ? - Assistente per i dati personali con tecnologia IA - Fornisce indicatori KPI istantanei e dati viz - Informazioni sul vocabolario aziendale specifico - Invia avvisi - Suggerisci un'analisi aggiuntiva |
-| Sede centrale dell'azienda | Francia |
+| Nome app | Connessioni LifeWorks Viva |
+| ID | WA200003517 |
+| Office 365 client supportati | SharePoint 2016 o versione successiva |
+| Nome società partner | Lifeworks Inc |
+| Sito Web aziendale | [https://www.lifeworks.com](https://www.lifeworks.com) |
+| Condizioni per l'uso dell'app | [https://help.lifeworks.com/hc/en-gb/articles/209973913-End-...](https://help.lifeworks.com/hc/en-gb/articles/209973913-End-User-Licence-Agreement) |
+| Funzionalità di base dell'app | Accedere a contenuti di benessere e riconoscere i colleghi direttamente da Viva Connections! |
+| Sede centrale dell'azienda | Canada |
 | Pagina delle informazioni dell'app | |
-| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
-| Quali provider di cloud di hosting usa l'app? | Altro |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
+| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,7 +51,7 @@ Informazioni fornite da askR.ai a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da askR.ai su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Lifeworks Inc su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -82,7 +81,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
 | Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? | Sì |
 | Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
-| L'ambiente include sistemi operativi o software non supportati? | No |
+| L'ambiente include sistemi operativi o software non supportati? | Sì |
 | Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? | Sì |
 | Nel limite di rete esterno è installato un firewall? | Sì |
 | Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? | Sì |
@@ -106,25 +105,25 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | No |
+| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | Sì |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | No |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
 | Data di certificazione SOC1 più recente |   |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
 | Quale certificazione SOC 2 hai raggiunto? | |
 | Data di certificazione SOC2 più recente | |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
 | Data di certificazione SOC3 più recente | |
-| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | No |
+| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | N/D |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | No |
-| L'app è conforme all'International Organization for Standardization (ISO 27018)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27018)? | N/D |
 | L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
 | L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
-| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | No |
-| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | No |
-| L'app è conforme Sarbanes-Oxley Act (SOX)? | No |
-| L'app è conforme al NIST 800-171? | No |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
+| L'app è conforme Sarbanes-Oxley Act (SOX)? | N/D |
+| L'app è conforme al NIST 800-171? | N/D |
 | L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -137,7 +136,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 |:----------------|:-------------|
 | Hai un GDPR o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
 | L'app ha un avviso sulla privacy rivolto all'esterno che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
-| URL dell'informativa sulla privacy | https://en.askr.ai/terms-of-use-askr-ai |
+| URL dell'informativa sulla privacy | https://help.lifeworks.com/hc/en-gb/articles/209973913-End-User-Licence-Agreement |
 | L'app esegue processi decisionali automatizzati, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
 | L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
 | Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? | No |
@@ -155,9 +154,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
-| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | No |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | No |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | Sì |

@@ -2,17 +2,17 @@
 title: Sicurezza e conformità di Microsoft SharePoint Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/15/2021
+ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app SharePoint Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 7fadd914a01b3b02ce14791b31d36385472ec917
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 0ab6d04d916c0398642ed3f9dc80b7b5dd9196b1
+ms.sourcegitcommit: 79e749c1746f3658789e7b080e413be97883abef
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412025"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61217070"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft SharePoint Apps
 
@@ -29,6 +29,7 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [iGlobe CRM Add-ons](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iGlobe CRM Office 365 per Microsoft Office 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Konnect eMail Parser](./konnect-email-parser.md) | Konnect eMail | **✓** |  |
+| [Connessioni LifeWorks Viva](./lifeworks-inc-viva-connections.md) | Lifeworks Inc | **✓** |  |
 | [Lightning Tools Lightning Conductor](./lightning-tools-conductor.md) | Strumenti Lightning | **✓** |  |
 | [officeatwork | Selezione modelli per SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** |  |
 | [Opzioni di collaborazione di Power BI](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
