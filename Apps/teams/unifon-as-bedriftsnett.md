@@ -1,48 +1,48 @@
 ---
-title: Informazioni sull'applicazione per qbo di Unscrambl
+title: Informazioni sull'applicazione per Bedriftsnett di Unifon AS
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per qbo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Bedriftsnett, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f48255e8f29512bfc18a9d9c1a3d079829d31769
+ms.openlocfilehash: 4caa96e6b900dbb9e7affdb08be3932c27b4f69f
 ms.sourcegitcommit: 7395a3f8bf109af577dc24ad1de4e7d18db9c26d
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 11/29/2021
-ms.locfileid: "61211023"
+ms.locfileid: "61212986"
 ---
-# <a name="qbo"></a>qbo
+# <a name="bedriftsnett"></a>Bedriftsnett
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 25, 2021</p>
+<p>Last updated by the developer on: October 8, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/834c6939-152c-450b-a305-c65b4dd5d1c7" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001708" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/af9a1113-600a-4084-9e68-5f20fe25f4d8" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003490" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Unscrambl a Microsoft:
+Informazioni fornite da Unifon AS a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | qbo |
-| ID | WA200001708 |
+| Nome app | Bedriftsnett |
+| ID | WA200003490 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Unscrambl |
-| Sito Web aziendale | [https://unscrambl.com](https://unscrambl.com) |
-| Condizioni per l'uso dell'app | [https://qbo.ai/legal/#service](https://qbo.ai/legal/#service) |
-| Funzionalità di base dell'app | qbo, alimentato da informazioni dettagliate qbo unscrambl, rende l'analisi conversazionale usando NLP di livello migliore. Gli utenti digitano una domanda e qbo mostra le informazioni e le visualizzazioni più rilevanti in un attimo. Gli utenti possono collaborare attivamente con i colleghi, prendere decisioni e acquisire risultati nelle bacheche pronte per la presentazione. qbo consente a tutti gli utenti dell'organizzazione di prendere decisioni guidate da dati. qbo si connette direttamente a un intervallo di origini cloud o locali ed è possibile accedervi tramite Microsoft Teams o un browser. |
-| Sede centrale dell'azienda | Stati Uniti d'America |
+| Nome società partner | Unifon AS |
+| Sito Web aziendale | [https://www.unifon.no](https://www.unifon.no) |
+| Condizioni per l'uso dell'app | [https://www.unifon.no/avtalevilkar/](https://www.unifon.no/avtalevilkar/) |
+| Funzionalità di base dell'app | Unifon Bedriftsnett è ora disponibile direttamente in Microsoft Teams |
+| Sede centrale dell'azienda | Norvegia |
 | Pagina delle informazioni dell'app | |
-| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
-| Quali provider di cloud di hosting usa l'app? | Azure |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
+| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,19 +52,17 @@ Informazioni fornite da Unscrambl a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Unscrambl sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Unifon AS su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
-| L'app supporta TLS 1.1 o versione successiva? | Sì |
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | nome e indirizzo di posta elettronica |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Singapore |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Non conservato |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
+| Quali dati vengono archiviati nei database? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
+| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
 | Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
 | Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
 
@@ -85,14 +83,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? | Sì |
 | Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
 | L'ambiente include sistemi operativi o software non supportati? | No |
-| Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? | Sì |
+| Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? | No |
 | Nel limite di rete esterno è installato un firewall? | Sì |
 | Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? | Sì |
 | Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? | Sì |
-| Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
-| Autenticazione a più fattori abilitata per: | Credential, DNSManagement, CodeRepositories |
+| Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? | No |
+| Autenticazione a più fattori abilitata per: | Credential, CodeRepositories, DNSManagement |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
-| Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? | No |
+| Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? | Sì |
 | La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? | Sì |
 | Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì|
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
@@ -117,7 +115,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Data di certificazione SOC2 più recente | |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
 | Data di certificazione SOC3 più recente | |
-| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | No |
+| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | N/D |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | No |
 | L'app è conforme all'International Organization for Standardization (ISO 27018)? | N/D |
 | L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
@@ -139,7 +137,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 |:----------------|:-------------|
 | Hai un GDPR o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
 | L'app ha un avviso sulla privacy rivolto all'esterno che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
-| URL dell'informativa sulla privacy | https://qbo.ai/legal/ |
+| URL dell'informativa sulla privacy | https://www.unifon.no/personvern/ |
 | L'app esegue processi decisionali automatizzati, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
 | L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
 | Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? | No |
@@ -164,7 +162,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
 | L'app archivia credenziali nel codice? | No |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | Sì |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |
 
 >Questa applicazione non utilizza Microsoft Graph.
 

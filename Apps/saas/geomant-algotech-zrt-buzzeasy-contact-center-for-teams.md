@@ -2,24 +2,24 @@
 title: Application Information for Buzzeasy Contact Center for Teams by Geomant-Algotech Zrt.
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/08/2021
+ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Buzzeasy Contact Center per Teams, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 02396ac56e40ab444175b7882c8b0cf1aa31b327
-ms.sourcegitcommit: cb50f8967ff1ca98c98bcadb26c05b3a5c5a6ea8
+ms.openlocfilehash: f80ef944b502b1bacb5253f917154747761ee6ae
+ms.sourcegitcommit: 7395a3f8bf109af577dc24ad1de4e7d18db9c26d
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60874931"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61215263"
 ---
 # <a name="buzzeasy-contact-center-for-teams"></a>Buzzeasy Contact Center per Teams
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 21, 2021</p>
+<p>Last updated by the developer on: November 23, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/geomant.buzzeasy_teams_contact_center" target="_blank">Visualizzazione in AppSource</a>
 
@@ -39,7 +39,7 @@ Informazioni fornite da Geomant-Algotech Zrt. a Microsoft:
 | Funzionalità di base dell'app | Soluzione Contact Center per Microsoft Teams |
 | Sede centrale dell'azienda | Ungheria |
 | Pagina delle informazioni dell'app | |
-| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Ibrido |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -58,11 +58,11 @@ Queste informazioni sono state fornite da Geomant-Algotech Zrt. informazioni su 
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
+| Quali dati vengono archiviati nei database? | Microsoft JWT User and refresh Token, Microsoft Application ID, App Secret, M365 Email content from Graph API |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Irlanda |
+| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 90 giorni |
+| Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
 | Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
 | Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
 
@@ -80,7 +80,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
 | L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware |
 | Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | No |
-| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? | Sì |
 | Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
 | L'ambiente include sistemi operativi o software non supportati? | No |
 | Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? | Sì |
@@ -96,7 +96,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
 | Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento?| |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -119,7 +119,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
 | L'app è conforme all'International Organization for Standardization (ISO 27018)? | N/D |
 | L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
-| L'app è conforme a International Organization for Standardization (ISO 27002)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
 | L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
 | L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
@@ -166,7 +166,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph Autorizzazione**  | **Tipo autorizzazione** |          **Giustificazione**          |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
 >|:------------------------|:--------------------|:------------------------------------|
 >| Mail.ReadWrite | application | Consente all'agente di leggere/scrivere una cassetta postale specifica (condivisa) tramite l'interfaccia utente dell'agente. Può essere filtrato in base a una cassetta postale specifica. |
 >| Mail.Send | application | Invio di posta elettronica per conto di una cassetta postale condivisa. |

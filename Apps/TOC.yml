@@ -18,14 +18,14 @@
           href: docs/certification.md
         - name: Microsoft 365 di invio della certificazione
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel app
+    - name: Microsoft Excel App
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator per i partner B2B
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel documenti da Excel a Word
+        - name: Excel-to-Word Document Automation
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
@@ -63,7 +63,7 @@
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: Dati file XBRL
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote App
+    - name: Microsoft OneNote app
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Selezione contenuto per Office
@@ -144,7 +144,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel documenti da Excel a Word
+        - name: Excel-to-Word Document Automation
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -162,7 +162,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project App
+    - name: Microsoft Project app
       href: project/project-apps.md
       items:
         - name: officeatwork | Selezione modelli per Office
@@ -196,7 +196,7 @@
           href: sharepoint/ataira-power-bi-collaboration.md
         - name: Prenotazione degli eventi più intelligente
           href: sharepoint/smarter-business-solutions-gmbh-event-booking.md
-    - name: Microsoft Teams app
+    - name: Microsoft Teams App
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -215,7 +215,7 @@
           href: teams/appfluence-inc-agenda-boss.md
         - name: Agile Task Board
           href: teams/agile-is-task-board.md
-        - name: Assistente per Self-Service leghe
+        - name: Alloy Self-Service Assistant
           href: teams/alloy-software-self-service-assistant.md
         - name: Alvao Service Desk
           href: teams/alvao-sro-service-desk.md
@@ -269,6 +269,8 @@
           href: teams/axelleron.md
         - name: Beagle
           href: teams/decision-point-beagle.md
+        - name: Bedriftsnett
+          href: teams/unifon-as-bedriftsnett.md
         - name: Beekast
           href: teams/beekast.md
         - name: Beesy
@@ -375,6 +377,8 @@
           href: teams/colligo-inc-content-manager.md
         - name: Contextere AVA
           href: teams/contextere-ava.md
+        - name: ContractZen
+          href: teams/contractzen.md
         - name: CSOD Learn
           href: teams/cornerstone-ondemand-csod-learn.md
         - name: Cuckoo Workout
@@ -1472,6 +1476,8 @@
           href: azure/99a0a9b1-5d28-45df-9f99-792aa32795f4.md
         - name: 99a3ad8d-8682-4f2a-9c2c-b4b27e99585c
           href: azure/99a3ad8d-8682-4f2a-9c2c-b4b27e99585c.md
+        - name: 9a7ce614-bdc8-4640-aaea-d8c626c58966
+          href: azure/9a7ce614-bdc8-4640-aaea-d8c626c58966.md
         - name: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
           href: azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71.md
         - name: 9b03f15d-1219-4b2f-9699-640be54e1319
@@ -1490,6 +1496,8 @@
           href: azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md
         - name: a1a0b277-0efb-4f00-9661-6d1a3df3cddc
           href: azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md
+        - name: a2af9d71-95f1-4236-be2c-c105ab9b7ee9
+          href: azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9.md
         - name: a4c28379-0840-42c5-9407-f088a7f54048
           href: azure/a4c28379-0840-42c5-9407-f088a7f54048.md
         - name: a554bdf0-866f-4ee2-b95b-3afbfc70d5bc
@@ -1646,6 +1654,8 @@
           href: azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md
         - name: f3943662-e828-40ed-9c6e-369680fe421f
           href: azure/f3943662-e828-40ed-9c6e-369680fe421f.md
+        - name: f3ad2154-7e10-4730-a055-8852ced42d47
+          href: azure/f3ad2154-7e10-4730-a055-8852ced42d47.md
         - name: f5c9f179-b9a5-4364-8f99-18d203b902ad
           href: azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md
         - name: f6671df0-1909-428c-91f7-1c42df04d3e4
