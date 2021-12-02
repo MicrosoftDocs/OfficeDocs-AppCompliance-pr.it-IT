@@ -1,21 +1,27 @@
 ---
 ms.author: oromalle
-title: Microsoft 365 Certificazione - Guida all'invio di documenti iniziale
+title: Microsoft 365 - Guida all'invio di documenti iniziale
 author: orionomalley
-description: Microsoft 365 Visualizzazione granulare della Guida all'invio della certificazione
-keywords: team di certificazione delle app Microsoft 365 sicurezza conformità m365 invio documento iniziale
+description: Microsoft 365 granulare della Guida all'invio della certificazione
+keywords: team di certificazione app Microsoft 365 sicurezza conformità m365 invio documento iniziale
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 0352b64649d87b40d185a2bc06ce23da6cf341ef
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: 0f879ce6b02fb469b0210500e4706d468ccb4011
+ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378814"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61261678"
 ---
-# <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification - Initial Document Submission Guide
+# <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification - Guida all'invio di documenti iniziale
 
 L'invio del documento iniziale fa parte della fase di prevalutazione della certificazione. Le informazioni fornite offriranno agli analisti di certificazione le informazioni necessarie per identificare i controlli e i componenti di sistema che saranno nell'ambito della valutazione. Questo documento ha lo scopo di fungere solo da esempio di ciò che è previsto per l'invio iniziale del documento. La documentazione fornita varia a seconda di come la soluzione viene progettata, implementata e gestita.
+
+## <a name="what-is-the-hosting-environment-or-service-model-used-to-run-your-app"></a>Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app?
+- Infrastructure as a Service (IaaS) è un modello di servizio cloud in cui il provider di servizi cloud ospita i componenti dell'infrastruttura, ma gli ISV sono ancora responsabili della distribuzione e della gestione dei componenti singolarmente, ad esempio macchine virtuali/sistemi operativi, archivi dati e componenti di rete. Esempi di questo tipo sono Azure Virtual Machine e Azure Disk Archiviazione.
+- Platform as a Service (PaaS) è un modello di servizio cloud in cui i componenti dell'infrastruttura vengono gestiti dal provider di servizi cloud. Gli ISV sono responsabili solo della distribuzione delle proprie applicazioni e servizi. Esempi sono Azure App Services, Azure Functions e Rete CDN di Azure.
+- ISV Ospitato in questo contesto significa che non viene utilizzato alcun provider di servizi cloud. L'ISV gestisce fisicamente i propri server, dischi, rete in modo indipendente in locale.
+- Ibrido in questo contesto significa che viene utilizzato uno dei modelli precedenti. Ad esempio, alcuni ISV possono scegliere di usare una combinazione di servizi IaaS e servizi PaaS per supportare l'app oppure potrebbero avere alcuni componenti ospitati da ISV locali e esternalizzare altri a un provider di servizi cloud. Se si utilizza uno di più modelli di servizio, selezionare ibrido.
 
 ## <a name="penetration-test-report"></a>Report test di penetrazione
 
@@ -28,13 +34,13 @@ Includi il report completo dei test di penetrazione con le date che segnalano ch
 
 Un'inventaroy aggiornata di tutti i componenti di sistema utilizzati dall'infrastruttura di supporto. Verrà usato per facilitare il campionamento durante l'esecuzione della fase di valutazione. Se l'ambiente include PaaS, sarebbe utile fornire dettagli su tutti i servizi PaaS utilizzati.
 
-**Nota:** IaaS/PaaS non avrebbe hardware sotto il controllo isv.  In questo caso, fornire un elenco o uno screenshot di tutte le risorse viruali.
+**Nota:** IaaS/PaaS non dispone di hardware sotto il controllo isv.  In questo caso, fornire un elenco o uno screenshot di tutte le risorse viruali.
 
 **Esempio:**
 
 |Nome risorsa|    Tipo di risorsa| Descrizione|    Produttore|   Modello|
 |-|-|-|-|-|
-|D212|  Windows  Computer|   Macchina virtuale|    N/D| N/D|
+|D212|  Windows Computer|   Macchina virtuale|    N/D| N/D|
 |LT101| Portatili| Workstation|    Microsoft|  Surface 3|
 |C2938| Opzione| Opzione|N/D|N/D|     
 |LXM2|  Linux Machine|  Computer di test|N/D|N/D|       
@@ -48,7 +54,7 @@ Un inventario aggiornato di tutti gli asset software, incluso tutto il software 
 
 |Software|  Publisher|  Versione|     Finalità|
 |-|-|-|-|
-|Server Windows|    Microsoft 2016 | Build 14393| Sistema operativo server per l'ambiente di produzione|.
+|Windows Server|    Microsoft 2016 | Build 14393| Sistema operativo server per l'ambiente di produzione|.
 |Linux Ubuntu|  N/D|    16.04 (Xenial)| Sistema operativo server in uso all'interno della rete perimetrale.|
 |ESXi|  VMWare| 6.5.0 (Build 13004031)| Utilizzato per supportare i server virtuali.|
 |Mysql (Windows)|   N/D|    8.0.2.1|    Server di database per archiviare la cronologia delle chat.|
@@ -114,7 +120,7 @@ Diagramma dell'architettura logica che rappresenta una panoramica generale dell'
 Flow diagrammi che illustrano in dettaglio quanto segue:
 -   I dati fluisce da e verso l'app/componente aggiuntivo (inclusi i dati dei clienti).
 -   Flussi di dati all'interno dell'infrastruttura di supporto (se applicabile)
--   Diagrammi che evidenziano dove e quali dati vengono archiviati, come i dati vengono trasmessi a terze parti esterne (inclusi i dettagli di quali terze parti) e come i dati sono protetti in transito su reti aperte/pubbliche e in pausa.
+-   Diagrammi che evidenziano dove e quali dati vengono archiviati, come i dati vengono passati a terze parti esterne (inclusi i dettagli di quali terze parti) e come i dati sono protetti in transito su reti aperte/pubbliche e in pausa.
 
 ![Diagramma Flow dati](../media/Dataflowdiagram.png)
 

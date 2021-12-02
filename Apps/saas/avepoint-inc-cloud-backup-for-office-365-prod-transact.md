@@ -6,14 +6,14 @@ ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni di sicurezza e conformità disponibili per Cloud Backup per Office 365 - Prod (transazione), i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Cloud Backup per Office 365 - Prod (transact), i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9257448bd15bc23647a3567fb0f66a7325fe1fd
-ms.sourcegitcommit: 7989546de4aa2bbd2a751281d1aa215facae2d15
+ms.openlocfilehash: d2017f681e2689dbf4625baf7f7d3dcef62bbfc4
+ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "61039998"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61261688"
 ---
 # <a name="cloud-backup-for-office-365---prod-transact"></a>Cloud Backup per Office 365 - Prod (transazione)
 
@@ -35,8 +35,11 @@ Informazioni fornite da AvePoint Inc. a Microsoft:
 | Nome società partner | AvePoint Inc. |
 | Sito Web aziendale | [https://www.avepoint.com](https://www.avepoint.com) |
 | Condizioni per l'uso dell'app | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Funzionalità di base dell'app | AvePoint Cloud Backup è la soluzione&#8217;di backup da cloud a cloud più completa per Microsoft 365. Con
-backup illimitati, automatizzati e archiviazione sicura in AvePoint&#8217;'archiviazione di Azure o nel cloud, è sufficiente decidere quanto ripristinare e quando. Il ripristino a livello di elemento su richiesta e granulare consente di accedere in qualsiasi momento a messaggi di posta elettronica, file, conversazioni, registrazioni, progetti, attività, gruppi, Teams, Planner e siti critici per l'azienda. | | Sede centrale aziendale | Stati Uniti d'America | | Pagina info app | | | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas | | Quali provider di cloud di hosting usa l'app? | Azure |
+| Funzionalità di base dell'app | AvePoint Cloud Backup è la soluzione&#8217;di backup da cloud a cloud più completa per Microsoft 365. Con backup automatici illimitati e archiviazione sicura nell'archiviazione di Azure di AvePoint&#8217;o nel cloud, è sufficiente decidere quanto ripristinare e quando. Il ripristino a livello di elemento su richiesta e granulare consente di accedere in qualsiasi momento a messaggi di posta elettronica, file, conversazioni, registrazioni, progetti, attività, gruppi, Teams, Planner e siti critici per l'azienda. |
+| Sede centrale dell'azienda | Stati Uniti d'America |
+| Pagina delle informazioni dell'app | |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -54,7 +57,7 @@ Queste informazioni sono state fornite da AvePoint Inc. Su come questa app racco
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | SharePoint sito/sito ODFB/Microsoft 365/ID team, nome, url; |
+| Quali dati vengono archiviati nei database? | SharePoint site/ODFB site/Microsoft 365 group/Team id, name, url; |
 | Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
@@ -68,7 +71,7 @@ Queste informazioni sono state fornite da AvePoint Inc. Su come questa app racco
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Di seguito sono riportate [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) informazioni del catalogo di ricerca.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
