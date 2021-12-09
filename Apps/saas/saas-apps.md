@@ -2,17 +2,17 @@
 title: Sicurezza e conformità delle app SaaS - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/07/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 9a96b3d33c06f3ec77989fcdb669f97c0f608bd8
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 14125ffe6afd36925adfb2e993f059ba4a3a84ba
+ms.sourcegitcommit: e50a2b92ad5918cb72b9cffca73aeffc8f2d6d76
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 12/08/2021
-ms.locfileid: "61354401"
+ms.locfileid: "61359708"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sicurezza e conformità delle app SaaS
 
@@ -45,4 +45,5 @@ Microsoft collabora con i partner Microsoft 365 per fornire alle organizzazioni 
 | [Browser Selezione modelli](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** |  |
 | [Autore del caricamento](./officeatwork-uploader.md) | officeatwork | **✓** |  |
 | [Verifier](./officeatwork-verifier.md) | officeatwork | **✓** |  |
+| [Idee ampie - Software per l'innovazione](./wide-ideasidea2innovation-ideas-innovation-software.md) | Idee ampie/Idea2Innovation | **✓** |  |
 | [Procedura guidata](./officeatwork-wizard.md) | officeatwork | **✓** |  |
