@@ -2,17 +2,17 @@
 title: Informazioni sull'ID app di Azure per b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/10/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.
-ms.openlocfilehash: 8bf57ad3c6fd57757558060792f82f672e9e3dd8
-ms.sourcegitcommit: 69fc4973c9ad349e40b9b1a13aae8acec3773b17
+ms.openlocfilehash: d6cd73d38586a0c119489b2df6ca39af648225b0
+ms.sourcegitcommit: 4abb4344a6593d61ef5a1a84cf32dc6610652f2f
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 12/10/2021
-ms.locfileid: "61413557"
+ms.locfileid: "61408130"
 ---
 # <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>ID app azure: b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 
@@ -22,5 +22,5 @@ ms.locfileid: "61413557"
 |--------------|---------------|-----------------------|
 | [Teams Manager](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200000764) |  | [https://appsource.microsoft.com/product/office/WA200000764](https://appsource.microsoft.com/product/office/WA200000764) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 conformità app
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato conformità app
 - Publisher Attestaton Status: Completed
