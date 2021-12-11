@@ -2,17 +2,17 @@
 title: Informazioni sull'ID app di Azure per a554bdf0-866f-4ee2-b95b-3afbfc70d5bc
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per a554bdf0-866f-4ee2-b95b-3afbfc70d5bc.
-ms.openlocfilehash: b3c618a15c53468b5649c085f1770e8230596ddc
-ms.sourcegitcommit: e50a2b92ad5918cb72b9cffca73aeffc8f2d6d76
+ms.openlocfilehash: 2b021ab8e2ba2c950a238e9179c2d0ea6318986b
+ms.sourcegitcommit: 69fc4973c9ad349e40b9b1a13aae8acec3773b17
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61359758"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61413177"
 ---
 # <a name="azure-app-id-a554bdf0-866f-4ee2-b95b-3afbfc70d5bc"></a>ID app azure: a554bdf0-866f-4ee2-b95b-3afbfc70d5bc
 
@@ -22,5 +22,5 @@ ms.locfileid: "61359758"
 |--------------|---------------|-----------------------|
 | [Classroom.cloud](https://docs.microsoft.com/microsoft-365-app-certification/forward/netsupportltd1595255396224.classroom_cloud) |  | [https://appsource.microsoft.com/product/office/netsupportltd1595255396224.classroom_cloud](https://appsource.microsoft.com/product/office/netsupportltd1595255396224.classroom_cloud) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 conformità app
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato conformità app
 - Publisher Attestaton Status: Completed
