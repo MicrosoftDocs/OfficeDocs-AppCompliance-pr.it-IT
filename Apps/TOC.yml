@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Certificazione Microsoft 365 completa
           href: docs/certification.md
-        - name: Microsoft 365 di invio della certificazione
+        - name: Microsoft 365 per l'invio della certificazione
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel app
       href: excel/excel-apps.md
@@ -25,7 +25,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel documenti da Excel word a Word
+        - name: Excel automazione documenti da Excel word a Word
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
@@ -136,7 +136,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel documenti da Excel word a Word
+        - name: Excel automazione documenti da Excel word a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -182,7 +182,7 @@
           href: sharepoint/ataira-power-bi-collaboration.md
         - name: Prenotazione degli eventi più intelligente
           href: sharepoint/smarter-business-solutions-gmbh-event-booking.md
-    - name: Microsoft Teams app
+    - name: Microsoft Teams App
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -821,6 +821,8 @@
           href: teams/iqar-suitepro-g.md
         - name: SuperBeings
           href: teams/haptivity-technologies-pvt-ltd-superbeings.md
+        - name: SuperOffice
+          href: teams/superoffice-infobridge-software.md
         - name: SurveyMonkey
           href: teams/surveymonkey.md
         - name: SurveySparrow
@@ -845,6 +847,8 @@
           href: teams/ityss-tamplo.md
         - name: Taskworld
           href: teams/taskworld.md
+        - name: Team Tracker
+          href: teams/team-tracker-ltd.md
         - name: Teamble
           href: teams/teamble.md
         - name: Bot controllo sanitario TeaMe
@@ -987,7 +991,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word App
+    - name: Microsoft Word app
       href: word/word-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
@@ -1000,7 +1004,7 @@
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
-        - name: Excel documenti da Excel word a Word
+        - name: Excel automazione documenti da Excel word a Word
           href: word/analysisplace-excel-to-word-document-automation.md
         - name: Componente aggiuntivo Office Cloud Fabasoft
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
@@ -1089,6 +1093,8 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
+        - name: SendGuard per M365
+          href: saas/standss-south-pacific-pte-limited-sendguard-for-m365.md
         - name: Selezione diapositive
           href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser
