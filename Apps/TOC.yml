@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Certificazione Microsoft 365 completa
           href: docs/certification.md
-        - name: Microsoft 365 di invio della certificazione
+        - name: Microsoft 365 per l'invio della certificazione
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel app
       href: excel/excel-apps.md
@@ -25,7 +25,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
@@ -125,6 +125,8 @@
           href: outlook/salesforcecom-salesforce.md
         - name: ServiceDesk Plus per la posta elettronica
           href: outlook/zoho-corporation-private-limited-servicedesk-plus-for-email.md
+        - name: Strategia-AI
+          href: outlook/chinchilla-software-limited-strategy-ai.md
         - name: Wunder365
           href: outlook/jiji-technologies-private-limited-wunder365.md
         - name: XQ Secure Email
@@ -136,7 +138,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -182,7 +184,7 @@
           href: sharepoint/ataira-power-bi-collaboration.md
         - name: Prenotazione degli eventi più intelligente
           href: sharepoint/smarter-business-solutions-gmbh-event-booking.md
-    - name: Microsoft Teams app
+    - name: Microsoft Teams App
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -345,6 +347,8 @@
           href: teams/colligo-inc-content-manager.md
         - name: Contextere AVA
           href: teams/contextere-ava.md
+        - name: ContractZen
+          href: teams/contractzen.md
         - name: CSOD Learn
           href: teams/cornerstone-ondemand-csod-learn.md
         - name: Cuckoo Workout
@@ -875,10 +879,16 @@
           href: teams/officeatwork-template-chooser.md
         - name: Testo
           href: teams/approved-contact-text.md
+        - name: The Captivate Hub
+          href: teams/captivate-io-ltd-the-hub.md
+        - name: ThoughtExchange
+          href: teams/thoughtexchange.md
         - name: ThoughtWire EWS
           href: teams/thoughtwire-corp-ews.md
         - name: ti8m places
           href: teams/tiandm-ag-ti8m-places.md
+        - name: Tikit
+          href: teams/cireson-tikit.md
         - name: TimeClock 365
           href: teams/softsale-timeclock-365.md
         - name: timeghost - Time tracking
@@ -1110,6 +1120,8 @@
           href: azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5.md
         - name: 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0
           href: azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0.md
+        - name: 0492ead3-ee26-40df-9757-d95cc693d856
+          href: azure/0492ead3-ee26-40df-9757-d95cc693d856.md
         - name: 05ffe668-5b27-45ff-a64d-b2ed6c475d7a
           href: azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md
         - name: 066a6b3a-f7a0-450a-98c7-34db1da31594
@@ -1428,6 +1440,8 @@
           href: azure/affadfb6-f17b-428f-97f9-9aae3b6175bc.md
         - name: b0656c15-44aa-4aab-8956-bb97e3016535
           href: azure/b0656c15-44aa-4aab-8956-bb97e3016535.md
+        - name: b13c40ee-e073-459e-96b5-3f3cca046a37
+          href: azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md
         - name: b1d1c038-a1f3-4802-be93-0f4a66589e73
           href: azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md
         - name: b2380441-bb33-439e-bf4a-8cd277dcebc8
