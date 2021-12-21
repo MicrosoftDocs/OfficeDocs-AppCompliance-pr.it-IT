@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Microsoft 365 per l'invio della certificazione
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel app
+    - name: Microsoft Excel App
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator per i partner B2B
@@ -59,7 +59,7 @@
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: Dati file XBRL
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote App
+    - name: Microsoft OneNote app
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Selezione contenuto per Office
@@ -184,7 +184,7 @@
           href: sharepoint/ataira-power-bi-collaboration.md
         - name: Prenotazione degli eventi più intelligente
           href: sharepoint/smarter-business-solutions-gmbh-event-booking.md
-    - name: Microsoft Teams App
+    - name: Microsoft Teams app
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -1028,7 +1028,7 @@
           href: word/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | Selezione contenuto per Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | Progettazione per Office
+        - name: officeatwork | Designer per Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
         - name: officeatwork | Selezione immagini per Office
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
@@ -1396,6 +1396,8 @@
           href: azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md
         - name: a1a0b277-0efb-4f00-9661-6d1a3df3cddc
           href: azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md
+        - name: a22e0150-3615-46aa-b0a7-086c87a9f38d
+          href: azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md
         - name: a2af9d71-95f1-4236-be2c-c105ab9b7ee9
           href: azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9.md
         - name: a4c28379-0840-42c5-9407-f088a7f54048
