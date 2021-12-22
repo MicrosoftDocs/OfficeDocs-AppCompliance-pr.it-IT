@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Certificazione Microsoft 365 completa
           href: docs/certification.md
-        - name: Microsoft 365 per l'invio della certificazione
+        - name: Microsoft 365 di invio della certificazione
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel App
       href: excel/excel-apps.md
@@ -585,6 +585,8 @@
           href: teams/message-reminder.md
         - name: MGR360
           href: teams/mgr360.md
+        - name: Mia
+          href: teams/mihcm-mia.md
         - name: Micromate
           href: teams/paixon-gmbh-micromate.md
         - name: MindManager
@@ -685,6 +687,8 @@
           href: teams/powell-software-teams.md
         - name: Opzioni di collaborazione di Power BI
           href: teams/ataira-power-bi-collaboration.md
+        - name: Powow
+          href: teams/powow-ai.md
         - name: Presentazioni AI
           href: teams/infographfx-technologies-presentations-ai.md
         - name: Priority Matrix
@@ -1010,7 +1014,7 @@
           href: word/krevealllc-crosscheck.md
         - name: Excel automazione documenti da Excel word a Word
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Componente aggiuntivo Office Cloud Fabasoft
+        - name: Componente aggiuntivo Office Fabasoft Cloud
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
@@ -1059,6 +1063,8 @@
       items:
         - name: Buzzeasy Contact Center per Teams
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
+        - name: CC4Teams
+          href: saas/cc4all-cc4teams.md
         - name: Classroom.cloud
           href: saas/netsupport-ltd-classroomcloud.md
         - name: Cloud Backup per Microsoft Office 365
@@ -1071,6 +1077,8 @@
           href: saas/officeatwork-content-chooser.md
         - name: Designer
           href: saas/officeatwork-designer.md
+        - name: EmailNotes per Outlook
+          href: saas/standss-south-pacific-pte-limited-emailnotes-for-outlook.md
         - name: iGlobe CRM Office 365 per Microsoft 365
           href: saas/iglobe-crm-office-365-for-microsoft.md
         - name: Selezione immagini
@@ -1079,6 +1087,8 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
+        - name: Luware Compliance Recording for Microsoft Teams
+          href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus per Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
         - name: MIPA - Assistente personale intelligente
@@ -1097,8 +1107,6 @@
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
           href: saas/salestim.md
-        - name: SendGuard per M365
-          href: saas/standss-south-pacific-pte-limited-sendguard-for-m365.md
         - name: Selezione diapositive
           href: saas/officeatwork-slide-chooser.md
         - name: Template Chooser
