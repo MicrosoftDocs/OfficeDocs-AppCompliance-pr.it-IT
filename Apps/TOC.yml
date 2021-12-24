@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Microsoft 365 di invio della certificazione
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel App
+    - name: Microsoft Excel app
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator per i partner B2B
@@ -585,6 +585,8 @@
           href: teams/mentimeter.md
         - name: Message Reminder
           href: teams/message-reminder.md
+        - name: MetaVisitor
+          href: teams/wafer-systems-metavisitor.md
         - name: MGR360
           href: teams/mgr360.md
         - name: Mia
