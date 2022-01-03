@@ -2,24 +2,23 @@
 title: Informazioni sull'applicazione per iGlobe CRM per Teams da iGlobe
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/06/2021
+ms.date: 12/19/2021
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per iGlobe CRM per Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+certification_type: certified
+description: Tutte le informazioni di sicurezza e conformità disponibili per iGlobe CRM per Teams, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 50a591bbbf634a69b0684ee7701987bd7b8eaad8
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 6aaeddce93a513ca22b0bf5c0b4fdf8b85a7830d
+ms.sourcegitcommit: b52a796899ec9fb4a27778773c1a1d5fb0c33610
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61354602"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "61662684"
 ---
 # <a name="iglobe-crm-for-teams"></a>iGlobe CRM per Teams
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 6, 2021</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Last updated by the developer on: December 9, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/f708066c-137d-41a1-a88b-a6f3ae8982e2" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381421" target="_blank">Visualizzazione in AppSource</a>
@@ -72,7 +71,7 @@ Queste informazioni sono state fornite da iGlobe su come questa app raccoglie e 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
