@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Certificazione Microsoft 365 completa
           href: docs/certification.md
-        - name: Microsoft 365 di invio della certificazione
+        - name: Microsoft 365 guida all'invio della certificazione
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel app
       href: excel/excel-apps.md
@@ -59,7 +59,7 @@
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: Dati file XBRL
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote App
+    - name: Microsoft OneNote app
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Selezione contenuto per Office
@@ -166,6 +166,8 @@
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
         - name: ArcGIS per SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
+        - name: Sistema di gestione delle offerte
+          href: sharepoint/beyond-technologies-bid-management-system.md
         - name: Connettore FormMachines per SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: HelloSign per SharePoint
@@ -863,6 +865,8 @@
           href: teams/teamble.md
         - name: Bot controllo sanitario TeaMe
           href: teams/teame-health-check-bot.md
+        - name: Teameo Class Space
+          href: teams/ls2-innovation-teameo-class-space.md
         - name: Teamflect
           href: teams/grepsi-software-teamflect.md
         - name: TeamGether
@@ -991,6 +995,8 @@
           href: teams/akmii-yeeflow.md
         - name: yuccaHR
           href: teams/yucca-technologies-gmbh-yuccahr.md
+        - name: Zesavi
+          href: teams/zesavi-gmbh.md
         - name: Zignals
           href: teams/alight-zignals.md
         - name: Zoho CRM
@@ -1016,9 +1022,9 @@
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel automazione documenti da Excel word a Word
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Componente aggiuntivo per Office Fabasoft Cloud
+        - name: Componente aggiuntivo Office Cloud Fabasoft
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
@@ -1528,6 +1534,8 @@
           href: azure/eab5463e-8168-40ee-887a-7ac78de1d266.md
         - name: eb628055-f790-4ef0-9fce-ac95b4c61466
           href: azure/eb628055-f790-4ef0-9fce-ac95b4c61466.md
+        - name: eb668aa5-abb2-445c-81b4-3c174db84fe2
+          href: azure/eb668aa5-abb2-445c-81b4-3c174db84fe2.md
         - name: edb24f8f-38af-4b3e-9475-0da243678d5a
           href: azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md
         - name: f0199b83-0ca3-4b41-a23b-d9b234484438

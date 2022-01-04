@@ -2,17 +2,17 @@
 title: Sicurezza e conformità di Microsoft SharePoint Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/31/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app SharePoint Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 0968d1f45de013b99ab8870d7210266b1fbad83a
-ms.sourcegitcommit: b52a796899ec9fb4a27778773c1a1d5fb0c33610
+ms.openlocfilehash: 70f373ee0426bda09802a669ba67c180cd820a00
+ms.sourcegitcommit: 11ec7246fa8e1052155e98a0bff51d32e58ea2cf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "61664197"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "61711353"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft SharePoint Apps
 
@@ -22,6 +22,7 @@ Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire all
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign per SharePoint](./adobe-inc-sign-for-sharepoint.md) | Adobe Inc. | **✓** |  |
 | [ArcGIS per SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
+| [Sistema di gestione delle offerte](./beyond-technologies-bid-management-system.md) | Oltre le tecnologie | **✓** |  |
 | [Connettore FormMachines per SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | ENTERPRISE DIGITAL MACHINES PTY LTD | **✓** |  |
 | [HelloSign per SharePoint](./dropbox-inc-hellosign-for-sharepoint.md) | Dropbox Inc. | **✓** |  |
 | [iGlobe CRM Add-ons](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
