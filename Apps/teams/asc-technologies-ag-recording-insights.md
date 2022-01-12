@@ -2,24 +2,24 @@
 title: Application Information for ASC Recording Insights by ASC Technologies AG
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/20/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per ASC Recording Insights, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 74d343c964765387046099aa34ba873a24421724
-ms.sourcegitcommit: 6ca6b2ad53cf18362b78ed725d295cc2590c6b36
+ms.openlocfilehash: 23028cb70e0d93e3f086e499cd2b6595eeec932f
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "61574548"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61785633"
 ---
 # <a name="asc-recording-insights"></a>ASC Recording Insights
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 15, 2021</p>
+<p>Last updated by the developer on: December 21, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/8f79287d-5850-42f1-9af2-48ddf6ef89a8" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000708" target="_blank">Visualizzazione in AppSource</a>

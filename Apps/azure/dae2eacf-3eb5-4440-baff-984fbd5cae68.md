@@ -2,17 +2,17 @@
 title: Informazioni sull'ID app di Azure per dae2eacf-3eb5-4440-baff-984fbd5cae68
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/03/2022
+ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per dae2eacf-3eb5-4440-baff-984fbd5cae68.
-ms.openlocfilehash: 2bc9572f197669b2646af7ac4d84433a1398c6c1
-ms.sourcegitcommit: 15d24d32e05987f1fafdbfb1bb3ab440cd76be03
+ms.openlocfilehash: aea6baad20607f332346bcfa6157be4dab3ddb2d
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "61665752"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61788226"
 ---
 # <a name="azure-app-id-dae2eacf-3eb5-4440-baff-984fbd5cae68"></a>ID app azure: dae2eacf-3eb5-4440-baff-984fbd5cae68
 
@@ -26,5 +26,5 @@ ms.locfileid: "61665752"
 | [officeatwork - Selezione modelli per Office](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA104380050) |  | [https://appsource.microsoft.com/product/office/WA104380050](https://appsource.microsoft.com/product/office/WA104380050) |
 | [officeatwork - Selezione modelli per SharePoint](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200001923) |  | [https://appsource.microsoft.com/product/office/WA200001923](https://appsource.microsoft.com/product/office/WA200001923) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 conformità app
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato conformità app
 - Publisher Attestaton Status: Completed

@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per CC4Teams di CC4ALL
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/09/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CC4Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: feb5be7483844c3e8c0709c8967b88048c4b691d
-ms.sourcegitcommit: 287c15520b2d24d1b150c144ee8001b713b0aa8a
+ms.openlocfilehash: 31b9467e5aa5efb07131ec0509eaf8e3aa0b544c
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "61590675"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61784062"
 ---
 # <a name="cc4teams"></a>CC4Teams
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 20, 2021</p>
+<p>Last updated by the developer on: January 11, 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/contactcenter4all1634641680587.cc4all_01" target="_blank">Visualizzazione in AppSource</a>
 

@@ -2,17 +2,17 @@
 title: Informazioni sull'ID app di Azure per 39d845a0-3fa2-4fba-acc2-61afe40cfcea
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/03/2022
+ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per 39d845a0-3fa2-4fba-acc2-61afe40cfcea.
-ms.openlocfilehash: 3b6fc7792cf4d39bd6c77eadef75e28f6780a1a6
-ms.sourcegitcommit: 15d24d32e05987f1fafdbfb1bb3ab440cd76be03
+ms.openlocfilehash: 40d6b8d5999d006e830d1f87c4b5c66340d34ba4
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "61668292"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61785313"
 ---
 # <a name="azure-app-id-39d845a0-3fa2-4fba-acc2-61afe40cfcea"></a>ID app azure: 39d845a0-3fa2-4fba-acc2-61afe40cfcea
 
@@ -22,5 +22,5 @@ ms.locfileid: "61668292"
 |--------------|---------------|-----------------------|
 | [Move Work Forward with Jira](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200002855) |  | [https://appsource.microsoft.com/product/office/WA200002855](https://appsource.microsoft.com/product/office/WA200002855) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 conformità app
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato conformità app
 - Publisher Attestaton Status: Completed

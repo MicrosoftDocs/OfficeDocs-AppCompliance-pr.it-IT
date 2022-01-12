@@ -6,12 +6,12 @@ description: Guida per l'utente ISV per Microsoft 365 App Compliance Program
 keywords: Guida per l'utente ISV per Microsoft 365 App Compliance Program
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 79a301d6825b3f9ea3d882e13e91b48f3808f60b
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: 2b2b84cec3be5167d67733a89ba13fa411a0e781
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60544567"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61787859"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Guida per l'utente del partner per Microsoft 365 App Compliance Program
 
@@ -45,7 +45,7 @@ Questo documento funge da guida utente dettagliata per i partner iscritti al pro
 
 ![Selezione di un'app in Commercial Marketplace](../media/NewPCoffersComm.png)
 
-Quando selezioni un'app, verrà visualizzata un'altra barra di spostamento con l'opzione "Conformità app".
+Quando selezioni un'app, verrà visualizzata un'altra barra di spostamento con l'opzione "Info di certificazione aggiuntive" e quindi fai clic su "Conformità app".
   
 **Passaggio 3:** selezionare "Conformità app"
 
@@ -63,7 +63,7 @@ Quando selezioni un'app, verrà visualizzata un'altra barra di spostamento con l
 
 ![Importa caratteristica di esportazione](../media/UserGuidePhotos/06.png)
 
-**Passaggio 5:** una volta completato, fare clic su "Invia", la valutazione sarà ora "Sotto revisione".
+**Passaggio 5:** una volta completato, fare clic su "Invia", la valutazione sarà ora "In revisione".
 
 ![Fare clic su Sumbit](../media/UserGuidePhotos/07.png)
 
@@ -86,7 +86,7 @@ Quando selezioni un'app, verrà visualizzata un'altra barra di spostamento con l
 - Al momento dell'approvazione, il partner può:
     - Aggiornare e inviare di nuovo l'attestazione
     - Visualizzare e condividere l'attestazione Publisher completata
-    - Avviare Microsoft 365 di certificazione
+    - Avviare Microsoft 365 processo di certificazione
 
 ![Aggiornare e inviare di nuovo](../media/UserGuidePhotos/10.png)
 
@@ -146,9 +146,9 @@ Una volta soddisfatti tutti gli standard di sicurezza, l'analista approverà l'i
 
 ![Esempio di badge di certificazione](../media/UserGuidePhotos/27.png)
 
-## <a name="5---microsoft-365-renewal-workflow"></a>5. Flusso Microsoft 365 rinnovo:
+## <a name="5---microsoft-365-renewal-workflow"></a>5. Microsoft 365 flusso di lavoro per il rinnovo:
   
-**Microsoft 365 Publisher flusso di lavoro per l'attestazione** e il rinnovo della certificazione: Microsoft 365 app Compliance Program offre ora un processo di rinnovo annuale. Durante questo processo, gli sviluppatori di app possono aggiornare il questionario Publisher attestazione e i documenti necessari per la Microsoft 365 certificazione. 
+**Microsoft 365 Publisher flusso di lavoro di attestazione** e rinnovo della certificazione: Microsoft 365 app Compliance Program offre ora un processo di rinnovo annuale. Durante questo processo, gli sviluppatori di app possono aggiornare il questionario Publisher e i documenti necessari per la Microsoft 365 certificazione. 
  
 **Vantaggi:** 
 
@@ -162,21 +162,21 @@ Il processo di rinnovo è disponibile nel [Centro per i partner](https://partner
 
 Il nuovo processo di rinnovo è disponibile nel [Centro per i partner](https://partner.microsoft.com/dashboard/home) per offrire un'esperienza senza problemi. Un promemoria di rinnovo verrà visualizzato nel Centro per i partner a partire da 90 giorni prima della data di scadenza. I promemoria periodici verranno inviati anche tramite posta elettronica a 90, 60 e 30 giorni prima della scadenza. 
 
-**Passaggio 1:** selezionare **Rinnova** per rinnovare l Publisher attestazione. 
+**Passaggio 1:** selezionare **Rinnova** per rinnovare l'Publisher certificato. 
 
 ![Microsoft 365Publisher flusso di lavoro di attestazione e rinnovo della certificazione ](../media/UserGuidePhotos/28.png)
 
-**Passaggio 2:** esaminare le risposte precedenti Publisher attestazione e aggiornarsi con le informazioni più recenti in base alle esigenze. Invia Publisher'attestazione per il rinnovo quando è pronto. Verrà esaminato da un analista di conformità Microsoft 365 app.
+**Passaggio 2:** esaminare le risposte Publisher attestazione e aggiornarsi con le informazioni più recenti in base alle esigenze. Inviare Publisher'attestazione per il rinnovo quando è pronto. Verrà esaminato da un analista di conformità Microsoft 365 app.
 
-![Aggiornare l'Publisher di installazione](../media/UserGuidePhotos/29.png)
+![Aggiornare l'Publisher certificato](../media/UserGuidePhotos/29.png)
 
-**Publisher Rinnovo attestazione approvato**
+**Publisher rinnovo attestazione approvato**
 
-![Publisher Attestazione rinnovata](../media/UserGuidePhotos/30.png)
+![Publisher attestazione rinnovata](../media/UserGuidePhotos/30.png)
 
-**Publisher attestazione scaduta:** Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina dell'attestazione Publisher'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource, Teams Store, Office Store e altre storefront.
+**Publisher attestazione scaduta:** le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina di attestazione Publisher dell'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource, Teams Store, Office Store e altri storefront.
 
-![Publisher Attestazione scaduta](../media/UserGuidePhotos/31.png)
+![Publisher attestazione scaduta](../media/UserGuidePhotos/31.png)
 
 Nota: una volta scaduto, Publisher il processo di rinnovo dell'attestazione può essere avviato in qualsiasi momento facendo clic su "Rinnova". 
 
@@ -215,7 +215,7 @@ Il rinnovo della certificazione è approvato
 Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina Certificazione dell'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà anche il continuo ritardo e le icone per l'app in AppSource e Team Store.
 
 
-Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina Certificazione dell'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource, Teams Store, Office Store e altre storefront. 
+Le informazioni dell'app devono essere rinnovate prima della data di scadenza per mantenere la pagina Certificazione dell'app nei documenti Microsoft. Il rinnovo in tempo reale garantirà inoltre il continuo ritardo e le icone per l'app in AppSource, Teams Store, Office Store e altri storefront. 
 
 ![Rinnovo della certificazione scaduto](../media/UserGuidePhotos/36.png)
     

@@ -2,21 +2,21 @@
 title: Sicurezza e conformità di Microsoft SharePoint Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/03/2022
+ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app SharePoint Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 70f373ee0426bda09802a669ba67c180cd820a00
-ms.sourcegitcommit: 11ec7246fa8e1052155e98a0bff51d32e58ea2cf
+ms.openlocfilehash: 11bb7ec222b8abefd4ee0d1858d3472da17767cd
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "61711353"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61786084"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft SharePoint Apps
 
-Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire alle organizzazioni di informazioni necessarie per accelerare e informare le decisioni su Microsoft SharePoint Apps e i componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni su Microsoft SharePoint Apps e i componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -33,3 +33,4 @@ Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire all
 | [officeatwork | Selezione modelli per SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** |  |
 | [Opzioni di collaborazione di Power BI](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
 | [Prenotazione degli eventi più intelligente](./smarter-business-solutions-gmbh-event-booking.md) | Soluzioni aziendali più intelligenti GmbH | **✓** |  |
+| [Tassonomia](./accuracy-software-inc-taxonomy.md) | Accuracy Software Inc. | **✓** |  |
