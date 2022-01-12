@@ -1,27 +1,27 @@
 ---
-title: Application Information for Image Chooser by officeatwork
+title: Application Information for officeatwork | Firma di posta per Outlook ufficiolavoro
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Selezione immagini, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per officeatwork | Mail Signature for Outlook, i relativi criteri di gestione dei dati, le Microsoft Cloud App Security del catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 76073580881b9ddf68af05ffc592df9cf6d3edf2
+ms.openlocfilehash: 9c2b253c143a1efa249f0e4ea14387664bb68834
 ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 01/12/2022
-ms.locfileid: "61786915"
+ms.locfileid: "61788521"
 ---
-# <a name="image-chooser"></a>Selezione immagini
+# <a name="officeatwork--mail-signature-for-outlook"></a>officeatwork | Firma di posta per Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 7, 2022</p>
 
-* <a href="https://appsource.microsoft.com/product/web-apps/officeatwork-ag.image-chooser" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003062" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -31,12 +31,13 @@ Informazioni fornite da officeatwork a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Selezione immagini |
-| ID | officeatwork-ag.image-chooser |
+| Nome app | officeatwork - Firma di posta per Outlook |
+| ID | WA200003062 |
+| Office 365 client supportati | Outlook 2016 o versioni successive Windows, Outlook sul web |
 | Nome società partner | officeatwork |
 | Sito Web aziendale | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Condizioni per l'uso dell'app | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Funzionalità di base dell'app | Image Bank per M365 | Accedere alle immagini condivise centralmente in Word, Excel, PowerPoint e altre app |
+| Funzionalità di base dell'app | Firme di posta, semplici e sicure, gestite centralmente e personalizzate &amp; nell'organizzazione. |
 | Sede centrale dell'azienda | Svizzera |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -163,7 +164,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Elencare i tipi di criteri supportati | Impostazioni predefinite per la sicurezza |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | Sì |
 | L'app archivia credenziali nel codice? | No |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | Sì |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -172,12 +173,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 >| openid | delegated | Abilitare l'accesso |
 >| profile | delegated | Abilitare l'accesso |
 >| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti |
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso |
->| Files.ReadWrite.All | delegated | Abilita preferiti e OneDrive funzionalità |
->| Group.ReadWrite.All | delegated | Abilita Teams funzionalità |
->| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente |
->| Sites.Read.All | delegated | Leggere i file modello degli utenti archiviati in SharePoint |
->| GroupMember.Read.All | delegated | Abilita Teams funzionalità |
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso, abilitare le firme di posta dinamiche con le proprietà dell'utente |
 
 >Questa applicazione non dispone di API aggiuntive.
 
