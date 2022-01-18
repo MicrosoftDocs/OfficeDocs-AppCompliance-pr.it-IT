@@ -25,7 +25,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel-to-Word Document Automation
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: excel/harmonie-corporation-for-office.md
@@ -41,15 +41,8 @@
           href: excel/cc-1c-quickcells-solvers.md
         - name: Report Builder
           href: excel/adobe-inc-report-builder.md
-        - name: Wunder365 per Office
-          href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: Dati file XBRL
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote app
-      href: onenote/onenote-apps.md
-      items:
-        - name: Wunder365 per Office
-          href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
     - name: Microsoft Outlook Apps
       href: outlook/outlook-apps.md
       items:
@@ -91,7 +84,7 @@
           href: outlook/iglobe-office2sharepoint-for-outlook.md
         - name: OnePlaceMail per Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Impegno per le vendite di sensibilizzazione per Outlook
+        - name: Impegno per le vendite per la Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One per Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -103,8 +96,6 @@
           href: outlook/salesforcecom-salesforce.md
         - name: ServiceDesk Plus per la posta elettronica
           href: outlook/zoho-corporation-private-limited-servicedesk-plus-for-email.md
-        - name: Wunder365
-          href: outlook/jiji-technologies-private-limited-wunder365.md
         - name: XQ Secure Email
           href: outlook/xq-message-secure-email.md
         - name: Zoho CRM per la posta elettronica
@@ -114,7 +105,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel-to-Word Document Automation
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -200,6 +191,8 @@
           href: teams/breathe-india-advisors-pvt-ltd-bigfish.md
         - name: Bigger Brains eLearning
           href: teams/biggerbrains-bigger-brains-elearning.md
+        - name: Biz-Oin
+          href: teams/suzuyo-shinwart-corporation-biz-oin.md
         - name: Bizfone
           href: teams/mobikom-bizfone.md
         - name: BlackBerry AtHoc
@@ -804,8 +797,6 @@
           href: teams/workplacebuddy.md
         - name: Wrike
           href: teams/wrike-inc.md
-        - name: Wunder365
-          href: teams/jiji-technologies-pvt-ltd-wunder365.md
         - name: X0PA ROOM
           href: teams/x0pa-ai-singapore-room.md
         - name: xMatters
@@ -824,7 +815,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word app
+    - name: Microsoft Word App
       href: word/word-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
@@ -835,7 +826,7 @@
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel-to-Word Document Automation
           href: word/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
@@ -859,8 +850,6 @@
           href: word/taxyio-gmbh-taxkit-docs.md
         - name: TerMef
           href: word/mondeca-termef.md
-        - name: Wunder365 per Office
-          href: word/jiji-technologies-private-limited-wunder365-for-office.md
         - name: xLaw - Sistema di gestione delle conoscenze
           href: word/evertn-xlaw-knowledge-management-system.md
     - name: App SaaS
