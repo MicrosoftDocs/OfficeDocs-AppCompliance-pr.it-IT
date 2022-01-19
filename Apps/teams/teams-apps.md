@@ -2,17 +2,17 @@
 title: Sicurezza e conformità delle app per Microsoft Teams - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/13/2022
+ms.date: 01/17/2022
 ms.topic: article
 ms.service: attestation
 description: Informazioni complete sulla sicurezza e conformità delle app per Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 24a6dbd695b53144324251f1f9f0a505e3f16642
-ms.sourcegitcommit: 49dbdc1d9cda54d352ea8384b3ede246cecf69d8
+ms.openlocfilehash: ef5f9417e3a29b886e7700929a069947e694dd18
+ms.sourcegitcommit: 23ef75d7c108123853d76b1f80492a2f479c8aeb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62046498"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62065112"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft Teams
 
@@ -25,7 +25,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
 | [8x8](./8x8-inc.md) | 8x8, Inc | **✓** |  |
 | [ADI](./akari-solutions-limited-adi.md) | Akari Solutions Limited | **✓** |  |
-| [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** |  |
 | [Agenda Boss](./appfluence-inc-agenda-boss.md) | Appfluence Inc | **✓** |  |
 | [Alvao Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  |
 | [Ambition](./ambition.md) | Ambition | **✓** |  |
@@ -47,6 +47,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Berrycast](./technologies-openmind-inc-les-berrycast.md) | Technologies Openmind Inc, Les | **✓** |  |
 | [Bigfish](./breathe-india-advisors-pvt-ltd-bigfish.md) | Breathe India Advisors Pvt. Ltd. | **✓** |  |
 | [Bigger Brains eLearning](./biggerbrains-bigger-brains-elearning.md) | Biggerbrains | **✓** |  |
+| [Biz-Oin](./suzuyo-shinwart-corporation-biz-oin.md) | SUZUYO Shinwart Corporation | **✓** |  |
 | [Bizfone](./mobikom-bizfone.md) | MobiKOM | **✓** |  |
 | [BlackBerry AtHoc](./blackberry-athoc.md) | BlackBerry | **✓** |  |
 | [Board Connect](./engage-squared-board-connect.md) | Engage Squared | **✓** |  |
@@ -349,7 +350,6 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Attività WorkJam](./workjam-tasks.md) | WorkJam | **✓** |  |
 | [WorkplaceBuddy](./workplacebuddy.md) | WorkplaceBuddy | **✓** |  |
 | [Wrike](./wrike-inc.md) | Wrike Inc. | **✓** |  |
-| [Wunder365](./jiji-technologies-pvt-ltd-wunder365.md) | JiJi Technologies Pvt Ltd | **✓** |  |
 | [X0PA ROOM](./x0pa-ai-singapore-room.md) | X0PA AI Singapore | **✓** |  |
 | [xMatters](./xmatters-inc.md) | xMatters Inc. | **✓** |  |
 | [Yeeflow](./akmii-yeeflow.md) | Akmii | **✓** |  |
