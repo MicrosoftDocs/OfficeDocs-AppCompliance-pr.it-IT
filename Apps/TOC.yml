@@ -493,8 +493,6 @@
           href: teams/facilis-mybys.md
         - name: Myfone
           href: teams/flexfone-myfone.md
-        - name: MyHub
-          href: teams/avepoint-inc-myhub.md
         - name: MyWorkDrive
           href: teams/myworkdrive.md
         - name: NE
@@ -815,7 +813,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word App
+    - name: Microsoft Word app
       href: word/word-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
