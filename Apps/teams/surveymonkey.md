@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SurveyMonkey, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 559daeb20d79837b281b80b1046b3582b106761d
-ms.sourcegitcommit: cb50f8967ff1ca98c98bcadb26c05b3a5c5a6ea8
+ms.openlocfilehash: ed7bacc1917588e68405026e1ba84da11ff774a4
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60874512"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62146906"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -60,7 +60,7 @@ Queste informazioni sono state fornite da SurveyMonkey su come questa app raccog
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? |  |
 | Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e eliminazione dei dati stabilito? |  |
+| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
 | Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
@@ -80,7 +80,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
 | L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware |
 | Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
-| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? | Sì |
 | Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
 | L'ambiente include sistemi operativi o software non supportati? | No |
 | Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? | Sì |
@@ -96,7 +96,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
 | Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento?| |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -119,7 +119,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
 | L'app è conforme all'International Organization for Standardization (ISO 27018)? | No |
 | L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
-| L'app è conforme a International Organization for Standardization (ISO 27002)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
 | L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
 | L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
@@ -141,10 +141,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
 | Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? | No |
 | L'app raccoglie o elabora dati da minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
-| L'app dispone di funzionalità per eliminare i dati personali di un individuo su richiesta? | No |
-| L'app dispone di funzionalità per limitare o limitare l'elaborazione dei dati personali di un individuo su richiesta? | No |
-| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | No |
-| Vengono eseguite revisioni regolari sulla sicurezza e sulla privacy dei dati (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | No |
+| L'app dispone di funzionalità per eliminare i dati personali di un individuo su richiesta? |  |
+| L'app dispone di funzionalità per limitare o limitare l'elaborazione dei dati personali di un individuo su richiesta? |  |
+| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? |  |
+| Vengono eseguite revisioni regolari sulla sicurezza e sulla privacy dei dati (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,7 +155,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | No |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | No |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
