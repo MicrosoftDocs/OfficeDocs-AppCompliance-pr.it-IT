@@ -2,21 +2,21 @@
 title: Sicurezza e conformità delle app SaaS - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/19/2022
+ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app SaaS.
 localization_priority: Normal
-ms.openlocfilehash: c4cfdbbc229dbdb1d6dcf288353a937cb0ee77a7
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 1c3f33682524566171bf2cc2892e5b7787803559
+ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149248"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62172806"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sicurezza e conformità delle app SaaS
 
-Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni sulle app SaaS e sui componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner Microsoft 365 per fornire alle organizzazioni informatizzanti la necessità di accelerare e informare le decisioni relative alle app SaaS e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -30,6 +30,7 @@ Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per forn
 | [Selezione contenuto](./officeatwork-content-chooser.md) | officeatwork | **✓** |  |
 | [Visualizzatore selezione contenuto](./officeatwork-content-chooser-browser.md) | officeatwork | **✓** |  |
 | [Designer](./officeatwork-designer.md) | officeatwork | **✓** |  |
+| [Emailgistics](./emailgistics-corp.md) | Emailgistics Corp. | **✓** |  |
 | [EmailNotes per Outlook](./standss-south-pacific-pte-limited-emailnotes-for-outlook.md) | Standss (Pacifico meridionale) PTE Limited | **✓** |  |
 | [iGlobe CRM Office 365 per Microsoft 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Selezione immagini](./officeatwork-image-chooser.md) | officeatwork | **✓** |  |
