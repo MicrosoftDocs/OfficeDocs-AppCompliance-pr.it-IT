@@ -5,19 +5,20 @@ author: elenamalova
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per MyHub, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 99e70f3b37e35ebf2060640137b3796976abf31d
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: ad85daad3a14dd1afa42dd0050a10c9bdeab74a5
+ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62175649"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62193583"
 ---
 # <a name="myhub"></a>MyHub
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 14, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/c3ff6344-f6f0-4bfa-8697-b9d47b32ca4b" target="_blank">Visualizzazione in Teams store</a>
@@ -37,7 +38,7 @@ Informazioni fornite da AvePoint, inc. a Microsoft:
 | Nome società partner | AvePoint, inc. |
 | Sito Web aziendale | [https://www.avepoint.com](https://www.avepoint.com) |
 | Condizioni per l'uso dell'app | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Funzionalità di base dell'app | Ecco MyHub, un one-stop-shop per la richiesta di nuove Office 365 aree di lavoro che &amp; gestiscono quelle esistenti. MyHub offre servizi di provisioning, ricertificazione e ciclo di vita facili da usare senza &amp; gravare sul team IT. Gli utenti sono in grado di ridimensionare e automatizzare le aree di lavoro protette vengono avvisati quando intervenire, semplificando il completamento dell'elenco &amp; &amp; attività. Il framework&#65533;sicuro di MyHub è basato sulla governance cloud &amp;&#65533;AvePoint. |
+| Funzionalità di base dell'app | Ecco MyHub, un one-stop-shop per la richiesta di nuove Office 365 di lavoro per &amp; la gestione di quelle esistenti. MyHub offre servizi di provisioning, ricertificazione e ciclo di vita facili da usare senza &amp; gravare sul team IT. Gli utenti sono in grado di ridimensionare e automatizzare le aree di lavoro protette vengono avvisati quando intervenire, semplificando il completamento dell'elenco &amp; &amp; attività. MyHub&#65533;framework sicuro sostenibile è basato sulla governance cloud &amp;&#65533;AvePoint. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -71,7 +72,7 @@ Queste informazioni sono state fornite da AvePoint, inc. Sul modo in cui questa 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
