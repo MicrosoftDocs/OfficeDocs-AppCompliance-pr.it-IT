@@ -1,25 +1,24 @@
 ---
-title: Application Information for officeatwork | Designer per Office per ufficio
+title: Application Information for officeatwork | Designer per Office da ufficio
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/07/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per officeatwork | Designer per Office, i criteri di gestione dei dati, le Microsoft Cloud App Security del catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+certification_type: certified
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i servizi | Designer per Office, i criteri di gestione dei dati, le informazioni Microsoft Cloud App Security catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 729bd5e3aae9e6aa3ddf1333c5170b559a79c9ff
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: be2496d13d9ed083614d209f025edb663cc9980c
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148913"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62210968"
 ---
-# <a name="officeatwork--designer-for-office"></a>officeatwork | Progettazione per Office
+# <a name="officeatwork--designer-for-office"></a>officeatwork | Designer per Office
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 7, 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Last updated by the developer on: January 24, 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380518" target="_blank">Visualizzazione in AppSource</a>
 
@@ -33,7 +32,7 @@ Informazioni fornite da officeatwork a Microsoft:
 |:----------------|:-------------|
 | Nome app | officeatwork - Designer per Office |
 | ID | WA104380518 |
-| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2016 o versioni successive Windows, Word su iPad |
+| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2016 o versioni successive su Windows, Word su iPad |
 | Nome società partner | officeatwork |
 | Sito Web aziendale | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Condizioni per l'uso dell'app | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
@@ -73,7 +72,7 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

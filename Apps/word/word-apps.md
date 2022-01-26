@@ -2,21 +2,21 @@
 title: Microsoft Word sicurezza e conformità delle app - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/24/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le Microsoft Word app.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte Microsoft Word app.
 localization_priority: Normal
-ms.openlocfilehash: b1cc50abeb8d6cbf4dbceebff81f66dd07ed5e82
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 75837f5d35d29467f7ba660bd1cfcfe07a2c605e
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 01/25/2022
-ms.locfileid: "62193313"
+ms.locfileid: "62210635"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word sicurezza e conformità delle app
 
-Microsoft collabora con i partner Microsoft 365 per fornire alle organizzazioni informatizzanti la necessità di accelerare e informare le decisioni relative alle app Microsoft Word e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i Microsoft 365 partner per sviluppatori per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative alle app Microsoft Word e ai componenti aggiuntivi che usano. Le informazioni fornite sono integrate con quelle del catalogo delle app di [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) e con le informazioni fornite dagli sviluppatori quando inviano le applicazioni. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -34,13 +34,13 @@ Microsoft collabora con i partner Microsoft 365 per fornire alle organizzazioni 
 | [Mendeley Cite](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [neopoli](./neopolis-gmbh.md) | neopolis GmbH | **✓** |  |
 | [Office2SharePoint per Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | Selezione contenuto per Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Designer per Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Selezione immagini per Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Selezione modelli per Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Uploader per Office](./officeatwork-officeatworkuploader-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | Selezione contenuto per Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Designer per Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Selezione immagini per Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Selezione modelli per Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Uploader per Office](./officeatwork-officeatworkuploader-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Verifier per Office](./officeatwork-officeatworkverifier-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Procedura guidata per Office](./officeatwork-officeatworkwizard-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | Procedura guidata per Office](./officeatwork-officeatworkwizard-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [RetMig &amp; Kommaforslag](./grammarsoft-aps-retmig-and-kommaforslag.md) | GrammarSoft ApS | **✓** |  |
 | [SmartCite per i documenti](./digital-science-smartcite-for-papers.md) | Digital Science | **✓** |  |
 | [Stilus per Word](./meaningcloud-stilus-for-word.md) | MeaningCloud | **✓** |  |
