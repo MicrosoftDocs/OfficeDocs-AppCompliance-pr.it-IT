@@ -2,24 +2,23 @@
 title: Informazioni sull'applicazione per Office2SharePoint per Teams da iGlobe
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/10/2022
+ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Office2SharePoint per Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+certification_type: certified
+description: Tutte le informazioni di sicurezza e conformità disponibili per Office2SharePoint per Teams, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 314b9e5d39e2f7e252a4db2e0c7a1b8872ece189
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b17138289458464ef786daca4c9289fa646f62b8
+ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155520"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62222513"
 ---
 # <a name="office2sharepoint-for-teams"></a>Office2SharePoint per Teams
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 8, 2021</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Last updated by the developer on: January 18, 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/17859280.o2sforteams" target="_blank">Visualizzazione in AppSource</a>
 
@@ -36,7 +35,7 @@ Informazioni fornite da iGlobe a Microsoft:
 | Nome società partner | iGlobe |
 | Sito Web aziendale | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Condizioni per l'uso dell'app | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-office2sharepoint) |
-| Funzionalità di base dell'app | Office2SharePoint- Lavorare con SharePoint e Teams da Outlook e Office nel modo più semplice. L'interruzione delle barriere nelle comunicazioni tra i membri del team rende i documenti e gli allegati di posta elettronica accessibili a tutti SharePoint &amp; Teams. Salva i messaggi di posta elettronica e gli allegati di posta elettronica direttamente da Outlook a SharePoint o Teams su qualsiasi dispositivo e piattaforma. Il livello di autorizzazione dei servizi app di Office2SharePoint è impostato sia per il componente aggiuntivo Outlook che per Office componente aggiuntivo. |
+| Funzionalità di base dell'app | Office2SharePoint- Lavorare con SharePoint e Teams da Outlook e Office modo semplice. L'interruzione delle barriere nelle comunicazioni tra i membri del team rende i documenti e gli allegati di posta elettronica accessibili a tutti SharePoint &amp; Teams. Salva i messaggi di posta elettronica e gli allegati di posta elettronica direttamente da Outlook a SharePoint o Teams su qualsiasi dispositivo e piattaforma. Il livello di autorizzazione dei servizi app di Office2SharePoint è impostato sia per il componente aggiuntivo Outlook che per Office componente aggiuntivo. |
 | Sede centrale dell'azienda | Danimarca |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -70,7 +69,7 @@ Queste informazioni sono state fornite da iGlobe su come questa app raccoglie e 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -171,7 +170,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 >| Directory.Read.All | delegated | Verificare l'autorizzazione e ottenere i siti e gli elenchi. Crea cartelle, ottieni i file e salva i file. |
 >| Directory.ReadWrite.All | delegated | Verificare l'autorizzazione e ottenere i siti e gli elenchi. Crea cartelle, ottieni i file e salva i file. |
 >| Group.Read.All | delegated | Per ottenere gli utenti Siti di gruppo. |
->| Group.ReadWrite.All | delegated | Per accedere alla posta selezionata e ottenere gli allegati. Dalla posta o aggiungere da SharePoint o gruppi al messaggio di posta elettronica. |
+>| Group.ReadWrite.All | delegated | Per accedere alla posta selezionata e ottenere gli allegati. Dal messaggio di posta o aggiungere da SharePoint o gruppi al messaggio di posta elettronica. |
 >| Sites.Manage.All | delegated | Consente all'applicazione di creare o eliminare raccolte documenti ed elenchi in tutte le raccolte siti per conto dell'utente connesso. |
 >| Sites.Read.All | delegated | Per ottenere gli utenti SharePoint sito. Recuperare i file e salvare gli allegati dal messaggio di posta selezionato.     |
 >| Sites.ReadWrite.All | delegated | Per ottenere SharePoint, raccolte e file. Per salvare i file in SharePoint elenchi. |

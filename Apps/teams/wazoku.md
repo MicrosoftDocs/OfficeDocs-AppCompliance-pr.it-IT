@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per Wazoku di Wazoku
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/27/2021
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wazoku, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ffb251b22bb7a92912dc2052f00f4a9c63d5df44
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: c82905cc10dbebbc914b9025cb146d05c4473716
+ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155379"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62222527"
 ---
 # <a name="wazoku"></a>Wazoku
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 22, 2021</p>
+<p>Last updated by the developer on: January 24, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/f060d814-1813-4135-bbef-4cda4251abec" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003384" target="_blank">Visualizzazione in AppSource</a>
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da Wazoku su come questa app raccoglie e 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

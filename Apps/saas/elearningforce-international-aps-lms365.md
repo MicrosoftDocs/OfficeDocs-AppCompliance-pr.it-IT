@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per LMS365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5e56e6890c38bc6896115c1e4a2c5b10a93f7c9b
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: 62a9a18b43a1740b8b83b59edac5051824c43266
+ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61787809"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62222514"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -68,7 +68,7 @@ Queste informazioni sono state fornite da ELEARNINGFORCE International Aps su co
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -112,7 +112,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
 | Data di certificazione SOC3 più recente | |
 | Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | No |
-| L'app International Organization for Standardization (ISO 27001) è certificata? | No |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
 | L'app è conforme all'International Organization for Standardization (ISO 27018)? | N/D |
 | L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
 | L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
@@ -151,7 +151,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione dei dati? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | true |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | Sì |
