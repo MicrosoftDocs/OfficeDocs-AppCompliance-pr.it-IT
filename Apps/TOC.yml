@@ -16,16 +16,16 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Certificazione Microsoft 365 completa
           href: docs/certification.md
-        - name: Microsoft 365 per l'invio della certificazione
+        - name: Microsoft 365 di invio della certificazione
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel app
+    - name: Microsoft Excel App
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator per i partner B2B
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel da documento a Word
+        - name: Excel-to-Word Document Automation
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
@@ -128,7 +128,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel da documento a Word
+        - name: Excel-to-Word Document Automation
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -186,7 +186,7 @@
           href: sharepoint/accuracy-software-inc-taxonomy.md
         - name: Firma Zynyo per SharePoint Online
           href: sharepoint/zynyo-sign-for-sharepoint-online.md
-    - name: Microsoft Teams app
+    - name: Microsoft Teams App
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -409,6 +409,8 @@
           href: teams/harmonie-email-teammate.md
         - name: email-texting
           href: teams/voice-elements-corporation-email-texting.md
+        - name: Employee Advocacy di DSMN8
+          href: teams/dsmn8-employee-advocacy-by.md
         - name: Referenze dipendenti
           href: teams/recruitday-inc-employee-referrals.md
         - name: Registro formazione dipendenti
@@ -537,7 +539,7 @@
           href: teams/atlassian-jira-cloud.md
         - name: JobPts
           href: teams/semos-cloud-soultions-jobpts.md
-        - name: KAKEAI
+        - name: Kakeai
           href: teams/kakeai.md
         - name: Kanban Tool
           href: teams/shore-labs-kanban-tool.md
@@ -739,6 +741,8 @@
           href: teams/chitchattr-quicklinks.md
         - name: Quire
           href: teams/potix-corporation-quire.md
+        - name: Quitch
+          href: teams/quitch.md
         - name: Rafiky
           href: teams/global-congress-srl-rafiky.md
         - name: Reach
@@ -1017,7 +1021,7 @@
           href: teams/zesavi-gmbh.md
         - name: Zignals
           href: teams/alight-zignals.md
-    - name: Microsoft Word app
+    - name: Microsoft Word App
       href: word/word-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
