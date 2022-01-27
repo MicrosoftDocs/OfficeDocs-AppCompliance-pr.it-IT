@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per Natterhub di Natterhub
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/01/2021
+ms.date: 01/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Natterhub, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Natterhub, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 434c559b292647ce59d01ef3f8ee346f6a0498c0
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a93c4603fa64320fc66adea24509fdbb16135b62
+ms.sourcegitcommit: f58ade86a900c29f53b231ee88dba3908a380e95
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155387"
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "62242308"
 ---
 # <a name="natterhub"></a>Natterhub
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 10, 2021</p>
+<p>Last updated by the developer on: January 26, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/ba5cb8a1-85ca-426c-99fe-9b73cca34128" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003420" target="_blank">Visualizzazione in AppSource</a>
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da Natterhub su come questa app raccoglie
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -160,7 +160,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
-| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | No |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
