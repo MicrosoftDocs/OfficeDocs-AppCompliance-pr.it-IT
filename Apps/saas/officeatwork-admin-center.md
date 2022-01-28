@@ -6,14 +6,14 @@ ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per l'interfaccia di amministrazione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per l'interfaccia di amministrazione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b1a1adc7cc7b1b6ec820711699c10734b37bf9af
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: 092853eb1798395c8b4f707ba2e89d048f780fd3
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62209865"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255837"
 ---
 # <a name="admin-center"></a>Centro di amministrazione
 
@@ -35,7 +35,7 @@ Informazioni fornite da officeatwork a Microsoft:
 | Nome società partner | officeatwork |
 | Sito Web aziendale | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Condizioni per l'uso dell'app | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Funzionalità di base dell'app | Gestire e configurare tutte le app officeatwork e Add-Ins in un'unica posizione centrale. |
+| Funzionalità di base dell'app | Gestire e configurare tutte le app officeatwork Add-Ins in un'unica posizione centrale. |
 | Sede centrale dell'azienda | Svizzera |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -71,7 +71,7 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,14 +166,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | delegated | Abilitare l'accesso |
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso |
->| Sites.Read.All | delegated | Abilita la verifica della creazione della raccolta |
->| Directory.Read.All | delegated | Abilitazione della visualizzazione dello stato di consenso |
->| Group.Read.All | delegated | Abilitazione della limitazione del gruppo di destinatari delle raccolte |
->| User.ReadBasic.All | delegated | Abilitazione della visualizzazione delle proprietà utente |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.Read.All | delegated | Abilitazione della visualizzazione dello stato di consenso | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| Group.Read.All | delegated | Abilitazione della limitazione del gruppo di destinatari delle raccolte | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| Sites.Read.All | delegated | Abilita la verifica della creazione della raccolta | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| User.ReadBasic.All | delegated | Abilitazione della visualizzazione delle proprietà utente | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| openid | delegated | Abilitare l'accesso | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

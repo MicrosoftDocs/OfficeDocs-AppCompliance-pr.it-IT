@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ContractZen, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 556b9c62db0e6230948e28e1b1d5d811bd4c079e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 3ba2af3606c470bb4a5f15e636ca069f9ff722d7
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149069"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257959"
 ---
 # <a name="contractzen"></a>ContractZen
 
@@ -168,9 +168,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegated | Per poter utilizzare le informazioni del profilo utente |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegated | Per poter utilizzare le informazioni del profilo utente | [0492ead3-ee26-40df-9757-d95cc693d856](https://docs.microsoft.com/microsoft-365-app-certification/azure/0492ead3-ee26-40df-9757-d95cc693d856) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

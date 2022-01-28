@@ -6,14 +6,14 @@ ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Employee Advocacy di DSMN8, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Employee Advocacy di DSMN8, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0d5922201878b8c53a9bba95b67653f14d215cde
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: 73ac07bb877ab8a387c7182bce3dbf1a4f2d93da
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62235783"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259612"
 ---
 # <a name="employee-advocacy-by-dsmn8"></a>Employee Advocacy di DSMN8
 
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da DSMN8 sul modo in cui questa app racco
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -168,9 +168,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | entrambi | Per leggere la posizione, il nome, il cognome e i dati di posta elettronica durante il processo di accesso per creare un profilo nella nostra app |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | entrambi | Per leggere la posizione, il nome, il cognome e i dati di posta elettronica durante il processo di accesso per creare un profilo nella nostra app | [3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

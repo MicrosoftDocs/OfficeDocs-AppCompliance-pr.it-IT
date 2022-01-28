@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Tikit, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b198e4d613b2b25aa6dffc2f385ccba225f1801b
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 69551224968b55d4e3731f02b0578157a15bd038
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148395"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259845"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -169,17 +169,17 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Directory.Read.All | delegated | Utilizzato per leggere le assegnazioni di ruolo per il controllo degli accessi in base al ruolo all'interno dell'applicazione |
->| Directory.AccessAsUser.All | delegated | Utilizzato per leggere le assegnazioni di ruolo per il controllo degli accessi in base al ruolo all'interno dell'applicazione |
->| email | delegated | Autorizzazioni di accesso |
->| Group.Read.All | entrambi | Utilizzato per leggere le assegnazioni di ruolo per il controllo degli accessi in base al ruolo all'interno dell'applicazione |
->| openid | delegated | Accesso |
->| profile | delegated | Accesso |
->| User.Read | delegated | Accesso |
->| User.Read.All | application | Accesso |
->| User.ReadBasic.All | delegated | Accesso |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | delegated | Utilizzato per leggere le assegnazioni di ruolo per il controllo degli accessi in base al ruolo all'interno dell'applicazione | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Directory.Read.All | delegated | Utilizzato per leggere le assegnazioni di ruolo per il controllo degli accessi in base al ruolo all'interno dell'applicazione | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Group.Read.All | entrambi | Utilizzato per leggere le assegnazioni di ruolo per il controllo degli accessi in base al ruolo all'interno dell'applicazione | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read | delegated | Accesso | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read.All | application | Accesso | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.ReadBasic.All | delegated | Accesso | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| email | delegated | Autorizzazioni di accesso | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| openid | delegated | Accesso | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| profile | delegated | Accesso | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

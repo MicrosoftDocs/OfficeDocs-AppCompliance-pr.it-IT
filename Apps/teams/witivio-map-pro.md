@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Map Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 297b7dc54e7d25230a121a08d2d3ab5845110daf
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: f2c2f42e39532b69cfbe3638b9ff6f3064658de4
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148574"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255412"
 ---
 # <a name="map-pro"></a>Mapping Pro
 
@@ -38,7 +38,7 @@ Informazioni fornite da Witivio a Microsoft:
 | Nome società partner | Witivio |
 | Sito Web aziendale | [https://www.witivio.com](https://www.witivio.com) |
 | Condizioni per l'uso dell'app | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
-| Funzionalità di base dell'app | Map Pro è un'applicazione per Microsoft Teams che visualizza una mappa in uno qualsiasi dei canali. |
+| Funzionalità di base dell'app | Map Pro è un'applicazione per Microsoft Teams che visualizza una mappa in uno dei canali. |
 | Sede centrale dell'azienda | Francia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -168,13 +168,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| email | delegated | Microsoft Teams SSO |
->| openid | delegated | Microsoft Teams SSO |
->| offline_access | delegated | Microsoft Teams SSO |
->| User.Read | delegated | Microsoft Teams SSO |
->| profile | delegated | Microsoft Teams SSO |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
+>| email | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
+>| offline_access | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
+>| openid | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
+>| profile | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

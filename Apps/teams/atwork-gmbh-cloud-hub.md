@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Cloud Hub, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7e0998c86e38039879a13ee79185732287166619
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 6e982e29c1ba09097f3c2415aae5e1f644a87c5a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148801"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259848"
 ---
 # <a name="cloud-hub"></a>Cloud Hub
 
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da GmbH sul modo in cui questa app raccog
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -168,12 +168,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | application | Utilizzato per selezionare una persona a cui si desidera inviare un messaggio di posta elettronica. |
->| TeamSettings.Read.All | application | Utilizzato per selezionare un team in cui si desidera pubblicare un messaggio dal Centro messaggi. |
->| Mail.Send | application | Usato per inviare messaggi di posta direttamente dall'app ai canali o ai singoli utenti.  |
->| Channel.ReadBasic.All | application | Utilizzato per selezionare un canale in cui si desidera pubblicare un messaggio dal Centro messaggi. |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | application | Utilizzato per selezionare un canale in cui si desidera pubblicare un messaggio dal Centro messaggi. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| Mail.Send | application | Usato per inviare messaggi di posta direttamente dall'app ai canali o ai singoli utenti.  | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| TeamSettings.Read.All | application | Utilizzato per selezionare un team in cui si desidera pubblicare un messaggio dal Centro messaggi. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| User.Read.All | application | Utilizzato per selezionare una persona a cui si desidera inviare un messaggio di posta elettronica. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

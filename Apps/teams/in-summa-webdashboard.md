@@ -6,14 +6,14 @@ ms.date: 12/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Webdashboard, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Webdashboard, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4928353bf4e7070246e21badd19314479a4ced02
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 291cd9b5852273bb1c10336ee4efb697f7dead1c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200797"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62256602"
 ---
 # <a name="webdashboard"></a>Webdashboard
 
@@ -38,7 +38,7 @@ Informazioni fornite da In Summa a Microsoft:
 | Nome società partner | In Summa |
 | Sito Web aziendale | [https://www.webdashboard.com](https://www.webdashboard.com) |
 | Condizioni per l'uso dell'app | [https://webdashboard.com/wp-content/uploads/2021/06/Nederla...](https://webdashboard.com/wp-content/uploads/2021/06/Nederland-ICT-Voorwaarden-2014-EN.pdf) |
-| Funzionalità di base dell'app | Incorporare Power BI report, come scheda, utilizzando Sign-On tramite Webdashboard |
+| Funzionalità di base dell'app | Incorporare Power BI report, come scheda, usando single Sign-On tramite Webdashboard |
 | Sede centrale dell'azienda | Paesi Bassi (la) |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -165,9 +165,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.ReadWrite.All | application | Single #A0 per l'utente |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.ReadWrite.All | application | Single #A0 per l'utente | [38b3f4fa-4229-4d51-9937-6e4515650c8c](https://docs.microsoft.com/microsoft-365-app-certification/azure/38b3f4fa-4229-4d51-9937-6e4515650c8c) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

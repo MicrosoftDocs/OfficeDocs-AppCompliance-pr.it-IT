@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per WorkJam Time Clock, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 40b47509d1322100551009adc636c60eb654bd91
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: e831ca59c0fed743a1a485a6aa52edbfca1dab89
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148444"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259195"
 ---
 # <a name="workjam-time-clock"></a>WorkJam Time Clock
 
@@ -169,10 +169,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| TeamsActivity.Send | application | Per inviare notifiche all'utente |
->| User.Read | delegated | Per SSO all'utente e presentargli le informazioni giuste |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| TeamsActivity.Send | application | Per inviare notifiche all'utente | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf) |
+>| User.Read | delegated | Per SSO all'utente e presentargli le informazioni giuste | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

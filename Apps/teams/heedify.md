@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Heedify, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 30d5a9d784604a50e05c04b6f4b60b39a78293b6
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 692b53d85d3d4e9e2984147575fdff0a702d193a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200825"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257802"
 ---
 # <a name="heedify"></a>Heedify
 
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da Heedify su come questa app raccoglie e
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -168,13 +168,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Presence.Read.All | delegated | Le informazioni sulla presenza sono necessarie per l'agente del contact center per gestire meglio le chiamate e i contatti, soprattutto in caso di trasferimento delle chiamate  |
->| User.Read.All | delegated | per gestire il contatto, l'utente connesso deve essere in grado di sfogliare gli utenti e leggere le informazioni, tra cui la partenza e il manager (in caso di un addetto alla reception)  |
->| Calendars.Read | delegated | Receptionist need to check users calendar before transferring a call or sharing the information with customer on phone |
->| Contacts.ReadWrite | delegated | L'applicazione deve essere in grado di aggiungere contatti a user(agent) e leggere anche i contatti  |
->| Contacts.ReadWrite.Shared | delegated | l'applicazione deve essere in grado di aggiungere il contatto di condivisione con altri utenti(agente) e leggere anche i contatti condivisi  |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | delegated | Receptionist need to check users calendar before transferring a call or sharing the information with customer on phone | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Contacts.ReadWrite | delegated | L'applicazione deve essere in grado di aggiungere contatti a user(agent) e leggere anche i contatti  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Contacts.ReadWrite.Shared | delegated | l'applicazione deve essere in grado di aggiungere il contatto di condivisione con altri utenti(agente) e leggere anche i contatti condivisi  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Presence.Read.All | delegated | Le informazioni sulla presenza sono necessarie per l'agente del contact center per gestire meglio le chiamate e i contatti, soprattutto in caso di trasferimento delle chiamate  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| User.Read.All | delegated | per gestire il contatto, l'utente connesso deve essere in grado di sfogliare gli utenti e leggere le informazioni, tra cui la partenza e il manager (in caso di un addetto alla reception)  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

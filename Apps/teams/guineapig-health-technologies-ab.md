@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per GuineaPig, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 752d59918d5c9f08ee83525b8aa4f790213b6354
-ms.sourcegitcommit: 2aa786d5bf1f93ef63b80f04bff99434d2246d92
+ms.openlocfilehash: dbd872c0f919c8141d41771470546a5b75ae56b0
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62157278"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257822"
 ---
 # <a name="guineapig"></a>GuineaPig
 
@@ -38,7 +38,7 @@ Informazioni fornite da GuineaPig Health Technologies AB a Microsoft:
 | Nome società partner | GuineaPig Health Technologies AB |
 | Sito Web aziendale | [https://guineapig.app](https://guineapig.app) |
 | Condizioni per l'uso dell'app | [https://www.guineapig.app/terms-and-conditions](https://www.guineapig.app/terms-and-conditions) |
-| Funzionalità di base dell'app | GuineaPig aiuta il team a rimanere sano, soddisfatto e impegnato con lezioni di fitness live su richiesta e &amp; brevi pause dal lavoro. |
+| Funzionalità di base dell'app | GuineaPig aiuta il team a rimanere sano, &amp; soddisfatto e impegnato con lezioni di fitness live su richiesta e brevi pause dal lavoro. |
 | Sede centrale dell'azienda | Svezia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -60,7 +60,7 @@ Queste informazioni sono state fornite da GuineaPig Health Technologies AB su co
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | Si prega https://www.guineapig.app/privacy-policy di visitare per una descrizione dettagliata. |
+| Quali dati vengono archiviati nei database? | Si prega di https://www.guineapig.app/privacy-policy visitare per una descrizione dettagliata. |
 | Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
@@ -168,9 +168,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegated | Stiamo usando User.Read per leggere informazioni come il nome dell'utente per usarle nella chat e nelle schede e così via. Si prega https://www.guineapig.app/privacy-policy di visitare per una descrizione dettagliata. |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegated | Stiamo usando User.Read per leggere informazioni come il nome dell'utente per usarle nella chat e nelle schede e così via. Si prega di https://www.guineapig.app/privacy-policy visitare per una descrizione dettagliata. | [d6a2090f-1447-456b-bd5f-121e4efd8c89](https://docs.microsoft.com/microsoft-365-app-certification/azure/d6a2090f-1447-456b-bd5f-121e4efd8c89) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

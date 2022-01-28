@@ -2,17 +2,17 @@
 title: Informazioni sull'ID app di Azure per dae2eacf-3eb5-4440-baff-984fbd5cae68
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2022
+ms.date: 01/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per dae2eacf-3eb5-4440-baff-984fbd5cae68.
-ms.openlocfilehash: 2a3691be62a8dbd99a94c02ec65b0cf8753c9256
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: 6e3f1561943e6d8959aed5da5ba64fbb6c72514a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62235747"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62258062"
 ---
 # <a name="azure-app-id-dae2eacf-3eb5-4440-baff-984fbd5cae68"></a>ID app azure: dae2eacf-3eb5-4440-baff-984fbd5cae68
 
@@ -28,4 +28,4 @@ ms.locfileid: "62235747"
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato conformità app
 - Publisher Attestaton Status: Completed
-- Microsoft 365 certificazione: approvata (25/01/2022)
+- Microsoft 365: Approvata (25/01/2022)

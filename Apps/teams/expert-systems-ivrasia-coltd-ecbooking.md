@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ecBooking, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 87751c7cb846da69adeaa4fae544d1d1b50d7074
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d95f0198add6647c68d1be68008a4356a565a045
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149288"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257922"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -167,14 +167,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | application | Calendari di lettura scrittura |
->| Calendars.ReadWrite | delegated | Calendari di lettura scrittura |
->| Mail.Send | delegated | inviare posta |
->| Mail.Send | application | inviare posta |
->| User.Read | delegated | read user |
->| User.Read.All | application | read user |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | application | Calendari di lettura scrittura | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| Calendars.ReadWrite | delegated | Calendari di lettura scrittura | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| Mail.Send | delegated | inviare posta | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| Mail.Send | application | inviare posta | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| User.Read | delegated | read user | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| User.Read.All | application | read user | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

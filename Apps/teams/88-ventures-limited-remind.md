@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Remind, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c65bd6433972a7014c6fa8853d2f5651891db5f7
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 71d37c38b4cc3bdcc92182b4063061146d34c0dd
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144903"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255032"
 ---
 # <a name="remind"></a>Remind
 
@@ -165,9 +165,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Directory.Read.All | delegated | Usato quando un amministratore cerca gli utenti per assegnarli alle licenze. L'uso di questa funzionalità è completamente facoltativo e non è obbligatorio durante il normale uso dell'app. |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.Read.All | delegated | Usato quando un amministratore cerca gli utenti per assegnarli alle licenze. L'uso di questa funzionalità è completamente facoltativo e non è obbligatorio durante il normale uso dell'app. | [88546d4f-9973-4716-98e4-cd181c04bc2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/88546d4f-9973-4716-98e4-cd181c04bc2d) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

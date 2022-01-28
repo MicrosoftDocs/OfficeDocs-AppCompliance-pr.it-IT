@@ -6,14 +6,14 @@ ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per CC4Teams, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per CC4Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 31b9467e5aa5efb07131ec0509eaf8e3aa0b544c
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 85d5b411929f2bd0c1c0610a6e4950cf2d5e6809
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148774"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255912"
 ---
 # <a name="cc4teams"></a>CC4Teams
 
@@ -166,16 +166,16 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| CallRecords.Read.All | application | utilizzato per le registrazioni |
->| Calls.AccessMedia.All | application | utilizzato per accedere ai supporti |
->| Calls.Initiate.All | application | utilizzato per avviare chiamate nel contact center |
->| Calls.InitiateGroupCall.All | application | utilizzato per avviare chiamate nel contact center |
->| Calls.JoinGroupCall.All | application | utilizzato per avviare chiamate nel contact center |
->| Calls.JoinGroupCallasGuest.All | application | utilizzato per avviare chiamate nel contact center |
->| Presence.Read | delegated | utilizzato per controllare lo stato degli agenti nel contact center |
->| Presence.Read.All | delegated | utilizzato per controllare lo stato degli agenti nel contact center |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| CallRecords.Read.All | application | utilizzato per le registrazioni | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Calls.AccessMedia.All | application | utilizzato per accedere ai supporti | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Calls.Initiate.All | application | utilizzato per avviare chiamate nel contact center | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Calls.InitiateGroupCall.All | application | utilizzato per avviare chiamate nel contact center | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Calls.JoinGroupCall.All | application | utilizzato per avviare chiamate nel contact center | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Calls.JoinGroupCallasGuest.All | application | utilizzato per avviare chiamate nel contact center | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Presence.Read | delegated | utilizzato per controllare lo stato degli agenti nel contact center | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Presence.Read.All | delegated | utilizzato per controllare lo stato degli agenti nel contact center | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -6,14 +6,14 @@ ms.date: 11/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per MSPBots, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per MSPBots, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a0a0bee0504d4c3b0e6ea0c9d4464c04b4663252
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 8d4d4c0b27f2f2052a46b8d77107dbc4a320216e
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149089"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257752"
 ---
 # <a name="mspbots"></a>MSPBots
 
@@ -168,11 +168,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| ChannelMessage.Send | application | Invia messaggio al canale |
->| ChatMessage.Send | application | Inviare un messaggio alla chat |
->| profile | application | ottenere informazioni sull'utente dell'app per l'uso |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| ChannelMessage.Send | application | Invia messaggio al canale | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
+>| ChatMessage.Send | application | Inviare un messaggio alla chat | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
+>| profile | application | ottenere informazioni sull'utente dell'app per l'uso | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

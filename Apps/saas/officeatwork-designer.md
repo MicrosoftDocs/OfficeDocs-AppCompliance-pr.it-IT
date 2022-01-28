@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Designer, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ed8b927ce74e3e7cecb9c06e9b6a5fdbd6d818ac
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: e7b40d891f62c6c2d11c85487cc49e577c04dd62
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62210225"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259922"
 ---
 # <a name="designer"></a>Designer
 
@@ -71,7 +71,7 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,19 +166,19 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| profile | delegated | Abilitare l'accesso |
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso |
->| Sites.Read.All | delegated | Leggere i dati e i file archiviati in SharePoint |
->| User.ReadBasic.All | delegated | Abilitare la visualizzazione delle proprietà utente |
->| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti |
->| openid | delegated | Abilitare l'accesso |
->| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente |
->| Group.Read.All | delegated | Abilitazione dell'ambito di accesso ai dati in base ai gruppi |
->| Contacts.Read | delegated | Abilitazione della lettura dei contatti |
->| Files.Read | delegated | Abilitazione della lettura dei file archiviati in Microsoft 365 |
->| Files.Read.All | delegated | Abilitazione della lettura dei file archiviati in Microsoft 365 |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Contacts.Read | delegated | Abilitazione della lettura dei contatti | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Files.Read | delegated | Abilitazione della lettura dei file archiviati in Microsoft 365 | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Files.Read.All | delegated | Abilitazione della lettura dei file archiviati in Microsoft 365 | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Group.Read.All | delegated | Abilitazione dell'ambito di accesso ai dati in base ai gruppi | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Sites.Read.All | delegated | Leggere i dati e i file archiviati in SharePoint | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.ReadBasic.All | delegated | Abilitare la visualizzazione delle proprietà utente | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| openid | delegated | Abilitare l'accesso | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| profile | delegated | Abilitare l'accesso | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

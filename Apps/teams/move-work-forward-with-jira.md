@@ -6,14 +6,14 @@ ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Move Work Forward with Jira, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Move Work Forward with Jira, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 218c70925805938ff5f241e9df42b667eba81353
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: 44ed4ba1ac4dbfd4d311083701a21a1cee846f24
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62176959"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255692"
 ---
 # <a name="move-work-forward-with-jira"></a>Move Work Forward with Jira
 
@@ -60,7 +60,7 @@ Queste informazioni sono state fornite da Move Work Forward su come questa app r
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | Teams e canali per inviare notifiche. |
+| Quali dati vengono archiviati nei database? | Teams e canali per inviare notifiche troppo. |
 | Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | No |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
@@ -168,14 +168,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Channel.Create | delegated | Creare un canale di discussione per un problema di Jira |
->| Channel.ReadBasic.All | delegated | Leggere i canali di un team a cui inviare notifiche |
->| email | delegated | per mappare gli account Microsoft e Atlassian |
->| Team.ReadBasic.All | delegated | Per leggere i team da visualizzare nella pagina di configurazione. Per le notifiche da Jira. |
->| TeamsAppInstallation.ReadForTeam | delegated | Controlla se l'app è installata in un team. |
->| User.Read | delegated | Per migliorare l'esperienza utente. |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.Create | delegated | Creare un canale di discussione per un problema di Jira | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| Channel.ReadBasic.All | delegated | Leggere i canali di un team a cui inviare notifiche | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| Team.ReadBasic.All | delegated | Per leggere i team da visualizzare nella pagina di configurazione. Per le notifiche da Jira. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| TeamsAppInstallation.ReadForTeam | delegated | Controlla se l'app è installata in un team. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| User.Read | delegated | Per migliorare l'esperienza utente. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
+>| email | delegated | per mappare gli account Microsoft e Atlassian | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

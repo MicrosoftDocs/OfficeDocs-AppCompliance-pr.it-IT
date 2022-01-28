@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Webex Call, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 279a78d5f756eaca6f8aba2135d8a6a168fd7d3c
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 1f693fc58e86a361a67b6bf12c67ed76b3e89f93
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200982"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259802"
 ---
 # <a name="webex-call"></a>Webex Call
 
@@ -38,7 +38,7 @@ Informazioni fornite da Cisco a Microsoft:
 | Nome società partner | Cisco |
 | Sito Web aziendale | [https://www.cisco.com](https://www.cisco.com) |
 | Condizioni per l'uso dell'app | [https://www.cisco.com/c/en/us/products/universal-cloud-agre...](https://www.cisco.com/c/en/us/products/universal-cloud-agreement.html) |
-| Funzionalità di base dell'app | Effettuare chiamate vocali e videochiamate Cisco da Microsoft Teams con l'app Webex Call. |
+| Funzionalità di base dell'app | Effettuare chiamate vocali e videochiamate Cisco Microsoft Teams con l'app Webex Call. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
@@ -165,10 +165,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Chat.ReadBasic | delegated | Leggere i membri del canale dei team in modo che l'utente possa selezionarli |
->| Contacts.Read | delegated | Consente all'utente di creare chiamate veloci dall'elenco contatti |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Chat.ReadBasic | delegated | Leggere i membri del canale dei team in modo che l'utente possa selezionarli | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| Contacts.Read | delegated | Consente all'utente di creare chiamate veloci dall'elenco contatti | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

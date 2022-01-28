@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Natterhub, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a93c4603fa64320fc66adea24509fdbb16135b62
-ms.sourcegitcommit: f58ade86a900c29f53b231ee88dba3908a380e95
+ms.openlocfilehash: fd0c03b20732f7f83d9d6738779f011a4272d6db
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "62242308"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62256492"
 ---
 # <a name="natterhub"></a>Natterhub
 
@@ -169,14 +169,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| email | delegated | Questa autorizzazione è necessaria in modo che l'utente possa ricevere messaggi di posta elettronica transazionali |
->| offline_access | delegated | Obbligatorio per inviare gli invii di assegnazioni |
->| openid | delegated | Necessario per identificare l'utente |
->| profile | delegated | Obbligatorio per leggere il nome e il cognome dell'utente |
->| User.Read | delegated | Obbligatorio per leggere il nome e il cognome dell'utente |
->| EduAssignments.ReadWrite | delegated | Necessario per creare invii di assegnazioni |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| EduAssignments.ReadWrite | delegated | Necessario per creare invii di assegnazioni | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| User.Read | delegated | Obbligatorio per leggere il nome e il cognome dell'utente | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| email | delegated | Questa autorizzazione è necessaria in modo che l'utente possa ricevere messaggi di posta elettronica transazionali | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| offline_access | delegated | Obbligatorio per inviare gli invii di assegnazioni | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| openid | delegated | Necessario per identificare l'utente | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| profile | delegated | Obbligatorio per leggere il nome e il cognome dell'utente | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

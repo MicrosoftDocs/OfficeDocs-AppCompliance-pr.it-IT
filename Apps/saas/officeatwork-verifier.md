@@ -6,14 +6,14 @@ ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni di sicurezza e conformità disponibili per Verifier, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Verifier, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8c7d81b873f598a8d769c87e78a02191224332ce
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: 378e03c8de9028fb0ef109cce50d86ac149b715a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62209615"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259872"
 ---
 # <a name="verifier"></a>Verifier
 
@@ -71,7 +71,7 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,15 +166,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | delegated | Abilitare l'accesso |
->| profile | delegated | Abilitare l'accesso |
->| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti |
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso |
->| Files.Read | delegated | Abilitare la lettura e il confronto del contenuto |
->| Files.Read.All | delegated | Abilitare la lettura e il confronto del contenuto |
->| Sites.Read.All | delegated | Abilitare la lettura e il confronto del contenuto |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.Read | delegated | Abilitare la lettura e il confronto del contenuto | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| Files.Read.All | delegated | Abilitare la lettura e il confronto del contenuto | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| Sites.Read.All | delegated | Abilitare la lettura e il confronto del contenuto | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| openid | delegated | Abilitare l'accesso | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| profile | delegated | Abilitare l'accesso | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

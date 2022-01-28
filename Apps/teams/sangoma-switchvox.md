@@ -6,14 +6,14 @@ ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Switchvox, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Switchvox, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5a6e8d1117e0a1e8b67a23c38f6825f0335a433a
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 12728af3843d47c85e4f03bfeb06e4c0faf2424c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148454"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255542"
 ---
 # <a name="switchvox"></a>Switchvox
 
@@ -168,11 +168,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | delegated | Eseguire la ricerca dei contatti nella directory |
->| Group.Read.All | delegated | Eseguire la risoluzione dei membri del gruppo |
->| Chat.Read | delegated | Eseguire la risoluzione dei membri della chat |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Chat.Read | delegated | Eseguire la risoluzione dei membri della chat | [eb668aa5-abb2-445c-81b4-3c174db84fe2](https://docs.microsoft.com/microsoft-365-app-certification/azure/eb668aa5-abb2-445c-81b4-3c174db84fe2) |
+>| Group.Read.All | delegated | Eseguire la risoluzione dei membri del gruppo | [eb668aa5-abb2-445c-81b4-3c174db84fe2](https://docs.microsoft.com/microsoft-365-app-certification/azure/eb668aa5-abb2-445c-81b4-3c174db84fe2) |
+>| User.Read.All | delegated | Eseguire la ricerca dei contatti nella directory | [eb668aa5-abb2-445c-81b4-3c174db84fe2](https://docs.microsoft.com/microsoft-365-app-certification/azure/eb668aa5-abb2-445c-81b4-3c174db84fe2) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

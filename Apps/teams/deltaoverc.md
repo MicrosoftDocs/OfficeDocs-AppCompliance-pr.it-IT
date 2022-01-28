@@ -6,14 +6,14 @@ ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per DELTAoverC, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per DELTAoverC, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d83278a0e59f9abc33b495274e47abf10e1e2116
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 80273bfba0db86b443e84b46343ab6b04a264ac8
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148724"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259682"
 ---
 # <a name="deltaoverc"></a>DELTAoverC
 
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite da DELTAoverC su come questa app raccogli
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,14 +166,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Group.Read.All | entrambi | Lettura di tutti i gruppi |
->| Group.ReadWrite.All | entrambi | Lettura e scrittura di tutti i gruppi |
->| User.Read | delegated | Accedere e leggere il profilo utente |
->| User.Read.All | application | Leggere il profilo completo di tutti gli utenti |
->| User.ReadWrite | delegated | Accesso in lettura e scrittura al profilo utente |
->| User.ReadWrite.All | entrambi | Lettura e scrittura dei profili completi di tutti gli utenti |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Group.Read.All | entrambi | Lettura di tutti i gruppi | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| Group.ReadWrite.All | entrambi | Lettura e scrittura di tutti i gruppi | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| User.Read | delegated | Accedere e leggere il profilo utente | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| User.Read.All | application | Leggere il profilo completo di tutti gli utenti | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| User.ReadWrite | delegated | Accesso in lettura e scrittura al profilo utente | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| User.ReadWrite.All | entrambi | Lettura e scrittura dei profili completi di tutti gli utenti | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per il Pro delle liste di distribuzione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b5b28c507c192b692ed66743c47851a847694039
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 7b9e7dfb19e16df4388dde7664cb71724df963de
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155368"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259232"
 ---
 # <a name="distribution-lists-pro"></a> Pro liste di distribuzione 
 
@@ -38,7 +38,7 @@ Informazioni fornite da Witivio a Microsoft:
 | Nome società partner | Witivio |
 | Sito Web aziendale | [https://www.witivio.com](https://www.witivio.com) |
 | Condizioni per l'uso dell'app | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
-| Funzionalità di base dell'app | Distribution Lists Pro for Microsoft Teams consente di accedere facilmente alle liste di distribuzione esistenti. L'applicazione visualizza gli elenchi e i relativi membri nel Microsoft Teams. |
+| Funzionalità di base dell'app | Le liste Pro per Microsoft Teams consente di accedere facilmente alle liste di distribuzione esistenti. Nell'applicazione vengono visualizzati gli elenchi e i relativi membri Microsoft Teams. |
 | Sede centrale dell'azienda | Francia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -168,15 +168,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| email | delegated | Microsoft Teams SSO |
->| openid | delegated | Microsoft Teams SSO |
->| offline_access | delegated | Microsoft Teams SSO |
->| User.Read | delegated | Microsoft Teams SSO |
->| profile | delegated | Microsoft Teams SSO |
->| Presence.Read.All | delegated | CHecking della presenza di persone in un elenco |
->| Group.Read.All | delegated | Lista di distribuzione |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Group.Read.All | delegated | Lista di distribuzione | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| Presence.Read.All | delegated | CHecking della presenza di persone in un elenco | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| User.Read | delegated | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| email | delegated | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| offline_access | delegated | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| openid | delegated | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| profile | delegated | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
