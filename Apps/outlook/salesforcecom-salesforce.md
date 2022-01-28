@@ -1,19 +1,19 @@
 ---
-title: Informazioni sull'applicazione per Salesforce da salesforce.com
+title: Informazioni sull'applicazione per Salesforce per salesforce.com
 ms.author: elmalova
 author: elenamalova
 ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Salesforce, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b15f111d61d974a71eade2e5a3322ea3ee3431ca
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+description: Tutte le informazioni di sicurezza e conformità disponibili per Salesforce, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: fced2d4e5d9587512aa05d94dec3b04d68f332e3
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60429744"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250297"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -33,11 +33,14 @@ Informazioni fornite da salesforce.com a Microsoft:
 |:----------------|:-------------|
 | Nome app | Salesforce |
 | ID | WA104379334 |
-| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
+| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul web |
 | Nome società partner | salesforce.com |
-| URL del sito Web del partner | [https://www.salesforce.com](https://www.salesforce.com) |
-| URL dell'informativa sulla privacy | [https://www.salesforce.com/company/privacy/](https://www.salesforce.com/company/privacy/) |
-| URL delle Condizioni per l'utilizzo | [https://www.salesforce.com/content/dam/web/en_us/www/docume...](https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/software-order-form-supplements/Salesforce_Outlook_TOU_Order_Form_Addendum.pdf) |
+| Sito Web aziendale | [https://www.salesforce.com](https://www.salesforce.com) |
+| Condizioni per l'uso dell'app | [https://www.salesforce.com/content/dam/web/en_us/www/docume...](https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/software-order-form-supplements/Salesforce_Outlook_TOU_Order_Form_Addendum.pdf) |
+| Funzionalità di base dell'app | Ti consente di provare Salesforce direttamente Outlook. L'integrazione è basata sul cloud al 100% senza software da eseguire il push, l'installazione o la manutenzione. Visualizzare tutti i contatti, i lead, gli account, le opportunità e i casi associati a messaggi di posta elettronica e appuntamenti senza passare da Salesforce a Outlook; i dati di Salesforce vengono visualizzati direttamente in Outlook. Creare nuovi record Salesforce, inclusi i record oggetto personalizzato, direttamente in Outlook. Aggiungere messaggi di posta elettronica e appuntamenti ai record di Salesforce con un solo clic, anche durante la composizione |
+| Sede centrale dell'azienda | Stati Uniti d'America |
+| Pagina delle informazioni dell'app | |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,62 +52,120 @@ Informazioni fornite da salesforce.com a Microsoft:
 
 Queste informazioni sono state fornite da salesforce.com su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
-
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
-
->Questa applicazione non utilizza Microsoft Graph.
-
-#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
-
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
-
->| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
->|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| API JavaScript per Office | Sì | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità utente corrente di Outlook, GetItem (.js ed EWS) per ottenere e impostare AdditionalProperties e il contenuto del messaggio di posta elettronica corrente durante il salvataggio nei record di Salesforce, GetAttachment (EWS) per recuperare gli allegati da Exchange e aggiungere alla posta elettronica di Salesforce associata, UpdateItem (.js), GetFolder (.js) per ottenere la cartella delle bozze,  CreateItem (.js), che viene utilizzato per creare una bozza di messaggio. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità utente corrente di Outlook, GetItem (.js ed EWS) per ottenere e impostare AdditionalProperties e il contenuto del messaggio di posta elettronica corrente durante il salvataggio nei record di Salesforce, GetAttachment (EWS) per recuperare gli allegati da Exchange e aggiungere alla posta elettronica di Salesforce associata, UpdateItem (.js), GetFolder (.js) per ottenere la cartella delle bozze,  CreateItem (.js), che viene utilizzato per creare una bozza di messaggio. |
->| Servizi Web Exchange (EWS) | Sì | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo utilizza le funzioni di Office.js ed EWS per copiare il contenuto e gli allegati di un messaggio di posta elettronica che un utente Outlook ha deciso di accedere a Salesforce. Funzionalità simili vengono utilizzate sul lato calendario per registrare gli appuntamenti in Salesforce. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità utente corrente di Outlook, GetItem (.js ed EWS) per ottenere e impostare AdditionalProperties e il contenuto del messaggio di posta elettronica corrente durante il salvataggio nei record di Salesforce, GetAttachment (EWS) per recuperare gli allegati da Exchange e aggiungere alla posta elettronica di Salesforce associata, UpdateItem (.js), GetFolder (.js) per ottenere la cartella delle bozze,  CreateItem (.js), che viene utilizzato per creare una bozza di messaggio. | Il componente aggiuntivo usa funzioni come getUserIdentityTokenAsync per ottenere l'identità utente corrente di Outlook, GetItem (.js ed EWS) per ottenere e impostare AdditionalProperties e il contenuto del messaggio di posta elettronica corrente durante il salvataggio nei record di Salesforce, GetAttachment (EWS) per recuperare gli allegati da Exchange e aggiungere alla posta elettronica di Salesforce associata, UpdateItem (.js), GetFolder (.js) per ottenere la cartella delle bozze,  CreateItem (.js), che viene utilizzato per creare una bozza di messaggio. |
-
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
-
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
-
->Non vengono servizi Microsoft non vengono utilizzate.
-
-
-
-#### <a name="telemetry-data"></a>Dati di telemetria
-
-Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
-
->No
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
-
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
-
->L'archiviazione salesforce è descritta nella Guida alla sicurezza all'indirizzo https://resources.docs.salesforce.com/222/latest/en-us/sfdc/pdf/salesforce_security_impl_guide.pdf
-
-#### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
-
-Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
-
->No
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
+| Quali dati vengono archiviati nei database? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
+| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
+| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
+| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="security"
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Informazioni sull'identità
-
-Queste informazioni sono state fornite da salesforce.com su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | No |
+| Esegui test di penetrazione annuali nell'app? | Sì |
+| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? |  |
+| Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? |  |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? |  |
+| Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? |  |
+| L'ambiente include sistemi operativi o software non supportati? |  |
+| Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? |  |
+| Nel limite di rete esterno è installato un firewall? |  |
+| Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? |  |
+| Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? |  |
+| Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? |  |
+| Autenticazione a più fattori abilitata per: |  |
+| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
+| Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? |  |
+| La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? |  |
+| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | |
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? |  |
+| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
+| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | No |
+| L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | No |
+| Data di certificazione SOC1 più recente |   |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
+| Quale certificazione SOC 2 hai raggiunto? | |
+| Data di certificazione SOC2 più recente | |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
+| Data di certificazione SOC3 più recente | |
+| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | No |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27018)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
+| L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | No |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | No |
+| L'app è conforme Sarbanes-Oxley Act (SOX)? | No |
+| L'app è conforme al NIST 800-171? |  |
+| L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Hai un GDPR o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
+| L'app ha un avviso sulla privacy rivolto all'esterno che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? |  |
+| L'app esegue processi decisionali automatizzati, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? |  |
+| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? |  |
+| Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? |  |
+| L'app raccoglie o elabora dati da minori (ad esempio, persone di età inferiore ai 16 anni)? |  |
+| L'app dispone di funzionalità per eliminare i dati personali di un individuo su richiesta? |  |
+| L'app dispone di funzionalità per limitare o limitare l'elaborazione dei dati personali di un individuo su richiesta? |  |
+| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? |  |
+| Vengono eseguite revisioni regolari sulla sicurezza e sulla privacy dei dati (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | No |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
+| Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
+| L'app supporta i criteri di accesso condizionale? | No |
+| L'app supporta la valutazione dell'accesso continuo (CAE) |  |
+| L'app archivia credenziali nel codice? |  |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | Sì |
+
+>Questa applicazione non utilizza Microsoft Graph.
+
+>Questa applicazione non dispone di API aggiuntive.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

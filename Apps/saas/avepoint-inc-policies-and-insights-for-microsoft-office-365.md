@@ -6,14 +6,14 @@ ms.date: 11/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Policies Insights for Microsoft Office 365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema &amp; CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Policies &amp; Insights for Microsoft Office 365, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 306a0580cf91cc49c4a6f3cf814c831840c1b283
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 272be559137882c7f9f41ed46f2321d41aff9474
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155427"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62252472"
 ---
 # <a name="policies-amp-insights-for-microsoft-office-365"></a>Criteri &amp; Insights per Microsoft Office 365
 
@@ -166,14 +166,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Sites.FullControl.All | application | Recuperare e aggiornare le informazioni delle raccolte siti e dei gruppi/team&#8217; siti. |
->| User.Read.All | application | Leggere le impostazioni di tutti gli utenti |
->| User.ReadWrite.All | application | Impostazioni di lettura e scrittura degli utenti |
->| Group.Read.All | application | Lettura dei membri e delle impostazioni dei gruppi |
->| Group.ReadWrite.All | application | Aggiornare i membri e le impostazioni dei gruppi |
->| Directory.ReadWrite.All | application |   Leggere e scrivere i dati di utenti e gruppi nella directory dell'organizzazione. |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.ReadWrite.All | application |   Leggere e scrivere i dati di utenti e gruppi nella directory dell'organizzazione. | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.Read.All | application | Lettura dei membri e delle impostazioni dei gruppi | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.ReadWrite.All | application | Aggiornare i membri e le impostazioni dei gruppi | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.FullControl.All | application | Recuperare e aggiornare le informazioni relative a raccolte siti e gruppi/team&#8217; siti. | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.Read.All | application | Leggere le impostazioni di tutti gli utenti | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.ReadWrite.All | application | Impostazioni di lettura e scrittura degli utenti | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

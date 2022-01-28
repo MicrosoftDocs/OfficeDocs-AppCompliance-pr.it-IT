@@ -6,14 +6,14 @@ ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Wats, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Wats, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 87f742ca884060d51b35ea2ba48cae3e4fd89e91
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 49aba56648206ad302a6b078bb28ad3b055bbc5f
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200774"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251664"
 ---
 # <a name="wats"></a>Wats
 
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da Skillbase sul modo in cui questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -167,21 +167,21 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Files.Read | delegated | Lecture des fichiers sharepoint |
->| Files.Read.All | delegated | Lecture des fichiers sharepoint |
->| Group.Read.All | delegated | avoir acc&#232;s aux groupes pour le ask for it |
->| offline_access | delegated | cellulare |
->| openid | delegated | OBO |
->| Organization.Read.All | delegated | recup&#233;rer le tenant ID pour bien configurer l'application WATS et g&#233;rer le cloisonnement des donn&#233;es |
->| Presence.Read | delegated | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas |
->| Presence.Read.All | delegated | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas |
->| profile | delegated | info sur l'utilisateur |
->| Sites.Read.All | delegated | acces aux infos des sharepoints |
->| TeamsActivity.Send | entrambi | envoie d'activit&#233;s aux utilisateurs quand un ask for it est cr&#233;&#233; |
->| User.Read | delegated | login |
->| User.Read.All | delegated | info sur les autres utilisateurs |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.Read | delegated | Lecture des fichiers sharepoint | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Files.Read.All | delegated | Lecture des fichiers sharepoint | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Group.Read.All | delegated | avoir acc&#232;s aux groupes pour le ask for it | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Organization.Read.All | delegated | recup&#233;rer le tenant ID pour bien configurer l'application WATS et g&#233;rer le cloisonnement des donn&#233;es | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Presence.Read | delegated | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Presence.Read.All | delegated | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Sites.Read.All | delegated | acces aux infos des sharepoints | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| TeamsActivity.Send | entrambi | envoie d'activit&#233;s aux utilisateurs quand un ask for it est cr&#233;&#233; | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| User.Read | delegated | login | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| User.Read.All | delegated | info sur les autres utilisateurs | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| offline_access | delegated | cellulare | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| openid | delegated | OBO | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| profile | delegated | info sur l'utilisateur | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

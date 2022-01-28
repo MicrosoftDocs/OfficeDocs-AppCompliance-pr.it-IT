@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ArcGIS per SharePoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c7a456514598928240e93987bf7ad83147644f12
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 14034e3d6c413ad8d88db2165a569b774445e07a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428399"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62252434"
 ---
 # <a name="arcgis-for-sharepoint"></a>ArcGIS per SharePoint
 
@@ -35,9 +35,12 @@ Informazioni fornite da Esri, Inc. a Microsoft:
 | ID | WA200003118 |
 | Office 365 client supportati | SharePoint 2016 o versione successiva |
 | Nome società partner | Esri, Inc. |
-| URL del sito Web del partner | [https://www.esri.com](https://www.esri.com) |
-| URL dell'informativa sulla privacy | [https://www.esri.com/legal/privacy-arcgis](https://www.esri.com/legal/privacy-arcgis) |
-| URL delle Condizioni per l'utilizzo | [https://www.esri.com/en-us/legal/terms/master-agreement-pro...](https://www.esri.com/en-us/legal/terms/master-agreement-product) |
+| Sito Web aziendale | [https://www.esri.com](https://www.esri.com) |
+| Condizioni per l'uso dell'app | [https://www.esri.com/en-us/legal/terms/master-agreement-pro...](https://www.esri.com/en-us/legal/terms/master-agreement-product) |
+| Funzionalità di base dell'app | ArcGIS Online include una famiglia di app, mappe rilevanti e dati su migliaia di argomenti, strumenti di mapping moderni necessari per visualizzare i dati, analisi per individuare e comunicare modelli significativi nei dati e negli strumenti di amministrazione per gestire facilmente persone e contenuti e consentire a tutti di creare e condividere mappe. ArcGIS offre a tutti gli utenti dell'organizzazione la possibilità di individuare, usare, creare e condividere mappe da qualsiasi dispositivo, ovunque e in qualsiasi momento. |
+| Sede centrale dell'azienda | Stati Uniti d'America |
+| Pagina delle informazioni dell'app | |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,78 +52,121 @@ Informazioni fornite da Esri, Inc. a Microsoft:
 
 Queste informazioni sono state fornite da Esri, Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
-
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
-
->Questa applicazione non utilizza Microsoft Graph.
-
-
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
-
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
-
->Non vengono servizi Microsoft non vengono utilizzate.
-
-
-
-#### <a name="telemetry-data"></a>Dati di telemetria
-
-Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
-
->Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
-
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
-
->Gli amministratori dei clienti possono controllare l'accesso degli utenti ai dati a livello di organizzazione o di progetto. Le richieste vengono controllate rispetto agli elenchi di controllo di accesso prima di leggere o scrivere dati. I dati in transito da e verso gli utenti finali e i servizi esterni vengono crittografati con HTTPS (solo TLS 1.2).
-
-#### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
-
-Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
-
->No
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
+| Quali dati vengono archiviati nei database? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
+| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
+| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
+| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/27233' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/27233" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Informazioni sull'identità
-
-Queste informazioni sono state fornite da Esri, Inc. Sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
-| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
-| L'app supporta i criteri di accesso condizionale? | Sì |
-| Elencare i tipi di criteri supportati | ArcGIS Online si basa sul modello RBAC (Role Based Access Control). Tutti gli utenti della soluzione devono disporre di un ruolo per il quale sono autorizzati ad accedere. |
-| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
-| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | No |
-| L'app supporta la multi-tenancy? | Sì |
-| L'app dispone di un client riservato? | Sì |
-| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| L'app espone qualsiasi API Web? | Sì |
-| Il modello di autorizzazione consente l'esito positivo delle chiamate solo se l'app client riceve il consenso appropriato? | Sì |
-| La tua app usa le API di anteprima? | No |
-| L'app usa API deprecate? | No |
+| Esegui test di penetrazione annuali nell'app? | Sì |
+| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? |  |
+| Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? |  |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? |  |
+| Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? |  |
+| L'ambiente include sistemi operativi o software non supportati? |  |
+| Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? |  |
+| Nel limite di rete esterno è installato un firewall? |  |
+| Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? |  |
+| Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? |  |
+| Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? |  |
+| Autenticazione a più fattori abilitata per: |  |
+| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
+| Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? |  |
+| La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? |  |
+| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | |
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? |  |
+| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
+| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | No |
+| L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | No |
+| Data di certificazione SOC1 più recente |   |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
+| Quale certificazione SOC 2 hai raggiunto? | |
+| Data di certificazione SOC2 più recente | |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
+| Data di certificazione SOC3 più recente | |
+| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | N/D |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27018)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
+| L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | Sì |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | No |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | No |
+| L'app è conforme Sarbanes-Oxley Act (SOX)? | N/D |
+| L'app è conforme al NIST 800-171? |  |
+| L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | Sì |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Hai un GDPR o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
+| L'app ha un avviso sulla privacy rivolto all'esterno che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? |  |
+| L'app esegue processi decisionali automatizzati, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? |  |
+| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? |  |
+| Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? |  |
+| L'app raccoglie o elabora dati da minori (ad esempio, persone di età inferiore ai 16 anni)? |  |
+| L'app dispone di funzionalità per eliminare i dati personali di un individuo su richiesta? |  |
+| L'app dispone di funzionalità per limitare o limitare l'elaborazione dei dati personali di un individuo su richiesta? |  |
+| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? |  |
+| Vengono eseguite revisioni regolari sulla sicurezza e sulla privacy dei dati (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | false |
+| Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
+| L'app supporta i criteri di accesso condizionale? | Sì |
+| Elencare i tipi di criteri supportati | ArcGIS Online si basa sul modello RBAC (Role Based Access Control). Tutti gli utenti della soluzione devono disporre di un ruolo per il quale sono autorizzati ad accedere. |
+| L'app supporta la valutazione dell'accesso continuo (CAE) |  |
+| L'app archivia credenziali nel codice? |  |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |
+
+>Questa applicazione non utilizza Microsoft Graph.
+
+>Questa applicazione non dispone di API aggiuntive.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

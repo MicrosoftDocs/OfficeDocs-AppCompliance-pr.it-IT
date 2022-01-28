@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Selezione immagini, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 694aa6e329087c06b0f447e058000ab935ed33ab
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: a6db0aefd3416cb0d4d0478723eb55fe642ffa48
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62210375"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251292"
 ---
 # <a name="image-chooser"></a>Selezione immagini
 
@@ -166,17 +166,17 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | delegated | Abilitare l'accesso |
->| profile | delegated | Abilitare l'accesso |
->| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti |
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso |
->| Files.ReadWrite.All | delegated | Abilita preferiti e OneDrive funzionalità |
->| Group.ReadWrite.All | delegated | Abilita Teams funzionalità |
->| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente |
->| Sites.Read.All | delegated | Leggere i file modello degli utenti archiviati in SharePoint |
->| GroupMember.Read.All | delegated | Abilita Teams funzionalità |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.ReadWrite.All | delegated | Abilita preferiti e OneDrive funzionalità | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| Group.ReadWrite.All | delegated | Abilita Teams funzionalità | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| GroupMember.Read.All | delegated | Abilita Teams funzionalità | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| Sites.Read.All | delegated | Leggere i file modello degli utenti archiviati in SharePoint | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| openid | delegated | Abilitare l'accesso | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| profile | delegated | Abilitare l'accesso | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

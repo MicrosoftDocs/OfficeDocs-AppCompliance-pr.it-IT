@@ -6,14 +6,14 @@ ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per i servizi | Caricatore per Office, criteri di gestione dei dati, Microsoft Cloud App Security informazioni sul catalogo app e informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per officeatwork | Caricatore per Office, criteri di gestione dei dati, Microsoft Cloud App Security informazioni sul catalogo app e informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6c71745e5d6f533de53228cf0b2a44ab30fa32da
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: fdd2f6c4786225cbfbda16722735cc2fdc31e2f1
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62208975"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251482"
 ---
 # <a name="officeatwork--uploader-for-office"></a>officeatwork | Uploader per Office
 
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -167,17 +167,17 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | delegated | Abilitare l'accesso |
->| profile | delegated | Abilitare l'accesso |
->| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti |
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso |
->| Files.ReadWrite.All | delegated | Abilita Preferiti, OneDrive funzionalità e caricamento di file |
->| Group.ReadWrite.All | delegated | Abilita Teams funzionalità |
->| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente |
->| Sites.Read.All | delegated | Leggere i file archiviati in SharePoint |
->| GroupMember.Read.All | delegated | Abilita Teams funzionalità |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.ReadWrite.All | delegated | Abilita Preferiti, OneDrive funzionalità e caricamento dei file | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| Group.ReadWrite.All | delegated | Abilita Teams funzionalità | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| GroupMember.Read.All | delegated | Abilita Teams funzionalità | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| Sites.Read.All | delegated | Leggere i file archiviati in SharePoint | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| openid | delegated | Abilitare l'accesso | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| profile | delegated | Abilitare l'accesso | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

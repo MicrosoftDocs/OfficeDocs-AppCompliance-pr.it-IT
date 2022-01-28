@@ -6,14 +6,14 @@ ms.date: 12/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Powow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Powow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 529f5acf9410a5ee1ed2b68308ccabbdde0f070e
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: f7c17510645c2c7b2fc25014e328b1dcefe0f06f
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200974"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254752"
 ---
 # <a name="powow"></a>Powow
 
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite dall'IA di Powow su come questa app racco
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -168,15 +168,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | application | Usato per il connettore di ricerca (funzionalità per il push dei dati Powow negli indici Microsoft per la ricerca in servizi Microsoft) |
->| ExternalItem.ReadWrite.All | application | Usato per il connettore di ricerca (funzionalità per il push dei dati Powow negli indici Microsoft per la ricerca in servizi Microsoft) |
->| email | delegated | Visualizzare l'indirizzo di posta elettronica degli utenti per la registrazione e l'accesso |
->| offline_access | delegated | Per accedere ai dati dell'utente all'interno dell'applicazione (tenere traccia degli aggiornamenti del calendario) |
->| openid | delegated | Accedere agli utenti |
->| profile | delegated | Per accedere alle informazioni di base del profilo degli utenti per la registrazione |
->| User.Read | delegated | Accedere e leggere il profilo utente per la registrazione e l'accesso |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| ExternalItem.ReadWrite.All | application | Utilizzato per il connettore di ricerca (funzionalità per il push dei dati di Powow negli indici Microsoft per la ricerca in servizi Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| User.Read | delegated | Accedere e leggere il profilo utente per la registrazione e l'accesso | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| User.Read.All | application | Utilizzato per il connettore di ricerca (funzionalità per il push dei dati di Powow negli indici Microsoft per la ricerca in servizi Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| email | delegated | Visualizzare l'indirizzo di posta elettronica degli utenti per la registrazione e l'accesso | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| offline_access | delegated | Per accedere ai dati dell'utente all'interno dell'applicazione (tenere traccia degli aggiornamenti del calendario) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| openid | delegated | Accedere agli utenti | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| profile | delegated | Per accedere alle informazioni di base del profilo degli utenti per la registrazione | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

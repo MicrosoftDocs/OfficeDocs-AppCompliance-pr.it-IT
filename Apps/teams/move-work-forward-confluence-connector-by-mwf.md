@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Confluence Connector by MWF, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f7ac53112ad08bdb90ae3601c13074d541d63428
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 21c6474d5b21537a4ff04705fd16b760d6698b73
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144746"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251032"
 ---
 # <a name="confluence-connector-by-mwf"></a>Connettore di confluenza di MWF
 
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite da Move Work Forward su come questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,13 +166,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Channel.ReadBasic.All | delegated | Per ottenere l'elenco dei canali per le pagine di configurazione per l'invio di notifiche in un canale. |
->| Teams. ReadBasic.All | delegated | Per ottenere l'elenco dei team per le pagine di configurazione per l'invio di notifiche in un canale di un team. |
->| email | delegated | Per migliorare il mapping degli account tra Microsoft e Atlassian |
->| TeamsAppInstallation.ReadForTeam | delegated | Per individuare i team in cui è installato il connettore di confluenza |
->| User.Read | delegated | Per leggere le informazioni di base sull'utente |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | delegated | Per ottenere l'elenco dei canali per le pagine di configurazione per l'invio di notifiche in un canale. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| Teams. ReadBasic.All | delegated | Per ottenere l'elenco dei team per le pagine di configurazione per l'invio di notifiche in un canale di un team. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| TeamsAppInstallation.ReadForTeam | delegated | Per individuare i team in cui è installato il connettore di confluenza | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| User.Read | delegated | Per leggere le informazioni di base sull'utente | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| email | delegated | Per migliorare il mapping degli account tra Microsoft e Atlassian | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

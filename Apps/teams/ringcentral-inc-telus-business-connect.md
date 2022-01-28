@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per TELUS Business Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d39d9d969d09d711de1d879dd869543e06d3a596
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 03f662d1185936d9e06cd02c521bda34c289e701
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60445198"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253462"
 ---
 # <a name="telus-business-connect"></a>TELUS Business Connect
 
@@ -36,10 +36,12 @@ Informazioni fornite da RingCentral, Inc. a Microsoft:
 | ID | WA200002300 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | RingCentral, Inc. |
-| URL del sito Web del partner | [https://www.ringcentral.com](https://www.ringcentral.com) |
-| URL della Teams info dell'applicazione | [https://appsource.microsoft.com/en-us/product/office/WA2000...](https://appsource.microsoft.com/en-us/product/office/WA200002300) |
-| URL dell'informativa sulla privacy | [https://www.telus.com/en/about/privacy/](https://www.telus.com/en/about/privacy/) |
-| URL delle Condizioni per l'utilizzo | [https://telus.com/BusinessConnect/ServiceTerms](https://telus.com/BusinessConnect/ServiceTerms) |
+| Sito Web aziendale | [https://www.ringcentral.com](https://www.ringcentral.com) |
+| Condizioni per l'uso dell'app | [https://telus.com/BusinessConnect/ServiceTerms](https://telus.com/BusinessConnect/ServiceTerms) |
+| Funzionalità di base dell'app | Avviare riunioni video e chiamare all'interno delle conversazioni. |
+| Sede centrale dell'azienda | Stati Uniti d'America |
+| Pagina delle informazioni dell'app | |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,64 +53,127 @@ Informazioni fornite da RingCentral, Inc. a Microsoft:
 
 Queste informazioni sono state fornite da RingCentral, Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
-
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
-
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated |  Consente all'applicazione di inviare gli inviti alle riunioni tramite il calendario | Nessuno | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
->| User.Read | delegated |  Consente all'app di leggere un&#8217;di base (e-mail, nome) per fare corrispondenze di contatto alla fine. E consente all'utente di accedere e collegare il proprio account O365 con l'account RingCentral |  Posta elettronica, nome, cognome | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
->| User.Read.All | delegated | Consente all'applicazione di leggere il profilo completo di un utente con numeri di telefono per effettuare chiamate telefoniche con i nostri servizi. | Nessuno | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
->| offline_access | delegated |  Consente all'applicazione di ottenere e aggiornare il token oauth |  Token di accesso, token di aggiornamento per l'accesso all'API ms Graph | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
-
-
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
-
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
-
->Non vengono servizi Microsoft non vengono utilizzate.
-
-#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
-
-Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
-
->Non è possibile accedere all'UEII.
-
-
-#### <a name="telemetry-data"></a>Dati di telemetria
-
-Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
-
->Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
-
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
-
->Se usiamo un'altra organizzazione, controlliamo comunque le tue informazioni personali. E abbiamo controlli rigorosi in atto per assicurarsi che&#8217;correttamente protetto. Infine, la sezione precedente descrive le situazioni in cui le informazioni personali vengono condivise con altre organizzazioni, enti pubblici e forze dell'ordine.  Quando condividiamo le tue informazioni con altre organizzazioni,&#8217;che siano protette&#8217;, per quanto ragionevolmente possibile.
-
-#### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
-
-Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
-
->No
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
+| Quali dati vengono archiviati nei database? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
+| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
+| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
+| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="security"
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Informazioni sull'identità
-
-Queste informazioni sono state fornite da RingCentral, Inc. Sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | No |
+| Esegui test di penetrazione annuali nell'app? | No |
+| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? |  |
+| Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? |  |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? |  |
+| Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? |  |
+| L'ambiente include sistemi operativi o software non supportati? |  |
+| Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? |  |
+| Nel limite di rete esterno è installato un firewall? |  |
+| Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? |  |
+| Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? |  |
+| Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? |  |
+| Autenticazione a più fattori abilitata per: |  |
+| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
+| Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? |  |
+| La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? |  |
+| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | |
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? |  |
+| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
+| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | Sì |
+| L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Sì |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
+| Data di certificazione SOC1 più recente |   |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | Sì |
+| Quale certificazione SOC 2 hai raggiunto? |   |
+| Data di certificazione SOC2 più recente |  2020-05-11 |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | Sì |
+| Data di certificazione SOC3 più recente |  2020-05-11 |
+| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | Sì |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
+| L'app è conforme all'International Organization for Standardization (ISO 27018)? | Sì |
+| L'app è conforme all'International Organization for Standardization (ISO 27017)? | Sì |
+| L'app è conforme all'International Organization for Standardization (ISO 27002)? | Sì |
+| L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
+| L'app è conforme Sarbanes-Oxley Act (SOX)? | N/D |
+| L'app è conforme al NIST 800-171? |  |
+| L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Hai un GDPR o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
+| L'app ha un avviso sulla privacy rivolto all'esterno che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? |  |
+| L'app esegue processi decisionali automatizzati, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? |  |
+| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? |  |
+| Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? |  |
+| L'app raccoglie o elabora dati da minori (ad esempio, persone di età inferiore ai 16 anni)? |  |
+| L'app dispone di funzionalità per eliminare i dati personali di un individuo su richiesta? |  |
+| L'app dispone di funzionalità per limitare o limitare l'elaborazione dei dati personali di un individuo su richiesta? |  |
+| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? |  |
+| Vengono eseguite revisioni regolari sulla sicurezza e sulla privacy dei dati (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | No |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
+| Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
+| L'app supporta i criteri di accesso condizionale? | No |
+| L'app supporta la valutazione dell'accesso continuo (CAE) |  |
+| L'app archivia credenziali nel codice? |  |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |
+
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated |  Consente all'applicazione di inviare gli inviti alle riunioni tramite il calendario | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| User.Read | delegated |  Consente all'app di leggere un&#8217;di base (e-mail, nome) per fare corrispondenze di contatto alla fine. E consente all'utente di accedere e collegare il proprio account di O365 con l'account RingCentral | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| User.Read.All | delegated | Consente all'applicazione di leggere il profilo completo di un utente con numeri di telefono per effettuare chiamate telefoniche con i nostri servizi. | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| offline_access | delegated |  Consente all'applicazione di ottenere e aggiornare il token oauth | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+
+>Questa applicazione non dispone di API aggiuntive.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

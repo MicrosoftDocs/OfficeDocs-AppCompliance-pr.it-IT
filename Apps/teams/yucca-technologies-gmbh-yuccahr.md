@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per yuccaHR, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f9a2ad6cf983a58d761c1c97563a9f564c9667d8
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: f5e1475a1db71c51ac58a6bc062ce9e4b17e8ab3
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148225"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251498"
 ---
 # <a name="yuccahr"></a>yuccaHR
 
@@ -38,7 +38,7 @@ Informazioni fornite da Yucca Technologies GmbH a Microsoft:
 | Nome società partner | Yucca Technologies GmbH |
 | Sito Web aziendale | [https://www.yuccahr.com](https://www.yuccahr.com) |
 | Condizioni per l'uso dell'app | [https://www.yuccahr.com/terms-of-use](https://www.yuccahr.com/terms-of-use) |
-| Funzionalità di base dell'app | Connessione team, integrare nuovi assunti, creare engagement. Direttamente in Microsoft Teams. |
+| Funzionalità di base dell'app | Connessione team, integrare i nuovi assunti, creare coinvolgimento. Direttamente in Microsoft Teams. |
 | Sede centrale dell'azienda | Germania |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da Yucca Technologies GmbH su come questa
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -168,14 +168,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | application | Per pianificare un evento di calendario per le parti corrispondenti |
->| Channel.ReadBasic.All | application | Visualizzare i nomi dei canali nell'applicazione Web |
->| ChannelMember.Read.All | application | Per associare persone all'interno di un canale o con altri canali |
->| Group.Read.All | application | Visualizzare i nomi dei team nell'applicazione Web |
->| MailboxSettings.Read | application | Per ottenere la lingua desiderata dagli utenti, quando inviano messaggi |
->| User.Read.All | application | La posta elettronica è necessaria per generare schede adattive per consentire agli utenti di chattare direttamente |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | application | Per pianificare un evento di calendario per le parti corrispondenti | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| Channel.ReadBasic.All | application | Visualizzare i nomi dei canali nell'applicazione Web | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| ChannelMember.Read.All | application | Per associare persone all'interno di un canale o con altri canali | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| Group.Read.All | application | Visualizzare i nomi dei team nell'applicazione Web | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| MailboxSettings.Read | application | Per ottenere la lingua desiderata dagli utenti, quando inviano messaggi | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| User.Read.All | application | La posta elettronica è necessaria per generare schede adattive per consentire agli utenti di chattare direttamente | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

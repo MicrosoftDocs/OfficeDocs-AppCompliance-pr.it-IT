@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Vibe, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6ddc6d09c23b109752073c291f220e43b1522617
-ms.sourcegitcommit: 2aa786d5bf1f93ef63b80f04bff99434d2246d92
+ms.openlocfilehash: 9dd45dc3aa49fdf3dbe518b610186231b1cde907
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62157279"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254612"
 ---
-# <a name="vibe"></a>Vibrazione
+# <a name="vibe"></a>Vibe
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Informazioni fornite da Vibe Inc a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Vibrazione |
+| Nome app | Vibe |
 | ID | WA200001721 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Vibe Inc |
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da Vibe Inc su come questa app raccoglie 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -168,9 +168,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegated | Ottenere le informazioni di identità di base dell'utente, ad esempio nome, posta elettronica, immagine del profilo. |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegated | Ottenere le informazioni di identità di base dell'utente, ad esempio nome, posta elettronica, immagine del profilo. | [71a7c2ef-6e5f-4d3d-8665-119a2bef0035](https://docs.microsoft.com/microsoft-365-app-certification/azure/71a7c2ef-6e5f-4d3d-8665-119a2bef0035) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

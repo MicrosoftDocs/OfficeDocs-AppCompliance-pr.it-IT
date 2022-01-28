@@ -6,14 +6,14 @@ ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per LawToolBox Deadlines e Matter Management - Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per LawToolBox Deadlines e Matter Management - Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9baa7ea9b51626f8d887d568b428a83999b77940
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: 5ed6b61fae63ec4c4608133613e78a4a5dd29e88
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148124"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251822"
 ---
 # <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox Deadlines and Matter Management - Outlook
 
@@ -33,7 +33,7 @@ Informazioni fornite da LawToolBox.com Inc. a Microsoft:
 |:----------------|:-------------|
 | Nome app | LawToolBox Deadlines and Matter Management - Outlook |
 | ID | WA200003103 |
-| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versione successiva su Mac, Outlook sul web |
+| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | LawToolBox.com Inc. |
 | Sito Web aziendale | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
 | Condizioni per l'uso dell'app | [https://www.lawtoolbox.com/customersupport/2019/LawToolBox_...](https://www.lawtoolbox.com/customersupport/2019/LawToolBox_End_User_License_Agreement_and_SLA_LAWTOOLBOX_2019_APR.pdf) |
@@ -50,7 +50,7 @@ Informazioni fornite da LawToolBox.com Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da LawToolBox.com Inc. Su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da LawToolBox.com Inc. Sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -162,7 +162,32 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app archivia credenziali nel codice? |  |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |
 
->Questa applicazione non utilizza Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | delegated | questa autorizzazione è limitata ad accedere ai contatti dell&#8217;utente a cui ha già accesso &#8211; viene utilizzato per consentire agli utenti di recuperare le proprie informazioni del calendario | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite | delegated | questa autorizzazione è limitata per l'accesso ai contatti dell&#8217;utente a cui ha già accesso &#8211; questa autorizzazione viene utilizzata per consentire agli utenti di recuperare le proprie informazioni del calendario e scrivere nei calendari | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite.Shared | delegated | questa autorizzazione è limitata ad accedere ai contatti dell&#8217;utente a cui ha già accesso &#8211; viene utilizzato per consentire agli utenti di recuperare le proprie informazioni del calendario | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Contacts.ReadWrite | delegated | a questa autorizzazione viene limitato l'accesso all'&#8217;ai contatti a cui ha già accesso.  Questa autorizzazione viene utilizzata per consentire all'utente di cercare i propri contatti di O365 e aggiungere a LawToolBox &#8211; non viene aggiunto automaticamente alcun contatto (può essere revocato se non si desidera che questa funzionalità e i contatti possano essere aggiunti manualmente | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Contacts.ReadWrite.Shared | delegated | usiamo questa autorizzazione per consentire all'utente di cercare contatti O365 condivisi e aggiungere a LawToolBox &#8211; non aggiungiamo automaticamente alcun contatto | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Directory.AccessAsUser.All | delegated | usiamo nel portale di amministrazione per recuperare l'elenco degli utenti dal tenant di O365 da aggiungere al tuo account | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Directory.ReadWrite.All | delegated | usiamo nel portale di amministrazione per recuperare l'elenco degli utenti dal tenant di O365 da aggiungere al tuo account | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.Read | delegated | in questo modo il componente aggiuntivo può leggere ed elencare i file utente a cui l'utente ha già accesso | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.Read.All | delegated | usiamo questa autorizzazione per leggere ed elencare i file utente a cui l'utente ha già accesso | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite | delegated | leggiamo i file da Teams, gruppi e OneDrive per le riunioni (se lo revochi impedirà al nostro componente aggiuntivo di elencare i file di materia nelle nostre app) | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite.All | delegated | leggiamo i file da Teams, gruppi e OneDrive per le riunioni (se lo revochi impedirai a LTB di elencare i file di materia nelle nostre app).  L'utente può utilizzare solo il componente aggiuntivo per leggere ed elencare i file utente a cui l'utente ha già accesso | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Group.ReadWrite.All | delegated | GroupID, GroupName, GroupEmail | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Read | delegated | usiamo questa autorizzazione per leggere i messaggi di posta elettronica PACER nel componente aggiuntivo di Outlook per aprire automaticamente la questione e anche per leggere i contatti dalla posta elettronica da aggiungere al nostro sistema di contatti  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite | delegated | usiamo questa autorizzazione per leggere i messaggi di posta elettronica PACER nel componente aggiuntivo di Outlook per aprire automaticamente la questione e anche per leggere i contatti dalla posta elettronica da aggiungere al nostro sistema di contatti  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite.Shared | delegated | usiamo questa autorizzazione per leggere i messaggi di posta elettronica PACER nel componente aggiuntivo di Outlook per aprire automaticamente la questione e anche per leggere i contatti dalla posta elettronica da aggiungere al nostro sistema di contatti  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Send | delegated | Usiamo questo invio di messaggi di posta elettronica come utente per consentire a un utente di inviare report solo dei dati a cui ha già accesso nel nostro sistema | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Tasks.ReadWrite.Shared | delegated | questa autorizzazione è limitata ad accedere alle attività dell&#8217;utente a cui ha già accesso &#8211; questa autorizzazione viene utilizzata per consentire agli utenti di recuperare e aggiornare le proprie informazioni sulle attività.  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.Read | delegated | utilizzato per suggerire contatti recenti da aggiungere a riunioni o contatti | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.ReadWrite | delegated | utilizzato per suggerire contatti recenti da aggiungere a riunioni o contatti | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.ReadWrite.All | delegated | questo è necessario per leggere l'API Teams, creare Teams, creare un evento calendario, creare canali, Teams funzionalità di condivisione file | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| email | delegated | Email, Office365 UserID, ObjectID, TenantID. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| profile | delegated | questa operazione è necessaria per l'autenticazione SSO: questa autorizzazione viene utilizzata anche per recuperare le immagini e i nomi salvati nel tenant M365 per visualizzarli in modo che l'utente sappia di essere nella casella degli strumenti corretta | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

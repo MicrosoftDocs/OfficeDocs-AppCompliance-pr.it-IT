@@ -6,14 +6,14 @@ ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Emailgistics, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Emailgistics, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84228626adf3865be785d8c58c78374db9620a90
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: cea41a85550bd0b2a5d4effda544674d46c06b67
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62177637"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250252"
 ---
 # <a name="emailgistics"></a>Emailgistics
 
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite da Emailgistics Corp. Sul modo in cui que
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -156,7 +156,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | No |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -166,15 +166,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Mail.ReadWrite | delegated | Accesso in lettura req'd per ottenere informazioni sui messaggi nella cassetta postale condivisa. Le informazioni sui messaggi sono necessarie per eseguire regole definite dal cliente (distribuire all'utente A se il messaggio contiene &#8220;fattura&#8221;, ad esempio), per tenere traccia delle conversazioni correttamente (per la cronologia delle conversazioni e l'assegnazione automatica) e per la creazione di report (ad esempio, il report Dettagli messaggi aperti).
-L'accesso in scrittura consente di inviare messaggi da regole (ad esempio risposte automatiche) e di aggiornare gli interessati con l'ID conversazione Emailgistics. |
->| Mail.Send | delegated | Consente a Emailgistics di inviare messaggi di posta elettronica dalla cassetta postale condivisa. Questa autorizzazione è necessaria per inviare messaggi da regole (ad esempio risposte automatiche). |
->| MailboxSettings.ReadWrite | delegated | Consente a Emailgistics di ottenere il nome della cassetta postale condivisa e di creare una regola della cassetta postale per instradare i messaggi in arrivo nella cartella posta in arrivo nascosta per l'elaborazione iniziale, l'esecuzione delle regole e l'assegnazione automatica. |
->| User.Read | delegated | Consente a Emailgistics di accedere come cassetta postale condivisa e leggere le informazioni di base su di essa, ad esempio l'ID entità servizio, l'indirizzo di posta elettronica e il nome utente. |
->| User.ReadBasic.All | delegated | Consente a Emailgistics di leggere le informazioni di base sugli utenti nel tenant. Obbligatorio per rilevare le modifiche negli indirizzi e nei nomi di posta elettronica dei membri della cassetta postale e aggiornare automaticamente queste informazioni, utilizzate per tenere traccia e creare report, in Emailgistics. Si tratta dell'unica autorizzazione il cui ambito si estende oltre la cassetta postale condivisa. |
->| offline_access | delegated | Consente a Emailgistics di operare come applicazione back-end, invece di un'app interattiva basata su browser che richiede all'utente di eseguire l'accesso ogni volta che funziona. Questa autorizzazione consente a Emailgistics di ottenere un token di aggiornamento, che può essere aggiornato in base alle esigenze per mantenere l'accesso costante. |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Mail.ReadWrite | delegated | Accesso in lettura req'd per ottenere informazioni sui messaggi nella cassetta postale condivisa. Le informazioni sui messaggi sono necessarie per eseguire regole definite dal cliente (distribuire all'utente A se il messaggio contiene una fattura &#8220;&#8221;, ad esempio), per tenere traccia correttamente delle conversazioni (per la cronologia delle conversazioni e l'assegnazione automatica) e per la creazione di report (ad esempio, il report Dettagli messaggi aperti).
+L'accesso in scrittura consente di inviare messaggi da regole (ad esempio risposte automatiche) e di aggiornare gli interessati con l'ID conversazione Emailgistics. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| Mail.Send | delegated | Consente a Emailgistics di inviare messaggi di posta elettronica dalla cassetta postale condivisa. Questa autorizzazione è necessaria per inviare messaggi da regole (ad esempio risposte automatiche). | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| MailboxSettings.ReadWrite | delegated | Consente a Emailgistics di ottenere il nome della cassetta postale condivisa e di creare una regola della cassetta postale per instradare i messaggi in arrivo nella cartella posta in arrivo nascosta per l'elaborazione iniziale, l'esecuzione delle regole e l'assegnazione automatica. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| User.Read | delegated | Consente a Emailgistics di accedere come cassetta postale condivisa e leggere le informazioni di base su di essa, ad esempio l'ID entità servizio, l'indirizzo di posta elettronica e il nome utente. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| User.ReadBasic.All | delegated | Consente a Emailgistics di leggere le informazioni di base sugli utenti nel tenant. Obbligatorio per rilevare le modifiche negli indirizzi e nei nomi di posta elettronica dei membri della cassetta postale e aggiornare automaticamente queste informazioni, utilizzate per tenere traccia e creare report, in Emailgistics. Si tratta dell'unica autorizzazione il cui ambito si estende oltre la cassetta postale condivisa. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| offline_access | delegated | Consente a Emailgistics di operare come applicazione back-end, invece di un'app interattiva basata su browser che richiede all'utente di eseguire l'accesso ogni volta che funziona. Questa autorizzazione consente a Emailgistics di ottenere un token di aggiornamento, che può essere aggiornato in base alle esigenze per mantenere l'accesso costante. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per La firma della posta, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 59228540a9dfea9d03cb30fd6643baff97918f09
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: e6529d9e42d48d71f57555b629a8cf8c664fa397
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148275"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254062"
 ---
 # <a name="mail-signature"></a>Firma di posta
 
@@ -36,7 +36,7 @@ Informazioni fornite da officeatwork a Microsoft:
 | Nome società partner | officeatwork |
 | Sito Web aziendale | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Condizioni per l'uso dell'app | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Funzionalità di base dell'app | Firme di posta, semplici e sicure, gestite centralmente e personalizzate &amp; nell'organizzazione. |
+| Funzionalità di base dell'app | Firme di posta, semplici e sicure, gestite centralmente e &amp; personalizzate nell'organizzazione. |
 | Sede centrale dell'azienda | Svizzera |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -167,12 +167,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | delegated | Abilitare l'accesso |
->| profile | delegated | Abilitare l'accesso |
->| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti |
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso, abilitare le firme di posta dinamiche con le proprietà dell'utente |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso, abilitare le firme di posta dinamiche con le proprietà dell'utente | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| openid | delegated | Abilitare l'accesso | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| profile | delegated | Abilitare l'accesso | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

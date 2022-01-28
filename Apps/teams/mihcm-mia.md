@@ -6,14 +6,14 @@ ms.date: 12/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Mia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Mia, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 47aebd8bce7bdaed64de9f634792d8375f686776
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 60f642920ebe8406b6b16bcdcf940dd986962ae6
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148304"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253612"
 ---
 # <a name="mia"></a>Mia
 
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da MiHCM su come questa app raccoglie e a
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -158,7 +158,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | N/D |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | Sì |
@@ -169,12 +169,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegated | Per identificare un utente in modo univoco |
->| Group.Read.All | delegated | Per leggere le attività di Microsoft Planner dell'utente |
->| MailboxSettings.Read | application | Per leggere il fuso orario dell'utente |
->| Calendars.Read | application | Per leggere gli eventi di calendario pianificati dell'utente |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | application | Per leggere gli eventi di calendario pianificati dell'utente | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
+>| Group.Read.All | delegated | Per leggere le attività di Microsoft Planner dell'utente | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
+>| MailboxSettings.Read | application | Per leggere il fuso orario dell'utente | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
+>| User.Read | delegated | Per identificare un utente in modo univoco | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

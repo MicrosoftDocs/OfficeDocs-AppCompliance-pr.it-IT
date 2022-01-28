@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Nailted, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 917e4443182e1370b3b1dfdd1d73905dc28fe3b6
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 6db76106efdc61b69c911ef889242f2fca72fc90
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200782"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254852"
 ---
 # <a name="nailted"></a>Nailted
 
@@ -38,7 +38,7 @@ Informazioni fornite da NAILTED APP S.L. a Microsoft:
 | Nome società partner | APP NEILTED S.L. |
 | Sito Web aziendale | [https://nailted.com](https://nailted.com) |
 | Condizioni per l'uso dell'app | [https://nailted.com/legal/terms](https://nailted.com/legal/terms) |
-| Funzionalità di base dell'app | La piattaforma di coinvolgimento dei dipendenti per i team &amp; people hr moderni. |
+| Funzionalità di base dell'app | La piattaforma di coinvolgimento dei dipendenti per i team people &amp; hr moderni. |
 | Sede centrale dell'azienda | Spagna |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -168,13 +168,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | application | Utilizzato per leggere le informazioni sugli utenti |
->| email | application | Accedere alla posta elettronica dei dipendenti per sincronizzarli |
->| offline_access | application | Questa autorizzazione viene utilizzata per accedere all'api quando l'utente non è online per poter sincronizzare i dipendenti e installare l'applicazione |
->| TeamsAppInstallation.ReadWriteForUser | application | L'utente può selezionare gli utenti in cui desidera installare l'app. Usiamo quindi questa autorizzazione per creare l'app |
->| Directory.Read.All | application | Utilizzato per accedere ai gruppi. |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.Read.All | application | Utilizzato per accedere ai gruppi. | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
+>| TeamsAppInstallation.ReadWriteForUser | application | L'utente può selezionare gli utenti in cui desidera installare l'app. Usiamo quindi questa autorizzazione per creare l'app | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
+>| User.Read.All | application | Utilizzato per leggere le informazioni sugli utenti | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
+>| email | application | Accedere alla posta elettronica dei dipendenti per sincronizzarli | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
+>| offline_access | application | Questa autorizzazione viene utilizzata per accedere all'api quando l'utente non è online per poter sincronizzare i dipendenti e installare l'applicazione | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

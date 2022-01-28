@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per Buzzeasy Contact Center per Teams da Geomant-Algotech Zrt.
+title: Application Information for Buzzeasy Contact Center for Teams by Geomant-Algotech Zrt.
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/29/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Buzzeasy Contact Center per Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f80ef944b502b1bacb5253f917154747761ee6ae
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b73e059f9b820a1f3f880a4bd4237649121b9c5b
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148514"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251319"
 ---
 # <a name="buzzeasy-contact-center-for-teams"></a>Buzzeasy Contact Center per Teams
 
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite da Geomant-Algotech Zrt. informazioni su 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,16 +166,16 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Mail.ReadWrite | application | Consente all'agente di leggere/scrivere una cassetta postale specifica (condivisa) tramite l'interfaccia utente dell'agente. Può essere filtrato in base a una cassetta postale specifica. |
->| Mail.Send | application | Invio di posta elettronica per conto di una cassetta postale condivisa. |
->| User.Read | delegated | Accedere e leggere il profilo utente |
->| Presence.Read.All | delegated | Visualizzare lo stato dell'agente/utente per altri agenti, eseguire la sincronizzazione con lo stato dell'agente. |
->| User.Read.All | delegated | Visualizzare le informazioni AAD utente sulle interfacce di amministrazione/utente |
->| User.ReadBasic.All | delegated | Visualizzare le informazioni AAD utente sulle interfacce di amministrazione/utente |
->| User.Read | delegated | Visualizzare l'elenco degli utenti per gli amministratori per la registrazione. |
->| Mail.Send | application | Invio di un invito per conto di un utente del servizio. |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Mail.Send | application | Invio di un invito per conto di un utente del servizio. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| Presence.Read.All | delegated | Visualizzare lo stato dell'agente/utente per altri agenti, eseguire la sincronizzazione con lo stato dell'agente. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.Read | delegated | Visualizzare l'elenco degli utenti per gli amministratori per la registrazione. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.Read.All | delegated | Visualizzare le informazioni AAD utente sulle interfacce di amministrazione/utente | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.ReadBasic.All | delegated | Visualizzare le informazioni AAD utente sulle interfacce di amministrazione/utente | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| Mail.ReadWrite | application | Consente all'agente di leggere/scrivere una cassetta postale specifica (condivisa) tramite l'interfaccia utente dell'agente. Può essere filtrato in base a una cassetta postale specifica. | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
+>| Mail.Send | application | Invio di posta elettronica per conto di una cassetta postale condivisa. | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
+>| User.Read | delegated | Accedere e leggere il profilo utente | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

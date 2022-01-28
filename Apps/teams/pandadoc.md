@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per PandaDoc, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4119b4540bd4326be32adb8a8f0b6bc999cb20c1
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 3ab026ee7c8a3277dc4865e514637a609ce3133b
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60427958"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251022"
 ---
 # <a name="pandadoc"></a>PandaDoc
 
@@ -36,10 +36,12 @@ Informazioni fornite da PandaDoc a Microsoft:
 | ID | WA200002927 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | PandaDoc |
-| URL del sito Web del partner | [https://www.pandadoc.com](https://www.pandadoc.com) |
-| URL della Teams info dell'applicazione | [https://www.pandadoc.com](https://www.pandadoc.com) |
-| URL dell'informativa sulla privacy | [https://www.pandadoc.com/privacy-notice/?utm_source=microso...](https://www.pandadoc.com/privacy-notice/?utm_source=microsoft-teams&amp;utm_medium=partner&amp;utm_campaign=2021-2-inbd-marketplace-websitevisit-pandadoc-privacy) |
-| URL delle Condizioni per l'utilizzo | [https://www.pandadoc.com/terms-of-use/](https://www.pandadoc.com/terms-of-use/) |
+| Sito Web aziendale | [https://www.pandadoc.com](https://www.pandadoc.com) |
+| Condizioni per l'uso dell'app | [https://www.pandadoc.com/terms-of-use/](https://www.pandadoc.com/terms-of-use/) |
+| Funzionalità di base dell'app | Teams utilizzare PandaDoc per migliorare i flussi di lavoro, le informazioni dettagliate e la velocità dei documenti offrendo al contempo un'esperienza straordinaria per i propri clienti. Le aziende si affidano a PandaDoc&#8217;software di automazione dei documenti all-in-one per semplificare il processo di creazione, approvazione ed eSign di proposte, offerte, contratti e altro ancora. Grazie alle potenti funzionalità di creazione di documenti e flusso di lavoro, i team possono offrire ai propri clienti un'esperienza più professionale, efficace e coinvolgente. |
+| Sede centrale dell'azienda | Stati Uniti d'America |
+| Pagina delle informazioni dell'app | |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,114 +53,145 @@ Informazioni fornite da PandaDoc a Microsoft:
 
 Queste informazioni sono state fornite da PandaDoc su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
-#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
-
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
-
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.ReadBasic.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. | I dati non vengono archiviati | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| ChannelSettings.Read.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale.  | I dati non vengono archiviati | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| ChannelSettings.ReadWrite.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. | I dati non vengono archiviati | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Directory.Read.All | entrambi | Per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Directory.ReadWrite.All | entrambi | Per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Files.Read | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Files.Read.All | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Files.Read.Selected | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Group.Read.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. Documentazione - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp ;tabs=http | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Group.ReadWrite.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. Documentazione - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp ;tabs=http | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Team.ReadBasic.All | entrambi | per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamSettings.Read.All | entrambi | Per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamSettings.ReadWrite.All | entrambi | o ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamsAppInstallation.ReadWriteSelfForTeam.All | entrambi | necessario per installare l'applicazione in un utente in Team e installare il bot nella chat. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamsAppInstallation.ReadWriteSelfForUser.All | entrambi | necessario per installare l'applicazione in un utente in Team e installare il bot nella chat. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.Read | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.Read.All | entrambi |  per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.ReadWrite.All | entrambi |  per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| email | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| offline_access | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| openid | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| profile | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs) . Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | I dati non vengono archiviati. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
-
-#### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
-
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
-
->| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
->|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| PandaDoc API | No |  |  |  |  |
->| MS Graph | No |  |  |  |  |
->| Elementor | No |  |  |  |  |
-
-#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
-
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
-
->Non vengono servizi Microsoft non vengono utilizzati.
-
-#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
-
-Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni di identificazione dell'utente finale (EUII): l'elenco (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunta. Questa app usa questa funzionalità?
-
->Non è possibile accedere all'UEII.
-
-
-#### <a name="telemetry-data"></a>Dati di telemetria
-
-Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
-
->Nessun OII o EUII viene visualizzato nella telemetria o nei log delle applicazioni.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
-
-Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
-
->I nostri contratti per i fornitori rispetteranno i rispettivi obblighi di noi stessi e dei fornitori per quanto riguarda la privacy e la sicurezza dei dati e ogni anno subiamo revisioni di sicurezza/privacy dei nostri fornitori chiave.
-
-#### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
-
-Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
-
->No
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
+| Quali dati vengono archiviati nei database? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
+| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
+| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
+| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/21283' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/21283" target="_blank">Visualizzazione in una nuova scheda</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Informazioni sull'identità
-
-Queste informazioni sono state fornite da PandaDoc sul modo in cui questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione delle applicazioni e altri criteri di identità.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | No |
-| L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
-| L'app supporta i criteri di accesso condizionale? | No |
-| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
-| Le autorizzazioni registrate in modo statico dell'app riflettono in modo accurato le autorizzazioni richieste dall'app in modo dinamico e incrementale? | Sì |
-| L'app supporta la multi-tenancy? | No |
-| L'app dispone di un client riservato? | No |
-| Sei il proprietario di tutti gli URI (Unified Resource Identifier) di reindirizzamento registrati per la tua app? | Sì |
-| Per la tua app, cosa evita di usare? | - URI di reindirizzamento con caratteri jolly,<br/>- OAuth2 Implicit Flow, a meno che non sia necessario per una spa<br/> |
-| L'app espone qualsiasi API Web? | No |
-| La tua app usa le API di anteprima? | Sì |
-| L'app usa API deprecate? | No |
+| Esegui test di penetrazione annuali nell'app? | Sì |
+| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? |  |
+| Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? |  |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? |  |
+| Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? |  |
+| L'ambiente include sistemi operativi o software non supportati? |  |
+| Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? |  |
+| Nel limite di rete esterno è installato un firewall? |  |
+| Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? |  |
+| Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? |  |
+| Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? |  |
+| Autenticazione a più fattori abilitata per: |  |
+| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
+| Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? |  |
+| La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? |  |
+| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | |
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? |  |
+| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
+| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | Sì |
+| L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
+| Data di certificazione SOC1 più recente |   |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | Sì |
+| Quale certificazione SOC 2 hai raggiunto? |   |
+| Data di certificazione SOC2 più recente |  2020-06-10 |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
+| Data di certificazione SOC3 più recente | |
+| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | N/D |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27018)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
+| L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | Sì |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | Sì |
+| L'app è conforme Sarbanes-Oxley Act (SOX)? | No |
+| L'app è conforme al NIST 800-171? |  |
+| L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| Hai un GDPR o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
+| L'app ha un avviso sulla privacy rivolto all'esterno che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? |  |
+| L'app esegue processi decisionali automatizzati, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? |  |
+| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? |  |
+| Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? |  |
+| L'app raccoglie o elabora dati da minori (ad esempio, persone di età inferiore ai 16 anni)? |  |
+| L'app dispone di funzionalità per eliminare i dati personali di un individuo su richiesta? |  |
+| L'app dispone di funzionalità per limitare o limitare l'elaborazione dei dati personali di un individuo su richiesta? |  |
+| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? |  |
+| Vengono eseguite revisioni regolari sulla sicurezza e sulla privacy dei dati (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Informazioni** | **Risposta** |
+|:----------------|:-------------|
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | No |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | false |
+| Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
+| L'app supporta i criteri di accesso condizionale? | No |
+| L'app supporta la valutazione dell'accesso continuo (CAE) |  |
+| L'app archivia credenziali nel codice? |  |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | Sì |
+
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| ChannelSettings.Read.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale.  | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| ChannelSettings.ReadWrite.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Directory.Read.All | entrambi | Per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Directory.ReadWrite.All | entrambi | Per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Files.Read | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Files.Read.All | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Files.Read.Selected | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Group.Read.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. Documentazione - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Group.ReadWrite.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. Documentazione - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Team.ReadBasic.All | entrambi | per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| TeamSettings.Read.All | entrambi | Per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| TeamSettings.ReadWrite.All | entrambi | o ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| TeamsAppInstallation.ReadWriteSelfForTeam.All | entrambi | necessario per installare l'applicazione in un utente in Team e installare il bot nella chat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | entrambi | necessario per installare l'applicazione in un utente in Team e installare il bot nella chat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| User.Read | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| User.Read.All | entrambi |  per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| User.ReadWrite.All | entrambi |  per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| email | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| offline_access | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| openid | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| profile | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+
+>Questa applicazione non dispone di API aggiuntive.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

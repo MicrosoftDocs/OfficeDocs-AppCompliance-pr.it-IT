@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wazoku, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c82905cc10dbebbc914b9025cb146d05c4473716
-ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
+ms.openlocfilehash: 1c9aef70ea9958b82698b54fca43ebf2853f5d73
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62222527"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251542"
 ---
 # <a name="wazoku"></a>Wazoku
 
@@ -168,13 +168,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| email | delegated | Single #A0 |
->| offline_access | delegated | Single #A0 |
->| openid | delegated | Single #A0 |
->| profile | delegated | Single #A0 |
->| User.Read | delegated | Single #A0 |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| email | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| offline_access | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| openid | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| profile | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

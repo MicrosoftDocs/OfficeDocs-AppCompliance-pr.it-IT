@@ -6,14 +6,14 @@ ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Lucidspark Whiteboard, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Lucidspark Whiteboard, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 078375102550d360ce6f4f64d2c666b2f4ffe498
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: c8ce523115fff2910606ea519118d6b2e14131e9
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61143524"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253642"
 ---
 # <a name="lucidspark-whiteboard"></a>Lavagna Di Lucidspark
 
@@ -38,7 +38,7 @@ Informazioni fornite da Lucid Software a Microsoft:
 | Nome società partner | Lucid Software |
 | Sito Web aziendale | [https://lucid.co](https://lucid.co) |
 | Condizioni per l'uso dell'app | [https://lucid.co/tos](https://lucid.co/tos) |
-| Funzionalità di base dell'app | Lucidspark è una lavagna virtuale basata sul cloud in cui i team possono mettere in luce le loro idee migliori. Brainstorming e collaborare come team in tempo reale, indipendentemente&#8217;lavorare in remoto o di persona. Lucidspark aiuta gli utenti a organizzare note e scarabocchi e a trasformarli in concetti pronti per la presentazione. Quando è&#8217;i passaggi successivi, i team possono sviluppare flussi di lavoro ed elaborare documenti per trasformare le idee in realtà. |
+| Funzionalità di base dell'app | Lucidspark è una lavagna virtuale basata sul cloud in cui i team possono mettere in luce le loro idee migliori. Brainstorming e collaborare come team in tempo reale, sia che tu&#8217;in remoto o di persona. Lucidspark aiuta gli utenti a organizzare note e scarabocchi e a trasformarli in concetti pronti per la presentazione. Quando è&#8217;i passaggi successivi, i team possono sviluppare flussi di lavoro ed elaborare documenti per trasformare le idee in realtà. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
@@ -71,7 +71,7 @@ Queste informazioni sono state fornite da Lucid Software su come questa app racc
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -154,7 +154,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | No |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | No |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -162,7 +162,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app archivia credenziali nel codice? |  |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |
 
->Questa applicazione non utilizza Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| email | delegated | Nome e indirizzo di posta elettronica. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| openid | delegated | Nome e indirizzo di posta elettronica. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| profile | delegated | Nome e indirizzo di posta elettronica. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

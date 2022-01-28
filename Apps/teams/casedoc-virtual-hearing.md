@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Casedoc Virtual Hearing, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ffb0964fddc025b6fd661a87d505f8560ad84ce5
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 07119c707f97b9e1c47beaf49a0977cbdfb727fb
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62197943"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253852"
 ---
 # <a name="casedoc-virtual-hearing"></a>Casedoc Virtual Hearing
 
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite da Casedoc su come questa app raccoglie e
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -155,7 +155,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | N/D |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -165,22 +165,22 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| AppCatalog.ReadWrite.All | delegated | Per aggiungere l'app dal catalogo app a una riunione |
->| Calendars.ReadWrite | delegated | Per essere in grado di sottoscrivere gli aggiornamenti delle riunioni |
->| Calendars.ReadWrite | application | Per creare la riunione |
->| Directory.ReadWrite.All | application | Per poter creare il gruppo associato alla riunione |
->| Files.ReadWrite.All | delegated | Per consentire agli utenti di caricare file nel gruppo di riunioni |
->| Files.ReadWrite.All | application | Consente all'applicazione di caricare i dati delle riunioni nel gruppo di riunioni |
->| Group.ReadWrite.All | application | Per consentire all'applicazione di creare un gruppo associato a una riunione |
->| MailboxSettings.Read | application | Per consentire all'applicazione di leggere il fuso orario degli utenti |
->| OnlineMeetings.ReadWrite | delegated | Per abilitare il contrassegno del tipo di riunione |
->| TeamsAppInstallation.ReadForUser | delegated | Per aggiungere l'applicazione alla riunione |
->| TeamsAppInstallation.ReadWriteSelfForUser | delegated | Per aggiungere l'applicazione alla riunione |
->| TeamsTab.Create | delegated | Per aggiungere l'applicazione alla riunione |
->| TeamsTab.ReadWrite.All | delegated | Per aggiungere l'applicazione alla riunione |
->| User.Read.All | application | Consente all'app di leggere i profili utente senza un utente connesso |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| AppCatalog.ReadWrite.All | delegated | Per aggiungere l'app dal catalogo app a una riunione | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Calendars.ReadWrite | delegated | Per essere in grado di sottoscrivere gli aggiornamenti delle riunioni | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Calendars.ReadWrite | application | Per creare la riunione | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Directory.ReadWrite.All | application | Per poter creare il gruppo associato alla riunione | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Files.ReadWrite.All | delegated | Per consentire agli utenti di caricare file nel gruppo di riunioni | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Files.ReadWrite.All | application | Consente all'applicazione di caricare i dati delle riunioni nel gruppo di riunioni | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Group.ReadWrite.All | application | Per consentire all'applicazione di creare un gruppo associato a una riunione | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| MailboxSettings.Read | application | Per consentire all'applicazione di leggere il fuso orario degli utenti | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| OnlineMeetings.ReadWrite | delegated | Per abilitare il contrassegno del tipo di riunione | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsAppInstallation.ReadForUser | delegated | Per aggiungere l'applicazione alla riunione | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsAppInstallation.ReadWriteSelfForUser | delegated | Per aggiungere l'applicazione alla riunione | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsTab.Create | delegated | Per aggiungere l'applicazione alla riunione | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsTab.ReadWrite.All | delegated | Per aggiungere l'applicazione alla riunione | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| User.Read.All | application | Consente all'app di leggere i profili utente senza un utente connesso | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

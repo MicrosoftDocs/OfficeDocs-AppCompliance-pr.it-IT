@@ -1,19 +1,19 @@
 ---
-title: Application Information for officeatwork | Firma di posta per Outlook per ufficiolavoro
+title: Application Information for officeatwork | Mail Signature for Outlook by officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per officeatwork | Mail Signature for Outlook, i criteri di gestione dei dati, le Microsoft Cloud App Security del catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per officeatwork | Mail Signature for Outlook, i relativi criteri di gestione dei dati, le Microsoft Cloud App Security del catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9c2b253c143a1efa249f0e4ea14387664bb68834
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 32899c4a9734ef0afb996e7f609c042cba1172c0
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155403"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254182"
 ---
 # <a name="officeatwork--mail-signature-for-outlook"></a>officeatwork | Firma di posta per Outlook
 
@@ -37,7 +37,7 @@ Informazioni fornite da officeatwork a Microsoft:
 | Nome società partner | officeatwork |
 | Sito Web aziendale | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Condizioni per l'uso dell'app | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Funzionalità di base dell'app | Firme di posta, semplici e sicure, gestite centralmente e personalizzate &amp; nell'organizzazione. |
+| Funzionalità di base dell'app | Firme di posta, semplici e sicure, gestite centralmente e &amp; personalizzate nell'organizzazione. |
 | Sede centrale dell'azienda | Svizzera |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -168,12 +168,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | delegated | Abilitare l'accesso |
->| profile | delegated | Abilitare l'accesso |
->| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti |
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso, abilitare le firme di posta dinamiche con le proprietà dell'utente |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso, abilitare le firme di posta dinamiche con le proprietà dell'utente | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| openid | delegated | Abilitare l'accesso | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| profile | delegated | Abilitare l'accesso | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

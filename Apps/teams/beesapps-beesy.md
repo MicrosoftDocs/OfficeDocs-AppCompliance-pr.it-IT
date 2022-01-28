@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Beesy, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9b3a80dc71a88504bb15c1a6d8bdd070cc3d1d1
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 626b383ae4f396371c80c3cdf77aa0533aba90f0
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148725"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251802"
 ---
 # <a name="beesy"></a>Beesy
 
@@ -168,11 +168,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Mail.Read | delegated | envoyer un mail dans beesy depuis microsoft outlook web component |
->| User.Read | delegated | lier le profil microsoft office365 a son compte beesy.me |
->| Chat.Read | delegated | cr&#233;er une action dans beesy.me depuis un message d'une conversation dans microsoft teams |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Chat.Read | delegated | cr&#233;er une action dans beesy.me depuis un message d'une conversation dans microsoft teams | [d27f56ed-ddc7-4cf8-86ac-721b76c7d287](https://docs.microsoft.com/microsoft-365-app-certification/azure/d27f56ed-ddc7-4cf8-86ac-721b76c7d287) |
+>| Mail.Read | delegated | envoyer un mail dans beesy depuis microsoft outlook web component | [d27f56ed-ddc7-4cf8-86ac-721b76c7d287](https://docs.microsoft.com/microsoft-365-app-certification/azure/d27f56ed-ddc7-4cf8-86ac-721b76c7d287) |
+>| User.Read | delegated | lier le profil microsoft office365 a son compte beesy.me | [d27f56ed-ddc7-4cf8-86ac-721b76c7d287](https://docs.microsoft.com/microsoft-365-app-certification/azure/d27f56ed-ddc7-4cf8-86ac-721b76c7d287) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

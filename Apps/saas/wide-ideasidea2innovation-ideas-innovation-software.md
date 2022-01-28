@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Wide Ideas - Innovation Software, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 55c7276aaf212bf8b6dbc2861f47711af0b0ea6b
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d5bbf1d032d5537dab0775522f80d83a472db661
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155515"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251202"
 ---
 # <a name="wide-ideas---innovation-software"></a>Idee ampie - Software per l'innovazione
 
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite da Wide Ideas/Idea2Innovation su come que
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,14 +166,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| TeamsAppInstallation.ReadWriteForTeam | delegated | consente all'interfaccia di amministrazione di Wide Ideas di leggere, installare, aggiornare e disinstallare le app Teams nei team a cui l'utente connesso può accedere.  |
->| Channel.Create | delegated | consente all'interfaccia di amministrazione di Wide Ideas di creare un canale in qualsiasi team, per conto dell'utente connesso.  |
->| TeamsTab.Create | delegated |  consente all'interfaccia di amministrazione di Wide Ideas di creare schede in qualsiasi team Microsoft Teams, per conto dell'utente connesso. |
->| Directory.Read.All | delegated | consente all'interfaccia di amministrazione di Wide Ideas di leggere i dati nella directory&#8217;dell'organizzazione, ad esempio utenti, gruppi e app |
->| Group.Read.All | delegated | consente all'interfaccia di amministrazione di Wide Ideas di elencare i gruppi e di leggere le proprietà e tutte le appartenenze ai gruppi per conto dell'utente connesso |
->| User.Read | delegated | consente agli utenti di accedere all'interfaccia di amministrazione di Wide Ideas e consente all'app di leggere il profilo degli utenti connessi.  |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.Create | delegated | consente all'interfaccia di amministrazione di Wide Ideas di creare un canale in qualsiasi team, per conto dell'utente connesso.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| Directory.Read.All | delegated | consente all'interfaccia di amministrazione di Wide Ideas di leggere i dati nell'organizzazione&#8217;directory, ad esempio utenti, gruppi e app | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| Group.Read.All | delegated | consente all'interfaccia di amministrazione di Wide Ideas di elencare i gruppi e di leggere le proprietà e tutte le appartenenze ai gruppi per conto dell'utente connesso | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| TeamsAppInstallation.ReadWriteForTeam | delegated | consente all'interfaccia di amministrazione di Wide Ideas di leggere, installare, aggiornare e disinstallare le app Teams nei team a cui l'utente connesso può accedere.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| TeamsTab.Create | delegated |  consente all'interfaccia di amministrazione di Wide Ideas di creare schede in qualsiasi team Microsoft Teams, per conto dell'utente connesso. | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| User.Read | delegated | consente agli utenti di accedere all'interfaccia di amministrazione di Wide Ideas e consente all'app di leggere il profilo degli utenti connessi.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

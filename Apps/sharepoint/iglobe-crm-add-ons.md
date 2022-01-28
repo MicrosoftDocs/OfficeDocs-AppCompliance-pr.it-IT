@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per i Componenti aggiuntivi CRM iGlobe, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 155b795d1f09fd21631d94d512df544529c5a93e
-ms.sourcegitcommit: b52a796899ec9fb4a27778773c1a1d5fb0c33610
+ms.openlocfilehash: 14d3c900279dafd35df5c20b9336f6b115ae9709
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "61664237"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251812"
 ---
 # <a name="iglobe-crm-add-ons"></a>iGlobe CRM Add-ons
 
@@ -36,7 +36,7 @@ Informazioni fornite da iGlobe a Microsoft:
 | Nome società partner | iGlobe |
 | Sito Web aziendale | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Condizioni per l'uso dell'app | [https://iglobecrm.com/content/iglobe-crm-office-365-end-use...](https://iglobecrm.com/content/iglobe-crm-office-365-end-user-license-agreement) |
-| Funzionalità di base dell'app | iGlobe CRM Office 365 un SharePoint fornito ospitato. iGlobe CRM Office 365 è un componente aggiuntivo CRM semplice e facile da usare per le aziende con Office 365. Con Outlook, Excel, componenti aggiuntivi di Word e app Teams combinati con una perfetta integrazione con Office 365 Planner, SharePoint e Teams il componente aggiuntivo iGlobe SharePoint è una vera estensione Office 365. Il livello di autorizzazione iGlobe CRM è impostato in base all'integrazione tra tutti i servizi Microsoft 365 usati.  |
+| Funzionalità di base dell'app | iGlobe CRM Office 365 un SharePoint fornito ospitato. iGlobe CRM Office 365 è un componente aggiuntivo CRM semplice e facile da usare per le aziende con Office 365. Con Outlook, Excel, componenti aggiuntivi di Word e app Teams combinati con una perfetta integrazione con Office 365 Planner, SharePoint e Teams il componente aggiuntivo iGlobe SharePoint è una vera estensione Office 365. Il livello di autorizzazione iGlobe CRM è impostato in base all'integrazione tra tutti i servizi Microsoft 365 utilizzati.  |
 | Sede centrale dell'azienda | Danimarca |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
@@ -161,7 +161,23 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app archivia credenziali nel codice? |  |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | Sì |
 
->Questa applicazione non utilizza Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Contacts.ReadWrite | delegated |  Directory.AccessAsUser.All | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Files.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Mail.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Manage.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Tasks.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| User.Read | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

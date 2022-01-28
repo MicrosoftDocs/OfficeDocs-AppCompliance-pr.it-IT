@@ -6,14 +6,14 @@ ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per Luware Compliance Recording for Microsoft Teams, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Luware Compliance Recording for Microsoft Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b253e66f445af383eaf7401e128645f1ea9373be
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: ffbb28358351271e0028f0b9deec76e3ca6c6a8c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148905"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251316"
 ---
 # <a name="luware-compliance-recording-for-microsoft-teams"></a>Luware Compliance Recording for Microsoft Teams
 
@@ -58,7 +58,7 @@ Queste informazioni sono state fornite da Luware AG su come questa app raccoglie
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | ID oggetto Azure, UPN, indirizzo di posta elettronica, nome &amp; visualizzato, nome, cognome, posizione (facoltativo), reparto (facoltativo) |
+| Quali dati vengono archiviati nei database? | ID oggetto Azure, UPN, indirizzo &amp; di posta elettronica, nome visualizzato, nome, cognome, posizione (facoltativo), reparto (facoltativo) |
 | Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Svizzera |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite da Luware AG su come questa app raccoglie
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,19 +166,19 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calls.Initiate.All | application | Teams registrazione |
->| Calls.InitiateGroupCall.All | application | Teams registrazione |
->| Calls.JoinGroupCall.All | application | Teams registrazione |
->| Calls.JoinGroupCallasGuest.All | application | Teams registrazione |
->| Calls.AccessMedia.All | application | Teams registrazione |
->| OnlineMeetings.Read.All | application | Teams registrazione |
->| OnlineMeetings.ReadWrite.All | application | Teams registrazione |
->| Group.Read.All | application | Teams registrazione |
->| GroupMember.Read.All | application | Teams registrazione |
->| User.Read.All | application | Teams registrazione |
->| User.Read | delegated | Single Sign-on |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calls.AccessMedia.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.Initiate.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.InitiateGroupCall.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.JoinGroupCall.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.JoinGroupCallasGuest.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Group.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| GroupMember.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| OnlineMeetings.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| OnlineMeetings.ReadWrite.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| User.Read | delegated | Single Sign-on | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| User.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
