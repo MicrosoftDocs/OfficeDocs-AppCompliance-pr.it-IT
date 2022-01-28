@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per Quadra Thankz da Quadrasystems.net
+title: Application Information for Quadra Thankz by Quadrasystems.net
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/19/2022
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Quadra Thankz, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: de7a23b194cc8b947de890d7cf616a67a605213d
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 8109f919461d6c475f2be34a54950ade99ee027c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148881"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260462"
 ---
 # <a name="quadra-thankz"></a>Quadra Thankz
 
@@ -38,7 +38,7 @@ Informazioni fornite da Quadrasystems.net a Microsoft:
 | Nome società partner | Quadrasystems.net |
 | Sito Web aziendale | [https://www.quadrasystems.net](https://www.quadrasystems.net) |
 | Condizioni per l'uso dell'app | [https://www.quadrasystems.net/tou](https://www.quadrasystems.net/tou) |
-| Funzionalità di base dell'app | Grazie è la chiave per creare società più felici. Basato sull'interfaccia Microsoft Teams familiare, è un modo nuovo di connettersi con le persone con cui si lavora ogni giorno.  Graziez è uno strumento per aiutare le persone a riconoscersi in modo divertente.&#160; Offre funzionalità avanzate per gli utenti finali e le aziende, che consentono funzionalità quali classificazioni, budgeting e controlli. Graziez aiuta i dipendenti a sentirsi connessi, apprezzati e premiati. |
+| Funzionalità di base dell'app | Grazie è la chiave per creare società più felici. Basato sull'interfaccia Microsoft Teams familiare, è un modo nuovo di connettersi con le persone con cui si lavora ogni giorno.  Graziez è uno strumento per aiutare le persone a riconoscersi in modo divertente.&#160; Offre funzionalità avanzate per gli utenti finali e le aziende, che consentono funzionalità quali classifiche, budget e controlli. Graziez aiuta i dipendenti a sentirsi connessi, apprezzati e premiati. |
 | Sede centrale dell'azienda | India |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -166,9 +166,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | application | Per ottenere le informazioni sul manager di un utente  |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read.All | application | Per ottenere le informazioni sul manager di un utente  | [5d8eb1a9-2188-4292-86f6-f4964d49e8b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/5d8eb1a9-2188-4292-86f6-f4964d49e8b3) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

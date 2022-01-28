@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Cloud Backup per Microsoft Office 365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84b6ec36d05f39e307c3955d8eb9112d4a4712ac
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 6fc3b2c5bc0fb54b4075f71e21ef1c2d14ace0f7
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148504"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260942"
 ---
 # <a name="cloud-backup-for-microsoft-office-365"></a>Cloud Backup per Microsoft Office 365
 
@@ -35,7 +35,7 @@ Informazioni fornite da AvePoint Inc. a Microsoft:
 | Nome società partner | AvePoint Inc. |
 | Sito Web aziendale | [https://www.avepoint.com](https://www.avepoint.com) |
 | Condizioni per l'uso dell'app | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Funzionalità di base dell'app | AvePoint Cloud Backup è la soluzione di backup cloud-to-cloud&#8217;più completa per Microsoft 365. Con
+| Funzionalità di base dell'app | AvePoint Cloud Backup è la soluzione&#8217;di backup da cloud a cloud più completa per Microsoft 365. Con
 backup illimitati, automatizzati e archiviazione sicura in AvePoint&#8217;'archiviazione di Azure o nel cloud personale, è sufficiente decidere quanto ripristinare e quando. Il ripristino a livello di elemento su richiesta e granulare consente di accedere in qualsiasi momento a messaggi di posta elettronica, file, conversazioni, registrazioni, progetti, attività, gruppi, Teams, Planner e siti critici per l'azienda. | | Sede centrale aziendale | Stati Uniti d'America | | Pagina info app | | | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas | | Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -165,17 +165,17 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegated | Accedere e leggere il profilo utente |
->| Directory.Read.All | application | Leggere i dati della directory |
->| Files.Read.All | application | Leggere i file in tutte le raccolte siti |
->| Group.ReadWrite.All | application | Lettura e scrittura di tutti i gruppi |
->| Sites.ReadWrite.All | application | Lettura e scrittura di elementi in tutte le raccolte siti |
->| Reports.Read.All | application | Leggere tutti i report di utilizzo |
->| ChannelMember.ReadWrite.All | application | Aggiungere e rimuovere membri da tutti i canali |
->| ChannelMessage.Read.All | application | Leggere tutti i messaggi del canale |
->| ChannelSettings.ReadWrite.All | application | Leggere e scrivere i nomi, le descrizioni e le impostazioni di tutti i canali |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| ChannelMember.ReadWrite.All | application | Aggiungere e rimuovere membri da tutti i canali | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| ChannelMessage.Read.All | application | Leggere tutti i messaggi del canale | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| ChannelSettings.ReadWrite.All | application | Leggere e scrivere i nomi, le descrizioni e le impostazioni di tutti i canali | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Directory.Read.All | application | Leggere i dati della directory | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Files.Read.All | application | Leggere i file in tutte le raccolte siti | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.ReadWrite.All | application | Lettura e scrittura di tutti i gruppi | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Reports.Read.All | application | Leggere tutti i report di utilizzo | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.ReadWrite.All | application | Lettura e scrittura di elementi in tutte le raccolte siti | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.Read | delegated | Accedere e leggere il profilo utente | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -6,14 +6,14 @@ ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per EmailNotes per Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per EmailNotes per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 841b0ad019cda22d01b5990b8aabf80931ffe130
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a09c055a42f69c7174773835e8c83b99e83f0013
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148355"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62261537"
 ---
 # <a name="emailnotes-for-outlook"></a>EmailNotes per Outlook
 
@@ -36,7 +36,7 @@ Informazioni fornite da Standss (South Pacific) PTE Limited to Microsoft:
 | Nome società partner | Standss (Pacifico meridionale) PTE Limited |
 | Sito Web aziendale | [https://www.standss.com](https://www.standss.com) |
 | Condizioni per l'uso dell'app | [https://www.standss.com/sendguard_m365/terms_conditions.htm](https://www.standss.com/sendguard_m365/terms_conditions.htm) |
-| Funzionalità di base dell'app | SendGuard per Outlook M365 è uno strumento rischio e conformità per rilevare, richiedere, avvisare e proteggere gli utenti dall'invio di informazioni riservate, riservate o inappropriate ai destinatari indesiderati |
+| Funzionalità di base dell'app | SendGuard per Outlook M365 è uno strumento di rischio e conformità per rilevare, richiedere, avvisare e proteggere gli utenti dall'invio di informazioni riservate, riservate o inappropriate ai destinatari indesiderati |
 | Sede centrale dell'azienda | Figi |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -167,13 +167,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | delegated | Per leggere il contenuto dall'oggetto , dal corpo, dal contenuto degli allegati allegati alla convocazione di riunione  |
->| Mail.ReadWrite | delegated | Per leggere il contenuto dall'oggetto, dal corpo e dal contenuto degli allegati allegati all'elemento di posta  |
->| openid | delegated | Requisito per l'autorizzazione Single #A0 (SSO) |
->| profile | delegated | Requisito per l'autorizzazione Single #A0 (SSO) |
->| User.Read | delegated | Si tratta di leggere i dati degli utenti per verificare le informazioni sulle licenze per il proprio dominio/account utente |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegated | Per leggere il contenuto dall'oggetto , dal corpo, dal contenuto degli allegati allegati alla convocazione di riunione  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| Mail.ReadWrite | delegated | Per leggere il contenuto dall'oggetto, dal corpo e dal contenuto degli allegati allegati all'elemento di posta  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| User.Read | delegated | Si tratta di leggere i dati degli utenti per verificare le informazioni sulle licenze per il proprio dominio/account utente | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| openid | delegated | Requisito per l'autorizzazione Single #A0 (SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| profile | delegated | Requisito per l'autorizzazione Single #A0 (SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

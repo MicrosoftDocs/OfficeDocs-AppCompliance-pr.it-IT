@@ -6,14 +6,14 @@ ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per C.AI Adoption Bot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per C.AI Adoption Bot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f37bafaac714c26c948b4f2264c4d139f5863bf5
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: 6c7c8d1b083cab351889117aa58316332161f466
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61785603"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62261352"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -37,7 +37,7 @@ Informazioni fornite da contexxt.ai a Microsoft:
 | Nome società partner | contexxt.ai |
 | Sito Web aziendale | [https://contexxt.ai](https://contexxt.ai) |
 | Condizioni per l'uso dell'app | [https://contexxt.ai/terms-of-use](https://contexxt.ai/terms-of-use) |
-| Funzionalità di base dell'app | Quando si usa l'intera famiglia di prodotti di adozione, incl. &quot; Personal Coaching Booster , l'analisi del motore di analisi (C.AI Adoption Analytics) tramite i dati di utilizzo anonimi dell'API Graph da Exchange &quot; &amp; Teams. In base a questi dati, l'algoritmo bot (C.AI Adoption Bot) rileva situazioni di apprendimento specifiche invia suggerimenti rapidi &amp; all'utente. Ad esempio, se un utente non ha mai aggiunto un soggetto a un post di Teams, il bot presuppone che l'utente non sappia come farlo e invii materiali di apprendimento personalizzati. Senza Analytics, sarà solo un &amp; bot di domande e risposte. |
+| Funzionalità di base dell'app | Quando si usa l'intera famiglia di prodotti di adozione, incl. &quot; Personal Coaching Booster&quot;, l'analisi del motore di analisi (C.AI Adoption Analytics) tramite i dati di utilizzo anonimi &amp; dell'API Graph da Exchange Teams. In base a questi dati, l'algoritmo bot (C.AI Adoption Bot) &amp; rileva situazioni di apprendimento specifiche invia suggerimenti rapidi all'utente. Ad esempio, se un utente non ha mai aggiunto un soggetto a un post di Teams, il bot presuppone che l'utente non sappia come farlo e invii materiali di apprendimento personalizzati. Senza Analytics, sarà solo un bot QA&amp;. |
 | Sede centrale dell'azienda | Germania |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
@@ -153,7 +153,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | true |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -161,7 +161,17 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app archivia credenziali nel codice? |  |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |
 
->Questa applicazione non utilizza Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | application | Disponibilità dell'utente in grado di inviare suggerimenti al momento giusto e non durante i tempi di messa a fuoco, ad esempio | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| ChannelMessage.Read.All | application | Microsoft Teams metadati del canale, ad esempio Privato o meno o la quantità di conversazioni per canale per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Chat.Read.All | application | Microsoft Teams metadati della chat, ad esempio se un messaggio è stato apprezzato o quante chat di gruppo e 1:1 esistono per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Directory.Read.All | application | ID oggetto utente per poter inviare suggerimenti all'utente specifico in un secondo momento. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Group.Read.All | application | Microsoft Teams metadati, ad esempio la quantità di Teams e canali per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Mail.Read | application | Metadati di Microsoft Exchange, ad esempio la quantità di messaggi di posta elettronica e di gruppo e messaggi di posta elettronica 1:1 per analizzare l'utilizzo di Exchange (rispetto a Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| User.Read.All | application | Microsoft Teams metadati di chat e conversazioni, ad esempio se un utente è stato menzionato per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
