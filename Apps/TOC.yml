@@ -16,9 +16,9 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Certificazione Microsoft 365 completa
           href: docs/certification.md
-        - name: Microsoft 365 per l'invio della certificazione
+        - name: Microsoft 365 di invio della certificazione
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel App
+    - name: Microsoft Excel app
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator per i partner B2B
@@ -119,7 +119,7 @@
           href: outlook/quantum-workplace.md
         - name: Salesforce
           href: outlook/salesforcecom-salesforce.md
-        - name: Strategia-AI per Outlook
+        - name: Strategy-AI per Outlook
           href: outlook/chinchilla-software-limited-strategy-ai-for-outlook.md
         - name: XQ Secure Email
           href: outlook/xq-message-secure-email.md
@@ -164,7 +164,7 @@
           href: sharepoint/beyond-technologies-bid-management-system.md
         - name: Bizagi Webparts
           href: sharepoint/bizagi-team-webparts.md
-        - name: Connettore FormMachines per SharePoint
+        - name: FormMachines Connector per SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: HelloSign per SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -205,6 +205,8 @@
           href: teams/adobe-systems-inc-sign.md
         - name: Agenda Boss
           href: teams/appfluence-inc-agenda-boss.md
+        - name: Mirato
+          href: teams/aimful.md
         - name: Alloy Self-Service Assistant
           href: teams/alloy-software-self-service-assistant.md
         - name: Alvao Service Desk
@@ -1021,7 +1023,7 @@
           href: teams/zesavi-gmbh.md
         - name: Zignals
           href: teams/alight-zignals.md
-    - name: Microsoft Word App
+    - name: Microsoft Word app
       href: word/word-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
@@ -1036,7 +1038,7 @@
           href: word/krevealllc-crosscheck.md
         - name: Excel-to-Word Document Automation
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Componente aggiuntivo Office Cloud Fabasoft
+        - name: Componente aggiuntivo per Office Fabasoft Cloud
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
