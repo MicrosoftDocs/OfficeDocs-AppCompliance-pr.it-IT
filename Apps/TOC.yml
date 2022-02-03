@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Certificazione Microsoft 365 completa
           href: docs/certification.md
-        - name: Microsoft 365 di invio della certificazione
+        - name: Microsoft 365 per l'invio della certificazione
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel app
       href: excel/excel-apps.md
@@ -25,7 +25,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel da documento a Word
+        - name: Excel-to-Word Document Automation
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
@@ -119,7 +119,7 @@
           href: outlook/quantum-workplace.md
         - name: Salesforce
           href: outlook/salesforcecom-salesforce.md
-        - name: Strategy-AI per Outlook
+        - name: Strategia-AI per Outlook
           href: outlook/chinchilla-software-limited-strategy-ai-for-outlook.md
         - name: XQ Secure Email
           href: outlook/xq-message-secure-email.md
@@ -128,7 +128,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel da documento a Word
+        - name: Excel-to-Word Document Automation
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -148,7 +148,7 @@
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project App
+    - name: Microsoft Project app
       href: project/project-apps.md
       items:
         - name: officeatwork | Selezione modelli per Office
@@ -188,7 +188,7 @@
           href: sharepoint/accuracy-software-inc-taxonomy.md
         - name: Firma Zynyo per SharePoint Online
           href: sharepoint/zynyo-sign-for-sharepoint-online.md
-    - name: Microsoft Teams App
+    - name: Microsoft Teams app
       href: teams/teams-apps.md
       items:
         - name: 10xGoals
@@ -205,7 +205,7 @@
           href: teams/adobe-systems-inc-sign.md
         - name: Agenda Boss
           href: teams/appfluence-inc-agenda-boss.md
-        - name: Mirato
+        - name: Aimful
           href: teams/aimful.md
         - name: Alloy Self-Service Assistant
           href: teams/alloy-software-self-service-assistant.md
@@ -503,8 +503,8 @@
           href: teams/heedify.md
         - name: HelloTeam
           href: teams/helloteam-inc.md
-        - name: HeyTaco!
-          href: teams/heytaco!.md
+        - name: HeyTaco
+          href: teams/heytaco-llc.md
         - name: hi Digital Coach
           href: teams/digital-attitude-srl-hi-coach.md
         - name: Hi5
@@ -561,8 +561,8 @@
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
-        - name: Riunioni multilingue KUDO
-          href: teams/kudo-inc-multilingual-meetings.md
+        - name: KUDO
+          href: teams/kudo-inc.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
         - name: Kunjani
@@ -599,6 +599,8 @@
           href: teams/media-interactiva-solutions-measureup.md
         - name: Mediatheque+
           href: teams/cemeq-inc-mediathequeplus.md
+        - name: Meetgeek
+          href: teams/aivision-products-srl-meetgeek.md
         - name: Mentimeter
           href: teams/mentimeter.md
         - name: Message Reminder

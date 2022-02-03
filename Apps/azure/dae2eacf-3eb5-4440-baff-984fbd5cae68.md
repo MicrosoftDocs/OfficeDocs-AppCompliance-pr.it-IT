@@ -2,17 +2,17 @@
 title: Informazioni sull'ID app di Azure per dae2eacf-3eb5-4440-baff-984fbd5cae68
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/01/2022
+ms.date: 02/02/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per dae2eacf-3eb5-4440-baff-984fbd5cae68.
-ms.openlocfilehash: fa16c6ef4434a2709cba80365d2bee13f99d960b
-ms.sourcegitcommit: edd55f34c004f0b5c7e4418b92b8ba325b8ab336
+ms.openlocfilehash: 55fe6625346ed2504bbf711fe06b188f1eae46c5
+ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62314931"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62337606"
 ---
 # <a name="azure-app-id-dae2eacf-3eb5-4440-baff-984fbd5cae68"></a>ID app azure: dae2eacf-3eb5-4440-baff-984fbd5cae68
 
@@ -26,6 +26,6 @@ ms.locfileid: "62314931"
 | [officeatwork - Selezione modelli per Office](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA104380050) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA104380050](https://appsource.microsoft.com/product/office/WA104380050) |
 | [officeatwork - Selezione modelli per SharePoint](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200001923) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA200001923](https://appsource.microsoft.com/product/office/WA200001923) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato conformità app
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato di conformità dell'app
 - Publisher Attestaton Status: Completed
 - Microsoft 365: Approvata (25/01/2022)
