@@ -2,18 +2,12 @@
 title: Informazioni sull'applicazione per TeamSticker di Communitio di Communitio Corporation
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/27/2022
+ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per TeamSticker by Communitio, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: 'Tutte le informazioni di sicurezza e conformità disponibili per TeamSticker by Communitio, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 252d783969b65bce7ef3b1754b9b7439c1f19764
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
-ms.translationtype: MT
-ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253842"
 ---
 # <a name="teamsticker-by-communitio"></a>TeamSticker by Communitio
 
@@ -36,8 +30,8 @@ Informazioni fornite da Communitio Corporation a Microsoft:
 | ID | WA200000894 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Communitio Corporation |
-| Sito Web aziendale | [https://www.teamsuite.biz](https://www.teamsuite.biz) |
-| Condizioni per l'uso dell'app | [https://www.teamsuite.biz/terms/](https://www.teamsuite.biz/terms/) |
+| Sito Web aziendale | [https://communitio.jp](https://communitio.jp) |
+| Condizioni per l'uso dell'app | [https://teamsuite.biz/terms](https://teamsuite.biz/terms) |
 | Funzionalità di base dell'app | Si tratta di una carta di ringraziamento digitale che può essere inviata dalla conversazione. |
 | Sede centrale dell'azienda | Giappone |
 | Pagina delle informazioni dell'app | |
@@ -168,7 +162,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| TeamMember.Read.All | application |  Per selezionare la persona a cui si desidera inviare la carta. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
 >| TeamMember.Read.All | delegated |  Per selezionare la persona a cui si desidera inviare la carta. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
