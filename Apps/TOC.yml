@@ -25,7 +25,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel da documento a Word
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
@@ -128,7 +128,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel-to-Word Document Automation
+        - name: Excel da documento a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -457,6 +457,8 @@
           href: teams/storage-made-easy-file-fabric.md
         - name: Fireflies AI
           href: teams/firefliesai-fireflies-ai.md
+        - name: Assistente firewall
+          href: teams/dewmaker-design-inc-firewall-assistant.md
         - name: FireWatch
           href: teams/infographics-uk-ltd-firewatch.md
         - name: FloQast
@@ -1280,6 +1282,8 @@
           href: azure/3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c.md
         - name: 3e701664-cc46-49e4-b356-1a7ac6500998
           href: azure/3e701664-cc46-49e4-b356-1a7ac6500998.md
+        - name: 3e745135-a761-48a7-ab54-5c0277b2e642
+          href: azure/3e745135-a761-48a7-ab54-5c0277b2e642.md
         - name: 3f1a3775-c192-4e8c-ae48-d70d144a46c2
           href: azure/3f1a3775-c192-4e8c-ae48-d70d144a46c2.md
         - name: 3f2fa737-e376-4c4d-a49d-b8eb08ca7e8d
