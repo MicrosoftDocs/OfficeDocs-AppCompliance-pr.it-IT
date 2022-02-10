@@ -25,7 +25,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel da documento a Word
+        - name: Excel-to-Word Document Automation
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
@@ -128,7 +128,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel da documento a Word
+        - name: Excel-to-Word Document Automation
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -148,7 +148,7 @@
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project app
+    - name: Microsoft Project App
       href: project/project-apps.md
       items:
         - name: officeatwork | Selezione modelli per Office
@@ -329,6 +329,8 @@
           href: teams/atwork-gmbh-cloud-hub.md
         - name: CloudLabs
           href: teams/spektra-systems-llc-cloudlabs.md
+        - name: Clypp
+          href: teams/zesavi-gmbh-clypp.md
         - name: COCO
           href: teams/hexaware-technologies-ltd-coco.md
         - name: CodeStream
@@ -617,6 +619,8 @@
           href: teams/message-reminder.md
         - name: MetaVisitor
           href: teams/wafer-systems-metavisitor.md
+        - name: MetaWorkspace
+          href: teams/wafer-systems-metaworkspace.md
         - name: MGR360
           href: teams/mgr360.md
         - name: Mia
@@ -803,6 +807,8 @@
           href: teams/sensei-labs-inc-conductor.md
         - name: Senso
           href: teams/senso.md
+        - name: Thread condiviso da WNI
+          href: teams/wni-shared-thread-by.md
         - name: SHL
           href: teams/shl.md
         - name: Shortlinks
@@ -897,6 +903,8 @@
           href: teams/ityss-tamplo.md
         - name: Taskworld
           href: teams/taskworld.md
+        - name: Team Central
+          href: teams/atlassian-inc-team-central.md
         - name: Team Tracker
           href: teams/team-tracker-ltd.md
         - name: Teamble
@@ -1035,8 +1043,6 @@
           href: teams/akmii-yeeflow.md
         - name: yuccaHR
           href: teams/yucca-technologies-gmbh-yuccahr.md
-        - name: Zesavi
-          href: teams/zesavi-gmbh.md
         - name: Zignals
           href: teams/alight-zignals.md
     - name: Microsoft Word app
@@ -1052,7 +1058,7 @@
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
-        - name: Excel da documento a Word
+        - name: Excel automazione documenti da Excel word a Word
           href: word/analysisplace-excel-to-word-document-automation.md
         - name: Componente aggiuntivo Office Cloud Fabasoft
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
@@ -1072,7 +1078,7 @@
           href: word/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | Selezione contenuto per Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | Designer per Office
+        - name: officeatwork | Progettazione per Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
         - name: officeatwork | Selezione immagini per Office
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
