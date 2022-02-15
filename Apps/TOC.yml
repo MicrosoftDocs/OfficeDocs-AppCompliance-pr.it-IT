@@ -25,7 +25,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel-to-Word Document Automation
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
@@ -128,7 +128,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel-to-Word Document Automation
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -251,6 +251,8 @@
           href: teams/auditboard.md
         - name: Aula Digital
           href: teams/leya-sa-aula-digital.md
+        - name: Flussi di lavoro autopilot
+          href: teams/autopilot-workflow-solutions-workflows.md
         - name: Assistente IT di Avaamo
           href: teams/avaamo-it-assistant.md
         - name: Axelleron
@@ -387,7 +389,7 @@
           href: teams/degreed.md
         - name: DELTAoverC
           href: teams/deltaoverc.md
-        - name: Prenotazioni da tavolo
+        - name: Desk reservations
           href: teams/tns-consulting-aps-desk-reservations.md
         - name: Desk365
           href: teams/kani-technologies-inc-desk365.md
@@ -697,6 +699,8 @@
           href: teams/officespace-software.md
         - name: OfficeSuite
           href: teams/windstream-officesuite.md
+        - name: OfficeTogether
+          href: teams/officetogether-inc.md
         - name: Officevibe
           href: teams/officevibe.md
         - name: OLIVE VLE
