@@ -25,7 +25,7 @@
           href: excel/canon-emea-service-cost-calculator-for-b2b-partners.md
         - name: CloudExtend Analytics for NetSuite
           href: excel/celigo-cloudextend-analytics-for-netsuite.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel-to-Word Document Automation
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
@@ -128,7 +128,7 @@
       items:
         - name: Adobe Sign per Word e PowerPoint
           href: powerpoint/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel-to-Word Document Automation
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
         - name: harmon.ie per Office
           href: powerpoint/harmonie-corporation-for-office.md
@@ -529,6 +529,8 @@
           href: teams/highside-inc.md
         - name: Highspot
           href: teams/highspot.md
+        - name: HitHorizons
+          href: teams/finstat-sro-hithorizons.md
         - name: Alveare
           href: teams/hive.md
         - name: HubSite 365
@@ -1070,7 +1072,7 @@
           href: word/krevealllc-crosscheck.md
         - name: Excel automazione documenti da Excel word a Word
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Componente aggiuntivo Office Cloud Fabasoft
+        - name: Componente aggiuntivo per Office Cloud Fabasoft
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
