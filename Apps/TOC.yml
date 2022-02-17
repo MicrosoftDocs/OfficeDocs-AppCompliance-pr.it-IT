@@ -57,7 +57,7 @@
           href: excel/supermetrics.md
         - name: Dati file XBRL
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote app
+    - name: Microsoft OneNote App
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Selezione contenuto per Office
@@ -148,7 +148,7 @@
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project app
+    - name: Microsoft Project App
       href: project/project-apps.md
       items:
         - name: officeatwork | Selezione modelli per Office
@@ -164,7 +164,7 @@
           href: sharepoint/beyond-technologies-bid-management-system.md
         - name: Bizagi Webparts
           href: sharepoint/bizagi-team-webparts.md
-        - name: Connettore FormMachines per SharePoint
+        - name: FormMachines Connector per SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: HelloSign per SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -251,7 +251,7 @@
           href: teams/auditboard.md
         - name: Aula Digital
           href: teams/leya-sa-aula-digital.md
-        - name: Flussi di lavoro autopilot
+        - name: Autopilot Workflows
           href: teams/autopilot-workflow-solutions-workflows.md
         - name: Assistente IT di Avaamo
           href: teams/avaamo-it-assistant.md
@@ -395,6 +395,8 @@
           href: teams/kani-technologies-inc-desk365.md
         - name: Digiplein
           href: teams/educatieve-uitgeversgroep-bv-digiplein.md
+        - name: Diligent Boards
+          href: teams/diligent-boards.md
         - name: ' Pro liste di distribuzione '
           href: teams/witivio-distribution-lists-pro.md
         - name: do!book CB
@@ -896,7 +898,7 @@
         - name: SurveySparrow
           href: teams/surveysparrow-inc.md
         - name: Svava per le riunioni
-          href: teams/svava-ab-for-meetings.md
+          href: teams/svava-for-meetings.md
         - name: SwiftAssess
           href: teams/gamalearn-swiftassess.md
         - name: Switchvox
@@ -949,6 +951,8 @@
           href: teams/ringcentral-inc-telus-business-connect.md
         - name: Template Chooser
           href: teams/officeatwork-template-chooser.md
+        - name: Tendfor
+          href: teams/tendfor.md
         - name: Testo
           href: teams/approved-contact-text.md
         - name: The Captivate Hub
@@ -1020,7 +1024,7 @@
         - name: Wellness Coach
           href: teams/meditationlive-inc-wellness-coach.md
         - name: Wide Ideas
-          href: teams/wide-ideas.md
+          href: teams/idea2innovation-wide-ideas.md
         - name: Wired2Perform
           href: teams/wired2perform.md
         - name: Wisembly
@@ -1057,7 +1061,7 @@
           href: teams/yucca-technologies-gmbh-yuccahr.md
         - name: Zignals
           href: teams/alight-zignals.md
-    - name: Microsoft Word app
+    - name: Microsoft Word App
       href: word/word-apps.md
       items:
         - name: Adobe Sign per Word e PowerPoint
@@ -1070,9 +1074,9 @@
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
-        - name: Excel automazione documenti da Excel word a Word
+        - name: Excel documenti da Excel word a Word
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Componente aggiuntivo per Office Cloud Fabasoft
+        - name: Componente aggiuntivo per Office Fabasoft Cloud
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie per Office
           href: word/harmonie-corporation-for-office.md
@@ -1121,6 +1125,8 @@
           href: saas/officeatwork-admin-center.md
         - name: Buzzeasy Contact Center per Teams
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
+        - name: CallCabinet Atmos Compliance Recording and Analytics
+          href: saas/callcabinet-corporation-atmos-compliance-recording-and-analytics.md
         - name: CC4Teams
           href: saas/cc4all-cc4teams.md
         - name: Classroom.cloud
@@ -1240,6 +1246,8 @@
           href: azure/15439749-b811-4e89-b777-4fe6ef247801.md
         - name: 170d42a4-4ec0-4f51-bef0-693c589fccfc
           href: azure/170d42a4-4ec0-4f51-bef0-693c589fccfc.md
+        - name: 17bd2add-67cb-4ffe-b69b-10b130558e89
+          href: azure/17bd2add-67cb-4ffe-b69b-10b130558e89.md
         - name: 192ba193-b68c-464c-a920-7eaa93b59a12
           href: azure/192ba193-b68c-464c-a920-7eaa93b59a12.md
         - name: 1ac9e5c6-4850-4864-96c5-b91e4512334e

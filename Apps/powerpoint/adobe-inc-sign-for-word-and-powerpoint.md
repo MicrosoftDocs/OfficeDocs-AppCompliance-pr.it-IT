@@ -1,23 +1,24 @@
 ---
-title: Application Information for Adobe Sign for Word and PowerPoint by Adobe Inc.
+title: Informazioni sull'applicazione per Adobe Sign per Word e PowerPoint da Adobe Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 10/20/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Adobe Sign per Word e PowerPoint, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 36a43fe0fe7b9d00275cb8f403d8acb396cb291a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 282dc7e773129f16a642b22865cd3a3849411947
+ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250312"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62876692"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign per Word e PowerPoint
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: October 15, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104381155" target="_blank">Visualizzazione in AppSource</a>
@@ -36,7 +37,7 @@ Informazioni fornite da Adobe Inc. a Microsoft:
 | Nome società partner | Adobe Inc. |
 | Sito Web aziendale | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | Condizioni per l'uso dell'app | [https://www.adobe.com/legal/licenses-terms.html](https://www.adobe.com/legal/licenses-terms.html) |
-| Funzionalità di base dell'app | Mantenere veloci i flussi di lavoro per la firma dei documenti quando si aggiunge Adobe Sign per Office. Ora, proprio nelle app di Office come Word e PowerPoint, puoi firmare i documenti e inviarli per le firme elettroniche legalmente vincolanti e le approvazioni &#8212; tutto con la soluzione di firma elettronica preferita di Microsoft. |
+| Funzionalità di base dell'app | Mantenere veloci i flussi di lavoro per la firma dei documenti quando si aggiunge Adobe Sign per Office. Ora, proprio nelle app di Office come Word e PowerPoint, puoi firmare i documenti, inviarli per le firme elettroniche legalmente vincolanti e le approvazioni &#8212; tutto con la soluzione di firma elettronica preferita di Microsoft. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Ibrido |
@@ -72,7 +73,7 @@ Queste informazioni sono state fornite da Adobe Inc. Su come questa app raccogli
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -155,7 +156,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | false |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -165,7 +166,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Mail.ReadWrite | delegated | Per popolare il documento allegato, i messaggi di posta elettronica del mittente e del destinatario e il contenuto del messaggio dai messaggi di posta elettronica a Adobe Sign da inviare per la firma. Ciò consente di risparmiare tempo all'utente per digitare di nuovo i campi in Adobe Sign. Dopo la firma di un contratto, componi automaticamente un nuovo messaggio di posta elettronica per l'utente per inviare un messaggio di posta elettronica per informare i destinatari che la transazione è stata eseguita. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
 >| People.Read | delegated | Per riempire automaticamente l'indirizzo di posta elettronica nell'esperienza &quot;&quot; invia per la firma, digitando alcune lettere iniziali, non è necessario che gli utenti di digitare l'intero messaggio di posta elettronica. | [a9b0c190-bafb-49ca-a61a-dab99cf2c43b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9b0c190-bafb-49ca-a61a-dab99cf2c43b) |
