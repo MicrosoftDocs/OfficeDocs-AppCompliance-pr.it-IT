@@ -2,17 +2,17 @@
 title: Informazioni sull'ID app di Azure per affadfb6-f17b-428f-97f9-9aae3b6175bc
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/16/2022
+ms.date: 02/17/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per affadfb6-f17b-428f-97f9-9aae3b6175bc.
-ms.openlocfilehash: 3fa867dcfaab94b3de21c69b5dce644b7e1dea3f
-ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
+ms.openlocfilehash: 2b734b51c76b1d39820fb83c30a57fab2e7a6397
+ms.sourcegitcommit: 8af0be0295356438dbaa1dad225cfb390785b15c
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 02/17/2022
-ms.locfileid: "62877707"
+ms.locfileid: "62889481"
 ---
 # <a name="azure-app-id-affadfb6-f17b-428f-97f9-9aae3b6175bc"></a>ID app azure: affadfb6-f17b-428f-97f9-9aae3b6175bc
 
@@ -26,4 +26,4 @@ ms.locfileid: "62877707"
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato conformità app
 - Publisher Attestaton Status: Completed
-- Microsoft 365: Approvata (23/06/2021)
+- Microsoft 365 certificazione: approvata (23/06/2021)
