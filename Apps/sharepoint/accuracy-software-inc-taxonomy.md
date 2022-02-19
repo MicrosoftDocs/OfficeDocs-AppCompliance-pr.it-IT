@@ -2,24 +2,24 @@
 title: Informazioni sull'applicazione per la tassonomia di Accuracy Software Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/04/2022
+ms.date: 02/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per la tassonomia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e6ca7066e3ceaf975f3928885ea6cb5533c5e518
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 1106b9e00a94d133c167b04bb31e4bc71c060c73
+ms.sourcegitcommit: 0465c6dd3a2c42fb1fd785548654d5b7f2601adc
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146563"
+ms.lasthandoff: 02/19/2022
+ms.locfileid: "62909068"
 ---
 # <a name="taxonomy"></a>Tassonomia
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 26, 2021</p>
+<p>Last updated by the developer on: February 18, 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003006" target="_blank">Visualizzazione in AppSource</a>
 
@@ -40,7 +40,7 @@ Informazioni fornite da Accuracy Software Inc. a Microsoft:
 | Funzionalità di base dell'app | La tassonomia offre un modo efficace per gestire il piano di classificazione dei file, consentendo la collaborazione dei professionisti della messaggistica istantanea con le diverse parti interessate per creare, rivedere e pubblicare il piano file nell'intera organizzazione. Tassonomia Consente inoltre di generare l'esportazione di etichette di conservazione M365 che è possibile importare nel Centro conformità Microsoft e di esportare il piano di file in un formato di set di termini che è possibile importare nell'archivio termini di SharePoint. |
 | Sede centrale dell'azienda | Canada |
 | Pagina delle informazioni dell'app | |
-| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Tenant SharePoint client |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -58,7 +58,7 @@ Queste informazioni sono state fornite da Accuracy Software Inc. Su come questa 
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Dati di classificazione del piano di file |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Canada |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | No |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Non conservato |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | No |
@@ -87,7 +87,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? | No |
 | Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? | No |
 | Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? | No |
-| Autenticazione a più fattori abilitata per: |  |
+| Autenticazione a più fattori abilitata per: | NoneOfTheAbove |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | No |
 | Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? | N/D |
 | La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? | Sì |
