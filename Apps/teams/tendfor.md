@@ -5,20 +5,19 @@ author: elenamalova
 ms.date: 02/16/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Tendfor, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ff5ab1636a1b5b0dcec4725e6090f813cfbfcf4c
-ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
+ms.openlocfilehash: baf74e60015e41621c070103154d92432d7abdb9
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62877875"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63080610"
 ---
 # <a name="tendfor"></a>Tendfor
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Last updated by the developer on: February 15, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/212fcd92-bc06-4746-85c4-f7b5d39579ba" target="_blank">Visualizzazione in Teams store</a>
@@ -158,7 +157,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | No |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | Sì |

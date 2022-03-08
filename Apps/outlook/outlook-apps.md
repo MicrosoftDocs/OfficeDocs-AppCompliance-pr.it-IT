@@ -2,17 +2,17 @@
 title: Sicurezza e conformità di Microsoft Outlook Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/27/2022
+ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app Outlook Microsoft.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutte le app di Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 86006b608edc098b9c7e3abbcf49bfde1f89863f
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5f6ff668bfcedb253042f02b965eb1eb75b7209b
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251342"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63078600"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft Outlook Apps
 
@@ -20,14 +20,13 @@ Microsoft collabora con i nostri Microsoft 365 partner per sviluppatori per forn
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Adobe Sign Add-In per Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** |  |
+| [Adobe Sign Add-In per Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Video di Altru](./altru-videos.md) | Altru | **✓** |  |
 | [Calendari contatti approvati](./approved-contact-calendars.md) | Contatto approvato | **✓** |  |
 | [CI-Signature](./ci-solution-gmbh-signature.md) | soluzione ci GmbH | **✓** |  |
 | [CodeTwo per Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [Pendolarità](./commuty.md) | Pendolarità | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
-| [harmon.ie per Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  |
 | [Firme impression per Outlook](./impression-signatures-for-outlook.md) | Firme impression | **✓** |  |
 | [Componente aggiuntivo iPlanner Office 365 Planner per Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

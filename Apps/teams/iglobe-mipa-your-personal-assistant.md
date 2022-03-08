@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per MIPA - Assistente personale, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 981325d45feac6bcea309e74c284f960c5786d42
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 8961677ca8b9906703fd4787fcbd1ded1bfb1784
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250052"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63076850"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA - Your Personal Assistant
 
@@ -186,43 +186,6 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 >| profile | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [e854ea05-68ab-4204-babe-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 
 >Questa applicazione non dispone di API aggiuntive.
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Informazioni sulla certificazione
-
-| **Controllo** | **Microsoft 365 risultato della certificazione** |
-|:------------|:---------------------------------------|
-| [**SICUREZZA DELL'APPLICAZIONE**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/D** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test di penetrazione | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valutazione delle vulnerabilità (DAST/SAST/Test di penetrazione) | N/D |
-| [**SICUREZZA OPERATIVA**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/D** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione antimalware - Anti-Virus | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione antimalware - Controllo applicazioni | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Classificazione dei rischi | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Applicazione di patch | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisi delle vulnerabilità | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall (o tecnologie equivalenti) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall applicazione Web (WAF) (facoltativo) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change Control | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sviluppo/distribuzione di software sicuro | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione account | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rilevamento e prevenzione delle intrusioni (facoltativo) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrazione eventi di sicurezza | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisione (dati di registrazione) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avviso eventi di sicurezza | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione dei rischi per la sicurezza delle informazioni | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Risposta agli eventi imprevisti | N/D |
-| [**PRIVACY DI SICUREZZA PER LA GESTIONE DEI &amp; DATI**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/D** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in transito | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in pausa | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservazione e eliminazione dei dati | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione accesso ai dati | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | N/D |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

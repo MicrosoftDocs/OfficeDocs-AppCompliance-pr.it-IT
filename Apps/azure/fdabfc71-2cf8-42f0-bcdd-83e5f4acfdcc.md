@@ -2,17 +2,17 @@
 title: Azure App ID Informazioni per fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/18/2022
+ms.date: 03/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.
-ms.openlocfilehash: c471a51d395b0e99d81a2e66c1d1e8986e3f97b9
-ms.sourcegitcommit: 777bb0494027ce5382c2d0cb42415910c112b56e
+ms.openlocfilehash: 4b4ca07f52f72c5edd427e1caf43b62ee0b8ef58
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62906136"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63079970"
 ---
 # <a name="azure-app-id-fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc"></a>ID app azure: fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc
 

@@ -6,14 +6,14 @@ ms.date: 01/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per O2S - Office2SharePoint, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: df1f13622c1eb320175bb27e59ad7be5d704f6a0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+description: Tutte le informazioni di sicurezza e conformità disponibili per O2S - Office2SharePoint, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 16ad82f70ea0765da6910cc5073bb4dbdfc1cd00
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251112"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63075510"
 ---
 # <a name="o2s---office2sharepoint"></a>O2S - Office2SharePoint
 
@@ -37,7 +37,7 @@ Informazioni fornite da iGlobe a Microsoft:
 | Nome società partner | iGlobe |
 | Sito Web aziendale | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Condizioni per l'uso dell'app | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-office2sharepoint) |
-| Funzionalità di base dell'app | Semplificare il lavoro quotidiano offrendo un'esperienza utente Microsoft 365 integrata tra Microsoft Teams, SharePoint, Outlook, Office e OneDrive.  |
+| Funzionalità di base dell'app | Semplificare il lavoro quotidiano offrendo un'esperienza Microsoft 365 utente integrata tra Microsoft Teams, SharePoint, Outlook, Office e OneDrive.  |
 | Sede centrale dell'azienda | Danimarca |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -71,7 +71,7 @@ Queste informazioni sono state fornite da iGlobe su come questa app raccoglie e 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -155,7 +155,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | Sì |
@@ -176,46 +176,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 >| Sites.Manage.All | delegated | Consente all'applicazione di creare o eliminare raccolte documenti ed elenchi in tutte le raccolte siti per conto dell'utente connesso. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 >| Sites.Read.All | delegated | Verificare l'autorizzazione e ottenere i siti e gli elenchi. Crea cartelle, ottieni i file e salva i file. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 >| Sites.ReadWrite.All | delegated | per l'autorizzazione e per ottenere i siti e gli elenchi. Crea cartelle, ottieni i file e salva i file. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
->| User.Read | delegated | Per ottenere gli utenti SharePoint siti, OneDrive e siti di gruppo. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| User.Read | delegated | Per ottenere gli utenti SharePoint siti, OneDrive e gruppi. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 
 >Questa applicazione non dispone di API aggiuntive.
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Informazioni sulla certificazione
-
-| **Controllo** | **Microsoft 365 risultato della certificazione** |
-|:------------|:---------------------------------------|
-| [**SICUREZZA DELL'APPLICAZIONE**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/D** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test di penetrazione | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valutazione delle vulnerabilità (DAST/SAST/Test di penetrazione) | N/D |
-| [**SICUREZZA OPERATIVA**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/D** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione antimalware - Anti-Virus | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione antimalware - Controllo applicazioni | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Classificazione dei rischi | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Applicazione di patch | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisi delle vulnerabilità | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall (o tecnologie equivalenti) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall applicazione Web (WAF) (facoltativo) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change Control | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sviluppo/distribuzione di software sicuro | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione account | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rilevamento e prevenzione delle intrusioni (facoltativo) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrazione eventi di sicurezza | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisione (dati di registrazione) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avviso eventi di sicurezza | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione dei rischi per la sicurezza delle informazioni | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Risposta agli eventi imprevisti | N/D |
-| [**PRIVACY DI SICUREZZA PER LA GESTIONE DEI &amp; DATI**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/D** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in transito | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in pausa | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservazione e eliminazione dei dati | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione accesso ai dati | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | N/D |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

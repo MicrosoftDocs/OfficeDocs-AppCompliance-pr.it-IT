@@ -6,14 +6,14 @@ ms.date: 08/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni di sicurezza e conformità disponibili per Office2SharePoint per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 6efaedad38ff32528d4c8ed4f86c0408d9b1ba82
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+description: Tutte le informazioni di sicurezza e conformità disponibili per Office2SharePoint per Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: e6290d01f99f2ff446e47349e8f74392d7e3f9ce
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260982"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63076900"
 ---
 # <a name="office2sharepoint-for-outlook"></a>Office2SharePoint per Outlook
 
@@ -36,7 +36,7 @@ Informazioni fornite da iGlobe a Microsoft:
 | Nome società partner | iGlobe |
 | Sito Web aziendale | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Condizioni per l'uso dell'app | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-office2sharepoint) |
-| Funzionalità di base dell'app | Office2SharePoint- Lavorare con SharePoint e Teams da Outlook e Office nel modo più semplice. L'interruzione delle barriere nelle comunicazioni tra i membri del team rende i documenti e gli allegati di posta elettronica accessibili a tutti &amp; SharePoint Teams. Salva i messaggi di posta elettronica e gli allegati di posta elettronica direttamente da Outlook a SharePoint o Teams su qualsiasi dispositivo e piattaforma. Il livello di autorizzazione dei servizi app di Office2SharePoint è impostato sia per il componente aggiuntivo Outlook che per Office componente aggiuntivo. |
+| Funzionalità di base dell'app | Office2SharePoint- Lavorare con SharePoint e Teams da Outlook e Office nel modo più semplice. Le barriere di comunicazione tra i membri del team rendono i documenti e gli allegati di posta elettronica accessibili a tutti &amp; SharePoint Teams. Salva i messaggi di posta elettronica e gli allegati di posta elettronica direttamente da Outlook a SharePoint o Teams su qualsiasi dispositivo e piattaforma. Il livello di autorizzazione dei servizi app di Office2SharePoint è impostato sia per Outlook componente aggiuntivo Office componente aggiuntivo. |
 | Sede centrale dell'azienda | Danimarca |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
@@ -163,7 +163,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Directory.AccessAsUser.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 >| Directory.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
@@ -176,43 +176,6 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 >| User.Read | delegated | Nessun dato viene archiviato nei database dell'applicazione. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 
 >Questa applicazione non dispone di API aggiuntive.
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Informazioni sulla certificazione
-
-| **Controllo** | **Microsoft 365 di certificazione** |
-|:------------|:---------------------------------------|
-| [**SICUREZZA DELL'APPLICAZIONE**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/D** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test di penetrazione | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valutazione delle vulnerabilità (DAST/SAST/Test di penetrazione) | N/D |
-| [**SICUREZZA OPERATIVA**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/D** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione antimalware - Anti-Virus | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione antimalware - Controllo applicazioni | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Classificazione dei rischi | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Applicazione di patch | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisi delle vulnerabilità | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall (o tecnologie equivalenti) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall applicazione Web (WAF) (facoltativo) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change Control | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sviluppo/distribuzione di software sicuro | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione account | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rilevamento e prevenzione delle intrusioni (facoltativo) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrazione eventi di sicurezza | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisione (dati di registrazione) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avviso eventi di sicurezza | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione dei rischi per la sicurezza delle informazioni | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Risposta agli eventi imprevisti | N/D |
-| [**PRIVACY DI SICUREZZA PER LA GESTIONE DEI &amp; DATI**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/D** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in transito | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in pausa | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservazione e eliminazione dei dati | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione accesso ai dati | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | N/D |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

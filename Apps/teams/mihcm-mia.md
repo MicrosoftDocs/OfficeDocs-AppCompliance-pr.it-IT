@@ -2,24 +2,24 @@
 title: Application Information for Mia by MiHCM
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/20/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Mia, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Mia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 60f642920ebe8406b6b16bcdcf940dd986962ae6
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 1e8fa45f92c45f54d50ce94397eeb5a9adba49ca
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253612"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63079720"
 ---
 # <a name="mia"></a>Mia
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 21, 2021</p>
+<p>Last updated by the developer on: February 28, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/0b48e71e-8f46-46d8-a545-608295f000ac" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002417" target="_blank">Visualizzazione in AppSource</a>
@@ -38,7 +38,7 @@ Informazioni fornite da MiHCM a Microsoft:
 | Nome società partner | MiHCM |
 | Sito Web aziendale | [https://mihcm.com](https://mihcm.com) |
 | Condizioni per l'uso dell'app | [https://mia.work/terms-of-use](https://mia.work/terms-of-use) |
-| Funzionalità di base dell'app | Mia Workplace Assistente virtuale consente all'organizzazione di fornire un assistente virtuale personalizzato per tutti gli Microsoft Teams utenti. Questo assistente aziendale su Microsoft Teams aiuta l'organizzazione ad aumentare la produttività, migliorare il coinvolgimento dei dipendenti, l'esecuzione di numerose richieste di risorse umane, richieste di servizio correlate al lavoro, benessere del fitness e &amp; altro ancora. Mia accerta il coinvolgimento dei dipendenti, un'esperienza senza problemi per i servizi e le interazioni delle risorse umane. |
+| Funzionalità di base dell'app | Mia Workplace Assistente virtuale consente all'organizzazione di fornire un assistente virtuale personalizzato per tutti gli Microsoft Teams utenti. Questo assistente aziendale su Microsoft Teams aiuta l'organizzazione ad aumentare la produttività, migliorare il coinvolgimento dei dipendenti, l'esecuzione di numerose richieste di risorse umane, richieste di servizio correlate al lavoro, benessere del fitness &amp; e altro ancora. Mia accerta il coinvolgimento dei dipendenti, un'esperienza senza problemi per i servizi e le interazioni delle risorse umane. |
 | Sede centrale dell'azienda | Sri Lanka |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -61,7 +61,7 @@ Queste informazioni sono state fornite da MiHCM su come questa app raccoglie e a
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Eventi calendario utente, fuso orario utente |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Singapore |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da MiHCM su come questa app raccoglie e a
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -118,7 +118,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
 | Data di certificazione SOC3 più recente | |
 | Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | N/D |
-| L'app International Organization for Standardization (ISO 27001) è certificata? | No |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
 | L'app è conforme all'International Organization for Standardization (ISO 27018)? | No |
 | L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
 | L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
@@ -158,7 +158,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | N/D |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | Sì |

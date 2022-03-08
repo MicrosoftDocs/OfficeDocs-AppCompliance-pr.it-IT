@@ -2,24 +2,24 @@
 title: Application Information for Contacts Pro by Witivio
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/30/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Contacts Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Contacts Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d509f5b18d833135ca0683720c264e5dc164b9a0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ca10bb626f33ce2c4b5bafc618c784b46fe3e1e7
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253312"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63080260"
 ---
 # <a name="contacts-pro"></a>Contatti Pro
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 29, 2021</p>
+<p>Last updated by the developer on: March 3, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/b4f85a61-fd95-49b8-8fb3-3cb473412407" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002804" target="_blank">Visualizzazione in AppSource</a>
@@ -38,7 +38,7 @@ Informazioni fornite da Witivio a Microsoft:
 | Nome società partner | Witivio |
 | Sito Web aziendale | [https://www.witivio.com](https://www.witivio.com) |
 | Condizioni per l'uso dell'app | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
-| Funzionalità di base dell'app | Calendar Pro è un calendario collaborativo per Microsoft Teams. Aggiungere calendari Pro in un canale o in una chat per creare un calendario condiviso con i relativi membri. |
+| Funzionalità di base dell'app | Contatti Pro è un'app di contatto collaborativo per Microsoft Teams. |
 | Sede centrale dell'azienda | Francia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -61,7 +61,7 @@ Queste informazioni sono state fornite da Witivio su come questa app raccoglie e
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Contacts |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Irlanda |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 60 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
@@ -168,7 +168,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| User.Read | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
 >| email | delegated | Microsoft Teams SSO | [b2380441-bb33-439e-bf4a-8cd277dcebc8](https://docs.microsoft.com/microsoft-365-app-certification/azure/b2380441-bb33-439e-bf4a-8cd277dcebc8) |
