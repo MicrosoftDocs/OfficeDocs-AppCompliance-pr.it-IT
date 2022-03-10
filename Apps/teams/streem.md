@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Streem, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a46f768877115fc10aec39a683ca630600623f73
-ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
+ms.openlocfilehash: 7a51d9881df2405737276cf50478a70456e0c5ba
+ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62513090"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63421584"
 ---
 # <a name="streem"></a>Streem
 
@@ -38,7 +38,7 @@ Informazioni fornite da Streem a Microsoft:
 | Nome società partner | Streem |
 | Sito Web aziendale | [https://www.streem.com.au](https://www.streem.com.au) |
 | Condizioni per l'uso dell'app | [https://www.streem.com.au/terms](https://www.streem.com.au/terms) |
-| Funzionalità di base dell'app | Streem fornisce servizi di monitoraggio multimediale in tempo reale raccogliendo e analizzando il contenuto da fonti di stampa, online, TV, radio e social media in Australia e Nuova Zelanda. Ogni nuovo contenuto viene abbinato alle parole chiave a cui i clienti sono a cuore e gli avvisi e i report pertinenti vengono inviati tramite posta elettronica, &amp; applicazioni desktop per dispositivi mobili o integrazione con Slack e Microsoft Teams. |
+| Funzionalità di base dell'app | Streem fornisce servizi di monitoraggio multimediale in tempo reale raccogliendo e analizzando il contenuto da fonti di stampa, online, TV, radio e social media in Australia e Nuova Zelanda. Ogni nuovo contenuto viene abbinato a parole chiave importanti per i clienti e gli avvisi e i report pertinenti vengono inviati tramite posta elettronica, &amp; applicazioni desktop per dispositivi mobili o integrazione con Slack e Microsoft Teams. |
 | Sede centrale dell'azienda | Australia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -57,14 +57,7 @@ Queste informazioni sono state fornite da Streem su come questa app raccoglie e 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
