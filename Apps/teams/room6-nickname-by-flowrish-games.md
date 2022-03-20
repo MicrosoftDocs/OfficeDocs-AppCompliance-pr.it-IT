@@ -2,18 +2,19 @@
 title: Application Information for nickname by flowrish games by room6
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per i nomi alternativi per i giochi di flusso, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per i nomi alternativi per i giochi di flusso, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6fa9aef7efab58fcb15a1ed05b71b7a9b9b8354a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f5f320c63c17f9743081300c7a01c4f6551346a2
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257622"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553295"
 ---
 # <a name="nickname-by-flowrish-games"></a>nickname by flowrish games
 
@@ -40,8 +41,9 @@ Informazioni fornite da room6 a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.room6.net/eula](https://www.room6.net/eula) |
 | Funzionalità di base dell'app | &#12466;&#12540;&#12511;&#12501;&#12451;&#12465;&#12540;&#12471;&#12519;&#12531;&#12434;&#27963;&#29992;&#12375;&#12383;&#12467;&#12511;&#12517;&#12491;&#12540;&#12465;&#12540;&#12471;&#12519;&#12531;&#27963;&#24615;&#21270;&#12484;&#12540;&#12523;&#12391;&#12377;&#12290; &#21021;&#23550;&#38754;&#12398;&#20154;&#12392;&#12418;&#27005;&#12375;&#12415;&#12394;&#12364;&#12425;&#30456;&#25163;&#12392;&#12398;&#36317;&#38626;&#12434;&#32302;&#12417;&#12427;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#12459;&#12540;&#12489;&#12395;&#26360;&#12363;&#12428;&#12383;&#32937;&#26360;&#12434;&#30456;&#25163;&#12398;&#21517;&#21069;&#12395;&#12388;&#12369;&#12289;&#27442;&#12375;&#12356;&#12459;&#12540;&#12489;&#12434;&#38598;&#12417;&#12390;&#12356;&#12365;&#12414;&#12377;&#12290; &#24859;&#31216;&#12391;&#21628;&#12403;&#12354;&#12358;&#12371;&#12392;&#12391;&#12289;&#20210;&#38291;&#21516;&#22763;&#12398;&#12467;&#12511;&#12517;&#12491;&#12465;&#12540;&#12471;&#12519;&#12531;&#12398;&#27963;&#24615;&#21270;&#12434;&#34892;&#12358;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#12466;&#12540;&#12511;&#12501;&#12451;&#12465;&#12540;&#12471;&#12519;&#12531;&#12434;&#27963;&#29992;&#12375;&#12383;&#12484;&#12540;&#12523;&#12392;&#12394;&#12387;&#12390;&#12362;&#12426;&#12414;&#12377;&#12398;&#12391;&#12289; Microsoft Teams&#12391;&#27005;&#12375;&#12415;&#12394;&#12364;&#12425;&#30456;&#25163;&#12392;&#12398;&#36317;&#38626;&#12434;&#32302;&#12417;&#12427;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#32887;&#22580;&#12398;&#12481;&#12540;&#12512;&#12420;&#25945;&#32946;&#29694;&#22580;&#12394;&#12393;&#27096;&#12293;&#12394;&#12471;&#12540;&#12531;&#12391;&#12372;&#21033;&#29992;&#12391;&#12365;&#12414;&#12377;&#12290; &#12504;&#12523;&#12503; https://nickname-server.azurewebsites.net/help.html |
 | Sede centrale dell'azienda | Giappone |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://nickname-server.azurewebsites.net/help.html](https://nickname-server.azurewebsites.net/help.html) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da room6 su come questa app raccoglie e a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

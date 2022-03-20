@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Fond by Fond Technologies, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/04/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Fond, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3c2e40a9b2c35cade0dcb3e3eb551a0de4b541a1
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a161c87d59eb0e920d0bfd4f5b7a88f9d2ef863a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148455"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538154"
 ---
 # <a name="fond"></a>Fond
 
@@ -40,7 +41,7 @@ Informazioni fornite da Fond Technologies, Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.fond.co/tos/](https://www.fond.co/tos/) |
 | Funzionalità di base dell'app | Festeggia i risultati dei tuoi colleghi con Fond |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://fond.co/products/features/fond-teams-integration/](https://fond.co/products/features/fond-teams-integration/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da Fond Technologies, Inc. Sul modo in cu
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

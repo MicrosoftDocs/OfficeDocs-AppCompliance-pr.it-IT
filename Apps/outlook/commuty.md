@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per il tragitto pendolarmente
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Commuty, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5ae0d84f8d8f1c83926be78eb22122f3589f3d30
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a09d4d7a17fe0a4d9cf5c200592c75e8715c60c6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251352"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538354"
 ---
 # <a name="commuty"></a>Pendolarità
 
@@ -39,8 +40,9 @@ Informazioni fornite da Commuty a Microsoft:
 | Condizioni per l'uso dell'app | [https://support.commuty.net/article/32-terms-conditions](https://support.commuty.net/article/32-terms-conditions) |
 | Funzionalità di base dell'app | Ottimizzare i dipendenti&#8217; i pendolari &amp; facilitano nuovi modi di lavorare (parcheggio, mobilità, prenotazione). |
 | Sede centrale dell'azienda | Belgio |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.commuty.net](https://www.commuty.net) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Queste informazioni sono state fornite da Commuty su come questa app raccoglie e
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -163,13 +158,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | Eventi calendario | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](https://docs.microsoft.com/microsoft-365-app-certification/azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0) |
->| email | delegated | Indirizzo di posta elettronica | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](https://docs.microsoft.com/microsoft-365-app-certification/azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0) |
->| offline_access | delegated | N/D | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](https://docs.microsoft.com/microsoft-365-app-certification/azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0) |
->| openid | delegated | Autenticazione | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](https://docs.microsoft.com/microsoft-365-app-certification/azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0) |
->| profile | delegated | Identità | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](https://docs.microsoft.com/microsoft-365-app-certification/azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0) |
+>| Calendars.ReadWrite | delegated | Eventi calendario | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](../azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0.md) |
+>| email | delegated | Indirizzo di posta elettronica | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](../azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0.md) |
+>| offline_access | delegated | N/D | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](../azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0.md) |
+>| openid | delegated | Autenticazione | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](../azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0.md) |
+>| profile | delegated | Identità | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](../azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

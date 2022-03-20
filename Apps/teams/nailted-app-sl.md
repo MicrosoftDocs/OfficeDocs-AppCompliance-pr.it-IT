@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Nailted by NAILTED APP S.L.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Nailted, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6db76106efdc61b69c911ef889242f2fca72fc90
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 390a2efaa3aff44b1343645041c091b662c8e726
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254852"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553185"
 ---
 # <a name="nailted"></a>Nailted
 
@@ -168,13 +169,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | application | Utilizzato per accedere ai gruppi. | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
->| TeamsAppInstallation.ReadWriteForUser | application | L'utente può selezionare gli utenti in cui desidera installare l'app. Usiamo quindi questa autorizzazione per creare l'app | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
->| User.Read.All | application | Utilizzato per leggere le informazioni sugli utenti | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
->| email | application | Accedere alla posta elettronica dei dipendenti per sincronizzarli | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
->| offline_access | application | Questa autorizzazione viene utilizzata per accedere all'api quando l'utente non è online per poter sincronizzare i dipendenti e installare l'applicazione | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
+>| Directory.Read.All | application | Utilizzato per accedere ai gruppi. | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](../azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md) |
+>| TeamsAppInstallation.ReadWriteForUser | application | L'utente può selezionare gli utenti in cui desidera installare l'app. Usiamo quindi questa autorizzazione per creare l'app | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](../azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md) |
+>| User.Read.All | application | Utilizzato per leggere le informazioni sugli utenti | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](../azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md) |
+>| email | application | Accedere alla posta elettronica dei dipendenti per sincronizzarli | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](../azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md) |
+>| offline_access | application | Questa autorizzazione viene utilizzata per accedere all'api quando l'utente non è online per poter sincronizzare i dipendenti e installare l'applicazione | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](../azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Company Navigator di Konica Minolta IT Solutions
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Company Navigator, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 13ab94d8c86c280c6d6b932d1db65180a7a6caa2
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0bf467bf95ccd2a0399380d3c2aa66d6e0e7a83f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254914"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536394"
 ---
 # <a name="company-navigator"></a>Navigatore aziendale
 
@@ -40,7 +41,7 @@ Informazioni fornite da Konica Minolta IT Solutions a Microsoft:
 | Condizioni per l'uso dell'app | [https://company-navigator.kmglobalrd.com/info/termsofuse](https://company-navigator.kmglobalrd.com/info/termsofuse) |
 | Funzionalità di base dell'app | Strumento di ricerca olistico che trova documenti, persone o azioni rilevanti per i tuoi progetti o interessi. |
 | Sede centrale dell'azienda | Cecoslovacchia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://company-navigator.kmglobalrd.com/info](https://company-navigator.kmglobalrd.com/info) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -59,14 +60,7 @@ Queste informazioni sono state fornite da Konica Minolta IT Solutions sul modo i
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -168,22 +162,22 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Calendars.Read.Shared | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Files.Read.All | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Mail.Read | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Mail.Read.Shared | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Mail.ReadBasic.All | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| People.Read | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| Sites.Read.All | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| User.Read | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| User.ReadBasic.All | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| email | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| offline_access | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| openid | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
->| profile | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| Calendars.Read | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Calendars.Read.Shared | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Files.Read.All | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Mail.Read | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Mail.Read.Shared | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Mail.ReadBasic.All | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| People.Read | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| Sites.Read.All | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| User.Read | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| User.ReadBasic.All | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| email | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| offline_access | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| openid | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
+>| profile | delegated | leggere i dati utente rilevanti per il caso d'uso dell'app | [5123b34d-663d-4ae9-a3c9-d2298be203f2](../azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

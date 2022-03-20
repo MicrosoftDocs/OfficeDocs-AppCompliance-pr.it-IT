@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per MindManager da Corel
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per MindManager, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0a16728e162bcb826e10c4d45cefa8c8fc466210
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: b0b6ce5943adb753144befa014902074fc2fb4f8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264439"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536554"
 ---
 # <a name="mindmanager"></a>MindManager
 
@@ -42,6 +43,7 @@ Informazioni fornite da Corel a Microsoft:
 | Sede centrale dell'azienda | Canada |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Corel su come questa app raccoglie e a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,14 +159,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMessage.Send | delegated | Informazioni sulle modifiche apportate all'interno di un file MindManager che possono quindi essere pubblicate come messaggio | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| Chat.Send | delegated | Informazioni sulle modifiche apportate all'interno di un file MindManager che possono quindi essere pubblicate come messaggio | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| Files.ReadWrite | delegated | elenco dei siti, presentazione delle cartelle, metadati dei file, contenuto dei file: per il browser dei file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| Sites.ReadWrite.All | delegated | elenco dei siti, presentazione delle cartelle, metadati dei file, contenuto dei file: per il browser dei file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| User.Read | delegated | dati del profilo: per identificare l'utente e mostrare il proprio profilo | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
->| offline_access | delegated | In questo modo è possibile salvare un file nel percorso originale per conto dell'utente in un secondo momento, se necessario. | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| ChannelMessage.Send | delegated | Informazioni sulle modifiche apportate all'interno di un file MindManager che possono quindi essere pubblicate come messaggio | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
+>| Chat.Send | delegated | Informazioni sulle modifiche apportate all'interno di un file MindManager che possono quindi essere pubblicate come messaggio | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
+>| Files.ReadWrite | delegated | elenco dei siti, presentazione delle cartelle, metadati dei file, contenuto dei file: per il browser dei file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
+>| Sites.ReadWrite.All | delegated | elenco dei siti, presentazione delle cartelle, metadati dei file, contenuto dei file: per il browser dei file, l'utente può esplorare i propri file per aprire un file MindManager (con estensione mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
+>| User.Read | delegated | dati del profilo: per identificare l'utente e mostrare il proprio profilo | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
+>| offline_access | delegated | In questo modo è possibile salvare un file nel percorso originale per conto dell'utente in un secondo momento, se necessario. | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

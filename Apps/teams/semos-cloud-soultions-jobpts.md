@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per JobPts di Semos Cloud Soultions
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per JobPts, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8ec2e00f3a7f7896ffce3e73b5ba3c3308992070
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a6a604e6fba711b2b5b6ae415a7ec89d0aa0df1f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250970"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63537984"
 ---
 # <a name="jobpts"></a>JobPts
 
@@ -40,8 +41,9 @@ Informazioni fornite da Semos Cloud Soultions a Microsoft:
 | Condizioni per l'uso dell'app | [https://semoscloud.com/terms-of-use/](https://semoscloud.com/terms-of-use/) |
 | Funzionalità di base dell'app | Riconoscere facilmente i colleghi per un lavoro ben fatto senza lasciare MsTeams |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://semoscloud.com/product/jobpts](https://semoscloud.com/product/jobpts) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Semos Cloud Soultions su come questa a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -167,11 +162,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Leggere le informazioni di base sull'azienda | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
->| email | delegated | Viene usato per il mapping degli utenti di AzureAD con gli utenti nello strumento JobPts | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
->| offline_access | delegated | Mantenere l'accesso ai dati | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
->| openid | delegated | Per consentire agli utenti di accedere con il proprio account aziendale | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
->| profile | delegated | Per poter visualizzare le informazioni di base dell'utente (nome utente) | [1ac9e5c6-4850-4864-96c5-b91e4512334e](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ac9e5c6-4850-4864-96c5-b91e4512334e) |
+>| User.Read | delegated | Leggere le informazioni di base sull'azienda | [1ac9e5c6-4850-4864-96c5-b91e4512334e](../azure/1ac9e5c6-4850-4864-96c5-b91e4512334e.md) |
+>| email | delegated | Viene usato per il mapping degli utenti di AzureAD con gli utenti nello strumento JobPts | [1ac9e5c6-4850-4864-96c5-b91e4512334e](../azure/1ac9e5c6-4850-4864-96c5-b91e4512334e.md) |
+>| offline_access | delegated | Mantenere l'accesso ai dati | [1ac9e5c6-4850-4864-96c5-b91e4512334e](../azure/1ac9e5c6-4850-4864-96c5-b91e4512334e.md) |
+>| openid | delegated | Per consentire agli utenti di accedere con il proprio account aziendale | [1ac9e5c6-4850-4864-96c5-b91e4512334e](../azure/1ac9e5c6-4850-4864-96c5-b91e4512334e.md) |
+>| profile | delegated | Per poter visualizzare le informazioni di base dell'utente (nome utente) | [1ac9e5c6-4850-4864-96c5-b91e4512334e](../azure/1ac9e5c6-4850-4864-96c5-b91e4512334e.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

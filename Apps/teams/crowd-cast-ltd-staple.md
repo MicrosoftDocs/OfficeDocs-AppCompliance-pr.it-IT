@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Staple by Crowd Cast, Ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Staple, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7bd998858872f838e12e10b4b1e6aef2a0cc61b2
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: fa799418e4943907303d516fe75de9ccf0ab3a1e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260642"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538184"
 ---
 # <a name="staple"></a>Graffetta
 
@@ -40,8 +41,9 @@ Informazioni fornite da Crowd Cast, Ltd. a Microsoft:
 | Condizioni per l'uso dell'app | [https://go.microsoft.com](https://go.microsoft.com) |
 | Funzionalità di base dell'app | Modificare lo stile di lavoro con la gestione delle spese in tempo reale. Staple consente di inviare, approvazione e tracciare facilmente le spese per la tua azienda. Collegamento con servizi Microsoft per interagire facilmente con il prodotto. |
 | Sede centrale dell'azienda | Giappone |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://intercom.help/staple/ja](https://intercom.help/staple/ja) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS, Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Crowd Cast, Ltd. su come questa app ra
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,13 +159,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Organization.Read.All | application | Usato per la raccolta dell'ID tenant. Usato per garantire che gli utenti che eseguono l'autenticazione con la piattaforma siano membri di un tenant specifico. | [ac9ca94a-e666-4f61-959a-12c063e13e69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac9ca94a-e666-4f61-959a-12c063e13e69) |
->| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Teams'app si installa autonomamente nel team dell'utente | [ac9ca94a-e666-4f61-959a-12c063e13e69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac9ca94a-e666-4f61-959a-12c063e13e69) |
->| AppCatalog.Read.All | delegated | Legge il catalogo app di un utente per verificare se l'app teams è installata. | [bbdcd676-7448-453c-bec7-70e5384bc290](https://docs.microsoft.com/microsoft-365-app-certification/azure/bbdcd676-7448-453c-bec7-70e5384bc290) |
->| User.Read | delegated | Usato per leggere l'ID di un utente per assicurarsi che i messaggi siano inviati all'utente corretto. | [bbdcd676-7448-453c-bec7-70e5384bc290](https://docs.microsoft.com/microsoft-365-app-certification/azure/bbdcd676-7448-453c-bec7-70e5384bc290) |
->| openid | delegated | Accedere a un utente per leggere le informazioni di base del profilo | [bbdcd676-7448-453c-bec7-70e5384bc290](https://docs.microsoft.com/microsoft-365-app-certification/azure/bbdcd676-7448-453c-bec7-70e5384bc290) |
+>| Organization.Read.All | application | Usato per la raccolta dell'ID tenant. Usato per garantire che gli utenti che eseguono l'autenticazione con la piattaforma siano membri di un tenant specifico. | [ac9ca94a-e666-4f61-959a-12c063e13e69](../azure/ac9ca94a-e666-4f61-959a-12c063e13e69.md) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Teams'app si installa autonomamente nel team dell'utente | [ac9ca94a-e666-4f61-959a-12c063e13e69](../azure/ac9ca94a-e666-4f61-959a-12c063e13e69.md) |
+>| AppCatalog.Read.All | delegated | Legge il catalogo app di un utente per verificare se l'app teams è installata. | [bbdcd676-7448-453c-bec7-70e5384bc290](../azure/bbdcd676-7448-453c-bec7-70e5384bc290.md) |
+>| User.Read | delegated | Usato per leggere l'ID di un utente per assicurarsi che i messaggi siano inviati all'utente corretto. | [bbdcd676-7448-453c-bec7-70e5384bc290](../azure/bbdcd676-7448-453c-bec7-70e5384bc290.md) |
+>| openid | delegated | Accedere a un utente per leggere le informazioni di base del profilo | [bbdcd676-7448-453c-bec7-70e5384bc290](../azure/bbdcd676-7448-453c-bec7-70e5384bc290.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

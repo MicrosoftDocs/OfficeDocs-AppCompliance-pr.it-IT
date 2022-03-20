@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per DELTAoverC di DELTAoverC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per DELTAoverC, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per DELTAoverC, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 80273bfba0db86b443e84b46343ab6b04a264ac8
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 315d62622741a685849ee679d584624ccce19d75
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259682"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538174"
 ---
 # <a name="deltaoverc"></a>DELTAoverC
 
@@ -40,7 +41,7 @@ Informazioni fornite da DELTAoverC a Microsoft:
 | Condizioni per l'uso dell'app | [https://go.microsoft.com](https://go.microsoft.com) |
 | Funzionalità di base dell'app | DELTAoverC è progettato per supportare il cambiamento e la trasformazione dell'organizzazione fornendo ai leader interni dati a livello di team utilizzabili durante l'iniziativa di cambiamento che consente loro di affrontare in modo efficace le aree di resistenza al cambiamento o di basso impegno. Ottimizzare l'interazione: tenere traccia dei punteggi di coinvolgimento in tempo reale per garantire ai team di crescere durante l'interruzione. Ridurre i rischi e gli sforzi : analizzare i dati a livello di personale per anticipare i problemi prima di queste spirali in sfide importanti. |
 | Sede centrale dell'azienda | Canada |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://DELTAoverC.info/change-application](https://DELTAoverC.info/change-application) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da DELTAoverC su come questa app raccogli
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -166,14 +160,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | entrambi | Lettura di tutti i gruppi | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
->| Group.ReadWrite.All | entrambi | Lettura e scrittura di tutti i gruppi | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
->| User.Read | delegated | Accedere e leggere il profilo utente | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
->| User.Read.All | application | Leggere il profilo completo di tutti gli utenti | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
->| User.ReadWrite | delegated | Accesso in lettura e scrittura al profilo utente | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
->| User.ReadWrite.All | entrambi | Lettura e scrittura dei profili completi di tutti gli utenti | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| Group.Read.All | entrambi | Lettura di tutti i gruppi | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
+>| Group.ReadWrite.All | entrambi | Lettura e scrittura di tutti i gruppi | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
+>| User.Read | delegated | Accedere e leggere il profilo utente | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
+>| User.Read.All | application | Leggere il profilo completo di tutti gli utenti | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
+>| User.ReadWrite | delegated | Accesso in lettura e scrittura al profilo utente | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
+>| User.ReadWrite.All | entrambi | Lettura e scrittura dei profili completi di tutti gli utenti | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

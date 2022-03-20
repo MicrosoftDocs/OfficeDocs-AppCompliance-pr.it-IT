@@ -2,20 +2,21 @@
 title: Informazioni sull'applicazione per i flussi di lavoro autopilot tramite soluzioni per flussi di lavoro Autopilot
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/14/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per i flussi di lavoro Autopilot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per i flussi di lavoro Autopilot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7eac665b024ff1f1474ea302af196dda40ec5252
-ms.sourcegitcommit: 9905237eb3270d099820cbf413d64b7cc066dc7c
+ms.openlocfilehash: bcfcb7cc0675aa859bc7302076e3c2382247d90a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62811754"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540022"
 ---
-# <a name="autopilot-workflows"></a>Flussi di lavoro autopilot
+# <a name="autopilot-workflows"></a>Autopilot Workflows
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,15 +33,15 @@ Informazioni fornite da Autopilot Workflow Solutions a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Flussi di lavoro autopilot |
+| Nome app | Autopilot Workflows |
 | ID | WA200003745 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Soluzioni per flussi di lavoro Autopilot |
+| Nome società partner | Autopilot Workflow Solutions |
 | Sito Web aziendale | [https://www.autopilot.co.za](https://www.autopilot.co.za) |
 | Condizioni per l'uso dell'app | [https://cdn.autopilot.co.za/legal/Autopilot%20Client%20Term...](https://cdn.autopilot.co.za/legal/Autopilot%20Client%20Terms%20%20Conditions%2020160224.pdf) |
 | Funzionalità di base dell'app | I moduli elettronici convalidati e i processi preconfigurati garantiscono che i processi siano sempre eseguiti in modo coerente, indipendentemente dalla persona che esegue l'attività. Un audit trail completo delle azioni eseguite garantirà che tutti rimangano in regola per le operazioni eseguite. Autopilot consente la continuità quando il personale esce e può fungere da ottimo strumento di formazione per acquisire familiarità con i processi. La guida integrata li guiderà in ogni passaggio del percorso. |
 | Sede centrale dell'azienda | Sudafrica |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.autopilot.co.za](https://www.autopilot.co.za) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -61,7 +62,7 @@ Queste informazioni sono state fornite da Autopilot Workflow Solutions sul modo 
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | ID tenant azure client |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | No |
@@ -167,15 +168,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Teams. ReadBasic.All | application | Invio Teams Notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| TeamsActivity.Read | application | Invio Teams Notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| TeamsActivity.Send | application | Invio Teams Notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| User.Read.All | application | Invio Teams Notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| Group.Read.All | delegated | Single Sign-in | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](https://docs.microsoft.com/microsoft-365-app-certification/azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc) |
->| User.Read | delegated | Single Sign-in | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](https://docs.microsoft.com/microsoft-365-app-certification/azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc) |
->| User.Read.All | delegated | Single Sign-in | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](https://docs.microsoft.com/microsoft-365-app-certification/azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc) |
+>| Teams. ReadBasic.All | application | Invio Teams Notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| TeamsActivity.Read | application | Invio Teams Notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| TeamsActivity.Send | application | Invio Teams Notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| User.Read.All | application | Invio Teams Notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| Group.Read.All | delegated | Single Sign-in | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](../azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.md) |
+>| User.Read | delegated | Single Sign-in | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](../azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.md) |
+>| User.Read.All | delegated | Single Sign-in | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](../azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

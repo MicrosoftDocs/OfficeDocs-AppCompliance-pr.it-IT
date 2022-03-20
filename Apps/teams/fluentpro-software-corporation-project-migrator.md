@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione Project Migrator di FluentPro Software Corporation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Project Migrator, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Project Migrator, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d575f58d47edb104deba3138697d8c948e35e980
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5a46cd25678376abbb92734b3fd4a36292687fb9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250118"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540012"
 ---
 # <a name="project-migrator"></a>Project Migrator
 
@@ -40,8 +41,9 @@ Informazioni fornite da FluentPro Software Corporation a Microsoft:
 | Condizioni per l'uso dell'app | [https://projectmigrator.com/terms-of-use](https://projectmigrator.com/terms-of-use) |
 | Funzionalità di base dell'app | Project Migrator è un software di migrazione dei dati automatizzato. Supporta più scenari di migrazione con i sistemi di gestione dei progetti più popolari come Microsoft Planner, Trello, Asana, Microsoft Project Online, Project per la migrazione web, Monday.com e Smartsheet. Project Migrator è un software completamente automatizzato, facile da usare, basato su cloud e veloce che consente alle aziende di eseguire la migrazione dei progetti tra gli strumenti di gestione dei progetti più popolari. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://help.fluentpro.com/147404-project-migrator](https://help.fluentpro.com/147404-project-migrator) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da FluentPro Software Corporation sul mod
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 2 settimana |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +66,7 @@ Queste informazioni sono state fornite da FluentPro Software Corporation sul mod
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -154,7 +149,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | No |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | true |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -166,13 +161,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | delegated | Leggere i gruppi e la relativa appartenenza per eseguire la migrazione all'altro tenant. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| Group.ReadWrite.All | delegated | Nome gruppo, Membri, Piani e Attività. Utilizzare informazioni su gruppi, piani e attività per la migrazione dei dati di Planner. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| Sites.ReadWrite.All | delegated | Eseguire la SharePoint documenti per gli allegati delle attività di MS Planner. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| User.Read | delegated | UPN per archiviare le informazioni di riepilogo della migrazione di MS Planner collegate all'account. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| User.ReadBasic.All | delegated | Utilizzare le informazioni utente per eseguire la migrazione delle assegnazioni delle attività di MS Planner e dell'appartenenza ai gruppi. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| offline_access | delegated | I token di aggiornamento e accesso vengono utilizzati per accedere ai dati di MS Planner. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa) |
->| User.Read | delegated | First Name, Last Name, Company Name, Telefono, Corporate Email. Dati utilizzati per i processi di registrazione e autenticazione. | [c36d31a2-8de1-4eb5-9e7d-01da45244c04](https://docs.microsoft.com/microsoft-365-app-certification/azure/c36d31a2-8de1-4eb5-9e7d-01da45244c04) |
+>| Directory.Read.All | delegated | Leggere i gruppi e la relativa appartenenza per eseguire la migrazione all'altro tenant. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| Group.ReadWrite.All | delegated | Nome gruppo, Membri, Piani e Attività. Utilizzare informazioni su gruppi, piani e attività per la migrazione dei dati di Planner. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| Sites.ReadWrite.All | delegated | Eseguire la SharePoint documenti per gli allegati delle attività di MS Planner. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| User.Read | delegated | UPN per archiviare le informazioni di riepilogo della migrazione di MS Planner collegate all'account. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| User.ReadBasic.All | delegated | Utilizzare le informazioni utente per eseguire la migrazione delle assegnazioni delle attività di MS Planner e dell'appartenenza ai gruppi. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| offline_access | delegated | I token di aggiornamento e accesso vengono utilizzati per accedere ai dati di MS Planner. | [77b31e8c-65d0-484d-a72f-9404ec9dfcfa](../azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md) |
+>| User.Read | delegated | First Name, Last Name, Company Name, Telefono, Corporate Email. Dati utilizzati per i processi di registrazione e autenticazione. | [c36d31a2-8de1-4eb5-9e7d-01da45244c04](../azure/c36d31a2-8de1-4eb5-9e7d-01da45244c04.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

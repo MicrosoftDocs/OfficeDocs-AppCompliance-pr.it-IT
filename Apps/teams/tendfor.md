@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Tendfor di Tendfor
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Tendfor, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: baf74e60015e41621c070103154d92432d7abdb9
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: ac7e3d8cd1e9a9cf851107f49d7ec305b8292759
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63080610"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536384"
 ---
 # <a name="tendfor"></a>Tendfor
 
@@ -39,7 +40,7 @@ Informazioni fornite da Tendfor a Microsoft:
 | Condizioni per l'uso dell'app | [https://tendfor.com/tendfor_docs/en/StandardContractMarch20...](https://tendfor.com/tendfor_docs/en/StandardContractMarch2019.pdf) |
 | Funzionalità di base dell'app | Un contact center completo e una console operatore per Microsoft Teams. |
 | Sede centrale dell'azienda | Svezia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.tendfor.com](https://www.tendfor.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -60,7 +61,7 @@ Queste informazioni sono state fornite da Tendfor su come questa app raccoglie e
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Dati del profilo utente, dati del calendario utente |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Paesi Bassi (la) |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
@@ -170,9 +171,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Per poter accedere agli utenti | [b7e8237f-d86d-4874-8f8b-7faa8f768436](https://docs.microsoft.com/microsoft-365-app-certification/azure/b7e8237f-d86d-4874-8f8b-7faa8f768436) |
->| User.Read.All | application | Per poter importare le informazioni utente | [b7e8237f-d86d-4874-8f8b-7faa8f768436](https://docs.microsoft.com/microsoft-365-app-certification/azure/b7e8237f-d86d-4874-8f8b-7faa8f768436) |
->| User.Read.All | delegated | Per poter importare le informazioni utente | [b7e8237f-d86d-4874-8f8b-7faa8f768436](https://docs.microsoft.com/microsoft-365-app-certification/azure/b7e8237f-d86d-4874-8f8b-7faa8f768436) |
+>| User.Read | delegated | Per poter accedere agli utenti | [b7e8237f-d86d-4874-8f8b-7faa8f768436](../azure/b7e8237f-d86d-4874-8f8b-7faa8f768436.md) |
+>| User.Read.All | application | Per poter importare le informazioni utente | [b7e8237f-d86d-4874-8f8b-7faa8f768436](../azure/b7e8237f-d86d-4874-8f8b-7faa8f768436.md) |
+>| User.Read.All | delegated | Per poter importare le informazioni utente | [b7e8237f-d86d-4874-8f8b-7faa8f768436](../azure/b7e8237f-d86d-4874-8f8b-7faa8f768436.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

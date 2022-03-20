@@ -2,18 +2,19 @@
 title: Application Information for Org@Work by Lundano
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Org@Work, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Org@Work, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7fd4e389d0bd62ffea91f68b87bd02984b87ef34
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 580488239179057eb70629354c87311484ff4ef4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259462"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539952"
 ---
 # <a name="orgwork"></a>Org@Work
 
@@ -40,8 +41,9 @@ Informazioni fornite da Lundano a Microsoft:
 | Condizioni per l'uso dell'app | [https://cp.lundano.com/Terms_en.html](https://cp.lundano.com/Terms_en.html) |
 | Funzionalità di base dell'app | Gestire l'organizzazione aziendale e l'occupazione dell'ufficio con le pianificazioni di collaborazione |
 | Sede centrale dell'azienda | Francia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.lundano.com/orgatwork/index.html#](https://www.lundano.com/orgatwork/index.html#) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Lundano sul modo in cui questa app rac
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,13 +160,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
->| email | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
->| offline_access | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
->| openid | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
->| profile | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| User.Read | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | [aa1c54a1-f482-424d-9389-dbd131233483](../azure/aa1c54a1-f482-424d-9389-dbd131233483.md) |
+>| email | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | [aa1c54a1-f482-424d-9389-dbd131233483](../azure/aa1c54a1-f482-424d-9389-dbd131233483.md) |
+>| offline_access | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | [aa1c54a1-f482-424d-9389-dbd131233483](../azure/aa1c54a1-f482-424d-9389-dbd131233483.md) |
+>| openid | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | [aa1c54a1-f482-424d-9389-dbd131233483](../azure/aa1c54a1-f482-424d-9389-dbd131233483.md) |
+>| profile | delegated | I dati vengono archiviati. Usiamo solo i dati per accedere all'utente Org@work | [aa1c54a1-f482-424d-9389-dbd131233483](../azure/aa1c54a1-f482-424d-9389-dbd131233483.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

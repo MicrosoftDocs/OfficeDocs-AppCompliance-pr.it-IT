@@ -2,18 +2,19 @@
 title: Application Information for Avaamo IT Assistant by Avaamo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per L'Assistente IT di Avaamo, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per L'Assistente IT di Avaamo, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0f30a4022ffa131170a28a9d9a63f011061f9344
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 32b5b6a92620e7b1dd25f58cde68cf68e5669028
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148999"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538284"
 ---
 # <a name="avaamo-it-assistant"></a>Assistente IT di Avaamo
 
@@ -38,9 +39,9 @@ Informazioni fornite da Avaamo a Microsoft:
 | Nome società partner | Avaamo |
 | Sito Web aziendale | [https://avaamo.ai](https://avaamo.ai) |
 | Condizioni per l'uso dell'app | [https://avaamo.ai/tos/](https://avaamo.ai/tos/) |
-| Funzionalità di base dell'app | Assistente conversazione intelligente che risolve istantaneamente Microsoft Office 365 le query di supporto. |
+| Funzionalità di base dell'app | Assistente colloquiale intelligente che risolve istantaneamente Microsoft Office 365 le query di supporto. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.avaamo.ai/who-is-avaamo/](https://www.avaamo.ai/who-is-avaamo/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Desk365 di Kani Technologies Inc
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Desk365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Desk365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 685c8bb27caf830a7850ff05656e7e9320ac6dec
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 69d5528a2d8ef98eff6cca07bb3fc58dd5ae04ac
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256552"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536524"
 ---
 # <a name="desk365"></a>Desk365
 
@@ -38,10 +39,11 @@ Informazioni fornite da Kani Technologies Inc a Microsoft:
 | Nome società partner | Kani Technologies Inc |
 | Sito Web aziendale | [https://www.desk365.io](https://www.desk365.io) |
 | Condizioni per l'uso dell'app | [https://www.desk365.io/terms-of-service/](https://www.desk365.io/terms-of-service/) |
-| Funzionalità di base dell'app | Desk365 è un helpdesk moderno per la Microsoft 365 aziendale. Con l'app Desk365 Teams, puoi collaborare facilmente con altri agenti del team di supporto. È possibile rispondere ai ticket, aggiungere note, controllare gli stati, modificare le proprietà dei ticket, senza mai lasciare Microsoft Teams. Desk365 è gratuito per un massimo di 4 agenti. |
+| Funzionalità di base dell'app | Desk365 è un helpdesk moderno per la Microsoft 365 aziendale. Con l'app Desk365 Teams, puoi collaborare con altri agenti del team di supporto con facilità. È possibile rispondere ai ticket, aggiungere note, controllare gli stati, modificare le proprietà dei ticket, senza mai lasciare Microsoft Teams. Desk365 è gratuito per un massimo di 4 agenti. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.desk365.io/agent-bot/](https://www.desk365.io/agent-bot/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Kani Technologies Inc su come questa a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

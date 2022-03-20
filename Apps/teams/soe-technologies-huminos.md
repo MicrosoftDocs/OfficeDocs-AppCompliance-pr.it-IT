@@ -2,18 +2,19 @@
 title: Application Information for huminos by SOE Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per huminos, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8586f417df16a0ae41c246dea922a72a2ed7db2e
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 30dbce16045e879e99bd888812aed7eab4116572
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264240"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539802"
 ---
 # <a name="huminos"></a>huminos
 
@@ -40,8 +41,9 @@ Informazioni fornite da SOE Technologies a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.myokr.co/terms](https://www.myokr.co/terms) |
 | Funzionalità di base dell'app | Accelerare le prestazioni |
 | Sede centrale dell'azienda | India |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.myokr.co](https://www.myokr.co) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da SOE Technologies su come questa app ra
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,13 +159,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | Ottenere i dettagli del calendario dell'utente per creare una riunione 1:1 nel calendario utente, aggiornare o eliminare creato dalla piattaforma myOKR e visualizzare le fasce orarie gratuite | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| User.Read | delegated | Usiamo l'ID oggetto azure dell'utente per effettuare l'accesso dell'utente all'app myOKR usando l'autenticazione Microsoft per la posta elettronica | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| User.Read.All | application | Sincronizzare le informazioni utente con la piattaforma myOKR e visualizzare l'analisi dell'applicazione myOKR all'amministratore in base a diversi tagli utente, ad esempio posizione, department &amp; manager | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| offline_access | delegated | ID azure active directory dell'utente | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| openid | delegated | Usiamo l'ID oggetto azure dell'utente per effettuare l'accesso utente all'app myOKR usando l'autenticazione Microsoft | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
+>| Calendars.ReadWrite | delegated | Ottenere i dettagli del calendario dell'utente per creare una riunione 1:1 nel calendario utente, aggiornare o eliminare creato dalla piattaforma myOKR e visualizzare le fasce orarie gratuite | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| User.Read | delegated | Usiamo l'ID oggetto azure dell'utente per effettuare l'accesso dell'utente all'app myOKR usando l'autenticazione Microsoft per la posta elettronica | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| User.Read.All | application | Sincronizzare le informazioni utente con la piattaforma myOKR e visualizzare l'analisi dell'applicazione myOKR all'amministratore in base a diversi tagli utente, ad esempio posizione, department &amp; manager | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| offline_access | delegated | ID azure active directory dell'utente | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| openid | delegated | Usiamo l'ID oggetto azure dell'utente per effettuare l'accesso utente all'app myOKR usando l'autenticazione Microsoft | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

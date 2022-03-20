@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Standuply By Standuply Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Standuply, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3b7292e010ad6e244f4d5e6cdddb9b357520ca94
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 84d9c34f023fd8e4a9247de46443b711b33472c8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252242"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63537964"
 ---
 # <a name="standuply"></a>Standuply
 
@@ -38,9 +39,9 @@ Informazioni fornite da Standuply Inc. a Microsoft:
 | Nome società partner | Standuply Inc. |
 | Sito Web aziendale | [https://standuply.com](https://standuply.com) |
 | Condizioni per l'uso dell'app | [https://standuply.com/terms](https://standuply.com/terms) |
-| Funzionalità di base dell'app | Automatizza autonomamente i processi di gestione e fornisce un sistema di domande e risposte interno per aumentare &amp; la produttività del team. |
+| Funzionalità di base dell'app | Automatizza in modo autonomo i processi di gestione e fornisce un sistema QA&amp; interno per aumentare la produttività del team. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://standuply.com](https://standuply.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da Standuply Inc. Sul modo in cui questa 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -159,7 +160,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | No |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -171,8 +172,8 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| MailboxSettings.Read | application | Per inviare report su singoli utenti in base al fuso orario | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](https://docs.microsoft.com/microsoft-365-app-certification/azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176) |
->| User.Read | delegated | Per autorizzare gli utenti nel prodotto | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](https://docs.microsoft.com/microsoft-365-app-certification/azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176) |
+>| MailboxSettings.Read | application | Per inviare report su singoli utenti in base al fuso orario | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](../azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176.md) |
+>| User.Read | delegated | Per autorizzare gli utenti nel prodotto | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](../azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

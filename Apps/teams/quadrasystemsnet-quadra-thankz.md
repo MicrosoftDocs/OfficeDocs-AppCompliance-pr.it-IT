@@ -1,19 +1,20 @@
 ---
-title: Application Information for Quadra Thankz by Quadrasystems.net
+title: Informazioni sull'applicazione per Quadra Thankz da Quadrasystems.net
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Quadra Thankz, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8109f919461d6c475f2be34a54950ade99ee027c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 4d8713bb53ce6c9a0ef7751270838847e8b28d9e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260462"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539892"
 ---
 # <a name="quadra-thankz"></a>Quadra Thankz
 
@@ -38,9 +39,9 @@ Informazioni fornite da Quadrasystems.net a Microsoft:
 | Nome società partner | Quadrasystems.net |
 | Sito Web aziendale | [https://www.quadrasystems.net](https://www.quadrasystems.net) |
 | Condizioni per l'uso dell'app | [https://www.quadrasystems.net/tou](https://www.quadrasystems.net/tou) |
-| Funzionalità di base dell'app | Grazie è la chiave per creare società più felici. Basato sull'interfaccia Microsoft Teams familiare, è un modo nuovo di connettersi con le persone con cui si lavora ogni giorno.  Graziez è uno strumento per aiutare le persone a riconoscersi in modo divertente.&#160; Offre funzionalità avanzate per gli utenti finali e le aziende, che consentono funzionalità quali classifiche, budget e controlli. Graziez aiuta i dipendenti a sentirsi connessi, apprezzati e premiati. |
+| Funzionalità di base dell'app | Grazie è la chiave per creare società più felici. Basato sull'interfaccia Microsoft Teams familiare, è un modo nuovo di connettersi con le persone con cui si lavora ogni giorno.  Graziez è uno strumento per aiutare le persone a riconoscersi in modo divertente.&#160; Offre funzionalità avanzate per gli utenti finali e le aziende, che consentono funzionalità quali classificazioni, budget e controlli. Graziez aiuta i dipendenti a sentirsi connessi, apprezzati e premiati. |
 | Sede centrale dell'azienda | India |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.quadrasystems.net/what-we-do/intelligent-ip-sol...](https://www.quadrasystems.net/what-we-do/intelligent-ip-solution/thankz) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Altro |
 
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da Quadrasystems.net su come questa app r
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -166,9 +160,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read.All | application | Per ottenere le informazioni sul manager di un utente  | [5d8eb1a9-2188-4292-86f6-f4964d49e8b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/5d8eb1a9-2188-4292-86f6-f4964d49e8b3) |
+>| User.Read.All | application | Per ottenere le informazioni sul manager di un utente  | [5d8eb1a9-2188-4292-86f6-f4964d49e8b3](../azure/5d8eb1a9-2188-4292-86f6-f4964d49e8b3.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

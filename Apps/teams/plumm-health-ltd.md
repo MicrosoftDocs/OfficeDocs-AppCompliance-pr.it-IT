@@ -2,18 +2,19 @@
 title: Application Information for Plumm by Plumm Health LTD
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Prudenza, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6ba4a1853102f77129d740418b81f9de67146da0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f46060403be7542e485ca78cbbd3022bef51506e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255596"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538034"
 ---
 # <a name="plumm"></a>Plumm
 
@@ -38,10 +39,11 @@ Informazioni fornite da Plumm Health LTD a Microsoft:
 | Nome società partner | Plumm Health LTD |
 | Sito Web aziendale | [https://www.plummhealth.com](https://www.plummhealth.com) |
 | Condizioni per l'uso dell'app | [https://www.plummhealth.com/terms-of-use](https://www.plummhealth.com/terms-of-use) |
-| Funzionalità di base dell'app | Plumm fornisce ai dipendenti il supporto necessario per il loro benessere mentale. Ogni membro di Plumm ha accesso a un supporto per la salute mentale di alta qualità con una rete globale di oltre 150 terapeuti accreditati, una raccolta digitale di corsi di benessere guidati dal terapeuta, chat e mediazioni guidate &#8211; tutto in un unico luogo. Gli utenti possono connettersi con i terapeuti per la videoterapia online 1:1 o chattare con loro in privato sulle loro esigenze. I corsi online e le meditazioni guidati dal terapeuta offrono supporto in autonomia. |
+| Funzionalità di base dell'app | Plumm fornisce ai dipendenti il supporto necessario per il loro benessere mentale. Ogni membro di Plumm ha accesso a un supporto di salute mentale di alta qualità con una rete globale di oltre 150 terapeuti accreditati, una raccolta digitale di corsi di benessere guidati dal terapeuta, chat e mediazioni guidate &#8211; tutto in un unico luogo. Gli utenti possono connettersi con i terapeuti per la videoterapia online 1:1 o chattare con loro in privato sulle loro esigenze. I corsi online e le meditazioni guidati dal terapeuta offrono supporto in autonomia. |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.plummhealth.com/about-us](https://www.plummhealth.com/about-us) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Plumm Health LTD su come questa app ra
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,15 +159,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | application | Usiamo l'ID utente in questa autorizzazione. Viene usato per l'invio di notifiche richieste all'utente in base all'utilizzo del servizio. Questo è importante per consentire all'utente di ricevere notifiche appropriate per il proprio account nell'app. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| TeamsAppInstallation.ReadWriteForUser.All | application | L'ID di installazione viene ricevuto utilizzando questa autorizzazione. Questo è importante per essere in grado di inviare la notifica appropriata e corretta per ogni singolo utente. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read | delegated | Stiamo raccogliendo nome, immagine e posta elettronica per i nostri utenti tramite questa autorizzazione. Questo è necessario per consentire a Microsoft di identificare singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio la pagina del profilo individuale e la comunicazione e-mail/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read.All | application | Questa autorizzazione consente all'app di leggere i profili utente senza un utente connesso. In questo momento stiamo raccogliendo solo nome, immagine del profilo e posta elettronica. Questo è necessario per consentire a Microsoft di identificare singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio la pagina del profilo individuale e la comunicazione e-mail/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| email | delegated | Viene raccolto l'ID di posta elettronica dell'utente. Richiediamo questi dati per concedere l'accesso all'utente per i nostri servizi e accedere alla nostra app e ricevere notifiche relative ai loro account e ai nostri servizi su questo ID di posta elettronica.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| openid | delegated | Per questa autorizzazione, non vengono raccolti dati.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| profile | delegated | Stiamo raccogliendo nome, immagine e posta elettronica per i nostri utenti tramite questa autorizzazione. Questo è necessario per consentire a Microsoft di identificare singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio la pagina del profilo individuale e la comunicazione e-mail/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| TeamsActivity.Send | application | Usiamo l'ID utente in questa autorizzazione. Viene usato per l'invio di notifiche richieste all'utente in base all'utilizzo del servizio. Questo è importante per consentire all'utente di ricevere notifiche appropriate per il proprio account nell'app. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | application | L'ID di installazione viene ricevuto utilizzando questa autorizzazione. Questo è importante per essere in grado di inviare la notifica appropriata e corretta per ogni singolo utente. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| User.Read | delegated | Stiamo raccogliendo nome, immagine e posta elettronica per i nostri utenti tramite questa autorizzazione. Questo è necessario per consentire a Microsoft di identificare singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio la pagina del profilo individuale e la comunicazione e-mail/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| User.Read.All | application | Questa autorizzazione consente all'app di leggere i profili utente senza un utente connesso. In questo momento stiamo raccogliendo solo nome, immagine del profilo e posta elettronica. Questo è necessario per consentire a Microsoft di identificare singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio la pagina del profilo individuale e la comunicazione e-mail/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| email | delegated | Viene raccolto l'ID di posta elettronica dell'utente. Richiediamo questi dati per concedere l'accesso all'utente per i nostri servizi e accedere alla nostra app e ricevere notifiche relative ai loro account e ai nostri servizi su questo ID di posta elettronica.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| openid | delegated | Per questa autorizzazione, non vengono raccolti dati.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| profile | delegated | Stiamo raccogliendo nome, immagine e posta elettronica per i nostri utenti tramite questa autorizzazione. Questo è necessario per consentire a Microsoft di identificare singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio la pagina del profilo individuale e la comunicazione e-mail/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

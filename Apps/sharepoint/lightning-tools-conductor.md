@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Lightning Tools Lightning Conductor by Lightning Tools
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Lightning Tools Lightning Conductor, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Lightning Tools Lightning Conductor, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f82a773cf9d4be03468d3df2796976fec2ea5234
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 6c1edd234adf8415c232d475a8bc632f5416c847
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256792"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540092"
 ---
 # <a name="lightning-tools-lightning-conductor"></a>Lightning Tools Lightning Conductor
 
@@ -37,10 +38,11 @@ Informazioni fornite da Lightning Tools a Microsoft:
 | Nome società partner | Strumenti Lightning |
 | Sito Web aziendale | [https://lightningtools.com](https://lightningtools.com) |
 | Condizioni per l'uso dell'app | [https://lightningtools.com/lightning-tools-lightning-conduc...](https://lightningtools.com/lightning-tools-lightning-conductor-client-side-web-part-software-license-agreement) |
-| Funzionalità di base dell'app | SharePoint list e Microsoft Graph Content Aggregation and Reporting Tool per SharePoint e Teams |
+| Funzionalità di base dell'app | SharePoint List e Microsoft Graph Content Aggregation and Reporting Tool per SharePoint e Teams |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://lightningtools.com/product/lightning-conductor-clie...](https://lightningtools.com/product/lightning-conductor-client-side-web-part/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Queste informazioni sono state fornite da Lightning Tools su come questa app rac
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 2 settimana |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -163,16 +158,16 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | application | Per eseguire query e creare report sulle informazioni del calendario | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Contacts.Read | application | Non vengono raccolti o archiviati dati. I dati vengono utilizzati per visualizzare il DisplayName dei contatti degli utenti correnti | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Directory.Read.All | application | Visualizzare gli utenti in Lightning Conductor | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Files.Read.All | application | Visualizzare OneDrive file in Lightning Conductor | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Mail.Read | application | Se la query in Lightning Conductor visualizza i messaggi dalla cassetta postale degli utenti correnti | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| People.Read.All | application | Per visualizzare la visualizzazione utenti in Lightning Conductor se si esegue una query agli utenti come membri di un sito. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Presence.Read.All | application | Per visualizzare la presenza degli utenti nella scheda utenti | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Sites.Read.All | application | Per enumerare i siti nella visualizzazione albero di Lightning Conductor | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
+>| Calendars.Read | application | Per eseguire query e creare report sulle informazioni del calendario | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
+>| Contacts.Read | application | Non vengono raccolti o archiviati dati. I dati vengono utilizzati per visualizzare il DisplayName dei contatti degli utenti correnti | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
+>| Directory.Read.All | application | Visualizzare gli utenti in Lightning Conductor | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
+>| Files.Read.All | application | Visualizzare OneDrive file in Lightning Conductor | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
+>| Mail.Read | application | Se la query in Lightning Conductor visualizza i messaggi dalla cassetta postale degli utenti correnti | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
+>| People.Read.All | application | Per visualizzare la visualizzazione utenti in Lightning Conductor se si esegue una query agli utenti come membri di un sito. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
+>| Presence.Read.All | application | Per visualizzare la presenza degli utenti nella scheda utenti | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
+>| Sites.Read.All | application | Per enumerare i siti nella visualizzazione albero di Lightning Conductor | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](../azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

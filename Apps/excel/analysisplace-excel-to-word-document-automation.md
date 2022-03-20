@@ -2,18 +2,19 @@
 title: Application Information for Excel-to-Word Document Automation by AnalysisPlace
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per l'automazione dei documenti da Excel a Word, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6ede1a98c44b8d6e71a12069c15065f7499bb5e2
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: ceb3175ecfbe45b33fe7c1fe62ae59e62f00d7ad
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63079540"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536584"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel-to-Word Document Automation
 
@@ -39,7 +40,7 @@ Informazioni fornite da AnalysisPlace a Microsoft:
 | Condizioni per l'uso dell'app | [https://analysisplace.com/Terms](https://analysisplace.com/Terms) |
 | Funzionalità di base dell'app | AnalysisPlace fornisce servizi per automatizzare l'aggiornamento di Microsoft Office documenti |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://analysisplace.com/Document-Automation](https://analysisplace.com/Document-Automation) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -60,7 +61,7 @@ Queste informazioni sono state fornite da AnalysisPlace su come questa app racco
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Nome utente, indirizzo di posta elettronica utente, ID tenant dell'organizzazione |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 90 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |

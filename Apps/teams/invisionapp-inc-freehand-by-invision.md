@@ -2,18 +2,19 @@
 title: Application Information for Freehand by InVision by InVisionApp, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Freehand di InVision, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Freehand di InVision, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d1c8637c6156ef3b8a1745b78df2d9ef0875b68e
-ms.sourcegitcommit: 69fc4973c9ad349e40b9b1a13aae8acec3773b17
+ms.openlocfilehash: 834746df0b967da06884981505068e37f5a8367d
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61413837"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553215"
 ---
 # <a name="freehand-by-invision"></a>Freehand by InVision
 
@@ -35,13 +36,14 @@ Informazioni fornite da InVisionApp, Inc. a Microsoft:
 | Nome app | Freehand by InVision |
 | ID | WA104381362 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | InVisionApp, Inc. |
+| Nome società partner | InVisionApp Inc. |
 | Sito Web aziendale | [https://www.invisionapp.com](https://www.invisionapp.com) |
 | Condizioni per l'uso dell'app | [https://www.invisionapp.com/legal/terms-of-service](https://www.invisionapp.com/legal/terms-of-service) |
 | Funzionalità di base dell'app | Collaborare in tempo reale con una lavagna online. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da InVisionApp, Inc. Sul modo in cui ques
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

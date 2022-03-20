@@ -2,18 +2,19 @@
 title: Application Information for Real Time Translator by Fairuse
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Translator in tempo reale, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Translator in tempo reale, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c86fb7cb8edd0c9a118d3572b3716a7c703ee829
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 9073f2034568bb4a38734af095418ef7cf4dd8e1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259492"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553234"
 ---
 # <a name="real-time-translator"></a>Traduttore in tempo reale
 
@@ -40,8 +41,9 @@ Informazioni fornite da Fairuse a Microsoft:
 | Condizioni per l'uso dell'app | [https://fairuse.jp/real_time_translator/term_of_use_RTT_Tea...](https://fairuse.jp/real_time_translator/term_of_use_RTT_Teams_Browser.pdf) |
 | Funzionalità di base dell'app | Real Time Translator è uno strumento che consente di eseguire la traduzione del testo in tempo reale nella lingua specificata dall'utente. È possibile comunicare senza problemi utilizzando questo prodotto anche se non è possibile parlare la lingua di altre parti. |
 | Sede centrale dell'azienda | Giappone |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://fairuse.jp/download/RTTManual/RTTApp_Browser_Manual...](https://fairuse.jp/download/RTTManual/RTTApp_Browser_Manual_JP.pdf) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Fairuse su come questa app raccoglie e
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,11 +159,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| email | delegated | &#12469;&#12540;&#12499;&#12473;&#21033;&#29992;&#32773;&#12398; posta elettronica &#12450;&#12489;&#12524;&#12473;&#12364;&#21454;&#38598;&#12373;&#12428;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12434;&#35672;&#21029;&#12377;&#12427;&#12383;&#12417;&#12398;&#24773;&#22577;&#12392;&#12375;&#12390;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
->| openid | delegated | &#35469;&#35388;&#12398;&#12383;&#12417;&#12395;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
->| profile | delegated | &#12518;&#12540;&#12470;&#12540;&#12398;&#21517;&#21069;&#12420;&#12518;&#12540;&#12470;&#12540;&#12503;&#12522;&#12531;&#12471;&#12497;&#12523;&#21517;&#12434;&#12518;&#12540;&#12470;&#12540;&#29305;&#23450;&#12377;&#12427;&#12383;&#12417;&#12395;&#21462;&#24471;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
+>| email | delegated | &#12469;&#12540;&#12499;&#12473;&#21033;&#29992;&#32773;&#12398; posta elettronica &#12450;&#12489;&#12524;&#12473;&#12364;&#21454;&#38598;&#12373;&#12428;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12434;&#35672;&#21029;&#12377;&#12427;&#12383;&#12417;&#12398;&#24773;&#22577;&#12392;&#12375;&#12390;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](../azure/c4e4c98c-f859-4682-89a5-48b66838c496.md) |
+>| openid | delegated | &#35469;&#35388;&#12398;&#12383;&#12417;&#12395;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](../azure/c4e4c98c-f859-4682-89a5-48b66838c496.md) |
+>| profile | delegated | &#12518;&#12540;&#12470;&#12540;&#12398;&#21517;&#21069;&#12420;&#12518;&#12540;&#12470;&#12540;&#12503;&#12522;&#12531;&#12471;&#12497;&#12523;&#21517;&#12434;&#12518;&#12540;&#12470;&#12540;&#29305;&#23450;&#12377;&#12427;&#12383;&#12417;&#12395;&#21462;&#24471;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](../azure/c4e4c98c-f859-4682-89a5-48b66838c496.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

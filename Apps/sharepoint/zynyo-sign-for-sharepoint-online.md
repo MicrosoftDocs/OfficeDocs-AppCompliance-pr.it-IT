@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Zynyo Sign for SharePoint Online di Zynyo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Zynyo Sign for SharePoint Online, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9b36b38e24a421f4bd39d935b6506c87ea67a0e
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 451bf9e9e325e4d0f9f2269598c82d5067d4ba45
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200909"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553255"
 ---
 # <a name="zynyo-sign-for-sharepoint-online"></a>Firma Zynyo per SharePoint Online
 
@@ -39,7 +40,7 @@ Informazioni fornite da Zynyo a Microsoft:
 | Condizioni per l'uso dell'app | [https://zynyo.com/Algemene%20Voorwaarden%20Zynyo%20BV.pdf](https://zynyo.com/Algemene%20Voorwaarden%20Zynyo%20BV.pdf) |
 | Funzionalità di base dell'app | Alle documenten eenvoudig en rechtsgeldig digitaal laten ondertekenen. |
 | Sede centrale dell'azienda | Paesi Bassi (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://zynyo.com/signing-service-diensten/sharepoint/](https://zynyo.com/signing-service-diensten/sharepoint/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Altro |
 
@@ -73,7 +74,7 @@ Queste informazioni sono state fornite da Zynyo su come questa app raccoglie e a
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

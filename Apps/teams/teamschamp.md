@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per TeamsChamp di TeamsChamp
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per TeamsChamp, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per TeamsChamp, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a93e1ebca21764069c49cf88de97621e8c5a9054
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0ae3d5c111c398ee54036104976f821e3795a1bb
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264119"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63537954"
 ---
 # <a name="teamschamp"></a>TeamsChamp
 
@@ -40,8 +41,9 @@ Informazioni fornite da TeamsChamp a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.teamschamp.com/terms/](https://www.teamschamp.com/terms/) |
 | Funzionalità di base dell'app | TeamsChamp migliora l'uso e l'adozione dei sistemi in informazioni dell'organizzazione (in cui è stato investito) attraverso la gamification delle competenze digitali dei dipendenti.  Re-energize Microsoft 365 ADOPTION con un soffio di aria pulita e una cultura che ne facilita la trasformazione digitale. |
 | Sede centrale dell'azienda | Spagna |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.teamschamp.com](https://www.teamschamp.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da TeamsChamp su come questa app raccogli
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,11 +159,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Accedere e leggere il profilo degli utenti | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
->| User.ReadBasic.All | delegated | Leggere il profilo di base di tutti gli utenti | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
->| profile | delegated | Visualizzare il profilo di base degli utenti | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
+>| User.Read | delegated | Accedere e leggere il profilo degli utenti | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](../azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df.md) |
+>| User.ReadBasic.All | delegated | Leggere il profilo di base di tutti gli utenti | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](../azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df.md) |
+>| profile | delegated | Visualizzare il profilo di base degli utenti | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](../azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

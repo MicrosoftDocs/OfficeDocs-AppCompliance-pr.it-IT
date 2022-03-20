@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per CocoFax - Invio di fax reso facile &amp; da &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496;
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per CocoFax - &amp; Invio di fax facile e sicuro, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per CocoFax - &amp; Invio di fax reso facile sicuro, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: eea87d6f9291dc2c868e52a54e95539cac9e0d8c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d725ac3662ee63dbb59e2596d1ac85edddc810c8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252052"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540354"
 ---
 # <a name="cocofax---sending-fax-made-easy-amp-secure"></a>CocoFax - Invio di fax facile da &amp; proteggere
 
@@ -39,8 +40,9 @@ Informazioni fornite da &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;
 | Condizioni per l'uso dell'app | [https://cocofax.com/terms.html](https://cocofax.com/terms.html) |
 | Funzionalità di base dell'app | Inviare fax da Microsoft Word o Word Online con CocoFax, nessun modem fax, rete fissa necessaria. |
 | Sede centrale dell'azienda | Cina |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://cocofax.com/terms.html](https://cocofax.com/terms.html) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Queste informazioni sono state fornite da &#28145;&#22323;&#23545;&#20113;&#3118
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

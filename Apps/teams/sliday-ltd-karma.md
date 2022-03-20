@@ -2,12 +2,19 @@
 title: Informazioni sull'applicazione per Karma di Sliday LTD
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Tutte le informazioni di sicurezza e conformità disponibili per Karma, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
+description: Tutte le informazioni di sicurezza e conformità disponibili per Karma, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 00b0587dfed116356e932bef9208655275c81e96
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553285"
 ---
 # <a name="karma"></a>Karma
 
@@ -34,7 +41,7 @@ Informazioni fornite da Sliday LTD a Microsoft:
 | Condizioni per l'uso dell'app | [https://karmabot.readme.io/docs/karma-end-user-license-agre...](https://karmabot.readme.io/docs/karma-end-user-license-agreement-eula) |
 | Funzionalità di base dell'app | True bonding per team remoti. |
 | Sede centrale dell'azienda | Nuova Zelanda |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://karmabot.chat/ms](https://karmabot.chat/ms) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Altro |
 
@@ -152,7 +159,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | No |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | No |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |

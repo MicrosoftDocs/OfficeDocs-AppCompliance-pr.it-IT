@@ -2,18 +2,19 @@
 title: Application Information for Teams Manager by Solutions2Share GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Teams Manager, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Teams Manager, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 75bea5ebb9ea83d682f56cc4c4027f23409d932c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3b4327e14c30c6a9be465574e947d5c23a07b021
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253422"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540444"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
@@ -38,10 +39,11 @@ Informazioni fornite da Solutions2Share GmbH a Microsoft:
 | Nome società partner | Solutions2Share GmbH |
 | Sito Web aziendale | [https://teams-manager.com](https://teams-manager.com) |
 | Condizioni per l'uso dell'app | [https://www.teams-manager.com/terms-of-use/](https://www.teams-manager.com/terms-of-use/) |
-| Funzionalità di base dell'app | Crea nuovi modelli Teams basati su modelli complessi e personalizzabili con flusso di lavoro di approvazione. Teams Manager aiuta le aziende a mantenere il controllo sul proprio Microsoft Teams e a interrompere la crescita incontrollata con le funzionalità di governance, consentendo comunque agli utenti di creare nuove Teams. |
+| Funzionalità di base dell'app | Crea nuove Teams basate su modelli complessi e personalizzabili con flusso di lavoro di approvazione. Teams Manager aiuta le aziende a mantenere il controllo sul proprio Microsoft Teams e a interrompere la crescita incontrollata con le funzionalità di governance, consentendo comunque agli utenti di creare nuove Teams. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://teams-manager.com](https://teams-manager.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Solutions2Share GmbH su come questa ap
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,13 +159,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | entrambi | Stiamo archiviando TenantID e TeamId per mappare i modelli.  | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| Notes.ReadWrite.All | application | Nessuno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.Read | delegated | Nessuno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.Read.All | entrambi | L'ID dell'utente immesso nella sezione responsabile approvazione/amministratore viene salvato. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.ReadBasic.All | delegated | Nessuno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| Group.ReadWrite.All | entrambi | Stiamo archiviando TenantID e TeamId per mappare i modelli.  | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| Notes.ReadWrite.All | application | Nessuno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.Read | delegated | Nessuno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.Read.All | entrambi | L'ID dell'utente immesso nella sezione responsabile approvazione/amministratore viene salvato. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.ReadBasic.All | delegated | Nessuno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

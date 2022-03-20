@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Structural by Structural Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Structural, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: dc7e32b020dae92b88f2324701c704d5d8303743
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: bcd2ab91502f7057f2a5fd7ec002b80120ac760f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264007"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553065"
 ---
 # <a name="structural"></a>Structural
 
@@ -40,7 +41,7 @@ Informazioni fornite da Structural Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.structural.com/terms-of-service](https://www.structural.com/terms-of-service) |
 | Funzionalità di base dell'app | Connessione gli uni agli altri e all'opportunità |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.structural.com](https://www.structural.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | AWS, GCP |
 
@@ -167,13 +168,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | delegated | Sì: per autenticare gli utenti durante l'accesso Single Sign-on. | [fb6dddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
->| email | delegated | Sì: per autenticare gli utenti durante l'accesso Single Sign-on. | [fb6dddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
->| offline_access | delegated | Sì: per autenticare gli utenti durante l'accesso Single Sign-on. | [fb6dddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
->| openid | delegated | Sì: per autenticare gli utenti durante l'accesso Single Sign-on. | [fb6dddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
->| profile | delegated | Sì: per autenticare gli utenti durante l'accesso Single Sign-on. | [fb6dddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
+>| Directory.AccessAsUser.All | delegated | Sì: per autenticare gli utenti durante l'accesso Single Sign-on. | [fb6dddd39-35f2-4110-a45d-d2e73b946cae](../azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae.md) |
+>| email | delegated | Sì: per autenticare gli utenti durante l'accesso Single Sign-on. | [fb6dddd39-35f2-4110-a45d-d2e73b946cae](../azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae.md) |
+>| offline_access | delegated | Sì: per autenticare gli utenti durante l'accesso Single Sign-on. | [fb6dddd39-35f2-4110-a45d-d2e73b946cae](../azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae.md) |
+>| openid | delegated | Sì: per autenticare gli utenti durante l'accesso Single Sign-on. | [fb6dddd39-35f2-4110-a45d-d2e73b946cae](../azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae.md) |
+>| profile | delegated | Sì: per autenticare gli utenti durante l'accesso Single Sign-on. | [fb6dddd39-35f2-4110-a45d-d2e73b946cae](../azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

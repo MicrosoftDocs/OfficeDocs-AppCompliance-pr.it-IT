@@ -2,18 +2,19 @@
 title: Application Information for Koan by Koan, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Koan, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Koan, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e686c85da44fb09a067732a110b016e70c7a3cd2
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f86b6e35e823618d1d4af2366617d95aeb5c45fc
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260592"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536410"
 ---
 # <a name="koan"></a>Koan
 
@@ -38,10 +39,11 @@ Informazioni fornite da Koan, Inc. a Microsoft:
 | Nome società partner | Koan, Inc. |
 | Sito Web aziendale | [https://www.koan.co](https://www.koan.co) |
 | Condizioni per l'uso dell'app | [https://www.koan.co/terms-of-service](https://www.koan.co/terms-of-service) |
-| Funzionalità di base dell'app | Porta la gestione degli obiettivi e il monitoraggio dello stato direttamente Microsoft Teams per vedere lo stato di avanzamento e mantenere i team allineati. L'integrazione di Koan&#8217;consente ai dipendenti di rimanere concentrati sul lavoro più importante senza dover lasciare Microsoft Teams. Crea facilmente abitudini positive del team di condividere lo stato, riconoscere le vincite e identificare le preoccupazioni in anticipo, alzando l'astio per tutti gli altri che li circondano. |
+| Funzionalità di base dell'app | Porta la gestione degli obiettivi e il monitoraggio dello stato direttamente Microsoft Teams per vedere i progressi e mantenere i team allineati. L'integrazione di Koan&#8217;consente ai dipendenti di rimanere concentrati sul lavoro più importante senza dover lasciare Microsoft Teams. Crea facilmente abitudini positive del team di condividere lo stato, riconoscere le vincite e identificare le preoccupazioni in anticipo, alzando l'astio per tutti gli altri che li circondano. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.koan.co/how-it-works](https://www.koan.co/how-it-works) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Koan, Inc. Sul modo in cui questa app 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 2 settimana |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,11 +159,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | Vengono utilizzati l'ID canale e il nome del canale. Usiamo i dati in modo che gli utenti possano selezionare dove devono recapitare le notifiche di Reflection. | [5b599e19-a609-432b-9074-c9d4457e8766](https://docs.microsoft.com/microsoft-365-app-certification/azure/5b599e19-a609-432b-9074-c9d4457e8766) |
->| Team.ReadBasic.All | entrambi | L'ID del team e il nome del team vengono raccolti e usati. Usiamo i dati in modo che gli utenti possano selezionare dove devono recapitare le notifiche di Reflection. | [5b599e19-a609-432b-9074-c9d4457e8766](https://docs.microsoft.com/microsoft-365-app-certification/azure/5b599e19-a609-432b-9074-c9d4457e8766) |
->| User.Read | delegated | Vengono utilizzati il nome utente, l'ID utente e l'indirizzo di posta elettronica dell'utente. I dati vengono utilizzati per collegare gli account utente tra Microsoft Teams e Koan. Ha applicato solo per le menzioni. | [5b599e19-a609-432b-9074-c9d4457e8766](https://docs.microsoft.com/microsoft-365-app-certification/azure/5b599e19-a609-432b-9074-c9d4457e8766) |
+>| Channel.ReadBasic.All | delegated | Vengono utilizzati l'ID canale e il nome del canale. Usiamo i dati in modo che gli utenti possano selezionare dove devono recapitare le notifiche di Reflection. | [5b599e19-a609-432b-9074-c9d4457e8766](../azure/5b599e19-a609-432b-9074-c9d4457e8766.md) |
+>| Team.ReadBasic.All | entrambi | L'ID del team e il nome del team vengono raccolti e usati. Usiamo i dati in modo che gli utenti possano selezionare dove devono recapitare le notifiche di Reflection. | [5b599e19-a609-432b-9074-c9d4457e8766](../azure/5b599e19-a609-432b-9074-c9d4457e8766.md) |
+>| User.Read | delegated | Vengono utilizzati il nome utente, l'ID utente e l'indirizzo di posta elettronica dell'utente. I dati vengono utilizzati per collegare gli account utente tra Microsoft Teams e Koan. Ha applicato solo per le menzioni. | [5b599e19-a609-432b-9074-c9d4457e8766](../azure/5b599e19-a609-432b-9074-c9d4457e8766.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
