@@ -2,18 +2,19 @@
 title: Application Information for Smartnotation by Smartnotation B.V.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Smartnotation, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 48cc7581b8cc98f47f75baa193bb059586bd0131
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ce1c0cf26337622c5b66068a6e3f98004173318b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260404"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544204"
 ---
 # <a name="smartnotation"></a>Smartnotation
 
@@ -40,8 +41,9 @@ Informazioni fornite da Smartnotation B.V. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.smartnotation.com/public/tos.pdf](https://www.smartnotation.com/public/tos.pdf) |
 | Funzionalità di base dell'app | Smartnotation è una soluzione facile da usare e con funzionalità vocali per i minuti di riunione. Le note, le azioni e le decisioni sono facili da gestire e le informazioni sono sempre disponibili. Soprattutto, si evita un sovraccarico superfluo che consente a te e al tuo team di concentrarsi sulla tua attività principale. È possibile integrare smartnotation completamente con MS Teams. Aggiungere un connettore per ricevere una notifica di tutti gli aggiornamenti importanti, le nuove note, le azioni e le decisioni per un progetto specifico, configurare una scheda o usare direttamente Smartnotation. |
 | Sede centrale dell'azienda | Paesi Bassi (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.smartnotation.com/landing/integrations/](https://www.smartnotation.com/landing/integrations/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Totaaldomein B.V. |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Smartnotation B.V. informazioni su com
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

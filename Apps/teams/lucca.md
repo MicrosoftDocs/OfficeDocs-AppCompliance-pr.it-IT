@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Lucca di Lucca
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Lucca, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0251a16c4bd3096e89d08cd21a80f8b559774f22
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ea4cbf66e6218350477a0e3c26758abc989626f3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255682"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542964"
 ---
 # <a name="lucca"></a>Lucca
 
@@ -42,6 +43,7 @@ Informazioni fornite da Lucca a Microsoft:
 | Sede centrale dell'azienda | Francia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Lucca su come questa app raccoglie e a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,16 +159,16 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.Read.All | delegated | Non vengono raccolti dati. Sono stati usati per filtrare la pianificazione da visualizzare. Solo gli utenti che sono nel canale hanno la loro pianificazione visualizzata | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| Chat.ReadWrite | application | Non vengono raccolti o utilizzati dati. L'app pubblica solo un messaggio che contiene assenti del giorno | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| Group.Read.All | application | Raccogliamo GroupId per sapere in quale gruppo l'app deve inviare il messaggio con gli assenti.  | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| User.Read | delegated | Usato per accedere agli utenti | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| User.Read.All | application | Utilizzato per leggere i profili utente | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| email | delegated | Usato per visualizzare la posta elettronica dell'utente nella scheda dell'app | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| openid | delegated | Utilizzato per accedere all'utente | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
->| profile | delegated | Usato per visualizzare il profilo utente nella scheda dell'app | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| ChannelMember.Read.All | delegated | Non vengono raccolti dati. Sono stati usati per filtrare la pianificazione da visualizzare. Solo gli utenti che sono nel canale hanno la loro pianificazione visualizzata | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| Chat.ReadWrite | application | Non vengono raccolti o utilizzati dati. L'app pubblica solo un messaggio che contiene assenti del giorno | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| Group.Read.All | application | Raccogliamo GroupId per sapere in quale gruppo l'app deve inviare il messaggio con gli assenti.  | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| User.Read | delegated | Usato per accedere agli utenti | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| User.Read.All | application | Utilizzato per leggere i profili utente | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| email | delegated | Usato per visualizzare la posta elettronica dell'utente nella scheda dell'app | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| openid | delegated | Utilizzato per accedere all'utente | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
+>| profile | delegated | Usato per visualizzare il profilo utente nella scheda dell'app | [53628f6a-ac66-4fde-8945-d639c8da4c0d](../azure/53628f6a-ac66-4fde-8945-d639c8da4c0d.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

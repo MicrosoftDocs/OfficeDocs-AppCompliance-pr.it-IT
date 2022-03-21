@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per ContractZen da ContractZen
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ContractZen, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3ba2af3606c470bb4a5f15e636ca069f9ff722d7
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ace467613e349d8ea2d4c900b41c3097f238b303
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257959"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542264"
 ---
 # <a name="contractzen"></a>ContractZen
 
@@ -40,7 +41,7 @@ Informazioni fornite da ContractZen a Microsoft:
 | Condizioni per l'uso dell'app | [https://my.contractzen.com/Terms](https://my.contractzen.com/Terms) |
 | Funzionalità di base dell'app | Software di governance sicuro per la gestione avanzata dei contratti, la gestione delle riunioni del consiglio di amministrazione, la gestione delle entità, la firma elettronica e le sale dati virtuali (VDR) |
 | Sede centrale dell'azienda | Finlandia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://appsource.microsoft.com/en-US/product/office/wa2000...](https://appsource.microsoft.com/en-US/product/office/wa200001389) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -168,9 +169,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Per poter utilizzare le informazioni del profilo utente | [0492ead3-ee26-40df-9757-d95cc693d856](https://docs.microsoft.com/microsoft-365-app-certification/azure/0492ead3-ee26-40df-9757-d95cc693d856) |
+>| User.Read | delegated | Per poter utilizzare le informazioni del profilo utente | [0492ead3-ee26-40df-9757-d95cc693d856](../azure/0492ead3-ee26-40df-9757-d95cc693d856.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

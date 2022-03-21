@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Quantum Workplace da Quantum Workplace
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Quantum Workplace, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9e1e9367c7505929be34c6304588e178dbc04c8
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 32c49eaeaa71e2c1d3fa589a53712182d6d64c49
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252568"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543144"
 ---
 # <a name="quantum-workplace"></a>Quantum Workplace
 
@@ -33,14 +34,15 @@ Informazioni fornite da Quantum Workplace a Microsoft:
 |:----------------|:-------------|
 | Nome app | Quantum Workplace |
 | ID | WA104381747 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul web |
+| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | Quantum Workplace |
 | Sito Web aziendale | [https://www.quantumworkplace.com](https://www.quantumworkplace.com) |
 | Condizioni per l'uso dell'app | [https://www.quantumworkplace.com/terms-of-use](https://www.quantumworkplace.com/terms-of-use) |
 | Funzionalità di base dell'app | Aiuta i dipendenti a avere successo con avvisi e notifiche di Quantum Workplace. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.quantumworkplace.com/product/employee-engagemen...](https://www.quantumworkplace.com/product/employee-engagement-software) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Queste informazioni sono state fornite da Quantum Workplace su come questa app r
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -70,7 +65,7 @@ Queste informazioni sono state fornite da Quantum Workplace su come questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -164,10 +159,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Viene utilizzato ChatId. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
->| User.Read.All | application | User.Id (archiviato): usato per correlare gli utenti inviati all'endpoint bot; User.UserPrincipalName (Non archiviato) - Attualmente inutilizzato. User.Mail (Non archiviato) - Usato per associare gli utenti del sistema con l'ID AzureAD archiviato. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | application | Viene utilizzato ChatId. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](../azure/be93046b-63ab-4216-9bcc-78faa55eeaa7.md) |
+>| User.Read.All | application | User.Id (archiviato): usato per correlare gli utenti inviati all'endpoint bot. User.UserPrincipalName (Non archiviato) - Attualmente inutilizzato. User.Mail (Non archiviato) - Usato per associare gli utenti del sistema con l'ID AzureAD archiviato. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](../azure/be93046b-63ab-4216-9bcc-78faa55eeaa7.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

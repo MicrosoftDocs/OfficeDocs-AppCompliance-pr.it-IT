@@ -2,12 +2,19 @@
 title: Informazioni sull'applicazione per Futureworks di Futureworks AS
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Tutte le informazioni sulla sicurezza e conformità disponibili per Futureworks, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
+description: Tutte le informazioni di sicurezza e conformità disponibili per Futureworks, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 51b026466d7cda06fa1a768fc0c88933d801497f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541694"
 ---
 # <a name="futureworks"></a>Futureworks
 
@@ -34,7 +41,7 @@ Informazioni fornite da Futureworks AS a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.futureworks.com/terms-of-service](https://www.futureworks.com/terms-of-service) |
 | Funzionalità di base dell'app | Piattaforma di gestione degli obiettivi e delle prestazioni, basata su OKR - Obiettivi e risultati chiave. |
 | Sede centrale dell'azienda | Norvegia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://futureworks.no](https://futureworks.no) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Altro |
 
@@ -51,14 +58,7 @@ Queste informazioni sono state fornite da Futureworks AS su come questa app racc
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

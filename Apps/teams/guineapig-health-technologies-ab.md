@@ -2,18 +2,19 @@
 title: Application Information for GuineaPig by GuineaPig Health Technologies AB
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/20/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per GuineaPig, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: dbd872c0f919c8141d41771470546a5b75ae56b0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: bfbb46e2fa94292848778af8fa76a6596fd8276a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257822"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543944"
 ---
 # <a name="guineapig"></a>GuineaPig
 
@@ -40,7 +41,7 @@ Informazioni fornite da GuineaPig Health Technologies AB a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.guineapig.app/terms-and-conditions](https://www.guineapig.app/terms-and-conditions) |
 | Funzionalità di base dell'app | GuineaPig aiuta il team a rimanere sano, &amp; soddisfatto e impegnato con lezioni di fitness live su richiesta e brevi pause dal lavoro. |
 | Sede centrale dell'azienda | Svezia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://guineapig.app](https://guineapig.app) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | GCP |
 
@@ -168,9 +169,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Stiamo usando User.Read per leggere informazioni come il nome dell'utente per usarle nella chat e nelle schede e così via. Si prega di https://www.guineapig.app/privacy-policy visitare per una descrizione dettagliata. | [d6a2090f-1447-456b-bd5f-121e4efd8c89](https://docs.microsoft.com/microsoft-365-app-certification/azure/d6a2090f-1447-456b-bd5f-121e4efd8c89) |
+>| User.Read | delegated | Stiamo usando User.Read per leggere informazioni come il nome dell'utente per usarle nella chat e nelle schede e così via. Si prega di https://www.guineapig.app/privacy-policy visitare per una descrizione dettagliata. | [d6a2090f-1447-456b-bd5f-121e4efd8c89](../azure/d6a2090f-1447-456b-bd5f-121e4efd8c89.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Natterhub di Natterhub
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Natterhub, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fd0c03b20732f7f83d9d6738779f011a4272d6db
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 8cce96e9f542f1b9ed160f9cfb83b01c073f8239
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256492"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544304"
 ---
 # <a name="natterhub"></a>Natterhub
 
@@ -40,7 +41,7 @@ Informazioni fornite da Natterhub a Microsoft:
 | Condizioni per l'uso dell'app | [https://natterhub.com/legal](https://natterhub.com/legal) |
 | Funzionalità di base dell'app | Natterhub è un hub online per la sicurezza e l'alfabetizzazione dei media. Progettato per insegnare agli studenti di età compresa tra i 5 e gli 11 anni ad essere sicuri e esperti online, Natterhub usa una piattaforma di social media in stile social media immersiva con lezioni e attività interattive di impatto. |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://natterhub.com](https://natterhub.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 
@@ -169,14 +170,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| EduAssignments.ReadWrite | delegated | Necessario per creare invii di assegnazioni | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| User.Read | delegated | Obbligatorio per leggere il nome e il cognome dell'utente | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| email | delegated | Questa autorizzazione è necessaria in modo che l'utente possa ricevere messaggi di posta elettronica transazionali | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| offline_access | delegated | Obbligatorio per inviare gli invii di assegnazioni | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| openid | delegated | Necessario per identificare l'utente | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| profile | delegated | Obbligatorio per leggere il nome e il cognome dell'utente | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| EduAssignments.ReadWrite | delegated | Necessario per creare invii di assegnazioni | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| User.Read | delegated | Obbligatorio per leggere il nome e il cognome dell'utente | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| email | delegated | Questa autorizzazione è necessaria in modo che l'utente possa ricevere messaggi di posta elettronica transazionali | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| offline_access | delegated | Obbligatorio per inviare gli invii di assegnazioni | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| openid | delegated | Necessario per identificare l'utente | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| profile | delegated | Obbligatorio per leggere il nome e il cognome dell'utente | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

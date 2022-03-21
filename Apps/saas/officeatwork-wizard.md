@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per la procedura guidata per ufficio
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per la procedura guidata, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9953d643c844252b4b06728179e1d4adbc600773
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: e7e2d72da98acac3265400065aac74e294887f87
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261562"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541403"
 ---
 # <a name="wizard"></a>Procedura guidata
 
@@ -37,7 +38,7 @@ Informazioni fornite da officeatwork a Microsoft:
 | Condizioni per l'uso dell'app | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 | Funzionalità di base dell'app | Crea documenti personalizzati e inserisci contenuto personalizzato con pochi clic. |
 | Sede centrale dell'azienda | Svizzera |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -56,14 +57,7 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -166,19 +160,19 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Contacts.Read | delegated | Abilitazione della lettura dei contatti | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| Files.Read | delegated | Abilitazione della lettura dei file archiviati in Microsoft 365 | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| Files.Read.All | delegated | Abilitazione della lettura dei file archiviati in Microsoft 365 | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| Group.Read.All | delegated | Abilitazione dell'ambito di accesso ai dati in base ai gruppi | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| Sites.Read.All | delegated | Leggere i dati e i file archiviati in SharePoint | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| User.ReadBasic.All | delegated | Abilitare la visualizzazione delle proprietà utente | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| openid | delegated | Abilitare l'accesso | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| profile | delegated | Abilitare l'accesso | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Contacts.Read | delegated | Abilitazione della lettura dei contatti | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
+>| Files.Read | delegated | Abilitazione della lettura dei file archiviati in Microsoft 365 | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
+>| Files.Read.All | delegated | Abilitazione della lettura dei file archiviati in Microsoft 365 | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
+>| Group.Read.All | delegated | Abilitazione dell'ambito di accesso ai dati in base ai gruppi | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
+>| Sites.Read.All | delegated | Leggere i dati e i file archiviati in SharePoint | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
+>| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
+>| User.ReadBasic.All | delegated | Abilitare la visualizzazione delle proprietà utente | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
+>| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
+>| openid | delegated | Abilitare l'accesso | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
+>| profile | delegated | Abilitare l'accesso | [0c67871c-ffbc-4b37-bd61-afce12b299f9](../azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

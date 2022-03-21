@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Bizfone di MobiKOM
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Bizfone, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Bizfone, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 740e2a10bd8cdb386743fe75d3f92283ff2e5a7c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 1f82b83e22087308409362f06564f19bd6d0f8bc
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259382"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542914"
 ---
 # <a name="bizfone"></a>Bizfone
 
@@ -40,8 +41,9 @@ Informazioni fornite da MobiKOM a Microsoft:
 | Condizioni per l'uso dell'app | [https://mobikom.dk/salgs-og-leveringsbetingelser/](https://mobikom.dk/salgs-og-leveringsbetingelser/) |
 | Funzionalità di base dell'app | H&#229;ndter dine telefonopkald i Teams, og f&#229; overblik over dine kolleger. |
 | Sede centrale dell'azienda | Danimarca |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://mobikom.dk/faq/](https://mobikom.dk/faq/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure, SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da MobiKOM su come questa app raccoglie e
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,12 +160,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | delegated | I calendari vengono utilizzati per consentire agli utenti di mostrare i propri contatti ai colleghi e di utilizzare le riunioni per configurare la telefonia | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](https://docs.microsoft.com/microsoft-365-app-certification/azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11) |
->| Contacts.Read | delegated | I contatti degli utenti possono essere archiviati se vogliono mostrarli nell'app per semplificare la composizione dei contatti | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](https://docs.microsoft.com/microsoft-365-app-certification/azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11) |
->| User.Read | delegated | L'utente letto in questa applicazione viene utilizzato a scopo di identificazione. | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](https://docs.microsoft.com/microsoft-365-app-certification/azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11) |
->| User.Read | delegated | I dati non vengono archiviati. L'applicazione viene semplicemente utilizzata per scopi di autenticazione | [fc8f7563-e8ea-4b6d-9622-82775a21a35a](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc8f7563-e8ea-4b6d-9622-82775a21a35a) |
+>| Calendars.Read | delegated | I calendari vengono utilizzati per consentire agli utenti di mostrare i propri contatti ai colleghi e di utilizzare le riunioni per configurare la telefonia | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](../azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11.md) |
+>| Contacts.Read | delegated | I contatti degli utenti possono essere archiviati se vogliono mostrarli nell'app per semplificare la composizione dei contatti | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](../azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11.md) |
+>| User.Read | delegated | L'utente letto in questa applicazione viene utilizzato a scopo di identificazione. | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](../azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11.md) |
+>| User.Read | delegated | I dati non vengono archiviati. L'applicazione viene semplicemente utilizzata per scopi di autenticazione | [fc8f7563-e8ea-4b6d-9622-82775a21a35a](../azure/fc8f7563-e8ea-4b6d-9622-82775a21a35a.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

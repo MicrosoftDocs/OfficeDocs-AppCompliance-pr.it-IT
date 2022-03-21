@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per CrossCheck di kRevealLLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CrossCheck, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fbbc49d1aa1c0dd2f5acad1caf9c729f69540047
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: eec621105155589819b55ec3d8b94274b4e50e56
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255332"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542024"
 ---
 # <a name="crosscheck"></a>CrossCheck
 
@@ -33,14 +34,15 @@ Informazioni fornite da kRevealLLC a Microsoft:
 |:----------------|:-------------|
 | Nome app | CrossCheck |
 | ID | WA200003198 |
-| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versione successiva Windows |
+| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versioni successive Windows |
 | Nome società partner | kRevealLLC |
 | Sito Web aziendale | [https://kreveal.com](https://kreveal.com) |
 | Condizioni per l'uso dell'app | [https://crosscheck.krevealaddins.com/docs/license.htm](https://crosscheck.krevealaddins.com/docs/license.htm) |
 | Funzionalità di base dell'app | CrossCheck semplifica la revisione dei documenti e individua errori comuni di stesura. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://admin.krevealaddins.com/help](https://admin.krevealaddins.com/help) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Queste informazioni sono state fornite da kRevealLLC su come questa app raccogli
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -163,9 +158,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| openid | application | Non vengono raccolti o utilizzati dati. | [5edad654-f2d5-41d8-bfc0-92c2735252e1](https://docs.microsoft.com/microsoft-365-app-certification/azure/5edad654-f2d5-41d8-bfc0-92c2735252e1) |
+>| openid | application | Non vengono raccolti o utilizzati dati. | [5edad654-f2d5-41d8-bfc0-92c2735252e1](../azure/5edad654-f2d5-41d8-bfc0-92c2735252e1.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

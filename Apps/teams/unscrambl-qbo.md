@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per qbo di Unscrambl
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per qbo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f48255e8f29512bfc18a9d9c1a3d079829d31769
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a02dec60c2eb9ab25fce28ac45271629b4700011
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148345"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542684"
 ---
 # <a name="qbo"></a>qbo
 
@@ -40,7 +41,7 @@ Informazioni fornite da Unscrambl a Microsoft:
 | Condizioni per l'uso dell'app | [https://qbo.ai/legal/#service](https://qbo.ai/legal/#service) |
 | Funzionalità di base dell'app | qbo, alimentato da informazioni dettagliate qbo unscrambl, rende l'analisi conversazionale usando NLP di livello migliore. Gli utenti digitano una domanda e qbo mostra le informazioni e le visualizzazioni più rilevanti in un attimo. Gli utenti possono collaborare attivamente con i colleghi, prendere decisioni e acquisire risultati nelle bacheche pronte per la presentazione. qbo consente a tutti gli utenti dell'organizzazione di prendere decisioni guidate da dati. qbo si connette direttamente a un'ampia gamma di origini cloud o locali ed è possibile accedervi tramite Microsoft Teams o un browser. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://qbo.ai](https://qbo.ai) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da Unscrambl sul modo in cui questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

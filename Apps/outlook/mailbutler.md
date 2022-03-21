@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Mailbutler di Mailbutler
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Mailbutler, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Mailbutler, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a2ddc871a1be8a15f2f1de222349b8a80f224ddd
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 9b3ff23c3e8a8f27c53101116930f73f456f1d34
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200750"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540924"
 ---
 # <a name="mailbutler"></a>Mailbutler
 
@@ -39,7 +40,7 @@ Informazioni fornite da Mailbutler a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.mailbutler.io/terms-and-conditions](https://www.mailbutler.io/terms-and-conditions) |
 | Funzionalità di base dell'app | Mailbutler è il plug-in di posta elettronica che offre tutto il necessario per ottimizzare la produttività e mantenere la posta elettronica sul punto. Mailbutler offre numerose funzionalità utili per aumentare la produttività a cui è possibile accedere direttamente nella posta in arrivo. Le sue funzionalità consentono di migliorare la comunicazione con i clienti, rimanere sul marchio, ottimizzare il gioco di posta elettronica e molto altro ancora. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.mailbutler.io](https://www.mailbutler.io) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 
@@ -73,7 +74,7 @@ Queste informazioni sono state fornite da Mailbutler su come questa app raccogli
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

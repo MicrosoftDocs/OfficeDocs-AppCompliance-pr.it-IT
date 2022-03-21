@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per MindMup di Sauf Pompiers Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per MindMup, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 444684a90c21789306ab4efcfddeb7c40e5dbef1
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 45b9d14a0a5c1098769bbf456d793f01c47ca33b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256484"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543394"
 ---
 # <a name="mindmup"></a>MindMup
 
@@ -40,8 +41,9 @@ Informazioni fornite da Sauf Pompiers Ltd a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.mindmup.com/resources/terms_mindmup.html](https://www.mindmup.com/resources/terms_mindmup.html) |
 | Funzionalità di base dell'app | MindMup consente agli utenti di visualizzare facilmente le idee usando mappe mentali, diagrammi di ragno, mappe concettuali, visualizzazioni di argomenti e grafici gerarchici. |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.mindmup.com/tutorials/microsoft-teams.html](https://www.mindmup.com/tutorials/microsoft-teams.html) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Sauf Pompiers Ltd su come questa app r
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,10 +159,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Teams. ReadBasic.All | delegated | identificatori del team e nomi dei team per gli utenti | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
->| User.Read | delegated | Identificatore utente, indirizzo di posta elettronica da visualizzare dopo l'autenticazione | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
+>| Teams. ReadBasic.All | delegated | identificatori del team e nomi dei team per gli utenti | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](../azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2.md) |
+>| User.Read | delegated | Identificatore utente, indirizzo di posta elettronica da visualizzare dopo l'autenticazione | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](../azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Application Information for Map Pro by Witivio
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Map Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f2c2f42e39532b69cfbe3638b9ff6f3064658de4
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 45c418313420adbda7d9105383157a64025465bb
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255412"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541554"
 ---
 # <a name="map-pro"></a>Mapping Pro
 
@@ -38,9 +39,9 @@ Informazioni fornite da Witivio a Microsoft:
 | Nome società partner | Witivio |
 | Sito Web aziendale | [https://www.witivio.com](https://www.witivio.com) |
 | Condizioni per l'uso dell'app | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
-| Funzionalità di base dell'app | Map Pro è un'applicazione per Microsoft Teams che visualizza una mappa in uno dei canali. |
+| Funzionalità di base dell'app | Map Pro è un'applicazione per Microsoft Teams che visualizza una mappa in uno qualsiasi dei canali. |
 | Sede centrale dell'azienda | Francia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.teams-pro.com/en/browse-apps/map-pro/](https://www.teams-pro.com/en/browse-apps/map-pro/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -168,13 +169,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
->| email | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
->| offline_access | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
->| openid | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
->| profile | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
+>| User.Read | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](../azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md) |
+>| email | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](../azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md) |
+>| offline_access | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](../azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md) |
+>| openid | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](../azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md) |
+>| profile | delegated | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](../azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Aula Digital di Leya, S.A.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Aula Digital, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Aula Digital, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6e5818a824ee7c0f7da7594c606c5a8004a1c1fa
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 039f65d0437eebd650530673fa8b113dc4751121
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264426"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542224"
 ---
 # <a name="aula-digital"></a>Aula Digital
 
@@ -40,8 +41,9 @@ Informazioni fornite da Leya, S.A. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.leyaeducacao.com/termos_e_condicoes](https://www.leyaeducacao.com/termos_e_condicoes) |
 | Funzionalità di base dell'app | Acesso aos manuais da LeYa Educa&#231;&#227;o e a milhares de recursos. Aprender &#233; Incr&#237;vel! |
 | Sede centrale dell'azienda | Portogallo |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://auladigital.leya.com](https://auladigital.leya.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Leya, S.A. su come questa app raccogli
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,9 +159,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Nome tramite posta elettronica dell'utente. Creazione dell'account. | [e74c5e65-902b-4c5f-a618-f24996f7b20c](https://docs.microsoft.com/microsoft-365-app-certification/azure/e74c5e65-902b-4c5f-a618-f24996f7b20c) |
+>| User.Read | delegated | Nome tramite posta elettronica dell'utente. Creazione dell'account. | [e74c5e65-902b-4c5f-a618-f24996f7b20c](../azure/e74c5e65-902b-4c5f-a618-f24996f7b20c.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

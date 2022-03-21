@@ -2,18 +2,19 @@
 title: Application Information for Fireflies AI by Fireflies.ai
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Fireflies AI, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Fireflies AI, i suoi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: adee5bd0237d8ff81f22cee03a7e505943df83be
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: adb01db25dd012daa05e231121cc98cd2d97bc2e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155443"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541744"
 ---
 # <a name="fireflies-ai"></a>Fireflies AI
 
@@ -40,7 +41,7 @@ Informazioni fornite da Fireflies.ai a Microsoft:
 | Condizioni per l'uso dell'app | [https://fireflies.ai/terms-of-service.pdf](https://fireflies.ai/terms-of-service.pdf) |
 | Funzionalità di base dell'app | Fireflies è un assistente per le riunioni che registra, trascrive e prende appunti dalle riunioni.
 
- | | Sede centrale aziendale | Stati Uniti d'America | | Pagina info app | | | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas | | Quali provider di cloud di hosting usa l'app? | GCP |
+ | | Sede centrale aziendale | Stati Uniti d'America | | Pagina info app | [https://app.fireflies.ai/integrations/collaboration/microso...](https://app.fireflies.ai/integrations/collaboration/microsoft-teams) | | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas | | Quali provider di cloud di hosting usa l'app? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

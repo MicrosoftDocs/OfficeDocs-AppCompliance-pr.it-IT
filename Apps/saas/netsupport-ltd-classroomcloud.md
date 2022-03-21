@@ -2,18 +2,19 @@
 title: Application Information for Classroom.cloud by NETSUPPORT LTD.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Classroom.cloud, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4e7fce8118f65a9fb01153baa2ccef8a1282df3c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0c3ea969681ec5139ed762346729bcf444d2f4b7
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260827"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540664"
 ---
 # <a name="classroomcloud"></a>Classroom.cloud
 
@@ -38,9 +39,8 @@ Informazioni fornite da NETSUPPORT LTD. a Microsoft:
 | Condizioni per l'uso dell'app | [https://classroom.cloud/terms-of-service/](https://classroom.cloud/terms-of-service/) |
 | Funzionalità di base dell'app | Gestione delle classi, istruzione e sicurezza online basata su cloud a basso costo per scuole e distretti.  |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.classroom.cloud](https://www.classroom.cloud) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -168,14 +168,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
->| ChannelMessage.Read.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
->| ChannelSettings.Read.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
->| Chat.Read.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
->| Directory.Read.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
->| Team.ReadBasic.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| Channel.ReadBasic.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
+>| ChannelMessage.Read.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
+>| ChannelSettings.Read.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
+>| Chat.Read.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
+>| Directory.Read.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
+>| Team.ReadBasic.All | application | Usato per Teams'integrazione da classroom.cloud per fornire il monitoraggio della sicurezza online delle chat degli studenti. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

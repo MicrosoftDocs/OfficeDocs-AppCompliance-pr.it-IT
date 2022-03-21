@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Optmyzr di Optmyzr
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Optmyzr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Optmyzr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2148921184a437b4abedc7c68ff257389df6c1d0
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 9db6120ea0f998f2875f9f30686079bd4f752af9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148998"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542164"
 ---
 # <a name="optmyzr"></a>Optmyzr
 
@@ -40,7 +41,7 @@ Informazioni fornite da Optmyzr a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.optmyzr.com/information/terms-of-use/](https://www.optmyzr.com/information/terms-of-use/) |
 | Funzionalità di base dell'app | https://www.optmyzr.com/information/terms-of-use/ |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.optmyzr.com/capabilities/reporting/](https://www.optmyzr.com/capabilities/reporting/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 

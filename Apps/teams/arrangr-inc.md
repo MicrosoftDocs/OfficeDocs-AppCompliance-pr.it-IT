@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Arrangr di Arrangr, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Arrangr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Arrangr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1f1798cd6741c6cafdd33defe8b8e713ac58eab5
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 01efc28d2ed0fc6c4510124d7a040beff7fe4c4e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155339"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540614"
 ---
 # <a name="arrangr"></a>Arrangr
 
@@ -40,7 +41,7 @@ Informazioni fornite da Arrangr, Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://arrangr.com/terms_of_use](https://arrangr.com/terms_of_use) |
 | Funzionalità di base dell'app | Arrangr è un'utilità di pianificazione integrata intelligente per qualsiasi riunione. Sia di persona che da remoto, 1:1 o con un gruppo, Arrangr è semplice e veloce. Arrangr si integra con i calendari Microsoft per bloccare facilmente e rapidamente gli orari di attività, aiutare a visualizzare la pianificazione e assicurarsi che le riunioni siano inserite nel calendario. Inoltre, l'integrazione di Teams consente di condividere facilmente gli inviti con i membri del team, avviare nuove riunioni all'interno di Teams e tenere traccia delle riunioni di Arrangr dall'interno di una scheda Teams. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://arrangr.com/welcome](https://arrangr.com/welcome) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | GCP |
 

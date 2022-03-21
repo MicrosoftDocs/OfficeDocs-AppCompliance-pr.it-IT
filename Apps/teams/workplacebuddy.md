@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per WorkplaceBuddy di WorkplaceBuddy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per WorkplaceBuddy, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per WorkplaceBuddy, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ba96ce620f58ccc26067da6fee9b2e3b68c5667d
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ef5a4cc2333c4e9ec434733306606661caa10c4a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264082"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543334"
 ---
 # <a name="workplacebuddy"></a>WorkplaceBuddy
 
@@ -40,8 +41,9 @@ Informazioni fornite da WorkplaceBuddy a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.workplacebuddy.com/terms-of-use.pdf](https://www.workplacebuddy.com/terms-of-use.pdf) |
 | Funzionalità di base dell'app | WorkplaceBuddy consente di diventare più produttivi |
 | Sede centrale dell'azienda | Paesi Bassi (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.workplacebuddy.com](https://www.workplacebuddy.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da WorkplaceBuddy su come questa app racc
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,12 +159,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | delegated | Questi dati vengono sincronizzati per consentire alle schede di WorkplaceBuddy Teams di lavorare e per selezionare utenti specifici con il chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| Group.Read.All | delegated | Questi dati vengono sincronizzati per consentire alle schede di WorkplaceBuddy Teams di lavorare e per selezionare utenti specifici con il chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| User.Read | delegated | Questi dati vengono sincronizzati per consentire agli utenti di accedere | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| User.ReadBasic.All | delegated | Questi dati vengono sincronizzati per consentire agli utenti di accedere | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
+>| Directory.Read.All | delegated | Questi dati vengono sincronizzati per consentire alle schede di WorkplaceBuddy Teams di lavorare e per selezionare utenti specifici con il chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| Group.Read.All | delegated | Questi dati vengono sincronizzati per consentire alle schede di WorkplaceBuddy Teams di lavorare e per selezionare utenti specifici con il chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| User.Read | delegated | Questi dati vengono sincronizzati per consentire agli utenti di accedere | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| User.ReadBasic.All | delegated | Questi dati vengono sincronizzati per consentire agli utenti di accedere | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

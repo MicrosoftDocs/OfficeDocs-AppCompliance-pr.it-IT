@@ -2,18 +2,19 @@
 title: Application Information for neopolis by neopolis GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Neopolis, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Neopolis, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 523bfae98742757ae12b6fd4f340c18c1f8f5f17
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: ef89b548aae7084dc975b03fb5fef1df1f893527
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148825"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541544"
 ---
 # <a name="neopolis"></a>neopoli
 
@@ -39,7 +40,7 @@ Informazioni fornite da Neopolis GmbH a Microsoft:
 | Condizioni per l'uso dell'app | [https://app.termly.io/document/terms-of-use-for-saas/655330...](https://app.termly.io/document/terms-of-use-for-saas/655330e8-5787-47b4-8957-90006db46c80) |
 | Funzionalità di base dell'app | Professionelle Textdokumente parallel schreiben, &#252;berarbeiten und versionieren. Wir wenden das in der Softwareentwicklung etablierte Git-Prinzip auf die kollaborative Bearbeitung professioneller Textdokumente an. Unser Word Plug-in erm&#246;glicht parallele und kontrollierte Zusammenarbeit, ohne dass bestehende Prozesse oder Software umgestellt werden m&#252;ssen. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://neopol.is](https://neopol.is) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -56,14 +57,7 @@ Queste informazioni sono state fornite da neopolis GmbH su come questa app racco
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

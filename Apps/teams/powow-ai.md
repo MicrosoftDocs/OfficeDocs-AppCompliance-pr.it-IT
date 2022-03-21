@@ -2,18 +2,19 @@
 title: Application Information for Powow by Powow AI
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Powow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Powow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f7c17510645c2c7b2fc25014e328b1dcefe0f06f
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: cd622100438c6006083e38e65e83e1c986ebf358
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254752"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541614"
 ---
 # <a name="powow"></a>Powow
 
@@ -40,7 +41,7 @@ Informazioni fornite da Powow AI a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.powow.ai/legal/tos.pdf](https://www.powow.ai/legal/tos.pdf) |
 | Funzionalità di base dell'app | Powow è una piattaforma SaaS che sfrutta la potenza dell'IA nelle riunioni aziendali. Usa algoritmi di intelligenza artificiale proprietari per trascrivere e analizzare le riunioni, trasformandole in informazioni utili. Powow consente al personale dell'organizzazione di partecipare a un numero minore di riunioni, guadagnando al contempo la produttività attraverso l'individuazione, l'analisi e la collaborazione delle riunioni. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://powow-ai.zendesk.com/hc/en-us](https://powow-ai.zendesk.com/hc/en-us) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure, GCP |
 
@@ -168,15 +169,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ExternalItem.ReadWrite.All | application | Utilizzato per il connettore di ricerca (funzionalità per il push dei dati di Powow negli indici Microsoft per la ricerca in servizi Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| User.Read | delegated | Accedere e leggere il profilo utente per la registrazione e l'accesso | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| User.Read.All | application | Utilizzato per il connettore di ricerca (funzionalità per il push dei dati di Powow negli indici Microsoft per la ricerca in servizi Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| email | delegated | Visualizzare l'indirizzo di posta elettronica degli utenti per la registrazione e l'accesso | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| offline_access | delegated | Per accedere ai dati dell'utente all'interno dell'applicazione (tenere traccia degli aggiornamenti del calendario) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| openid | delegated | Accedere agli utenti | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| profile | delegated | Per accedere alle informazioni di base del profilo degli utenti per la registrazione | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| ExternalItem.ReadWrite.All | application | Utilizzato per il connettore di ricerca (funzionalità per il push dei dati di Powow negli indici Microsoft per la ricerca servizi Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| User.Read | delegated | Accedere e leggere il profilo utente per la registrazione e l'accesso | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| User.Read.All | application | Utilizzato per il connettore di ricerca (funzionalità per il push dei dati di Powow negli indici Microsoft per la ricerca servizi Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| email | delegated | Visualizzare l'indirizzo di posta elettronica degli utenti per la registrazione e l'accesso | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| offline_access | delegated | Per accedere ai dati dell'utente all'interno dell'applicazione (tenere traccia degli aggiornamenti del calendario) | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| openid | delegated | Accedere agli utenti | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| profile | delegated | Per accedere alle informazioni di base del profilo degli utenti per la registrazione | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

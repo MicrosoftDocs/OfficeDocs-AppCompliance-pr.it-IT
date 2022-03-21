@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Moneypenny di CALLITECH LIMITED
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Moneypenny, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f40e36c1025e03a250505be381ff811dce0aa95b
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 4b7e370285a211225c888b1796e20c89453fc1a3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255822"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540594"
 ---
 # <a name="moneypenny"></a>Moneypenny
 
@@ -38,7 +39,7 @@ Informazioni fornite da CALLITECH LIMITED a Microsoft:
 | Nome società partner | CALLITECH LIMITED |
 | Sito Web aziendale | [https://www.moneypenny.com](https://www.moneypenny.com) |
 | Condizioni per l'uso dell'app | [https://www.moneypenny.com/uk/microsoft-teams-terms-and-con...](https://www.moneypenny.com/uk/microsoft-teams-terms-and-conditions/) |
-| Funzionalità di base dell'app | La funzionalità di base dell'app consente agli Teams di eseguire l'onboardmento delle organizzazioni per ricevere chiamate da Moneypenny tramite un bot |
+| Funzionalità di base dell'app | La funzionalità di base dell'app consente Teams utenti di eseguire l'onboardboard delle organizzazioni per ricevere chiamate da Moneypenny tramite un bot |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -168,10 +169,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calls.AccessMedia.All | application | Per trasmettere elementi multimediali dal bot all'Teams utente | [8277a51c-3ad6-446c-9b7e-e3f6e27257c1](https://docs.microsoft.com/microsoft-365-app-certification/azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1) |
->| Calls.Initiate.All | application | Per effettuare una chiamata a un Teams utente tramite un bot | [8277a51c-3ad6-446c-9b7e-e3f6e27257c1](https://docs.microsoft.com/microsoft-365-app-certification/azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1) |
+>| Calls.AccessMedia.All | application | Per trasmettere elementi multimediali dal bot all'Teams utente | [8277a51c-3ad6-446c-9b7e-e3f6e27257c1](../azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1.md) |
+>| Calls.Initiate.All | application | Per effettuare una chiamata a un Teams utente tramite un bot | [8277a51c-3ad6-446c-9b7e-e3f6e27257c1](../azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

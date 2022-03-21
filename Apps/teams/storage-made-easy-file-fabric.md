@@ -1,19 +1,20 @@
 ---
-title: Application Information for File Fabric by Archiviazione Made Easy
+title: Informazioni sull'applicazione per File Fabric Archiviazione facile
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per File Fabric, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7000bee22c385c2c4909d60c7c7db13e81e83181
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c39801f2fdaa87790782b310a0121492d8cd07ef
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260412"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542784"
 ---
 # <a name="file-fabric"></a>File Fabric
 
@@ -40,8 +41,9 @@ Informazioni fornite da Archiviazione reso facile da Microsoft:
 | Condizioni per l'uso dell'app | [https://www.storagemadeeasy.com/terms](https://www.storagemadeeasy.com/terms) |
 | Funzionalità di base dell'app | Cercare, esplorare, modificare e condividere file archiviati in File di Azure, blob di Azure Archiviazione e altro spazio di archiviazione. |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://docs.storagemadeeasy.com/microsoft-teams](https://docs.storagemadeeasy.com/microsoft-teams) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | SelfHosted, Azure, AWS, GCP, IBMCloud, Gli utenti possono connettersi con Wasabi, Backblaze, Cloudian, Dropbox, Box.com, Salesforce, S3-Compatible, FTP e WebDAV |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,19 +53,12 @@ Informazioni fornite da Archiviazione reso facile da Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Archiviazione Facilità su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Archiviazione In modo semplice su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 2 settimana |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,10 +159,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite | application | Dati dei file letti o scritti quando l'utente scarica, carica o modifica i file specificati tramite l'app. | [0752d800-857f-49bd-87eb-e60985516c67](https://docs.microsoft.com/microsoft-365-app-certification/azure/0752d800-857f-49bd-87eb-e60985516c67) |
->| Sites.ReadWrite.All | application | Metadati raccolti per tutti gli utenti&#8217;file e cartelle che forniscono la visualizzazione federata in tutti i servizi file. | [0752d800-857f-49bd-87eb-e60985516c67](https://docs.microsoft.com/microsoft-365-app-certification/azure/0752d800-857f-49bd-87eb-e60985516c67) |
+>| Files.ReadWrite | application | Dati dei file letti o scritti quando l'utente scarica, carica o modifica i file specificati tramite l'app. | [0752d800-857f-49bd-87eb-e60985516c67](../azure/0752d800-857f-49bd-87eb-e60985516c67.md) |
+>| Sites.ReadWrite.All | application | Metadati raccolti per tutti gli utenti&#8217;file e cartelle che forniscono la visualizzazione federata in tutti i servizi file. | [0752d800-857f-49bd-87eb-e60985516c67](../azure/0752d800-857f-49bd-87eb-e60985516c67.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

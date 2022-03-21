@@ -2,18 +2,19 @@
 title: Application Information for timeghost - Time tracking by K&#246;llisch GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per timeghost - Monitoraggio del tempo, criteri di gestione dei dati, informazioni sul catalogo app Microsoft Cloud App Security e informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per timeghost - Monitoraggio del tempo, criteri di gestione dei dati, informazioni sul catalogo app Microsoft Cloud App Security e informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e775eb831504c69d8aa20adfe2686b8e6a10469c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 9852b64e11aace1e68330a17f22cd92dcdaa6051
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264252"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541634"
 ---
 # <a name="timeghost---time-tracking"></a>timeghost - Time tracking
 
@@ -40,8 +41,9 @@ Informazioni fornite da K&#246;llisch GmbH a Microsoft:
 | Condizioni per l'uso dell'app | [https://timeghost.io/terms-and-conditions/](https://timeghost.io/terms-and-conditions/) |
 | Funzionalità di base dell'app | Timeghost è lo strumento di monitoraggio del tempo progettato in modo specifico per Office 365. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://timeghost.io](https://timeghost.io) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da K&#246;llisch GmbH su come questa app 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 2 settimana |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,14 +159,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | delegated | Titel, Startdatum, Enddatum, ID | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| People.Read | delegated | E-Mail-Adresse | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| User.Read | delegated | Vorname, Nachname, E-Mail-Adresse, Organisation, Telefonnummer, Rolle, Sprache, Location | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| User.ReadBasic.All | delegated | Um das Profilbild anzuzeigen. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| openid | delegated | ID  | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
->| profile | delegated | Vorname, Nachname, E-Mail-Adresse, Organisation, Telefonnummer, Rolle, Sprache, Location | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99) |
+>| Calendars.Read | delegated | Titel, Startdatum, Enddatum, ID | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| People.Read | delegated | E-Mail-Adresse | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| User.Read | delegated | Vorname, Nachname, E-Mail-Adresse, Organisation, Telefonnummer, Rolle, Sprache, Location | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| User.ReadBasic.All | delegated | Um das Profilbild anzuzeigen. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| openid | delegated | ID  | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| profile | delegated | Vorname, Nachname, E-Mail-Adresse, Organisation, Telefonnummer, Rolle, Sprache, Location | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

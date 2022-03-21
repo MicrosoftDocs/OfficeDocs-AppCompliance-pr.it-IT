@@ -2,18 +2,19 @@
 title: Application Information for Email TeamMate by harmon.ie
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Email TeamMate, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7e076f074f670c64726c2f7304da8956de976a56
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7224ee3e7a964ceff6b4edce02634bef6e3716c0
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264431"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541664"
 ---
 # <a name="email-teammate"></a>Email TeamMate
 
@@ -38,10 +39,11 @@ Informazioni fornite da harmon.ie a Microsoft:
 | Nome società partner | harmon.ie |
 | Sito Web aziendale | [https://harmon.ie](https://harmon.ie) |
 | Condizioni per l'uso dell'app | [https://harmon.ie/legal/teammate-eula](https://harmon.ie/legal/teammate-eula) |
-| Funzionalità di base dell'app | Aggiungere messaggi di posta elettronica Microsoft Teams conversazioni con Email TeamMate  |
+| Funzionalità di base dell'app | Aggiungere messaggi di posta elettronica a Microsoft Teams conversazioni con Email TeamMate  |
 | Sede centrale dell'azienda | Israele |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://harmon.ie](https://harmon.ie) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da harmon.ie su come questa app raccoglie
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,14 +159,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Chat.Read | delegated | Richiesto da TeamMate per ottenere i membri della chat di una conversazione specifica per condividere i file di salvataggio in SharePoint/Un'unità con i membri della chat di conversazione | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Files.ReadWrite.All | delegated | Richiesto da TeamMate per salvare gli allegati di posta &amp; elettronica in SharePoint/Teams/OneDrive | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Mail.ReadWrite | delegated | Richiesto da TeamMate per visualizzare i messaggi di posta elettronica dell'utente e per rispondere ai messaggi di posta elettronica salvati in Teams | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| People.Read | delegated | Richiesto da TeamMate per cercare i messaggi di posta elettronica delle persone e per suggerire le persone che si stanno contattando di frequente. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| User.Read | delegated | consente agli utenti di accedere a TeamMate con il proprio account e consente a TeamMate di visualizzare le informazioni di base del profilo utente | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| User.ReadBasic.All | delegated | Richiesto da TeamMate per risolvere gli indirizzi di posta elettronica dei membri della chat in modo che i file di condivisione salvati OneDrive con loro  | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Chat.Read | delegated | Richiesto da TeamMate per ottenere i membri della chat di una conversazione specifica per condividere i file di salvataggio in SharePoint/Un'unità con i membri della chat di conversazione | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| Files.ReadWrite.All | delegated | Richiesto da TeamMate per salvare gli allegati di posta &amp; elettronica in SharePoint / Teams / OneDrive | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| Mail.ReadWrite | delegated | Richiesto da TeamMate per visualizzare i messaggi di posta elettronica dell'utente e per rispondere ai messaggi salvati in Teams | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| People.Read | delegated | Richiesto da TeamMate per cercare i messaggi di posta elettronica delle persone e per suggerire le persone che si stanno contattando di frequente. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| User.Read | delegated | consente agli utenti di accedere a TeamMate con il proprio account e consente a TeamMate di visualizzare le informazioni di base del profilo utente | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| User.ReadBasic.All | delegated | Richiesto da TeamMate per risolvere gli indirizzi di posta elettronica dei membri della chat in modo che i file di condivisione salvati OneDrive con loro  | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

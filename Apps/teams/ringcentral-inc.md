@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per RingCentral di RingCentral, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per RingCentral, i relativi criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per RingCentral, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0c9e81e8365e3a581c72faf90df3897ade7fd2d7
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: da58c323863f2c9aa89cb7869a67648d0853bef8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259312"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542824"
 ---
 # <a name="ringcentral"></a>RingCentral
 
@@ -40,8 +41,9 @@ Informazioni fornite da RingCentral, Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.ringcentral.com/legal/last-update-October-15-20...](https://www.ringcentral.com/legal/last-update-October-15-2019/eulatos.html) |
 | Funzionalità di base dell'app | Avviare e partecipare a chiamate audio o video RingCentral con comandi bot rapidi e funzionalità di messaggistica. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.ringcentral.com/apps/ringcentral-for-microsoft-...](https://www.ringcentral.com/apps/ringcentral-for-microsoft-teams) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da RingCentral, Inc. Sul modo in cui ques
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,12 +159,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated |  Consente all'applicazione di inviare gli inviti alle riunioni tramite il calendario | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
->| offline_access | delegated |  Consente all'applicazione di ottenere e aggiornare il token oauth | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
->| User.Read | delegated |  Consente all'app di leggere un&#8217;di base (e-mail, nome) per fare corrispondenze di contatto alla fine. E consente all'utente di accedere e collegare il proprio account di O365 con l'account RingCentral | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
->| User.Read.All | delegated | Consente all'applicazione di leggere il profilo completo di un utente con numeri di telefono per effettuare chiamate telefoniche con i nostri servizi. | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| Calendars.ReadWrite | delegated |  Consente all'applicazione di inviare gli inviti alle riunioni tramite il calendario | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](../azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md) |
+>| offline_access | delegated |  Consente all'applicazione di ottenere e aggiornare il token oauth | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](../azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md) |
+>| User.Read | delegated |  Consente all'app di leggere un&#8217;di base (e-mail, nome) per fare corrispondenze di contatto alla fine. E consente all'utente di accedere e collegare il proprio account di O365 con l'account RingCentral | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](../azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md) |
+>| User.Read.All | delegated | Consente all'applicazione di leggere il profilo completo di un utente con numeri di telefono per effettuare chiamate telefoniche con i nostri servizi. | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](../azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Application Information for Weet Screen Recording by FYZ SERVICES
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per weet screen recording, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per weet screen recording, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ef14a2413b4ac54eca60bc5ca6a825f33b2d6f19
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a1234fd444d8a51b28ddb1ea99e1208edbebc35e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257792"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544004"
 ---
 # <a name="weet-screen-recording"></a>Weet Screen Recording
 
@@ -41,8 +42,9 @@ Informazioni fornite da FYZ SERVICES a Microsoft:
 | Funzionalità di base dell'app | Weet, il primo registratore video collaborativo &amp; 
 Registrazione dello schermo semplice, gratuita e illimitata |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://weet.co/weet-teams-integration/](https://weet.co/weet-teams-integration/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | GCP, AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,14 +59,7 @@ Queste informazioni sono state fornite da FYZ SERVICES su come questa app raccog
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,14 +160,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsAppInstallation.ReadWriteSelfForUser.All | delegated | Consenti di rilevare se l'app weet è già installata | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| User.Read | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| User.ReadBasic.All | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| offline_access | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| openid | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| profile | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | delegated | Consenti di rilevare se l'app weet è già installata | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
+>| User.Read | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
+>| User.ReadBasic.All | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
+>| offline_access | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
+>| openid | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
+>| profile | delegated | Non raccogliamo dati, ma usiamo la posta elettronica solo per aiutare l'utente con la funzionalità di completamento automatico | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

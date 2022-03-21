@@ -2,12 +2,19 @@
 title: Informazioni sull'applicazione per 365Projects di 365Apps
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Tutte le informazioni di sicurezza e conformità disponibili per 365Projects, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per 365Projects, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 6a55ea670ee4fa1a1aed5c0968d477245e2a5712
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541344"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -35,7 +42,7 @@ Informazioni fornite da 365Apps a Microsoft:
 | Funzionalità di base dell'app | Riunire i progetti &amp; Microsoft Teams
 Crea Project,connettilo al canale esistente/nuovo |
 | Sede centrale dell'azienda | Australia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://365projects.app](https://365projects.app) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -150,7 +157,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -162,8 +169,8 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Tasks.ReadWrite | delegated | leggere e aggiornare le attività della pianificazione | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
->| User.Read | delegated | leggere la posta elettronica dell'utente | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Tasks.ReadWrite | delegated | leggere e aggiornare le attività della pianificazione | [99a0a9b1-5d28-45df-9f99-792aa32795f4](../azure/99a0a9b1-5d28-45df-9f99-792aa32795f4.md) |
+>| User.Read | delegated | leggere la posta elettronica dell'utente | [99a0a9b1-5d28-45df-9f99-792aa32795f4](../azure/99a0a9b1-5d28-45df-9f99-792aa32795f4.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

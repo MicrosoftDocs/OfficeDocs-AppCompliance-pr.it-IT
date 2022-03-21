@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per WorkInSync da MoveInSync
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per WorkInSync, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per WorkInSync, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: aa528136089b1ff6e54f24a82a0184bef58ee233
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: e8620c57d74d71649ed418f08fd8e634c7de47d6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255652"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543594"
 ---
 # <a name="workinsync"></a>WorkInSync
 
@@ -40,8 +41,9 @@ Informazioni fornite da MoveInSync a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.workinsync.io/terms-and-condition/](https://www.workinsync.io/terms-and-condition/) |
 | Funzionalità di base dell'app | WorkInSync consente alle organizzazioni di pianificare facilmente l'esecuzione &amp; di un modello di prenotazione da tavolo flessibile per l'ufficio.  Come dipendente è possibile: - Creare e gestire prenotazioni da tavolo - Clock-in &amp; quando si lavora dall'ora di casa alla fine della giornata Come manager - Si viene informati dei piani di clockin/clockouts &amp; dei membri del team Nella scheda Attività del team che è possibile installare in un contesto di canale, è possibile - Vedere dove l'intero team &amp; sta lavorando dalla loro presenza - Cercare un collega specifico nell'organizzazione |
 | Sede centrale dell'azienda | India |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.workinsync.io/teams-app-for-workinsync/](https://www.workinsync.io/teams-app-for-workinsync/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da MoveInSync sul modo in cui questa app 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,18 +160,18 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | delegated | 1. Per ottenere i dettagli dei membri del gruppo transitivi. Vengono usati nella scheda Attività del team quando vengono installati nel contesto del canale. 2. Per ottenere l'elenco dei dettagli del profilo utente connesso &amp;  degli utenti nell'organizzazione. Vengono usati quando la scheda Attività del team viene installata nel contesto personale, come fall back per visualizzare l'anteprima dei membri del team in caso di errore dell'API degli utenti (utenti non outlook) | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| People.Read | delegated | Per far in modo che le persone più correlate all'utente connesso siano mostrate nella scheda Attività del team viene installata nel contesto personale. | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| Presence.Read | delegated | Per ottenere informazioni sulla presenza di un elenco di utenti nella scheda Attività del team sia nel contesto personale che nel contesto del canale | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| Presence.Read.All | delegated | Per ottenere informazioni sulla presenza di un elenco di utenti nella scheda Attività del team sia nel contesto personale che nel contesto del canale | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| User.Read.All | application | Usato per ottenere informazioni sul responsabile della segnalazione di qualsiasi utente per inviare notifiche di prenotazione e archiviazione/estrazione al responsabile | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| User.ReadBasic.All | delegated | Usato per leggere la foto del profilo del dipendente | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| email | delegated | Necessario per ottenere il token SSO tramite Teams client | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| offline_access | delegated | Necessario per ottenere il token SSO tramite Teams client | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| openid | delegated | Necessario per ottenere il token SSO tramite Teams client | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| profile | delegated | Necessario per ottenere il token SSO tramite Teams client | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| Directory.Read.All | delegated | 1. Per ottenere i dettagli dei membri del gruppo transitivi. Vengono usati nella scheda Attività del team quando vengono installati nel contesto del canale. 2. Per ottenere l'elenco dei dettagli del profilo utente connesso &amp;  degli utenti nell'organizzazione. Vengono usati quando la scheda Attività del team viene installata nel contesto personale, come fall back per visualizzare l'anteprima dei membri del team in caso di errore dell'API degli utenti (utenti non outlook) | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| People.Read | delegated | Per far in modo che le persone più correlate all'utente connesso siano mostrate nella scheda Attività del team viene installata nel contesto personale. | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| Presence.Read | delegated | Per ottenere informazioni sulla presenza di un elenco di utenti nella scheda Attività del team sia nel contesto personale che nel contesto del canale | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| Presence.Read.All | delegated | Per ottenere informazioni sulla presenza di un elenco di utenti nella scheda Attività del team sia nel contesto personale che nel contesto del canale | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| User.Read.All | application | Usato per ottenere informazioni sul responsabile della segnalazione di qualsiasi utente per inviare notifiche di prenotazione e archiviazione/estrazione al responsabile | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| User.ReadBasic.All | delegated | Usato per leggere la foto del profilo del dipendente | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| email | delegated | Necessario per ottenere il token SSO Teams libreria client | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| offline_access | delegated | Necessario per ottenere il token SSO Teams libreria client | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| openid | delegated | Necessario per ottenere il token SSO Teams libreria client | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| profile | delegated | Necessario per ottenere il token SSO Teams libreria client | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

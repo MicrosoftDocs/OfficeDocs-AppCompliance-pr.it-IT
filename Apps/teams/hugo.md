@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Hugo di Hugo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Hugo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 408d46c4352292e2c5ad4320675f0283fc65dc16
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d05c1839ed59c6308ab621f6e3114e262e6f4e4a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148856"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542974"
 ---
 # <a name="hugo"></a>Hugo
 
@@ -38,11 +39,10 @@ Informazioni fornite da Hugo a Microsoft:
 | Nome società partner | Hugo |
 | Sito Web aziendale | [https://www.hugo.team](https://www.hugo.team) |
 | Condizioni per l'uso dell'app | [https://www.hugo.team/terms](https://www.hugo.team/terms) |
-| Funzionalità di base dell'app | Hugo è un'unica posizione per riunioni, note e attività &#8211; per i team che usano Microsoft Teams. La piattaforma di prendere appunti incentrata sul calendario di Hugo offre a te e al tuo team una posizione centrale per le agende e le note, le attività e le azioni delle riunioni &#8211; tutti organizzati automaticamente dai contatti e dalle società incontrate e connessi alle oltre 20 app che usi ogni giorno. |
+| Funzionalità di base dell'app | Hugo è un'unica posizione per le riunioni, le note e le &#8211; progettate per i team che usano Microsoft Teams. La piattaforma di prendere appunti incentrata sul calendario di Hugo offre a te e al tuo team una posizione centrale per le agende e le note, le attività e le azioni &#8211; tutti organizzati automaticamente dai contatti e dalle società incontrate e connessi alle oltre 20 app che usi ogni giorno. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.hugo.team/teams](https://www.hugo.team/teams) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -74,7 +74,7 @@ Queste informazioni sono state fornite da Hugo su come questa app raccoglie e ar
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

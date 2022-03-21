@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Waldo by Kickle
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Waldo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Waldo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 026b0c789bde0a63b1db4fee93db57a7a8d0ce35
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 279776cc15292afad762ed37fd990113be9c353d
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259472"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542954"
 ---
 # <a name="waldo"></a>Waldo
 
@@ -40,8 +41,9 @@ Informazioni fornite da Kickle a Microsoft:
 | Condizioni per l'uso dell'app | [https://hellowaldo.app/terms-and-conditions](https://hellowaldo.app/terms-and-conditions) |
 | Funzionalità di base dell'app | Prenotazione da tavolo, prenotazione del parcheggio. Ufficio flessibile e compiti a casa resi semplici! |
 | Sede centrale dell'azienda | Francia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://hellowaldo.app/takeatour/](https://hellowaldo.app/takeatour/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Kickle su come questa app raccoglie e 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,13 +159,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Chat.ReadBasic | delegated | In base alla cronologia delle chat, Waldo identifica i colleghi. Questo elenco viene utilizzato in seguito per visualizzare lo stato nella visualizzazione calendario. | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
->| User.Read | delegated | Questa autorizzazione viene utilizzata dall'utente del componente di Microsoft Graph Toolkit | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
->| User.ReadBasic.All | delegated | Questa autorizzazione viene utilizzata dall'utente del componente di Microsoft Graph Toolkit | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
->| offline_access | delegated | Usato dall'app per eseguire attività in background per conto dell'utente (token di rinnovo per l'autenticazione) | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
->| openid | delegated | Obbligatorio per l'autenticazione | [c71a6f53-cf0c-426d-a826-cedae8b073f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/c71a6f53-cf0c-426d-a826-cedae8b073f7) |
+>| Chat.ReadBasic | delegated | In base alla cronologia delle chat, Waldo identifica i colleghi. Questo elenco viene utilizzato in seguito per visualizzare lo stato nella visualizzazione calendario. | [c71a6f53-cf0c-426d-a826-cedae8b073f7](../azure/c71a6f53-cf0c-426d-a826-cedae8b073f7.md) |
+>| User.Read | delegated | Questa autorizzazione viene utilizzata dall'utente del componente di Microsoft Graph Toolkit | [c71a6f53-cf0c-426d-a826-cedae8b073f7](../azure/c71a6f53-cf0c-426d-a826-cedae8b073f7.md) |
+>| User.ReadBasic.All | delegated | Questa autorizzazione viene utilizzata dall'utente del componente di Microsoft Graph Toolkit | [c71a6f53-cf0c-426d-a826-cedae8b073f7](../azure/c71a6f53-cf0c-426d-a826-cedae8b073f7.md) |
+>| offline_access | delegated | Usato dall'app per eseguire attività in background per conto dell'utente (token di rinnovo per l'autenticazione) | [c71a6f53-cf0c-426d-a826-cedae8b073f7](../azure/c71a6f53-cf0c-426d-a826-cedae8b073f7.md) |
+>| openid | delegated | Obbligatorio per l'autenticazione | [c71a6f53-cf0c-426d-a826-cedae8b073f7](../azure/c71a6f53-cf0c-426d-a826-cedae8b073f7.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

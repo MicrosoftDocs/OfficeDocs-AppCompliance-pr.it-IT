@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Hi5 di Hi5Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Hi5, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 534732a91e12817bcdce28524b3ecf4c8f179128
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a279eee6fac65e3df53e2884618babc658bf45fe
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255762"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542234"
 ---
 # <a name="hi5"></a>Hi5
 
@@ -38,10 +39,11 @@ Informazioni fornite da Hi5Technologies a Microsoft:
 | Nome società partner | Hi5Technologies |
 | Sito Web aziendale | [https://www.get5.io](https://www.get5.io) |
 | Condizioni per l'uso dell'app | [https://www.get5.io/terms](https://www.get5.io/terms) |
-| Funzionalità di base dell'app | Sblocca la cultura con il riconoscimento continuo e il feedback. Hi5 è un'app semplice e divertente per manager e colleghi per fornire il &amp; riconoscimento della ricezione. Qualcuno&#8217;fatto un ottimo lavoro? È&#8217;semplice: dai loro un Hi5 e condividi la celebrazione del successo! I membri del team possono fornire il riconoscimento peer-to-peer o del team, visualizzare la classifica Hi5 e molto altro ancora |
+| Funzionalità di base dell'app | Sblocca la cultura con il riconoscimento continuo e il feedback. Hi5 è un'app semplice e divertente per manager e colleghi per fornire il &amp; riconoscimento della ricezione. Qualcuno&#8217;fatto un ottimo lavoro? È&#8217;semplice: assegna loro un Hi5 e condividi la celebrazione del successo! I membri del team possono fornire il riconoscimento peer-to-peer o del team, visualizzare la classifica Hi5 e molto altro ancora |
 | Sede centrale dell'azienda | Sudafrica |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://help.get5.io](https://help.get5.io) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Hi5Technologies su come questa app rac
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,13 +159,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| email | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| offline_access | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| openid | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| profile | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| User.Read | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| email | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| offline_access | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| openid | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| profile | delegated | Vengono archiviate solo le informazioni sulla sessione degli utenti da Teams e l'utente deve approvarlo aggiungendo notifiche (possono rimuoverle in qualsiasi momento). Non vengono archiviate altre informazioni. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Application Information for Appraisd by Appraisd ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per la valutazione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: aef7e7c7ef26d85da076fa96680370ff764317c8
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: fbc07b6ccae0a429956d23ba054d2c0387c62082
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255018"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542364"
 ---
 # <a name="appraisd"></a>Appraisd
 
@@ -40,8 +41,9 @@ Informazioni fornite da Appraisd ltd. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.appraisd.com/terms](https://www.appraisd.com/terms) |
 | Funzionalità di base dell'app | Sovrapprezzo della cultura delle prestazioni con recensioni, obiettivi e feedback sulle prestazioni |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.appraisd.com](https://www.appraisd.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Appraisd ltd. sul modo in cui questa a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,11 +159,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| People.Read | delegated | La selezione utenti presenta all'utente un elenco dei membri del team. Ciò consente di supportare le funzionalità di base all'interno di Valutazione. | [4f037969-20ef-4a41-8330-422b7b115eb6](https://docs.microsoft.com/microsoft-365-app-certification/azure/4f037969-20ef-4a41-8330-422b7b115eb6) |
->| User.Read | delegated | L'indirizzo di posta elettronica dell'utente (upn) e l'ID utente vengono utilizzati per trovare l'utente all'interno di Valutazione e collegarlo al proprio account Teams utente. | [4f037969-20ef-4a41-8330-422b7b115eb6](https://docs.microsoft.com/microsoft-365-app-certification/azure/4f037969-20ef-4a41-8330-422b7b115eb6) |
->| User.ReadBasic.All | delegated | La selezione utenti presenta all'utente informazioni di base sul membro del team. Ciò consente di supportare le funzionalità di base all'interno di Valutazione. | [4f037969-20ef-4a41-8330-422b7b115eb6](https://docs.microsoft.com/microsoft-365-app-certification/azure/4f037969-20ef-4a41-8330-422b7b115eb6) |
+>| People.Read | delegated | La selezione utenti presenta all'utente un elenco dei membri del team. Ciò consente di supportare le funzionalità di base all'interno di Valutazione. | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
+>| User.Read | delegated | L'indirizzo di posta elettronica dell'utente (upn) e l'ID utente vengono utilizzati per trovare l'utente all'interno di Valutazione e collegarlo al Teams account. | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
+>| User.ReadBasic.All | delegated | La selezione utenti presenta all'utente informazioni di base sul membro del team. Ciò consente di supportare le funzionalità di base all'interno di Valutazione. | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per la tassonomia di Accuracy Software Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per la tassonomia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1106b9e00a94d133c167b04bb31e4bc71c060c73
-ms.sourcegitcommit: 0465c6dd3a2c42fb1fd785548654d5b7f2601adc
+ms.openlocfilehash: 3adb6387e276e8f6a9827262227bb759514eebde
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2022
-ms.locfileid: "62909068"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543744"
 ---
 # <a name="taxonomy"></a>Tassonomia
 
@@ -39,7 +40,7 @@ Informazioni fornite da Accuracy Software Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://accuracysoftware.ca/taxonomy-terms-of-service](https://accuracysoftware.ca/taxonomy-terms-of-service) |
 | Funzionalità di base dell'app | La tassonomia offre un modo efficace per gestire il piano di classificazione dei file, consentendo la collaborazione dei professionisti della messaggistica istantanea con le diverse parti interessate per creare, rivedere e pubblicare il piano file nell'intera organizzazione. Tassonomia Consente inoltre di generare l'esportazione di etichette di conservazione M365 che è possibile importare nel Centro conformità Microsoft e di esportare il piano di file in un formato di set di termini che è possibile importare nell'archivio termini di SharePoint. |
 | Sede centrale dell'azienda | Canada |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.accuracysoftware.ca/taxonomy-sharepoint-webpart/](https://www.accuracysoftware.ca/taxonomy-sharepoint-webpart/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Tenant SharePoint client |
 
@@ -58,7 +59,7 @@ Queste informazioni sono state fornite da Accuracy Software Inc. Su come questa 
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Dati di classificazione del piano di file |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Canada |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | No |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Non conservato |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | No |
@@ -71,7 +72,7 @@ Queste informazioni sono state fornite da Accuracy Software Inc. Su come questa 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per il ciclo in base ai flussi descrittivi
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Loop, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f8cada6257ed15ad8372eb3acffc53e3c94d2d54
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d0afe53f65cba8d0045f8b3506f7d20421e15dec
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250102"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541724"
 ---
 # <a name="loop"></a>Ciclo
 
@@ -40,7 +41,7 @@ Informazioni fornite da Flussi descrittivi a Microsoft:
 | Condizioni per l'uso dell'app | [https://friendlyflows.com/terms-of-use/](https://friendlyflows.com/terms-of-use/) |
 | Funzionalità di base dell'app | Riunire le persone al momento giusto per lavorare ai progetti. |
 | Sede centrale dell'azienda | Paesi Bassi (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://friendlyflows.com/loop/](https://friendlyflows.com/loop/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -168,11 +169,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Autenticazione | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
->| email | delegated | Registrazione | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
->| profile | delegated | Autenticazione | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
+>| User.Read | delegated | Autenticazione | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](../azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76.md) |
+>| email | delegated | Registrazione | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](../azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76.md) |
+>| profile | delegated | Autenticazione | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](../azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

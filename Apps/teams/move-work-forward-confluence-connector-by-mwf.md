@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per il connettore di confluenza da MWF tramite Sposta avanti lavoro
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Confluence Connector by MWF, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 21c6474d5b21537a4ff04705fd16b760d6698b73
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: aed26fd2aa3bc10316447f31e01e3fd53e0525b8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251032"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544324"
 ---
 # <a name="confluence-connector-by-mwf"></a>Connettore di confluenza di MWF
 
@@ -40,7 +41,7 @@ Informazioni fornite da Move Work Forward to Microsoft:
 | Condizioni per l'uso dell'app | [https://www.moveworkforward.com/license-agreement/eula](https://www.moveworkforward.com/license-agreement/eula) |
 | Funzionalità di base dell'app | L'integrazione finale della confluenza di Atlante con Microsoft Teams |
 | Sede centrale dell'azienda | Singapore |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.moveworkforward.com/product/microsoft-teams-con...](https://www.moveworkforward.com/product/microsoft-teams-confluence-connector) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da Move Work Forward su come questa app r
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,7 +66,7 @@ Queste informazioni sono state fornite da Move Work Forward su come questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,13 +160,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | Per ottenere l'elenco dei canali per le pagine di configurazione per l'invio di notifiche in un canale. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| Teams. ReadBasic.All | delegated | Per ottenere l'elenco dei team per le pagine di configurazione per l'invio di notifiche in un canale di un team. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| TeamsAppInstallation.ReadForTeam | delegated | Per individuare i team in cui è installato il connettore di confluenza | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| User.Read | delegated | Per leggere le informazioni di base sull'utente | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| email | delegated | Per migliorare il mapping degli account tra Microsoft e Atlassian | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| Channel.ReadBasic.All | delegated | Per ottenere l'elenco dei canali per le pagine di configurazione per l'invio di notifiche in un canale. | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| Teams. ReadBasic.All | delegated | Per ottenere l'elenco dei team per le pagine di configurazione per l'invio di notifiche in un canale di un team. | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| TeamsAppInstallation.ReadForTeam | delegated | Per individuare i team in cui è installato il connettore di confluenza | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| User.Read | delegated | Per leggere le informazioni di base sull'utente | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| email | delegated | Per migliorare il mapping degli account tra Microsoft e Atlassian | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

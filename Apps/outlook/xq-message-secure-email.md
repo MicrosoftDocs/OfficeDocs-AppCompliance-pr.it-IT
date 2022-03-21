@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per XQ Secure Email by XQ Message
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per la posta elettronica sicura XQ, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per la posta elettronica sicura XQ, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f8e2d47a08b3e85a2a273ea3700766d6f265d135
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c3d9800ad8e973663672c0262ce09d06b62e2471
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254152"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544544"
 ---
 # <a name="xq-secure-email"></a>XQ Secure Email
 
@@ -33,14 +34,15 @@ Informazioni fornite da XQ Message a Microsoft:
 |:----------------|:-------------|
 | Nome app | XQ Secure Email |
 | ID | WA200000090 |
-| Office 365 client supportati | Outlook 2016 o versioni successive su Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook su Android, Outlook sul web |
+| Office 365 client supportati | Outlook 2016 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook su Android, Outlook sul web |
 | Nome società partner | Messaggio XQ |
 | Sito Web aziendale | [https://xqmsg.co](https://xqmsg.co) |
 | Condizioni per l'uso dell'app | [https://xqmsg.com/terms.html](https://xqmsg.com/terms.html) |
-| Funzionalità di base dell'app | Proteggere tutte le comunicazioni &#8212; messaggi di posta elettronica ai file. |
+| Funzionalità di base dell'app | Proteggere tutte le comunicazioni &#8212; dai messaggi di posta elettronica ai file. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://xqmsg.co/about](https://xqmsg.co/about) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Queste informazioni sono state fornite da XQ Message sul modo in cui questa app 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

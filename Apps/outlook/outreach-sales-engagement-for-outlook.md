@@ -2,18 +2,19 @@
 title: Application Information for Outreach Sales Engagement for Outlook by Outreach
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Outreach Sales Engagement per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Outreach Sales Engagement per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 12b251dafba5d1678ece4ae37e9b1eab085da4fe
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d2564746d08324c40eede79b4b383bf93b932fb8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254142"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544604"
 ---
 # <a name="outreach-sales-engagement-for-outlook"></a>Impegno per le vendite di sensibilizzazione per Outlook
 
@@ -33,14 +34,15 @@ Informazioni fornite da Outreach a Microsoft:
 |:----------------|:-------------|
 | Nome app | Impegno per le vendite di sensibilizzazione per Outlook |
 | ID | WA104381052 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versione successiva su Mac, Outlook sul web |
+| Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | Outreach |
 | Sito Web aziendale | [https://www.outreach.io](https://www.outreach.io) |
 | Condizioni per l'uso dell'app | [https://www.outreach.io/terms](https://www.outreach.io/terms) |
 | Funzionalità di base dell'app | Outreach è la piattaforma di coinvolgimento delle vendite più grande e in rapida crescita che aiuta le aziende ad aumentare notevolmente la produttività e a creare un coinvolgimento più intelligente e più approfondito con i propri clienti. Dall'automazione delle vendite, all'intelligence per le conversazioni, all'analisi del sentiment degli acquirenti, ai report sulle prestazioni del team&#8212; e molto altro ancora&#8212; Outreach è una piattaforma integrata di coinvolgimento delle vendite che aiuta i responsabili e i rappresentanti delle vendite ad aumentare la produttività, generare più opportunità di vendita e raggiungere gli obiettivi di vendita |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.outreach.io/product](https://www.outreach.io/product) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure, GCP, AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Queste informazioni sono state fornite da Outreach su come questa app raccoglie 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
