@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per idee ampie di Idea2Innovation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Wide Ideas, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Wide Ideas, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 69e417f81896c284406c5408d20f9aff32ac09a2
-ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
+ms.openlocfilehash: c744df41324bd82a299fbee58b7d724f9fef1033
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62877883"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546034"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -42,6 +43,7 @@ Informazioni fornite da Idea2Innovation a Microsoft:
 | Sede centrale dell'azienda | Svezia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Idea2Innovation su come questa app rac
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,7 +149,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | true |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | Sì |
@@ -167,12 +162,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | delegated | Per creare un canale in un team.  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| Directory.Read.All | delegated | Viene utilizzato per elencare gli utenti dalla directory dei clienti  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| Group.Read.All | delegated | Viene utilizzato per leggere e sincronizzare i team da Microsoft Teams. | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| TeamsAppInstallation.ReadWriteForTeam | delegated | Questo viene usato per installare l'app in Teams automaticamente  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| TeamsTab.Create | delegated | Questa opzione viene utilizzata per creare automaticamente schede dell'applicazione (idee di ricerca/sfida) nei canali creati da Wide Ideas. | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| User.Read | delegated | Usato per autenticare gli utenti tramite SSO e sincronizzare i dati degli utenti | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
+>| Channel.Create | delegated | Per creare un canale in un team.  | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| Directory.Read.All | delegated | Viene utilizzato per elencare gli utenti dalla directory dei clienti  | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| Group.Read.All | delegated | Viene utilizzato per leggere e sincronizzare i team da Microsoft Teams. | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| TeamsAppInstallation.ReadWriteForTeam | delegated | Viene usato per installare l'app in Teams automaticamente  | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| TeamsTab.Create | delegated | Questa opzione viene utilizzata per creare automaticamente schede dell'applicazione (idee di ricerca/sfida) nei canali creati da Wide Ideas. | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| User.Read | delegated | Usato per autenticare gli utenti tramite SSO e sincronizzare i dati degli utenti | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

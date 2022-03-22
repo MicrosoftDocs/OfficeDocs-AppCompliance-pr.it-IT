@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Weekly10 di Binary Geek Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Weekly10, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f01b0b2408d9f5a34156e9e6f4aa8ea0930e62c5
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 70c430973fef6f931e73ab28a65e7b09010737fb
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264216"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544964"
 ---
 # <a name="weekly10"></a>Weekly10
 
@@ -40,8 +41,9 @@ Informazioni fornite da Binary Geek Limited a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.weekly10.com/terms/customer](https://www.weekly10.com/terms/customer) |
 | Funzionalità di base dell'app | Aumentare il feedback, gestire le prestazioni e misurare il coinvolgimento dei dipendenti tramite archiviazioni settimanali. |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.weekly10.com/integrations/microsoft-teams/](https://www.weekly10.com/integrations/microsoft-teams/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Binary Geek Limited su come questa app
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,11 +159,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | application | Sincronizzazione degli utenti da Azure AD a Weekly10 (facoltativo) | [2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb](https://docs.microsoft.com/microsoft-365-app-certification/azure/2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb) |
->| Calendars.ReadWrite | application | Controllo della disponibilità dei dipendenti e prenotazione automatica delle riunioni (facoltativo). | [494610b2-b490-4f54-8384-312d6f9b4869](https://docs.microsoft.com/microsoft-365-app-certification/azure/494610b2-b490-4f54-8384-312d6f9b4869) |
->| User.Read | delegated | Verifica dell'utente per scopi SSO nel Azure AD. | [6fd1421e-89e8-4a8b-bd01-9397656a50d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fd1421e-89e8-4a8b-bd01-9397656a50d5) |
+>| Directory.Read.All | application | Sincronizzazione degli utenti da Azure AD a Weekly10 (facoltativo) | [2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb](../azure/2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb.md) |
+>| Calendars.ReadWrite | application | Controllo della disponibilità dei dipendenti e prenotazione automatica delle riunioni (facoltativo). | [494610b2-b490-4f54-8384-312d6f9b4869](../azure/494610b2-b490-4f54-8384-312d6f9b4869.md) |
+>| User.Read | delegated | Verifica dell'utente per scopi SSO nel Azure AD. | [6fd1421e-89e8-4a8b-bd01-9397656a50d5](../azure/6fd1421e-89e8-4a8b-bd01-9397656a50d5.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

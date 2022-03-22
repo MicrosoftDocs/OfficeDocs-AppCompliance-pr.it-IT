@@ -2,18 +2,19 @@
 title: Application Information for ecBooking by Expert Systems IVR(Asia) Co.Ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ecBooking, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d95f0198add6647c68d1be68008a4356a565a045
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7efabdf5319e2ec7928dfff1b9e70c9f90b1202b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257922"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546734"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -40,9 +41,8 @@ Informazioni fornite da Expert Systems IVR(Asia) Co.Ltd. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/#1598241760681-29d114e0-5c2b) |
 | Funzionalità di base dell'app | Esperienza di prenotazione efficace con un sistema intelligente per ottimizzare gli spazi riunioni. |
 | Sede centrale dell'azienda | Hong Kong |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -167,14 +167,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | application | Calendari di lettura scrittura | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
->| Calendars.ReadWrite | delegated | Calendari di lettura scrittura | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
->| Mail.Send | delegated | inviare posta | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
->| Mail.Send | application | inviare posta | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
->| User.Read | delegated | read user | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
->| User.Read.All | application | read user | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| Calendars.ReadWrite | application | Calendari di lettura scrittura | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
+>| Calendars.ReadWrite | delegated | Calendari di lettura scrittura | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
+>| Mail.Send | delegated | inviare posta | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
+>| Mail.Send | application | inviare posta | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
+>| User.Read | delegated | read user | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
+>| User.Read.All | application | read user | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](../azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per BlackBerry AtHoc di BlackBerry
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per BlackBerry AtHoc, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per BlackBerry AtHoc, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b464dadfb27569abc0760555464fe646c3e51730
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 1da987ba517d6e4f6dc3b4d487c441e2ccd50d79
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251722"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545494"
 ---
 # <a name="blackberry-athoc"></a>BlackBerry AtHoc
 
@@ -38,10 +39,11 @@ Informazioni fornite da BlackBerry a Microsoft:
 | Nome società partner | BlackBerry |
 | Sito Web aziendale | [https://www.blackberry.com](https://www.blackberry.com) |
 | Condizioni per l'uso dell'app | [https://www.athoc.com/pss/terms.html#](https://www.athoc.com/pss/terms.html#) |
-| Funzionalità di base dell'app | L'integrazione di BlackBerry AtHoc con Teams offre una gestione semplice degli eventi critici &#8211; tutta l'organizzazione da un'interfaccia utente familiare&#8217;è già stata autenticata. Senza lasciare Teams, l'integrazione di BlackBerry AtHoc consente ai responsabili delle emergenze e degli incidenti di: &#8226; Pubblicare avvisi, con un solo clic, in qualsiasi dispositivo &#8226; Destinazione gruppi di distribuzione predefiniti in Teams &#8226; Collaborare all'interno di Teams per gestire gli eventi imprevisti in tempo reale |
+| Funzionalità di base dell'app | L'integrazione di BlackBerry AtHoc con Teams offre una gestione semplice degli eventi critici &#8211; tutta l'organizzazione da un'interfaccia utente familiare&#8217;è già stata autenticata. Senza uscire da Teams, l'integrazione di BlackBerry AtHoc consente ai responsabili delle emergenze e degli incidenti di: &#8226; Pubblicare avvisi, con un solo clic, in qualsiasi dispositivo &#8226; Destinazione gruppi di distribuzione predefiniti in Teams &#8226; Collaborare all'interno di Teams per gestire gli eventi imprevisti in tempo reale |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.blackberry.com/us/en/products/blackberry-athoc](https://www.blackberry.com/us/en/products/blackberry-athoc) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure, AWS, SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da BlackBerry su come questa app raccogli
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,7 +149,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | No |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | No |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -166,12 +161,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMessage.Send | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| Group.Read.All | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| User.Read | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| email | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| openid | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| profile | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| ChannelMessage.Send | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| Group.Read.All | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| User.Read | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| email | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| openid | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| profile | delegated | Accedono all'utente&#8217;dettagli di base come il nome dell'entità e il collegamento al canale generale dei team (per il quale l'utente connesso è autorizzato) per l'invio della scheda di avviso nei team. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per CoffeePals di CoffeePals Technologies Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CoffeePals, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0e3a60a4cf08eccad2811f1f2737432a667f9ba9
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 2863be05be41765c8100f8742f955eca2e8ff122
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081356"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546494"
 ---
 # <a name="coffeepals"></a>CoffeePals
 
@@ -40,8 +41,9 @@ Informazioni fornite da CoffeePals Technologies Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://coffeepals.co/terms-of-service](https://coffeepals.co/terms-of-service) |
 | Funzionalità di base dell'app | CoffeePals abbina le persone in modo casuale per incontrarsi e chattare per formare connessioni personali. Includerà altre funzionalità che consentono ai dipendenti di connettersi meglio. |
 | Sede centrale dell'azienda | Canada |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://coffeepals.co/product](https://coffeepals.co/product) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da CoffeePals Technologies Inc. Sul modo 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

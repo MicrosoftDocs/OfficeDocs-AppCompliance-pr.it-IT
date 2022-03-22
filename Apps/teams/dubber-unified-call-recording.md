@@ -1,19 +1,20 @@
 ---
-title: Application Information for Dubber unified call recording by Dubber
+title: Informazioni sull'applicazione per la registrazione delle chiamate unificate di Dubber
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per la registrazione delle chiamate unificate Dubber, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per la registrazione delle chiamate unificate di Dubber, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: eec69f5594f642432bbb79830b69428f5c6d16f3
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 4c80e50a43abe71a1ca67d93ec9039a3c3357d22
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148793"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544954"
 ---
 # <a name="dubber-unified-call-recording"></a>Servizio unificato di registrazione chiamata di Dubber
 
@@ -38,11 +39,10 @@ Informazioni fornite da Dubber a Microsoft:
 | Nome società partner | Dubber |
 | Sito Web aziendale | [https://www.dubber.net](https://www.dubber.net) |
 | Condizioni per l'uso dell'app | [https://www.dubber.net/terms](https://www.dubber.net/terms) |
-| Funzionalità di base dell'app | Unified Cloud Call Recording &amp; Voice AI for compliance, sales service &amp; performance |
+| Funzionalità di base dell'app | Unified Cloud Call Recording &amp; Voice AI for compliance, sales &amp; service performance |
 | Sede centrale dell'azienda | Australia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

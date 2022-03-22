@@ -2,18 +2,19 @@
 title: Application Information for Smart Connessione for Jira by yasoon GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Smart Connessione per Jira, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2f8db5fc4087ece98bf19f20ff3b91ab96875ed0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: af133a525bc0809ecea134167b6a24b95b8c45d4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252071"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545844"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect for Jira
 
@@ -40,8 +41,9 @@ Informazioni fornite da yasoon GmbH a Microsoft:
 | Condizioni per l'uso dell'app | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474846970/Product_42949680957/Asset_3f25ec80-eacb-454f-8cc2-eeee583b65c6/170825EULAOfficeaddinEN.doc) |
 | Funzionalità di base dell'app | yasoon si concentra sulla fornitura di integrazioni &amp; sicure e intelligenti tra Atlassian e servizi Microsoft. Offriamo strumenti che collegano Outlook e Teams con Atlassian Jira. La nostra app Jira per Microsoft Teams aiuta i team software e aziendali a lavorare meglio insieme, connettendo chat e conversazioni Teams ai problemi di Jira. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da yasoon GmbH sul modo in cui questa app
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +66,7 @@ Queste informazioni sono state fornite da yasoon GmbH sul modo in cui questa app
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,15 +161,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | L'autorizzazione viene utilizzata per consentire all'utente di selezionare uno di questi canali aggiunti in Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelMessage.Read.Group | application | Consente all'app di mostrare i messaggi del canale collegato in Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelMessage.Send | delegated | Non vengono usati dati, questa API viene usata per consentire all'utente di rispondere ai messaggi di canale da Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelSettings.Read.Group | application | Usato per cercare informazioni dettagliate su un canale. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Chat.ReadWrite | delegated | Usato per consentire all'utente di aggiungere nuove risposte alle chat e visualizzare i messaggi di chat da Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Member.Read.Group | application | Usato per i controlli delle autorizzazioni, consente all'app di convalidare l'appartenenza al team degli utenti. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Team.ReadBasic.All | delegated | L'autorizzazione viene utilizzata per consentire all'utente di selezionare uno di questi team aggiunti in Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| TeamSettings.Read.Group | application | Consente all'app di leggere le impostazioni del team per rispettare determinate impostazioni predefinite. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| User.ReadBasic.All | delegated | Consente all'utente di selezionare i colleghi da @menzionare in un messaggio di canale | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| Channel.ReadBasic.All | delegated | L'autorizzazione viene utilizzata per consentire all'utente di selezionare uno di questi canali aggiunti in Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| ChannelMessage.Read.Group | application | Consente all'app di mostrare i messaggi del canale collegato in Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| ChannelMessage.Send | delegated | Non vengono usati dati, questa API viene usata per consentire all'utente di rispondere ai messaggi di canale da Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| ChannelSettings.Read.Group | application | Usato per cercare informazioni dettagliate su un canale. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| Chat.ReadWrite | delegated | Usato per consentire all'utente di aggiungere nuove risposte alle chat e visualizzare i messaggi di chat da Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| Member.Read.Group | application | Usato per i controlli delle autorizzazioni, consente all'app di convalidare l'appartenenza al team degli utenti. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| Team.ReadBasic.All | delegated | L'autorizzazione viene utilizzata per consentire all'utente di selezionare uno di questi team aggiunti in Jira. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| TeamSettings.Read.Group | application | Consente all'app di leggere le impostazioni del team per rispettare determinate impostazioni predefinite. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
+>| User.ReadBasic.All | delegated | Consente all'utente di selezionare i colleghi da @menzionare in un messaggio di canale | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](../azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

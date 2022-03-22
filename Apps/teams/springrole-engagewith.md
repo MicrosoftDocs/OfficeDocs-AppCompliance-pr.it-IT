@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per EngageWith di SpringRole
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per EngageWith, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 25de0a8d054e8f806d398a96d9780837fee93da8
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: 2a493f3b6349dd0e46d88aa039e9935d8f84e6c9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62175609"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547254"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -40,9 +41,8 @@ Informazioni fornite da SpringRole a Microsoft:
 | Condizioni per l'uso dell'app | [https://engagewith.springworks.in/terms-and-conditions](https://engagewith.springworks.in/terms-and-conditions) |
 | Funzionalità di base dell'app | EngageWith è una piattaforma peer-to-peer per i premi e il riconoscimento dei dipendenti che aiuta a promuovere una cultura di riconoscimento, migliora il coinvolgimento dei dipendenti e aiuta l'organizzazione a celebrare i risultati raggiunti, sia grandi che piccoli. I dipendenti possono riconoscere coetanei, junior o manager offrendo loro Kudos o Tuttofare per un lavoro ben fatto. Kudos e Shoutout hanno ognuno una serie di punti associati a loro che si sommano nel tempo in premi significativi.  |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.springworks.in/engagewith/](https://www.springworks.in/engagewith/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite da SpringRole su come questa app raccogli
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

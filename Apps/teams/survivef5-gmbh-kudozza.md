@@ -2,12 +2,19 @@
 title: Application Information for Kudozza by surviveF5 GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Tutte le informazioni sulla sicurezza e conformità disponibili per Kudozza, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Kudozza, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: ae20cb817283550e9dd6c75ef2abe6215d616ff1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545933"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -34,7 +41,7 @@ Informazioni fornite da surviveF5 GmbH a Microsoft:
 | Condizioni per l'uso dell'app | [https://kudozza.com/terms](https://kudozza.com/terms) |
 | Funzionalità di base dell'app | Kudozza consente di dare Kudos ad altri membri del team per mostrare loro il tuo apprezzamento. Offre vari strumenti come le partecipazioni di emoji, le categorie o le classifiche per motivare la donazione di Kudos. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://kudozza.com](https://kudozza.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Aws, Azure |
 
@@ -162,12 +169,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | Lettura dei canali di un team per offrire all'utente la possibilità di selezionare un canale in cui pubblicare le kudos | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
->| Teams. ReadBasic.All | delegated | L'utente può selezionare un team e un canale in cui desidera pubblicare i complimenti. Le autorizzazioni di lettura del team sono necessarie per leggere i team. | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
->| User.Read | delegated | Ottenere i team di cui fa parte un utente | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
->| User.ReadBasic.All | delegated | Leggere il nome utente | [69e59100-2fb7-4f6e-a311-987f52b3007b](https://docs.microsoft.com/microsoft-365-app-certification/azure/69e59100-2fb7-4f6e-a311-987f52b3007b) |
+>| Channel.ReadBasic.All | delegated | Lettura dei canali di un team per offrire all'utente la possibilità di selezionare un canale in cui pubblicare le kudos | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
+>| Teams. ReadBasic.All | delegated | L'utente può selezionare un team e un canale in cui desidera pubblicare i complimenti. Le autorizzazioni di lettura del team sono necessarie per leggere i team. | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
+>| User.Read | delegated | Ottenere i team di cui fa parte un utente | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
+>| User.ReadBasic.All | delegated | Leggere il nome utente | [69e59100-2fb7-4f6e-a311-987f52b3007b](../azure/69e59100-2fb7-4f6e-a311-987f52b3007b.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

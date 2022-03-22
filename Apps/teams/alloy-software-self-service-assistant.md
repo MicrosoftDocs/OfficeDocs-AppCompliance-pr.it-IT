@@ -2,18 +2,19 @@
 title: Application Information for Alloy Self-Service Assistant by Alloy Software
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Alloy Self-Service Assistant, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Alloy Self-Service Assistant, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 601a3252b342cd64d01d0bc95c1105d06d6cd415
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 43f94e5fc6e97a7a8691089d8fa2b5a1ef498a3c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148948"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545524"
 ---
 # <a name="alloy-self-service-assistant"></a>Alloy Self-Service Assistant
 
@@ -40,7 +41,7 @@ Informazioni fornite da Alloy Software a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.alloysoftware.com/resources/eula/](https://www.alloysoftware.com/resources/eula/) |
 | Funzionalità di base dell'app | Creare ticket del service desk, cercare nella Knowledge Base e approvare le richieste. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://docs.alloysoftware.com/alloynavigator/2021/docs/int...](https://docs.alloysoftware.com/alloynavigator/2021/docs/integrations/topics/microsoft-teams-bot.htm) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da Alloy Software su come questa app racc
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

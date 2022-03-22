@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Proconnect per Sitecore di Subramanian Ramanathan
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Proconnect per Sitecore, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Proconnect per Sitecore, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0b2861bf05a54d4a2019c32959f0c76a6a02f383
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 891f256a2cf6a340b48dc5a876152af277de1c5b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198026"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545944"
 ---
 # <a name="proconnect-for-sitecore"></a>Proconnect for Sitecore
 
@@ -38,7 +39,7 @@ Informazioni fornite da Subramanian Ramanathan a Microsoft:
 | Nome società partner | Subramanian Ramanathan |
 | Sito Web aziendale | [https://subbu.ca](https://subbu.ca) |
 | Condizioni per l'uso dell'app | [https://github.com/SubbuRamanathan/sitecore-microsoft-teams...](https://github.com/SubbuRamanathan/sitecore-microsoft-teams-integration/blob/main/terms-of-use.md) |
-| Funzionalità di base dell'app | Migliora l'esperienza di creazione del contenuto con avvisi istantanei sugli aggiornamenti della pubblicazione del flusso &amp; di lavoro. Questo connettore include anche le azioni appropriate per gli avvisi, consentendo così agli autori di contenuto di eseguire il proprio lavoro più rapidamente. Questo connettore stabilisce la trasparenza nelle comunicazioni e include anche informazioni dettagliate sulle prestazioni del sito/pagina. |
+| Funzionalità di base dell'app | Migliora l'esperienza di creazione del contenuto con avvisi istantanei sugli aggiornamenti &amp; della pubblicazione del flusso di lavoro. Questo connettore include anche le azioni appropriate per gli avvisi, consentendo così agli autori di contenuto di eseguire il proprio lavoro più rapidamente. Questo connettore stabilisce la trasparenza nelle comunicazioni e include anche informazioni dettagliate sulle prestazioni del sito/pagina. |
 | Sede centrale dell'azienda | Canada |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Ibrido |
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da Subramanian Ramanathan su come questa 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

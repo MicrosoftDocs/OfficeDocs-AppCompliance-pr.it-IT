@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Bright Remind Me by Chat Apps, LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Bright Remind Me, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5c5495382e68a3bbb0823c76e38511adeb54506e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d0ac061a03a958c397b2044d583ba0365165e393
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146236"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545444"
 ---
 # <a name="bright-remind-me"></a>Bright Remind Me
 
@@ -40,7 +41,7 @@ Informazioni fornite da App chat, LLC a Microsoft:
 | Condizioni per l'uso dell'app | [https://brightbits.app/terms/](https://brightbits.app/terms/) |
 | Funzionalità di base dell'app | Ricevi promemoria dei messaggi importanti quando è comodo rispondere. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://brightbits.app/bright-remind-me/](https://brightbits.app/bright-remind-me/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Aws, Heroku |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da Chat Apps, LLC su come questa app racc
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

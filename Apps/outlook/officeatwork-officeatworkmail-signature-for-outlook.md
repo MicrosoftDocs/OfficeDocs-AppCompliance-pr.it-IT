@@ -1,19 +1,20 @@
 ---
-title: Application Information for officeatwork | Mail Signature for Outlook by officeatwork
+title: Application Information for officeatwork | Firma di posta elettronica Outlook per ufficio
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per officeatwork | Mail Signature for Outlook, i relativi criteri di gestione dei dati, le Microsoft Cloud App Security del catalogo app e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 32899c4a9734ef0afb996e7f609c042cba1172c0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d39ea06d2a264b334f75d1532d582ec67f9e3aca
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254182"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545554"
 ---
 # <a name="officeatwork--mail-signature-for-outlook"></a>officeatwork | Firma di posta per Outlook
 
@@ -39,7 +40,7 @@ Informazioni fornite da officeatwork a Microsoft:
 | Condizioni per l'uso dell'app | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 | Funzionalità di base dell'app | Firme di posta, semplici e sicure, gestite centralmente e &amp; personalizzate nell'organizzazione. |
 | Sede centrale dell'azienda | Svizzera |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -58,14 +59,7 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -168,12 +162,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso, abilitare le firme di posta dinamiche con le proprietà dell'utente | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
->| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
->| openid | delegated | Abilitare l'accesso | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
->| profile | delegated | Abilitare l'accesso | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso, abilitare le firme di posta dinamiche con le proprietà dell'utente | [722e11e1-c87f-4f97-803f-3d012d532427](../azure/722e11e1-c87f-4f97-803f-3d012d532427.md) |
+>| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [722e11e1-c87f-4f97-803f-3d012d532427](../azure/722e11e1-c87f-4f97-803f-3d012d532427.md) |
+>| openid | delegated | Abilitare l'accesso | [722e11e1-c87f-4f97-803f-3d012d532427](../azure/722e11e1-c87f-4f97-803f-3d012d532427.md) |
+>| profile | delegated | Abilitare l'accesso | [722e11e1-c87f-4f97-803f-3d012d532427](../azure/722e11e1-c87f-4f97-803f-3d012d532427.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Application Information for School Day by School Day Helsinki Oy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per school day, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 07027fd6d02c61c6301851cdb58fbab6f1928bb1
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ade87441027d2b9693f0b6340a6a54b60a66507f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264031"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546684"
 ---
 # <a name="school-day"></a>School Day
 
@@ -38,10 +39,11 @@ Informazioni fornite da School Day Helsinki Oy a Microsoft:
 | Nome società partner | School Day Helsinki Oy |
 | Sito Web aziendale | [https://www.schoolday.com](https://www.schoolday.com) |
 | Condizioni per l'uso dell'app | [https://www.schoolday.com/eula](https://www.schoolday.com/eula) |
-| Funzionalità di base dell'app | Migliorare il benessere degli studenti e Social-Emotional Learning (SEL) con school day il Microsoft Teams! |
+| Funzionalità di base dell'app | Migliorare il benessere degli studenti e Social-Emotional Learning (SEL) con school day on Microsoft Teams! |
 | Sede centrale dell'azienda | Finlandia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.schoolday.com/en/resources/faq](https://www.schoolday.com/en/resources/faq) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da School Day Helsinki Oy su come questa 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,16 +159,16 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| GroupMember.Read.All | delegated | Nome del gruppo e appartenenze ai gruppi. L'utente che è insegnante può aggiungere studenti al Giorno della scuola dai propri gruppi. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| Team.ReadBasic.All | delegated | Il nome del team viene utilizzato quando l'utente docente vuole aggiungere studenti dai propri team e gruppi. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| User.Read | delegated | La posta elettronica, il nome e il token ID utente vengono usati per la gestione e l'autenticazione degli utenti. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| User.ReadBasic.All | delegated | Immagini del profilo utente da utilizzare negli avatar degli utenti. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| email | delegated | La posta elettronica dell'utente viene raccolta per l'autenticazione dell'account. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| offline_access | delegated | Autenticazione: aggiornamento del token di accesso. Esperienza utente più fluida. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| openid | delegated | Identificatore univoco dell'utente per l'accesso OpenID.  | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| profile | delegated | Nome utente e ID oggetto preferiti per la gestione degli utenti e l'autenticazione. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
+>| GroupMember.Read.All | delegated | Nome del gruppo e appartenenze ai gruppi. L'utente che è insegnante può aggiungere studenti al Giorno della scuola dai propri gruppi. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| Team.ReadBasic.All | delegated | Il nome del team viene utilizzato quando l'utente docente vuole aggiungere studenti dai propri team e gruppi. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| User.Read | delegated | La posta elettronica, il nome e il token ID utente vengono usati per la gestione e l'autenticazione degli utenti. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| User.ReadBasic.All | delegated | Immagini del profilo utente da utilizzare negli avatar degli utenti. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| email | delegated | La posta elettronica dell'utente viene raccolta per l'autenticazione dell'account. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| offline_access | delegated | Autenticazione: aggiornamento del token di accesso. Esperienza utente più fluida. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| openid | delegated | Identificatore univoco dell'utente per l'accesso OpenID.  | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| profile | delegated | Nome utente e ID oggetto preferiti per la gestione degli utenti e l'autenticazione. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

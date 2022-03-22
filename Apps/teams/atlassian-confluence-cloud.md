@@ -2,18 +2,19 @@
 title: Application Information for Confluence Cloud by Atlassian
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Confluence Cloud, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Confluence Cloud, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a7ce34b2c2750d7fb9c2dc46ad8cf12c67a825d4
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0ce3c1464a4933de72d1a69a49432c986f1679cd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254944"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547464"
 ---
 # <a name="confluence-cloud"></a>Confluence Cloud
 
@@ -43,6 +44,7 @@ Informazioni fornite da Atlassian a Microsoft:
 | Sede centrale dell'azienda | Australia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,14 +59,7 @@ Queste informazioni sono state fornite da Atlassian su come questa app raccoglie
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,15 +160,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | delegated | - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Leggiamo gli utenti&#8217; nomi e indirizzi di posta elettronica che vengono visualizzati in modo condizionale nella nostra app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
->| Chat.ReadBasic | delegated |  - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Leggiamo gli utenti&#8217; nomi e indirizzi di posta elettronica che vengono visualizzati in modo condizionale nella nostra app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
->| User.ReadBasic.All | delegated | - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Leggiamo gli utenti&#8217; nomi e indirizzi di posta elettronica che vengono visualizzati in modo condizionale nella nostra app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
->| email | delegated | - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Leggiamo gli utenti&#8217; nomi e indirizzi di posta elettronica che vengono visualizzati in modo condizionale nella nostra app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
->| offline_access | delegated | - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Leggiamo gli utenti&#8217; nomi e indirizzi di posta elettronica che vengono visualizzati in modo condizionale nella nostra app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
->| openid | delegated |  - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Leggiamo gli utenti&#8217; nomi e indirizzi di posta elettronica che vengono visualizzati in modo condizionale nella nostra app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
->| profile | delegated |  - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Leggiamo gli utenti&#8217; nomi e indirizzi di posta elettronica che vengono visualizzati in modo condizionale nella nostra app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
+>| Calendars.Read | delegated | - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Vengono letti gli utenti&#8217; e gli indirizzi di posta elettronica che vengono visualizzati in modo condizionale nell'app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
+>| Chat.ReadBasic | delegated |  - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Vengono letti gli utenti&#8217; e gli indirizzi di posta elettronica che vengono visualizzati in modo condizionale nell'app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
+>| User.ReadBasic.All | delegated | - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Vengono letti gli utenti&#8217; e gli indirizzi di posta elettronica che vengono visualizzati in modo condizionale nell'app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
+>| email | delegated | - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Vengono letti gli utenti&#8217; e gli indirizzi di posta elettronica che vengono visualizzati in modo condizionale nell'app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
+>| offline_access | delegated | - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Vengono letti gli utenti&#8217; e gli indirizzi di posta elettronica che vengono visualizzati in modo condizionale nell'app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
+>| openid | delegated |  - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Vengono letti gli utenti&#8217; e gli indirizzi di posta elettronica che vengono visualizzati in modo condizionale nell'app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
+>| profile | delegated |  - Abbiamo letto l'elenco dei membri di Chat in una riunione, in modo da conoscere l'elenco degli invitati alla riunione.   - Vengono letti gli utenti&#8217; e gli indirizzi di posta elettronica che vengono visualizzati in modo condizionale nell'app per le riunioni. Ad esempio, visualizzare il nome dell'utente corrente che prende le note riunione.   - L'app legge l'utente&#8217;'evento di calendario in cui l'app è stata aggiunta a una riunione in modo da avere informazioni di base sulla riunione come il titolo della riunione. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

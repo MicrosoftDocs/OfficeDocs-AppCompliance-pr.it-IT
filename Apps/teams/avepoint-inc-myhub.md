@@ -2,18 +2,19 @@
 title: Application Information for MyHub by AvePoint, inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per MyHub, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7086ba2566e0b3d44b8a30edcd43e4dce7eb9963
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0620429641e4e7b9669d48ec07af70eafe3accd3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260787"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546824"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -38,9 +39,9 @@ Informazioni fornite da AvePoint, inc. a Microsoft:
 | Nome società partner | AvePoint, inc. |
 | Sito Web aziendale | [https://www.avepoint.com](https://www.avepoint.com) |
 | Condizioni per l'uso dell'app | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Funzionalità di base dell'app | Scopri MyHub, un one-stop-shop per la richiesta di nuove Office 365 di lavoro per la &amp; gestione di quelle esistenti. MyHub offre servizi di provisioning, ricertificazione &amp; e ciclo di vita facili da usare senza gravare sul team IT. Gli utenti sono in grado di ridimensionare e automatizzare &amp; &amp; le aree di lavoro protette vengono avvisati quando intervenire, semplificando il completamento dell'elenco attività. MyHub&#65533;framework sicuro sostenibile &amp; è basato sulla governance cloud&#65533;AvePoint. |
+| Funzionalità di base dell'app | Ecco MyHub, un one-stop-shop per la richiesta di nuove Office 365 di lavoro che &amp; gestiscono quelle esistenti. MyHub offre servizi di provisioning, ricertificazione &amp; e ciclo di vita facili da usare senza gravare sul team IT. Gli utenti sono in grado di ridimensionare e automatizzare &amp; &amp; le aree di lavoro protette vengono avvisati quando intervenire, semplificando il completamento dell'elenco attività. MyHub&#65533;un framework sicuro &amp; sostenibile è basato sulla governance cloud di AvePoint&#65533;' Cloud. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -167,20 +168,20 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | entrambi | Recuperare un elenco di oggetti impostazione di gruppo. Ad esempio, condivisione esterna classica, enableCreateGroup(application) e così via. | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Group.ReadWrite.All | entrambi | Creare un gruppo, recuperare, aggiungere o rimuovere l'appartenenza al gruppo | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Mail.Send | delegated | Se l'utente corrente vuole partecipare a un gruppo privato, invieremo una notifica ai proprietari del gruppo | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Reports.Read.All | application | Ottenere il report sull'utilizzo di siti/gruppi | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.FullControl.All | application | creare o eliminare siti | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.Read.All | application | ottenere informazioni di base sul sito | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.ReadWrite.All | delegated | seguire/smettere di seguire i siti | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| User.Read.All | entrambi | Delegated: get users photo; Applicazione: ricerca/risoluzione degli utenti | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| email | delegated | SSO dell'app teams | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| offline_access | delegated | SSO dell'app teams | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| openid | delegated | SSO dell'app teams | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| profile | delegated | SSO dell'app teams | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Directory.Read.All | entrambi | Recuperare un elenco di oggetti impostazione di gruppo. Ad esempio, condivisione esterna classica, enableCreateGroup(application) e così via. | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Group.ReadWrite.All | entrambi | Creare un gruppo, recuperare, aggiungere o rimuovere l'appartenenza al gruppo | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Mail.Send | delegated | Se l'utente corrente vuole partecipare a un gruppo privato, invieremo una notifica ai proprietari del gruppo | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Reports.Read.All | application | Ottenere il report sull'utilizzo di siti/gruppi | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.FullControl.All | application | creare o eliminare siti | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.Read.All | application | ottenere informazioni di base sul sito | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.ReadWrite.All | delegated | seguire/smettere di seguire i siti | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| User.Read.All | entrambi | Delegated: get users photo; Applicazione: ricerca/risoluzione degli utenti | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| email | delegated | SSO dell'app teams | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| offline_access | delegated | SSO dell'app teams | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| openid | delegated | SSO dell'app teams | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| profile | delegated | SSO dell'app teams | [478c769e-bab3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

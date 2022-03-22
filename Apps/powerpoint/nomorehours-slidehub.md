@@ -2,18 +2,19 @@
 title: Application Information for SlideHub by nomorehours
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SlideHub, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0a8f6380a952305141bc13bfe03df52f3c209a21
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 074bf49ca573e6d8ce5797bce9f14daa42f88a39
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261622"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545204"
 ---
 # <a name="slidehub"></a>SlideHub
 
@@ -33,14 +34,15 @@ Informazioni fornite da nomorehours a Microsoft:
 |:----------------|:-------------|
 | Nome app | SlideHub |
 | ID | WA200001625 |
-| Office 365 client supportati | PowerPoint 2016 o versioni successive su Mac, PowerPoint sul web, PowerPoint 2013 o versioni successive Windows |
+| Office 365 client supportati | PowerPoint 2016 o versioni successive su Mac, PowerPoint sul web, PowerPoint 2013 o versioni successive su Windows |
 | Nome società partner | nomorehours |
 | Sito Web aziendale | [https://nomorehours.com](https://nomorehours.com) |
 | Condizioni per l'uso dell'app | [https://nomorehours.com/eula](https://nomorehours.com/eula) |
-| Funzionalità di base dell'app | NoMore fornisce agli utenti aziendali PowerPoint servizi di progettazione e un componente aggiuntivo PowerPoint per renderli più efficienti in PowerPoint. Come parte del servizio di progettazione, NoMore converte le bozze approssimative in diapositive pronte per il client in appena 8 ore. Il componente aggiuntivo consente di accedere al servizio più rapidamente, ma consente anche agli utenti di accedere a progetti di diapositive predefiniti e a una raccolta diapositive specifica della società, nonché a un toolkit di consulenza di &#8220;che contiene diversi strumenti di&#8221; produttività. |
+| Funzionalità di base dell'app | NoMore fornisce agli utenti aziendali PowerPoint servizi di progettazione e un componente aggiuntivo PowerPoint per renderli più efficienti in PowerPoint. Come parte del servizio di progettazione, NoMore converte le bozze approssimative in diapositive pronte per il client in appena 8 ore. Il componente aggiuntivo consente di accedere al servizio più rapidamente, ma consente anche agli utenti di accedere a progetti di diapositive predefiniti e a una raccolta diapositive specifica della società, nonché a un&#8221; di &#8220;Consulting Toolkit che contiene diversi strumenti di produttività. |
 | Sede centrale dell'azienda | Danimarca |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://nomorehours.com](https://nomorehours.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Queste informazioni sono state fornite da nomorehours su come questa app raccogl
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -163,9 +158,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | application | e-mail e nome. Il messaggio di posta elettronica viene utilizzato come nome utente nell'applicazione. La raccolta del messaggio di posta elettronica consente di registrare e accedere più rapidamente all'applicazione. Il nome viene utilizzato nel caso di un evento di registrazione. | [33ccef75-8248-44e8-88d3-24526ca9c2d3](https://docs.microsoft.com/microsoft-365-app-certification/azure/33ccef75-8248-44e8-88d3-24526ca9c2d3) |
+>| User.Read | application | e-mail e nome. Il messaggio di posta elettronica viene utilizzato come nome utente nell'applicazione. La raccolta del messaggio di posta elettronica consente di registrare e accedere più rapidamente all'applicazione. Il nome viene utilizzato nel caso di un evento di registrazione. | [33ccef75-8248-44e8-88d3-24526ca9c2d3](../azure/33ccef75-8248-44e8-88d3-24526ca9c2d3.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

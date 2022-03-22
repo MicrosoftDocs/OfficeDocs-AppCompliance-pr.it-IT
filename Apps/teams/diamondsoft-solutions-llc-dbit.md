@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per DBit di Diamondsoft Solutions, LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per DBit, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0f7feee247fa2bf840219f61d2d1dcdee0f2fa42
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 20cf9d6f387f8269bf58e38198fdb4339624539e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144473"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546093"
 ---
 # <a name="dbit"></a>DBit
 

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per UserVoice, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0abf55a4dbed692837abab9beaa3ef01426b9991
-ms.sourcegitcommit: 6f2370c0eb79cc4acc9b53b2215b7a61c2ab30d6
+ms.openlocfilehash: b815858d1846f5388114a3c0c3329f4d54b97f06
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 03/17/2022
-ms.locfileid: "63563693"
+ms.locfileid: "63547234"
 ---
 # <a name="uservoice"></a>UserVoice
 
@@ -37,11 +37,11 @@ Informazioni fornite da UserVoice a Microsoft:
 | ID | WA200001944 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | UserVoice |
-| Sito Web aziendale | N/D |
-| Condizioni per l'uso dell'app | N/D |
+| Sito Web aziendale | [https://www.uservoice.com](https://www.uservoice.com) |
+| Condizioni per l'uso dell'app | [https://www.uservoice.com/tos](https://www.uservoice.com/tos) |
 | Funzionalità di base dell'app | Ottieni aggiornamenti in tempo reale sul programma di feedback del prodotto entro Microsoft Teams. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | N/D |
+| Pagina delle informazioni dell'app | [https://help.uservoice.com/hc/en-us/articles/360052330913-M...](https://help.uservoice.com/hc/en-us/articles/360052330913-Microsoft-Teams-Integration) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
 | Quali provider di cloud di hosting usa l'app? | GCP |
 

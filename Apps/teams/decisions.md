@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per le decisioni in base alle decisioni
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Decisions, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 78bb80e67214a26172c6f83f57d8614fb8c9e518
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0353886df853f0916252e41e8829214ce1e0a4d5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259742"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544944"
 ---
 # <a name="decisions"></a>Decisioni
 
@@ -38,9 +39,9 @@ Informazioni fornite da Decisions to Microsoft:
 | Nome società partner | Decisioni |
 | Sito Web aziendale | [https://www.meetingdecisions.com](https://www.meetingdecisions.com) |
 | Condizioni per l'uso dell'app | [https://www.meetingdecisions.com/terms-of-service](https://www.meetingdecisions.com/terms-of-service) |
-| Funzionalità di base dell'app | Fai in modo che le tue riunioni contano con un generatore di agenda, modelli di minuti e altro ancora all'interno di Teams. |
+| Funzionalità di base dell'app | Fai in modo che le riunioni contano con un generatore di agenda, modelli di minuti e altro ancora all'interno Teams. |
 | Sede centrale dell'azienda | Norvegia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.meetingdecisions.com](https://www.meetingdecisions.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -168,25 +169,25 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | Usato per leggere le informazioni dall'utente&#8217;calendario per abilitare funzionalità come l'elenco delle riunioni e la ricerca. Offre inoltre all'utente la possibilità di eliminare riunioni specifiche dal calendario quando l'elemento viene eliminato da Decisioni. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Chat.ReadWrite | delegated | Usato per inviare decisioni per il voto e creare elenchi di oratore per singoli elementi dell'agenda direttamente nella chat Microsoft Teams riunione. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Directory.Read.All | delegated | Usato per raccogliere informazioni di base sul tenant Office 365 al momento della registrazione, ad esempio il nome del tenant e i domini verificati. È inoltre necessario per verificare l'appartenenza ai gruppi. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Files.Read.All | delegated | Usato per leggere i file condivisi con l'utente per unire tali file nella Rubrica riunioni PDF. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Files.ReadWrite.All | delegated | Usato per fornire agli utenti il supporto per le annotazioni dei file personali. I file con annotazioni vengono archiviati privatamente nell'&#8217;utente OneDrive for Business. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Group.ReadWrite.All | delegated | Usato per creare strutture di cartelle nel Office 365 del&#8217;di SharePoint per le agende delle riunioni, i file correlati e le conversazioni di gruppo.   Nota: gli utenti delle decisioni non avranno mai accesso ad alcuna risorsa (ad esempio, gruppi) a cui non hanno già accesso nel tenant di Office 365'organizzazione. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Mail.Send | delegated | Usato per consentire agli utenti di Decisioni di inviare notifiche ai partecipanti alla riunione, ad esempio aggiornamenti dell'agenda e collegamenti alla riunione per co-autori. I messaggi di posta elettronica passano ai partecipanti alla riunione o alla lista di distribuzione selezionata dal proprietario della riunione. Tutte le notifiche e i messaggi di posta elettronica inviati vengono attivamente inviati dagli utenti di Decisions.  Nota: in questo modo l'utente non può accedere alla posta in arrivo tramite Decisioni. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| MailboxSettings.Read | delegated | Usato per identificare un utente che&#8217;preferenze di lingua. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Notes.ReadWrite | delegated | Consente di configurare blocchi appunti privati per le riunioni per prendere appunti e preparare osservazioni e domande. Consente inoltre di archiviare i minuti delle riunioni di gruppo all'interno del blocco appunti OneNote, se il gruppo sceglie di usare OneNote. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Sites.ReadWrite.All | delegated | Consente di creare strutture di cartelle in canali privati per le informazioni sulla riunione. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Tasks.ReadWrite | delegated | Usato per sincronizzare le attività e le decisioni in Microsoft Planner. Consente inoltre agli utenti di esportare attività e decisioni Excel. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsAppInstallation.ReadWriteForUser | delegated | Necessario per installare l'app Decisioni a livello di programmazione in chat. Questa operazione è necessaria prima di aggiungere la scheda Decisioni per l'esperienza di riunione. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsAppInstallation.ReadWriteForUser.All | delegated | Necessario per installare l'app Decisioni a livello di programmazione in chat. Questa operazione è necessaria prima di aggiungere la scheda Decisioni per l'esperienza di riunione. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsTab.Create | delegated | Richiedi l'aggiunta della scheda In-Meeting/Channel in Teams. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsTab.Read.All | delegated | Obbligatorio per verificare se la scheda è installata o meno. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| User.ReadBasic.All | delegated | Usato per visualizzare nome e cognome, foto e indirizzo di posta elettronica dei membri del gruppo e dei partecipanti esterni. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| profile | delegated | Usato per accedere. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Calendars.ReadWrite | delegated | Usato per leggere le informazioni dall'utente&#8217;calendario per abilitare funzionalità come l'elenco delle riunioni e la ricerca. Offre inoltre all'utente la possibilità di eliminare riunioni specifiche dal calendario quando l'elemento viene eliminato da Decisioni. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Chat.ReadWrite | delegated | Usato per inviare decisioni per il voto e creare elenchi di oratore per singoli elementi dell'agenda direttamente nella chat Microsoft Teams riunione. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Directory.Read.All | delegated | Usato per raccogliere informazioni di base sul tenant Office 365 al momento della registrazione, ad esempio il nome del tenant e i domini verificati. È inoltre necessario per verificare l'appartenenza ai gruppi. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Files.Read.All | delegated | Usato per leggere i file condivisi con l'utente per unire tali file nella Rubrica riunioni PDF. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Files.ReadWrite.All | delegated | Usato per fornire agli utenti il supporto per le annotazioni dei file personali. I file con annotazioni vengono archiviati privatamente nella&#8217;utente OneDrive for Business. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Group.ReadWrite.All | delegated | Usato per creare strutture di cartelle nel Office 365 gruppo&#8217;sito SharePoint per le agende delle riunioni, i file correlati e le conversazioni di gruppo.   Nota: gli utenti delle decisioni non avranno mai accesso ad alcuna risorsa (ad esempio, gruppi) a cui non hanno già accesso nel tenant Office 365'organizzazione. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Mail.Send | delegated | Usato per consentire agli utenti di Decisioni di inviare notifiche ai partecipanti alla riunione, ad esempio aggiornamenti dell'agenda e collegamenti alla riunione per co-autori. I messaggi di posta elettronica passano ai partecipanti alla riunione o alla lista di distribuzione selezionata dal proprietario della riunione. Tutte le notifiche e i messaggi di posta elettronica inviati vengono attivamente inviati dagli utenti di Decisions.  Nota: in questo modo l'utente non può accedere alla posta in arrivo tramite Decisioni. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| MailboxSettings.Read | delegated | Usato per identificare un utente&#8217;preferenze di lingua. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Notes.ReadWrite | delegated | Consente di configurare blocchi appunti privati per le riunioni per prendere appunti e preparare osservazioni e domande. Consente inoltre di archiviare i minuti delle riunioni di gruppo all'interno del blocco appunti OneNote, se il gruppo sceglie di usare OneNote. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Sites.ReadWrite.All | delegated | Consente di creare strutture di cartelle in canali privati per le informazioni sulla riunione. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Tasks.ReadWrite | delegated | Usato per sincronizzare le attività e le decisioni in Microsoft Planner. Consente inoltre agli utenti di esportare attività e decisioni Excel. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsAppInstallation.ReadWriteForUser | delegated | Necessario per installare l'app Decisioni a livello di programmazione in chat. Questa operazione è necessaria prima di aggiungere la scheda Decisioni per l'esperienza di riunione. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | delegated | Necessario per installare l'app Decisioni a livello di programmazione in chat. Questa operazione è necessaria prima di aggiungere la scheda Decisioni per l'esperienza di riunione. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsTab.Create | delegated | Richiedi l'aggiunta della scheda In-Meeting/Channel in Teams. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsTab.Read.All | delegated | Obbligatorio per verificare se la scheda è installata o meno. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| User.ReadBasic.All | delegated | Usato per visualizzare nome e cognome, foto e indirizzo di posta elettronica dei membri del gruppo e dei partecipanti esterni. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| profile | delegated | Usato per accedere. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

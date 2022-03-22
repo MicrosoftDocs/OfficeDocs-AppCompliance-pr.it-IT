@@ -2,18 +2,19 @@
 title: Application Information for Biz-Oin by SUZUYO Shinwart Corporation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/12/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Biz-Oin, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2c551dc467d6c4e5934daa14c50f840d3b6c697e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b9210678cad1309290d70101499a92b2f9ae7ac2
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144093"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545926"
 ---
 # <a name="biz-oin"></a>Biz-Oin
 
@@ -60,7 +61,7 @@ Queste informazioni sono state fornite da SUZUYO Shinwart Corporation su come qu
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | &quot;id &quot; , mail , &quot; &quot; &quot; displayName , &quot; &quot; userPrincipalName&quot; |
+| Quali dati vengono archiviati nei database? | &quot;id&quot;, &quot;mail&quot;, &quot;displayName&quot;, &quot;userPrincipalName&quot; |
 | Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Giappone |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | No |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 90 giorni |

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per In caso di crisi di RockDove Solutions, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per In caso di crisi, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f8dde14386683816f9a1dcd7f4f9d1365aa3a4d4
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5add607e4c0c1d78c2ed214fd15ec549d2bf70dd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254738"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547274"
 ---
 # <a name="in-case-of-crisis"></a>In caso di crisi
 
@@ -40,8 +41,9 @@ Informazioni fornite da RockDove Solutions, Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.rockdovesolutions.com/terms-of-use](https://www.rockdovesolutions.com/terms-of-use) |
 | Funzionalità di base dell'app | In Caso di crisi è la piattaforma progettata appositamente per il ciclo di vita dinamico di gestione dei problemi e delle crisi. La nostra app consente alle organizzazioni di condividere e attivare facilmente playbook utilizzabili che includono i protocolli di risposta e le procedure consigliate in caso di situazione.  È inoltre possibile gestire e acquisire l'intero ciclo di vita dei problemi che influiscono sull'azienda, dalla segnalazione iniziale alla risoluzione.   |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.rockdovesolutions.com/in-case-of-crisis/in-case...](https://www.rockdovesolutions.com/in-case-of-crisis/in-case-of-crisis-platform) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure, AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da RockDove Solutions, Inc. Sul modo in c
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,17 +159,17 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | Ciò consente l'accesso completo al calendario di un utente. L'app visualizza la descrizione, il collegamento alla conferenza e le date di inizio e fine. L'app consente inoltre a un utente di creare un evento nel calendario di Outlook | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Channel.ReadBasic.All | delegated | Consente l'accesso a un canale degli utenti.  L'elenco utenti dei canali viene utilizzato per selezionare un canale in cui caricare un file | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Files.ReadWrite | delegated | N/D | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Files.ReadWrite.All | delegated | Microsoft consente agli utenti di caricare file da Gestione problemi a Teams | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Sites.ReadWrite.All | delegated | Questa operazione è necessaria per il caricamento in un canale privato | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Team.ReadBasic.All | delegated | L'elenco dei team è necessario per ottenere l'elenco dei canali a cui appartiene l'utente. In questo modo è possibile visualizzare l'elenco dei canali di caricamento disponibili. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| email | delegated | È necessario ottenere la posta elettronica dell'utente dopo l'autenticazione per confrontarli con i messaggi di posta elettronica nel database. Se l'utente non ha un account nel sistema, ne creiamo uno. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| offline_access | delegated | In questo modo è possibile aggiornare il token di accesso del grafico | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| openid | delegated | Autorizzazione necessaria per l'autenticazione tramite openid | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
+>| Calendars.ReadWrite | delegated | Ciò consente l'accesso completo al calendario di un utente. L'app visualizza la descrizione, il collegamento alla conferenza e le date di inizio e fine. L'app consente inoltre a un utente di creare un evento nel calendario di Outlook | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Channel.ReadBasic.All | delegated | Consente l'accesso a un canale degli utenti.  L'elenco utenti dei canali viene utilizzato per selezionare un canale in cui caricare un file | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Files.ReadWrite | delegated | N/D | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Files.ReadWrite.All | delegated | Microsoft consente agli utenti di caricare file da Gestione problemi a Teams | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Sites.ReadWrite.All | delegated | Questa operazione è necessaria per il caricamento in un canale privato | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Team.ReadBasic.All | delegated | L'elenco dei team è necessario per ottenere l'elenco dei canali a cui appartiene l'utente. In questo modo è possibile visualizzare l'elenco dei canali di caricamento disponibili. | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| email | delegated | È necessario ottenere la posta elettronica dell'utente dopo l'autenticazione per confrontarli con i messaggi di posta elettronica nel database. Se l'utente non ha un account nel sistema, ne creiamo uno. | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| offline_access | delegated | In questo modo è possibile aggiornare il token di accesso del grafico | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| openid | delegated | Autorizzazione necessaria per l'autenticazione tramite openid | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per supermetriche per supermetriche
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Supermetrics, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 044becc7df41ac7e060b0f941e81818bf9525d27
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: fe11180f0a71e8ca0f740fb5c194e35f9b069596
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200941"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546884"
 ---
 # <a name="supermetrics"></a>Supermetrics
 
@@ -37,9 +38,9 @@ Informazioni fornite da Supermetrics a Microsoft:
 | Nome società partner | Supermetrics |
 | Sito Web aziendale | [https://supermetrics.com](https://supermetrics.com) |
 | Condizioni per l'uso dell'app | [https://supermetrics.com/terms-of-service](https://supermetrics.com/terms-of-service) |
-| Funzionalità di base dell'app | Con Supermetrics, le aziende possono aggregare i dati in silo da oltre 70 piattaforme di marketing e vendita, come Facebook Ads, Google Analytics, Instagram e altro ancora, oltre a trasferire i dati direttamente in Excel per la creazione di report. Ciò consente di: - Automatizzare le attività di importazione manuale dei dati; - Utilizzare le formule e gli strumenti già disponibili in Excel per analizzare e visualizzare i dati di marketing. - Ottenere il quadro generale visualizzando più origini dati direttamente in Excel. |
+| Funzionalità di base dell'app | Con le supermetriche, le aziende possono aggregare dati in silo da oltre 70 piattaforme di marketing e vendita, come Facebook Ads, Google Analytics, Instagram e altro ancora, oltre a trasferire i dati direttamente in Excel per la creazione di report. Ciò consente di: - Automatizzare le attività di importazione manuale dei dati; - Utilizzare le formule e gli strumenti già disponibili in Excel per analizzare e visualizzare i dati di marketing. - Ottenere il quadro generale visualizzando più origini dati direttamente in Excel. |
 | Sede centrale dell'azienda | Finlandia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://supermetrics.com/product/excel](https://supermetrics.com/product/excel) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | GCP, Aws |
 
@@ -73,7 +74,7 @@ Queste informazioni sono state fornite da Supermetrics sul modo in cui questa ap
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

@@ -2,18 +2,19 @@
 title: Application Information for Cyberday by Digiturvamalli
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Cyberday, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b696dacb0c2e36ba06cfc5e9718101410a2bd0ff
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 6892f233de502eee26754e933d4a922d579cc28e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264394"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546084"
 ---
 # <a name="cyberday"></a>Cyberday
 
@@ -40,8 +41,9 @@ Informazioni fornite da Digiturvamalli a Microsoft:
 | Condizioni per l'uso dell'app | [https://cyberday.ai/terms-of-use](https://cyberday.ai/terms-of-use) |
 | Funzionalità di base dell'app | Cyberday è un sistema di gestione della sicurezza delle informazioni che guida il cliente verso la conformità ai framework di sicurezza selezionati. |
 | Sede centrale dell'azienda | Finlandia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://cyberday.ai](https://cyberday.ai) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Digiturvamalli sul modo in cui questa 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,10 +160,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Usare la posta elettronica per identificare l'utente e la visualizzazione per gli amministratori dell'app che sono questo utente | [1c7d277c-ff8a-4ea4-bc14-7d06314f8941](https://docs.microsoft.com/microsoft-365-app-certification/azure/1c7d277c-ff8a-4ea4-bc14-7d06314f8941) |
->| openid | delegated | Usare l'ID utente per identificare l'utente | [1c7d277c-ff8a-4ea4-bc14-7d06314f8941](https://docs.microsoft.com/microsoft-365-app-certification/azure/1c7d277c-ff8a-4ea4-bc14-7d06314f8941) |
+>| User.Read | delegated | Usare la posta elettronica per identificare l'utente e la visualizzazione per gli amministratori dell'app che sono questo utente | [1c7d277c-ff8a-4ea4-bc14-7d06314f8941](../azure/1c7d277c-ff8a-4ea4-bc14-7d06314f8941.md) |
+>| openid | delegated | Usare l'ID utente per identificare l'utente | [1c7d277c-ff8a-4ea4-bc14-7d06314f8941](../azure/1c7d277c-ff8a-4ea4-bc14-7d06314f8941.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

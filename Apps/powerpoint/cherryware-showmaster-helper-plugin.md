@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Showmaster (plug-in helper) tramite il software di distribuzione
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Showmaster (plug-in helper), i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: da8aec255ecc6f8b779850fe862233b376a5f6df
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: 709af640b1be36d8f36d3a2ec5cf06982100b53e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62177655"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545244"
 ---
 # <a name="showmaster-helper-plugin"></a>Showmaster (plug-in helper)
 
@@ -33,13 +34,13 @@ Informazioni fornite dal software di configurazione a Microsoft:
 |:----------------|:-------------|
 | Nome app | Showmaster (plug-in helper) |
 | ID | WA200003676 |
-| Office 365 client supportati | PowerPoint 2016 o versione successiva su Mac, PowerPoint sul web, PowerPoint 2013 o versione successiva su Windows |
+| Office 365 client supportati | PowerPoint 2016 o versioni successive su Mac, PowerPoint sul web, PowerPoint 2013 o versioni successive su Windows |
 | Nome società partner | cherryware |
 | Sito Web aziendale | [https://www.cherryware.com](https://www.cherryware.com) |
 | Condizioni per l'uso dell'app | [https://showmaster.app/terms/](https://showmaster.app/terms/) |
 | Funzionalità di base dell'app | Showmaster è un PowerPoint aggiuntivo che crea un fotogramma interessante intorno al tuo discorso durante il tempo di attesa e si interrompe con titoli, conto alla rovescia, musica e altro ancora. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://showmaster.app](https://showmaster.app) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -56,14 +57,7 @@ Queste informazioni sono state fornite dal software di gestione dei dati sul mod
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +65,7 @@ Queste informazioni sono state fornite dal software di gestione dei dati sul mod
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

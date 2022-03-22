@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Sheetgo di SHEETGO EUROPE SL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Sheetgo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Sheetgo, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 96f6d9645f7cc2ad601e0d366b5a73e7119e0aee
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 625079885956c18847f3fb1b0032b7dc57b0134c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148614"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546914"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -33,13 +34,13 @@ Informazioni fornite da SHEETGO EUROPE SL a Microsoft:
 |:----------------|:-------------|
 | Nome app | Sheetgo |
 | ID | WA200002128 |
-| Office 365 client supportati | Excel 2016 o versione successiva su Mac, Excel 2016 o versione successiva Windows, Excel sul web |
+| Office 365 client supportati | Excel 2016 o versioni successive su Mac, Excel 2016 o versioni successive Windows, Excel sul web |
 | Nome società partner | SHEETGO EUROPE SL |
 | Sito Web aziendale | [https://www.sheetgo.com](https://www.sheetgo.com) |
 | Condizioni per l'uso dell'app | [https://www.sheetgo.com/legal/terms/](https://www.sheetgo.com/legal/terms/) |
 | Funzionalità di base dell'app | Sheetgo è una piattaforma di automazione del flusso di lavoro che consente agli utenti di connettere fogli di calcolo online e creare sistemi di gestione dei dati automatizzati. L'app Web Sheetgo offre una piattaforma per la creazione e la gestione dei flussi di lavoro, insieme a una serie di modelli. Il componente aggiuntivo Sheetgo per Excel e il componente aggiuntivo per Fogli Google consentono agli utenti di connettersi e automatizzare direttamente all'interno di un foglio di calcolo e l'app Teams consente ai creatori di flussi di lavoro di condividere i propri file connessi con i colleghi nei canali e nelle chat di gruppo. |
 | Sede centrale dell'azienda | Spagna |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.sheetgo.com](https://www.sheetgo.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | GCP |
 
@@ -73,7 +74,7 @@ Queste informazioni sono state fornite da SHEETGO EUROPE SL su come questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

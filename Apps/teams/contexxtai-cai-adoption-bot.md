@@ -2,18 +2,19 @@
 title: Application Information for C.AI Adoption Bot by contexxt.ai
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni di sicurezza e conformità disponibili per C.AI Adoption Bot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per C.AI Adoption Bot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6c7c8d1b083cab351889117aa58316332161f466
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c9aa789941856708605540eb96b6ff24f3526496
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261352"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547374"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -37,10 +38,11 @@ Informazioni fornite da contexxt.ai a Microsoft:
 | Nome società partner | contexxt.ai |
 | Sito Web aziendale | [https://contexxt.ai](https://contexxt.ai) |
 | Condizioni per l'uso dell'app | [https://contexxt.ai/terms-of-use](https://contexxt.ai/terms-of-use) |
-| Funzionalità di base dell'app | Quando si usa l'intera famiglia di prodotti di adozione, incl. &quot; Personal Coaching Booster&quot;, l'analisi del motore di analisi (C.AI Adoption Analytics) tramite i dati di utilizzo anonimi &amp; dell'API Graph da Exchange Teams. In base a questi dati, l'algoritmo bot (C.AI Adoption Bot) &amp; rileva situazioni di apprendimento specifiche invia suggerimenti rapidi all'utente. Ad esempio, se un utente non ha mai aggiunto un soggetto a un post di Teams, il bot presuppone che l'utente non sappia come farlo e invii materiali di apprendimento personalizzati. Senza Analytics, sarà solo un bot QA&amp;. |
+| Funzionalità di base dell'app | Quando si usa l'intera famiglia di prodotti di adozione, incl. &quot; Personal Coaching Booster&quot;, l'analisi del motore di analisi (C.AI Adoption Analytics) tramite Graph API ha anonimizzato &amp; i dati di utilizzo da Exchange Teams. In base a questi dati, l'algoritmo bot (C.AI Adoption Bot) &amp; rileva situazioni di apprendimento specifiche invia suggerimenti rapidi all'utente. Ad esempio, se un utente non ha mai aggiunto un soggetto a un post di Teams, il bot presuppone che l'utente non sappia come farlo e invii materiali di apprendimento personalizzati. Senza Analytics, sarà solo un bot QA&amp;. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://contexxt.ai/cai-adoption-bot/](https://contexxt.ai/cai-adoption-bot/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Queste informazioni sono state fornite da contexxt.ai su come questa app raccogl
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 2 settimana |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -163,15 +158,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | application | Disponibilità dell'utente in grado di inviare suggerimenti al momento giusto e non durante i tempi di messa a fuoco, ad esempio | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| ChannelMessage.Read.All | application | Microsoft Teams metadati del canale, ad esempio Privato o meno o la quantità di conversazioni per canale per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Chat.Read.All | application | Microsoft Teams metadati della chat, ad esempio se un messaggio è stato apprezzato o quante chat di gruppo e 1:1 esistono per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Directory.Read.All | application | ID oggetto utente per poter inviare suggerimenti all'utente specifico in un secondo momento. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Group.Read.All | application | Microsoft Teams metadati, ad esempio la quantità di Teams e canali per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Mail.Read | application | Metadati di Microsoft Exchange, ad esempio la quantità di messaggi di posta elettronica e di gruppo e messaggi di posta elettronica 1:1 per analizzare l'utilizzo di Exchange (rispetto a Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| User.Read.All | application | Microsoft Teams metadati di chat e conversazioni, ad esempio se un utente è stato menzionato per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Calendars.Read | application | Disponibilità dell'utente in grado di inviare suggerimenti al momento giusto e non durante i tempi di messa a fuoco, ad esempio | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| ChannelMessage.Read.All | application | Microsoft Teams metadati del canale, ad esempio Privato o meno o la quantità di conversazioni per canale per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Chat.Read.All | application | Microsoft Teams metadati della chat, ad esempio se un messaggio è stato mi piace o quante chat di gruppo e 1:1 esistono per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Directory.Read.All | application | ID oggetto utente per poter inviare suggerimenti all'utente specifico in un secondo momento. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Group.Read.All | application | Microsoft Teams metadati, ad esempio la quantità di Teams e canali per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Mail.Read | application | Metadati di Microsoft Exchange, ad esempio la quantità di messaggi di posta elettronica e di gruppo e messaggi di posta elettronica 1:1 per analizzare l'utilizzo di Exchange (rispetto a Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| User.Read.All | application | Microsoft Teams metadati di chat e conversazioni, ad esempio se un utente è stato menzionato per analizzare l'utilizzo di Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

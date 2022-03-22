@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per FormMachines Enterprise digital machines
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per FormMachines, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9ec325100eafc5d6b84150a00a2c5a13880236b7
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: 3c526bb2d83bf12bacb9f34c0fad203a37449daf
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62209555"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546464"
 ---
 # <a name="formmachines"></a>FormMachines
 
@@ -39,7 +40,7 @@ Informazioni fornite da Enterprise computer digitali a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.formmachines.com/dist/docs#/statements_and_agre...](https://www.formmachines.com/dist/docs#/statements_and_agreements/terms_of_service) |
 | Funzionalità di base dell'app | Offre Teams agli utenti la possibilità di creare facilmente moduli aziendali |
 | Sede centrale dell'azienda | Australia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.formmachines.com](https://www.formmachines.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -73,7 +74,7 @@ Queste informazioni sono state fornite da Enterprise Digital Machines sul modo i
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

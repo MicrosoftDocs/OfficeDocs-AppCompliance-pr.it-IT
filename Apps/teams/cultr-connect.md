@@ -2,18 +2,19 @@
 title: Application Information for Cultr Connessione by Cultr
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Cultr Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Cultr Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1ec9f10e4958bea43e19bc84ee3eedf09ab1218e
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 36364c336439fe99002781fdf25706de0be8eee9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252432"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544974"
 ---
 # <a name="cultr-connect"></a>Cultr Connect
 
@@ -40,8 +41,9 @@ Informazioni fornite da Cultr a Microsoft:
 | Condizioni per l'uso dell'app | [https://cultr.works/terms-of-use/](https://cultr.works/terms-of-use/) |
 | Funzionalità di base dell'app | Vedere cosa stanno facendo i colleghi su Cultr |
 | Sede centrale dell'azienda | Lussemburgo |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://cultr.works/how-it-works/](https://cultr.works/how-it-works/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Cultr su come questa app raccoglie e a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -166,14 +161,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| GroupMember.Read.All | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| Organization.Read.All | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| TeamMember.Read.All | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| User.Read | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| User.Read.All | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| User.ReadBasic.All | application | Identificare l'utente per l'invio di dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| openid | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
+>| Group.Read.All | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| GroupMember.Read.All | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| Organization.Read.All | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| TeamMember.Read.All | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| User.Read | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| User.Read.All | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| User.ReadBasic.All | application | Identificare l'utente per l'invio di dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| openid | application | Identificare l'utente per aggiornare le informazioni utente e inviare dati pertinenti. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

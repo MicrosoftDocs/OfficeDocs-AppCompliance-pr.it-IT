@@ -2,18 +2,19 @@
 title: Application Information for Cuckoo Workout by Cuckoo Networks Oy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Cuckoo Workout, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f0f7c645b26737b397737d0d8c09477cab37b2fd
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: e97d071b9159dc898f16839233459a39b735bf6b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261322"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544984"
 ---
 # <a name="cuckoo-workout"></a>Cuckoo Workout
 
@@ -40,7 +41,7 @@ Informazioni fornite da Cuckoo Networks Oy a Microsoft:
 | Condizioni per l'uso dell'app | [https://cuckooworkout.com/terms-of-service/](https://cuckooworkout.com/terms-of-service/) |
 | Funzionalità di base dell'app | Esercizi di micro-break facili e divertenti per aumentare l'energia e il cervello. |
 | Sede centrale dell'azienda | Finlandia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://cuckooworkout.com](https://cuckooworkout.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | AWS |
 
@@ -167,13 +168,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Nome utente, ID tenant per le comunicazioni e il mapping delle sottoscrizioni | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| email | delegated | Posta elettronica, necessaria per l'autenticazione e il supporto | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| offline_access | delegated | N/D | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| openid | delegated | ID utente per l'autenticazione | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| profile | delegated | ID profilo per l'autenticazione | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
+>| User.Read | delegated | Nome utente, ID tenant per le comunicazioni e il mapping delle sottoscrizioni | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| email | delegated | Posta elettronica, necessaria per l'autenticazione e il supporto | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| offline_access | delegated | N/D | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| openid | delegated | ID utente per l'autenticazione | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| profile | delegated | ID profilo per l'autenticazione | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
