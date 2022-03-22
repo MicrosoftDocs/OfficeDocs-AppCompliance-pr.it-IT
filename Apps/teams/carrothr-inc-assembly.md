@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per l'assemblaggio da parte di Tutto il codice
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Assembly, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6015c68e34f9d1f1a08685968281d563de08088f
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 8271fa02cf76c7747a2a4f24f699484c02e7a5c8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257956"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547964"
 ---
 # <a name="assembly"></a>Assembly
 
@@ -40,8 +41,9 @@ Informazioni fornite da CarrotHR Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://joinassembly.com/terms-of-service](https://joinassembly.com/terms-of-service) |
 | Funzionalità di base dell'app | L'assembly è una piattaforma di riconoscimento e coinvolgimento dei dipendenti. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.joinassembly.com/about](https://www.joinassembly.com/about) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da CarrotHR Inc. Sul modo in cui questa a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 2 settimana |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,15 +159,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | delegated | Consenti all'utente di assegnare l'app a un canale appena creato dalla nostra app | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| Directory.Read.All | application | Mantenere sincronizzati i profili in modo che i membri siano correttamente disponibili per la ricerca in Assembly | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| Group.Read.All | delegated | Osserviamo i dati per essere certi che possano assegnare l'app al gruppo corretto | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| Teams. ReadBasic.All | application | Possibilità di assegnare l'app alla scheda del team corretta | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| TeamsTab.Create | application | Lo usiamo per consentire all'app di essere accodata correttamente a un canale/team | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| email | delegated | Posta elettronica dell'utente in modo che possiamo concedere loro l'accesso al loro account specifico | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| profile | delegated | Nome utente per popolare automaticamente Assembly e mantenere la sincronizzazione con le modifiche Microsoft Teams | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Channel.Create | delegated | Consenti all'utente di assegnare l'app a un canale appena creato dalla nostra app | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| Directory.Read.All | application | Mantenere sincronizzati i profili in modo che i membri siano correttamente disponibili per la ricerca in Assembly | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| Group.Read.All | delegated | Osserviamo i dati per essere certi che possano assegnare l'app al gruppo corretto | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| Teams. ReadBasic.All | application | Possibilità di assegnare l'app alla scheda del team corretta | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| TeamsTab.Create | application | Lo usiamo per consentire all'app di essere accodata correttamente a un canale/team | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| email | delegated | Posta elettronica dell'utente in modo che possiamo concedere loro l'accesso al loro account specifico | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| profile | delegated | Nome utente per popolare automaticamente Assembly e mantenere la sincronizzazione con le modifiche Microsoft Teams | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

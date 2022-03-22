@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Beagle per punto decisionale
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Beagle, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Beagle, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9f148591896e5c1c8a5423490c99d5712bd71e34
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 59e5bcb66f8a28d49626ee94efa9532279e930cd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259792"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547944"
 ---
 # <a name="beagle"></a>Beagle
 
@@ -40,8 +41,9 @@ Informazioni fornite da Decision Point a Microsoft:
 | Condizioni per l'uso dell'app | [https://beagleanalytics.ai/wp-content/uploads/2021/02/Terms...](https://beagleanalytics.ai/wp-content/uploads/2021/02/Terms-of-Use.pdf) |
 | Funzionalità di base dell'app | Beagle è uno strumento di business intelligence basato su chat integrato con piattaforme come MS Teams. Beagle riduce le barriere dell'adozione ed elimina la necessità di formazione (degli utenti) tramite un'app di collaborazione.  Beagle mostra i dati pertinenti a un utente sotto forma di schede dettagliate e consente loro di approfondire l'uso di filtri e di velocizzare il processo decisionale.  |
 | Sede centrale dell'azienda | India |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://beagleanalytics.ai](https://beagleanalytics.ai) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure, SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Decision Point su come questa app racc
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

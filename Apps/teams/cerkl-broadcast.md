@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per la trasmissione da Parte di Cerkl
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Broadcast, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 527f245f00a281a4b0ec7e830ec297bc0db62fdd
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 2868de9f42250c8dff2e1b8302490082400a8fa3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251692"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548914"
 ---
 # <a name="broadcast"></a>Broadcast
 
@@ -38,10 +39,11 @@ Informazioni fornite da Cerkl a Microsoft:
 | Nome società partner | Cerkl |
 | Sito Web aziendale | [https://cerkl.com](https://cerkl.com) |
 | Condizioni per l'uso dell'app | [https://cerkl.com/terms](https://cerkl.com/terms) |
-| Funzionalità di base dell'app | Cerkl Broadcast connette i gruppi di destinatari dei dipendenti con l'organizzazione&#8217;comunicazioni importanti. Usando la personalizzazione basata sul comportamento, Broadcast recapita il messaggio giusto al dipendente giusto al momento giusto nel canale giusto. Questo&#8217;in cui ci allodiamo veramente dalla concorrenza: consentiamo ai comunicatori esperti di comunicare tra canali senza duplicare lo sforzo. Broadcast fornisce anche metriche leader del settore che aiutano i nostri clienti a sapere&#8217;lavoro per il proprio pubblico. |
+| Funzionalità di base dell'app | Cerkl Broadcast connette i gruppi di destinatari dei dipendenti con l'organizzazione&#8217;comunicazioni importanti. Usando la personalizzazione basata sul comportamento, Broadcast recapita il messaggio giusto al dipendente giusto al momento giusto nel canale giusto. Questo&#8217;in cui ci allodiamo veramente dalla concorrenza: consentiamo ai comunicatori esperti di comunicare tra i canali senza duplicare lo sforzo. Broadcast fornisce anche metriche leader del settore che aiutano i nostri clienti a sapere&#8217;lavoro per il proprio pubblico. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://cerkl.com/broadcast/microsoft-teams/](https://cerkl.com/broadcast/microsoft-teams/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Cerkl su come questa app raccoglie e a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +66,7 @@ Queste informazioni sono state fornite da Cerkl su come questa app raccoglie e a
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -164,9 +159,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | I messaggi di posta elettronica dell'utente vengono raccolti e usati per verificare se l'utente è attualmente nel sistema e sono stati aggiunti da un'organizzazione. | [74ef25ab-3685-446c-aa43-4e9cc251ed62](https://docs.microsoft.com/microsoft-365-app-certification/azure/74ef25ab-3685-446c-aa43-4e9cc251ed62) |
+>| User.Read | delegated | I messaggi di posta elettronica dell'utente vengono raccolti e usati per verificare se l'utente è attualmente nel sistema e sono stati aggiunti da un'organizzazione. | [74ef25ab-3685-446c-aa43-4e9cc251ed62](../azure/74ef25ab-3685-446c-aa43-4e9cc251ed62.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

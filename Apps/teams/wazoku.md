@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Wazoku di Wazoku
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Wazoku, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1c9aef70ea9958b82698b54fca43ebf2853f5d73
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 9dd9552c6b636d16f6c419979fada3fda866e793
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251542"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549614"
 ---
 # <a name="wazoku"></a>Wazoku
 
@@ -40,7 +41,7 @@ Informazioni fornite da Wazoku a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.wazoku.com/terms-of-use/](https://www.wazoku.com/terms-of-use/) |
 | Funzionalità di base dell'app | Wazoku Idea Management Platform |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://support.wazoku.com/microsoft-teams-integration](https://support.wazoku.com/microsoft-teams-integration) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Azure, Aws |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da Wazoku su come questa app raccoglie e 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -158,7 +159,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo per l'integrazione della piattaforma di identità Microsoft? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | No |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -168,13 +169,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| email | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| offline_access | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| openid | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| profile | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| User.Read | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| email | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| offline_access | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| openid | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| profile | delegated | Single #A0 | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

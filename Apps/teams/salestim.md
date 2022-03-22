@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per SalesTim di SalesTim
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SalesTim, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 66997cbd8ecf5872454d9ec9a58dcb65b65a094b
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d650f6254f819ec1683641400e37f1c10a98291a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252198"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548754"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -40,7 +41,7 @@ Informazioni fornite da SalesTim a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.salestim.com/legal/tos](https://www.salestim.com/legal/tos) |
 | Funzionalità di base dell'app | SalesTim aiuta ogni organizzazione a migliorare i propri processi di collaborazione attraverso la creazione di modelli Microsoft Teams e l'automazione della governance su larga scala. |
 | Sede centrale dell'azienda | Francia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.salestim.com](https://www.salestim.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -59,14 +60,7 @@ Queste informazioni sono state fornite da SalesTim su come questa app raccoglie 
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -74,7 +68,7 @@ Queste informazioni sono state fornite da SalesTim su come questa app raccoglie 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -168,14 +162,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.ReadWrite.All | delegated | ID degli utenti invitati a un canale dai criteri di appartenenza | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Directory.AccessAsUser.All | delegated | ID utente. Consente a un utente di selezionare altri utenti in diverse posizioni dell'applicazione, ad esempio selezionando i responsabili approvazione in un flusso di lavoro. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Group.ReadWrite.All | entrambi | È&#8217;solo l'archiviazione di gruppi/ID team,&#8217;non vengono archiviati i contenuti di gruppi/team. Consente all'app di creare gruppi, leggere tutte le proprietà e le appartenenze del gruppo per conto dell'utente connesso. Consente inoltre ai proprietari dei gruppi di gestire i propri gruppi e consente ai membri del gruppo di aggiornare il contenuto del gruppo. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Mail.Send | delegated | ID utente. Microsoft&#8217;i metadati di questa azione, ad esempio la data di notifica, i destinatari, l'ID richiesta. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| User.Read.All | entrambi | ID utente e dati del profilo. Consente a un utente di selezionare altri utenti in diverse posizioni dell'applicazione, ad esempio selezionando i responsabili approvazione in un flusso di lavoro. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| offline_access | delegated | Token di aggiornamento. Consente all'app di eseguire alcune operazioni e azioni in background come utente. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| ChannelMember.ReadWrite.All | delegated | ID degli utenti invitati a un canale dai criteri di appartenenza | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| Directory.AccessAsUser.All | delegated | ID utente. Consente a un utente di selezionare altri utenti in diverse posizioni dell'applicazione, ad esempio selezionando i responsabili approvazione in un flusso di lavoro. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| Group.ReadWrite.All | entrambi | È&#8217;solo l'archiviazione di gruppi/ID team,&#8217;non vengono archiviati i contenuti di gruppi/team. Consente all'app di creare gruppi, leggere tutte le proprietà e le appartenenze del gruppo per conto dell'utente connesso. Consente inoltre ai proprietari dei gruppi di gestire i propri gruppi e consente ai membri del gruppo di aggiornare il contenuto del gruppo. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| Mail.Send | delegated | ID utente. Microsoft&#8217;i metadati di questa azione, ad esempio la data di notifica, i destinatari, l'ID richiesta. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| User.Read.All | entrambi | ID utente e dati del profilo. Consente a un utente di selezionare altri utenti in diverse posizioni dell'applicazione, ad esempio selezionando i responsabili approvazione in un flusso di lavoro. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| offline_access | delegated | Token di aggiornamento. Consente all'app di eseguire alcune operazioni e azioni in background come utente. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

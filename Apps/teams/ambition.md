@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per l'ambizioso
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Ambition, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0d647d63ad0999b5f635f2bef659af1ad8bb9563
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: bb4fa96c1ab1220f78f3eafa1e946dea7a071136
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264225"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549734"
 ---
 # <a name="ambition"></a>Ambition
 
@@ -40,8 +41,9 @@ Informazioni fornite da Ambition a Microsoft:
 | Condizioni per l'uso dell'app | [https://ambition.com/pages/terms/](https://ambition.com/pages/terms/) |
 | Funzionalità di base dell'app | Software di gamification e di formazione per i team di vendita. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://ambition.com](https://ambition.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Ambition su come questa app raccoglie 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,14 +159,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegated | Inviare notifiche di ambizioso al canale | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](https://docs.microsoft.com/microsoft-365-app-certification/azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af) |
->| Group.Read.All | delegated | Configurare una notifica di un flusso di lavoro per un determinato canale all'interno di un team. | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](https://docs.microsoft.com/microsoft-365-app-certification/azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af) |
->| User.Read | delegated | Per identificare l'amministratore che ha autorizzato l'app Ambition | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](https://docs.microsoft.com/microsoft-365-app-certification/azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af) |
->| User.ReadBasic.All | delegated | I nomi degli utenti e-mail &amp; , per sincronizzare gli utenti con i loro account Diao. | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](https://docs.microsoft.com/microsoft-365-app-certification/azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af) |
->| offline_access | delegated | Per sincronizzare Microsoft Teams dati mentre gli utenti sono offline. | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](https://docs.microsoft.com/microsoft-365-app-certification/azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af) |
->| openid | delegated | Questa operazione è necessaria per usare la funzionalità di accesso di Microsoft | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](https://docs.microsoft.com/microsoft-365-app-certification/azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af) |
+>| Channel.ReadBasic.All | delegated | Inviare notifiche di ambizioso al canale | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](../azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af.md) |
+>| Group.Read.All | delegated | Configurare una notifica di un flusso di lavoro per un determinato canale all'interno di un team. | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](../azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af.md) |
+>| User.Read | delegated | Per identificare l'amministratore che ha autorizzato l'app Ambition | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](../azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af.md) |
+>| User.ReadBasic.All | delegated | I nomi degli utenti e-mail &amp; , per sincronizzare gli utenti con i loro account Diao. | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](../azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af.md) |
+>| offline_access | delegated | Per sincronizzare Microsoft Teams dati mentre gli utenti sono offline. | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](../azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af.md) |
+>| openid | delegated | Questa operazione è necessaria per usare la funzionalità di accesso di Microsoft | [24a9cf21-407c-41f9-8cc6-e7015f4e02af](../azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

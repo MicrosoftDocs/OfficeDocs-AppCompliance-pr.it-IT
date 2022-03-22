@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ServiceDesk Plus Cloud, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 806f347e7083889c01e9c8e7649621c155184d75
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: f0d450a5aed6f38dd2083c094a9280241c8b9545
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63454274"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549544"
 ---
 # <a name="servicedesk-plus-cloud"></a>ServiceDesk Plus Cloud
 
@@ -43,7 +43,6 @@ Informazioni fornite da Zoho Corporation Private Limited a Microsoft:
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni dell'app | [https://help.sdpondemand.com/servicedeskplus_cloud_for_teams](https://help.sdpondemand.com/servicedeskplus_cloud_for_teams) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -62,7 +61,7 @@ Queste informazioni sono state fornite da Zoho Corporation Private Limited su co
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | ID utente,Nome utente, Indirizzo di posta elettronica |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 90 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
@@ -172,8 +171,8 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Accedere e leggere il profilo utente | [127e5be9-da2c-4335-a284-da367379428a](../azure/127e5be9-da2c-4335-a284-da367379428a) |
->| offline_access | delegated | Mantenimento dell'accesso ai dati a cui è stato concesso l'accesso | [127e5be9-da2c-4335-a284-da367379428a](../azure/127e5be9-da2c-4335-a284-da367379428a) |
+>| User.Read | delegated | Accedere e leggere il profilo utente | [127e5be9-da2c-4335-a284-da367379428a](../azure/127e5be9-da2c-4335-a284-da367379428a.md) |
+>| offline_access | delegated | Mantenimento dell'accesso ai dati a cui è stato concesso l'accesso | [127e5be9-da2c-4335-a284-da367379428a](../azure/127e5be9-da2c-4335-a284-da367379428a.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

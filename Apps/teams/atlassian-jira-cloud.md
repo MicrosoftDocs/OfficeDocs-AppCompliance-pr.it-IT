@@ -2,18 +2,19 @@
 title: Application Information for Jira Cloud by Atlassian
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6f20ca178d988c5f89b03bd1da5b3100d5c552ef
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 00db003bebffb2ae33cb768263afb20ebad872f4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256722"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549014"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -167,11 +168,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| offline_access | delegated | Fornire l'accesso alle risorse per conto dell'utente per un lungo periodo di tempo per garantire la migliore esperienza utente. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
->| openid | delegated | Ottenere il nome, il cognome, il nome utente preferito e l'ID oggetto dell'utente. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
->| profile | delegated | Ottenere il nome, il cognome, il nome utente preferito e l'ID oggetto dell'utente. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
+>| offline_access | delegated | Fornire l'accesso alle risorse per conto dell'utente per un lungo periodo di tempo per garantire la migliore esperienza utente. | [512b84d2-5840-45d6-8d01-5f073836d039](../azure/512b84d2-5840-45d6-8d01-5f073836d039.md) |
+>| openid | delegated | Ottenere il nome, il cognome, il nome utente preferito e l'ID oggetto dell'utente. | [512b84d2-5840-45d6-8d01-5f073836d039](../azure/512b84d2-5840-45d6-8d01-5f073836d039.md) |
+>| profile | delegated | Ottenere il nome, il cognome, il nome utente preferito e l'ID oggetto dell'utente. | [512b84d2-5840-45d6-8d01-5f073836d039](../azure/512b84d2-5840-45d6-8d01-5f073836d039.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

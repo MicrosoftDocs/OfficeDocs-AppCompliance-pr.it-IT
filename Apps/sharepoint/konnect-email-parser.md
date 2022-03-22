@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Konnect eMail Parser di Konnect eMail
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/01/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Konnect eMail Parser, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Konnect eMail Parser, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 391b89a6a673e471f848544ef6d3d7662ce27e19
-ms.sourcegitcommit: edd55f34c004f0b5c7e4418b92b8ba325b8ab336
+ms.openlocfilehash: 460f28e2db60476f913f2fcc0ad9f3d3196e1191
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62316207"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548524"
 ---
 # <a name="konnect-email-parser"></a>Konnect eMail Parser
 
@@ -39,7 +40,7 @@ Informazioni fornite da Konnect eMail a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.konnectemail.com/eula](https://www.konnectemail.com/eula) |
 | Funzionalità di base dell'app | Acquisisci automaticamente gli attributi di posta elettronica come metadati. |
 | Sede centrale dell'azienda | Australia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.konnectemail.com/sharepoint-email-management](https://www.konnectemail.com/sharepoint-email-management) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -58,14 +59,7 @@ Queste informazioni sono state fornite da Konnect eMail su come questa app racco
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

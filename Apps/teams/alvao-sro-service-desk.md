@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Alvao Service Desk di ALVAO s.r.o.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Alvao Service Desk, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Alvao Service Desk, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6023f014f3f5af7b7c2eae430b0e7d946849fd76
-ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
+ms.openlocfilehash: c6d703bfe43f8fe3877d8b452d8703a2bca4d68a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62877173"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549024"
 ---
 # <a name="alvao-service-desk"></a>Alvao Service Desk
 
@@ -40,7 +41,7 @@ Informazioni fornite da ALVAO s.r.o. a Microsoft:
 | Condizioni per l'uso dell'app | [https://doc.alvao.com/cs/10.4/alvao_service_desk/License%20...](https://doc.alvao.com/cs/10.4/alvao_service_desk/License%20terms%20for%20the%20software%20product%20ALVAO%20Service%20Desk%2010.4.pdf) |
 | Funzionalità di base dell'app | Un front-end semplice per gli utenti, uno strumento potente per i team di servizi interni. ALVAO Service Desk fornisce un singolo punto di contatto per tutte le richieste aziendali. Il team dei provider di soluzioni acquisisce una panoramica del carico di lavoro, delle priorità chiare e delle comunicazioni migliorate. |
 | Sede centrale dell'azienda | Cecoslovacchia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://doc.alvao.com/support/doc/en/alvao_10_4/modules/alv...](https://doc.alvao.com/support/doc/en/alvao_10_4/modules/alvao_teams_addin/default.aspx) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Ibrido |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da ALVAO s.r.o. informazioni su come ques
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -156,7 +150,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |

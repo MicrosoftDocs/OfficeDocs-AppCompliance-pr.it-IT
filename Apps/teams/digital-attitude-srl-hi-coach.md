@@ -2,18 +2,19 @@
 title: Application Information for hi Digital Coach by Digital Attitude Srl
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per hi Digital Coach, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a668b8fc1704063781c9696dd8cd2bf8e91fda65
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 01c0d9305a637d3f56e2f8e026f7154bfe1e9d5c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259667"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549434"
 ---
 # <a name="hi-digital-coach"></a>hi Digital Coach
 
@@ -40,8 +41,9 @@ Informazioni fornite da Digital Attitude Srl a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.iubenda.com/termini-e-condizioni/98527945](https://www.iubenda.com/termini-e-condizioni/98527945) |
 | Funzionalità di base dell'app | hi è un digital coach che addestra le persone a ottenere il massimo Microsoft Teams. |
 | Sede centrale dell'azienda | Italia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.habitinspiringplatform.com/coaching-plan](https://www.habitinspiringplatform.com/coaching-plan) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Digital Attitude Srl su come questa ap
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

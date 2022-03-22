@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Workbench Intelligence di Temporall
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Workbench Intelligence, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Workbench Intelligence, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9a560adc52e8125118e24e6c57810a0a7e5d7027
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 948712fb4c4db715f8c464a8645f06d75c774c27
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264114"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548684"
 ---
 # <a name="workbench-intelligence"></a>Workbench Intelligence
 
@@ -40,8 +41,9 @@ Informazioni fornite da Temporall a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.temporall.com/eula](https://www.temporall.com/eula) |
 | Funzionalità di base dell'app | Workbench Intelligence fornisce informazioni dettagliate in tempo reale per aiutarti a prendere decisioni più rapide e migliori. |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.temporall.com/teams_intelligence/](https://www.temporall.com/teams_intelligence/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Temporall su come questa app raccoglie
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,17 +159,17 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AppCatalog.Read.All | delegated | Ottiene un elenco di app di teams installate per ottenere l'ID app locale per l'ID esterno noto. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| Channel.ReadBasic.All | application | Nome ID &amp; canale. Giustificazione: consentire l'aggiunta/uscita dal canale per sincronizzare l'attività dei messaggi.  | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| ChannelMessage.Read.All | application | Tipo di attività del &amp; messaggio, insieme alla destinazione del &amp; mittente. Dati ricevuti da queste route: /teams/${teamId}/channels/${channelId}/messages /teams/${teamId}/channels/${channelId}/messages/${messageId}. Giustificazione: per poter calcolare il report delle metriche &amp; sull'attività dei messaggi. Questo costituisce il fulcro del modulo di analisi della rete organizzativa per poter disegnare un diagramma di attività tra i team degli &amp; utenti. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| Directory.Read.All | application | ClientId, Elenco di utenti, elenco di organizzazioni e canali secondari. Giustificazione: necessario per leggere gli utenti &amp; di sincronizzazione in Temporall Workbench | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| Group.ReadWrite.All | application | Nome ID &amp; gruppo. Giustificazione: per installare l'app in ogni gruppo/canale | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamMember.Read.All | application | Appartenenza degli utenti al team. Giustificazione: consente la sincronizzazione di tutti gli utenti in Teams con Temporall Workbench | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamsAppInstallation.ReadWriteForTeam.All | application | Leggi l'elenco delle app installate per Team. Giustificazione: controlla se l'app è già installata altrimenti la installa per essere in grado di ottenere l'attività dei messaggi tramite l'api graph | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamsAppInstallation.ReadWriteForUser.All | application | Leggi l'elenco delle app installate. Controlla se l'app è già installata altrimenti la installa per interagire con l'utente tramite un questionario | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| User.Read | delegated | Informazioni di base sull'azienda &amp; dell'utente. Giustificazione: usato per classificare l'attività dei messaggi per utente, consente al bot di partecipare alla messaggistica proattiva. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
+>| AppCatalog.Read.All | delegated | Ottiene un elenco di app di teams installate per ottenere l'ID app locale per l'ID esterno noto. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| Channel.ReadBasic.All | application | Nome ID &amp; canale. Giustificazione: consentire l'aggiunta/uscita dal canale per sincronizzare l'attività dei messaggi.  | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| ChannelMessage.Read.All | application | Tipo di attività del &amp; messaggio, insieme alla destinazione del &amp; mittente. Dati ricevuti da queste route: /teams/${teamId}/channels/${channelId}/messages /teams/${teamId}/channels/${channelId}/messages/${messageId}. Giustificazione: per poter calcolare il report delle metriche &amp; sull'attività dei messaggi. Questo costituisce il fulcro del modulo di analisi della rete organizzativa per poter disegnare un diagramma di attività tra i team degli &amp; utenti. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| Directory.Read.All | application | ClientId, Elenco di utenti, elenco di organizzazioni e canali secondari. Giustificazione: necessario per leggere gli utenti &amp; di sincronizzazione in Temporall Workbench | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| Group.ReadWrite.All | application | Nome ID &amp; gruppo. Giustificazione: per installare l'app in ogni gruppo/canale | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| TeamMember.Read.All | application | Appartenenza degli utenti al team. Giustificazione: consente la sincronizzazione di tutti gli utenti in Teams a Temporall Workbench | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| TeamsAppInstallation.ReadWriteForTeam.All | application | Leggi l'elenco delle app installate per Team. Giustificazione: controlla se l'app è già installata altrimenti la installa per essere in grado di ottenere l'attività dei messaggi tramite l'api graph | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | application | Leggi l'elenco delle app installate. Controlla se l'app è già installata altrimenti la installa per interagire con l'utente tramite un questionario | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| User.Read | delegated | Informazioni di base sull'azienda &amp; dell'utente. Giustificazione: usato per classificare l'attività dei messaggi per utente, consente al bot di partecipare alla messaggistica proattiva. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

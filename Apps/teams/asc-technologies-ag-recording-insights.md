@@ -2,18 +2,19 @@
 title: Application Information for ASC Recording Insights by ASC Technologies AG
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/04/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per ASC Recording Insights, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per ASC Recording Insights, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 626de477768e85b62479862b53743e2ede42598a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0fdd446a6508545e412e43fa4efb4ec2091e0bb9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260788"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548024"
 ---
 # <a name="asc-recording-insights"></a>ASC Recording Insights
 
@@ -40,7 +41,7 @@ Informazioni fornite da ASC Technologies AG a Microsoft:
 | Condizioni per l'uso dell'app | [https://asctechnologies.com/english/asc_impressum.html](https://asctechnologies.com/english/asc_impressum.html) |
 | Funzionalità di base dell'app | Registrazione, archiviazione e analisi delle chiamate legalmente conformi in un'app Microsoft Teams certificata |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://asctechnologies.com/english/ASC_Recording_Insights_...](https://asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -168,23 +169,23 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | application | Calender di lettura in tutte le cassette postali | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| ChannelMember.Read.All | application | Leggere i membri di tutti i canali | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| ChannelMessage.Read.All | application | Leggere tutti i messaggi del canale | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| Chat.Read | delegated | Leggere i messaggi di chat degli utenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| Chat.Read.All | application | Leggere tutti i messaggi di chat | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| Contacts.Read | delegated | Leggere i contatti utente | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| Group.Read.All | delegated | Leggere tutti i gruppi | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| Group.Read.All | application | Leggere tutti i gruppi | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| OnlineMeetings.Read.All | application | Leggere i dettagli delle riunioni online | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| People.Read | delegated | Leggere l'elenco di utenti pertinenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| User.Read | delegated | Accedere e leggere il profilo utente | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| User.Read.All | application | Leggere il profilo completo di tutti gli utenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| User.ReadBasic.All | delegated | Leggere tutti i profili di base di tutti gli utenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| openid | delegated | Accedere agli utenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
->| profile | delegated | visualizzare il profilo di base degli utenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](https://docs.microsoft.com/microsoft-365-app-certification/azure/a22e0150-3615-46aa-b0a7-086c87a9f38d) |
+>| Calendars.Read | application | Calender di lettura in tutte le cassette postali | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| ChannelMember.Read.All | application | Leggere i membri di tutti i canali | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| ChannelMessage.Read.All | application | Leggere tutti i messaggi del canale | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| Chat.Read | delegated | Leggere i messaggi di chat degli utenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| Chat.Read.All | application | Leggere tutti i messaggi di chat | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| Contacts.Read | delegated | Leggere i contatti utente | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| Group.Read.All | delegated | Leggere tutti i gruppi | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| Group.Read.All | application | Leggere tutti i gruppi | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| OnlineMeetings.Read.All | application | Leggere i dettagli delle riunioni online | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| People.Read | delegated | Leggere l'elenco di utenti pertinenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| User.Read | delegated | Accedere e leggere il profilo utente | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| User.Read.All | application | Leggere il profilo completo di tutti gli utenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| User.ReadBasic.All | delegated | Leggere tutti i profili di base di tutti gli utenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| openid | delegated | Accedere agli utenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| profile | delegated | visualizzare il profilo di base degli utenti | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

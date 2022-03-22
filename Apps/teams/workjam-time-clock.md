@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per WorkJam Time Clock di WorkJam
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/13/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per WorkJam Time Clock, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e831ca59c0fed743a1a485a6aa52edbfca1dab89
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 88c58e30f12fc05575f1621e2e39ed245e89e285
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259195"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548214"
 ---
 # <a name="workjam-time-clock"></a>WorkJam Time Clock
 
@@ -38,11 +39,10 @@ Informazioni fornite da WorkJam a Microsoft:
 | Nome società partner | WorkJam |
 | Sito Web aziendale | [https://www.workjam.com](https://www.workjam.com) |
 | Condizioni per l'uso dell'app | [https://appcontent.workjam.com/en/terms-of-use/](https://appcontent.workjam.com/en/terms-of-use/) |
-| Funzionalità di base dell'app | WorkJam è la soluzione Digital Workplace che i leader del settore scelgono di orchestrare i dipendenti &#8212; come piattaforma di produttività in prima linea o all'interno della soluzione per i dipendenti in prima linea. Disponibile in più di 37 lingue e distribuito in oltre 38 paesi, WorkJam offre l'orchestrazione totale della forza lavoro attraverso strumenti di gestione delle attività leader del mercato, gestione dei turni, sondaggi e micro-apprendimento.  |
+| Funzionalità di base dell'app | WorkJam è la soluzione Digital Workplace che i leader del settore scelgono di orchestrare i dipendenti in prima linea &#8212; come piattaforma di produttività in prima linea o all'interno della soluzione per i dipendenti in prima linea. Disponibile in più di 37 lingue e distribuito in oltre 38 paesi, WorkJam offre l'orchestrazione totale della forza lavoro attraverso strumenti di gestione delle attività leader del mercato, gestione dei turni, sondaggi e micro-apprendimento.  |
 | Sede centrale dell'azienda | Canada |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.workjam.com/portfolio-items/workjam-microsoft-t...](https://www.workjam.com/portfolio-items/workjam-microsoft-teams/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -169,10 +169,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | application | Per inviare notifiche all'utente | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf) |
->| User.Read | delegated | Per SSO all'utente e presentargli le informazioni giuste | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf) |
+>| TeamsActivity.Send | application | Per inviare notifiche all'utente | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](../azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf.md) |
+>| User.Read | delegated | Per SSO all'utente e presentargli le informazioni giuste | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](../azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

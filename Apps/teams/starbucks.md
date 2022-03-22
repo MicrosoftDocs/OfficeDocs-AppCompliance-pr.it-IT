@@ -2,18 +2,19 @@
 title: Application Information for Starbucks by Starbucks&#174; Coffee Company
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/17/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Starbucks, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5cd1d9072998bff241042273d073ab44dfbc3f95
-ms.sourcegitcommit: 7c77f94b0b1d3033f66d473bb77554f05fa3d5b6
+ms.openlocfilehash: 45d34bd6236f9df67db866389e791cc1b5fc9464
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62892152"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549644"
 ---
 # <a name="starbucks"></a>Starbucks
 
@@ -35,7 +36,7 @@ Informazioni fornite da Starbucks&#174; Coffee Company a Microsoft:
 | Nome app | Starbucks |
 | ID | WA200002412 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Starbucks&#174; Coffee Company |
+| Nome società partner | Starbucks&#174; Azienda di caffè |
 | Sito Web aziendale | [https://www.starbucks.com](https://www.starbucks.com) |
 | Condizioni per l'uso dell'app | [https://www.starbucks.com/gift-cards/manage/card-terms-and-...](https://www.starbucks.com/gift-cards/manage/card-terms-and-conditions) |
 | Funzionalità di base dell'app | Dire grazie, complimenti o complimenti a un membro del team con un eGift di Starbucks. |
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da Starbucks&#174; Coffee Company su come
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,7 +66,7 @@ Queste informazioni sono state fornite da Starbucks&#174; Coffee Company su come
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

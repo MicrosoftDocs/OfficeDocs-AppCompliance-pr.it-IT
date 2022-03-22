@@ -2,18 +2,19 @@
 title: Application Information for Group Address Book - NextSet by NextSet,Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per la Rubrica di gruppo - NextSet, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 09e5d01426bdba43990510c4e9b0574deaa648ef
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a74bbe8c40d4db32d9c6eeb64b59fd1af4f4b916
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254842"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547864"
 ---
 # <a name="group-address-book---nextset"></a>Group Address Book - NextSet
 
@@ -40,8 +41,9 @@ Informazioni fornite da NextSet,Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.nextset.co.jp/terms/address.pdf](https://www.nextset.co.jp/terms/address.pdf) |
 | Funzionalità di base dell'app | NextSet Group Address Book offre funzionalità quali la visualizzazione dell'elenco del personale, la ricerca del personale. L'amministratore genera la Rubrica di gruppo importando il personale e le informazioni sull'organizzazione. Inoltre, gli utenti possono registrare la rubrica personale (numero di telefono, numero di interno e così via) |
 | Sede centrale dell'azienda | Giappone |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.nextset.co.jp/address.html](https://www.nextset.co.jp/address.html) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | GCP, Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da NextSet,Inc. Sul modo in cui questa ap
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,11 +159,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | delegated | Microsoft 365&#19978;&#12398;&#32068;&#32340;&#12434;&#21462;&#24471;&#12375;&#12484;&#12522;&#12540;&#24418;&#24335;&#12391;&#34920;&#31034;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [53d19d16-137b-4365-a095-685d5044d28c](https://docs.microsoft.com/microsoft-365-app-certification/azure/53d19d16-137b-4365-a095-685d5044d28c) |
->| User.Read.All | entrambi | Microsoft 365&#19978;&#12398;&#32068;&#32340;&#12395;&#25152;&#23646;&#12377;&#12427;&#12518;&#12540;&#12470;&#12540;&#19968;&#35239;&#12434;&#34920;&#31034;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [53d19d16-137b-4365-a095-685d5044d28c](https://docs.microsoft.com/microsoft-365-app-certification/azure/53d19d16-137b-4365-a095-685d5044d28c) |
->| openid | delegated | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [53d19d16-137b-4365-a095-685d5044d28c](https://docs.microsoft.com/microsoft-365-app-certification/azure/53d19d16-137b-4365-a095-685d5044d28c) |
+>| Group.ReadWrite.All | delegated | Microsoft 365&#19978;&#12398;&#32068;&#32340;&#12434;&#21462;&#24471;&#12375;&#12484;&#12522;&#12540;&#24418;&#24335;&#12391;&#34920;&#31034;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [53d19d16-137b-4365-a095-685d5044d28c](../azure/53d19d16-137b-4365-a095-685d5044d28c.md) |
+>| User.Read.All | entrambi | Microsoft 365&#19978;&#12398;&#32068;&#32340;&#12395;&#25152;&#23646;&#12377;&#12427;&#12518;&#12540;&#12470;&#12540;&#19968;&#35239;&#12434;&#34920;&#31034;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [53d19d16-137b-4365-a095-685d5044d28c](../azure/53d19d16-137b-4365-a095-685d5044d28c.md) |
+>| openid | delegated | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;ID&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | [53d19d16-137b-4365-a095-685d5044d28c](../azure/53d19d16-137b-4365-a095-685d5044d28c.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

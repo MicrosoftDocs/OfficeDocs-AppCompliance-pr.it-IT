@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Team Tracker di Team Tracker Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Team Tracker, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Team Tracker, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cdb4c7dea2bfc330ddccbe58ad1f8405a9a419ef
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3901bf255ee6086a1d28ebb6135782236cafd0ef
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252208"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548704"
 ---
 # <a name="team-tracker"></a>Team Tracker
 
@@ -59,14 +60,7 @@ Queste informazioni sono state fornite da Team Tracker Ltd su come questa app ra
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -169,12 +163,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | Dopo che un utente imposta le attività per le prossime settimane, Team Tracker aggiorna il calendario degli utenti e la relativa disponibilità in base alla selezione effettuata.  | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| MailboxSettings.Read | delegated | Usato per ottenere il fuso orario per la creazione di eventi del calendario | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| User.Read | delegated | Verifica le informazioni degli utenti in base al proprio profilo | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| email | delegated | Utilizzato per verificare la posta elettronica degli utenti | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| openid | delegated | Consente agli utenti di accedere con il Office 365 account | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| profile | delegated | Verifica le informazioni di base degli utenti rispetto al proprio profilo | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| Calendars.ReadWrite | delegated | Dopo che un utente imposta le attività per le prossime settimane, Team Tracker aggiorna il calendario degli utenti e la relativa disponibilità in base alla selezione effettuata.  | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| MailboxSettings.Read | delegated | Usato per ottenere il fuso orario per la creazione di eventi del calendario | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| User.Read | delegated | Verifica le informazioni degli utenti in base al proprio profilo | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| email | delegated | Utilizzato per verificare la posta elettronica degli utenti | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| openid | delegated | Consente agli utenti di accedere con il Office 365 account | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| profile | delegated | Verifica le informazioni di base degli utenti rispetto al proprio profilo | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

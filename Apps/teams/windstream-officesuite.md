@@ -2,12 +2,19 @@
 title: Application Information for OfficeSuite by Windstream
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Tutte le informazioni di sicurezza e conformità disponibili per OfficeSuite, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per OfficeSuite, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 877ee4cbc7d303cae140f4151d349d72d7c81792
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548274"
 ---
 # <a name="officesuite"></a>OfficeSuite
 
@@ -29,7 +36,7 @@ Informazioni fornite da Windstream a Microsoft:
 | Nome app | OfficeSuite |
 | ID | WA200000618 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Windstream |
+| Nome società partner | WindStream |
 | Sito Web aziendale | [https://www.windstreamenterprise.com](https://www.windstreamenterprise.com) |
 | Condizioni per l'uso dell'app | [https://www.windstream.com/about/legal/Terms-and-Conditions](https://www.windstream.com/about/legal/Terms-and-Conditions) |
 | Funzionalità di base dell'app | App per chiamate, riunioni e notifiche di chiamata |
@@ -51,14 +58,7 @@ Queste informazioni sono state fornite da Windstream su come questa app raccogli
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -66,7 +66,7 @@ Queste informazioni sono state fornite da Windstream su come questa app raccogli
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

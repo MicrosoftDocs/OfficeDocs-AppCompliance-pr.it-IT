@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per le web part Bizagi del team Bizagi
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per le web part Bizagi, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b135f1fa51d2341d97accef7eff310247a3ba199
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 12b5bd80b98398d81bc0d6b7aaae56fbaaf37301
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148495"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548554"
 ---
 # <a name="bizagi-webparts"></a>Bizagi Webparts
 
@@ -39,7 +40,7 @@ Informazioni fornite da Bizagi Team a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.bizagi.com/en/buy/eula](https://www.bizagi.com/en/buy/eula) |
 | Funzionalità di base dell'app | Creare e gestire i casi in Bizagi da Sharepoint Online |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.bizagi.com/en/resources/help](https://www.bizagi.com/en/resources/help) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -56,14 +57,7 @@ Queste informazioni sono state fornite da Bizagi Team su come questa app raccogl
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +65,7 @@ Queste informazioni sono state fornite da Bizagi Team su come questa app raccogl
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

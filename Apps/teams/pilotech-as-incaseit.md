@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per InCaseIT di Pilotech AS
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per InCaseIT, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 80a18e37b4a1954751ee133e86861b628431c8dc
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d498d45a76d68f7b8a064bc2101a77aa3ddfb5b6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251002"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548344"
 ---
 # <a name="incaseit"></a>InCaseIT
 
@@ -40,8 +41,9 @@ Informazioni fornite da Pilotech AS a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.manula.com/manuals/pilotech-as/incaseit2/1/en/t...](https://www.manula.com/manuals/pilotech-as/incaseit2/1/en/topic/1-4-terms-of-use) |
 | Funzionalità di base dell'app | Sistema di gestione delle crisi. Sistema per la preparazione e la gestione di crisi e incidenti. |
 | Sede centrale dell'azienda | Norvegia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.manula.com/manuals/pilotech-as/incaseit2/1/en/t...](https://www.manula.com/manuals/pilotech-as/incaseit2/1/en/topic/introduction-to-incaseit-version-2-0) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Pilotech AS su come questa app raccogl
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,7 +149,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | false |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -166,9 +161,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | Gli unici dati usati sono la conferma esplicita da parte degli utenti di consentire all'applicazione di usare un token di accesso per chiamare l'API Graph. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](https://docs.microsoft.com/microsoft-365-app-certification/azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71) |
->| OnlineMeetings.ReadWrite | delegated | Gli unici dati usati sono la conferma esplicita da parte degli utenti di consentire all'applicazione di usare un token di accesso per chiamare l'API Graph. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](https://docs.microsoft.com/microsoft-365-app-certification/azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71) |
->| User.Read | delegated | Gli unici dati usati sono la conferma esplicita da parte degli utenti di consentire all'applicazione di usare un token di accesso per chiamare l'API Graph. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](https://docs.microsoft.com/microsoft-365-app-certification/azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71) |
+>| Calendars.ReadWrite | delegated | Gli unici dati usati sono la conferma esplicita da parte degli utenti di consentire all'applicazione di usare un token di accesso per chiamare l'API Graph. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](../azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71.md) |
+>| OnlineMeetings.ReadWrite | delegated | Gli unici dati usati sono la conferma esplicita da parte degli utenti di consentire all'applicazione di usare un token di accesso per chiamare l'API Graph. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](../azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71.md) |
+>| User.Read | delegated | Gli unici dati usati sono la conferma esplicita da parte degli utenti di consentire all'applicazione di usare un token di accesso per chiamare l'API Graph. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](../azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

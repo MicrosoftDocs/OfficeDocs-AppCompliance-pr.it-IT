@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Beekast di Beekast
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Beekast, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1758d54198f4f883526d9285ac53c269e33a6644
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 04efb039a4d360ee9c33498238b0c12cba336da8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255839"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549704"
 ---
 # <a name="beekast"></a>Beekast
 
@@ -40,8 +41,9 @@ Informazioni fornite da Beekast a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.beekast.com/terms/](https://www.beekast.com/terms/) |
 | Funzionalità di base dell'app | Beekast è una piattaforma di collaborazione per velocizzare le riunioni. |
 | Sede centrale dell'azienda | Francia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.beekast.com](https://www.beekast.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Beekast su come questa app raccoglie e
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,9 +159,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Posta elettronica, nome e cognome : questi dati vengono utilizzati per collaborare all'interno dell'applicazione beekast. | [4d0997dc-df53-4b18-9df1-bb283f8a0377](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d0997dc-df53-4b18-9df1-bb283f8a0377) |
+>| User.Read | delegated | Posta elettronica, nome e cognome : questi dati vengono utilizzati per collaborare all'interno dell'applicazione beekast. | [4d0997dc-df53-4b18-9df1-bb283f8a0377](../azure/4d0997dc-df53-4b18-9df1-bb283f8a0377.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

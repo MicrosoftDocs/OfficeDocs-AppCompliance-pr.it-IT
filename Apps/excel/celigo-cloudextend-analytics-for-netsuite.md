@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per CloudExtend Analytics for NetSuite di Celigo CloudExtend
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CloudExtend Analytics for NetSuite, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b676b57692590b1c0744399c085a0c089e4b3dfa
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 687edf914ba5842ed60ac95f2edf7dfe838cbb73
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254252"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549074"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics for NetSuite
 
@@ -41,6 +42,7 @@ Informazioni fornite da Celigo CloudExtend a Microsoft:
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Queste informazioni sono state fornite da Celigo CloudExtend su come questa app 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -163,10 +158,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | entrambi | Leggere la raccolta di siti per cui l'utente ha accesso per poter ottenere informazioni sulla cartella di lavoro condivisa tramite i siti | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
->| Files.ReadWrite.All | entrambi | Leggere il contenuto della cartella di lavoro come tabelle e fogli ed essere in grado di scrivere contenuto in tali tabelle | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
+>| Directory.Read.All | entrambi | Leggere la raccolta di siti per cui l'utente ha accesso per poter ottenere informazioni sulla cartella di lavoro condivisa tramite i siti | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
+>| Files.ReadWrite.All | entrambi | Leggere il contenuto della cartella di lavoro come tabelle e fogli ed essere in grado di scrivere contenuto in tali tabelle | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

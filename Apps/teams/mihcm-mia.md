@@ -2,18 +2,19 @@
 title: Application Information for Mia by MiHCM
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Mia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1e8fa45f92c45f54d50ce94397eeb5a9adba49ca
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 780b2ad28c44c486eeba73569fbe1448461bda25
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63079720"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548854"
 ---
 # <a name="mia"></a>Mia
 
@@ -40,7 +41,7 @@ Informazioni fornite da MiHCM a Microsoft:
 | Condizioni per l'uso dell'app | [https://mia.work/terms-of-use](https://mia.work/terms-of-use) |
 | Funzionalità di base dell'app | Mia Workplace Assistente virtuale consente all'organizzazione di fornire un assistente virtuale personalizzato per tutti gli Microsoft Teams utenti. Questo assistente aziendale su Microsoft Teams aiuta l'organizzazione ad aumentare la produttività, migliorare il coinvolgimento dei dipendenti, l'esecuzione di numerose richieste di risorse umane, richieste di servizio correlate al lavoro, benessere del fitness &amp; e altro ancora. Mia accerta il coinvolgimento dei dipendenti, un'esperienza senza problemi per i servizi e le interazioni delle risorse umane. |
 | Sede centrale dell'azienda | Sri Lanka |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://mia.work](https://mia.work) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -61,7 +62,7 @@ Queste informazioni sono state fornite da MiHCM su come questa app raccoglie e a
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Eventi calendario utente, fuso orario utente |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Singapore |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
@@ -171,10 +172,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | application | Per leggere gli eventi di calendario pianificati dell'utente | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| Group.Read.All | delegated | Per leggere le attività di Microsoft Planner dell'utente | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| MailboxSettings.Read | application | Per leggere il fuso orario dell'utente | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| User.Read | delegated | Per identificare un utente in modo univoco | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
+>| Calendars.Read | application | Per leggere gli eventi di calendario pianificati dell'utente | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| Group.Read.All | delegated | Per leggere le attività di Microsoft Planner dell'utente | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| MailboxSettings.Read | application | Per leggere il fuso orario dell'utente | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| User.Read | delegated | Per identificare un utente in modo univoco | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

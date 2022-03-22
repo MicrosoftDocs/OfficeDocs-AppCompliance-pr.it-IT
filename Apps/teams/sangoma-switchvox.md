@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Switchvox di Sangoma
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Switchvox, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Switchvox, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 12728af3843d47c85e4f03bfeb06e4c0faf2424c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 03e667ca9559cce35fc7ebe55cab8a40624fd324
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255542"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549304"
 ---
 # <a name="switchvox"></a>Switchvox
 
@@ -40,7 +41,7 @@ Informazioni fornite da Sangoma a Microsoft:
 | Condizioni per l'uso dell'app | [https://cdn.sangoma.com/wp-content/uploads/digium_end_user_...](https://cdn.sangoma.com/wp-content/uploads/digium_end_user_license_agreement.pdf) |
 | Funzionalità di base dell'app | Avvia senza problemi le chiamate sul telefono Switchvox da qualsiasi punto Microsoft Teams. |
 | Sede centrale dell'azienda | Canada |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://support.digium.com/community/s/article/How-do-I-use...](https://support.digium.com/community/s/article/How-do-I-use-Switchvox-for-Microsoft-Teams) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Ibrido |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -168,11 +169,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Chat.Read | delegated | Eseguire la risoluzione dei membri della chat | [eb668aa5-abb2-445c-81b4-3c174db84fe2](https://docs.microsoft.com/microsoft-365-app-certification/azure/eb668aa5-abb2-445c-81b4-3c174db84fe2) |
->| Group.Read.All | delegated | Eseguire la risoluzione dei membri del gruppo | [eb668aa5-abb2-445c-81b4-3c174db84fe2](https://docs.microsoft.com/microsoft-365-app-certification/azure/eb668aa5-abb2-445c-81b4-3c174db84fe2) |
->| User.Read.All | delegated | Eseguire la ricerca dei contatti nella directory | [eb668aa5-abb2-445c-81b4-3c174db84fe2](https://docs.microsoft.com/microsoft-365-app-certification/azure/eb668aa5-abb2-445c-81b4-3c174db84fe2) |
+>| Chat.Read | delegated | Eseguire la risoluzione dei membri della chat | [eb668aa5-abb2-445c-81b4-3c174db84fe2](../azure/eb668aa5-abb2-445c-81b4-3c174db84fe2.md) |
+>| Group.Read.All | delegated | Eseguire la risoluzione dei membri del gruppo | [eb668aa5-abb2-445c-81b4-3c174db84fe2](../azure/eb668aa5-abb2-445c-81b4-3c174db84fe2.md) |
+>| User.Read.All | delegated | Eseguire la ricerca dei contatti nella directory | [eb668aa5-abb2-445c-81b4-3c174db84fe2](../azure/eb668aa5-abb2-445c-81b4-3c174db84fe2.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

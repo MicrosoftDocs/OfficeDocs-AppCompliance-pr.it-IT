@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Keepass Pro da Witivio
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Keepass Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Keepass Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 154c1fa600d142dca7be3ef061a152caf6390000
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 8530955c262aa1104757841c48bb372d371a992c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250892"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547714"
 ---
 # <a name="keepass-pro"></a>Keepass Pro
 
@@ -40,7 +41,7 @@ Informazioni fornite da Witivio a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
 | Funzionalità di base dell'app | Archiviare, condividere e generare password in modo sicuro in Microsoft Teams. |
 | Sede centrale dell'azienda | Francia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.teams-pro.com/en/browse-apps/keypass-pro/](https://www.teams-pro.com/en/browse-apps/keypass-pro/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -168,13 +169,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite.All | delegated | Lettura/scrittura del file KDBX in SharePoint | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
->| User.Read | delegated | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
->| email | delegated | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
->| openid | delegated | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
->| profile | delegated | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
+>| Files.ReadWrite.All | delegated | Lettura/scrittura del file KDBX in SharePoint | [597cc93d-8951-4f62-b549-eca97ba5c042](../azure/597cc93d-8951-4f62-b549-eca97ba5c042.md) |
+>| User.Read | delegated | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](../azure/597cc93d-8951-4f62-b549-eca97ba5c042.md) |
+>| email | delegated | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](../azure/597cc93d-8951-4f62-b549-eca97ba5c042.md) |
+>| openid | delegated | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](../azure/597cc93d-8951-4f62-b549-eca97ba5c042.md) |
+>| profile | delegated | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](../azure/597cc93d-8951-4f62-b549-eca97ba5c042.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

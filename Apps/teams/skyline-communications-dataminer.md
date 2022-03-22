@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per DataMiner di Skyline Communications
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per DataMiner, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3c1e15e7e832cc76002ad8c1dfce50bb0ac0278c
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 88d9de4fce98bc3f56eec81995538cde285afaa6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148175"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549294"
 ---
 # <a name="dataminer"></a>DataMiner
 
@@ -40,7 +41,7 @@ Informazioni fornite da Skyline Communications a Microsoft:
 | Condizioni per l'uso dell'app | [https://dataminer.services/terms/terms-of-service.html](https://dataminer.services/terms/terms-of-service.html) |
 | Funzionalità di base dell'app | Skyline Communications è il fornitore leader a livello globale di soluzioni nmS, OSS e software di orchestrazione multi-vendor end-to-end per il settore dei supporti ICT e della banda larga. La piattaforma di gestione di rete DataMiner di punta, che ha ricevuto vari premi di rilievo, consente l'integrazione end-to-end degli ecosistemi tecnici più complessi ed è stata distribuita da operatori leader in tutto il mondo. |
 | Sede centrale dell'azienda | Belgio |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.skyline.be/dataminer/cloud-services](https://www.skyline.be/dataminer/cloud-services) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Ibrido |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da Skyline Communications su come questa 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

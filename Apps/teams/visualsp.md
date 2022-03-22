@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per VisualSP da VisualSP
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per VisualSP, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3e6ded0edb5ad681584e53c984041b43d7cccb80
-ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
+ms.openlocfilehash: 303f3f842894e425ed531c3a8ca3126911c9d48e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62473537"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547704"
 ---
 # <a name="visualsp"></a>VisualSP
 
@@ -40,7 +41,7 @@ Informazioni fornite da VisualSP a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.visualsp.com/terms-of-service](https://www.visualsp.com/terms-of-service) |
 | Funzionalità di base dell'app | Fornire accesso istantaneo ai Microsoft 365 di formazione degli utenti finali e alla formazione personalizzata |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.visualsp.com/products/microsoft-teams-training/](https://www.visualsp.com/products/microsoft-teams-training/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da VisualSP su come questa app raccoglie 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

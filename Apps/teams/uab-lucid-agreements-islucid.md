@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per isLucid by UAB Lucid Agreements
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per isLucid, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 83c9786dcb0cd7f8ff6c5d744c5eaf3fb63b9ab3
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ac2d52a234c50cd0a59ecb4bbbc62bd346a929d7
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255462"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547754"
 ---
 # <a name="islucid"></a>isLucid
 
@@ -38,9 +39,9 @@ Informazioni fornite dai contratti UAB Lucid a Microsoft:
 | Nome società partner | UAB Lucid Agreements |
 | Sito Web aziendale | [https://islucid.com](https://islucid.com) |
 | Condizioni per l'uso dell'app | [https://islucid.com/eula/](https://islucid.com/eula/) |
-| Funzionalità di base dell'app | Consenti al team di Microsoft Teams di acquisire e creare attività dalla trascrizione in tempo reale. Integrare queste attività con il software Project management esistente. |
+| Funzionalità di base dell'app | Abilitare il team in Microsoft Teams per acquisire e creare attività dalla trascrizione in tempo reale. Integrare queste attività con il software Project management esistente. |
 | Sede centrale dell'azienda | Lituania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://islucid.com](https://islucid.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Ibrido |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -167,15 +168,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calls.AccessMedia.All | entrambi | Con un consenso specifico dell'utente per ogni chiamata separatamente (trascrizione avviata) accede al flusso audio. Il flusso audio viene inoltrato a un servizio di trascrizione per consentire agli utenti di ottenere ulteriori funzionalità. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| Calls.JoinGroupCall.All | entrambi | Con un consenso specifico dell'utente per ogni chiamata separatamente (trascrizione avviata) accede al flusso audio. Il flusso audio viene inoltrato a un servizio di trascrizione per consentire agli utenti di ottenere ulteriori funzionalità. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| Group.ReadWrite.All | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione, l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| OnlineMeetings.Read.All | entrambi | L'applicazione raccoglie i titoli delle riunioni in modo che gli utenti in un secondo momento (al termine della riunione) trovino più facilmente le trascrizioni e le attività precedenti. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| Tasks.ReadWrite | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione, l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| User.ReadWrite.All | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione, l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| openid | entrambi | ID utente, ID tenant raccolto per fornire agli utenti Azure Active Directory accesso locale | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| Calls.AccessMedia.All | entrambi | Con un consenso specifico dell'utente per ogni chiamata separatamente (trascrizione avviata) accede al flusso audio. Il flusso audio viene inoltrato a un servizio di trascrizione per consentire agli utenti di ottenere ulteriori funzionalità. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](../azure/98b70422-b0b2-41bf-8673-60d85f5d38c7.md) |
+>| Calls.JoinGroupCall.All | entrambi | Con un consenso specifico dell'utente per ogni chiamata separatamente (trascrizione avviata) accede al flusso audio. Il flusso audio viene inoltrato a un servizio di trascrizione per consentire agli utenti di ottenere ulteriori funzionalità. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](../azure/98b70422-b0b2-41bf-8673-60d85f5d38c7.md) |
+>| Group.ReadWrite.All | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione, l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | [98b70422-b0b2-41bf-8673-60d85f5d38c7](../azure/98b70422-b0b2-41bf-8673-60d85f5d38c7.md) |
+>| OnlineMeetings.Read.All | entrambi | L'applicazione raccoglie i titoli delle riunioni in modo che gli utenti in un secondo momento (al termine della riunione) trovino più facilmente le trascrizioni e le attività precedenti. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](../azure/98b70422-b0b2-41bf-8673-60d85f5d38c7.md) |
+>| Tasks.ReadWrite | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione, l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | [98b70422-b0b2-41bf-8673-60d85f5d38c7](../azure/98b70422-b0b2-41bf-8673-60d85f5d38c7.md) |
+>| User.ReadWrite.All | entrambi | Quando l'utente utilizza l'integrazione con Microsoft Planner per creare attività dalla chiamata e archiviarle automaticamente in MS Planner, isLucid raccoglie per quell'utente gruppi, piani, assegnatari disponibili. Senza questa autorizzazione, l'utente non sarebbe in grado di creare attività dalla trascrizione utilizzando isLucid | [98b70422-b0b2-41bf-8673-60d85f5d38c7](../azure/98b70422-b0b2-41bf-8673-60d85f5d38c7.md) |
+>| openid | entrambi | ID utente, ID tenant raccolto per fornire agli utenti Azure Active Directory accesso degli utenti | [98b70422-b0b2-41bf-8673-60d85f5d38c7](../azure/98b70422-b0b2-41bf-8673-60d85f5d38c7.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

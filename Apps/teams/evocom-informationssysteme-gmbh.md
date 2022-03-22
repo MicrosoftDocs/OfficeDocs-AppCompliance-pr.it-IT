@@ -2,18 +2,19 @@
 title: Application Information for Evocom by Evocom Informationssysteme GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Evocom, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per Evocom, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 26aa34b7e3c8bfc167a771a7e6f630f24dbf9487
-ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
+ms.openlocfilehash: 980a6217bd5967af64dd2cb6f3d47cc3eb2dab42
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62477149"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547894"
 ---
 # <a name="evocom"></a>Evocom
 
@@ -40,7 +41,7 @@ Informazioni fornite da Evocom Informationssysteme GmbH a Microsoft:
 | Condizioni per l'uso dell'app | [https://evocom.de/termsofuse](https://evocom.de/termsofuse) |
 | Funzionalità di base dell'app | Evocom&#180;USP = semplicità. Evocom è una soluzione intuitiva per i flussi di lavoro di collaborazione, la gestione di progetti e attività. I informationworker progettano i processi e li mettono subito in vita. Gli utenti dei reparti usano Evocom per digitalizzare micro processi che coordinano il lavoro interno. Gli esperti di processi orchestrano i processi interdipendenziali, utilizzando micro processi dei reparti e utilizzando le integrazioni esistenti con sistemi LOB come CRM, ERP e altri. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://evocom.de/microsoft365](https://evocom.de/microsoft365) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da Evocom Informationssysteme GmbH su com
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -169,10 +170,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | Profilbild anzeigen | [3e745135-a761-48a7-ab54-5c0277b2e642](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e745135-a761-48a7-ab54-5c0277b2e642) |
->| User.ReadBasic.All | delegated | PeoplePicker, Benutzerverwaltung | [3e745135-a761-48a7-ab54-5c0277b2e642](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e745135-a761-48a7-ab54-5c0277b2e642) |
+>| User.Read | delegated | Profilbild anzeigen | [3e745135-a761-48a7-ab54-5c0277b2e642](../azure/3e745135-a761-48a7-ab54-5c0277b2e642.md) |
+>| User.ReadBasic.All | delegated | PeoplePicker, Benutzerverwaltung | [3e745135-a761-48a7-ab54-5c0277b2e642](../azure/3e745135-a761-48a7-ab54-5c0277b2e642.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

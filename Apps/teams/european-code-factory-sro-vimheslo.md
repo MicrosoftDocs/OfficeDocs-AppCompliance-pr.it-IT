@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per vimheslo, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0149e5bd2930cc2cbb93964cfdcd0399ce119f88
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: c419392746cbd58dcd3ba656b0da369f5294a06a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470230"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548474"
 ---
 # <a name="vimheslo"></a>vimheslo
 
@@ -161,10 +161,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.Read.All | delegated | I dati vengono archiviati in OneDrive o SharePoint raccolta documenti, l'applicazione deve leggere i dati. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| Sites.Read.All | delegated | L'applicazione nel contesto del team archivia i dati nella raccolta documenti SharePoint, l'applicazione deve leggere il nome del sito nel percorso di installazione, dove si trova il file con i dati. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| User.Read | delegated | L'applicazione deve conoscere i OneDrive personali in cui archiviare i dati personali. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| email | delegated | Per consentire la condivisione dei dati. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
+>| Files.Read.All | delegated | I dati vengono archiviati in OneDrive o SharePoint raccolta documenti, l'applicazione deve leggere i dati. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| Sites.Read.All | delegated | L'applicazione nel contesto del team archivia i dati nella raccolta documenti SharePoint, l'applicazione deve leggere il nome del sito nel percorso di installazione, dove si trova il file con i dati. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| User.Read | delegated | L'applicazione deve conoscere i OneDrive personali in cui archiviare i dati personali. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| email | delegated | Per consentire la condivisione dei dati. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

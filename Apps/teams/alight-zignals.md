@@ -2,18 +2,19 @@
 title: Application Information for Zignals by Alight
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Zignals, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1305a486a9eb68a21ce2be0d65a0d518c39b64c2
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c52064e4c96285fe98cdc1bb721bf3565aac1472
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251172"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548504"
 ---
 # <a name="zignals"></a>Zignals
 
@@ -40,8 +41,9 @@ Informazioni fornite da Alight a Microsoft:
 | Condizioni per l'uso dell'app | [https://zignals.eu/terms](https://zignals.eu/terms) |
 | Funzionalità di base dell'app | Portare la collaborazione nelle organizzazioni al livello successivo aggregando contenuti e mostrando ai dipendenti cosa è importante. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://zignals.eu/zignals-support/](https://zignals.eu/zignals-support/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Alight su come questa app raccoglie e 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,18 +159,18 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | delegated | Per l'area &quot;Riunioni personali&quot; si ottengono le riunioni dell'utente oggi e domani. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Sites.ReadWrite.All | delegated | Tutti i siti di SharePoint seguiti dall'utente vengono visualizzati nell'area &quot;My Teamwork&quot; e vengono visualizzate tutte le attività SharePoint dell'utente e vengono visualizzate nell'area &quot;Attività personali&quot;. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Tasks.ReadWrite | delegated | Microsoft legge la pianificazione dell'utente e To Do attività e le visualizza nell'area &quot;Attività.&quot; | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Team.ReadBasic.All | delegated | I team aggiunti all'utente vengono visualizzati &quot; nell'area My &quot; Teamwork. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| User.ReadBasic.All | delegated | Nell'area &quot;Documenti&quot; viene visualizzato l'utente di cui è stata collaborazione | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| User.ReadWrite | delegated | I documenti recenti dell'utente vengono visualizzati nell'area &quot; &quot; Documenti. Le app preferite dell'utente vengono archiviate come estensione dello schema in MS Graph. Questo livello di autorizzazione è necessario per leggere e scrivere dati nel grafico. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| email | delegated | Ottenere la posta elettronica degli utenti (ambito Teams MS standard) | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| offline_access | delegated | Ambito Teams ms standard | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| openid | delegated | Accedere agli utenti. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| profile | delegated | Processo di accesso MS Teams | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
+>| Calendars.Read | delegated | Per l'area &quot;Riunioni personali&quot; si ottengono le riunioni dell'utente oggi e domani. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| Sites.ReadWrite.All | delegated | Tutti i siti di SharePoint seguiti dall'utente vengono visualizzati nell'area &quot;My Teamwork&quot; e vengono visualizzate tutte le attività SharePoint dell'utente nell'area &quot;Attività personali&quot;. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| Tasks.ReadWrite | delegated | Microsoft legge la pianificazione dell'utente e To Do attività e le visualizza nell'area &quot;Attività utente&quot;. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| Team.ReadBasic.All | delegated | I team aggiunti all'utente vengono visualizzati nell'area &quot;My Teamwork&quot; . | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| User.ReadBasic.All | delegated | Nell'area &quot;Documenti&quot; viene visualizzato l'utente di cui è stata collaborazione | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| User.ReadWrite | delegated | I documenti recenti dell'utente vengono visualizzati nell'area &quot;Documenti personali&quot;. Le app preferite dell'utente vengono archiviate come estensione dello schema in MS Graph. Questo livello di autorizzazione è necessario per leggere e scrivere dati nel grafico. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| email | delegated | Ottenere la posta elettronica degli utenti (ambito Teams MS standard) | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| offline_access | delegated | Ambito Teams ms standard | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| openid | delegated | Accedere agli utenti. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| profile | delegated | Eseguire l'accesso al processo MS Teams | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per le segnalazioni dei dipendenti da Recruitday Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per le segnalazioni dei dipendenti, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 393442ce75e7a406458c9d953598d7093753c670
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 82e73cb8d954767c4f254cbd37ef3e7c368707e5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264315"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549314"
 ---
 # <a name="employee-referrals"></a>Referenze dipendenti
 
@@ -40,8 +41,9 @@ Informazioni fornite da Recruitday Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.recruitday.com/terms-of-use](https://www.recruitday.com/terms-of-use) |
 | Funzionalità di base dell'app | Fai riferimento ai tuoi amici per aprire posti di lavoro nella tua azienda e tenere traccia dei tuoi premi usando Microsoft Teams. |
 | Sede centrale dell'azienda | Filippine (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://employer.recruitday.com/solutions/employee-referral...](https://employer.recruitday.com/solutions/employee-referrals/microsoft-teams) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Recruitday Inc. Su come questa app rac
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,9 +159,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | entrambi | Il nome e il cognome (dell'utente dell'app, ad esempio il dipendente) verranno utilizzati principalmente dall'utente HR per identificare facilmente il dipendente che ha fatto riferimento a un candidato per il monitoraggio delle applicazioni di riferimento e i premi. Verrà inoltre usato per affrontare correttamente il dipendente quando vengono inviate notifiche di posta elettronica generate dal sistema. | [7414b436-87d1-4904-9d52-ff47885b89f1](https://docs.microsoft.com/microsoft-365-app-certification/azure/7414b436-87d1-4904-9d52-ff47885b89f1) |
+>| User.Read | entrambi | Il nome e il cognome (dell'utente dell'app, ad esempio il dipendente) verranno utilizzati principalmente dall'utente HR per identificare facilmente il dipendente che ha fatto riferimento a un candidato per il monitoraggio delle applicazioni di riferimento e i premi. Verrà inoltre usato per affrontare correttamente il dipendente quando vengono inviate notifiche di posta elettronica generate dal sistema. | [7414b436-87d1-4904-9d52-ff47885b89f1](../azure/7414b436-87d1-4904-9d52-ff47885b89f1.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

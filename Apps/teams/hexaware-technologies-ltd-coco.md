@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per COCO di Hexaware Technologies Ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per COCO, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 43623e8d729706e7073f8bbc1317b90448d5140a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f7bd1b727df657699aa51a250b5429cb8532f991
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255772"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549324"
 ---
 # <a name="coco"></a>COCO
 
@@ -40,8 +41,9 @@ Informazioni fornite da Hexaware Technologies Ltd. a Microsoft:
 | Condizioni per l'uso dell'app | [https://tinyurl.com/2c6b9cdm](https://tinyurl.com/2c6b9cdm) |
 | Funzionalità di base dell'app | Teams bot che aumenta la produttività e l'impegno dei dipendenti unificando diversi sistemi IT come ERP, CRM, Service Desk e altre soluzioni del settore tramite una soluzione omnicanale intuitiva. |
 | Sede centrale dell'azienda | India |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://tinyurl.com/2c6b9cdm](https://tinyurl.com/2c6b9cdm) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Hexaware Technologies Ltd. sul modo in
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,15 +159,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | delegated | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| Directory.Read.All | application | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| Directory.ReadWrite.All | delegated | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| User.Read | delegated | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| User.Read.All | application | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| User.ReadWrite.All | delegated | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| openid | delegated | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| Directory.AccessAsUser.All | delegated | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| Directory.Read.All | application | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| Directory.ReadWrite.All | delegated | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| User.Read | delegated | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| User.Read.All | application | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| User.ReadWrite.All | delegated | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
+>| openid | delegated | Nessuno | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](../azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

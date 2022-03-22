@@ -2,18 +2,19 @@
 title: Application Information for Cloud Hub by atwork GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Cloud Hub, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6e982e29c1ba09097f3c2415aae5e1f644a87c5a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 2a4f56d9bf23739abd8c7c9d40f6023fbfe43f91
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259848"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549464"
 ---
 # <a name="cloud-hub"></a>Cloud Hub
 
@@ -40,7 +41,7 @@ Informazioni fornite da atwork GmbH a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.atwork-it.com/eula](https://www.atwork-it.com/eula) |
 | Funzionalità di base dell'app | Cloud Hub è un'app aziendale per Microsoft Teams. Consente agli utenti di tenere traccia delle modifiche imminenti, incluse funzionalità nuove e modificate, manutenzione pianificata e altri importanti annunci dal Centro messaggi Microsoft. Puoi aggiungere l'app Cloud Hub alla barra dell'app in Microsoft Teams. L'app è attualmente supportata in inglese e senza costi.  |
 | Sede centrale dell'azienda | Austria |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.atwork-it.com/solutions/cloudhub/](https://www.atwork-it.com/solutions/cloudhub/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -168,12 +169,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | application | Utilizzato per selezionare un canale in cui si desidera pubblicare un messaggio dal Centro messaggi. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
->| Mail.Send | application | Usato per inviare messaggi di posta direttamente dall'app ai canali o ai singoli utenti.  | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
->| TeamSettings.Read.All | application | Utilizzato per selezionare un team in cui si desidera pubblicare un messaggio dal Centro messaggi. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
->| User.Read.All | application | Utilizzato per selezionare una persona a cui si desidera inviare un messaggio di posta elettronica. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| Channel.ReadBasic.All | application | Utilizzato per selezionare un canale in cui si desidera pubblicare un messaggio dal Centro messaggi. | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
+>| Mail.Send | application | Usato per inviare messaggi di posta direttamente dall'app ai canali o ai singoli utenti.  | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
+>| TeamSettings.Read.All | application | Utilizzato per selezionare un team in cui si desidera pubblicare un messaggio dal Centro messaggi. | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
+>| User.Read.All | application | Utilizzato per selezionare una persona a cui si desidera inviare un messaggio di posta elettronica. | [b5d4e933-e001-4168-83f8-abdd974877bd](../azure/b5d4e933-e001-4168-83f8-abdd974877bd.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

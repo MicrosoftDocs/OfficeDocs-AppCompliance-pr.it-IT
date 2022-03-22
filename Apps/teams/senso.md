@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Senso by Senso
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Senso, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ebea7a764d7df4ca34e4ae28d471f61b04b473c5
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ab3249962a8941124a8a407bc46dd8d8d5edfad9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250965"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547764"
 ---
 # <a name="senso"></a>Senso
 
@@ -40,8 +41,9 @@ Informazioni fornite da Senso a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.senso.cloud/eula](https://www.senso.cloud/eula) |
 | Funzionalità di base dell'app | Analisi di parole chiave e immagini per messaggi e immagini inappropriati.  |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.senso.cloud/safeguarding-microsoft-teams/](https://www.senso.cloud/safeguarding-microsoft-teams/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Senso su come questa app raccoglie e a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +66,7 @@ Queste informazioni sono state fornite da Senso su come questa app raccoglie e a
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -165,16 +160,16 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | application | Leggere i nomi e le descrizioni dei canali per identificare il punto in cui è stata contrassegnata una violazione.   | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| ChannelMember.Read.All | application | Leggere l'elenco dei membri e i messaggi di chat di tutti i canali. | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| ChannelMessage.Read.All | application | Leggere tutti i messaggi del canale | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| Chat.Read.All | application | Leggere tutti i messaggi di chat | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| Directory.Read.All | application | Lettura dei dati della directory | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| Files.Read.All | application | Leggere i file in tutte le raccolte siti | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| User.Read | delegated | Accedere e leggere il profilo utente | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
->| User.Read.All | application | Leggere i profili completi di tutti gli utenti | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
+>| Channel.ReadBasic.All | application | Leggere i nomi e le descrizioni dei canali per identificare il punto in cui è stata contrassegnata una violazione.   | [a9d28fcf-036e-4a85-9003-332303e3a29b](../azure/a9d28fcf-036e-4a85-9003-332303e3a29b.md) |
+>| ChannelMember.Read.All | application | Leggere l'elenco dei membri e i messaggi di chat di tutti i canali. | [a9d28fcf-036e-4a85-9003-332303e3a29b](../azure/a9d28fcf-036e-4a85-9003-332303e3a29b.md) |
+>| ChannelMessage.Read.All | application | Leggere tutti i messaggi del canale | [a9d28fcf-036e-4a85-9003-332303e3a29b](../azure/a9d28fcf-036e-4a85-9003-332303e3a29b.md) |
+>| Chat.Read.All | application | Leggere tutti i messaggi di chat | [a9d28fcf-036e-4a85-9003-332303e3a29b](../azure/a9d28fcf-036e-4a85-9003-332303e3a29b.md) |
+>| Directory.Read.All | application | Lettura dei dati della directory | [a9d28fcf-036e-4a85-9003-332303e3a29b](../azure/a9d28fcf-036e-4a85-9003-332303e3a29b.md) |
+>| Files.Read.All | application | Leggere i file in tutte le raccolte siti | [a9d28fcf-036e-4a85-9003-332303e3a29b](../azure/a9d28fcf-036e-4a85-9003-332303e3a29b.md) |
+>| User.Read | delegated | Accedere e leggere il profilo utente | [a9d28fcf-036e-4a85-9003-332303e3a29b](../azure/a9d28fcf-036e-4a85-9003-332303e3a29b.md) |
+>| User.Read.All | application | Leggere i profili completi di tutti gli utenti | [a9d28fcf-036e-4a85-9003-332303e3a29b](../azure/a9d28fcf-036e-4a85-9003-332303e3a29b.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

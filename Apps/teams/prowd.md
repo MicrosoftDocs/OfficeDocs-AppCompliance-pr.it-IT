@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Prowd da Prowd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Prowd, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0597b5b8d4d1ff74a1b7c6be848d7a09650247f6
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: d5cc94b2c7da155298849223a83260fee761a842
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081355"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549634"
 ---
 # <a name="prowd"></a>Prowd
 
@@ -40,7 +41,7 @@ Informazioni fornite da Prowd a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.beprowd.com/cgu-chatbot-corporate](https://www.beprowd.com/cgu-chatbot-corporate) |
 | Funzionalità di base dell'app | Le chatbot Prowd propone &#224; chaque utilisateur des d&#233;fis, quiz et actualit&#233;s sur les th&#233;matiques du D&#233;veloppement Durable pour apprendre et passer &#224; l'action. Dans tout type d'entreprise, Prowd permet aux responsables RSE (Responsabilit&#233; Soci&#233;tale des Entreprises) d'engager facilement les collaborateurs sur ces sujets. |
 | Sede centrale dell'azienda | Francia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.beprowd.com/chatbot-teams/](https://www.beprowd.com/chatbot-teams/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Ibrido |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 
@@ -61,7 +62,7 @@ Queste informazioni sono state fornite da Prowd su come questa app raccoglie e a
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Teams tenant, ID Teams utente, e-mail utente, nome utente.  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Irlanda |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Non conservato |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
