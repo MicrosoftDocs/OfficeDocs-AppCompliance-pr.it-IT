@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Guru by Guru Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Guru, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2697126a901dde102be0ee29c153b69d0021acf5
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: a0fbc5fb17729e2551e65c170ea2c59c4cf866f3
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60437150"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63748275"
 ---
 # <a name="guru"></a>Guru
 
@@ -32,7 +33,7 @@ Informazioni fornite da Guru Technologies a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Guru |
+| Nome dell'app | Guru |
 | ID | WA200001719 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Guru Technologies |
@@ -53,14 +54,14 @@ Queste informazioni sono state fornite da Guru Technologies su come questa app r
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -77,13 +78,13 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->quando un utente o una società configura l'app Guru per Teams, informazioni comuni come nome utente, posta elettronica e nome della società associate al profilo utente vengono registrate e accessibili da Guru. Al termine di un account, i dati vengono conservati per 90 giorni e quindi rimossi. 
+>quando un utente o una società configura l'app Guru per Teams, le informazioni comuni come nome utente, posta elettronica e nome della società associate al profilo utente vengono registrate e accessibili da Guru. Al termine di un account, i dati vengono conservati per 90 giorni e quindi rimossi. 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio eliminazione, conservazione, controllo, archiviazione, criteri per gli utenti finali e così via.
 
->Il Impostazioni del team di Guru consente agli amministratori di un team di determinare i gruppi e i controlli di accesso/ruolo di cui eseguire il provisioning in base alla raccolta, con la possibilità di aggiungere, rimuovere e rias assegnare schede a singoli utenti alternativi. Enterprise clienti che hanno distribuito SSO hanno anche il vantaggio della console del provider SSO per eseguire l'onboard o l'offboard e stabilire gruppi tramite SCIM
+>Il Impostazioni team di Guru consente agli amministratori di un team di determinare quali gruppi e controlli di accesso/ruolo effettuare il provisioning in base alla raccolta, con la possibilità di aggiungere, rimuovere e rias assegnare schede a utenti alternativi. Enterprise clienti che hanno distribuito SSO hanno anche il vantaggio della console del provider SSO per eseguire l'onboard o l'offboard e stabilire gruppi tramite SCIM
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni organizzative
 
@@ -99,7 +100,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912" target="_blank">Visualizzazione in una nuova scheda</a>
 
