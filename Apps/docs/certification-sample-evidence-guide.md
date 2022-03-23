@@ -2,37 +2,38 @@
 title: Microsoft 365 certificazioni - Guida alle prove di esempio
 author: OrionOmalley
 ms.author: oromalle
+manager: tonybal
 description: Microsoft 365 panoramica della guida di esempio per l'invio di prove di certificazione
 keywords: attestazione della certificazione dell'app Microsoft 365 appApp di esempio di linee guida per l'invio di prove dell'app
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 5e619ffe1f89f675b473f90dead3c0bc550ae41a
-ms.sourcegitcommit: 7975c249abac22ca1a8c7c9b592d4404bea10cf4
+ms.openlocfilehash: c5d300bf840a3357664a4365d0073bb211cad5ff
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61151821"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63697866"
 ---
 # <a name="microsoft-365-certification---sample-evidence-guide"></a>Microsoft 365 certificazioni - Guida alle prove di esempio
 
 ## <a name="overview"></a>Panoramica
 
-Questa guida è stata creata per fornire agli ISV esempi del tipo di prova e del livello di dettaglio necessario per ognuno dei controlli Microsoft 365 certificazione. Gli esempi condivisi in questo documento non rappresentano l'unica prova che può essere utilizzata per dimostrare che i controlli vengono soddisfatti, ma agiscono solo come linee guida per il tipo di prova richiesto. 
+Questa guida è stata creata per fornire agli ISV esempi del tipo di prova e del livello di informazioni dettagliate necessarie per ognuno dei controlli Microsoft 365 certificazione. Gli esempi condivisi in questo documento non rappresentano l'unica prova che può essere utilizzata per dimostrare che i controlli vengono soddisfatti, ma agiscono solo come linee guida per il tipo di prova richiesto. 
 
 Nota: le interfacce, gli screenshot e la documentazione effettivi usati per soddisfare i requisiti variano a seconda dell'utilizzo del prodotto, della configurazione del sistema e dei processi interni. Inoltre, tenere presente che se è necessaria la documentazione relativa ai criteri o alle procedure, l'ISV sarà necessario per inviare i documenti EFFETTIVI e non gli screenshot, come illustrato in alcuni esempi. 
 
 Nella certificazione sono disponibili due sezioni che richiedono invii:
-1. [**Invio documento iniziale:**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/initialdocumentsubguide) un piccolo set di documenti di alto livello necessari per l'ambito della valutazione.
+1. [**Invio documento iniziale:**](../docs/initialdocumentsubguide.md) un piccolo set di documenti di alto livello necessari per l'ambito della valutazione.
 1. **L'invio di prove:** il set completo di prove necessarie per ogni controllo nell'ambito della valutazione della certificazione. 
 
 ## <a name="structure"></a>Struttura 
 
 Questo documento è mappato direttamente ai controlli che verranno presentati durante la certificazione nel Centro per i partner. Le indicazioni fornite in questo documento sono dettagliate come segue:
 - Dominio di sicurezza: i tre domini di sicurezza in cui sono raggruppati tutti i controlli: sicurezza delle applicazioni, sicurezza operativa e sicurezza dei dati e privacy.
-- Controlli: = Descrizione attività di valutazione - Questi controlli e il numero associato (n.) vengono presi direttamente dall'elenco di controllo Microsoft 365 certificazione.  
+- Controlli: = Descrizione attività di valutazione - Questi controlli e il numero associato (n.) vengono presi direttamente dall'elenco Microsoft 365 di certificazione.  
 - Intento: = l'intento del motivo per cui il controllo di sicurezza è incluso nel programma e il rischio specifico che è destinato a mitigare.  L'auspicio è che queste informazioni forniranno agli ISV il ragionamento dietro il controllo per comprendere meglio i tipi di prove che devono essere raccolte e a quali ISV devono prestare attenzione e avere consapevolezza e comprensione per produrre le loro prove.
-- Linee guida per le prove di esempio: = Fornite per guidare le attività di raccolta delle prove nel foglio di calcolo elenco di controllo di certificazione Microsoft 365, ciò consente agli ISV di visualizzare chiaramente esempi del tipo di prova che possono essere utilizzati dall'analista di certificazione che la utilizzerà per certificazione sicura che un controllo sia in atto e mantenuto, non è affatto esaustivo.
-- Esempio di prova: = In questa sezione vengono fornite schermate di esempio e immagini di potenziali prove acquisite su ognuno dei controlli contenuti nel foglio di calcolo Elenco di controllo di certificazione Microsoft 365, in particolare per i domini di sicurezza operativa e sicurezza dei dati e privacy (schede all'interno del foglio di calcolo). Si noti che qualsiasi informazione con frecce e caselle rosse all'interno degli esempi consente di comprendere meglio i requisiti necessari per soddisfare qualsiasi controllo.
+- Linee guida per le prove di esempio: = Fornite per guidare le attività di raccolta delle prove nel foglio di calcolo elenco di controllo di certificazione Microsoft 365, ciò consente agli ISV di visualizzare chiaramente esempi del tipo di prova che possono essere utilizzati dall'analista di certificazione che lo utilizzerà per certificazione sicura che un controllo sia in atto e mantenuto, non è affatto esaustivo.
+- Esempio di prova: = In questa sezione vengono mostrati screenshot di esempio e immagini di potenziali prove acquisite su ognuno dei controlli contenuti nel foglio di calcolo elenco di controllo di certificazione Microsoft 365, in particolare per i domini di sicurezza operativa e sicurezza dei dati e privacy (schede all'interno del foglio di calcolo). Si noti che qualsiasi informazione con frecce e caselle rosse all'interno degli esempi consente di comprendere meglio i requisiti necessari per soddisfare qualsiasi controllo.
 
 
 ## <a name="security-domain-application-security"></a>Dominio di sicurezza: sicurezza dell'applicazione
@@ -64,15 +65,15 @@ Esempio di prova
 
 - Intento: è importante che anti-virus (o difese antimalware) siano in esecuzione nell'ambiente per proteggersi da rischi di sicurezza informatica che potrebbero essere o meno a conoscenza del fatto che gli attacchi potenzialmente dannosi stanno aumentando, sia in sofisticatezza che in numeri. La distribuzione di AV in tutti i componenti di sistema che ne supportano l'utilizzo consente di ridurre alcuni dei rischi derivanti dall'introduzione di antimalware nell'ambiente. È necessario che un singolo endpoint non sia protetto per fornire potenzialmente un vettore di attacco per un attore di minacce per ottenere un punto d'appoggio nell'ambiente. Av deve pertanto essere usato come uno dei diversi livelli di difesa per proteggere da questo tipo di minaccia.
 
-- Linee guida sull'evidenza di esempio: per dimostrare che un'istanza attiva di AV è in esecuzione nell'ambiente valutato. Fornisci uno screenshot per ogni dispositivo dell'esempio che supporta l'uso di antivirus che mostra il processo antivirus _in_ esecuzione, il software antivirus è attivo o se hai una console di gestione centralizzata per l'antivirus, potresti essere in grado di dimostrarlo da tale console di gestione. Se si usa la console di gestione, assicurarsi di verificare in uno screenshot che i dispositivi campionati siano connessi e funzionanti.
+- Linee guida sull'evidenza di esempio: per dimostrare che un'istanza attiva di AV è in esecuzione nell'ambiente valutato. Fornisci uno screenshot per ogni dispositivo dell'esempio che supporta l'uso di antivirus che mostra il processo _antivirus in esecuzione_ , il software antivirus è attivo o se hai una console di gestione centralizzata per l'antivirus, potresti essere in grado di dimostrarlo da tale console di gestione. Se si usa la console di gestione, assicurarsi di verificare in uno screenshot che i dispositivi campionati siano connessi e funzionanti.
 
-- Esempio di prova 1: lo screenshot seguente è stato preso dal Centro sicurezza di Azure; mostra che nella macchina virtuale denominata MSPGPRODAZUR01 è stata distribuita un'estensione &quot; &quot; Antimalware.
+- Esempio di prova 1: lo screenshot seguente è stato preso dal Centro sicurezza di Azure; mostra che nella macchina virtuale denominata MSPGPRODAZUR01&quot; è stata distribuita un'estensione Antimalware&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-2.png)
 
 - Esempio di prova 2
 
-Lo screenshot seguente è stato preso da un dispositivo Windows 10, che mostra che la protezione in tempo reale è attivata per il nome &quot; &quot; host &quot; CLARANET-SBU-WM. &quot;
+Lo screenshot seguente è stato preso da un dispositivo Windows 10, &quot;&quot; che mostra che è attivata la protezione in tempo reale per il nome host &quot;CLARANET-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-2-1.png)
 
@@ -84,7 +85,7 @@ Lo screenshot seguente è stato preso da un dispositivo Windows 10, che mostra c
 
 - Linee guida di prova di esempio: fornire file di registro antivirus da ogni dispositivo campionato, che mostra che gli aggiornamenti vengono applicati ogni giorno.
 
-- Esempio di prova: lo screenshot seguente mostra l'aggiornamento di Microsoft Defender almeno ogni giorno mostrando &#39;Evento 2000, Windows Defender&#39; che è l'aggiornamento. Viene visualizzato il nome host, che mostra che è stato preso dal sistema &quot; nell'ambito CLARANET-SBU-WM &quot; .
+- Esempio di prova: lo screenshot seguente mostra l'aggiornamento di Microsoft Defender almeno ogni giorno mostrando &#39;Evento 2000, Windows Defender&#39; che è l'aggiornamento. Viene visualizzato il nome host, che mostra che è stato preso dal sistema nell'ambito CLARANET-SBU-WM.The hostname is shown, showing that this was taken from the in-scope system &quot;CLARANET-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-3.png)
 
@@ -94,11 +95,11 @@ Lo screenshot seguente è stato preso da un dispositivo Windows 10, che mostra c
 
 **Nota:** Se l'analisi all'accesso non è abilitata, è necessario almeno l'analisi giornaliera e alerting_ **deve** _be abilitata.
 
-- Intento: lo scopo di questo controllo è garantire che il malware venga identificato rapidamente per ridurre al minimo l'effetto che potrebbe avere sull'ambiente. Se l'analisi all'accesso viene eseguita e abbinata al blocco automatico del malware, ciò consente di arrestare le infezioni da malware note dal software antivirus. Se l'analisi all'accesso non è auspicabile&#39;causa dei rischi di falsi positivi che causano interruzioni del servizio, è necessario implementare meccanismi di analisi e avviso giornalieri adeguati (o più) per garantire una risposta immediata alle infezioni da malware per ridurre al minimo i danni.
+- Intento: lo scopo di questo controllo è garantire che il malware venga identificato rapidamente per ridurre al minimo l'effetto che potrebbe avere sull'ambiente. Se l'analisi all'accesso viene eseguita e abbinata al blocco automatico del malware, ciò consente di arrestare le infezioni da malware note dal software antivirus. Se l'analisi all'accesso non è consigliabile&#39;causa dei rischi di falsi positivi che causano interruzioni del servizio, è necessario implementare meccanismi di analisi e avviso giornalieri adeguati (o più) per garantire una risposta immediata alle infezioni da malware per ridurre al minimo i danni.
 
-- Linee guida per l'evidenza di esempio: fornire uno screenshot per ogni dispositivo dell'esempio che supporta l'antivirus, che mostra che l'antivirus è _in_ esecuzione nel dispositivo ed è configurato per l'analisi in tempo reale **oppure** fornisce uno screenshot che mostra che l'analisi periodica è abilitata per l'analisi giornaliera, gli avvisi sono configurati e la data dell'ultima analisi per ogni dispositivo nell'esempio. 
+- Linee guida per l'evidenza di esempio: fornire uno screenshot per ogni dispositivo dell'esempio che supporta l'antivirus, che mostra che l'antivirus _è in esecuzione_ nel dispositivo ed è configurato per l'analisi in tempo **reale oppure fornisce** uno screenshot che mostra che l'analisi periodica è abilitata per l'analisi giornaliera, gli avvisi sono  configurati e la data dell'ultima analisi per ogni dispositivo nell'esempio.
 
-- Esempio di prova: lo screenshot seguente mostra che la protezione in tempo reale è abilitata per l'host, &quot; CLARANET-SBU-WM. &quot;
+- Esempio di prova: lo screenshot seguente mostra che la protezione in tempo reale è abilitata per l'host, &quot;CLARANET-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-4.png)
 
@@ -106,9 +107,9 @@ Lo screenshot seguente è stato preso da un dispositivo Windows 10, che mostra c
 
 - Intento: la sofisticatità del malware è in continua evoluzione insieme ai diversi gradi di disaffezione che possono portare. Lo scopo di questo controllo è impedire l'esecuzione del malware e quindi impedirne l'esecuzione del payload potenzialmente dannoso oppure, se il blocco automatico non è un'opzione, limitando la quantità di tempo in cui il malware può creare il caos inviando avvisi e rispondendo immediatamente alla potenziale infezione da malware.
 
-- Linee guida per l'evidenza di esempio: fornire uno screenshot per ogni dispositivo dell'esempio che supporta l'antivirus, che mostra che l'antivirus è _in_ esecuzione nel computer ed è configurato per bloccare automaticamente il malware, l'avviso o la quarantena e l'avviso.
+- Linee guida per l'evidenza di esempio: fornire uno screenshot per ogni dispositivo dell'esempio che supporta l'antivirus, che mostra che l'antivirus _è in esecuzione_ nel computer ed è configurato per bloccare automaticamente il malware, l'avviso o la quarantena e l'avviso.
 
-- Esempio prova 1: lo screenshot seguente mostra l'host CLARANET-SBU-WM è configurato con la protezione in tempo reale &quot; &quot; per Antivirus Microsoft Defender. Come dice l'impostazione, questo consente di individuare e arrestare l'installazione o l'esecuzione di malware nel dispositivo.
+- Esempio prova 1: lo screenshot seguente mostra l'host &quot;CLARANET-SBU-WM&quot; è configurato con la protezione in tempo reale per Antivirus Microsoft Defender. Come dice l'impostazione, questo consente di individuare e arrestare l'installazione o l'esecuzione di malware nel dispositivo.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-5.png)
 
@@ -116,7 +117,7 @@ Lo screenshot seguente è stato preso da un dispositivo Windows 10, che mostra c
 
 - Intento: con il controllo dell'applicazione, l'organizzazione approverà ogni applicazione/processo consentito per l'esecuzione nel sistema operativo. Lo scopo di questo controllo è garantire che sia in atto un processo di approvazione per autorizzare le applicazioni/processi che possono essere eseguiti.
 
-- Linee guida per l'evidenza di esempio: è possibile dimostrare che il processo di approvazione viene seguito. Questo può essere fornito tramite documenti firmati, verifica all'interno dei sistemi di controllo delle modifiche o usando qualcosa come Azure DevOps o JIRA per tenere traccia di queste richieste e autorizzazione.
+- Linee guida per l'evidenza di esempio: è possibile dimostrare che il processo di approvazione viene seguito. Questo può essere fornito tramite documenti firmati, tracciando all'interno dei sistemi di controllo delle modifiche o usando qualcosa come Azure DevOps o JIRA per tenere traccia di queste richieste e autorizzazione.
 
 - Esempio di prova: lo screenshot seguente illustra un'approvazione da parte della gestione che ogni applicazione autorizzata a eseguire nell'ambiente segue un processo di approvazione. Si tratta di un processo basato su carta presso Contoso, tuttavia è possibile utilizzare altri meccanismi.
 
@@ -160,11 +161,11 @@ Questa schermata successiva mostra la configurazione in linea con il controllo p
 
 ![Immagine](../media/UserGuidePhotos/Control-No-9-1.png)
 
-Questa schermata successiva mostra l'ambiente M365 e i computer inclusi nell'ambito applicato a questo oggetto Criteri di gruppo &#39;computer Impostazioni&#39;.
+Questa schermata successiva mostra l'ambiente M365 e i computer inclusi nell'ambito applicato a questo oggetto Criteri di gruppo &#39;computer di dominio Impostazioni&#39;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-9-2.png)
 
-Questa schermata finale mostra il server &quot; NELL'ambito DBServer1 &quot; all'interno dell'unità organizzativa all'interno dello screenshot precedente.
+Questa schermata finale mostra il server &quot;NELL'ambito DBServer1&quot; all'interno dell'unità organizzativa all'interno dello screenshot precedente.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-9-3.png)
 
@@ -186,13 +187,13 @@ Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting
 
 ![Immagine](../media/UserGuidePhotos/Control-No-10.png)
 
-**Nota:** Questa schermata mostra un documento di criteri/processo, l'aspettativa è che gli ISV conosino la documentazione effettiva dei criteri/procedure di supporto e non forniranno semplicemente un screenshot._
+**Nota:** Questa schermata mostra un documento di criteri/processi, l'aspettativa è che gli ISV conosino la documentazione effettiva dei criteri/procedure di supporto e non forniranno semplicemente un screenshot._
 
 **Controllo n. 11:** Fornire prove di come vengono identificate le nuove vulnerabilità della sicurezza.
 
-- Intento: lo scopo di questo controllo è garantire che il processo venga seguito e che&#39;sia sufficientemente affidabile da identificare nuove vulnerabilità della sicurezza in tutto l'ambiente. Potrebbe non trattarsi solo dei sistemi operativi. può includere applicazioni in esecuzione all'interno dell'ambiente ed eventuali dipendenze del codice.
+- Intento: lo scopo di questo controllo è garantire che il processo venga seguito e&#39;sia sufficientemente affidabile da identificare nuove vulnerabilità della sicurezza in tutto l'ambiente. Potrebbe non trattarsi solo dei sistemi operativi. può includere applicazioni in esecuzione all'interno dell'ambiente ed eventuali dipendenze del codice.
 
-- Linee guida per le evidenze di esempio: le prove possono essere fornite mostrando le sottoscrizioni alle liste di distribuzione, esaminando manualmente le fonti di sicurezza per le vulnerabilità appena rilasciate (sarebbe necessario tenere traccia in modo adeguato con timestamp delle attività, ad esempio con JIRA o Azure DevOps), strumenti che rilevano software non aggiornato (ad esempio, potrebbe essere Snyk quando si cercano librerie software non aggiornate o potrebbe essere Nessus utilizzando analisi autenticate che identificano  software non aggiornato).
+- Linee guida per le evidenze di esempio: le prove possono essere fornite mostrando le sottoscrizioni alle liste di distribuzione, esaminando manualmente le fonti di sicurezza per le vulnerabilità appena rilasciate (sarebbe necessario tenere traccia in modo adeguato con timestamp delle attività, ad esempio con JIRA o Azure DevOps), strumenti che rilevano software non aggiornato (ad esempio, potrebbe essere Snyk quando si cercano librerie software non aggiornate o potrebbe essere Nessus utilizzando analisi autenticate che identificano il software non aggiornato).  software non aggiornato).
 
 **Nota** Se si utilizza Nessus, questa operazione deve essere eseguita regolarmente per identificare rapidamente le vulnerabilità. Ti consigliamo almeno ogni settimana.
 
@@ -204,9 +205,9 @@ Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting
 
 **Controllo n. 12:** Fornire prove che dimostrano che a tutte le vulnerabilità viene assegnata una classificazione dei rischi una volta identificate.
 
-- Intento: l'applicazione di patch deve essere basata sui rischi, più è rischiosa la vulnerabilità, più rapidamente è necessario correggere. La classificazione dei rischi delle vulnerabilità identificate è parte integrante di questo processo. L'intento di questo controllo è quello di garantire un processo documentato di classificazione dei rischi che viene seguito per garantire che tutte le vulnerabilità identificate siano adeguatamente classificate in base al rischio. Le organizzazioni in genere utilizzano la classificazione CVSS (Common Vulnerability Scoring System) fornita da fornitori o ricercatori di sicurezza. Se l'organizzazione si basa su CVSS, è consigliabile includere nel processo un meccanismo di classificazione per consentire all'organizzazione di modificare la classificazione in base a una valutazione dei rischi interna. A volte, la vulnerabilità potrebbe non essere un'applicazione a causa del modo in cui l'applicazione è stata distribuita all'interno dell'ambiente. Ad esempio, potrebbe Java una vulnerabilità che influisce su una libreria specifica non utilizzata dall'organizzazione.
+- Intento: l'applicazione di patch deve essere basata sui rischi, più è rischiosa la vulnerabilità, più rapidamente è necessario correggere. La classificazione dei rischi delle vulnerabilità identificate è parte integrante di questo processo. L'intento di questo controllo è quello di garantire un processo documentato di classificazione dei rischi che viene seguito per garantire che tutte le vulnerabilità identificate siano adeguatamente classificate in base al rischio. Le organizzazioni in genere utilizzano la classificazione CVSS (Common Vulnerability Scoring System) fornita da fornitori o ricercatori di sicurezza. Se l'organizzazione si basa su CVSS, è consigliabile includere nel processo un meccanismo di classificazione per consentire all'organizzazione di modificare la classificazione in base a una valutazione dei rischi interna. A volte, la vulnerabilità potrebbe non essere un'applicazione a causa del modo in cui l'applicazione è stata distribuita all'interno dell'ambiente. Ad esempio, potrebbe Java una vulnerabilità che influisce su una raccolta specifica non utilizzata dall'organizzazione.
 
-- Linee guida per l'evidenza di esempio: fornire le prove tramite screenshot o altri mezzi, ad esempio, DevOps/Jira, che dimostra che le vulnerabilità stanno attraversando il processo di classificazione dei rischi e che l'organizzazione ha assegnato una classificazione dei rischi appropriata.
+- Linee guida per l'evidenza di esempio: fornire le prove tramite screenshot o altri mezzi, ad esempio DevOps/Jira, che dimostra che le vulnerabilità stanno attraversando il processo di classificazione dei rischi e che l'organizzazione ha assegnato una classificazione dei rischi appropriata.
 
 - Esempio di prova: questa schermata mostra la classificazione dei rischi che si verifica nella colonna D e una nuova classificazione nelle colonne F e G, se l'organizzazione esegue una valutazione dei rischi e determina che il rischio può essere declassato. La prova di una nuova classificazione dei rischi deve essere fornita come prova di supporto
 
@@ -214,7 +215,7 @@ Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting
 
 ### <a name="patch-management--patching"></a>Gestione delle patch - Applicazione di patch
 
-I controlli seguenti sono per l'elemento patch per gestione delle patch. Per mantenere un ambiente operativo sicuro, le applicazioni/componenti aggiuntivi e i sistemi di supporto devono essere adeguatamente patchati. Un intervallo di tempo adeguato tra l'identificazione (o il rilascio pubblico) e l'applicazione di patch deve essere gestito per ridurre la finestra di opportunità per sfruttare una vulnerabilità da parte di un attore di minacce. La Microsoft 365 certificazioni non prevede una &#39;di applicazione di patch&#39;, tuttavia gli analisti della certificazione rifiuteranno tempi non ragionevoli.
+I controlli seguenti sono per l'elemento patch per gestione delle patch. Per mantenere un ambiente operativo sicuro, le applicazioni/componenti aggiuntivi e i sistemi di supporto devono essere adeguatamente patchati. Un intervallo di tempo adeguato tra l'identificazione (o il rilascio pubblico) e l'applicazione di patch deve essere gestito per ridurre la finestra di opportunità per sfruttare una vulnerabilità da parte di un attore di minacce. La Microsoft 365 certificazioni non prevede una &#39;di applicazione di patch&#39;, tuttavia gli analisti della certificazione rifiuteranno i tempi non ragionevoli.
 
 Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting PaaS (Platform-as-a-Service), poiché le raccolte software e la base di codice di terze parti dell'applicazione/componente aggiuntivo devono essere patchate in base alla classificazione dei rischi.
 
@@ -228,7 +229,7 @@ Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting
 
 ![Immagine](../media/UserGuidePhotos/Control-No-13.png)
 
-**Nota:** Questa schermata mostra un documento di criteri/processo, l'aspettativa è che gli ISV conosino la documentazione effettiva dei criteri/procedure di supporto e non forniranno semplicemente un screenshot._
+**Nota:** Questa schermata mostra un documento di criteri/processi, l'aspettativa è che gli ISV conosino la documentazione effettiva dei criteri/procedure di supporto e non forniranno semplicemente un screenshot._
 
 **Controllo n. 14:** Fornire prove dimostrabili che tutti i componenti di sistema campionati vengono patchati.
 
@@ -236,21 +237,21 @@ Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting
 
 - Intento: l'applicazione di patch alle vulnerabilità garantisce che i diversi moduli che fanno parte dell'infrastruttura di information technology (hardware, software e servizi) siano aggiornati e liberi da vulnerabilità note. L'applicazione di patch deve essere eseguita il prima possibile per ridurre al minimo il potenziale di un incidente di sicurezza tra il rilascio dei dettagli della vulnerabilità e l'applicazione di patch. Questo è ancora più critico quando lo sfruttamento delle vulnerabilità è noto per essere in natura.
 
-- Linee guida per le  evidenze di esempio: fornire uno screenshot per ogni dispositivo nell'esempio e supportare i componenti software che mostrano che le patch sono installate in linea con il processo di applicazione di patch documentato.
+- Linee guida per le evidenze  di esempio: fornire uno screenshot per ogni dispositivo nell'esempio e supportare i componenti software che mostrano che le patch sono installate in linea con il processo di applicazione di patch documentato.
 
-- Esempio di prova: lo screenshot seguente mostra che il componente di sistema &quot; nell'ambito CLARANET-SBU-WM sta eseguendo Windows aggiornamenti in linea con i criteri &quot; di applicazione delle patch.
+- Esempio di prova: lo screenshot &quot;seguente mostra che il componente di sistema nell'ambito CLARANET-SBU-WM&quot; sta eseguendo Windows aggiornamenti in linea con i criteri di applicazione delle patch.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-14.png)
 
-**Nota:** L'applicazione di patch a tutti i componenti di sistema nell'ambito deve essere una prova. Sono inclusi elementi come; Aggiornamenti del sistema operativo, aggiornamenti di applicazioni/componenti (i.e__.,_ _Apache Tomcat, OpenSSL e così via), dipendenze software (ad esempio JQuery, AngularJS e così via)_ e così via.
+**Nota:** L'applicazione di patch a tutti i componenti di sistema nell'ambito deve essere una prova. Sono inclusi elementi come; Aggiornamenti del sistema operativo, aggiornamenti di applicazioni/componenti (i.e__.,_ _Apache Tomcat, OpenSSL e così via), dipendenze software (ad esempio JQuery, AngularJS e così via) e così via._
 
 **Controllo n. 15:** Fornire prove dimostrabili che i sistemi operativi e i componenti software non supportati non vengono utilizzati nell'ambiente.
 
 - Intento: il software che non viene gestito dai fornitori risentirà di vulnerabilità note non fisse. Pertanto, l'utilizzo di sistemi operativi e componenti software non supportati non deve essere utilizzato negli ambienti di produzione.
 
-- Linee guida per l'evidenza di esempio: fornisci uno screenshot per ogni dispositivo dell'esempio che mostra la versione del sistema operativo in esecuzione (incluso il nome del server&#39;nello screenshot).  Inoltre, fornire la prova che i componenti software in esecuzione nell'ambiente eseguono versioni supportate. A tale scopo, è possibile fornire l'output dei report di analisi delle vulnerabilità interne (è inclusa l'analisi autenticata) e/o l'output degli strumenti che controllano le librerie di terze parti, ad esempio [Snyk,](https://snyk.io/) [Trivy](https://github.com/aquasecurity/trivy) o [NPM Audit.](https://docs.npmjs.com/cli/v7/commands/npm-audit) Se è in esecuzione solo in PaaS, solo l'applicazione di patch alle librerie di terze parti deve essere coperta dai gruppi di controllo di applicazione delle patch.
+- Linee guida per l'evidenza di esempio: fornisci uno screenshot per ogni dispositivo dell'esempio che mostra la versione del sistema _operativo in esecuzione_ (incluso il nome&#39;server nello screenshot). Inoltre, fornire la prova che i componenti software in esecuzione nell'ambiente eseguono versioni supportate. A tale scopo, è possibile fornire l'output dei report di analisi delle vulnerabilità interne (inclusa l'analisi autenticata) e/o l'output degli strumenti che controllano le librerie di terze parti, ad esempio [Snyk](https://snyk.io/), [Trivy](https://github.com/aquasecurity/trivy) o [NPM Audit](https://docs.npmjs.com/cli/v7/commands/npm-audit). Se è in esecuzione solo in PaaS, solo l'applicazione di patch alle librerie di terze parti deve essere coperta dai gruppi di controllo di applicazione delle patch.
 
-- Prova di esempio: la prova seguente mostra che il componente di sistema nell'ambito DIR sta eseguendo software supportato dal fornitore dal momento che Nessus non ha&#39;contrassegnato alcun problema.
+- Prova di esempio: la prova seguente mostra che il componente di sistema nell'ambito DISR sta eseguendo software supportato dal fornitore dal momento che Nessus non ha&#39;contrassegnato alcun problema.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-15.png)
 
@@ -258,13 +259,13 @@ Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting
 
 - Esempio di prova 2
 
-Questa schermata mostra che il componente di sistema &quot; nell'ambito CLARANET-SBU-WM è in esecuzione su una &quot; versione Windows supportata.
+Questa schermata mostra che il componente di &quot;sistema nell'ambito CLARANET-SBU-WM&quot; è in esecuzione su una versione Windows supportata.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-15-1.png)
 
 - Esempio di prova 3
 
-Lo screenshot seguente è dell'output [Trivy,](https://github.com/aquasecurity/trivy) che il report completo&#39;elencare tutte le applicazioni non supportate.
+Lo screenshot seguente è dell'output [trivy](https://github.com/aquasecurity/trivy) , che il report completo&#39;elencare tutte le applicazioni non supportate.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-15-2.png)
 
@@ -280,7 +281,7 @@ Con l'introduzione di valutazioni regolari delle vulnerabilità, le organizzazio
 
 - Intento: l'analisi delle vulnerabilità cerca possibili punti deboli in un sistema informatico, reti e applicazioni Web delle organizzazioni per identificare i buchi che potrebbero potenzialmente causare violazioni della sicurezza e l'esposizione di dati sensibili. L'analisi delle vulnerabilità è spesso richiesta dagli standard del settore e dalle normative governative, ad esempio pci DSS (Payment Card Industry Data Security Standard).
 
-- Un report di Security Metric intitolato &quot; [2020 Security Metrics Guide to PCI DSS Compliance](https://info.securitymetrics.com/pci-guide-2020) afferma che &#39;in media sono stati impiegato 166 giorni dal momento in cui un'organizzazione è stata vista avere vulnerabilità per un utente malintenzionato per compromettere &quot; il sistema. Una volta compromessi, gli utenti malintenzionati hanno avuto accesso a dati sensibili per una media di 127 giorni&#39; pertanto questo controllo è finalizzato a identificare potenziali punti deboli della sicurezza all'interno dell'ambiente nell'ambito.
+- Un report di Security Metric &quot; intitolato [2020 Security Metrics Guide to PCI DSS Compliance](https://info.securitymetrics.com/pci-guide-2020)&quot; afferma che &#39;in media sono stati impiegato 166 giorni dal momento in cui un'organizzazione è stata vista avere vulnerabilità per un utente malintenzionato per compromettere il sistema. Una volta compromessi, gli utenti malintenzionati hanno avuto accesso a dati sensibili per una media di 127 giorni&#39; pertanto questo controllo è finalizzato a identificare potenziali punti deboli della sicurezza all'interno dell'ambiente nell'ambito.
 
 - Linee guida per le evidenze di esempio: fornire i report di analisi completi per ogni trimestre&#39;analisi delle vulnerabilità eseguite negli ultimi 12 mesi. I report devono chiaramente definire le destinazioni per verificare che sia incluso l'intero footprint pubblico e, se applicabile, ogni subnet interna. **Fornisci tutti** i report di analisi **per OGNI** trimestre.
 
@@ -288,11 +289,11 @@ Con l'introduzione di valutazioni regolari delle vulnerabilità, le organizzazio
 
 **Controllo n. 17:** Fornire prove dimostrabili che la correzione delle vulnerabilità identificate durante l'analisi delle vulnerabilità viene patchata in base al periodo di tempo documentato per l'applicazione di patch.
 
-- Intento: la mancata identificazione&#39;, la gestione e la correzione rapida di vulnerabilità e errori di configurazione può aumentare il rischio di una compromissione di un'organizzazione che causa potenziali violazioni dei dati. La corretta identificazione e correzione dei problemi è considerata importante per un'organizzazione&#39;una posizione e un ambiente di sicurezza globali che è in linea con le procedure consigliate di vari framework di sicurezza per; ad esempio ISO 27001 e PCI DSS.
+- Intento: la mancata identificazione&#39;, la gestione e la correzione rapida di vulnerabilità e errori di configurazione può aumentare il rischio di una compromissione di un'organizzazione che causa potenziali violazioni dei dati. La corretta identificazione e correzione dei problemi è considerata importante per un'organizzazione&#39;una posizione e un ambiente di sicurezza generale che è in linea con le procedure consigliate di vari framework di sicurezza per; ad esempio ISO 27001 e PCI DSS.
 
 - Linee guida per le evidenze di esempio: fornire artefatti adatti (ad esempio screenshot) che mostrano che un esempio di vulnerabilità individuate dall'analisi delle vulnerabilità viene corretti in linea con le finestre di applicazione di patch già fornite nel controllo 13 precedente.
 
-- Esempio di prova: lo screenshot seguente mostra un'analisi Nessus dell'ambiente nell'ambito (un singolo computer in questo esempio denominato THOR) che mostra le vulnerabilità del &quot; &quot; 2 agosto 2021.
+- Prova di esempio: lo screenshot seguente mostra un'analisi Nessus dell'ambiente nell'ambito (un singolo computer in &quot;questo esempio denominato THOR&quot;) che mostra le vulnerabilità del 2 agosto 2021.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-17.png)
 
@@ -308,7 +309,7 @@ I firewall spesso forniscono un limite di sicurezza tra ambienti attendibili (re
 
 **Controllo n. 18:** Fornire la documentazione sui criteri che regola le procedure e le procedure di gestione del firewall.
 
-- Intento: i firewall sono una prima linea di difesa importante in una strategia di sicurezza a più livelli (difesa approfondita), che protegge gli ambienti da aree di rete meno attendibili. I firewall controllano in genere i flussi di traffico basati su indirizzi IP e protocolli/porte, più firewall più ricchi di funzionalità possono anche fornire ulteriori difese a livello di applicazione esaminando il traffico delle applicazioni per proteggersi da un uso improprio, vulnerabilità e minacce in base alle applicazioni a cui si &quot; &quot; accede. Queste protezioni sono buone solo come la configurazione del firewall, pertanto è necessario disporre di criteri firewall e procedure di supporto forti per garantire che siano configurate per fornire una protezione adeguata degli asset interni. Ad esempio, un firewall con una regola per consentire tutto il traffico da qualsiasi origine a qualsiasi destinazione agisce solo come router.
+- Intento: i firewall sono una prima linea di difesa importante in una strategia di sicurezza a più livelli (difesa approfondita), che protegge gli ambienti da aree di rete meno attendibili. I firewall controllano in genere i flussi di traffico basati su indirizzi IP e protocolli/porte, più firewall &quot;&quot; più ricchi di funzionalità possono anche fornire ulteriori difese a livello di applicazione esaminando il traffico delle applicazioni per proteggersi da un uso improprio, vulnerabilità e minacce in base alle applicazioni a cui si accede. Queste protezioni sono buone solo come la configurazione del firewall, pertanto è necessario disporre di criteri firewall e procedure di supporto forti per garantire che siano configurate per fornire una protezione adeguata degli asset interni. Ad esempio, un firewall con una regola per consentire tutto il traffico da qualsiasi origine a qualsiasi destinazione agisce solo come router.
 
 - Linee guida per le prove di esempio: fornire la documentazione completa relativa ai criteri e alle procedure del firewall. In questo documento devono essere riportati tutti i punti di seguito e tutte le procedure consigliate aggiuntive applicabili all'ambiente.
 
@@ -336,7 +337,7 @@ Lo screenshot seguente mostra ciò che l'analista di certificazione vedrebbe da 
 
 **Controllo n. 20:** Fornire prove dimostrabili che i firewall vengono installati sul limite dell'ambiente nell'ambito e installati tra la rete perimetrale (nota anche come DMZ, zona demilitarizzata e subnet schermata) e le reti attendibili interne.
 
-- Intento: i firewall consentono di controllare il traffico tra aree di rete diverse di livelli di sicurezza diversi. Poiché tutti gli ambienti sono connessi a Internet, è necessario installare firewall sul limite, ad esempio tra Internet e l'ambiente nell'ambito. Inoltre, i firewall devono essere installati tra le reti DMZ (De-Militarized Zone) meno attendibili e le reti attendibili interne. Le dmZ vengono in genere utilizzate per gestire il traffico da Internet e pertanto sono un obiettivo di attacco. L'implementazione di una rete perimetrale e l'utilizzo di un firewall per controllare i flussi di traffico&#39;, una compromissione della rete perimetrale non significa necessariamente una compromissione delle reti attendibili interne e dei dati aziendali/dei clienti. È consigliabile creare una registrazione e un avviso adeguati per consentire alle organizzazioni di identificare rapidamente una compromissione per ridurre al minimo l'opportunità per l'attore della minaccia di compromettere ulteriormente le reti attendibili interne. Lo scopo di questo controllo è garantire un controllo adeguato tra reti attendibili e reti meno attendibili.
+- Intento: i firewall consentono di controllare il traffico tra aree di rete diverse di livelli di sicurezza diversi. Poiché tutti gli ambienti sono connessi a Internet, è necessario installare firewall sul limite, ad esempio tra Internet e l'ambiente nell'ambito. Inoltre, i firewall devono essere installati tra le reti DMZ (De-Militarized Zone) meno attendibili e le reti attendibili interne. Le dmZ vengono in genere utilizzate per gestire il traffico da Internet e pertanto sono un obiettivo di attacco. Implementando una rete perimetrale e usando un firewall per controllare i flussi di traffico&#39;, una compromissione della rete perimetrale non significa necessariamente una compromissione delle reti attendibili interne e dei dati aziendali/dei clienti. È consigliabile creare una registrazione e un avviso adeguati per consentire alle organizzazioni di identificare rapidamente una compromissione per ridurre al minimo l'opportunità per l'attore della minaccia di compromettere ulteriormente le reti attendibili interne. Lo scopo di questo controllo è garantire un controllo adeguato tra reti attendibili e reti meno attendibili.
 
 - Linee guida per l'evidenza di esempio: le prove devono essere fornite tramite file di configurazione del firewall o screenshot che dimostrano che è in atto una DMZ. Deve corrispondere ai diagrammi architettonici forniti che illustrano le diverse reti che supportano l'ambiente. Una schermata delle interfacce di rete nel firewall, insieme al diagramma di rete già fornito nell'ambito dell'Invio documento iniziale, dovrebbe fornire questa prova.
 
@@ -360,19 +361,19 @@ Nello screenshot seguente, sono presenti tre regole in ingresso, ognuna delle qu
 
 **Controllo n. 22:** Fornire prove dimostrabili che tutto il traffico consentito attraverso il firewall attraversa un processo di approvazione.
 
-- Intento: poiché i firewall sono una barriera difensiva tra il traffico non attendibile e le risorse interne e tra reti con livelli di attendibilità diversi, i firewall devono essere configurati in modo sicuro e assicurarsi che sia abilitato solo il traffico necessario per le operazioni aziendali. Consentendo un flusso di traffico non necessario o un flusso di traffico troppo permissivo, ciò può introdurre punti deboli all'interno della difesa al limite di queste diverse aree di rete. Stabilendo un solido processo di approvazione per tutte le modifiche del firewall, il rischio di introdurre una regola che introduce un rischio significativo per l'ambiente è ridotto. Verizon&#39;s [2020 Data Breach Investigation Report](https://enterprise.verizon.com/en-gb/resources/reports/dbir/) evidenzia che Error&#39;s , che include configurazioni erre, è l'unico tipo di azione che sta aumentando costantemente da un anno all'altro. &quot; &quot;
+- Intento: poiché i firewall sono una barriera difensiva tra il traffico non attendibile e le risorse interne e tra reti con livelli di attendibilità diversi, i firewall devono essere configurati in modo sicuro e assicurarsi che sia abilitato solo il traffico necessario per le operazioni aziendali. Consentendo un flusso di traffico non necessario o un flusso di traffico troppo permissivo, ciò può introdurre punti deboli all'interno della difesa al limite di queste diverse aree di rete. Stabilendo un solido processo di approvazione per tutte le modifiche del firewall, il rischio di introdurre una regola che introduce un rischio significativo per l'ambiente è ridotto. Verizon&#39;s [2020 Data Breach Investigation Report](https://enterprise.verizon.com/en-gb/resources/reports/dbir/) &quot;evidenzia che error&#39;s&quot;, che include configurazioni erre, è l'unico tipo di azione che sta aumentando costantemente da un anno all'altro.
 
 - Linee guida sull'evidenza di esempio: l'evidenza può essere sotto forma di documentazione che mostra una richiesta di modifica del firewall autorizzata, che può essere minuti da una riunione CAB (Change Advisor Board) o da un sistema di controllo delle modifiche che verifica tutte le modifiche.
 
-- Esempio di prova: lo screenshot seguente mostra una modifica della regola del firewall richiesta e autorizzata tramite un processo cartaceo. Questa operazione può essere ottenuta ad esempio DevOps o Jira.
+- Esempio di prova: lo screenshot seguente mostra una modifica della regola del firewall richiesta e autorizzata tramite un processo cartaceo. Questo risultato può essere ottenuto ad esempio DevOps o Jira.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-22.png)
 
 **Controllo n. 23:** Fornire prove dimostrabili che la base di regole del firewall è configurata per rilasciare il traffico non definito in modo esplicito.
 
-- Intento: la maggior parte dei firewall eelaborare le regole con un approccio dall'alto verso il basso per cercare di trovare una regola corrispondente. Se una regola corrisponde, verrà applicata l'azione di tale regola e verrà interrotta l'ulteriore elaborazione delle regole. Se non vengono trovate regole di corrispondenza, per impostazione predefinita il traffico viene negato. Lo scopo di questo controllo è che, se il&#39;firewall non è in grado di rilasciare il traffico per impostazione predefinita se non viene trovata alcuna regola corrispondente, la base di regole deve includere una regola Nega tutto alla fine di TUTTI gli elenchi &quot; &quot; di firewall.  In questo modo, il firewall non&#39;predefinito in uno stato consenti predefinito durante l'elaborazione delle regole, consentendo in questo modo il traffico che&#39;non è stato definito in modo esplicito.
+- Intento: la maggior parte dei firewall eelaborare le regole con un approccio dall'alto verso il basso per cercare di trovare una regola corrispondente. Se una regola corrisponde, verrà applicata l'azione di tale regola e verrà interrotta l'ulteriore elaborazione delle regole. Se non vengono trovate regole di corrispondenza, per impostazione predefinita il traffico viene negato. Lo scopo di questo controllo è che, se il&#39;firewall non rilascia il traffico per impostazione predefinita se non viene trovata alcuna regola corrispondente, la base &quot;&quot; di regole deve includere una regola Nega tutto alla fine di TUTTI gli **elenchi di firewall**. In questo modo si garantisce che il firewall non&#39;lo stato predefinito Consenti durante l'elaborazione delle regole, consentendo così il traffico che&#39;non è stato definito in modo esplicito.
 
-- Linee guida per le evidenze di esempio: l'evidenza può essere fornita tramite la configurazione del firewall o tramite screenshot che mostrano tutte le regole del firewall che mostrano una regola Nega tutto alla fine o se il firewall rilascia il traffico che non corrisponde&#39;una regola per impostazione predefinita, quindi forniamo uno screenshot di tutte le regole del firewall e un collegamento alle guide amministrative dei fornitori che evidenziano che per impostazione predefinita il firewall rilascia tutto il traffico non &quot; &quot; corrispondente.
+- Linee guida per le evidenze di esempio: l'evidenza può essere fornita tramite la configurazione del firewall o tramite screenshot che mostrano tutte le regole del firewall che mostrano una regola Nega tutto alla fine o se il firewall rilascia il traffico che non corrisponde&#39;una regola per impostazione predefinita, quindi forniamo uno screenshot di tutte le regole del firewall &quot;&quot; e un collegamento alle guide amministrative dei fornitori che evidenziano che per impostazione predefinita il firewall rilascia tutto il traffico non corrispondente.
 
 - Esempio di prova: di seguito è riportato uno screenshot della base di regole del firewall WatchGuard che dimostra che nessuna regola è configurata per consentire tutto il traffico. Non esiste una regola di negazione alla fine perché WatchGuard rilascia il traffico che&#39;non corrisponde per impostazione predefinita.
 
@@ -391,13 +392,13 @@ Il collegamento seguente del Centro assistenza WatchGuard; [https://www.watchgua
 - Esempio di prova: lo screenshot seguente mostra l'output di [SSLScan](https://github.com/rbsec/sslscan) sull'interfaccia di amministrazione Web del firewall WatchGuard sulla porta TCP 8080. Questo mostra TLS 1.2 o superiore con una crittografia di crittografia minima di AES-128bit.
 ![Immagine](../media/UserGuidePhotos/Control-No-24.png)
 
-**Nota:** i firewall WatchGuard supportano anche le funzioni amministrative tramite SSH (porta TCP 4118) e WatchGuard System Manager (porte TCP 4105 &amp; 4117). Dovrebbe essere fornita anche la prova di queste interfacce amministrative non della console.
+**Nota**: i firewall WatchGuard supportano anche le funzioni amministrative tramite SSH (porta TCP 4118) e WatchGuard System Manager (porte TCP 4105 &amp; 4117). Dovrebbe essere fornita anche la prova di queste interfacce amministrative non della console.
 
 **Controllo n. 25:** Fornire prove dimostrabili che si stanno eseguendo revisioni delle regole del firewall almeno ogni 6 mesi.
 
-- Intento: nel tempo, esiste il rischio di problemi di configurazione nei componenti di sistema con l'ambiente nell'ambito. Questo può spesso introdurre insicurezze o configurazioni erre che possono aumentare il rischio di compromissione per l'ambiente. La configurazione può essere introdotta per numerosi motivi, ad esempio, modifiche temporanee per facilitare la risoluzione dei problemi, modifiche temporanee per modifiche funzionali ad hoc, per introdurre correzioni rapide a problemi che a volte possono essere troppo permissivi a causa delle pressioni dovute all'introduzione di una correzione rapida. Ad esempio, è possibile introdurre una regola firewall temporanea Consenti a &quot; tutti di risolvere un problema &quot; urgente. L'intento di questo controllo è duplice, in primo luogo per identificare dove sono presenti configurazioni erre che possono introdurre insicurezze e in secondo luogo per identificare le regole del firewall che non sono più necessarie e quindi possono essere rimosse, ad esempio se un servizio è stato ritirato ma la regola del firewall è stata lasciata indietro.
+- Intento: nel tempo, esiste il rischio di problemi di configurazione nei componenti di sistema con l'ambiente nell'ambito. Questo può spesso introdurre insicurezze o configurazioni erre che possono aumentare il rischio di compromissione per l'ambiente. La configurazione può essere introdotta per numerosi motivi, ad esempio, modifiche temporanee per facilitare la risoluzione dei problemi, modifiche temporanee per modifiche funzionali ad hoc, per introdurre correzioni rapide a problemi che a volte possono essere troppo permissivi a causa delle pressioni dovute all'introduzione di una correzione rapida. Ad esempio, è possibile introdurre una regola firewall &quot;temporanea Consenti a tutti&quot; di risolvere un problema urgente. L'intento di questo controllo è duplice, in primo luogo per identificare dove sono presenti configurazioni erre che possono introdurre insicurezze e in secondo luogo per identificare le regole del firewall che non sono più necessarie e quindi possono essere rimosse, ad esempio se un servizio è stato ritirato ma la regola del firewall è stata lasciata indietro.
 
-- Linee guida sull'evidenza di esempio: le prove devono essere in grado di dimostrare che si sono verificate riunioni di revisione. A tale scopo, è possibile condividere i minuti di riunione della revisione del firewall e qualsiasi prova di controllo delle modifiche aggiuntiva che mostra eventuali azioni eseguite dalla revisione. Verificare che le date siano presenti&#39;necessario visualizzare almeno due di queste riunioni (ad esempio, ogni sei mesi)
+- Linee guida sull'evidenza di esempio: le prove devono essere in grado di dimostrare che si sono verificate riunioni di revisione. A tale scopo, è possibile condividere i minuti di riunione della revisione del firewall e qualsiasi prova di controllo delle modifiche aggiuntiva che mostra eventuali azioni eseguite dalla revisione. Assicurati che le date siano presenti&#39;necessario vedere almeno due di queste riunioni (ad esempio, ogni sei mesi)
 
 - Esempio di prova: lo screenshot seguente mostra la prova di una revisione del firewall in corso a gennaio 2021.
 
@@ -409,7 +410,7 @@ Lo screenshot seguente mostra la prova di una revisione del firewall che si è v
 
 ### <a name="firewalls--wafs"></a>Firewall - WAF
 
-È facoltativo distribuire un firewall dell'applicazione Web nella soluzione. Se si usa un waf, verrà conteggiato come crediti aggiuntivi per la matrice di punteggio all'interno del &#39;Operational Security&#39; security domain. Le WAF possono esaminare il traffico Web per filtrare e monitorare il traffico Web tra Internet e le applicazioni Web pubblicate per identificare gli attacchi specifici delle applicazioni Web. Le applicazioni Web possono subire numerosi attacchi specifici per le applicazioni Web, ad esempio SQL Injection (SQLi), Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF/XSRF) e WAF, progettati per la protezione da questi tipi di payload dannosi per proteggere le applicazioni Web da attacchi e potenziali compromissione.
+È facoltativo distribuire un firewall dell'applicazione Web nella soluzione. Se viene utilizzato un waf, questo verrà conteggiato come crediti aggiuntivi per la matrice di punteggio all'interno del &#39;Operational Security&#39; security domain. Le WAF possono esaminare il traffico Web per filtrare e monitorare il traffico Web tra Internet e le applicazioni Web pubblicate per identificare gli attacchi specifici delle applicazioni Web. Le applicazioni Web possono subire molti attacchi specifici per le applicazioni Web, ad esempio SQL Injection (SQLi), Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF/XSRF) e WAF, e le waf sono progettate per proteggere da questi tipi di payload dannosi per proteggere le applicazioni Web da attacchi e potenziali compromissione.
 
 **Controllo n. 26:** Fornire prove dimostrabili che Il Firewall applicazione Web (WAF) è configurato per monitorare, avvisare e bloccare attivamente il traffico dannoso.
 
@@ -432,7 +433,7 @@ Lo screenshot seguente mostra le connessioni Web in ingresso che usano questo WA
 
 ![Immagine](../media/UserGuidePhotos/Control-No-26-2.png)
 
-Lo screenshot seguente mostra Contoso \_ AppGW CoreRules che mostra che si tratta del servizio \_ api.contoso.com.
+Lo screenshot seguente mostra ContosoAppGWCoreRules\_\_ che mostra che si tratta del servizio api.contoso.com servizio.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-26-3.png)
 
@@ -442,7 +443,7 @@ Lo screenshot seguente mostra Contoso \_ AppGW CoreRules che mostra che si tratt
 
 - Linee guida per l'evidenza di esempio: fornire prove di configurazione tramite un'esportazione di configurazione o screenshot che mostrano che la ripartizione del carico di lavoro SSL è supportata e configurata.
 
-- Esempio di prova: all'interno del gateway applicazione di Azure, la configurazione di un listener SSL ha abilitato la ripartizione del carico di lavoro SSL, vedere la pagina Panoramica della terminazione TLS e [end-to-end di TLS](https://docs.microsoft.com/en-us/azure/application-gateway/ssl-overview) con application gateway Microsoft docs. La schermata seguente mostra questa configurazione per contoso Production Azure Application Gateway.
+- Esempio di prova: all'interno del gateway applicazione di Azure, la configurazione di un listener SSL ha abilitato la ripartizione del carico di lavoro SSL, vedere la pagina Panoramica della [terminazione TLS e end-to-end di TLS con application gateway](https://docs.microsoft.com/azure/application-gateway/ssl-overview) Microsoft docs. La schermata seguente mostra questa configurazione per contoso Production Azure Application Gateway.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-27.png)
 
@@ -483,7 +484,7 @@ Un processo di controllo delle modifiche consolidato e compreso è essenziale pe
 
 **Controllo n. 30:** Fornire prove dimostrabili che gli ambienti di sviluppo e test applicano la separazione dei compiti dall'ambiente di produzione.
 
-- Intento: la maggior parte&#39;di sviluppo/test dell'organizzazione non è configurata allo stesso vigore degli ambienti di produzione e pertanto è meno sicura. Inoltre, i test non devono essere eseguiti all'interno dell'ambiente di produzione perché ciò può introdurre problemi di sicurezza o può essere dannoso per la distribuzione dei servizi per i clienti. Mantenendo ambienti separati che applicano una separazione dei compiti, le organizzazioni possono garantire che le modifiche vengano applicate agli ambienti corretti, riducendo così il rischio di errori implementando modifiche agli ambienti di produzione quando erano destinate all'ambiente di sviluppo/test.
+- Intento: la maggior parte&#39;gli ambienti di sviluppo/test dell'organizzazione non sono configurati allo stesso vigore degli ambienti di produzione e pertanto sono meno sicuri. Inoltre, i test non devono essere eseguiti all'interno dell'ambiente di produzione perché ciò può introdurre problemi di sicurezza o può essere dannoso per la distribuzione dei servizi per i clienti. Mantenendo ambienti separati che applicano una separazione dei compiti, le organizzazioni possono garantire che le modifiche vengano applicate agli ambienti corretti, riducendo così il rischio di errori implementando modifiche agli ambienti di produzione quando erano destinate all'ambiente di sviluppo/test.
 
 - Linee guida per l'evidenza di esempio: possono essere fornite schermate che illustrano diversi ambienti utilizzati per ambienti di sviluppo/test e ambienti di produzione. In genere, si dispone di persone/team diversi con accesso a ogni ambiente o, se ciò non è possibile, gli ambienti utilizzano servizi di autorizzazione diversi per garantire che gli utenti non siano in grado di accedere erroneamente all'ambiente sbagliato per applicare le modifiche.
 
@@ -499,9 +500,9 @@ Questa schermata successiva mostra una sottoscrizione di Azure separata per cont
 
 - Intento: come già illustrato in precedenza, le organizzazioni non implementeranno misure di sicurezza di un ambiente di sviluppo/test allo stesso vigore dell'ambiente di produzione. Pertanto, utilizzando dati di produzione sensibili in questi ambienti di sviluppo/test, si aumenta il rischio di una compromissione ed è necessario evitare l'utilizzo di dati live/sensibili all'interno di questi ambienti di sviluppo/test.
 
-**Nota:** È possibile utilizzare i dati in tempo reale negli ambienti di sviluppo/test, fornendo che lo sviluppo/test sia incluso nell'ambito della valutazione in modo che la sicurezza possa essere valutata in base ai controlli di certificazione Microsoft 365.
+**Nota:** È possibile utilizzare dati in tempo reale negli ambienti di sviluppo/test, fornendo che lo sviluppo/test sia incluso nell'ambito della valutazione in modo che la sicurezza possa essere valutata in base ai controlli Microsoft 365 certificazione.
 
-- Linee guida sull'evidenza di esempio: l'evidenza può essere fornita condividendo screenshot dell'output della stessa query di SQL su un database di produzione (redazione di informazioni riservate) e del database di sviluppo/test. L'output degli stessi comandi deve produrre set di dati diversi. Dove vengono archiviati i file, anche la visualizzazione del contenuto delle cartelle in entrambi gli ambienti dovrebbe mostrare set di dati diversi.
+- Linee guida per l'evidenza di esempio: le prove possono essere fornite condividendo screenshot dell'output della stessa query di SQL su un database di produzione (redazione di informazioni riservate) e del database di sviluppo/test. L'output degli stessi comandi deve produrre set di dati diversi. Dove vengono archiviati i file, anche la visualizzazione del contenuto delle cartelle in entrambi gli ambienti dovrebbe mostrare set di dati diversi.
 
 - Esempio di prova: lo screenshot seguente mostra i 3 record principali (per l'invio di prove, fornisci i primi 20) dal database di produzione.
 
@@ -533,8 +534,8 @@ A sinistra dello schermo, è possibile vedere che il test delle modifiche è sta
 
 Durante il processo si noti che la persona che sta eseguendo il lavoro, la persona che lo segnala e la persona che approva il lavoro da eseguire sono persone diverse.
 
-![Immagine ](../media/UserGuidePhotos/Control-No-32-3.png)
- ![ immagine](../media/UserGuidePhotos/Control-No-32-4.png)
+![PicturePicture](../media/UserGuidePhotos/Control-No-32-3.png)
+![](../media/UserGuidePhotos/Control-No-32-4.png)
 
 Il ticket precedente mostra che le modifiche sono state approvate per l'implementazione nell'ambiente di produzione. La casella a destra mostra che il test ha avuto esito positivo e che le modifiche sono state implementate in Prod Environment.
 
@@ -580,13 +581,13 @@ Le organizzazioni coinvolte nelle attività di sviluppo del software sono spesso
 
 - Intento: lo scopo di questo controllo è eseguire una revisione del codice da un altro sviluppatore per identificare eventuali errori di codifica che potrebbero introdurre una vulnerabilità nel software. L'autorizzazione deve essere stabilita per garantire che le revisioni del codice siano eseguite, che i test siano eseguiti e così via. prima della distribuzione. Il passaggio di autorizzazione può verificare che siano stati seguiti i processi corretti che sono alla base del contenuto SDLC definito in precedenza.
 
-- Linee guida sull'evidenza di esempio: fornire la prova che il codice viene sottoposto a una revisione peer e deve essere autorizzato prima di poter essere applicato all'ambiente di produzione. Questa prova può essere tramite un'esportazione di ticket di modifica, dimostrando che sono state eseguite revisioni del codice e le modifiche autorizzate, oppure tramite software di revisione del codice come Crogiolo ( [https://www.atlassian.com/software/crucible](https://www.atlassian.com/software/crucible) ).
+- Linee guida sull'evidenza di esempio: fornire la prova che il codice viene sottoposto a una revisione peer e deve essere autorizzato prima di poter essere applicato all'ambiente di produzione. Questa prova può essere tramite un'esportazione di ticket di modifica, dimostrando che sono state eseguite revisioni del codice e le modifiche autorizzate, oppure tramite software di revisione del codice come Crogiolo ([https://www.atlassian.com/software/crucible](https://www.atlassian.com/software/crucible)).
 
 - Esempio di prova
 
 ![Immagine](../media/UserGuidePhotos/Control-No-35.png)Di seguito è riportato un ticket che mostra le modifiche al codice sottoposte a un processo di revisione e autorizzazione da parte di un utente diverso dallo sviluppatore originale. Mostra che è stata richiesta una revisione del codice dall'assegnatare e che verrà assegnata a un altro utente per la revisione del codice.
 
-L'immagine seguente mostra che la revisione del codice è stata assegnata a un utente diverso dallo sviluppatore originale, come mostrato dalla sezione evidenziata sul lato destro dell'immagine seguente. Sul lato sinistro è possibile vedere che il codice è stato esaminato e ha assegnato un &#39;PASS CODE REVIEW&#39; stato dal revisore del codice.
+L'immagine seguente mostra che la revisione del codice è stata assegnata a un utente diverso dallo sviluppatore originale, come mostrato dalla sezione evidenziata sul lato destro dell'immagine seguente. Sul lato sinistro è possibile vedere che il codice è stato esaminato e che il revisore del codice ha &#39;passato&#39; stato di revisione del codice.
 
 Il ticket deve ora ottenere l'approvazione di un responsabile prima di poter inserire le modifiche nei sistemi di produzione in tempo reale.
 
@@ -604,7 +605,7 @@ Durante tutto il processo sono coinvolte tre persone, lo sviluppatore originale 
 
 - Linee guida per l'evidenza di esempio: fornire prove tramite certificati se eseguite da una società di formazione esterna o fornendo screenshot dei diari di formazione o altri elementi che dimostrano che gli sviluppatori hanno partecipato alla formazione. Se questa formazione viene eseguita tramite risorse interne, fornire anche la prova del materiale di formazione.
 
-- Esempio di prova: di seguito è riportato il personale che richiede l'e-mail nel team DevOps essere iscritto alla formazione annuale OWASP Top Ten Training
+- Esempio di prova: di seguito è riportato il personale che richiede la posta elettronica nel team DevOps essere iscritto alla formazione annuale OWASP Top Ten Training
 
 ![Immagine](../media/UserGuidePhotos/Control-No-36.png)
 
@@ -616,7 +617,7 @@ Di seguito viene mostrato che è stata richiesta una formazione con giustificazi
 
 **Controllo n. 37:** Fornire prove dimostrabili che gli archivi di codice sono protetti con l'autenticazione a più fattori (MFA).
 
-- Intento: se un attore di minacce può accedere e modificare una base di codice del&#39;software, potrebbe introdurre vulnerabilità, backdoor o codice dannoso nella base di codice e quindi nell'applicazione. Ci sono già state diverse istanze di questo tipo, con probabilmente il più pubblicizzato è l'attacco Ransomware NotPetya che è stato infettato da un aggiornamento compromesso del software fiscale ucraino chiamato M.E.Doc (vedere What [is NotPetya](https://www.itpro.co.uk/malware/34381/what-is-notpetya)).
+- Intento: se un attore di minacce può accedere e modificare una base di codice del&#39;software, potrebbe introdurre vulnerabilità, backdoor o codice dannoso nella base di codice e quindi nell'applicazione. Ci sono già state diverse istanze di questo tipo, con probabilmente il più pubblicizzato è l'attacco ransomware NotPetya, che è stato infettato da un aggiornamento compromesso del software fiscale ucraino denominato M.E.Doc (vedere What [is NotPetya](https://www.itpro.co.uk/malware/34381/what-is-notpetya)).
 
 - Linee guida sull'evidenza di esempio: fornire la prova tramite screenshot dall'archivio del codice che **tutti** gli utenti hanno abilitato la MFA.
 
@@ -630,7 +631,7 @@ Di seguito viene mostrato che è stata richiesta una formazione con giustificazi
 
 - Linee guida per l'evidenza di esempio: fornire prove tramite screenshot dall'archivio di codice che l'accesso è limitato ai singoli utenti necessari, inclusi privilegi diversi.
 
-- Esempio di prova: lo screenshot seguente mostra i membri &quot; del progetto Customers in &quot; GitLab, che è contoso &quot; Customer &quot; Portal. Come si può vedere nella schermata, gli utenti hanno ruoli &quot; diversi &quot; per limitare l'accesso al progetto.
+- Esempio di prova: lo screenshot seguente mostra i membri &quot;del progetto Clienti&quot; in GitLab, che è il Portale clienti contoso&quot;&quot;. Come si può vedere nella schermata, gli utenti hanno ruoli &quot;diversi&quot; per limitare l'accesso al progetto.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-38.png)
 
@@ -640,9 +641,9 @@ Le procedure di gestione sicura degli account sono importanti in quanto gli acco
 
 **Controllo n. 39:** Fornire la documentazione relativa ai criteri che regola le procedure e le procedure di gestione degli account.
 
-- Intento: gli account utente continuano a essere presi di mira dagli operatori delle minacce e spesso sono l'origine di una compromissione dei dati. Configurando account troppo permissivi, le organizzazioni non solo aumentano il pool di account &#39;con privilegi&#39; che possono essere sfruttati da un attore di minacce per eseguire una violazione dei dati, ma possono anche aumentare il rischio di uno sfruttamento corretto di una vulnerabilità che richiederebbe privilegi specifici per avere esito positivo.
+- Intento: gli account utente continuano a essere presi di mira dagli operatori delle minacce e spesso sono l'origine di una compromissione dei dati. Configurando account esenti da permissivi, le organizzazioni non solo aumentano il pool di account&#39; con privilegi di &#39;che possono essere sfruttati da un attore di minacce per eseguire una violazione dei dati, ma possono anche aumentare il rischio di uno sfruttamento corretto di una vulnerabilità che richiederebbe privilegi specifici per avere esito positivo.
 
--  BeyondTrust produce ogni anno un rapporto sulle vulnerabilità Microsoft che analizza le vulnerabilità della sicurezza Microsoft per l'anno precedente e fornisce informazioni dettagliate sulle percentuali di queste vulnerabilità che si basano sull'account utente con diritti &quot; &quot; di amministratore. In un post di blog recente Il nuovo report delle vulnerabilità di Microsoft rivela un aumento del 48% delle vulnerabilità a livello di anno in cui potrebbero essere attenuate con privilegi minimi, il 90% delle vulnerabilità critiche in Internet Explorer, l'85% delle vulnerabilità critiche in Microsoft Edge e il &quot; [ &amp; ](https://www.beyondtrust.com/blog/entry/microsoft-vulnerabilities-report)100% delle vulnerabilità critiche in Microsoft Outlook sarebbero state attenuate rimuovendo i diritti di &quot; amministratore. Per supportare la gestione sicura degli account, le organizzazioni devono garantire che i criteri e le procedure di supporto che promuovino le procedure consigliate per la sicurezza siano in atto e siano seguite per attenuare queste minacce.
+-  BeyondTrust produce &quot;ogni anno un rapporto sulle vulnerabilità Microsoft&quot; che analizza le vulnerabilità della sicurezza Microsoft per l'anno precedente e fornisce informazioni dettagliate sulle percentuali di queste vulnerabilità che si basano sull'account utente con diritti di amministratore. In un post di blog &quot; recente Il nuovo report delle vulnerabilità di Microsoft rivela un aumento del [48% &amp;](https://www.beyondtrust.com/blog/entry/microsoft-vulnerabilities-report)&quot;delle vulnerabilità a livello annuale su come potrebbero essere mitigate con privilegi minimi, il 90% delle vulnerabilità critiche in Internet Explorer, l'85% delle vulnerabilità critiche in Microsoft Edge e il 100% delle vulnerabilità critiche in Microsoft Outlook sarebbero state attenuate rimuovendo i diritti di amministratore. Per supportare la gestione sicura degli account, le organizzazioni devono garantire che i criteri e le procedure di supporto che promuovino le procedure consigliate per la sicurezza siano in atto e siano seguite per attenuare queste minacce.
 
 - Linee guida sull'evidenza di esempio: fornire i criteri e i documenti di procedura documentati che riguardano le procedure di gestione degli account. Come minimo, gli argomenti trattati devono essere allineati ai controlli all'interno della Microsoft 365 certificazioni.
 
@@ -656,23 +657,23 @@ Le procedure di gestione sicura degli account sono importanti in quanto gli acco
 
 **Controllo n. 40:** Fornire prove dimostrabili che le credenziali predefinite sono disabilitate, rimosse o modificate nei componenti di sistema campionati.
 
-- Intento: anche se questo è sempre meno diffuso, esistono ancora casi in cui gli operatori delle minacce possono sfruttare le credenziali utente predefinite e ben documentate per compromettere i componenti del sistema di produzione. Un esempio diffuso è con Dell iDRAC (Integrated Dell Remote Access Controller). Questo sistema può essere utilizzato per gestire in remoto un server Dell, che potrebbe essere sfruttato da un attore di minacce per ottenere il controllo sul sistema operativo&#39;Server. La credenziale predefinita di root::calvin è documentata e spesso può essere sfruttata dagli operatori delle minacce per ottenere l'accesso ai sistemi utilizzati dalle organizzazioni. Lo scopo di questo controllo è garantire che queste credenziali predefinite siano disabilitate o rimosse
+- Intento: anche se questo è sempre meno diffuso, esistono ancora casi in cui gli operatori delle minacce possono sfruttare le credenziali utente predefinite e ben documentate per compromettere i componenti del sistema di produzione. Un esempio diffuso è con Dell iDRAC (Integrated Dell Remote Access Controller). Questo sistema può essere utilizzato per gestire in remoto un server Dell, che potrebbe essere utilizzato da un attore di minacce per ottenere il controllo sul sistema operativo&#39;server. La credenziale predefinita di root::calvin è documentata e spesso può essere sfruttata dagli operatori delle minacce per ottenere l'accesso ai sistemi utilizzati dalle organizzazioni. Lo scopo di questo controllo è garantire che queste credenziali predefinite siano disabilitate o rimosse
 
 - Linee guida per le prove di esempio: esistono diversi modi in cui è possibile raccogliere le prove per supportare questo controllo. Screenshot degli utenti configurati in tutti i componenti di sistema possono aiutare, ad esempio, screenshot dei file Linux /etc/shadow e /etc/passwd per dimostrare se gli account sono stati disabilitati. Tenere presente che il file /etc/shadow sarebbe necessario per dimostrare che gli account sono realmente disabilitati osservando che l'hash della password inizia con un carattere non valido, ad esempio &#39;!&#39; che indica che la password è inutilizzabile. Il consiglio sarebbe di disabilitare solo alcuni caratteri della password e rievocare il resto. Altre opzioni sono per le sessioni di condivisione dello screensharing in cui il valutatore è stato in grado di provare manualmente le credenziali predefinite, ad esempio nella discussione precedente su Dell iDRAC, il valutatore deve tentare di eseguire l'autenticazione su tutte le interfacce iDRAC dell'Dell utilizzando le credenziali predefinite.
 
-- Esempio di prova: nella schermata seguente vengono mostrati gli account utente configurati per il componente di sistema &quot; nell'ambito DIAMPLNET-SBU-WM &quot; . Vengono mostrati diversi account predefiniti. Administrator, DefaultAccount e Guest, tuttavia, gli screenshot seguenti mostrano che questi account sono disabilitati.
+- Esempio di prova: lo screenshot seguente mostra gli account utente configurati per il componente di sistema &quot;nell'ambito DISAMM-SBU-WM&quot;. Vengono mostrati diversi account predefiniti. Administrator, DefaultAccount e Guest, tuttavia, gli screenshot seguenti mostrano che questi account sono disabilitati.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-40.png)
 
-Nella schermata successiva viene mostrato che l'account administrator è disabilitato nel componente di sistema &quot; nell'ambito CLARANET-SBU-WM.This next screenshot shows the Administrator account is disabled on the in-scope system component CLARANET-SBU-WM &quot; .
+Questa schermata successiva mostra che l'account Administrator è disabilitato nel componente di sistema nell'ambito CLARANET-SBU-WM.This next screenshot shows the Administrator account is disabled on the in-scope system component &quot;CLARANET-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-40-1.png)
 
-Questa schermata successiva mostra che l'account Guest è disabilitato nel componente di sistema &quot; nell'ambito CLARANET-SBU-WM.This next screenshot shows the Guest account is disabled on the in-scope system component CLARANET-SBU-WM &quot; .
+Questa schermata successiva mostra che l'account Guest è disabilitato nel componente di &quot;sistema nell'ambito CLARANET-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-40-2.png)
 
-Questa schermata successiva mostra che DefaultAccount è disabilitato nel componente di sistema nell'ambito CLARANET-SBU-WM.This next screenshot shows that the DefaultAccount is disabled on the in-scope system component &quot; CLARANET-SBU-WM &quot; .
+Questa schermata successiva mostra che DefaultAccount è disabilitato nel componente di sistema nell'ambito CLARANET-SBU-WM.This next screenshot shows that the DefaultAccount is disabled on the in-scope system component &quot;CLARANET-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-40-3.png)
 
@@ -682,7 +683,7 @@ Questa schermata successiva mostra che DefaultAccount è disabilitato nel compon
 
 - Linee guida per l'evidenza di esempio: le prove in genere sono sotto forma di ticket di richiesta di modifica, richieste ITSM (gestione dei servizi IT) o documenti che mostrano le richieste di creazione, modifica o eliminazione degli account che sono stati approvati.
 
-- Esempio di prova: le immagini seguenti mostrano la creazione di account per un nuovo avvio al team di DevOps che deve disporre dell'impostazione RBAC in base alle autorizzazioni dell'ambiente di produzione senza accesso all'ambiente di sviluppo e all'accesso standard non privilegiato a tutto il resto.
+- Esempio di prova: le immagini seguenti mostrano la creazione di un account per un nuovo avvio al team di DevOps che deve disporre dell'impostazione RBAC in base alle autorizzazioni dell'ambiente di produzione senza accesso all'ambiente di sviluppo e all'accesso standard non privilegiato a tutto il resto.
 
 La creazione dell'account ha attraversato il processo di approvazione e il processo di disconnessione dopo la creazione dell'account e la chiusura del ticket.
 
@@ -694,9 +695,9 @@ La creazione dell'account ha attraversato il processo di approvazione e il proce
 
 **Controllo n. 42:** Fornire prove dimostrabili che è in corso un processo per disabilitare o eliminare gli account non utilizzati entro 3 mesi.
 
-- Intento: gli account inattivi a volte possono essere compromessi perché sono mirati ad attacchi di forza bruta che potrebbero non essere contrassegnati perché l'utente non sta tentando di accedere agli account o a causa di una violazione del database delle password in cui la password di un utente&#39;è stata riutilizzata ed è disponibile all'interno di un dump nome utente/password su Internet. Gli account inutilizzati devono essere disabilitati/rimossi per ridurre la superficie di attacco che un attore di minacce deve eseguire attività di compromissione dell'account. Questi account possono essere dovuti a un processo di congedo non eseguito correttamente, a un membro del personale a lungo termine o a un membro del personale in congedo di maternità/paternità. Implementando un processo trimestrale per identificare questi account, le organizzazioni possono ridurre al minimo la superficie di attacco.
+- Intento: gli account inattivi a volte possono essere compromessi perché sono mirati ad attacchi di forza bruta che potrebbero non essere contrassegnati perché l'utente non sta tentando di accedere agli account o tramite una violazione del database delle password in cui la password di un utente&#39;è stata riutilizzata ed è disponibile all'interno di un dump nome utente/password su Internet. Gli account inutilizzati devono essere disabilitati/rimossi per ridurre la superficie di attacco che un attore di minacce deve eseguire attività di compromissione dell'account. Questi account possono essere dovuti a un processo di congedo non eseguito correttamente, a un membro del personale a lungo termine o a un membro del personale in congedo di maternità/paternità. Implementando un processo trimestrale per identificare questi account, le organizzazioni possono ridurre al minimo la superficie di attacco.
 
-- Linee guida per le prove di esempio: le prove devono essere due volte. In primo luogo, una schermata o un'esportazione di file che mostra &quot; l'ultimo accesso &quot; di tutti gli account utente all'interno dell'ambiente nell'ambito. Possono trattarsi di account locali e di account all'interno di un servizio directory centralizzato, ad esempio AAD (Azure Active Directory). In questo modo verrà dimostrato che non sono abilitati account precedenti a 3 mesi. In secondo luogo, la prova del processo di revisione trimestrale che può essere una prova documentale dell'attività completata all'interno dei ticket ADO (Azure DevOps) o JIRA o tramite registri cartacei che devono essere firmati.
+- Linee guida per le prove di esempio: le prove devono essere due volte. In primo luogo, una schermata o un'esportazione di file che mostra &quot;l'ultimo accesso&quot; di tutti gli account utente all'interno dell'ambiente nell'ambito. Possono trattarsi di account locali e di account all'interno di un servizio directory centralizzato, ad esempio AAD (Azure Active Directory). In questo modo verrà dimostrato che non sono abilitati account precedenti a 3 mesi. In secondo luogo, le prove del processo di revisione trimestrale che possono essere prove documentali dell'attività completata all'interno dei ticket ADO (Azure DevOps) o JIRA o tramite documenti cartacei che devono essere firmati.
 
 - Esempio di prova: questa prima schermata mostra l'output dello script che viene eseguito ogni trimestre per visualizzare l'ultimo attributo di accesso per gli utenti all'interno di AAD.
 
@@ -714,11 +715,11 @@ Come si può vedere nella schermata precedente, due utenti mostrano che non hann
 - Cronologia delle password di almeno 5 password
 - Applicazione dell'uso di password complessa
 
-- Intento: come già descritto, le credenziali utente sono spesso l'obiettivo di attacchi da parte degli operatori delle minacce che tentano di ottenere l'accesso a un'&#39;'ambiente. L'intento di un criterio password complessa è quello di cercare di obbligare gli utenti a scegliere password complesse per ridurre le probabilità che gli operatori delle minacce possano forzarli. L'intenzione di aggiungere le misure di prevenzione appropriate è riconoscere che le organizzazioni possono implementare altre misure di sicurezza per proteggere le credenziali utente in base agli sviluppi del settore, ad esempio &quot; &quot; &quot; [NIST Special Publication 800-63B.](https://pages.nist.gov/800-63-3/sp800-63b.html) &quot;
+- Intento: come già illustrato, le credenziali utente sono spesso l'obiettivo di un attacco da parte degli operatori delle minacce che tentano di ottenere l'accesso a un'&#39;'ambiente. L'intento di un criterio password complessa è quello di cercare di obbligare gli utenti a scegliere password complesse per ridurre le probabilità che gli operatori delle minacce possano forzarli. L'intento di aggiungere o altre misure di prevenzione adeguate è riconoscere che le organizzazioni possono implementare altre misure di sicurezza per proteggere le credenziali degli utenti in base agli sviluppi del settore, ad esempio [NIST Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html)&quot;.&quot;&quot; &quot;
 
-- Linee guida di prova di esempio: le prove per dimostrare un criterio password complessa possono essere sotto forma di uno screenshot di un oggetto Criteri di gruppo o criteri di sicurezza locali Criteri account criteri di sicurezza locali à Criteri password e Criteri account à Impostazioni dei criteri di blocco &quot; &quot; &quot; &quot; account. L'evidenza dipende dalle tecnologie utilizzate; Ad esempio, per Linux potrebbe essere il file di configurazione /etc/pam.d/common-password, per BitBucket la sezione Authentication Policies all'interno del portale di amministrazione ( ) e &quot; &quot; così [https://support.atlassian.com/security-and-access-policies/docs/manage-your-password-policy/](https://support.atlassian.com/security-and-access-policies/docs/manage-your-password-policy/) via.
+- Linee guida di prova di esempio: le prove per dimostrare un criterio password complessa possono essere sotto forma di uno screenshot &quot;di un oggetto Criteri di gruppo o criteri di sicurezza locali Criteri account criteri di sicurezza locali à Criteri&quot; &quot;password e Criteri account à Impostazioni&quot; dei criteri di blocco account. L'evidenza dipende dalle tecnologie utilizzate; Ad esempio, per Linux potrebbe essere il file di configurazione /etc/pam.d/common-password, per BitBucket &quot;la sezione Criteri&quot; di autenticazione nel portale di amministrazione ([https://support.atlassian.com/security-and-access-policies/docs/manage-your-password-policy/](https://support.atlassian.com/security-and-access-policies/docs/manage-your-password-policy/)), e così via.
 
-- Esempio di prova: l'evidenza seguente mostra i criteri password configurati all'interno dei criteri di sicurezza locali del componente di sistema &quot; &quot; nell'ambito &quot; CLARANET-SBU-WM &quot; .
+- Esempio di prova: l'evidenza seguente mostra i criteri password &quot;&quot; configurati all'interno dei criteri di sicurezza locali del componente di &quot;sistema nell'ambito CLARANET-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-43.png)
 
@@ -738,19 +739,19 @@ Di seguito è riportato un esempio di lunghezza minima della passphrase per il f
 
 - Linee guida per l'evidenza di esempio: le evidenze sono tramite screenshot che mostrano gli account utente configurati tra i componenti di sistema nell'ambito che possono includere server, archivi di codice, piattaforme di gestione cloud, Active Directory, firewall e così via.
 
-- Esempio di prova: nella schermata seguente vengono mostrati gli account utente configurati per il componente di sistema &quot; nell'ambito DIAMPLNET-SBU-WM &quot; .
+- Esempio di prova: lo screenshot seguente mostra gli account utente configurati per il componente di sistema &quot;nell'ambito DISAMM-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-44.png)
 
-Nella schermata successiva viene mostrato che l'account administrator è disabilitato nel componente di sistema &quot; nell'ambito CLARANET-SBU-WM.This next screenshot shows the Administrator account is disabled on the in-scope system component CLARANET-SBU-WM &quot; .
+Questa schermata successiva mostra che l'account Administrator è disabilitato nel componente di sistema nell'ambito CLARANET-SBU-WM.This next screenshot shows the Administrator account is disabled on the in-scope system component &quot;CLARANET-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-44-1.png)
 
-Questa schermata successiva mostra che l'account Guest è disabilitato nel componente di sistema &quot; nell'ambito CLARANET-SBU-WM.This next screenshot shows the Guest account is disabled on the in-scope system component CLARANET-SBU-WM &quot; .
+Questa schermata successiva mostra che l'account Guest è disabilitato nel componente di &quot;sistema nell'ambito CLARANET-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-44-2.png)
 
-Questa schermata successiva mostra che DefaultAccount è disabilitato nel componente di sistema nell'ambito CLARANET-SBU-WM.This next screenshot shows that the DefaultAccount is disabled on the in-scope system component &quot; CLARANET-SBU-WM &quot; .
+Questa schermata successiva mostra che DefaultAccount è disabilitato nel componente di sistema nell'ambito CLARANET-SBU-WM.This next screenshot shows that the DefaultAccount is disabled on the in-scope system component &quot;CLARANET-SBU-WM&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-44-3.png)
 
@@ -775,29 +776,29 @@ La schermata seguente mostra che gli utenti vengono allocati ai gruppi in base a
 
 - Linee guida sull'evidenza di esempio: in Internet sono disponibili numerose guide per la protezione avanzata degli account di servizio. Le prove possono essere sotto forma di screenshot che dimostrano come l'organizzazione abbia implementato la protezione avanzata dell'account. Alcuni esempi (l'aspettativa è che siano utilizzate più tecniche) includono:
 - Limitazione degli account a un set di computer all'interno di Active Directory,
-- L'impostazione dell'account in modo che l'&#39;interattivo non sia consentito,
+- L'impostazione dell'account in modo che l'accesso interattivo&#39;non sia consentito,
 - Impostazione di una password estremamente complessa,
-- Per Active Directory, abilitare &quot; l'account è sensibile e non può essere &quot; delegato. Queste tecniche sono descritte nell'articolo Segmentazione e &quot; [Active Directory condiviso per un ambiente dati cardholder.](https://pciramblings.com/2019/12/13/segmentation-and-shared-active-directory-of-a-cardholder-data-environment/) &quot;
+- Per Active Directory, abilitare l'account &quot;è sensibile e non può essere delegato&quot; . Queste tecniche sono descritte nell'articolo &quot;[Segmentazione e Active Directory condiviso per un ambiente dati cardholder](https://pciramblings.com/2019/12/13/segmentation-and-shared-active-directory-of-a-cardholder-data-environment/)&quot;.
 
 - Esempio di prova: esistono diversi modi per eseguire la protezione avanzata di un account di servizio, che dipenderà da ogni singolo ambiente. I meccanismi adatti all'ambiente, che vengono utilizzati, verranno documentati nel documento di procedura/criteri di gestione degli account in precedenza, che aiuterà a esaminare questa prova. Di seguito sono riportati alcuni dei meccanismi che possono essere utilizzati:
 
-Lo screenshot seguente mostra che l'&#39;account è sensibile e l'opzione Connetti&#39; delegata è selezionata nell'account di servizio &quot; \_ Prod SQL Service Account &quot; .
+Lo screenshot seguente mostra l'&#39;account è sensibile e l'opzione Connetti&#39; delegata è selezionata nell'account &quot;\_di servizio Prod SQL Service Account&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-46.png)
 
-Questa schermata successiva mostra che l'account di servizio Prod SQL Service Account è bloccato nel SQL Server e può accedere solo &quot; \_ a tale &quot; server.
+Questa schermata successiva mostra che l'account &quot;\_di servizio Prod SQL Service Account&quot; è bloccato nel SQL Server e può accedere solo a tale server.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-46-1.png)
 
-Questa schermata successiva mostra che l'account di servizio Prod SQL Service Account può accedere &quot; \_ solo come &quot; servizio.
+Questa schermata successiva mostra che l'account &quot;\_di servizio Prod SQL Service Account&quot; può accedere solo come servizio.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-46-2.png)
 
 **Controllo n. 47:** Fornire una prova dimostrabile che l'autenticazione a più fattori è configurata per tutte le connessioni di accesso remoto e tutte le interfacce amministrative non della console.
 
 Termini definiti come:
-- **Accesso remoto:** in genere, si riferisce alle tecnologie utilizzate per accedere all'ambiente di supporto. Ad esempio, VPN IPSec di Accesso remoto, VPN SSL o Jumpbox/Host Bastiano.
-- **Interfacce amministrative non console:** in genere, si riferisce alle connessioni amministrative di rete ai componenti di sistema. Potrebbe trattarsi di Desktop remoto, SSH o un'interfaccia Web.
+- **Accesso remoto** : in genere, si riferisce alle tecnologie utilizzate per accedere all'ambiente di supporto. Ad esempio, VPN IPSec di Accesso remoto, VPN SSL o Jumpbox/Host Bastiano.
+- **Interfacce amministrative non console** : in genere, si riferisce alle connessioni amministrative di rete ai componenti di sistema. Potrebbe trattarsi di Desktop remoto, SSH o un'interfaccia Web.
 
 
 - Intento: lo scopo di questo controllo è di fornire misure di prevenzione contro gli account con privilegi di forza bruta e gli account con accesso sicuro nell'ambiente. Fornendo l'autenticazione a più fattori( MFA), una password compromessa deve comunque essere protetta da un accesso riuscito, poiché il meccanismo MFA deve essere ancora protetto. In questo modo, tutti gli accessi e le azioni amministrative vengono eseguiti solo da membri del personale autorizzati e attendibili.
@@ -808,7 +809,7 @@ Termini definiti come:
 
 ![Immagine](../media/UserGuidePhotos/Control-No-47.png)
 
-Questa schermata dimostra che è abilitato un server di autenticazione aggiuntivo che punta a Duo-LDAP per l'area di autenticazione &#39;Duo - Route predefinita&#39; &quot; &quot; autenticazione.
+Questa schermata dimostra che è abilitato un server &quot;di autenticazione aggiuntivo che punta a Duo-LDAP&quot; per l'area di autenticazione &#39;Duo - Route predefinita&#39; autenticazione.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-47-1.png)
 
@@ -825,18 +826,18 @@ Prova di esempio 2: gli screenshot seguenti mostrano che tutti gli utenti di Azu
 **Controllo n. 48:** Fornire prove dimostrabili che la crittografia avanzata è configurata per tutte le connessioni di accesso remoto e tutte le interfacce amministrative non della console, incluso l'accesso a qualsiasi archivio di codice e alle interfacce di gestione cloud.
 
 Termini definiti come:
-- **Archivi di codice:** la base di codice dell'app deve essere protetta da modifiche dannose che potrebbero introdurre malware nell'app. L'autenticazione a più fattori deve essere configurata nell'archivio di codice.
-- **Interfacce di gestione cloud:** se alcuni o tutti gli ambienti sono ospitati all'interno del provider di servizi cloud (CSP), l'interfaccia amministrativa per la gestione del cloud è inclusa qui.
+- **Archivi di codice** : la base di codice dell'app deve essere protetta da modifiche dannose che potrebbero introdurre malware nell'app. L'autenticazione a più fattori deve essere configurata nell'archivio di codice.
+- **Interfacce di gestione cloud** : se alcuni o tutti gli ambienti sono ospitati all'interno del provider di servizi cloud (CSP), l'interfaccia amministrativa per la gestione del cloud è inclusa qui.
 
 - Intento: lo scopo di questo controllo è garantire che tutto il traffico amministrativo sia adeguatamente crittografato per proteggere dagli attacchi man-in-the-middle.
 
 - Linee guida per l'evidenza di esempio: le prove possono essere fornite da screenshot che mostrano le impostazioni di crittografia per le tecnologie di accesso remoto, RDP, SSH e interfacce di amministrazione Web. Per le interfacce di amministrazione Web, è possibile utilizzare lo scanner Qualys SSL Labs (se accessibile pubblicamente, ad esempio, interfacce di gestione cloud, archivi di codice SaaS o connessioni VPN SSL).
 
-- Prova di esempio: l'evidenza seguente mostra il livello di crittografia RDP in Webserver01 configurato con un'impostazione &#39;&quot; &quot; livello elevato &quot; . Come illustrato nel testo della Guida, si utilizza una crittografia avanzata a 128 bit (che è il livello più alto per Microsoft Windows RDP.
+- Prova di esempio: l'evidenza seguente mostra il livello di crittografia RDP &quot;in Webserver01&quot; configurato con un'impostazione &#39;livello elevato&quot;. Come illustrato nel testo della Guida, si utilizza una crittografia avanzata a 128 bit (che è il livello più alto per Microsoft Windows RDP.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-48.png)
 
-L'evidenza seguente mostra anche che la sicurezza del trasporto RDP è configurata per l'utilizzo di TLS 1.0 in &quot; Webserver01 (che è il più alto per &quot; Windows Server).
+L'evidenza seguente mostra anche che la sicurezza del trasporto RDP è configurata per l'utilizzo di TLS 1.0 &quot;in Webserver01&quot; (che è il più alto per Windows Server).
 
 ![Immagine](../media/UserGuidePhotos/Control-No-48-1.png)
 
@@ -844,9 +845,9 @@ L'evidenza seguente mostra anche che la sicurezza del trasporto RDP è configura
 
 - Intento: se un attore di minacce dannose può ottenere l'accesso ai record DNS pubblici, esiste il rischio che sia in grado di modificare gli URL utilizzati dall'app o in cui il file manifesto punta a introdurre codice dannoso o a indirizzare il traffico degli utenti a un endpoint sotto il controllo degli attori. Ciò potrebbe causare una perdita di dati dell'utente o infezioni malware/ransomware nella base di utenti dell'app.
 
-- Linee guida per l'evidenza di esempio: fornire prove che dimostrano che i portali amministrativi DNS pubblici sono protetti da MFA. Anche se IL DNS pubblico è ospitato nei server all'interno dell'ambiente nell'ambito (ad esempio, il controllo e l'attività dell'organizzazione), potrebbe essere ancora presente un portale di amministrazione in cui è stato registrato il nome di dominio e i record DNS sono stati &#39;Managed&#39; per puntare i server DNS alla propria infrastruttura. In questo caso, l'autenticazione a più fattori deve essere abilitata nell'interfaccia amministrativa del registrar di dominio se i record DNS dei domini possono essere modificati. Dovrebbe essere fornita una schermata che mostra l'interfaccia amministrativa abilitata per la MFA a livello di sistema (ad esempio, tutti gli account con privilegi).
+- Linee guida per l'evidenza di esempio: fornire prove che dimostrano che i portali amministrativi DNS pubblici sono protetti da MFA. Anche se IL DNS pubblico è ospitato nei server all'interno dell'ambiente nell'ambito (ad esempio, il controllo e l'attività dell'organizzazione), potrebbe essere ancora presente un portale di amministrazione in un punto in cui è stato registrato il nome di dominio e i record DNS sono stati &#39;Managed&#39; per puntare i server DNS alla propria infrastruttura. In questo caso, l'autenticazione a più fattori deve essere abilitata nell'interfaccia amministrativa del registrar di dominio se i record DNS dei domini possono essere modificati. Dovrebbe essere fornita una schermata che mostra l'interfaccia amministrativa abilitata per la MFA a livello di sistema (ad esempio, tutti gli account con privilegi).
 
-- Esempio di prova: lo screenshot seguente mostra la contoso.com DNS viene gestito all'interno Microsoft Azure per Contoso Corporation.
+- Esempio di prova: lo screenshot seguente mostra il contoso.com DNS viene gestito all'interno Microsoft Azure per Contoso Corporation.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-49.png)
 
@@ -872,7 +873,7 @@ I sistemi di rilevamento e prevenzione delle intrusioni (IDPS) nel gateway posso
 
 ![Immagine](../media/UserGuidePhotos/Control-No-50.png)
 
-Lo screenshot aggiuntivo seguente mostra che IDPS è abilitato in tutte le regole all'interno del firewall WatchGuard&#39;configurazione.
+Lo screenshot aggiuntivo seguente mostra che IDPS è abilitato in tutte le regole all'interno del firewall WatchGuard&#39;configurazione s.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-50-1.png)
 
@@ -882,7 +883,7 @@ Lo screenshot aggiuntivo seguente mostra che IDPS è abilitato in tutte le regol
 
 - Linee guida per l'evidenza di esempio: l'evidenza sarà probabilmente tramite uno screenshot che mostra che l'IDPS è configurato per aggiornare le firme almeno ogni giorno e visualizzare l'ultimo aggiornamento.
 
-- Esempio di prova: anche se questo&#39;screenshot non mostra che le firme IDPS sono state aggiornate nelle ultime 24 ore, dimostra che è installata la versione più recente, che era di una settimana fa ( Prove raccolte nel _18__th_ _maggio_). Questo, in combinazione con lo screenshot seguente, mostra che le firme saranno aggiornate entro un periodo di 24 ore.
+- Esempio di prova: anche se questo&#39;screenshot non mostra che le firme IDPS sono state aggiornate nelle ultime 24 ore, dimostra che è installata la versione più recente, che era di una settimana fa (prove raccolte _nel 18__th_ _maggio_). Questo, in combinazione con lo screenshot seguente, mostra che le firme saranno aggiornate entro un periodo di 24 ore.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-51.png)
 
@@ -902,7 +903,7 @@ Questa schermata successiva mostra che IDPS è abilitato per queste regole.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-52-1.png)
 
-Lo screenshot seguente mostra che un'azione proxy viene applicata alla regola &#39;traffico bot in ingresso&#39;, che viene usata per attivare &quot; &quot; l'ispezione del \_ \_ contenuto.
+Nella schermata seguente viene &quot;&quot; mostrata un'azione proxy applicata alla regola &#39;inboundBotTraffic\_\_&#39;, che viene utilizzata per attivare l'ispezione del contenuto.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-52-2.png)
 
@@ -916,17 +917,17 @@ La schermata seguente mostra che l'ispezione del contenuto è abilitata.
 
 - Linee guida per l'evidenza di esempio: le prove tramite screenshot devono essere fornite per dimostrare che tutti i flussi di traffico in ingresso vengono monitorati. Questo può essere l'utilizzo del firewall NextGen, che mostra che tutte le regole in ingresso sono abilitate per IDPS, oppure può essere tramite l'uso di sensori IDPS e la dimostrazione che tutto il traffico è configurato per raggiungere il sensore IDPS.
 
-- Esempio di prova: questa schermata mostra che IDPS è configurato in tutte le regole (criteri) di WatchGuard Firewall&#39;regole.
+- Prova di esempio: questa schermata mostra che IDPS è configurato in tutte le regole (criteri) di WatchGuard Firewall&#39;regole.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-53.png)
 
 **Controllo n. 54:** Fornire una prova dimostrabile che IDPS è configurato per monitorare tutti i flussi di traffico in uscita.
 
-- Intento: come già descritto, è importante che tutti i flussi di traffico in uscita siano monitorati da IDPS per identificare qualsiasi forma di traffico di attacco. Alcuni sistemi IDPS possono anche identificare potenziali violazioni interne monitorando tutto il traffico in uscita. Questa operazione può essere eseguita identificando il traffico destinato agli endpoint &#39;command e control&#39; endpoint.
+- Intento: come già descritto, è importante che tutti i flussi di traffico in uscita siano monitorati da IDPS per identificare qualsiasi forma di traffico di attacco. Alcuni sistemi IDPS possono anche identificare potenziali violazioni interne monitorando tutto il traffico in uscita. Questa operazione può essere eseguita identificando il traffico destinato agli endpoint &#39;Command e Control&#39; endpoint.
 
 - Linee guida per l'evidenza di esempio: le prove tramite screenshot devono essere fornite per dimostrare che tutti i flussi di traffico in uscita vengono monitorati. Questo può essere l'uso del firewall NextGen, che mostra che tutte le regole in uscita sono abilitate per IDPS, oppure può essere tramite l'uso di sensori IDPS e la dimostrazione che tutto il traffico è configurato per raggiungere il sensore IDPS.
 
-- Esempio di prova: questa schermata mostra che IDPS è configurato in tutte le regole (criteri) di WatchGuard Firewall&#39;regole.
+- Prova di esempio: questa schermata mostra che IDPS è configurato in tutte le regole (criteri) di WatchGuard Firewall&#39;regole.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-54.png)
 
@@ -956,7 +957,7 @@ L'immagine seguente mostra come elencare tutte le configurazioni di rilevamento 
 
 ![Immagine](../media/UserGuidePhotos/Control-No-54-7.png)
 
-- Esempio prova 4: Azure ha recentemente iniziato a offrire idPS denominato Azure Firewall Premium che consentirà la configurazione di TLS, Threat Intelligence, IDPS attraverso i criteri, tuttavia, tenere presente che sarà comunque necessario usare Front Door o gateway applicazione per la ripartizione del carico di lavoro SSL del traffico in ingresso poiché Azure Firewall Premium non supporta IDPS sulle connessioni SSL in ingresso.
+- Esempio prova 4: Azure ha recentemente iniziato a offrire idPS denominato Azure Firewall Premium che consentirà la configurazione di TLS, Threat Intelligence, IDPS attraverso i criteri, tuttavia, tenere presente che sarà comunque necessario usare Front Door o il gateway applicazione per la ripartizione del carico di lavoro SSL del traffico in ingresso poiché Azure Firewall Premium non supporta IDPS sulle connessioni SSL in ingresso.
 
 Nell'esempio seguente sono state usate le impostazioni premium predefinite per la configurazione delle regole dei criteri e l'ispezione TLS, la modalità IDPS, Threat Intelligence sono state abilitate insieme alla protezione della rete virtuale.
 
@@ -1002,11 +1003,11 @@ La registrazione degli eventi di sicurezza è parte integrante di un'&#39;progra
 
 - Linee guida per l'evidenza di esempio: le prove tramite screenshot o impostazioni di configurazione devono essere fornite in tutti i dispositivi campionati e in tutti i componenti di sistema di rilevanza per dimostrare come la registrazione è configurata per garantire che questi tipi di eventi di sicurezza siano acquisiti.
 
-- Prova di esempio 1: lo screenshot seguente mostra le impostazioni di configurazione di uno dei dispositivi campionati denominati &quot; VICTIM1-WINDOWS. &quot; Le impostazioni mostrano varie impostazioni di controllo abilitate &#39;criteri di sicurezza locali  criteri locali  criteri di controllo&#39; impostazioni.
+- Prova di esempio 1: lo screenshot seguente mostra le impostazioni di configurazione di uno dei dispositivi campionati denominati &quot;VICTIM1-WINDOWS&quot;. Le impostazioni mostrano varie impostazioni di controllo abilitate &#39;criteri di sicurezza locali  criteri locali  criteri di controllo&#39; impostazioni.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-56.png)
 
-Questa schermata successiva mostra un evento in cui un utente ha cancellato un registro eventi da uno dei dispositivi campionati &quot; denominato VICTIM1-WINDOWS. &quot;
+Questa schermata successiva mostra un evento in cui un utente ha cancellato un registro eventi da uno dei dispositivi campionati denominato &quot;VICTIM1-WINDOWS&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-56-1.png)
 
@@ -1014,7 +1015,7 @@ Questa schermata finale mostra il messaggio di registro visualizzato all'interno
 
 ![Immagine](../media/UserGuidePhotos/Control-No-56-2.png)
 
-**Nota:** gli screenshot sono necessari in tutti i componenti di sistema campionati **E** **DEVONO** fornire una prova di tutti gli eventi di sicurezza descritti in precedenza.
+**Nota**: le schermate sono necessarie in tutti i componenti di sistema campionati **E DEVONO**  essere evidenze di tutti gli eventi di sicurezza descritti in precedenza.
 
 **Controllo n. 57:** Fornire prove dimostrabili che gli eventi di sicurezza registrati contengono le informazioni minime seguenti:
 - Utente
@@ -1027,11 +1028,11 @@ Questa schermata finale mostra il messaggio di registro visualizzato all'interno
 
 - Linee guida per l'evidenza di esempio: l'evidenza deve mostrare esempi di log di tutti i componenti di sistema che mostrano questi tipi di eventi di sicurezza. I log devono includere tutte le informazioni elencate in precedenza.
 
-- Esempio di prova: lo screenshot seguente mostra le informazioni degli eventi di sicurezza all'interno di Windows Visualizzatore eventi dal componente di sistema &quot; nell'ambito SEGSVR02. &quot;
+- Esempio di prova: lo screenshot seguente mostra le informazioni degli eventi di sicurezza all'interno del Visualizzatore eventi di Windows &quot;dal componente di sistema seGSVR02 nell'ambito&quot;.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-57.png)
 
-**Nota:** gli screenshot sono necessari in tutti i componenti di sistema campionati **E DEVONO** essere in evidenza tutti gli eventi di sicurezza descritti nel controllo precedente. È probabile che anche le prove raccolte per il controllo precedente soddisfino questo controllo, fornendo un adeguato dettaglio delle informazioni di registrazione fornite.
+**Nota**: le schermate sono necessarie in tutti i componenti di sistema campionati **E DEVONO** essere evidenze di tutti gli eventi di sicurezza descritti nel controllo precedente. È probabile che anche le prove raccolte per il controllo precedente soddisfino questo controllo, fornendo un adeguato dettaglio delle informazioni di registrazione fornite.
 
 **Controllo n. 58:** Fornire una prova dimostrabile che tutti i componenti di sistema campionati vengono sincronizzati nel tempo con gli stessi server primari e secondari.
 
@@ -1047,7 +1048,7 @@ La schermata successiva mostra WatchGuard configurato come server NTP e punta a 
 
 ![Immagine](../media/UserGuidePhotos/Control-No-58-1.png)
 
-Questa schermata finale mostra il componente di sistema nell'ambito, CLARANET-SBU-WM è configurato per NTP in modo che punti al server primario che è &quot; &quot; WatchGuard Firewall (10.0.1.1).
+Questa schermata finale mostra il componente di sistema nell'ambito, &quot;CLARANET-SBU-WM&quot; è configurato per NTP in modo che punti al server primario che è WatchGuard Firewall (10.0.1.1).
 
 ![Immagine](../media/UserGuidePhotos/Control-No-58-2.png)
 
@@ -1057,7 +1058,7 @@ Questa schermata finale mostra il componente di sistema nell'ambito, CLARANET-SB
 
 - Linee guida per l'evidenza di esempio: l'evidenza deve essere fornita tramite screenshot o impostazioni di configurazione, dimostrando che i log sono configurati per essere inviati immediatamente (o quasi) a una soluzione di registrazione centralizzata che si trova all'esterno della rete perimetrale. Stiamo cercando la spedizione quasi immediata dei log perché più tempo è necessario per la spedizione dei log alla soluzione di registrazione centralizzata, più tempo un attore di trattamento dovrebbe manomettere i log locali prima che si verifichi la spedizione.
 
-- Esempio di prova: i sistemi DMZ contoso utilizzano NXLog per la spedizione dei file di registro. Lo screenshot seguente mostra il servizio &#39;nxlog&#39; in esecuzione nella &quot; jumpbox DMZ DESKTOP-7S65PN che viene utilizzata per gestire tutti i server &quot; DMZ.
+- Esempio di prova: i sistemi DMZ contoso utilizzano NXLog per la spedizione dei file di registro. Lo screenshot seguente mostra il servizio &#39;nxlog&#39; in &quot;esecuzione nella jumpbox DMZ DESKTOP-7S65PN&quot; che viene utilizzata per gestire tutti i server DMZ.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-59.png)
 
@@ -1065,7 +1066,7 @@ Lo screenshot seguente mostra un estratto dal file nxlog.conf, che mostra che la
 
 ![Immagine](../media/UserGuidePhotos/Control-No-59-1.png)
 
-L'URL seguente per NXLog ( ) mostra che il log shipping è in tempo reale [https://nxlog.co/documentation/nxlog-user-guide/modes.html](https://nxlog.co/documentation/nxlog-user-guide/modes.html) tramite l'estratto seguente:
+L'URL seguente per NXLog ([https://nxlog.co/documentation/nxlog-user-guide/modes.html](https://nxlog.co/documentation/nxlog-user-guide/modes.html)) mostra che il log shipping è in tempo reale tramite l'estratto seguente:
 
 ![Immagine](../media/UserGuidePhotos/Control-No-59-2.png)
 
@@ -1075,7 +1076,7 @@ L'URL seguente per NXLog ( ) mostra che il log shipping è in tempo reale [https
 
 - Linee guida per l'evidenza di esempio: l'evidenza in genere è basata su screenshot che mostrano la configurazione di autorizzazione e autenticazione della soluzione di registrazione centralizzata, dimostrando che gli utenti sono limitati a quelli necessari per il ruolo/funzione del processo.
 
-- Esempio di prova: il SOC esternalizzato contoso utilizza AlienVault come strumento SIEM centralizzato. AlienVault è stato acquistato da AT &amp; T nel 2018 e ora passa da USM Anywhere. Nella pagina Web seguente ( ) viene illustrato come USM via Internet protegge i dati [https://cybersecurity.att.com/documentation/usm-anywhere/deployment-guide/admin/usm-anywhere-data-security.htm](https://cybersecurity.att.com/documentation/usm-anywhere/deployment-guide/admin/usm-anywhere-data-security.htm) da manomissioni non autorizzate. Il collegamento seguente ( ) evidenzia come il prodotto USM via Internet garantisca anche [https://cybersecurity.att.com/documentation/usm-appliance/raw-logs/raw-log-management.htm](https://cybersecurity.att.com/documentation/usm-appliance/raw-logs/raw-log-management.htm) l'integrità dei log archiviati.
+- Esempio di prova: il SOC esternalizzato contoso utilizza AlienVault come strumento SIEM centralizzato. AlienVault è stato acquistato da ATT&amp; nel 2018 e ora passa da USM Anywhere. Nella pagina Web seguente ([https://cybersecurity.att.com/documentation/usm-anywhere/deployment-guide/admin/usm-anywhere-data-security.htm](https://cybersecurity.att.com/documentation/usm-anywhere/deployment-guide/admin/usm-anywhere-data-security.htm)) viene illustrato come USM via Internet protegge i dati da manomissioni non autorizzate. Il collegamento seguente ([https://cybersecurity.att.com/documentation/usm-appliance/raw-logs/raw-log-management.htm](https://cybersecurity.att.com/documentation/usm-appliance/raw-logs/raw-log-management.htm)) evidenzia come il prodotto USM via Internet garantisca anche l'integrità dei log archiviati.
 
 **Nota:** Se il SIEM è interno, sarà necessario dimostrare che l'accesso ai dati di registrazione è limitato a un numero selezionato di utenti in base alle loro necessità lavorative e che la piattaforma stessa è protetta da manomissioni (la maggior parte delle soluzioni lo farà entrare nella funzionalità della soluzione di registrazione).
 
@@ -1089,13 +1090,13 @@ L'URL seguente per NXLog ( ) mostra che il log shipping è in tempo reale [https
 
 ![Immagine](../media/UserGuidePhotos/Control-No-61.png)
 
-**Nota:** poiché si tratta di un documento pubblico, il numero di serie del firewall è stato modificato&#39;, tuttavia, non è previsto che gli ISV supportino gli screenshot redatti, a meno che non contenga informazioni personali.
+**Nota**: poiché si tratta di un documento pubblico, il numero di serie del firewall è stato modificato&#39;, tuttavia, non è previsto che gli ISV supportino gli screenshot redatti, a meno che non contenga informazioni personali.
 
 Questa schermata successiva mostra che i registri sono disponibili mostrando un estratto di log che risale a 5 mesi fa.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-61-1.png)
 
-**Nota:** poiché si tratta di un documento pubblico, gli indirizzi IP pubblici sono stati redatti&#39;, tuttavia, non è previsto che gli ISV supportino gli screenshot redatti, a meno che non contenga informazioni personali.
+**Nota**: poiché si tratta di un documento pubblico, gli indirizzi IP pubblici sono stati redatti&#39;, tuttavia, non è previsto che gli ISV supportino gli screenshot redatti, a meno che non contenga informazioni personali.
 
 - Esempio di prova 2: lo screenshot seguente mostra che gli eventi di registro vengono mantenuti per 30 giorni disponibili in tempo reale e 90 giorni in archiviazione a freddo all'interno di Azure.
 
@@ -1107,7 +1108,7 @@ La revisione dei registri di sicurezza è una funzione importante per aiutare le
 
 **Controllo n. 62:** Fornire la documentazione dei criteri che regola le procedure e le procedure di revisione dei registri.
 
-- Intento: un rapporto di IBM intitolato &quot; [Cost of a data breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/) evidenzia che il tempo medio per identificare e contenere una violazione dei dati può richiedere 280 giorni, questo è maggiore quando la violazione è da parte di un attore di minacce dannose che viene segnalato come &quot; 315days. Con il costo medio di una violazione dei dati segnalato in milioni di dollari, è fondamentale che il ciclo di vita della violazione dei dati sia ridotto non solo per ridurre al minimo la finestra di esposizione ai dati, ma anche per ridurre l'intervallo di tempo in cui un attore di minacce deve esfiltrare i dati dall'ambiente. Riducendo questa finestra, le organizzazioni possono ridurre il costo complessivo di una violazione dei dati.
+- Intento: un rapporto di IBM &quot; intitolato [Cost of a data breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)&quot; evidenzia che il tempo medio per identificare e contenere una violazione dei dati può richiedere 280 giorni, questo è maggiore quando la violazione è da parte di un attore di minacce dannose che viene segnalato come 315days. Con il costo medio di una violazione dei dati segnalato in milioni di dollari, è fondamentale che il ciclo di vita della violazione dei dati sia ridotto non solo per ridurre al minimo la finestra di esposizione ai dati, ma anche per ridurre l'intervallo di tempo in cui un attore di minacce deve esfiltrare i dati dall'ambiente. Riducendo questa finestra, le organizzazioni possono ridurre il costo complessivo di una violazione dei dati.
 
 - Implementando un solido processo di revisione e avviso, le organizzazioni sono molto più dotate per identificare le violazioni molto prima nel ciclo di vita della violazione dei dati per ridurre al minimo l'impatto sull'organizzazione. Inoltre, un processo solido può aiutare a identificare i tentativi di violazione, consentendo alle organizzazioni di rafforzare i meccanismi difensivi di sicurezza per mitigare questa maggiore minaccia per ridurre ulteriormente le probabilità di una compromissione da parte della campagna di attacco.
 
@@ -1123,13 +1124,13 @@ La revisione dei registri di sicurezza è una funzione importante per aiutare le
 
 - Intento: lo scopo di questo controllo è garantire che vengano eseguite revisioni giornaliere dei log. Questo è importante per identificare eventuali anomalie che potrebbero non essere individuate dagli script/query di avviso configurati per fornire avvisi per gli eventi di sicurezza.
 
-- Linee guida per le prove di esempio: le prove in genere vengono fornite tramite screenshot o una condivisione dello schermo, a dimostrazione che vengono eseguite le revisioni dei log. Questo può essere tramite moduli che vengono completati ogni giorno o tramite un ticket JIRA o DevOps con commenti rilevanti pubblicati per mostrare che questo viene eseguito ogni giorno. Ad esempio, un ticket JIRA settimanale può essere creato &quot; daily log review W/C 26 giugno 2021 , ogni giorno qualcuno pubblica i risultati della revisione del &quot; log giornaliero. Se vengono segnalate anomalie, è possibile documentarlo all'interno dello stesso ticket per dimostrare il controllo successivo in un'unica jira.
+- Linee guida per le prove di esempio: le prove in genere vengono fornite tramite screenshot o una condivisione dello schermo, a dimostrazione che vengono eseguite le revisioni dei log. Questo può essere tramite moduli che vengono completati ogni giorno o tramite un ticket JIRA o DevOps con commenti rilevanti pubblicati per mostrare che questo viene eseguito ogni giorno. Ad esempio, un ticket &quot;JIRA settimanale può essere creato Daily Log Review W/C 26 giugno 2021&quot;, ogni giorno qualcuno pubblica i risultati della revisione del log giornaliero. Se vengono segnalate anomalie, è possibile documentarlo all'interno dello stesso ticket per dimostrare il controllo successivo in un'unica jira.
 
 - Se si usa lo strumento automatico, è possibile fornire una prova dello screenshot per dimostrare l'automazione configurata e per fornire ulteriori prove per mostrare che l'automazione è in esecuzione e qualcuno sta esaminando l'output automatizzato.
 
 - Esempio di prova: Contoso utilizza un provider SOC di terze parti, Claranet Cyber Security, per la correlazione dei registri e le revisioni. AlienVault viene utilizzato dal provider SOC che ha le funzionalità di fornire l'analisi dei log automatizzata per registri anomali ed eventi concatenati che potrebbero evidenziare un potenziale evento di sicurezza. Le tre schermate seguenti mostrano le regole di correlazione all'interno di AlienVault.
 
-Questa prima schermata identifica il punto in cui un utente è stato aggiunto al &#39;Domain Admins&#39; gruppo.
+Questa prima schermata identifica la posizione in cui un utente è stato aggiunto al &#39;Domain Admins&#39; gruppo.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-63.png)
 
@@ -1141,7 +1142,7 @@ Questa schermata finale identifica il punto in cui si è verificata una modifica
 
 ![Immagine](../media/UserGuidePhotos/Control-No-63-2.png)
 
-Questa schermata successiva mostra che un ticket viene generato automaticamente all'interno dello strumento SOC&#39;s ServiceNow, attivando la regola sopra riportata.
+Questa schermata successiva mostra che un ticket viene generato automaticamente all'interno dello strumento SOC&#39;ServiceNow, attivando la regola precedente.
 
 ![Immagine](../media/UserGuidePhotos/Control-No-63-3.png)
 
@@ -1165,13 +1166,13 @@ Gli eventi di sicurezza critici devono essere immediatamente esaminati per ridur
 
 **Controllo n. 65:** Fornire la documentazione relativa ai criteri che regola le procedure e le procedure di avviso degli eventi di sicurezza.
 
-- Intento: l'avviso deve essere utilizzato per gli eventi di sicurezza chiave che richiedono una risposta immediata da un'organizzazione in quanto l'evento potrebbe essere indicativo di una violazione dell'ambiente e/o di una violazione dei dati. È consigliabile documentare un processo solido attorno al processo di avviso per garantire che questo processo sia eseguito in modo coerente e ripetibile. Ciò aiuterà a ridurre la sequenza temporale del ciclo &quot; di vita della violazione dei &quot; dati.
+- Intento: l'avviso deve essere utilizzato per gli eventi di sicurezza chiave che richiedono una risposta immediata da un'organizzazione in quanto l'evento potrebbe essere indicativo di una violazione dell'ambiente e/o di una violazione dei dati. È consigliabile documentare un processo solido attorno al processo di avviso per garantire che questo processo sia eseguito in modo coerente e ripetibile. Ciò aiuterà a ridurre la sequenza temporale del ciclo &quot;di vita della violazione dei&quot; dati.
 
 - Linee guida sull'evidenza di esempio: fornire alle organizzazioni documenti documentati relativi a criteri e procedure che riguardano la procedura consigliata per l'avviso di eventi di sicurezza.
 
 - Esempio di prova: di seguito è riportato un estratto dal criterio/procedura di avviso degli eventi di sicurezza. Fornire i documenti completi dei criteri e delle procedure per supportare la valutazione.
-![Immagine ](../media/UserGuidePhotos/Control-No-65.png)
- ![ immagine](../media/UserGuidePhotos/Control-No-65-1.png)
+![PicturePicture](../media/UserGuidePhotos/Control-No-65.png)
+![](../media/UserGuidePhotos/Control-No-65-1.png)
 
 **Nota:** Questa schermata mostra un documento di criteri/processo, l'aspettativa è che gli ISV conosino la documentazione relativa ai criteri/procedure di supporto e non forniranno semplicemente uno screenshot.
 
@@ -1185,7 +1186,7 @@ Gli eventi di sicurezza critici devono essere immediatamente esaminati per ridur
 
 - Linee guida per l'evidenza di esempio: le prove devono essere fornite tramite screenshot della configurazione degli avvisi **e** la prova degli avvisi ricevuti. Gli screenshot di configurazione dovrebbero mostrare la logica che attiva gli avvisi e la modalità di invio degli avvisi. Gli avvisi possono essere inviati tramite SMS, e-mail, Teams canali, canali Slack e così via...
 
-- Esempio di prova: Contoso utilizza un SOC di terze parti fornito da [Claranet Cyber Security.](https://www.claranet.co.uk/services/cybersecurity/managed-detection-and-response) L'esempio seguente mostra che l'avviso all'interno di AlienVault, utilizzato dal SOC, è configurato per inviare un avviso a un membro del team SOC, Dan Turner di Claranet Cyber Security.
+- Esempio di prova: Contoso utilizza un SOC di terze parti fornito da [Claranet Cyber Security](https://www.claranet.co.uk/services/cybersecurity/managed-detection-and-response). L'esempio seguente mostra che l'avviso all'interno di AlienVault, utilizzato dal SOC, è configurato per inviare un avviso a un membro del team SOC, Dan Turner di Claranet Cyber Security.
 ![Immagine](../media/UserGuidePhotos/Control-No-66.png)
 
 Questa schermata successiva mostra un avviso ricevuto da Dan.
@@ -1209,7 +1210,7 @@ La gestione dei rischi per la sicurezza delle informazioni è un'attività impor
 
 - Intento: come descritto in precedenza, un solido processo di gestione dei rischi per la sicurezza delle informazioni è importante per aiutare le organizzazioni a gestire i rischi in modo efficace. Ciò consente alle organizzazioni di pianificare misure di prevenzione efficaci contro le minacce per l'ambiente.
 
-**È importante che la valutazione dei rischi includa i rischi per la sicurezza delle informazioni e non solo i rischi &quot; aziendali &quot; generali.**
+**È importante che la valutazione dei rischi includa i rischi per la sicurezza delle informazioni e non solo i rischi aziendali &quot;&quot; generali.**
 
 - Linee guida sull'evidenza di esempio: deve essere fornito il processo di gestione della valutazione dei rischi formalmente documentato.
 
@@ -1286,7 +1287,7 @@ Lo screenshot seguente illustra un piano di trattamento dei rischi.
 
 Una risposta agli incidenti di sicurezza è importante per tutte le organizzazioni, in quanto può ridurre il tempo dedicato da un'organizzazione per contenere un incidente di sicurezza e limitare il livello di esposizione delle organizzazioni all'esfiltrazione dei dati. Sviluppando un piano completo e dettagliato di risposta agli incidenti di sicurezza, questa esposizione può essere significativamente ridotta dal momento dell'identificazione al momento del contenimento.
 
-Un report di IBM intitolato &quot; [Cost of a data breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/) evidenzia che, in media, il tempo impiegato per contenere una violazione era &quot; di 73 giorni. Inoltre, lo stesso report identifica il più grande risparmio sui costi per le organizzazioni che hanno subito una violazione, è stata la preparazione della risposta agli incidenti, fornendo un risparmio medio di $ 2.000.000.
+Un report di IBM intitolato &quot;[Cost of a data breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)&quot; evidenzia che, in media, il tempo impiegato per contenere una violazione era di 73 giorni. Inoltre, lo stesso report identifica il più grande risparmio sui costi per le organizzazioni che hanno subito una violazione, è stata la preparazione della risposta agli incidenti, fornendo un risparmio medio di $ 2.000.000.
 
 Le organizzazioni devono seguire le procedure consigliate per la conformità della sicurezza utilizzando framework standard del settore come ISO 27001, NIST, SOC 2, PCI DSS e così via.
 
@@ -1314,9 +1315,9 @@ Le organizzazioni devono seguire le procedure consigliate per la conformità del
 
 **Controllo n. 75:** Fornire prove dimostrabili che tutti i membri del team di risposta agli eventi imprevisti hanno completato una formazione annuale o un esercizio top della tabella.
 
-- Intento: come già illustrato in precedenza, più tempo è necessario per un'organizzazione per contenere una compromissione, maggiore è il rischio di esfiltrazione dei dati, con conseguente potenziale volume maggiore di dati esfiltrati e maggiore è il costo complessivo della compromissione. È importante che i team&#39;team di risposta agli incidenti dell'organizzazione siano in grado di rispondere in modo appropriato agli incidenti di sicurezza. Grazie alla formazione regolare e all'esecuzione di esercitazioni da tavolo, il team è in grado di gestire gli incidenti di sicurezza in modo rapido ed efficiente.
+- Intento: come già illustrato in precedenza, più tempo è necessario per un'organizzazione per contenere una compromissione, maggiore è il rischio di esfiltrazione dei dati, con conseguente potenziale volume maggiore di dati esfiltrati e maggiore è il costo complessivo della compromissione. È importante che i team&#39;di risposta agli incidenti dell'organizzazione siano in grado di rispondere in modo appropriato agli incidenti di sicurezza. Grazie alla formazione regolare e all'esecuzione di esercitazioni da tavolo, il team è in grado di gestire gli incidenti di sicurezza in modo rapido ed efficiente.
 
-- È consigliabile eseguire sia una formazione interna per la risposta agli incidenti per il **team** di risposta agli incidenti sia eseguire normali esercitazioni da tavolo, che dovrebbero collegarsi alla valutazione dei rischi per la sicurezza delle informazioni per identificare gli incidenti di sicurezza più probabili. In questo modo, il team saprà rapidamente quali operazioni eseguire per contenere e analizzare gli incidenti di sicurezza più probabili.
+- È consigliabile eseguire sia una formazione interna per la risposta agli incidenti per **il team di** risposta agli incidenti sia eseguire normali esercitazioni da tavolo, che dovrebbero collegarsi alla valutazione dei rischi per la sicurezza delle informazioni per identificare gli incidenti di sicurezza più probabili. In questo modo, il team saprà rapidamente quali operazioni eseguire per contenere e analizzare gli incidenti di sicurezza più probabili.
 
 - Linee guida sull'evidenza di esempio: devono essere fornite prove che dimostrino che la formazione è stata effettuata tramite la condivisione del contenuto della formazione e i record che mostrano chi ha partecipato (che dovrebbe includere tutto il team di risposta agli incidenti). In alternativa, o anche, i record che mostrano che è stato eseguito un esercizio da tavolo. Tutto questo deve essere stato completato entro un periodo di 12 mesi dalla data di invio delle prove.
 
@@ -1354,13 +1355,13 @@ Questo dominio di sicurezza è incluso per garantire che tutti i dati utilizzati
 
 A causa dei requisiti di connettività delle app e dei componenti aggiuntivi sviluppati da M365, le comunicazioni si verificheranno su reti pubbliche, in modo cio? Internet. Per questo motivo, i dati in transito devono essere adeguatamente protetti. In questa sezione viene illustrata la protezione delle comunicazioni dati su Internet.
 
-**Controllo n. 1:** Fornire prove dimostrabili che la configurazione TLS soddisfa o supera i requisiti di crittografia nei requisiti di configurazione del profilo [TLS.](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#appendix-a)
+**Controllo n. 1:** Fornire prove dimostrabili che la configurazione TLS soddisfa o supera i requisiti di crittografia nei requisiti di configurazione [del profilo TLS](../docs/certification-submission-guide.md#appendix-a).
 
 - Intento: lo scopo di questo controllo è garantire che i dati M365 utilizzati dall'organizzazione vengano trasmessi in modo sicuro. La configurazione del profilo TLS definisce i requisiti specifici di TLS per garantire che il traffico sia sicuro dagli attacchi man-in-the-middle.
 
 - Linee guida sull'evidenza di esempio: il modo più semplice per provare questo problema è eseguire lo strumento [qualys SSL Server Test](https://www.ssllabs.com/ssltest/) su **TUTTI** i listener Web, inclusi quelli eseguiti su porte non standard.
 
-- Ricordati di selezionare l'opzione Non mostrare i risultati nelle bacheche, che impedisce &quot; l'aggiunta dell'URL al sito &quot; Web.
+- Ricordati di selezionare l'opzione &quot;Non&quot; mostrare i risultati nelle bacheche, che impedisce l'aggiunta dell'URL al sito Web.
 
 - Puoi anche fornire prove per dimostrare i singoli controlli all'interno dei requisiti di configurazione del profilo TLS. È possibile utilizzare le impostazioni di configurazione, insieme a script e strumenti software per fornire la prova di alcune impostazioni specifiche, ad esempio la compressione TLS è disabilitata.
 
@@ -1370,7 +1371,7 @@ A causa dei requisiti di connettività delle app e dei componenti aggiuntivi svi
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-1-1.png)
 
-**Nota:** gli analisti della certificazione esamineranno l'output completo per verificare che tutti i requisiti dei requisiti di configurazione del profilo TLS siano soddisfatti (fornire screenshot dell'output dell'analisi completa). Depending_ su __what_ sono state fornite prove, gli analisti possono eseguire la propria analisi Qualys.
+**Nota**: gli analisti della certificazione esamineranno l'output completo per verificare che tutti i requisiti dei requisiti di configurazione del profilo TLS siano soddisfatti (fornire screenshot dell'output dell'analisi completa). Depending_ _su _what_ sono state fornite prove, gli analisti possono eseguire la propria analisi Qualys.
 
 - Prova di esempio 2: lo screenshot seguente mostra che TLS 1.2 è configurato nell'archiviazione.
 
@@ -1388,17 +1389,17 @@ Binario: 0 - off 1 - on
 
 Esadecimale: 0x00000000 - off 0xffffffff - on
 
-**Nota:** - Non usare questa metodologia se non la comprendi, poiché microsoft (Microsoft) non è responsabile dell'utilizzo o del seguito di questo esempio o di eventuali effetti che il suo utilizzo potrebbe avere sui sistemi. È qui per illustrare semplicemente un altro modo per mostrare se TLS è abilitato o disabilitato.
+**Nota** : - Non usare questa metodologia se non la comprendi, poiché microsoft (Microsoft) non è responsabile dell'utilizzo o del seguito di questo esempio o di eventuali effetti che il suo utilizzo potrebbe avere sui sistemi. È qui per illustrare semplicemente un altro modo per mostrare se TLS è abilitato o disabilitato.
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-1-4.png)
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-1-5.png)
 
-**Nota:** questi screenshot da soli non sarebbero in grado di soddisfare questo requisito.
+**Nota**: questi screenshot da soli non sarebbero in grado di soddisfare questo requisito.
 
 **Controllo n. 2:** Fornire prove dimostrabili che la compressione TLS è disabilitata in tutti i servizi pubblici che gestiscono le richieste Web.
 
-- Intent: esiste una vulnerabilità TLS specifica, CRIME ([CVE-2012-4929](https://nvd.nist.gov/vuln/detail/CVE-2012-4929)), che influisce sulla compressione TLS. Per questo motivo, i consigli del settore sono di disattivare questa funzionalità.
+- Intento: esiste una vulnerabilità TLS specifica, CRIME ([CVE-2012-4929](https://nvd.nist.gov/vuln/detail/CVE-2012-4929)), che influisce sulla compressione TLS. Per questo motivo, i consigli del settore sono di disattivare questa funzionalità.
 
 - Linee guida per le prove di esempio: può essere una prova tramite lo strumento Qualys SSL Labs.
 
@@ -1406,13 +1407,13 @@ Esadecimale: 0x00000000 - off 0xffffffff - on
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-2.png)
 
-**Controllo n. 3:** Fornire prove dimostrabili che la sicurezza del trasporto TLS HTTP strict è abilitata e configurata >= 15552000 in tutti i siti.
+**Controllo n. 3:** Fornire prove dimostrabili che la sicurezza del trasporto RIGIDO TLS HTTP è abilitata e configurata per >= 15552000 in tutti i siti.
 
-- Intento: HTTP Strict Transport Security (HSTS) è un meccanismo di sicurezza progettato per proteggere i siti Web da attacchi man-in-the-middle forzando le connessioni TLS tramite un campo di intestazione della risposta HTTPS &quot; denominato Strict-Transport-Security. &quot;
+- Intento: HTTP Strict Transport Security (HSTS) è un meccanismo di sicurezza progettato per proteggere i siti Web da attacchi man-in-the-middle forzando le connessioni TLS tramite un campo di intestazione di risposta HTTPS &quot;denominato Strict-Transport-Security&quot;.
 
 - Linee guida sull'evidenza di esempio: può essere una prova tramite lo strumento Qualys SSL Labs o altri strumenti e componenti aggiuntivi per web browser.
 
-- Esempio di prova: lo screenshot seguente lo mostra tramite un componente aggiuntivo del Web browser denominato &#39;intestazione HTTP Spy&#39; per il [sito Web www.microsoft.com](http://www.microsoft.com/) web.
+- Esempio di prova: lo screenshot seguente mostra questo elemento tramite un componente aggiuntivo del Web browser denominato &#39;intestazione HTTP Spy&#39; per il [sito Web www.microsoft.com](https://www.microsoft.com/) web.
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-3.png)
 
@@ -1424,15 +1425,15 @@ Quando i dati utilizzati dalla piattaforma Microsoft 365 vengono archiviati dagl
 
 - Intento: alcuni algoritmi di crittografia meno recenti sono noti per contenere alcune debolezze crittografiche che aumentano le probabilità che un attore di minacce sia in grado di decrittografare i dati senza conoscere la chiave. Per questo motivo, lo scopo di questo controllo è garantire che solo gli algoritmi di crittografia accettati dal settore siano usati per proteggere i dati M365 archiviati.
 
-- Linee guida sull'evidenza di esempio: le prove possono essere fornite tramite screenshot, che mostrano la crittografia utilizzata per proteggere i dati M365 all'interno di database e altre posizioni di archiviazione. L'evidenza deve dimostrare che la configurazione della crittografia è in linea con [i](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#appendix-b) requisiti di configurazione del profilo di crittografia della certificazione Microsoft 365 crittografia.
+- Linee guida sull'evidenza di esempio: le prove possono essere fornite tramite screenshot, che mostrano la crittografia utilizzata per proteggere i dati M365 all'interno di database e altre posizioni di archiviazione. L'evidenza dovrebbe dimostrare che la configurazione della crittografia è in linea con i requisiti [di](../docs/certification-submission-guide.md#appendix-b) configurazione del profilo di crittografia della certificazione Microsoft 365 certificato.
 
-- Esempio di prova: lo screenshot seguente mostra che TDE (Transparent Data Encryption) è abilitato nel database contoso. La seconda schermata mostra la pagina del documento Microsoft &#39;Transparent data encryption for database SQL, SQL Managed Instance e [Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=sql-server-ver15&amp;tabs=azure-portal)&#39; che mostra che la crittografia AES 256 viene usata per Azure TDE.
+- Esempio di prova: lo screenshot seguente mostra che TDE (Transparent Data Encryption) è abilitato nel database contoso. La seconda schermata mostra la pagina del documento Microsoft &#39;[Transparent data encryption for database SQL, SQL Managed Instance e Azure Synapse Analytics](https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=sql-server-ver15&amp;tabs=azure-portal)&#39; che mostra che la crittografia AES 256 viene usata per Azure TDE.
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-4.png)
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-4-1.png)
 
-- Esempio prova 2: la schermata seguente mostra Archiviazione di Azure configurata con la crittografia per BLOB e file. Lo screenshot seguente mostra la pagina dei documenti Di Microsoft Archiviazione di Azure crittografia per i dati in pausa che mostra che &quot; [](https://docs.microsoft.com/en-gb/azure/storage/common/storage-service-encryption) &quot; Archiviazione di Azure utilizza AES-256 per la crittografia.
+- Esempio prova 2: la schermata seguente mostra Archiviazione di Azure configurata con la crittografia per BLOB e file. Lo screenshot seguente mostra la pagina documentazione Microsoft &quot;[](https://docs.microsoft.com/azure/storage/common/storage-service-encryption)&quot; Archiviazione di Azure per i dati in stato di inaltere che Archiviazione di Azure utilizza AES-256 per la crittografia.
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-4-2.png)
 
@@ -1452,7 +1453,7 @@ Quando i dati utilizzati dalla piattaforma Microsoft 365 vengono archiviati dagl
 
 - Intento: per proteggere correttamente i dati, le organizzazioni devono essere consapevoli dei dati utilizzati dall'ambiente/dai sistemi e della posizione in cui vengono archiviati i dati. Una volta compreso e documentato, le organizzazioni sono in grado non solo di implementare una protezione dei dati adeguata, ma anche di consolidare la posizione in cui si trovano i dati per implementare la protezione in modo più efficace. Inoltre, quando i dati vengono consolidati in meno posizioni possibili, è molto più semplice implementare un controllo degli accessi basato sui ruoli adeguato per limitare l'accesso al numero di dipendenti necessario.
 
-- Linee guida per l'evidenza di esempio: le prove devono essere fornite tramite un documento o un'esportazione da un sistema interno, ad esempio SharePoint o Confluence, con informazioni dettagliate su tutti i dati utilizzati, su tutte le posizioni di archiviazione e sul livello di crittografia implementato.
+- Linee guida sull'evidenza di esempio: l'evidenza deve essere fornita tramite un documento o un'esportazione da un sistema interno, ad esempio SharePoint o Confluence, con informazioni dettagliate su tutti i dati utilizzati, su tutte le posizioni di archiviazione e sul livello di crittografia implementato.
 
 - Esempio di prova: lo screenshot seguente mostra un esempio dell'aspetto di un documento che mostra i tipi di dati.
 
@@ -1460,13 +1461,13 @@ Quando i dati utilizzati dalla piattaforma Microsoft 365 vengono archiviati dagl
 
 ### <a name="data-retention-and-disposal"></a>Conservazione ed eliminazione dei dati
 
-Se gli ISV utilizzano e archiviano i dati M365, ciò è a rischio di una compromissione dei dati se un attore di minacce compromette l'ambiente ISV. Per ridurre al minimo questo rischio, le organizzazioni devono conservare solo i dati necessari per la distribuzione dei servizi e non i dati che potrebbero essere &quot; &quot; utilizzati in futuro. Inoltre, i dati devono essere conservati solo per tutto il tempo necessario per fornire i servizi per cui sono stati acquisiti i dati. La conservazione dei dati deve essere definita e comunicata con gli utenti. Una volta superato il periodo di conservazione definito, i dati devono essere eliminati in modo sicuro in modo che non sia possibile ricostruire o ripristinare i dati.
+Se gli ISV utilizzano e archiviano i dati M365, ciò è a rischio di una compromissione dei dati se un attore di minacce compromette l'ambiente ISV. Per ridurre al minimo questo rischio, &quot;&quot; le organizzazioni devono conservare solo i dati necessari per la distribuzione dei servizi e non i dati che potrebbero essere utilizzati in futuro. Inoltre, i dati devono essere conservati solo per tutto il tempo necessario per fornire i servizi per cui sono stati acquisiti i dati. La conservazione dei dati deve essere definita e comunicata con gli utenti. Una volta superato il periodo di conservazione definito, i dati devono essere eliminati in modo sicuro in modo che non sia possibile ricostruire o ripristinare i dati.
 
 **Controllo n. 7:** Fornire prove dimostrabili che viene formalmente stabilito un periodo di conservazione dei dati approvato e documentato.
 
 - Intento: un criterio di conservazione documentato e seguito è importante non solo per soddisfare alcuni obblighi legali, ad esempio la normativa sulla privacy dei dati come, ma non solo, il Regolamento generale sulla protezione dei dati (GDPR UE) e il Data Protection Act (UK DPA 2018), ma anche per limitare un rischio per le organizzazioni. Comprendendo i requisiti dei dati delle organizzazioni e il tempo necessario per l'esecuzione delle proprie funzioni da parte dell'azienda, le organizzazioni possono garantire che i dati siano eliminati correttamente dopo la scadenza dell'utilità. Riducendo i volumi di dati archiviati, le organizzazioni riducono la quantità di dati che verrebbero esposti in caso di compromissione dei dati. Questo limiterà l'impatto complessivo.
 
-- Spesso le organizzazioni archiviano i dati semplicemente perché&#39;è utile avere solo nel caso in cui, tuttavia&#39;, se l'organizzazione non ha bisogno dei dati per eseguire il servizio o la funzione aziendale, i dati non devono essere archiviati in quanto ciò sta aumentando i rischi delle organizzazioni &quot; &quot; inutilmente.
+- &quot;&quot;Spesso le organizzazioni archiviano i dati semplicemente perché&#39;è utile avere solo nel caso in cui, tuttavia&#39;, se l'organizzazione non ha bisogno dei dati per eseguire il servizio o la funzione aziendale, i dati non devono essere archiviati in quanto ciò sta aumentando inutilmente i rischi dell'organizzazione.
 
 - Linee guida sull'evidenza di esempio: fornire i criteri di conservazione dei dati completi che indicano chiaramente per quanto tempo devono essere conservati i dati (devono coprire tutti i tipi di dati) in modo che l'azienda possa eseguire le sue funzioni aziendali.
 
@@ -1482,21 +1483,21 @@ Se gli ISV utilizzano e archiviano i dati M365, ciò è a rischio di una comprom
 
 - Intento: lo scopo di questo controllo è semplicemente convalidare che i periodi di conservazione dei dati definiti siano soddisfatti. Come già descritto, le organizzazioni possono avere un obbligo legale per soddisfare questo problema, ma anche mantenendo i dati necessari e per tutto il tempo necessario aiuta a ridurre il rischio per l'organizzazione in caso di violazione dei dati.
 
-- Linee guida per le prove di esempio: fornire prove di screenshot (o tramite condivisione dello schermo) che mostra che i dati archiviati (in tutti i vari percorsi di dati, ad esempio database, condivisioni file,&#39;archivi e così via) non superano i criteri di conservazione dei dati definiti. Alcuni esempi possono essere screenshot di record di database con un campo data, ricercati nell'ordine di record meno recente e/o percorsi di archiviazione dei file che mostrano timestamp entro il periodo di conservazione.
+- Linee guida per l'evidenza di esempio: fornire una prova dello screenshot (o tramite condivisione dello schermo) che mostra che i dati archiviati (in tutti i vari percorsi di dati, ad esempio database, condivisioni file,&#39;archivi e così via) non superano i criteri di conservazione dei dati definiti. Alcuni esempi possono essere screenshot di record di database con un campo data, ricercati nell'ordine di record meno recente e/o percorsi di archiviazione dei file che mostrano timestamp entro il periodo di conservazione.
 
 **Nota:** Tutti i dati personali/sensibili dei clienti devono essere redatti all'interno dello screenshot.
 
-- Esempio di prova: l'evidenza seguente mostra una query di SQL che mostra il contenuto della tabella di database ordinato in ordine crescente nel campo &#39;DATE TRANSACTION&#39; per visualizzare i record meno recenti all'interno del \_ database. I dati devono essere vecchi di due mesi e&#39;non superino il periodo di conservazione definito.
+- Prova di esempio: l'evidenza seguente mostra una query SQL che mostra il contenuto della tabella di database in ordine crescente nel campo&#39; &#39;DATETRANSACTION\_ per visualizzare i record meno recenti all'interno del database. I dati devono essere vecchi di due mesi e&#39;non superino il periodo di conservazione definito.
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-8.png)
 
-**Nota:** Si tratta di un database di test, quindi non&#39;molti dati cronologici al suo interno.
+**Nota:** Si tratta di un database di test, pertanto non&#39;molti dati cronologici al suo interno.
 
 **Controllo n. 9:** Fornire prove dimostrabili che sono in atto processi per eliminare in modo sicuro i dati dopo il periodo di conservazione.
 
 - Intento: lo scopo di questo controllo è garantire che il meccanismo utilizzato per eliminare i dati che superano il periodo di conservazione lo stia facendo in modo sicuro. I dati eliminati a volte possono essere ripristinati. Pertanto, il processo di eliminazione deve essere sufficientemente affidabile da garantire che i dati non siano più ripristinati dopo l'eliminazione.
 
-- Linee guida per l'evidenza di esempio: se il processo di eliminazione viene eseguito a livello di programmazione, fornire uno screenshot dello script utilizzato per eseguire questa operazione. Se viene&#39;eseguita in base a una pianificazione, fornire uno screenshot che mostra la pianificazione. Ad esempio, uno script per eliminare i file all'interno di una condivisione file può essere configurato come processo CRON, screenshot del processo CRON che mostra la pianificazione e lo script che viene eseguito e fornisce lo script che mostra il comando utilizzato.
+- Linee guida per l'evidenza di esempio: se il processo di eliminazione viene eseguito a livello di programmazione, fornire uno screenshot dello script utilizzato per eseguire questa operazione. Se viene&#39;eseguito in base a una pianificazione, fornire uno screenshot che mostra la pianificazione. Ad esempio, uno script per eliminare i file all'interno di una condivisione file può essere configurato come processo CRON, screenshot del processo CRON che mostra la pianificazione e lo script che viene eseguito e fornisce lo script che mostra il comando utilizzato.
 
 - Esempio prova 1: si tratta di uno script semplice che può essere utilizzato per eliminare tutti i record di dati conservati in base alla data -WHERE DateAdd è -30 giorni che eliminerà tutti i record conservati precedenti a 30 giorni dopo la data di conservazione dei dati selezionata. Si noti che sarà necessario lo script, ma anche la prova del processo in esecuzione e dei risultati.
 
@@ -1512,7 +1513,7 @@ Se gli ISV utilizzano e archiviano i dati M365, ciò è a rischio di una comprom
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-9-2.png)
 
-La finestra seguente mostra che il Runbook è stato modificato per trovare i record e che i comandi di eliminazione non sono visualizzati come lo script. Tieni presente che l'URL completo e il nome utente devono essere in visualizzazione per questi screenshot e isV&#39;s sarà necessario per mostrare uno screenshot di prima del conteggio dei record di eliminazione e uno screenshot del conteggio dei record dopo l'eliminazione. Questi screenshot sono puramente esempi dei diversi modi in cui è possibile affrontare questo problema.
+La finestra seguente mostra che il Runbook è stato modificato per trovare i record e che i comandi di eliminazione non sono visualizzati come lo script. Tieni presente che l'URL completo e il nome utente devono essere in visualizzazione per queste schermate e isV&#39;s sarà necessario per visualizzare uno screenshot prima del conteggio dei record di eliminazione e uno screenshot del conteggio dei record dopo l'eliminazione. Questi screenshot sono puramente esempi dei diversi modi in cui è possibile affrontare questo problema.
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-9-3.png)
 
@@ -1533,9 +1534,9 @@ L'accesso ai dati deve limitarsi al numero di persone necessario per ridurre le 
 
 **Controllo n. 11:** Fornire prove dimostrabili che gli utenti campionati che hanno accesso a dati o chiavi di crittografia sono stati formalmente approvati, indicando in dettaglio i privilegi necessari per la loro funzione lavorativa.
 
-- Intento: il processo per concedere l'accesso ai dati e/o alle chiavi di crittografia deve includere l'approvazione, garantendo che un singolo&#39;sia necessario per la funzione del processo. In questo modo i dipendenti senza un vero motivo di accesso&#39;non ottengono l'accesso non necessario.
+- Intento: il processo per concedere l'accesso ai dati e/o alle chiavi di crittografia deve includere l'approvazione, garantendo che un singolo&#39;sia necessario per la funzione del processo. In questo modo i dipendenti senza un vero motivo di accesso&#39;non ottengono accesso non necessario.
 
-- Linee guida sull'evidenza di esempio: in genere, le prove fornite per il controllo precedente possono aiutare a supportare questo controllo. Se non è&#39;un'approvazione formale nella documentazione fornita, la prova può consistere in una richiesta di modifica che viene sollevata e approvata per l'accesso all'interno di uno strumento come, ad esempio, Azure DevOps o Jira.
+- Linee guida sull'evidenza di esempio: in genere, le prove fornite per il controllo precedente possono aiutare a supportare questo controllo. Se non è&#39;un'approvazione formale nella documentazione fornita, la prova può essere costituita da una richiesta di modifica che viene sollevata e approvata per l'accesso all'interno di uno strumento come, ad esempio, Azure DevOps o Jira.
 
 - Esempio di prova: questo set di immagini mostra i ticket Jira creati e approvati per l'elenco precedente in Control 10 per concedere o negare l'accesso a dati sensibili e/o chiavi di crittografia.
 
@@ -1552,7 +1553,7 @@ Quanto sopra mostra un flusso di lavoro in Jira per questo processo nota che non
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-11-3.png)
 
-La Project precedente mostra ora che è stata data l'approvazione per Sam Daily&#39;accesso alle chiavi di crittografia. Di seguito il backlog mostra Sam Daily&#39;l'approvazione della richiesta e la persona assegnata per eseguire il lavoro.
+La Project precedente mostra ora che è stata data l'approvazione per Sam Daily&#39;'accesso alle chiavi di crittografia. Di seguito il backlog mostra Sam Daily&#39;l'approvazione della richiesta e la persona assegnata per eseguire il lavoro.
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-11-4.png)
 
@@ -1574,7 +1575,7 @@ Sopra puoi vedere che l'accesso è stato approvato e firmato come fatto.
 
 - Linee guida per l'evidenza di esempio: l'evidenza può essere fornita tramite screenshot che mostra i dati e/o i privilegi di accesso alle chiavi di crittografia concessi agli utenti campionati. Le prove devono coprire tutte le posizioni dei dati.
 
-- Esempio di prova: questa schermata mostra le autorizzazioni concesse all'utente John Smith a cui verrebbe fatto riferimento incrociato rispetto alla richiesta di approvazione per lo stesso utente in base alla prova per &quot; &quot; il controllo precedente.
+- Esempio di prova: questa schermata &quot;mostra le autorizzazioni concesse all'utente John Smith&quot; a cui verrebbe fatto riferimento incrociato rispetto alla richiesta di approvazione per lo stesso utente in base alla prova per il controllo precedente.
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-12.png)
 
@@ -1621,7 +1622,7 @@ Sopra puoi vedere che l'accesso è stato approvato e firmato come fatto.
 
 ### <a name="gdpr"></a>GDPR
 
-La maggior parte delle organizzazioni sta elaborando dati potenzialmente&#39;(soggetti dei dati). Quando vengono elaborati **i dati** di qualsiasi soggetto di dati, le organizzazioni dovranno rispettare il Regolamento generale sulla protezione dei dati (GDPR). Questo vale sia per i data controller (si stanno acquisendo direttamente questi dati) che per i data processori (questi dati vengono processato per conto di un controller di dati). Sebbene questa sezione non&#39;riguarda l'intero regolamento, tratta alcuni degli elementi chiave del GDPR per ottenere una certa garanzia che l'organizzazione sta prendendo sul serio il GDPR.
+La maggior parte delle organizzazioni sta elaborando dati potenzialmente&#39;(soggetti dei dati). Quando vengono elaborati **i dati** di qualsiasi soggetto di dati, le organizzazioni dovranno rispettare il Regolamento generale sulla protezione dei dati (GDPR). Questo vale sia per i data controller (si stanno acquisendo direttamente questi dati) che per i data processori (questi dati vengono processato per conto di un controller di dati). Sebbene questa sezione non&#39;riguarda l'intero regolamento, affronta alcuni degli elementi chiave del GDPR per garantire che l'organizzazione prende sul serio il GDPR.
 
 **Controllo n. 15:** Fornire un processo documentato di richiesta di accesso soggetto (SAR) e fornire prove che dimostrano che gli interessati sono in grado di generare le richieste di accesso degli interessati.
 
@@ -1639,13 +1640,13 @@ La maggior parte delle organizzazioni sta elaborando dati potenzialmente&#39;(so
 
 - Intento: lo scopo di questo controllo è garantire che l'organizzazione abbia un meccanismo affidabile per identificare tutti gli interessati&#39; dati. Può trattarsi di un processo manuale perché l'archiviazione dei dati è ben documentata oppure è possibile utilizzare altri strumenti per garantire che tutti i dati siano presenti nell'ambito del processo di registrazione dei dati.
 
-- Linee guida per l'evidenza di esempio: le prove possono essere fornite tramite un elenco di tutte le posizioni di dati e un processo documentato per cercare dati in tutte le posizioni di dati. Ciò includerà tutti i comandi necessari per cercare i dati, ad esempio, se sono incluse posizioni di SQL, verranno fornite istruzioni di SQL specifiche per garantire che i dati siano trovati correttamente.
+- Linee guida per l'evidenza di esempio: le prove possono essere fornite tramite un elenco di tutte le posizioni di dati e un processo documentato per cercare dati in tutte le posizioni di dati. Ciò includerebbe tutti i comandi necessari per cercare i dati, ad esempio, se sono incluse posizioni di SQL, verranno fornite istruzioni di SQL specifiche per garantire che i dati siano trovati correttamente.
 
 - Esempio di prova: lo screenshot seguente è un frammento di codice della procedura s&#39;SAR precedente che mostra come verranno trovati i dati.
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-17.png)
 
-Le quattro immagini seguenti mostrano il modo in cui i percorsi dei dati ISV in cui è stata eseguita una query e quindi esplora Archiviazione usato per eseguire il drill-down dei file o dei BLOB che devono essere rimossi dall'archiviazione per soddisfare la richiesta di accesso condiviso.
+Le quattro immagini seguenti mostrano il modo in cui i percorsi dei dati ISV in cui è stata eseguita una query e quindi Archiviazione Explorer sono stati usati per eseguire il drill-down dei file o dei BLOB che devono essere rimossi dall'archiviazione per soddisfare la richiesta sars.
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-17-1.png)
 
@@ -1665,7 +1666,7 @@ L'immagine precedente mostra i dati trovati all'interno del contenitore BLOB per
 - Dettagli società (Nome, Indirizzo e così via).
 - Dettagli sui tipi di dati personali elaborati.
 - Dettagli sulla lecita' del trattamento dei dati personali.
-- Dettagli sull'&#39;dei diritti:
+- Dettagli sull'&#39;dei dati:
   - - Diritto di essere informati,
   - - Diritto di accesso da parte dell'oggetto dei dati,
   - - Diritto di cancellazione,
@@ -1697,9 +1698,9 @@ Di seguito è riportato un criterio di protezione dei dati che può essere usato
 
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-18-5.png)
 
-L'immagine precedente di Azure mostra come Azure è stato configurato per soddisfare i requisiti di conformità del GDPR per i dati archiviati in un ambiente back-end. Il criterio ( che può essere personalizzato o creato da Blueprint di _Azure_) consente all'ISV di garantire che i dati del&#39;client siano archiviati correttamente e che siano accessibili solo dalle metriche impostate e dagli avvisi sono impostati per garantire la conformità e mostreranno dati non conformi o l'accesso utente nel dashboard di Compliance Manager.
+L'immagine precedente di Azure mostra come Azure è stato configurato per soddisfare i requisiti di conformità del GDPR per i dati archiviati in un ambiente back-end. Il criterio (che può essere personalizzato o creato da _Blueprint di Azure_) consente all'ISV di garantire che i dati del&#39;client siano archiviati correttamente e che siano accessibili solo tramite le metriche impostate e gli avvisi sono impostati per garantire la conformità e mostreranno dati non conformi o l'accesso utente nel dashboard di Compliance Manager.
 
-Libri
+Documentazione
 
 Manuale del team blu di Murdoch D. (2018): Incident Response Edition: una guida sul campo condensata per il risponditore di incidenti di cyber security. 2nd Edition, Publisher: CreateSpace Independent Publishing Platform.
 
@@ -1708,23 +1709,23 @@ Riferimenti
 - Segnalazione di reati informatici per frode azione disponibile all'indirizzo: [https://www.actionfraud.police.uk/](https://www.actionfraud.police.uk/) (Accessibile il 21/08/02/21).
 - UE. (2021) Elenco di controllo GDPR per i controller di dati Disponibile all'indirizzo: [https://gdpr.eu/checklist/](https://gdpr.eu/checklist/) (Accessibile il 21/01/02/21).
 - Microsoft. (2018) Event Logging (Windows Installer) Disponibile all'indirizzo: docs.microsoft.com/en-us/windows/win32/msi/event-logging (Accessed: 23/12/20).
-- Tecnologie positive. (2020) Come affrontare lo sviluppo di software sicuro Disponibile all'indirizzo: [https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-approach-secure-software-development/](https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-approach-secure-software-development/) (Accesso: 21/12/20).
+- Tecnologie positive. (2020) Come affrontare lo sviluppo di software sicuro Disponibile all'indirizzo: [https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-approach-secure-software-development/](https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-approach-secure-software-development/)(Accesso: 21/12/20).
 - Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio del 27 aprile 2016 sulla protezione delle persone fisiche per quanto riguarda il trattamento dei dati personali e la libera circolazione di tali dati, e abrogazione della direttiva 95/46/CE (Regolamento generale sulla protezione dei dati) (testo con rilevanza AIE) (2016) Disponibile all'indirizzo: [https://www.legislation.gov.uk/eur/2016/679/contents](https://www.legislation.gov.uk/eur/2016/679/contents) (Accessibile: 01/11/2021).
-- Metriche di sicurezza. (2020) Guida alle metriche di sicurezza per la conformità PCI DSS. Disponibile all'indirizzo : [https://info.securitymetrics.com/pci-guide-2020](https://info.securitymetrics.com/pci-guide-2020) (Accessibile: 06/01/21).
+- Metriche di sicurezza. (2020) Guida alle metriche di sicurezza per la conformità PCI DSS. Disponibile all'indirizzo : [https://info.securitymetrics.com/pci-guide-2020](https://info.securitymetrics.com/pci-guide-2020)(Accessibile: 06/01/21).
 - Williams J. OWASP Risk Ranking Available at: [https://owasp.org/www-community/OWASP\_Risk\_Rating\_Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology) (Accessed: 08/12/20).
 - Qualys. (2014) Laboratori SSL: Nuovi livelli di attendibilità (T) e Non corrispondenza (M) Problemi disponibili all'indirizzo: [https://blog.qualys.com/product-tech/2014/06/17/ssl-labs-new-grades-for-trust-t-and-mismatch-m-issues](https://blog.qualys.com/product-tech/2014/06/17/ssl-labs-new-grades-for-trust-t-and-mismatch-m-issues) (Accesso: 29/01/21).
-- NIST SP800-61r2: Guida alla gestione degli incidenti di sicurezza del computer disponibile all'indirizzo: [https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) (Accessibile il 24/01/21).
+- NIST SP800-61r2: Guida alla gestione degli incidenti di sicurezza del computer disponibile all'indirizzo:[https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) (Accessibile il 24/01/21).
 
 **Immagini prese da Documenti Microsoft**
 
 - [https://www.sans.org/information-security-policy/](https://www.sans.org/information-security-policy/)(Accesso eseguito il 21/02/18).
-- [https://docs.microsoft.com/en-us/cloud-app-security/anomaly-detection-policy](https://docs.microsoft.com/en-us/cloud-app-security/anomaly-detection-policy)(Accesso eseguito il 21/02/16).
-- [https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) (Accesso eseguito il 21/02/17).
-- [https://docs.microsoft.com/en-us/cloud-app-security/anomaly-detection-policy](https://docs.microsoft.com/en-us/cloud-app-security/anomaly-detection-policy) (Accesso eseguito il 22/02/21).
-- [https://docs.microsoft.com/en-us/azure/security-center/security-center-managing-and-responding-alerts](https://docs.microsoft.com/en-us/azure/security-center/security-center-managing-and-responding-alerts) (Accesso eseguito il 24/02/21).
-- [https://docs.microsoft.com/en-us/azure/security-center/security-center-managing-and-responding-alerts](https://docs.microsoft.com/en-us/azure/security-center/security-center-managing-and-responding-alerts) (Accesso eseguito il 24/02/21).
+- [https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy)(Accesso eseguito il 21/02/16).
+- [https://docs.microsoft.com/azure/azure-monitor/alerts/alerts-overview](https://docs.microsoft.com/azure/azure-monitor/alerts/alerts-overview) (Accesso eseguito il 21/02/17).
+- [https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) (Accesso eseguito il 22/02/21).
+- [https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts) (Accesso eseguito il 24/02/21).
+- [https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts](https://docs.microsoft.com/azure/security-center/security-center-managing-and-responding-alerts) (Accesso eseguito il 24/02/21).
 - [https://microsoft.github.io/AzureTipsAndTricks/blog/tip272.html](https://microsoft.github.io/AzureTipsAndTricks/blog/tip272.html)
-- [https://docs.microsoft.com/en-gb/azure/information-protection/what-is-information-protection](https://docs.microsoft.com/en-gb/azure/information-protection/what-is-information-protection)
-- [https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal](https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal)
-- [https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-portal](https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-portal)
-- [https://docs.microsoft.com/en-us/azure/azure-sql/database/threat-detection-configure](https://docs.microsoft.com/en-us/azure/azure-sql/database/threat-detection-configure)
+- [https://docs.microsoft.com/azure/information-protection/what-is-information-protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
+- [https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal](https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal)
+- [https://docs.microsoft.com/azure/governance/policy/assign-policy-portal](https://docs.microsoft.com/azure/governance/policy/assign-policy-portal)
+- [https://docs.microsoft.com/azure/azure-sql/database/threat-detection-configure](https://docs.microsoft.com/azure/azure-sql/database/threat-detection-configure)

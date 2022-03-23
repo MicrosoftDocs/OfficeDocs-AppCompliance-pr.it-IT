@@ -1,19 +1,20 @@
 ---
-title: Informazioni sull'applicazione monday.com da monday.com
+title: Informazioni sull'applicazione monday.com per monday.com
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per monday.com, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per monday.com, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d71ae549b7176801d466bc3eeb7b8136132b3aff
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c27a8e6d0d141fe8e3f7cb1f25068a7bc51dd949
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253602"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550044"
 ---
 # <a name="mondaycom"></a>monday.com
 
@@ -38,10 +39,11 @@ Informazioni fornite da monday.com a Microsoft:
 | Nome società partner | monday.com |
 | Sito Web aziendale | [https://monday.com](https://monday.com) |
 | Condizioni per l'uso dell'app | [https://monday.com/l/legal/tos/](https://monday.com/l/legal/tos/) |
-| Funzionalità di base dell'app | monday.com è un sistema operativo di lavoro versatile che alimenta il lavoro in team remoto, per organizzare, strutturare e semplificare tutti i programmi, i progetti e i processi.  Tramite monday.com, puoi usare i blocchi predefiniti &#8211; come schede, visualizzazioni, grafici, automazioni e integrazioni per creare app per flussi di lavoro personalizzate per eseguire processi, progetti e attività quotidiane. Crea una nuova bacheca monday.com o aggiungine una esistente direttamente all'interno di Microsoft Teams e visualizza facilmente il lavoro&#8217;team in un'unica area di lavoro collaborativa. |
+| Funzionalità di base dell'app | monday.com è un sistema operativo di lavoro versatile che alimenta il lavoro in team remoto, per organizzare, strutturare e semplificare tutti i programmi, i progetti e i processi.  Tramite monday.com, puoi usare i blocchi predefiniti &#8211; come schede, visualizzazioni, grafici, automazioni e integrazioni per creare app per flussi di lavoro personalizzate per eseguire processi, progetti e attività quotidiane. Crea una nuova monday.com o aggiungine una esistente direttamente all'interno di Microsoft Teams e visualizza facilmente il lavoro del team&#8217;lavoro in un'area di lavoro collaborativa. |
 | Sede centrale dell'azienda | Israele |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS, GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da monday.com su come questa app raccogli
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +66,7 @@ Queste informazioni sono state fornite da monday.com su come questa app raccogli
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -154,7 +149,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | false |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Panopto di Panopto
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Panopto, i relativi criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6d2911ad283739a05d33a8a3cc3488d641d8e612
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 7c21c0743767e42dc79153dbf07c54ad480f89f5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081219"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551975"
 ---
 # <a name="panopto"></a>Panopto
 
@@ -59,7 +60,7 @@ Queste informazioni sono state fornite da Panopto su come questa app raccoglie e
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Metadati su Teams registrazioni di riunioni e Teams canali. |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 90 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |

@@ -2,18 +2,19 @@
 title: Application Information for Bid Management System by Beyond Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per il sistema di gestione delle offerte, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7089e7f666dd8c601c5d585f0cec7ce20a613b3e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: e8209c8ebf341b736bad0e7d8c4143139db6a151
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155307"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550695"
 ---
 # <a name="bid-management-system"></a>Sistema di gestione delle offerte
 
@@ -37,11 +38,10 @@ Informazioni fornite da Beyond Technologies a Microsoft:
 | Nome società partner | Oltre le tecnologie |
 | Sito Web aziendale | [https://www.beyondintranet.com](https://www.beyondintranet.com) |
 | Condizioni per l'uso dell'app | [https://www.beyondintranet.com/eula](https://www.beyondintranet.com/eula) |
-| Funzionalità di base dell'app | Un software SharePoint gestione proposte/gestione delle offerte per digitalizzare le attività di offerta. |
+| Funzionalità di base dell'app | Un SharePoint software di gestione proposte/gestione delle offerte per digitalizzare le attività di offerta. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.beyondintranet.com/bid-management-software](https://www.beyondintranet.com/bid-management-software) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

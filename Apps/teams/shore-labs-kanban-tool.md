@@ -2,18 +2,19 @@
 title: Application Information for Kanban Tool by Shore Labs
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Lo strumento Kanban, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7f2e2c3677a81a6d838fe46ca5c52178294a9b33
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: da12e6a803deb9fd8c0ba31f44da77a28397c18e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253452"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551435"
 ---
 # <a name="kanban-tool"></a>Kanban Tool
 
@@ -40,8 +41,9 @@ Informazioni fornite da Shore Labs a Microsoft:
 | Condizioni per l'uso dell'app | [https://kanbantool.com/policy/terms-of-service](https://kanbantool.com/policy/terms-of-service) |
 | Funzionalità di base dell'app | Visualizzare il lavoro e tenere traccia del tempo in una bacheca di tipo kanban. |
 | Sede centrale dell'azienda | Polonia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://kanbantool.com](https://kanbantool.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS, SelfHosted, GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Shore Labs su come questa app raccogli
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,14 +159,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| email | delegated | Indirizzo di posta elettronica dell'utente per la comunicazione, la corrispondenza dell'identità e il recapito delle notifiche. | [4e820d60-9e62-403c-accd-857b987cc13c](https://docs.microsoft.com/microsoft-365-app-certification/azure/4e820d60-9e62-403c-accd-857b987cc13c) |
->| Team.ReadBasic.All | delegated | Identificatori e nomi dei team di cui l'utente è membro diretto. Vengono utilizzati per assegnare automaticamente gli utenti ai gruppi corretti nello strumento Kanban. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| User.Read | delegated | Informazioni aziendali di base degli utenti connessi. Viene utilizzato per popolare i dettagli dell'account per i nuovi account e per riconoscere gli utenti che appartengono all'organizzazione per fornire funzionalità Sign-On singola. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| offline_access | delegated | Consente la funzionalità "Accedi con Microsoft" e la sincronizzazione dei dati a cui hai fornito l'accesso all'app, al momento dell'accesso dell'utente. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| openid | delegated | Token OPEN ID che consentono agli utenti di accedere all'app con i propri account aziendali o dell'istituto di istruzione tramite il pulsante "Accedi con Microsoft". | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| profile | delegated | Nome utente da popolare automaticamente nello strumento Kanban e mantenere sincronizzato con le modifiche apportate Microsoft Teams. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| email | delegated | Indirizzo di posta elettronica dell'utente per la comunicazione, la corrispondenza dell'identità e il recapito delle notifiche. | [4e820d60-9e62-403c-accd-857b987cc13c](../azure/4e820d60-9e62-403c-accd-857b987cc13c.md) |
+>| Team.ReadBasic.All | delegated | Identificatori e nomi dei team di cui l'utente è membro diretto. Vengono utilizzati per assegnare automaticamente gli utenti ai gruppi corretti nello strumento Kanban. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| User.Read | delegated | Informazioni aziendali di base degli utenti connessi. Viene utilizzato per popolare i dettagli dell'account per i nuovi account e per riconoscere gli utenti che appartengono all'organizzazione per fornire funzionalità di Sign-On singola. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| offline_access | delegated | Consente la funzionalità "Accedi con Microsoft" e la sincronizzazione dei dati a cui hai fornito l'accesso all'app, al momento dell'accesso dell'utente. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| openid | delegated | Token OPEN ID che consentono agli utenti di accedere all'app con i propri account aziendali o dell'istituto di istruzione tramite il pulsante "Accedi con Microsoft". | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| profile | delegated | Nome utente da popolare automaticamente nello strumento Kanban e mantenere sincronizzato con le modifiche apportate Microsoft Teams. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

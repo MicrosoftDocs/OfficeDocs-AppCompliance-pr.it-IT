@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Weekdone by Weekdone Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Weekdone, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Weekdone, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 985903d0dc0fec410280778ff78febee9139aa6b
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: a6d5ef2562dae0f88aa3e9683aaf20296603bee4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200934"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550475"
 ---
 # <a name="weekdone"></a>Weekdone
 
@@ -40,7 +41,7 @@ Informazioni fornite da Weekdone Ltd a Microsoft:
 | Condizioni per l'uso dell'app | [https://weekdone.com/terms-of-service](https://weekdone.com/terms-of-service) |
 | Funzionalità di base dell'app | Visualizzare e aggiornare le archiviazioni settimanali e gli OKR e ricevere una notifica sugli aggiornamenti |
 | Sede centrale dell'azienda | Estonia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://weekdone.com/integrations/microsoft-teams](https://weekdone.com/integrations/microsoft-teams) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Altro |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da Weekdone Ltd su come questa app raccog
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

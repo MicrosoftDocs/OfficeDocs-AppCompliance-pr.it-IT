@@ -1,28 +1,28 @@
 ---
-title: Informazioni sull'applicazione per LawToolBox Deadlines &amp; Matter Management - Outlook da LawToolBox.com Inc.
+title: Application Information for LawToolBox Deadlines and Matter Management - Outlook by LawToolBox.com Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/11/2022
+ms.date: 03/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per LawToolBox Deadlines &amp; Matter Management - Outlook, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per LawToolBox Deadlines e Matter Management - Outlook, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c15a934f25c3f7650d2fd7ac927029f8a08e2b56
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: b1bf6d736341aef40ae0087ef005f490a37db23f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459189"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552425"
 ---
-# <a name="lawtoolbox-deadlines-amp-matter-management---outlook"></a>LawToolBox Deadlines &amp; Matter Management - Outlook
+# <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox Deadlines and Matter Management - Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 7, 2022</p>
+<p>Last updated by the developer on: March 15, 2022</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104120953" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003103" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -32,8 +32,8 @@ Informazioni fornite da LawToolBox.com Inc. a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | LawToolBox Deadlines &amp; Matter Management - Outlook |
-| ID | WA104120953 |
+| Nome app | LawToolBox Deadlines and Matter Management - Outlook |
+| ID | WA200003103 |
 | Office 365 client supportati | Outlook 2013 o versioni successive Windows, Outlook 2016 o versioni successive su Mac, Outlook sul web |
 | Nome società partner | LawToolBox.com Inc. |
 | Sito Web aziendale | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
@@ -61,7 +61,7 @@ Queste informazioni sono state fornite da LawToolBox.com Inc. Su come questa app
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | email, UPN, name, groupid, group email, tenantid, user object id |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 90 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
@@ -171,22 +171,38 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | application | Questa autorizzazione viene utilizzata in modo che l'utente normale non sia limitato a e possa configurare più di 250 gruppi | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa) |
->| User.ReadWrite.All | application | Questa autorizzazione viene utilizzata per leggere le informazioni relative agli utenti dalla directory e consentire agli utenti finali con accesso al portale di amministrazione di LawToolBox di aggiungere persone a gruppi di cui non sono membri. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa) |
->| Calendars.ReadWrite | delegated | Questa autorizzazione consente agli utenti di recuperare le proprie informazioni del calendario.  Solo l'utente finale ha accesso può usare l'app per recuperare le proprie informazioni del calendario (le stesse informazioni che potrebbero recuperare aprendo il Outlook calendario) | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Contacts.ReadWrite | delegated | Questa autorizzazione viene utilizzata per consentire all'utente di cercare Microsoft 365 Outlook contatti e aggiungerli al sistema di gestione dei contatti &#8211; contatti non vengono mai aggiunti automaticamente | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Contacts.ReadWrite.Shared | delegated | Questa autorizzazione viene utilizzata per consentire all'utente di cercare contatti M365 condivisi e di aggiungere come contatto al sistema di gestione dei contatti &#8211; contatti non vengono mai aggiunti automaticamente | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Files.ReadWrite | delegated | LawToolBox legge e scrive file da Teams, Gruppi e OneDrive per le riunioni (se l'utente finale revoca questa autorizzazione impedirà a LTB di creare cartelle e file dai modelli e elencare i file importanti nelle nostre app) | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Group.ReadWrite.All | delegated | Questa autorizzazione è necessaria per leggere l'API di Teams, creare Teams, creare eventi calendario, creare canali ed è necessario per la funzionalità di condivisione di file esterni con un solo clic.  NECESSARIO PER GESTIRE I GRUPPI. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Mail.Read | delegated | Questa autorizzazione viene utilizzata per leggere i messaggi di posta elettronica PACER nel componente aggiuntivo di Outlook per aprire automaticamente la posta elettronica e anche per leggere i contatti dai messaggi di posta elettronica.  Se l'utente finale revoca questa autorizzazione, non sarà in grado di aggiungere contatti di posta elettronica dai messaggi di posta elettronica nella posta in arrivo al sistema di contatti | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Mail.Send | delegated | Questa autorizzazione viene utilizzata per inviare messaggi di posta elettronica come utente, ad esempio l'utente può inviare da sé un grafico della scadenza della questione. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| MailboxSettings.ReadWrite | delegated | Questa autorizzazione viene usata per timbrare un messaggio di posta elettronica con un'etichetta che indica che è stato salvato nella cartella Gruppo usando l'app | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Notes.ReadWrite.All | delegated | Questa autorizzazione consente agli utenti di salvare i dati selezionati, ad esempio le note del caso, i grafici delle scadenze o i contatti di materia, in un OneNote associato alla questione | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| OnlineMeetings.ReadWrite | delegated | Questa autorizzazione viene utilizzata per semplificare la creazione e la gestione delle riunioni e per suggerire ai partecipanti l'utilizzo dei ruoli dei partecipanti | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| People.Read | delegated | Questa autorizzazione viene utilizzata per consentire agli utenti di utilizzare Microsoft AI per cercare contatti M365 condivisi e aggiungere al sistema di gestione dei contatti LawToolBox e suggerire agli utenti di aggiungere al sistema di gestione dei contatti delle app &#8211; non vengono aggiunti automaticamente contatti | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| User.Read | delegated | Questa autorizzazione è necessaria per leggere le informazioni di base dell'utente (ad esempio, nome, posta elettronica, fuso orario) in modo che un amministratore possa aggiungere utenti precisi al sistema | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| email | delegated | Questa autorizzazione consente all'app di leggere i messaggi di posta elettronica per consentire all'utente finale di raccogliere informazioni di contatto tramite posta elettronica nella posta in arrivo, questa autorizzazione consente anche all'app di leggere i messaggi di posta elettronica con informazioni PACER in modo che l'app possa aprire il caso correlato per impostazione predefinita usando il numero del docket PACER | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| profile | delegated | Ciò è necessario per l'autenticazione SSO (LawToolBox non richiede l'autorizzazione per scrivere nel profilo) QUESTA AUTORIZZAZIONE È NECESSARIA PER CONSENTIRE AGLI UTENTI DI ACCEDERE A LAWTOOLBOX APPS USANDO l'AUTORIZZAZIONE SINGLE SIGN ON. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
+>| Calendars.ReadWrite | delegated | Questa autorizzazione consente agli utenti di recuperare le proprie informazioni del calendario.  Solo l'utente finale ha accesso può usare l'app per recuperare le proprie informazioni del calendario (le stesse informazioni che potrebbero recuperare aprendo il Outlook calendario) | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Contacts.ReadWrite | delegated | Questa autorizzazione viene utilizzata per consentire all'utente di cercare Microsoft 365 Outlook contatti e aggiungerli al sistema di gestione dei contatti &#8211; contatti non vengono mai aggiunti automaticamente | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Contacts.ReadWrite.Shared | delegated | Questa autorizzazione viene utilizzata per consentire all'utente di cercare contatti M365 condivisi e di aggiungere come contatto al sistema di gestione dei contatti &#8211; contatti non vengono mai aggiunti automaticamente | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Files.ReadWrite | delegated | LawToolBox legge e scrive file da Teams, Gruppi e OneDrive per le riunioni (se l'utente finale revoca questa autorizzazione impedirà a LTB di creare cartelle e file dai modelli e elencare i file importanti nelle nostre app) | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Group.ReadWrite.All | delegated | Questa autorizzazione è necessaria per leggere l'API di Teams, creare Teams, creare eventi calendario, creare canali ed è necessario per la funzionalità di condivisione di file esterni con un solo clic.  NECESSARIO PER GESTIRE I GRUPPI. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Group.ReadWrite.All | application | Questa autorizzazione viene utilizzata in modo che l'utente normale non sia limitato a e possa configurare più di 250 gruppi | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Mail.Read | delegated | Questa autorizzazione viene utilizzata per leggere i messaggi di posta elettronica PACER nel componente aggiuntivo di Outlook per aprire automaticamente la posta elettronica e anche per leggere i contatti dai messaggi di posta elettronica.  Se l'utente finale revoca questa autorizzazione, non sarà in grado di aggiungere contatti di posta elettronica dai messaggi di posta elettronica nella posta in arrivo al sistema di contatti | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Mail.Send | delegated | Questa autorizzazione viene utilizzata per inviare messaggi di posta elettronica come utente, ad esempio l'utente può inviare da sé un grafico della scadenza della questione. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| MailboxSettings.ReadWrite | delegated | Questa autorizzazione viene usata per timbrare un messaggio di posta elettronica con un'etichetta che indica che è stato salvato nella cartella Gruppo usando l'app | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Notes.ReadWrite.All | delegated | Questa autorizzazione consente agli utenti di salvare i dati selezionati, ad esempio le note del caso, i grafici delle scadenze o i contatti di materia, in un OneNote associato alla questione | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| OnlineMeetings.ReadWrite | delegated | Questa autorizzazione viene utilizzata per semplificare la creazione e la gestione delle riunioni e per suggerire ai partecipanti l'utilizzo dei ruoli dei partecipanti | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| People.Read | delegated | Questa autorizzazione viene utilizzata per consentire agli utenti di utilizzare Microsoft AI per cercare contatti M365 condivisi e aggiungere al sistema di gestione dei contatti LawToolBox e suggerire agli utenti di aggiungere al sistema di gestione dei contatti delle app &#8211; non vengono aggiunti automaticamente contatti | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| User.Read | delegated | Questa autorizzazione è necessaria per leggere le informazioni di base dell'utente (ad esempio, nome, posta elettronica, fuso orario) in modo che un amministratore possa aggiungere utenti precisi al sistema | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| User.ReadWrite.All | application | Questa autorizzazione viene utilizzata per leggere le informazioni relative agli utenti dalla directory e consentire agli utenti finali con accesso al portale di amministrazione di LawToolBox di aggiungere persone a gruppi di cui non sono membri. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| email | delegated | Questa autorizzazione consente all'app di leggere i messaggi di posta elettronica per consentire all'utente finale di raccogliere informazioni di contatto tramite posta elettronica nella posta in arrivo, questa autorizzazione consente anche all'app di leggere i messaggi di posta elettronica con informazioni PACER in modo che l'app possa aprire il caso correlato per impostazione predefinita usando il numero del docket PACER | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| profile | delegated | Ciò è necessario per l'autenticazione SSO (LawToolBox non richiede l'autorizzazione per scrivere nel profilo) QUESTA AUTORIZZAZIONE È NECESSARIA PER CONSENTIRE AGLI UTENTI DI ACCEDERE A LAWTOOLBOX APPS USANDO l'AUTORIZZAZIONE SINGLE SIGN ON. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Calendars.ReadWrite | delegated | Questa autorizzazione consente agli utenti di recuperare le proprie informazioni del calendario.  Solo l'utente finale ha accesso può usare l'app per recuperare le proprie informazioni del calendario (le stesse informazioni che potrebbero recuperare aprendo il Outlook calendario) | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Contacts.ReadWrite | delegated | Questa autorizzazione viene utilizzata per consentire all'utente di cercare Microsoft 365 Outlook contatti e aggiungerli al sistema di gestione dei contatti &#8211; contatti non vengono mai aggiunti automaticamente | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Contacts.ReadWrite.Shared | delegated | Questa autorizzazione viene utilizzata per consentire all'utente di cercare contatti M365 condivisi e di aggiungere come contatto al sistema di gestione dei contatti &#8211; contatti non vengono mai aggiunti automaticamente | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Files.ReadWrite | delegated | LawToolBox legge e scrive file da Teams, Gruppi e OneDrive per le riunioni (se l'utente finale revoca questa autorizzazione impedirà a LTB di creare cartelle e file dai modelli e elencare i file importanti nelle nostre app) | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Group.ReadWrite.All | delegated | Questa autorizzazione è necessaria per leggere l'API di Teams, creare Teams, creare eventi calendario, creare canali ed è necessario per la funzionalità di condivisione di file esterni con un solo clic.  NECESSARIO PER GESTIRE I GRUPPI. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Group.ReadWrite.All | application | Questa autorizzazione viene utilizzata in modo che l'utente normale non sia limitato a e possa configurare più di 250 gruppi | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Mail.Read | delegated | Questa autorizzazione viene utilizzata per leggere i messaggi di posta elettronica PACER nel componente aggiuntivo di Outlook per aprire automaticamente la posta elettronica e anche per leggere i contatti dai messaggi di posta elettronica.  Se l'utente finale revoca questa autorizzazione, non sarà in grado di aggiungere contatti di posta elettronica dai messaggi di posta elettronica nella posta in arrivo al sistema di contatti | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Mail.Send | delegated | Questa autorizzazione viene utilizzata per inviare messaggi di posta elettronica come utente, ad esempio l'utente può inviare da sé un grafico della scadenza della questione. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| MailboxSettings.ReadWrite | delegated | Questa autorizzazione viene usata per timbrare un messaggio di posta elettronica con un'etichetta che indica che è stato salvato nella cartella Gruppo usando l'app | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Notes.ReadWrite.All | delegated | Questa autorizzazione consente agli utenti di salvare i dati selezionati, ad esempio le note del caso, i grafici delle scadenze o i contatti di materia, in un OneNote associato alla questione | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| OnlineMeetings.ReadWrite | delegated | Questa autorizzazione viene utilizzata per semplificare la creazione e la gestione delle riunioni e per suggerire ai partecipanti l'utilizzo dei ruoli dei partecipanti | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| People.Read | delegated | Questa autorizzazione viene utilizzata per consentire agli utenti di utilizzare Microsoft AI per cercare contatti M365 condivisi e aggiungere al sistema di gestione dei contatti LawToolBox e suggerire agli utenti di aggiungere al sistema di gestione dei contatti delle app &#8211; non vengono aggiunti automaticamente contatti | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| User.Read | delegated | Questa autorizzazione è necessaria per leggere le informazioni di base dell'utente (ad esempio, nome, posta elettronica, fuso orario) in modo che un amministratore possa aggiungere utenti precisi al sistema | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| User.ReadWrite.All | application | Questa autorizzazione viene utilizzata per leggere le informazioni relative agli utenti dalla directory e consentire agli utenti finali con accesso al portale di amministrazione di LawToolBox di aggiungere persone a gruppi di cui non sono membri. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| email | delegated | Questa autorizzazione consente all'app di leggere i messaggi di posta elettronica per consentire all'utente finale di raccogliere informazioni di contatto tramite posta elettronica nella posta in arrivo, questa autorizzazione consente anche all'app di leggere i messaggi di posta elettronica con informazioni PACER in modo che l'app possa aprire il caso correlato per impostazione predefinita usando il numero del docket PACER | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| profile | delegated | Ciò è necessario per l'autenticazione SSO (LawToolBox non richiede l'autorizzazione per scrivere nel profilo) QUESTA AUTORIZZAZIONE È NECESSARIA PER CONSENTIRE AGLI UTENTI DI ACCEDERE A LAWTOOLBOX APPS USANDO l'AUTORIZZAZIONE SINGLE SIGN ON. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

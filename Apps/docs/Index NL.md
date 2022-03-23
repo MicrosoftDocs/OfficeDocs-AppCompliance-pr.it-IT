@@ -2,29 +2,28 @@
 title: Archivio newsletter
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: Archivio delle newsletter sulla conformità
 keywords: Newsletter sulla conformità
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 72d288c7409dea138e6150537f7f90df7be597ae
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d4c501f8db279c63fe3129c111fd7a6d1bc27a73
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59274900"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63698506"
 ---
 # <a name="newsletter-archive"></a>Archivio newsletter
 
-[Maggio 2021](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/may2021)
+[Maggio 2021](../docs/may2021.md)
 
-[Marzo 2021](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/March21%20NL)
+[Marzo 2021](../docs/March21%20NL.md)
 
-[Gennaio 2021](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/January%2021%20NL)
+[Gennaio 2021](../docs/January%2021%20NL.md)
 
-[Dicembre 2020](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/december%2020%20NL)
+[Dicembre 2020](../docs/december%2020%20NL.md)
 
-[Ottobre 2020](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/october%20NL)
+[Ottobre 2020](../docs/october%20NL.md)
 
-[Settembre 2020](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/September%20NL)
-
-
+[Settembre 2020](../docs/September%20NL.md)

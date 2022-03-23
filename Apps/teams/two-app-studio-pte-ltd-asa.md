@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Asa di Two App Studio Pte Ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Asa, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8f013b62a43dac2f47db54a436cdd9ada14271ab
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: cec09e7d578d5e8a8033725b5470d1cc67d0bed4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148295"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551285"
 ---
 # <a name="asa"></a>Asa
 
@@ -40,7 +41,7 @@ Informazioni fornite da Two App Studio Pte Ltd. a Microsoft:
 | Condizioni per l'uso dell'app | [https://asa.team/terms](https://asa.team/terms) |
 | Funzionalità di base dell'app | Strumento di gestione delle aree di lavoro remote |
 | Sede centrale dell'azienda | Singapore |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://asa.team](https://asa.team) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | GCP |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da Two App Studio Pte Ltd. sul modo in cu
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

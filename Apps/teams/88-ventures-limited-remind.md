@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Remind by 88 Ventures Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Remind, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 71d37c38b4cc3bdcc92182b4063061146d34c0dd
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 17592dc196ffc2e17e62af60708c718dc68ee523
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255032"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550685"
 ---
 # <a name="remind"></a>Remind
 
@@ -40,7 +41,7 @@ Informazioni fornite da 88 Ventures Limited a Microsoft:
 | Condizioni per l'uso dell'app | [https://teamsreminder.app/#terms](https://teamsreminder.app/#terms) |
 | Funzionalità di base dell'app | Ricordare a se stessi o ai membri del team riunioni importanti, cose da fare o anche compleanni. Imposta promemoria personali, promemoria di chat di gruppo o promemoria del canale. Puoi anche impostare promemoria ricorrenti (ad esempio, una riunione del team ogni lunedì alle 9 del mattino)! |
 | Sede centrale dell'azienda | Hong Kong |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://teamsreminder.app](https://teamsreminder.app) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Altro |
 
@@ -165,9 +166,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | delegated | Usato quando un amministratore cerca gli utenti per assegnarli alle licenze. L'uso di questa funzionalità è completamente facoltativo e non è obbligatorio durante il normale uso dell'app. | [88546d4f-9973-4716-98e4-cd181c04bc2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/88546d4f-9973-4716-98e4-cd181c04bc2d) |
+>| Directory.Read.All | delegated | Usato quando un amministratore cerca gli utenti per assegnarli alle licenze. L'uso di questa funzionalità è completamente facoltativo e non è obbligatorio durante il normale uso dell'app. | [88546d4f-9973-4716-98e4-cd181c04bc2d](../azure/88546d4f-9973-4716-98e4-cd181c04bc2d.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

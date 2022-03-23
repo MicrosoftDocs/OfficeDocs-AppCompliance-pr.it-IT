@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per SuitePro-G by IQar
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per SuitePro-G, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per SuitePro-G, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a436df31649d7f73d34650e3c0e3bac4119ce9cc
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3d98560d9a350e118543b17c54293ba215e7bb1b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264450"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551455"
 ---
 # <a name="suitepro-g"></a>SuitePro-G
 
@@ -40,7 +41,7 @@ Informazioni fornite da IQar a Microsoft:
 | Condizioni per l'uso dell'app | [https://iqar-france.fr/cgu](https://iqar-france.fr/cgu) |
 | Funzionalità di base dell'app | SuitePro-G est un outil collaboratif et intuitif pour la gestion de votre portefeuille de projets. Connectez votre outil de pilotage de projets en 3 cliques et gardez une &#233;quipe projet impliqu&#233;e, organis&#233;e et connect&#233;e.  SuitePro-G è una soluzione collaborativa e intuitiva che consente di gestire il portfolio di progetti. Connessione lo strumento di gestione dei progetti in 3 clic e mantenere coinvolto, organizzato e connesso un team di progetto.  |
 | Sede centrale dell'azienda | Francia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://admin.suiteprog.com/Terms](https://admin.suiteprog.com/Terms) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
 | Quali provider di cloud di hosting usa l'app? | SelfHosted |
 
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da IQar su come questa app raccoglie e ar
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

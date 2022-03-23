@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Timeneye da DM Digital SRL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Timeneye, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 788c1d1118c68e5e60cb6bf20ec2817d2d85bf84
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 91630e4d80cabfb43a0d474c3ec3bef523b73b7b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259636"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550224"
 ---
 # <a name="timeneye"></a>Timeneye
 
@@ -42,6 +43,7 @@ Informazioni fornite da DM Digital SRL a Microsoft:
 | Sede centrale dell'azienda | Italia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da DM Digital SRL su come questa app racc
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 2 settimana |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,19 +159,19 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | delegated | Event Start/End DateTime, Event Subject, Event ID, Event Web URI. Generare suggerimenti in base agli eventi del calendario. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Calendars.Read.Shared | delegated | Event Start/End DateTime, Event Subject, Event ID, Event Web URI. Queste informazioni vengono utilizzate per generare suggerimenti in base agli eventi del calendario. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Directory.Read.All | delegated | ID dei gruppi dell'utente. Queste informazioni vengono utilizzate per controllare i gruppi di cui è membro l'utente, in modo da sincronizzare i pianificatori dei suoi gruppi. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Group.Read.All | delegated | Nome gruppo, ID gruppo. Usiamo queste informazioni durante la sincronizzazione dei progetti di planner. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Tasks.Read | delegated | nome elenco attività, ID elenco attività. Usiamo queste informazioni durante la sincronizzazione dei progetti di planner. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| User.Read | delegated | e-mail, nome. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| User.ReadBasic.All | delegated | nome utente, posta elettronica. Usiamo queste informazioni in modo che l'utente possa importare altri utenti da Planner/Microsoft al nostro servizio. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| email | delegated | Posta elettronica. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| offline_access | delegated | Autorizzazione necessaria per sincronizzare il calendario/planner mentre l'utente non è online. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| openid | delegated | id_token. Accesso dell'utente tramite Microsoft SSO | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| profile | delegated | e-mail, nome. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
+>| Calendars.Read | delegated | Event Start/End DateTime, Event Subject, Event ID, Event Web URI. Generare suggerimenti in base agli eventi del calendario. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| Calendars.Read.Shared | delegated | Event Start/End DateTime, Event Subject, Event ID, Event Web URI. Queste informazioni vengono utilizzate per generare suggerimenti in base agli eventi del calendario. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| Directory.Read.All | delegated | ID dei gruppi dell'utente. Queste informazioni vengono utilizzate per controllare i gruppi di cui è membro l'utente, in modo da sincronizzare i pianificatori dei suoi gruppi. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| Group.Read.All | delegated | Nome gruppo, ID gruppo. Usiamo queste informazioni durante la sincronizzazione dei progetti di planner. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| Tasks.Read | delegated | nome elenco attività, ID elenco attività. Usiamo queste informazioni durante la sincronizzazione dei progetti di planner. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| User.Read | delegated | e-mail, nome. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| User.ReadBasic.All | delegated | nome utente, posta elettronica. Usiamo queste informazioni in modo che l'utente possa importare altri utenti da Planner/Microsoft al nostro servizio. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| email | delegated | Posta elettronica. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| offline_access | delegated | Autorizzazione necessaria per sincronizzare il calendario/planner mentre l'utente non è online. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| openid | delegated | id_token. Accesso dell'utente tramite Microsoft SSO | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| profile | delegated | e-mail, nome. Queste informazioni vengono utilizzate per accedere all'utente/creare l'account utente | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Pro calendario di Witivio
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Calendar Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Calendar Pro, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c759b85ec56745d7df22f3b4a85696a27d726120
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: cd77513cdd572cf8176c4bce70d0f749f35b04c2
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250042"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552825"
 ---
 # <a name="calendar-pro"></a>Calendario Pro
 
@@ -38,10 +39,11 @@ Informazioni fornite da Witivio a Microsoft:
 | Nome società partner | Witivio |
 | Sito Web aziendale | [https://www.witivio.com](https://www.witivio.com) |
 | Condizioni per l'uso dell'app | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
-| Funzionalità di base dell'app | Calendar Pro è un calendario collaborativo per Microsoft Teams. Aggiungere calendari Pro in un canale o in una chat per creare un calendario condiviso con i relativi membri. |
+| Funzionalità di base dell'app | Calendar Pro è un calendario collaborativo per Microsoft Teams. Aggiungi calendario Pro in un canale o in una chat per creare un calendario condiviso con i relativi membri. |
 | Sede centrale dell'azienda | Francia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Witivio su come questa app raccoglie e
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +66,7 @@ Queste informazioni sono state fornite da Witivio su come questa app raccoglie e
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -166,12 +161,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegated | I dati vengono utilizzati | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
->| User.ReadBasic.All | delegated | I dati vengono utilizzati | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
->| email | delegated | Viene utilizzato il messaggio di posta elettronica | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
->| offline_access | delegated | I dati vengono utilizzati | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
->| openid | delegated | Autenticazione | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
->| profile | delegated | I dati vengono utilizzati | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445) |
+>| User.Read | delegated | I dati vengono utilizzati | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](../azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445.md) |
+>| User.ReadBasic.All | delegated | I dati vengono utilizzati | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](../azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445.md) |
+>| email | delegated | Viene utilizzato il messaggio di posta elettronica | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](../azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445.md) |
+>| offline_access | delegated | I dati vengono utilizzati | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](../azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445.md) |
+>| openid | delegated | Autenticazione | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](../azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445.md) |
+>| profile | delegated | I dati vengono utilizzati | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](../azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,20 +2,21 @@
 title: Informazioni sull'applicazione per Aimful by Aimful
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Aimful, i suoi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Aimful, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ec08bb1f91c332cd0cde36d199566a4b06cc4816
-ms.sourcegitcommit: 58f40775dd4adee3a6037a74e4ccd98823f4832c
+ms.openlocfilehash: ec3fbf394e219d7d7b3b108e70186510bd6d6a31
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62306065"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551635"
 ---
-# <a name="aimful"></a>Mirato
+# <a name="aimful"></a>Aimful
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,15 +33,15 @@ Informazioni fornite da Aimful a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Mirato |
+| Nome app | Aimful |
 | ID | WA200003698 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Mirato |
+| Nome società partner | Aimful |
 | Sito Web aziendale | [https://aimful.io](https://aimful.io) |
 | Condizioni per l'uso dell'app | [https://aimful.io/terms-and-conditions/](https://aimful.io/terms-and-conditions/) |
 | Funzionalità di base dell'app | Aimful incoraggia la trasformazione della cultura delle riunioni nel team o nell'azienda  |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://aimful.io/how-it-works/](https://aimful.io/how-it-works/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 
@@ -158,7 +159,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -170,8 +171,8 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | Accesso agli eventi del calendario | [93544582-de9c-42a0-baa5-df3d25e9bd48](https://docs.microsoft.com/microsoft-365-app-certification/azure/93544582-de9c-42a0-baa5-df3d25e9bd48) |
->| MailboxSettings.Read | delegated | Accedere al fuso orario dell'utente | [93544582-de9c-42a0-baa5-df3d25e9bd48](https://docs.microsoft.com/microsoft-365-app-certification/azure/93544582-de9c-42a0-baa5-df3d25e9bd48) |
+>| Calendars.ReadWrite | delegated | Accesso agli eventi del calendario | [93544582-de9c-42a0-baa5-df3d25e9bd48](../azure/93544582-de9c-42a0-baa5-df3d25e9bd48.md) |
+>| MailboxSettings.Read | delegated | Accedere al fuso orario dell'utente | [93544582-de9c-42a0-baa5-df3d25e9bd48](../azure/93544582-de9c-42a0-baa5-df3d25e9bd48.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

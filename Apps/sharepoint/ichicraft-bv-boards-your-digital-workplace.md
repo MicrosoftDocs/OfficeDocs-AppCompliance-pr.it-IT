@@ -2,18 +2,19 @@
 title: Application Information for Ichicraft Boards - Your Digital Workplace by ichicraft b.v.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Ichicraft Boards - Digital Workplace, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a4ca245baa59050f7d3c925fd9cd3a89d71d5cdf
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: b006f9afc956d41843ab40f8620a8688c4954fed
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081251"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550294"
 ---
 # <a name="ichicraft-boards---your-digital-workplace"></a>Ichicraft Boards - Your Digital Workplace
 
@@ -39,7 +40,7 @@ Informazioni fornite da ichicraft b.v. a Microsoft:
 | Condizioni per l'uso dell'app | [https://ichicraft.com/terms/](https://ichicraft.com/terms/) |
 | Funzionalità di base dell'app | Il luogo di lavoro digitale personale più completo e facile da usare.  |
 | Sede centrale dell'azienda | Paesi Bassi (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://ichicraft.com](https://ichicraft.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -56,14 +57,7 @@ Queste informazioni sono state fornite da ichicraft b.v. informazioni su come qu
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

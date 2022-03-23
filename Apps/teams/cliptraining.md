@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per ClipTraining tramite ClipTraining
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per ClipTraining, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a797cbaff4d15678cb22809f86852f8169735ef5
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 104451966b6de9d930c146c0f182aa293df48635
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261402"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551615"
 ---
 # <a name="cliptraining"></a>ClipTraining
 
@@ -38,10 +39,11 @@ Informazioni fornite da ClipTraining a Microsoft:
 | Nome società partner | ClipTraining |
 | Sito Web aziendale | [https://www.cliptraining.com](https://www.cliptraining.com) |
 | Condizioni per l'uso dell'app | [https://www.cliptraining.com/eula/](https://www.cliptraining.com/eula/) |
-| Funzionalità di base dell'app | Un servizio di streaming di contenuti per l'apprendimento moderno che include oltre 5.000 lezioni Microsoft 365. |
+| Funzionalità di base dell'app | Un servizio di streaming di contenuti per l'apprendimento moderno che include oltre 5.000 lezioni su Microsoft 365. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.cliptraining.com](https://www.cliptraining.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure, SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da ClipTraining su come questa app raccog
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro 3 minuti |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,12 +159,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| email | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
->| offline_access | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
->| openid | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
->| profile | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| email | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](../azure/af089bb5-48be-413d-ad34-53c32799da7d.md) |
+>| offline_access | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](../azure/af089bb5-48be-413d-ad34-53c32799da7d.md) |
+>| openid | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](../azure/af089bb5-48be-413d-ad34-53c32799da7d.md) |
+>| profile | delegated | Indirizzo di posta elettronica, nome, cognome per l'accesso utente e corrispondenza.  | [af089bb5-48be-413d-ad34-53c32799da7d](../azure/af089bb5-48be-413d-ad34-53c32799da7d.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

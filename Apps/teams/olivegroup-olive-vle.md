@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per OLIVE VLE di OliveGroup
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per OLIVE VLE, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per OLIVE VLE, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ba6748b6ffb6270d642779c44fde52caa4126d2e
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3c3fe65f44efad2d00a9c5773821551e08408e89
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264246"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551995"
 ---
 # <a name="olive-vle"></a>OLIVE VLE
 
@@ -38,10 +39,11 @@ Informazioni fornite da OliveGroup a Microsoft:
 | Nome società partner | OliveGroup |
 | Sito Web aziendale | [https://www.olivegroup.io](https://www.olivegroup.io) |
 | Condizioni per l'uso dell'app | [https://vle.olivegroup.io/termsofuse](https://vle.olivegroup.io/termsofuse) |
-| Funzionalità di base dell'app | Olive VLE aiuta i docenti e i provider di istruzione a creare e gestire corsi, programmi di apprendistato e studenti. Gli amministratori dei provider di istruzione possono creare corsi online, test, assegnazioni, programmi e assegnarli agli studenti. Microsoft Teams è integrato con l'API di Graph in modo che gli amministratori possano anche creare video in Teams e invitare gli studenti alla classe video. Gli studenti possono visualizzare e prendere i corsi, i programmi e gestire le prove del portfolio. Gli amministratori possono anche pubblicare news feed. |
+| Funzionalità di base dell'app | Olive VLE aiuta i docenti e i provider di istruzione a creare e gestire corsi, programmi di apprendistato e studenti. Gli amministratori dei provider di istruzione possono creare corsi online, test, assegnazioni, programmi e assegnarli agli studenti. Microsoft Teams è integrato con l'API Graph, in modo che gli amministratori possano anche creare video in Teams e invitare gli studenti alla classe video. Gli studenti possono visualizzare e prendere i corsi, i programmi e gestire le prove del portfolio. Gli amministratori possono anche pubblicare news feed. |
 | Sede centrale dell'azienda | Irlanda |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da OliveGroup su come questa app raccogli
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

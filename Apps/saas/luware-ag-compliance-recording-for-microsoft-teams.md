@@ -2,18 +2,19 @@
 title: Application Information for Luware Compliance Recording for Microsoft Teams by Luware AG
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Luware Compliance Recording for Microsoft Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per Luware Compliance Recording for Microsoft Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ffbb28358351271e0028f0b9deec76e3ca6c6a8c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: e32f3e36370bc94250831178d88183ee6b0d2264
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251316"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550414"
 ---
 # <a name="luware-compliance-recording-for-microsoft-teams"></a>Luware Compliance Recording for Microsoft Teams
 
@@ -38,7 +39,7 @@ Informazioni fornite da Luware AG a Microsoft:
 | Condizioni per l'uso dell'app | [https://luware.com/en/agreements/saas/](https://luware.com/en/agreements/saas/) |
 | Funzionalità di base dell'app | Soluzione cloud che consente di acquisire, archiviare, analizzare e recuperare tutte le modalità di comunicazione. |
 | Sede centrale dell'azienda | Svizzera |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -72,7 +73,7 @@ Queste informazioni sono state fornite da Luware AG su come questa app raccoglie
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -168,17 +169,17 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calls.AccessMedia.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
->| Calls.Initiate.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
->| Calls.InitiateGroupCall.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
->| Calls.JoinGroupCall.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
->| Calls.JoinGroupCallasGuest.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
->| Group.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
->| GroupMember.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
->| OnlineMeetings.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
->| OnlineMeetings.ReadWrite.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
->| User.Read | delegated | Single Sign-on | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
->| User.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.AccessMedia.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
+>| Calls.Initiate.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
+>| Calls.InitiateGroupCall.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
+>| Calls.JoinGroupCall.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
+>| Calls.JoinGroupCallasGuest.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
+>| Group.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
+>| GroupMember.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
+>| OnlineMeetings.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
+>| OnlineMeetings.ReadWrite.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
+>| User.Read | delegated | Single Sign-on | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
+>| User.Read.All | application | Teams registrazione | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](../azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

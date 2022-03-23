@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Onna Discovery per MS365 di Onna
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Onna Discovery per MS365, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Onna Discovery per MS365, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 042ce6df25c6b4cda31ef0c4931f1d6fd00e3f25
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 2e0981baa9445bfc2c5b75b9863bfee2e2f692d4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148305"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552225"
 ---
 # <a name="onna-discovery-for-ms365"></a>Onna Discovery per MS365
 
@@ -38,7 +39,7 @@ Informazioni fornite da Onna a Microsoft:
 | Condizioni per l'uso dell'app | [https://onna.com/master-subscription-agreement](https://onna.com/master-subscription-agreement) |
 | Funzionalità di base dell'app | Onna fornisce la raccolta dati, la ricerca e la valutazione dei casi iniziali per Microsoft 365 |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://onna.com/features](https://onna.com/features) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Ibrido |
 | Quali provider di cloud di hosting usa l'app? | GCP, Aws |
 

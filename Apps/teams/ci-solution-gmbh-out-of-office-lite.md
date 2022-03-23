@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per CI-Out-of-Office Lite by ci solution GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CI-Out-of-Office Lite, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e08a802c7944b99047b38c6920299673ca3eff2d
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0a3029e6e651339e6f872d69b2bd1010d300ab82
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264066"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550615"
 ---
 # <a name="ci-out-of-office-lite"></a>CI-Out di-Office Lite
 
@@ -38,10 +39,11 @@ Informazioni fornite da ci solution GmbH a Microsoft:
 | Nome società partner | soluzione ci GmbH |
 | Sito Web aziendale | [https://www.ci-solution.com](https://www.ci-solution.com) |
 | Condizioni per l'uso dell'app | [https://www.ci-solution.com/agb](https://www.ci-solution.com/agb) |
-| Funzionalità di base dell'app | Con CI-Out-of-Office Lite, le notifiche di assenza possono essere standardizzate e controllate centralmente in tutta l'azienda. Con questa applicazione pluripremiata (incluso il riconoscimento del settore, l'IT per il riconoscimento dell'innovazione) è possibile garantire una gestione fuori sede professionale, uniforme e aziendale conforme alle identità per la propria azienda entro Microsoft 365. |
+| Funzionalità di base dell'app | Con CI-Out-of-Office Lite, le notifiche di assenza possono essere standardizzate e controllate centralmente in tutta l'azienda. Con questa applicazione pluripremiata (incluso il riconoscimento del settore, il riconoscimento dell'innovazione IT) è possibile garantire una gestione fuori sede professionale, uniforme e aziendale conforme all'identità per la propria azienda entro Microsoft 365. |
 | Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.ci-solution.com/support/en/ci-oof-lite/](https://www.ci-solution.com/support/en/ci-oof-lite/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da ci solution GmbH su come questa app ra
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,9 +159,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| email | delegated | Visualizzare l'indirizzo di posta elettronica degli utenti | [fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da) |
+>| email | delegated | Visualizzare l'indirizzo di posta elettronica degli utenti | [fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da](../azure/fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

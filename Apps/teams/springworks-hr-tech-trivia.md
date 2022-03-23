@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Trivia di Springworks HR Tech
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/13/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Trivia, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d6cb39b076b113828b5018eb557a1c2ee54c4004
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b16a3197e930934e927b55e67d4a5ee98e33182a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148939"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551414"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -40,9 +41,8 @@ Informazioni fornite da Springworks HR Tech a Microsoft:
 | Condizioni per l'uso dell'app | [https://trivia.springworks.in/tnc](https://trivia.springworks.in/tnc) |
 | Funzionalità di base dell'app | Un team che gioca insieme, che si lega meglio. Con Trivia, gioca quiz e puzzle in tempo reale con i tuoi compagni di squadra, interagisci con loro e partecipa a pause sociali sul lavoro. Trivia&#8217;s Suite of Features: Quizzes - Compete against your teammates in MCQ format quizzes, Word Puzzles - Solve puzzles by simply riranging letters to form meaningful word and (Un)Popular Opinions - Get up some controversy in your team with fun polls |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,7 +72,7 @@ Queste informazioni sono state fornite da Springworks HR Tech su come questa app
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per 365-QA di Advantive
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per 365-QA, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a0150c10a05a04039a8d7c9132caea0a63068b4d
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 58553b5a12cc0c6d17710bce98179385582fc8d9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200757"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551655"
 ---
 # <a name="365-qa"></a>365-QA
 
@@ -38,9 +39,9 @@ Informazioni fornite da Advantive a Microsoft:
 | Nome società partner | Advantive |
 | Sito Web aziendale | [https://www.advantive.be](https://www.advantive.be) |
 | Condizioni per l'uso dell'app | [https://www.advantive.be/terms-of-service-en/](https://www.advantive.be/terms-of-service-en/) |
-| Funzionalità di base dell'app | Advantive è un team di professionisti ICT che utilizzano la tecnologia Microsoft per sviluppare e implementare soluzioni ICT innovative. Offriamo consigli, prodotti e servizi di alta qualità basati sulle funzionalità Standard Microsoft. Ciò consente ai clienti&#8217;ad avventive di aumentare l'efficienza e di sfruttare le circostanze in rapida evoluzione. La nostra attività principale è fornire servizi che includono consulenza, sviluppo, implementazione, supporto e manutenzione dei progetti. |
+| Funzionalità di base dell'app | Advantive è un team di professionisti ICT che utilizzano la tecnologia Microsoft per sviluppare e implementare soluzioni ICT innovative. Offriamo consigli, prodotti e servizi di alta qualità basati sulle funzionalità Standard Microsoft. In questo modo i&#8217;ad avventive possono aumentare l'efficienza e sfruttare le circostanze in rapida evoluzione. La nostra attività principale è fornire servizi che includono consulenza, sviluppo, implementazione, supporto e manutenzione dei progetti. |
 | Sede centrale dell'azienda | Belgio |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.advantive.be/365-qa-how-to/](https://www.advantive.be/365-qa-how-to/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da Advantive su come questa app raccoglie
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,7 +66,7 @@ Queste informazioni sono state fornite da Advantive su come questa app raccoglie
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

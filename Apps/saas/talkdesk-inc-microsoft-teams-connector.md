@@ -2,18 +2,19 @@
 title: Application Information for Talkdesk Microsoft Teams Connector di Talkdesk, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Talkdesk Microsoft Teams Connector, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8f64011c4e6d1e5a7cfa385a89925bcac27ca6b8
-ms.sourcegitcommit: 49991df115de43a1e5e5579ebef4ebc71df29fae
+ms.openlocfilehash: dd59c9e9902f0c3dbd975efc711cc4c63dfa2f5f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62795792"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550394"
 ---
 # <a name="talkdesk-microsoft-teams-connector"></a>Talkdesk Microsoft Teams Connector
 
@@ -36,7 +37,7 @@ Informazioni fornite da Talkdesk, Inc. a Microsoft:
 | Nome società partner | Talkdesk, Inc. |
 | Sito Web aziendale | [https://www.talkdesk.com](https://www.talkdesk.com) |
 | Condizioni per l'uso dell'app | [https://www.talkdesk.com/terms-of-service](https://www.talkdesk.com/terms-of-service) |
-| Funzionalità di base dell'app | Microsoft Teams'integrazione con Talkdesk che abilita il routing diretto e directory |
+| Funzionalità di base dell'app | Microsoft Teams'integrazione con Talkdesk che abilita il routing diretto e della directory |
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Ibrido |
@@ -59,7 +60,7 @@ Queste informazioni sono state fornite da Talkdesk, Inc. Sul modo in cui questa 
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Dati profilo utente - Nome, Cognome, Nome completo, indirizzo di posta elettronica, numero di telefono |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Non conservato |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
@@ -165,10 +166,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read.All | delegated | Necessario per raccogliere i dati Teams profilo degli utenti | [10d8604b-e6ea-4c59-8414-aca1bf1ffda8](https://docs.microsoft.com/microsoft-365-app-certification/azure/10d8604b-e6ea-4c59-8414-aca1bf1ffda8) |
->| offline_access | delegated | Consente all'app di visualizzare i dati anche quando l'utente che ha concesso l'accesso non è connesso. | [10d8604b-e6ea-4c59-8414-aca1bf1ffda8](https://docs.microsoft.com/microsoft-365-app-certification/azure/10d8604b-e6ea-4c59-8414-aca1bf1ffda8) |
+>| User.Read.All | delegated | Necessario per raccogliere i dati Teams profilo degli utenti | [10d8604b-e6ea-4c59-8414-aca1bf1ffda8](../azure/10d8604b-e6ea-4c59-8414-aca1bf1ffda8.md) |
+>| offline_access | delegated | Consente all'app di visualizzare i dati anche quando l'utente che ha concesso l'accesso non è connesso. | [10d8604b-e6ea-4c59-8414-aca1bf1ffda8](../azure/10d8604b-e6ea-4c59-8414-aca1bf1ffda8.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

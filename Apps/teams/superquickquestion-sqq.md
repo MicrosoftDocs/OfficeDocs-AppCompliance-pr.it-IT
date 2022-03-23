@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per SQQ di SuperQuickQuestion
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SQQ, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0dfeb1cc7cf0cbc593cb2cfa2f897bd299963236
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d9a92e995202636c4a5439385b89a217b570747d
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251665"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550054"
 ---
 # <a name="sqq"></a>SQQ
 
@@ -40,7 +41,7 @@ Informazioni fornite da SuperQuickQuestion a Microsoft:
 | Condizioni per l'uso dell'app | [https://superquickquestion.com/termsofuse](https://superquickquestion.com/termsofuse) |
 | Funzionalità di base dell'app | SuperQuickQuestion è una piattaforma di videoconferenza diretta uno-a-uno con un limite di tempo di 60 secondi. Vogliamo incoraggiare conversazioni più produttive, eliminare riunioni non necessarie e aiutarti ad aumentare la velocità di risoluzione dei problemi e recuperare il calendario, un minuto alla volta. Come chiunque di noi che ha trascorso del tempo in riunioni con una decina di persone che cercano di parlare tra loro può attestare, le riunioni più lunghe non necessariamente corrispondono a una maggiore collaborazione e che&#8217;s in cui SQQ può aiutare. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://superquickquestion.com/UserGuide/msteams](https://superquickquestion.com/UserGuide/msteams) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -168,11 +169,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Chat.ReadBasic | delegated | Ottenere il numero di partecipanti in una chat | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
->| User.Read | delegated | Leggere il nome del tenant utente | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
->| openid | delegated | Accedere agli utenti dall'app per accedere all'endpoint Graph locale | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
+>| Chat.ReadBasic | delegated | Ottenere il numero di partecipanti in una chat | [25379fc8-577f-4935-b681-6f027977fbe3](../azure/25379fc8-577f-4935-b681-6f027977fbe3.md) |
+>| User.Read | delegated | Leggere il nome del tenant utente | [25379fc8-577f-4935-b681-6f027977fbe3](../azure/25379fc8-577f-4935-b681-6f027977fbe3.md) |
+>| openid | delegated | Accedere agli utenti dall'app per accedere all'endpoint Graph locale | [25379fc8-577f-4935-b681-6f027977fbe3](../azure/25379fc8-577f-4935-b681-6f027977fbe3.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

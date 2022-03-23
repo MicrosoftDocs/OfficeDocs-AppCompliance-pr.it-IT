@@ -2,18 +2,19 @@
 title: Application Information for Aster by Aster
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Aster, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3b9f304d0ca5b069c098555ba6f30ca5da836192
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d4afcbc9c5c03032f871a79e2b098a6c7fd8fd1a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253952"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552685"
 ---
 # <a name="aster"></a>Aster
 
@@ -40,8 +41,9 @@ Informazioni fornite da Aster a Microsoft:
 | Condizioni per l'uso dell'app | [https://asterapp.co/conditions-generales/](https://asterapp.co/conditions-generales/) |
 | Funzionalità di base dell'app | Minuti di riunione che ti fanno risparmiare tempo. |
 | Sede centrale dell'azienda | Francia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://asterapp.co/solution/](https://asterapp.co/solution/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure, OVH Cloud (Francia) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Aster su come questa app raccoglie e a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +66,7 @@ Queste informazioni sono state fornite da Aster su come questa app raccoglie e a
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -164,14 +159,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | delegated | Elenco delle directory per l'invio delle attività di Planner dei documenti di Sharepoint | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
->| Group.ReadWrite.All | delegated | Elenco di gruppi per l'invio di attività di Planner di documenti di SharePoint in gruppi esistenti o creati | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
->| Notes.ReadWrite.All | delegated | Contenuto delle note per la scrittura in OneNote | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
->| Tasks.ReadWrite.Shared | delegated | Attività, assegnazione, scadenze | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
->| User.Read | delegated | Posta elettronica utente per l'identificazione dell'utente | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
->| offline_access | delegated | Nessun dato raccolto, solo per aggiornare apparentemente il token | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
+>| Directory.Read.All | delegated | Elenco delle directory per l'invio delle attività di Planner dei documenti di Sharepoint | [27c89ce8-b449-4959-b801-988d8b727512](../azure/27c89ce8-b449-4959-b801-988d8b727512.md) |
+>| Group.ReadWrite.All | delegated | Elenco di gruppi per l'invio di attività di Planner di documenti di SharePoint in gruppi esistenti o creati | [27c89ce8-b449-4959-b801-988d8b727512](../azure/27c89ce8-b449-4959-b801-988d8b727512.md) |
+>| Notes.ReadWrite.All | delegated | Contenuto delle note per la scrittura in OneNote | [27c89ce8-b449-4959-b801-988d8b727512](../azure/27c89ce8-b449-4959-b801-988d8b727512.md) |
+>| Tasks.ReadWrite.Shared | delegated | Attività, assegnazione, scadenze | [27c89ce8-b449-4959-b801-988d8b727512](../azure/27c89ce8-b449-4959-b801-988d8b727512.md) |
+>| User.Read | delegated | Posta elettronica utente per l'identificazione dell'utente | [27c89ce8-b449-4959-b801-988d8b727512](../azure/27c89ce8-b449-4959-b801-988d8b727512.md) |
+>| offline_access | delegated | Nessun dato raccolto, solo per aggiornare apparentemente il token | [27c89ce8-b449-4959-b801-988d8b727512](../azure/27c89ce8-b449-4959-b801-988d8b727512.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

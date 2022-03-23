@@ -2,18 +2,19 @@
 title: Application Information for Social Advocacy di Oktopost
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Social Advocacy, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d2512c15493639790c1853f00dfe005ae32cfbb7
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: c4715e95265d4edd96b51fa8b59e5535eef892d4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155440"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552015"
 ---
 # <a name="social-advocacy"></a>Social Advocacy
 
@@ -40,7 +41,7 @@ Informazioni fornite da Oktopost a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.oktopost.com/terms](https://www.oktopost.com/terms) |
 | Funzionalità di base dell'app | Oktopost è una piattaforma di gestione dei social media e patrocinio dei dipendenti per B2B. Con Oktopost puoi gestire, monitorare e misurare tutte le attività di social media in un'unica posizione. Oktopost ha due soluzioni di base: 1) la gestione dei social media, tra cui la pubblicazione, il monitoraggio, l'analisi, il coinvolgimento e 2) la consulenza dei dipendenti, consentendo ai marketer di gestire i programmi di condivisione sociale per i dipendenti. La proposta di valore univoco oktopost consente inoltre agli esperti di marketing di integrare i dati di social network con lo stack di marketing. |
 | Sede centrale dell'azienda | Israele |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.oktopost.com](https://www.oktopost.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da Oktopost su come questa app raccoglie 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

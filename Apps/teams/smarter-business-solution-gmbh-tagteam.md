@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per TagTeam by Smarter Business Solution GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per TagTeam, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per TagTeam, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cc76bc92be159c19efd6642e1f8486fde92c6195
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d5494438873cdcd7878b4b90afad8a8c70778648
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264410"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551395"
 ---
 # <a name="tagteam"></a>TagTeam
 
@@ -40,8 +41,9 @@ Informazioni fornite da Smarter Business Solution GmbH a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.smarterbusiness.at/en/terms-of-use-for-tagteam](https://www.smarterbusiness.at/en/terms-of-use-for-tagteam) |
 | Funzionalità di base dell'app | Aiuta il tuo team a classificare le conversazioni nei canali con tag colorati, in modo da dedicare meno tempo alla ricerca delle informazioni giuste. Sarà particolarmente utile avere tutte le informazioni correlate sulla punta delle dita con un solo clic. |
 | Sede centrale dell'azienda | Austria |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.smarterbusiness.at/en/tagteam-help](https://www.smarterbusiness.at/en/tagteam-help) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Smarter Business Solution GmbH sul mod
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Retained |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,12 +159,12 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMessage.Read.All | delegated | Questi dati non vengono raccolti, ma solo per la visualizzazione di conversazioni con tag. Ci piacerebbe cambiarla in API di ricerca, ma Graph API attualmente non supporta questa funzionalità.  | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
->| User.Read | delegated | Visualizza User-Information (ad esempio Nome) nella scheda | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
->| User.ReadBasic.All | delegated | Visualizzare User-Avatars nella scheda | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
->| openid | delegated | Solo per SignIn: non vengono archiviati dati | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| ChannelMessage.Read.All | delegated | Questi dati non vengono raccolti, ma solo per la visualizzazione di conversazioni con tag. Ci piacerebbe cambiarla in API di ricerca, ma Graph api non supporta attualmente questo.  | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](../azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b.md) |
+>| User.Read | delegated | Visualizza User-Information (ad esempio Nome) nella scheda | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](../azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b.md) |
+>| User.ReadBasic.All | delegated | Visualizzare User-Avatars nella scheda | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](../azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b.md) |
+>| openid | delegated | Solo per SignIn: non vengono archiviati dati | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](../azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

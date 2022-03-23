@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Geekbot di Geekbot Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Geekbot, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 97f44a41e15c0462df6d7a7f4c8e1d5044045ca2
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: fccb298433526e7f7e1e873754ae0ad4f3db3b23
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148685"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552845"
 ---
 # <a name="geekbot"></a>Geekbot
 
@@ -40,7 +41,7 @@ Informazioni fornite da Geekbot Ltd a Microsoft:
 | Condizioni per l'uso dell'app | [https://geekbot.com/tos/](https://geekbot.com/tos/) |
 | Funzionalità di base dell'app | Eseguire standup asincroni, retrospettive e sondaggi, condividendo le conoscenze del team tra fusi orari. |
 | Sede centrale dell'azienda | Cipro |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://help.geekbot.com/en/](https://help.geekbot.com/en/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Azure, GCP |
 

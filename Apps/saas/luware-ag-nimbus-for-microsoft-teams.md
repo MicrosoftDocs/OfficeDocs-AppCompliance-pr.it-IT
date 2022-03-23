@@ -2,18 +2,19 @@
 title: Application Information for Luware Nimbus for Microsoft Teams by Luware AG
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Luware Nimbus per Microsoft Teams, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Luware Nimbus per Microsoft Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1d64355be961a730caf60af7fd12bcb0326ade34
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f5fbd82c09e9560a600191a9d5001f148b93f685
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252433"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550404"
 ---
 # <a name="luware-nimbus-for-microsoft-teams"></a>Luware Nimbus per Microsoft Teams
 
@@ -38,7 +39,7 @@ Informazioni fornite da Luware AG a Microsoft:
 | Condizioni per l'uso dell'app | [https://luware.com/en/agreements/saas/](https://luware.com/en/agreements/saas/) |
 | Funzionalità di base dell'app | Nimbus aggiunge la coda delle chiamate, il routing basato sulla presenza, le funzioni di creazione di report e un commutatore per Teams |
 | Sede centrale dell'azienda | Svizzera |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://luware.com/en/solution/advanced-routing-for-microso...](https://luware.com/en/solution/advanced-routing-for-microsoft-teams/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -72,7 +73,7 @@ Queste informazioni sono state fornite da Luware AG su come questa app raccoglie
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -168,19 +169,19 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | delegated | Console Operatore: leggere Calendario dell'utente connesso mostra calendario con appuntamenti | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Calendars.Read.Shared | delegated | Console Operatore: leggere Calendari condivisi per visualizzare il calendario con gli appuntamenti | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Contacts.Read | delegated | Console Operatore: cercare nei Exchange contatti dell'utente connesso | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Contacts.Read.Shared | delegated | Console Operatore: ricerca nei contatti Exchange condivisi | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| GroupMember.Read.All | application | Ottenere membri del team, leggere i gruppi di sicurezza | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Presence.Read.All | delegated | Pagina Mostra presenza nella ricerca contatti nella console operatore | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.Read | delegated | Ottenere UserInformation (dall'utente connesso) | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.Read.All | entrambi | App Nimbus - Ottenere CallerInformation. In una chiamata interna al centro contatti viene esempta una ricerca inversa su chi potrebbe essere, in modo da poter mostrare queste informazioni all'agente. Nella Console operatore (con autorizzazione delegata) viene ricercata l'intera directory interna per le destinazioni di trasferimento. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.ReadBasic.All | delegated | Ricerca utente limitata | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Calls.AccessMedia.All | application | Molte di queste app/bot (una per coda del Centro contatti): sottoscrivere toni DTMF in cui il cliente può effettivamente selezionare la sua posizione nell'IVR | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.Initiate.All | application | Molte di queste app/bot (una per coda del Contact Center): effettuare chiamate all'agente  | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.InitiateGroupCall.All | application | Molte di queste app/bot (una per coda del Contact Center): effettuare chiamate all'agente  | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.JoinGroupCall.All | application | Molti di questi app/bot (uno per coda del Centro contatti): partecipare a una chiamata inoltrata per riprodurre gli annunci | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
+>| Calendars.Read | delegated | Console Operatore: leggere Calendario dell'utente connesso mostra calendario con appuntamenti | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Calendars.Read.Shared | delegated | Console Operatore: leggere Calendari condivisi per visualizzare il calendario con gli appuntamenti | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Contacts.Read | delegated | Console Operatore: cercare nei Exchange contatti dell'utente connesso | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Contacts.Read.Shared | delegated | Console Operatore: ricerca nei contatti Exchange condivisi | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| GroupMember.Read.All | application | Ottenere membri del team, leggere i gruppi di sicurezza | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Presence.Read.All | delegated | Pagina Mostra presenza nella ricerca contatti nella console operatore | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| User.Read | delegated | Ottenere UserInformation (dall'utente connesso) | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| User.Read.All | entrambi | App Nimbus - Ottenere CallerInformation. In una chiamata interna al centro contatti viene esempta una ricerca inversa su chi potrebbe essere, in modo da poter mostrare queste informazioni all'agente. Nella Console operatore (con autorizzazione delegata) viene ricercata l'intera directory interna per le destinazioni di trasferimento. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| User.ReadBasic.All | delegated | Ricerca utente limitata | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Calls.AccessMedia.All | application | Molte di queste app/bot (una per coda del Centro contatti): sottoscrivere toni DTMF in cui il cliente può effettivamente selezionare la sua posizione nell'IVR | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
+>| Calls.Initiate.All | application | Molte di queste app/bot (una per coda del Contact Center): effettuare chiamate all'agente  | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
+>| Calls.InitiateGroupCall.All | application | Molte di queste app/bot (una per coda del Contact Center): effettuare chiamate all'agente  | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
+>| Calls.JoinGroupCall.All | application | Molti di questi app/bot (uno per coda del Centro contatti): partecipare a una chiamata inoltrata per riprodurre gli annunci | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

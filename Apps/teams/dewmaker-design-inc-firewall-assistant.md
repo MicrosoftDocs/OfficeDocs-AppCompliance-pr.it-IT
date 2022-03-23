@@ -2,18 +2,19 @@
 title: Application Information for Firewall Assistant di DewMaker Design, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Firewall Assistant, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e9cf30e4f4b283cb1da66dfb40e5a3c9745901c6
-ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
+ms.openlocfilehash: ef5b9990a4c9cd5338172c45b61f5612f1d4f54a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62477526"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550254"
 ---
 # <a name="firewall-assistant"></a>Assistente firewall
 
@@ -40,7 +41,7 @@ Informazioni fornite da DewMaker Design, Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://teamwell.services/terms.html](https://teamwell.services/terms.html) |
 | Funzionalità di base dell'app | Gestione self-service delle regole del firewall di Azure SQL Server tramite Microsoft Teams. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://firewallassistant.com](https://firewallassistant.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -74,7 +75,7 @@ Queste informazioni sono state fornite da DewMaker Design, Inc. Sul modo in cui 
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

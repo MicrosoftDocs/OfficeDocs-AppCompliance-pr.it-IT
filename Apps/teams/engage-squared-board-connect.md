@@ -2,18 +2,19 @@
 title: Application Information for Board Connessione by Engage Squared
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Board Connessione, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Board Connessione, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 91d88db95de0991f7ccb65f9e19e276fce27158c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5327ac45a97b2a0cade740eecbcbc38971ec3243
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264135"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550605"
 ---
 # <a name="board-connect"></a>Board Connect
 
@@ -40,8 +41,9 @@ Informazioni fornite da Engage Squared a Microsoft:
 | Condizioni per l'uso dell'app | [https://boardconnect.app/terms](https://boardconnect.app/terms) |
 | Funzionalità di base dell'app | Il consiglio Connessione aiuta le organizzazioni a gestire le riunioni in modo più efficiente. Un Microsoft Teams app, associata a un team Microsoft, consente alle organizzazioni di creare riunioni, gestire agende, sondaggi, documenti e altro ancora. L'applicazione si integra anche con i Outlook e i gruppi di Office 365 per creare nuovi eventi di calendario e facilitare l'organizzazione e la gestione dell'evento da parte dei consigli di amministrazione. |
 | Sede centrale dell'azienda | Australia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://boardconnect.app](https://boardconnect.app) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Engage Squared su come questa app racc
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato immediatamente |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,14 +159,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegated | Per consentire all'app di aggiornare i calendari degli utenti in modo da riflettere le risposte di partecipazione alle riunioni inviate tramite l'app. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| Group.ReadWrite.All | delegated | Per consentire all'app di creare, aggiornare ed eliminare eventi del calendario di gruppo. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| Sites.Manage.All | delegated | Per consentire all'app di creare elenchi e raccolte, gestire gli elementi di elenco e i documenti in una raccolta siti del team. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| User.Read | delegated | Per consentire agli utenti di accedere all'app e consentire all'app di leggere il profilo dell'utente attualmente connesso. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| User.ReadBasic.All | delegated | Per consentire all'app di leggere un set di base di proprietà del profilo di altri utenti per conto dell'utente connesso, per visualizzarlo nell'app. Sono inclusi nome visualizzato, nome e cognome, indirizzo di posta elettronica e foto. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
->| offline_access | delegated | Per consentire all'app di ottenere un token di aggiornamento, che può usare per ottenere un nuovo token di accesso alla scadenza di quello corrente. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| Calendars.ReadWrite | delegated | Per consentire all'app di aggiornare i calendari degli utenti in modo da riflettere le risposte di partecipazione alle riunioni inviate tramite l'app. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
+>| Group.ReadWrite.All | delegated | Per consentire all'app di creare, aggiornare ed eliminare eventi del calendario di gruppo. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
+>| Sites.Manage.All | delegated | Per consentire all'app di creare elenchi e raccolte, gestire gli elementi di elenco e i documenti in una raccolta siti del team. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
+>| User.Read | delegated | Per consentire agli utenti di accedere all'app e consentire all'app di leggere il profilo dell'utente attualmente connesso. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
+>| User.ReadBasic.All | delegated | Per consentire all'app di leggere un set di base di proprietà del profilo di altri utenti per conto dell'utente connesso, per visualizzarlo nell'app. Sono inclusi nome visualizzato, nome e cognome, indirizzo di posta elettronica e foto. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
+>| offline_access | delegated | Per consentire all'app di ottenere un token di aggiornamento, che può usare per ottenere un nuovo token di accesso alla scadenza di quello corrente. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](../azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

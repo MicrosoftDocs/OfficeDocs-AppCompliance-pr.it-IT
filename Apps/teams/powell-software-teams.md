@@ -2,18 +2,19 @@
 title: Application Information for Powell Teams by Powell Software
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Powell Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4ba6c53634c49e2609769315ea94efefedc4e43a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7245730e77597a9d22c387f3001990786ea1f827
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259350"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550074"
 ---
 # <a name="powell-teams"></a>Powell Teams
 
@@ -38,10 +39,11 @@ Informazioni fornite da Powell Software a Microsoft:
 | Nome società partner | Powell Software |
 | Sito Web aziendale | [https://www.powell-software.com](https://www.powell-software.com) |
 | Condizioni per l'uso dell'app | [https://powell-software.com/en/powell-teams-terms-of-use/](https://powell-software.com/en/powell-teams-terms-of-use/) |
-| Funzionalità di base dell'app | L'app Powell Teams fornisce un dashboard intelligente per tutti i dipendenti dell'azienda, &amp; li aiuta a organizzare facilmente i tag di tutti i team, a individuare i team aziendali promossi più importanti e infine a usare modelli di team basati sui ruoli predefiniti per risparmiare tempo. È inoltre disponibile un'API per recuperare e utilizzare il set di dati nel database di Powell Teams (https://docapiteams.powell-software.com) Infine, è disponibile un connettore per app per la logica e Power Automate (https://docs.microsoft.com/en-us/connectors/powellteams) |
+| Funzionalità di base dell'app | L'app Powell Teams fornisce un dashboard intelligente per tutti i dipendenti dell'azienda, &amp; li aiuta a organizzare facilmente i tag di tutti i team, a individuare i team aziendali promossi più importanti e infine a usare modelli di team basati sui ruoli predefiniti per risparmiare tempo. È disponibile anche un'API per recuperare e utilizzare il set di dati nel database di Powell Teams (https://docapiteams.powell-software.com) Infine, è disponibile un connettore per app per la logica e Power Automate (https://docs.microsoft.com/en-us/connectors/powellteams) |
 | Sede centrale dell'azienda | Francia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://helpteams.powell-software.com](https://helpteams.powell-software.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Powell Software su come questa app rac
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato dopo 3 mesi |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,14 +159,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](https://docs.microsoft.com/microsoft-365-app-certification/azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4) |
->| Group.ReadWrite.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](https://docs.microsoft.com/microsoft-365-app-certification/azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4) |
->| Notes.Read.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](https://docs.microsoft.com/microsoft-365-app-certification/azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4) |
->| Notes.ReadWrite.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](https://docs.microsoft.com/microsoft-365-app-certification/azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4) |
->| Sites.Read.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](https://docs.microsoft.com/microsoft-365-app-certification/azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4) |
->| User.Read.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](https://docs.microsoft.com/microsoft-365-app-certification/azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4) |
+>| Directory.AccessAsUser.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Group.ReadWrite.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Notes.Read.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Notes.ReadWrite.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Sites.Read.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| User.Read.All | delegated | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

@@ -2,18 +2,19 @@
 title: Application Information for Fellow by Fellow Insights Inc
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Fellow, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c05c00736ba08bdcb663342ca6a692ead21ac83c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d1860bcfddfdc3de17b409014ff6a1a68cdf6286
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257832"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552885"
 ---
 # <a name="fellow"></a>Fellow
 
@@ -42,6 +43,7 @@ Informazioni fornite da Fellow Insights Inc a Microsoft:
 | Sede centrale dell'azienda | Canada |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Queste informazioni sono state fornite da Fellow Insights Inc su come questa app
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,18 +159,18 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | entrambi | Il collega si connette con i calendari dell'utente per fornire loro la possibilità di prendere appunti sui dati. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| Channel.ReadBasic.All | delegated | Raccogliamo i nomi dei canali di cui un utente è membro per mostrare loro un elenco di canali a cui possono inviare note. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| Directory.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I dati della directory vengono utilizzati per sincronizzare un elenco di utenti ed eseguire automaticamente il provisioning degli account. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| Group.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I dati della directory vengono utilizzati per sincronizzare un elenco di utenti ed eseguire automaticamente il provisioning degli account. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| People.Read | delegated | I contatti dell'utente vengono raccolti, in displayNames e indirizzi di posta elettronica specifici dei contatti. Questo viene usato all'interno di Fellow per fornire un elenco di utenti da invitare a invitare in una nota / condividere una nota con. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| People.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I contatti dell'utente vengono raccolti, in displayNames e indirizzi di posta elettronica specifici dei contatti. Questo viene usato all'interno di Fellow per fornire un elenco di utenti da invitare a invitare in una nota / condividere una nota con. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| Team.ReadBasic.All | delegated | Viene raccolto un elenco di team di cui fa parte l'utente. Questo viene usato all'interno di fellow allo scopo di consentire all'utente di inviare note da Fellow a un team. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| User.Read | delegated | Vengono raccolte le informazioni di base dell'utente. Nome utente, e-mail, posizione professionale. Queste informazioni vengono utilizzate all'interno di Fellow per creare account utente e account aziendali. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| User.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I dati della directory vengono utilizzati per sincronizzare un elenco di utenti ed eseguire automaticamente il provisioning degli account. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
->| offline_access | delegated | Token di aggiornamento dell'utente per mantenere l'accesso ai dati raccolti tramite altri ambiti. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
+>| Calendars.ReadWrite | entrambi | Il collega si connette con i calendari dell'utente per fornire loro la possibilità di prendere appunti sui dati. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| Channel.ReadBasic.All | delegated | Raccogliamo i nomi dei canali di cui un utente è membro per mostrare loro un elenco di canali a cui possono inviare note. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| Directory.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I dati della directory vengono utilizzati per sincronizzare un elenco di utenti ed eseguire automaticamente il provisioning degli account. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| Group.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I dati della directory vengono utilizzati per sincronizzare un elenco di utenti ed eseguire automaticamente il provisioning degli account. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| People.Read | delegated | I contatti dell'utente vengono raccolti, in displayNames e indirizzi di posta elettronica specifici dei contatti. Questo viene usato all'interno di Fellow per fornire un elenco di utenti da invitare a invitare in una nota / condividere una nota con. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| People.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I contatti dell'utente vengono raccolti, in displayNames e indirizzi di posta elettronica specifici dei contatti. Questo viene usato all'interno di Fellow per fornire un elenco di utenti da invitare a invitare in una nota / condividere una nota con. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| Team.ReadBasic.All | delegated | Viene raccolto un elenco di team di cui fa parte l'utente. Questo viene usato all'interno di fellow allo scopo di consentire all'utente di inviare note da Fellow a un team. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| User.Read | delegated | Vengono raccolte le informazioni di base dell'utente. Nome utente, e-mail, posizione professionale. Queste informazioni vengono utilizzate all'interno di Fellow per creare account utente e account aziendali. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| User.Read.All | application | Questi dati vengono raccolti solo se viene eseguita un'installazione dell'amministratore per l'intera organizzazione. I dati della directory vengono utilizzati per sincronizzare un elenco di utenti ed eseguire automaticamente il provisioning degli account. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| offline_access | delegated | Token di aggiornamento dell'utente per mantenere l'accesso ai dati raccolti tramite altri ambiti. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

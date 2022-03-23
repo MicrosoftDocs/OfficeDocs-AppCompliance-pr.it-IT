@@ -2,18 +2,19 @@
 title: Application Information for Webex Call by Cisco
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Webex Call, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1f693fc58e86a361a67b6bf12c67ed76b3e89f93
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: eee58bfc9168b571ac2e79b7320d40b973c8d2f0
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259802"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552985"
 ---
 # <a name="webex-call"></a>Webex Call
 
@@ -40,9 +41,8 @@ Informazioni fornite da Cisco a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.cisco.com/c/en/us/products/universal-cloud-agre...](https://www.cisco.com/c/en/us/products/universal-cloud-agreement.html) |
 | Funzionalità di base dell'app | Effettuare chiamate vocali e videochiamate Cisco Microsoft Teams con l'app Webex Call. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://help.webex.com/en-US/article/ngmx08cb/Webex-Call-in...](https://help.webex.com/en-US/article/ngmx08cb/Webex-Call-integration-with-Microsoft-Teams) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,14 +57,7 @@ Queste informazioni sono state fornite da Cisco su come questa app raccoglie e a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,10 +158,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Chat.ReadBasic | delegated | Leggere i membri del canale dei team in modo che l'utente possa selezionarli | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
->| Contacts.Read | delegated | Consente all'utente di creare chiamate veloci dall'elenco contatti | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| Chat.ReadBasic | delegated | Leggere i membri del canale dei team in modo che l'utente possa selezionarli | [9a7ce614-bdc8-4640-aaea-d8c626c58966](../azure/9a7ce614-bdc8-4640-aaea-d8c626c58966.md) |
+>| Contacts.Read | delegated | Consente all'utente di creare chiamate veloci dall'elenco contatti | [9a7ce614-bdc8-4640-aaea-d8c626c58966](../azure/9a7ce614-bdc8-4640-aaea-d8c626c58966.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

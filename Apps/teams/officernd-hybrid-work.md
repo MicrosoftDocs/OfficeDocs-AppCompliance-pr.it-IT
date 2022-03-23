@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per il lavoro ibrido di OfficeRnD da parte di OfficeRnD
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/11/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per OfficeRnD Hybrid Work, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e conformità disponibili per OfficeRnD Hybrid Work, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fe358c23c75f4238bdfe7b44d57a649be7eb7bb9
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: fbd0b834f82f73ce13c2b9e4292cf83bf69ad1b9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148234"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552045"
 ---
 # <a name="officernd-hybrid-work"></a>OfficeRnD Hybrid Work
 
@@ -40,7 +41,7 @@ Informazioni fornite da OfficeRnD a Microsoft:
 | Condizioni per l'uso dell'app | [https://officernd.com/terms](https://officernd.com/terms) |
 | Funzionalità di base dell'app | Consente ai dipendenti di trovare e prenotare rapidamente scrivanie, sale riunioni e altri spazi. |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://www.officernd.com/hybrid-workplace-management-softw...](https://www.officernd.com/hybrid-workplace-management-software/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | Aws |
 
@@ -57,14 +58,7 @@ Queste informazioni sono state fornite da OfficeRnD su come questa app raccoglie
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

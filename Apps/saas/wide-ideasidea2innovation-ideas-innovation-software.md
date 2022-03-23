@@ -2,18 +2,19 @@
 title: Application Information for Wide Ideas - Innovation Software by Wide Ideas/Idea2Innovation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Wide Ideas - Innovation Software, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Wide Ideas - Innovation Software, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d5bbf1d032d5537dab0775522f80d83a472db661
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 60d577d402e68c31f10ed0e5f73ea92f047dfc73
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251202"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550825"
 ---
 # <a name="wide-ideas---innovation-software"></a>Idee ampie - Software per l'innovazione
 
@@ -40,7 +41,6 @@ Informazioni fornite da Wide Ideas/Idea2Innovazione a Microsoft:
 | Sede centrale dell'azienda | Svezia |
 | Pagina delle informazioni dell'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
-| Quali provider di cloud di hosting usa l'app? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -166,14 +166,14 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD'ID app** |
+>|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | delegated | consente all'interfaccia di amministrazione di Wide Ideas di creare un canale in qualsiasi team, per conto dell'utente connesso.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| Directory.Read.All | delegated | consente all'interfaccia di amministrazione di Wide Ideas di leggere i dati nell'organizzazione&#8217;directory, ad esempio utenti, gruppi e app | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| Group.Read.All | delegated | consente all'interfaccia di amministrazione di Wide Ideas di elencare i gruppi e di leggere le proprietà e tutte le appartenenze ai gruppi per conto dell'utente connesso | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| TeamsAppInstallation.ReadWriteForTeam | delegated | consente all'interfaccia di amministrazione di Wide Ideas di leggere, installare, aggiornare e disinstallare le app Teams nei team a cui l'utente connesso può accedere.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| TeamsTab.Create | delegated |  consente all'interfaccia di amministrazione di Wide Ideas di creare schede in qualsiasi team Microsoft Teams, per conto dell'utente connesso. | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| User.Read | delegated | consente agli utenti di accedere all'interfaccia di amministrazione di Wide Ideas e consente all'app di leggere il profilo degli utenti connessi.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| Channel.Create | delegated | consente all'interfaccia di amministrazione di Wide Ideas di creare un canale in qualsiasi team, per conto dell'utente connesso.  | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| Directory.Read.All | delegated | consente all'interfaccia di amministrazione di Wide Ideas di leggere i dati nell'organizzazione&#8217;directory, ad esempio utenti, gruppi e app | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| Group.Read.All | delegated | consente all'interfaccia di amministrazione di Wide Ideas di elencare i gruppi e di leggere le proprietà e tutte le appartenenze ai gruppi per conto dell'utente connesso | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| TeamsAppInstallation.ReadWriteForTeam | delegated | consente all'interfaccia di amministrazione di Wide Ideas di leggere, installare, aggiornare e disinstallare le app Teams nei team a cui l'utente connesso può accedere.  | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| TeamsTab.Create | delegated |  consente all'interfaccia di amministrazione di Wide Ideas di creare schede in qualsiasi team in Microsoft Teams, per conto dell'utente connesso. | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| User.Read | delegated | consente agli utenti di accedere all'interfaccia di amministrazione di Wide Ideas e consente all'app di leggere il profilo degli utenti connessi.  | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

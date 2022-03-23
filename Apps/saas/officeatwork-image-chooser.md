@@ -2,18 +2,19 @@
 title: Application Information for Image Chooser by officeatwork
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Selezione immagini, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a6db0aefd3416cb0d4d0478723eb55fe642ffa48
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 20904bd3420fed7cfd504c99d7c2599e20515c01
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251292"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552995"
 ---
 # <a name="image-chooser"></a>Selezione immagini
 
@@ -37,7 +38,7 @@ Informazioni fornite da officeatwork a Microsoft:
 | Condizioni per l'uso dell'app | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 | Funzionalità di base dell'app | Image Bank per M365 | Accedere alle immagini condivise centralmente in Word, Excel, PowerPoint e altre app |
 | Sede centrale dell'azienda | Svizzera |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | Azure |
 
@@ -56,14 +57,7 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
 | Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +65,7 @@ Queste informazioni sono state fornite dall'ufficio sul modo in cui questa app r
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalogo vengono visualizzate di seguito.
+Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -168,15 +162,15 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite.All | delegated | Abilita preferiti e OneDrive funzionalità | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| Group.ReadWrite.All | delegated | Abilita Teams funzionalità | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| GroupMember.Read.All | delegated | Abilita Teams funzionalità | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| Sites.Read.All | delegated | Leggere i file modello degli utenti archiviati in SharePoint | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| openid | delegated | Abilitare l'accesso | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
->| profile | delegated | Abilitare l'accesso | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](https://docs.microsoft.com/microsoft-365-app-certification/azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3) |
+>| Files.ReadWrite.All | delegated | Abilita preferiti e OneDrive funzionalità | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](../azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3.md) |
+>| Group.ReadWrite.All | delegated | Abilita Teams funzionalità | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](../azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3.md) |
+>| GroupMember.Read.All | delegated | Abilita Teams funzionalità | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](../azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3.md) |
+>| Sites.Read.All | delegated | Leggere i file modello degli utenti archiviati in SharePoint | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](../azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3.md) |
+>| User.Read | delegated | Abilitare la visualizzazione dell'utente connesso | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](../azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3.md) |
+>| User.Read.All | delegated | Abilitare la visualizzazione delle proprietà utente | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](../azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3.md) |
+>| offline_access | delegated | Abilitare l'accesso automatico per gli host Office meno recenti | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](../azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3.md) |
+>| openid | delegated | Abilitare l'accesso | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](../azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3.md) |
+>| profile | delegated | Abilitare l'accesso | [e8bea835-c6b0-45aa-9c39-889d3c77d5a3](../azure/e8bea835-c6b0-45aa-9c39-889d3c77d5a3.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

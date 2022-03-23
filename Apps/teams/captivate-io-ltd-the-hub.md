@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Captivate Hub by Captivate IO Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per l'hub Captivate, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per l'hub Captivate, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b6e6f108456dff5759d7b7b0505fd9d33fd97a56
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b809799dd2d5f20b347005d164218055462318dc
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155473"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551625"
 ---
 # <a name="the-captivate-hub"></a>The Captivate Hub
 
@@ -40,7 +41,7 @@ Informazioni fornite da Captivate IO Ltd a Microsoft:
 | Condizioni per l'uso dell'app | [https://captivat.io/tos](https://captivat.io/tos) |
 | Funzionalità di base dell'app | Captivate Hub è un sistema estensibile senza codice progettato per supportare conversazioni umane/computer su più canali. Supporta assistenti digitali multi-fornitore e numerose soluzioni di chat live. |
 | Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://manual.captivat.io/docs/teams](https://manual.captivat.io/docs/teams) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di cloud di hosting usa l'app? | IBMCloud |
 

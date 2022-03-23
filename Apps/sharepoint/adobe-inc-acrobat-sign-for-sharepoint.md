@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Adobe Acrobat Sign per SharePoint da Adobe Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Adobe Acrobat Sign for SharePoint, i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4839a19d8a616ae4d5e71850c28e6eefaca3028a
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: d7c8f5754741fc8443bfc25443918267333cd0f7
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081297"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550795"
 ---
 # <a name="adobe-acrobat-sign-for-sharepoint"></a>Adobe Acrobat Sign for SharePoint
 
@@ -38,8 +39,9 @@ Informazioni fornite da Adobe Inc. a Microsoft:
 | Condizioni per l'uso dell'app | [https://www.adobe.com/legal/licenses-terms.html](https://www.adobe.com/legal/licenses-terms.html) |
 | Funzionalità di base dell'app | Mantenere veloci i flussi di lavoro per la firma dei documenti quando si aggiunge Adobe Sign Teams. Ora, proprio in Teams, è possibile firmare i documenti, inviarli per le firme elettroniche legalmente vincolanti e le approvazioni &#8212; tutto con la soluzione di firma elettronica preferita di Microsoft. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni dell'app | [https://helpx.adobe.com/sign/using/microsoft-sharepoint-use...](https://helpx.adobe.com/sign/using/microsoft-sharepoint-user-guide.html) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Quali provider di cloud di hosting usa l'app? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -54,14 +56,7 @@ Queste informazioni sono state fornite da Adobe Inc. Su come questa app raccogli
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? |  |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? |  |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? |  |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Eliminato entro un mese |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? |  |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? |  |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -164,7 +159,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | delegated | Per ottenere il ruolo utente e convalidare se all'utente viene concessa una determinata autorizzazione per la funzionalità dell'applicazione. | [99a3ad8d-8682-4f2a-9c2c-b4b27e99585c](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a3ad8d-8682-4f2a-9c2c-b4b27e99585c) |
+>| Directory.Read.All | delegated | Per ottenere il ruolo utente e convalidare se all'utente viene concessa una determinata autorizzazione per la funzionalità dell'applicazione. | [99a3ad8d-8682-4f2a-9c2c-b4b27e99585c](../azure/99a3ad8d-8682-4f2a-9c2c-b4b27e99585c.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
