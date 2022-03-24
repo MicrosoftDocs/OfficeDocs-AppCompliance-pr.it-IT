@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per TeamMate di ChitChattr di ChitChattr
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per TeamMate di ChitChattr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9e12f758f81980d155f769e14323556e73c67fab
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 64d99813e4c76f06a776f5882fac52d9eea8285a
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430858"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753551"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -32,7 +33,7 @@ Informazioni fornite da ChitChattr a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | TeamMate by ChitChattr |
+| Nome dell'app | TeamMate by ChitChattr |
 | ID | WA200002530 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | ChitChattr |
@@ -53,18 +54,18 @@ Queste informazioni sono state fornite da ChitChattr su come questa app raccogli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD ID app** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| People.Read | delegated | L'app consente agli amministratori di scegliere gli utenti a cui assegnare esperienze specifiche, quindi deve archiviare il nome, la posta elettronica e l'ID oggetto Azure AD utente | L'app consente agli amministratori di scegliere gli utenti a cui assegnare esperienze specifiche, quindi deve archiviare il nome, la posta elettronica e l'ID oggetto Azure AD utente | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50) |
+>| People.Read | delegated | L'app consente agli amministratori di scegliere gli utenti a cui assegnare esperienze specifiche, quindi deve archiviare il nome, la posta elettronica e l'ID oggetto Azure AD utente | L'app consente agli amministratori di scegliere gli utenti a cui assegnare esperienze specifiche, quindi deve archiviare il nome, la posta elettronica e l'ID oggetto Azure AD utente | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](../azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50.md) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -72,7 +73,7 @@ Se questa app contiene un bot o un'estensione di messaggistica, può accedere al
 
 >| **Giustificazione per l'accesso a EUII?**  | **L'EUII è archiviato nei database?** | **Giustificazione per l'archiviazione di EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| In caso di problemi, il bot ricercherà e mostrerà all'utente i nomi e i dettagli di contatto degli utenti registrati come amministratori nell'app (essenzialmente contatta l'amministratore- ecco chi &quot; &quot; sono) | Name, Email | Come descritto nelle sezioni precedenti, per poter identificare gli utenti per le esperienze mirate (in base alla configurazione dell'amministratore) e per consentire agli utenti di vedere chi sono gli amministratori interni dell'azienda per l'app. |
+>| In caso di problemi, il bot ricercherà e mostrerà all'utente i nomi e i dettagli di contatto degli utenti registrati come amministratori nell'app ( &quot;essenzialmente contattare l'amministratore- questo è chi sono&quot;) | Name, Email | Come descritto nelle sezioni precedenti, per poter identificare gli utenti per le esperienze mirate (in base alla configurazione dell'amministratore) e per consentire agli utenti di vedere chi sono gli amministratori interni dell'azienda per l'app. |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
@@ -101,7 +102,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320" target="_blank">Visualizzazione in una nuova scheda</a>
 

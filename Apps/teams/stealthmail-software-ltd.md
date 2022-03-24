@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per StealthMail by Stealthmail Software Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per StealthMail, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d7a0a738c475111a237720f329d1728d15d1f8fb
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 53b80f2835bbea55ccd2d571fead808dca70ba05
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428863"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752529"
 ---
 # <a name="stealthmail"></a>StealthMail
 
@@ -32,7 +33,7 @@ Informazioni fornite da Stealthmail Software Ltd a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | StealthMail |
+| Nome dell'app | StealthMail |
 | ID | WA200001748 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Stealthmail Software Ltd |
@@ -53,24 +54,24 @@ Queste informazioni sono state fornite da Stealthmail Software Ltd su come quest
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD ID app** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| ChannelMessage.Read.All | delegated | L'applicazione invia il messaggio al canale con il riferimento alla posta elettronica protetta creata | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
->| ChannelMessage.Send | delegated | L'applicazione invia il messaggio al canale con il riferimento alla posta elettronica protetta creata | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
->| Chat.ReadWrite | delegated | L'applicazione invia il messaggio alla chat con il riferimento alla posta elettronica protetta creata | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
->| GroupMember.Read.All | delegated | L'applicazione ottiene i membri del canale per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
->| User.Read.All | delegated | L'applicazione ottiene i membri della chat per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
->| User.ReadBasic.All | delegated | L'applicazione ottiene i membri della chat per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
->| email | delegated | Autentica utente | nothing store in database | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
+>| ChannelMessage.Read.All | delegated | L'applicazione invia il messaggio al canale con il riferimento alla posta elettronica protetta creata | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| ChannelMessage.Send | delegated | L'applicazione invia il messaggio al canale con il riferimento alla posta elettronica protetta creata | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| Chat.ReadWrite | delegated | L'applicazione invia il messaggio alla chat con il riferimento alla posta elettronica protetta creata | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| GroupMember.Read.All | delegated | L'applicazione ottiene i membri del canale per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| User.Read.All | delegated | L'applicazione ottiene i membri della chat per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| User.ReadBasic.All | delegated | L'applicazione ottiene i membri della chat per rendere sicura la posta elettronica per loro | nothing | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
+>| email | delegated | Autentica utente | nothing store in database | [1ed0a549-c730-44c7-a984-a8c658fe9807](../azure/1ed0a549-c730-44c7-a984-a8c658fe9807.md) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
 Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -105,7 +106,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37867' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37867' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37867" target="_blank">Visualizzazione in una nuova scheda</a>
 

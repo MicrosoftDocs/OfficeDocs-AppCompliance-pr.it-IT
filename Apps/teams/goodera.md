@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Goodera di Goodera
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Goodera, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8a2edbd7962434cf3525b9ca262ead552bb86640
-ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
+ms.openlocfilehash: f44ae5b38928d1bb89fd78c8ae9cd43dc732e7c7
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62338070"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752200"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -32,7 +33,7 @@ Informazioni fornite da Goodera a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Goodera |
+| Nome dell'app | Goodera |
 | ID | WA200002136 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Goodera |
@@ -52,7 +53,7 @@ Queste informazioni sono state fornite da Goodera su come questa app raccoglie e
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 

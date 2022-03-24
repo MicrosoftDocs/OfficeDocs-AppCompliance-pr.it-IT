@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per Reach by LiveTiles
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Reach, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Reach, i relativi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 882e5bdff55a1217c39b8f97761a28eba92d0036
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: c58462500079df7f7b8b2736eec9289443df4a4c
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430818"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753744"
 ---
 # <a name="reach"></a>Reach
 
@@ -32,7 +33,7 @@ Informazioni fornite da LiveTiles a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Reach |
+| Nome dell'app | Reach |
 | ID | WA200002045 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | LiveTiles |
@@ -53,20 +54,20 @@ Queste informazioni sono state fornite da LiveTiles su come questa app raccoglie
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD ID app** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| TeamsActivity.Send | application | Nessuno | Nessuno | [a7c1920d-3ac0-42db-9757-078a2b321fd8 ](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7c1920d-3ac0-42db-9757-078a2b321fd8 ) |
->| User.Read | delegated | User DisplayName, User Email Address, UPN. Obbligatorio per consentire agli utenti di accedere all'app e ottenere le informazioni di base dell'utente connesso, ad esempio il nome visualizzato. L'indirizzo di posta elettronica viene utilizzato per inviare notifiche tramite posta elettronica.  | User DisplayName, User Email Address, UPN. Obbligatorio per consentire agli utenti di accedere all'app e ottenere le informazioni di base dell'utente connesso, ad esempio il nome visualizzato. L'indirizzo di posta elettronica viene utilizzato per inviare notifiche tramite posta elettronica.  | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
->| User.ReadBasic.All | delegated | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Telefono Number, User Business Telefono Number, User Office Location. Obbligatorio per consentire agli utenti di cercare altri utenti all'interno dell'app (Rubrica telefonica) e visualizzare le informazioni di contatto e il profilo di base di altri utenti.  | nessuno | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
->| Directory.Read.All | application | Appartenenza a gruppi, Gruppi di Active Directory in Directory. L'appartenenza a gruppi di utenti viene archiviata in una cache per ridurre al minimo le chiamate all'API Graph Microsoft. Obbligatorio per consentire agli utenti di cercare gruppi di Active Directory. Inoltre, questa autorizzazione è necessaria per consentire all'applicazione di risolvere l'appartenenza al gruppo ACTIVE degli utenti nei processi Web del back-end. | Appartenenza a un gruppo di utenti. L'appartenenza a gruppi di utenti viene archiviata in una cache per ridurre al minimo le chiamate all'API Graph Microsoft. Obbligatorio per consentire agli utenti di cercare gruppi di Active Directory. Inoltre, questa autorizzazione è necessaria per consentire all'applicazione di risolvere l'appartenenza al gruppo ACTIVE degli utenti nei processi Web del back-end.  | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
->| User.Read.All | application | I dati recuperati dal profilo utente dipendono dalla configurazione della funzionalità Di destinazione del gruppo di destinatari specificata nell'app. Obbligatorio per consentire all'app di leggere i profili utente senza un utente connesso. La lettura dei dati del profilo è necessaria per la funzionalità di destinazione delle informazioni all'interno dell'applicazione, in modo che le informazioni vengono visualizzate a utenti specifici in base a un valore di proprietà del profilo specifico.  | nessuno | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
+>| TeamsActivity.Send | application | Nessuno | Nessuno | [a7c1920d-3ac0-42db-9757-078a2b321fd8 ](../azure/a7c1920d-3ac0-42db-9757-078a2b321fd8.md ) |
+>| User.Read | delegated | User DisplayName, User Email Address, UPN. Obbligatorio per consentire agli utenti di accedere all'app e ottenere le informazioni di base dell'utente connesso, ad esempio il nome visualizzato. L'indirizzo di posta elettronica viene utilizzato per inviare notifiche tramite posta elettronica.  | User DisplayName, User Email Address, UPN. Obbligatorio per consentire agli utenti di accedere all'app e ottenere le informazioni di base dell'utente connesso, ad esempio il nome visualizzato. L'indirizzo di posta elettronica viene utilizzato per inviare notifiche tramite posta elettronica.  | [d492530a-8cff-481c-90da-9c3c3f1be7da](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md) |
+>| User.ReadBasic.All | delegated | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Telefono Number, User Business Telefono Number, User Office Location. Obbligatorio per consentire agli utenti di cercare altri utenti all'interno dell'app (Rubrica telefonica) e visualizzare le informazioni di contatto e il profilo di base di altri utenti.  | nessuno | [d492530a-8cff-481c-90da-9c3c3f1be7da](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md) |
+>| Directory.Read.All | application | Appartenenza a gruppi, Gruppi di Active Directory in Directory. L'appartenenza a gruppi di utenti viene archiviata in una cache per ridurre al minimo le chiamate all'API microsoft Graph. Obbligatorio per consentire agli utenti di cercare gruppi di Active Directory. Inoltre, questa autorizzazione è necessaria per consentire all'applicazione di risolvere l'appartenenza al gruppo ACTIVE degli utenti nei processi Web del back-end. | Appartenenza a un gruppo di utenti. L'appartenenza a gruppi di utenti viene archiviata in una cache per ridurre al minimo le chiamate all'API microsoft Graph. Obbligatorio per consentire agli utenti di cercare gruppi di Active Directory. Inoltre, questa autorizzazione è necessaria per consentire all'applicazione di risolvere l'appartenenza al gruppo ACTIVE degli utenti nei processi Web del back-end.  | [d492530a-8cff-481c-90da-9c3c3f1be7da ](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md ) |
+>| User.Read.All | application | I dati recuperati dal profilo utente dipendono dalla configurazione della funzionalità Di destinazione del gruppo di destinatari specificata nell'app. Obbligatorio per consentire all'app di leggere i profili utente senza un utente connesso. La lettura dei dati del profilo è necessaria per la funzionalità di destinazione delle informazioni all'interno dell'applicazione, in modo che le informazioni vengono visualizzate a utenti specifici in base a un valore di proprietà del profilo specifico.  | nessuno | [d492530a-8cff-481c-90da-9c3c3f1be7da ](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md ) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
@@ -105,7 +106,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36551' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36551' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36551" target="_blank">Visualizzazione in una nuova scheda</a>
 
