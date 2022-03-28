@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per PandaDoc, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7cfd701c52bfc076fb1352bac439479426bc8475
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 32e31e9939444901b3c5cf44ac512d1958c13cd2
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63549674"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64458249"
 ---
 # <a name="pandadoc"></a>PandaDoc
 
@@ -33,7 +33,7 @@ Informazioni fornite da PandaDoc a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | PandaDoc |
+| Nome dell'app | PandaDoc |
 | ID | WA200002927 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | PandaDoc |
@@ -169,8 +169,8 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 >| Files.Read | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| Files.Read.All | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| Files.Read.Selected | entrambi | per l'utente sso da Tab (esempio - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necessario per ottenere un token utente con accesso a Microsoft Graph e ottenere ulteriormente i file utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
->| Group.Read.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. Documentazione - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
->| Group.ReadWrite.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. Documentazione - https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Group.Read.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. Documentazione - https://docs.microsoft.com/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Group.ReadWrite.All | entrambi | per ottenere un elenco di ID di canali per ogni comando ricevuto in precedenza e ottenere gli ID unità file per ogni canale. Documentazione - https://docs.microsoft.com/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| Team.ReadBasic.All | entrambi | per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| TeamSettings.Read.All | entrambi | Per ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| TeamSettings.ReadWrite.All | entrambi | o ottenere gli ID dei team in Microsoft Teams di cui l'utente è un membro diretto. Successivamente, i canali di ricezione per ogni identificatore di comando. Per ottenere gli ID dell'insieme di credenziali dei file, è innanzitutto necessario ottenere un elenco dei team immessi dall'utente. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |

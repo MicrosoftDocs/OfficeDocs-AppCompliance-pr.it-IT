@@ -1,26 +1,27 @@
 ---
-title: Che cos'Publisher attestazione?
+title: Che cos'è Publisher attestazione?
 author: LGerrard
 ms.author: legerrar
-description: Ulteriori dettagli sul programma di Publisher di attestazione
+manager: tonybal
+description: Ulteriori dettagli sul programma Publisher attestazione
 keywords: app attestation certification 365 questionnaire appSource publisher
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c49279c827ed0ac39e49b07aabd01baaab9f8e5e
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282619"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457209"
 ---
-# <a name="what-is-publisher-attestation"></a>Che cos'Publisher attestazione?
+# <a name="what-is-publisher-attestation"></a>Che cos'è Publisher attestazione?
 
-Publisher L'attestazione è il livello successivo nel Microsoft 365 App Compliance Program. Allo sviluppatore dell'app viene richiesto di completare un'autovalutazione che include le domande frequenti poste dai clienti o dagli amministratori IT quando valutano la sicurezza e la conformità di un'app. Microsoft pubblica quindi queste informazioni per una valutazione più facile e più veloce.
+Publisher l'attestazione è il livello successivo nel programma Microsoft 365 App Compliance Program. Allo sviluppatore dell'app viene richiesto di completare un'autovalutazione che include le domande frequenti poste dai clienti o dagli amministratori IT quando valutano la sicurezza e la conformità di un'app. Microsoft pubblica quindi queste informazioni per una valutazione più facile e più veloce.
 
 > [!IMPORTANT]
 > Microsoft non convalida tutte le informazioni fornite. Lo sviluppatore dell'app è l'unico responsabile delle informazioni fornite nell'attestazione dell'autore. 
 
-Publisher L'attestazione si applica alle app Web (app SaaS pubblicate tramite marketplace commerciale nel Centro per i partner). Le app SaaS sono attualmente in un'anteprima privata, se sei interessato a partecipare compila questo [modulo.](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu) L'attestazione include anche tutte le app che si integrano con i seguenti prodotti Microsoft:
+Publisher'attestazione si applica alle app Web (app SaaS pubblicate tramite marketplace commerciale nel Centro per i partner). Le app SaaS sono attualmente in un'anteprima privata, se sei interessato a partecipare compila questo [modulo](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu). L'attestazione include anche tutte le app che si integrano con i seguenti prodotti Microsoft:
 
 - Teams
 - Word
@@ -32,7 +33,7 @@ Publisher L'attestazione si applica alle app Web (app SaaS pubblicate tramite ma
 - OneNote
 
 ### <a name="benefits-for-it-admins"></a>Vantaggi per gli amministratori IT
-I vantaggi derivanti dal completamento dell'attestazione Publisher per gli amministratori IT includono:
+I vantaggi del completamento dell'attestazione Publisher per gli amministratori IT includono:
 -   Maggiore sicurezza nelle misure di sicurezza e conformità delle applicazioni abilitate nell'organizzazione
 -   Tempo ridotto per esaminare la sicurezza e la conformità di un'app
 
@@ -47,7 +48,7 @@ I vantaggi del completamento dell'attestazione Publisher per gli sviluppatori in
 -   Qualificazione per l'avvio della Microsoft 365 di certificazione
 
 
-## <a name="publisher-attestation-scope"></a>Publisher Ambito attestazione
+## <a name="publisher-attestation-scope"></a>Publisher di attestazione
 
 Il processo di attestazione si occupa di un ampio questionario che dettaglia gli attributi di sicurezza, gestione dei dati e conformità di un'app. Le informazioni fornite riguardano l'intera funzionalità dell'app esposta quando l'app viene attivata nella piattaforma di Microsoft 365 di un'organizzazione e includono quanto segue:
 
@@ -58,7 +59,7 @@ Il processo di attestazione si occupa di un ampio questionario che dettaglia gli
 
 ### <a name="confirmation-criteria"></a>Criteri di conferma
 
-L'attestazione rifletterà le procedure di sicurezza, gestione dei dati e conformità di un'app rispetto a più di 80 fattori di rischio identificati da [Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security). Se l'invio della documentazione di attestazione iniziale non supera i criteri di test di coerenza di base, l'attestazione non verrà approvata. Dopo l'approvazione, se viene segnalata o individuata una disinformazione errata nell'invio della documentazione o un errore dell'app, lo stato di conferma dell'attestazione verrà revocato. In entrambi i caso, lo sviluppatore riceverà informazioni pertinenti e dettagliate per facilitare il processo di correzione.
+L'attestazione rifletterà le procedure di sicurezza, gestione dei dati e conformità di un'app rispetto a più di 80 fattori di rischio identificati da [Microsoft Cloud App Security.](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) Se l'invio della documentazione di attestazione iniziale non supera i criteri di test di coerenza di base, l'attestazione non verrà approvata. Dopo l'approvazione, se viene segnalata o individuata una disinformazione errata nell'invio della documentazione o un errore dell'app, lo stato di conferma dell'attestazione verrà revocato. In entrambi i caso, lo sviluppatore riceverà informazioni pertinenti e dettagliate per facilitare il processo di correzione.
 
 ### <a name="confirmation-time-frame"></a>Intervallo di tempo di conferma
 
@@ -70,9 +71,9 @@ Lo sviluppatore può esaminare informazioni dettagliate sui risultati dell'attes
 
 **Vedi la [presentazione MIPA](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas) per un esempio di app che ha completato la Publisher attestazione.** 
 
-## <a name="learn-more"></a>Scopri di più
+## <a name="learn-more"></a>Ulteriori informazioni
 
-* [Microsoft 365 Panoramica del programma di conformità delle app](~/overview.md)
+* [Microsoft 365 panoramica del programma di conformità delle app](~/overview.md)
 * [Che cos'è Publisher verifica](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
 * [Attestazione Publisher completa](~/docs/attestation.md)  
 * [Che cos'è Microsoft 365 certificazioni?](~/docs/enterprise-app-certification-guide.md)

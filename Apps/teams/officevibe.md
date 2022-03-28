@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e conformità disponibili per Officevibe, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c96f4bc23b5f1201567276c64de7ff411746c105
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: fffda2392deb49081516387a0987d9ff711f327d
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753732"
+ms.locfileid: "63773507"
 ---
 # <a name="officevibe"></a>Officevibe
 
@@ -54,15 +54,15 @@ Queste informazioni sono state fornite da Officevibe su come questa app raccogli
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph microsoft necessarie](/graph/permissions-reference) per questa app.
 
 >| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD ID app** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | delegated | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
->| Group.Read.All | delegated | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
->| TeamsAppInstallation.ReadWriteForUser | delegated | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
->| User.Read | delegated | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
->| User.Read.All | delegated | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
+>| Directory.AccessAsUser.All | delegated | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d |
+>| Group.Read.All | delegated | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d |
+>| TeamsAppInstallation.ReadWriteForUser | delegated | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d |
+>| User.Read | delegated | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d |
+>| User.Read.All | delegated | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | Posta elettronica, Nome, Immagine: per creare l'utente in Officevibe. Gruppo collegato a tutti gli utenti: per avere una panoramica dell'organizzazione. Tenant ID &amp; Tenant Name: To setup organization in Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -106,7 +106,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35160' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35160' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35160" target="_blank">Visualizzazione in una nuova scheda</a>
 
