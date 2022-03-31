@@ -1,21 +1,21 @@
 ---
-title: app Azure ID utente Informazioni per 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
+title: Informazioni sull'ID app di Azure per 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/26/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per 9af6eceb-6a8b-4710-b51d-dde2ac01cc71.
-ms.openlocfilehash: c9e29400afa6387bc8546ddcce43fd7646e7217d
-ms.sourcegitcommit: 890a5b31f2a31a7747d88f0f3f203c0551440293
+ms.openlocfilehash: 9ecd30789c87afc212651be5b495d18ab789d9a3
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64511545"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461569"
 ---
-# <a name="azure-app-id-9af6eceb-6a8b-4710-b51d-dde2ac01cc71"></a>app Azure: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
+# <a name="azure-app-id-9af6eceb-6a8b-4710-b51d-dde2ac01cc71"></a>ID app azure: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 
 
 ### <a name="apps-associated-with-this-id"></a>App associate a questo ID:

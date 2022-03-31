@@ -1,21 +1,21 @@
 ---
-title: Informazioni sull'ID app di Azure per a9b0c190-bafb-49ca-a61a-dab99cf2c43b
+title: app Azure ID utente Informazioni per a9b0c190-bafb-49ca-a61a-dab99cf2c43b
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/25/2022
+ms.date: 03/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per a9b0c190-bafb-49ca-a61a-dab99cf2c43b.
-ms.openlocfilehash: a31173cbf5e010ee73589a06e93000f0ce74c3e9
-ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
+ms.openlocfilehash: d7448a9e089ebf350da6e7c14ac455c7d9349abb
+ms.sourcegitcommit: 890a5b31f2a31a7747d88f0f3f203c0551440293
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64458819"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64517258"
 ---
-# <a name="azure-app-id-a9b0c190-bafb-49ca-a61a-dab99cf2c43b"></a>ID app azure: a9b0c190-bafb-49ca-a61a-dab99cf2c43b
+# <a name="azure-app-id-a9b0c190-bafb-49ca-a61a-dab99cf2c43b"></a>app Azure ID: a9b0c190-bafb-49ca-a61a-dab99cf2c43b
 
 
 ### <a name="apps-associated-with-this-id"></a>App associate a questo ID:

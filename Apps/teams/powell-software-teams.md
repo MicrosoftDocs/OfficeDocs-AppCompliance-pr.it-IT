@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Powell Teams, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7245730e77597a9d22c387f3001990786ea1f827
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 7fffe34f51520ebec1cc5dce2761ce59269b0e35
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63550074"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462929"
 ---
 # <a name="powell-teams"></a>Powell Teams
 
@@ -33,13 +33,13 @@ Informazioni fornite da Powell Software a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Powell Teams |
+| Nome dell'app | Powell Teams |
 | ID | WA200001585 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Powell Software |
 | Sito Web aziendale | [https://www.powell-software.com](https://www.powell-software.com) |
 | Condizioni per l'uso dell'app | [https://powell-software.com/en/powell-teams-terms-of-use/](https://powell-software.com/en/powell-teams-terms-of-use/) |
-| Funzionalità di base dell'app | L'app Powell Teams fornisce un dashboard intelligente per tutti i dipendenti dell'azienda, &amp; li aiuta a organizzare facilmente i tag di tutti i team, a individuare i team aziendali promossi più importanti e infine a usare modelli di team basati sui ruoli predefiniti per risparmiare tempo. È disponibile anche un'API per recuperare e utilizzare il set di dati nel database di Powell Teams (https://docapiteams.powell-software.com) Infine, è disponibile un connettore per app per la logica e Power Automate (https://docs.microsoft.com/en-us/connectors/powellteams) |
+| Funzionalità di base dell'app | L'app Powell Teams fornisce un dashboard intelligente per tutti i dipendenti dell'azienda, &amp; li aiuta a organizzare facilmente i tag di tutti i team, a individuare i team aziendali promossi più importanti e infine a usare modelli di team basati sui ruoli predefiniti per risparmiare tempo. È disponibile anche un'API per recuperare e utilizzare il set di dati nel database di Powell Teams (https://docapiteams.powell-software.com) Infine, è disponibile un connettore per app per la logica e Power Automate (https://docs.microsoft.com/connectors/powellteams) |
 | Sede centrale dell'azienda | Francia |
 | Pagina delle informazioni dell'app | [https://helpteams.powell-software.com](https://helpteams.powell-software.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |

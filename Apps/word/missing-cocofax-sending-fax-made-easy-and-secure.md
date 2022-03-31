@@ -2,18 +2,19 @@
 title: Informazioni sull'applicazione per CocoFax - Invio di fax reso facile &amp; da &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496;
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per CocoFax - Invio di fax facile e sicuro, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema &amp; CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 8b44af37fc4fcfcb9452b3af6fdd666b0565d9d4
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per CocoFax - &amp; Invio di fax reso facile sicuro, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 621b61963a89ca4d2bfd2eeca0b39366cb261c1d
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404969"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461359"
 ---
 # <a name="cocofax---sending-fax-made-easy-amp-secure"></a>CocoFax - Invio di fax facile da &amp; proteggere
 
@@ -31,9 +32,9 @@ Informazioni fornite da &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | CocoFax - Invio di fax facile da &amp; proteggere |
+| Nome dell'app | CocoFax - Invio di fax facile da &amp; proteggere |
 | ID | WA200002263 |
-| Office 365 client supportati | Word 2016 o versione successiva su Mac, Word sul web, Word 2013 o versione successiva Windows |
+| Office 365 client supportati | Word 2016 o versioni successive su Mac, Word sul web, Word 2013 o versioni successive Windows |
 | Nome società partner | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; |
 | URL del sito Web del partner | [https://cocofax.com](https://cocofax.com) |
 | URL dell'informativa sulla privacy | [https://cocofax.com/privacy.html](https://cocofax.com/privacy.html) |
@@ -51,16 +52,16 @@ Queste informazioni sono state fornite da &#28145;&#22323;&#23545;&#20113;&#3118
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft necessarie](https://docs.microsoft.com/graph/permissions-reference) per questa app.
+Elenca tutte [le autorizzazioni Graph microsoft necessarie](/graph/permissions-reference) per questa app.
 
 >Questa applicazione non utilizza Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 
 
@@ -90,7 +91,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Visualizzazione in una nuova scheda</a>
 
