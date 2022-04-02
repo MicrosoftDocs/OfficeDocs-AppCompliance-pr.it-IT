@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per il researcHR, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d9190b5c268a2ff73f204e3c81015532b1b3e4df
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: ec1149c58d7c7b5c77243af43b529fa6434e5520
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63543424"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463599"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -33,7 +33,7 @@ Informazioni fornite da KBE&#26666;&#24335;&#20250;&#31038; a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | researcHR |
+| Nome dell'app | researcHR |
 | ID | WA200002557 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | KBE&#26666;&#24335;&#20250;&#31038; |
@@ -161,13 +161,13 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | application | Questo ambito viene utilizzato per consentire al bot di creare un nuovo canale nel client Teams client. Vedi: https://docs.microsoft.com/en-us/graph/api/channel-post | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Directory.Read.All | application | Usiamo questo ambito per ottenere gli ID e i nomi dei canali per visualizzare questi dati nel nostro sito Web. Vedi: https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Group.Read.All | application | Usiamo questo ambito per ottenere gli ID e i nomi dei canali per visualizzare questi dati nel nostro sito Web. Vedi: https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Team.ReadBasic.All | application | Questo ambito viene utilizzato per ottenere i membri del team in modo che gli utenti possano visualizzare i membri del team nel sito Web. Vedi: https://docs.microsoft.com/en-us/graph/api/group-list-members | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.Read.All | application | Questo ambito viene utilizzato per ottenere i canali aggiunti dell'utente in modo che gli utenti possano visualizzare i team aggiunti nel sito Web. Vedi: https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.ReadBasic.All | delegated | Questo ambito viene utilizzato per abilitare l'account di accesso OAuth e raccogliere l'ID AAD, il token di accesso e il token di aggiornamento dell'utente. Vedi: https://docs.microsoft.com/en-us/graph/auth-v2-user | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| offline_access | delegated | Usiamo questo ambito per ottenere il token di aggiornamento in modo che sia possibile aggiornare il token di accesso degli utenti autenticati senza alcuna interazione dell'utente. Vedi: https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Channel.Create | application | Questo ambito viene utilizzato per consentire al bot di creare un nuovo canale nel client Teams client. Vedi: https://docs.microsoft.com/graph/api/channel-post | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Directory.Read.All | application | Usiamo questo ambito per ottenere gli ID e i nomi dei canali per visualizzare questi dati nel nostro sito Web. Vedi: https://docs.microsoft.com/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Group.Read.All | application | Usiamo questo ambito per ottenere gli ID e i nomi dei canali per visualizzare questi dati nel nostro sito Web. Vedi: https://docs.microsoft.com/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Team.ReadBasic.All | application | Questo ambito viene utilizzato per ottenere i membri del team in modo che gli utenti possano visualizzare i membri del team nel sito Web. Vedi: https://docs.microsoft.com/graph/api/group-list-members | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.Read.All | application | Questo ambito viene utilizzato per ottenere i canali aggiunti dell'utente in modo che gli utenti possano visualizzare i team aggiunti nel sito Web. Vedi: https://docs.microsoft.com/graph/api/user-list-joinedteams | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.ReadBasic.All | delegated | Questo ambito viene utilizzato per abilitare l'account di accesso OAuth e raccogliere l'ID AAD, il token di accesso e il token di aggiornamento dell'utente. Vedi: https://docs.microsoft.com/graph/auth-v2-user | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| offline_access | delegated | Usiamo questo ambito per ottenere il token di aggiornamento in modo che sia possibile aggiornare il token di accesso degli utenti autenticati senza alcuna interazione dell'utente. Vedi: https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#offline_access | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

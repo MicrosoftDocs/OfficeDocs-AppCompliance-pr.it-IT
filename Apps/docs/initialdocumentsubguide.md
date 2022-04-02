@@ -2,16 +2,17 @@
 ms.author: oromalle
 title: Microsoft 365 - Guida all'invio di documenti iniziale
 author: orionomalley
+manager: tonybal
 description: Microsoft 365 granulare della Guida all'invio della certificazione
-keywords: team di certificazione app Microsoft 365 sicurezza conformità m365 invio documento iniziale
+keywords: team di certificazione delle app Microsoft 365 sicurezza conformità m365 invio documento iniziale
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 0f879ce6b02fb469b0210500e4706d468ccb4011
-ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
+ms.openlocfilehash: 66afcbd482ee1269ce21e2af6fdeea5026b294ee
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61261678"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463279"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification - Guida all'invio di documenti iniziale
 
@@ -54,7 +55,7 @@ Un inventario aggiornato di tutti gli asset software, incluso tutto il software 
 
 |Software|  Publisher|  Versione|     Finalità|
 |-|-|-|-|
-|Windows Server|    Microsoft 2016 | Build 14393| Sistema operativo server per l'ambiente di produzione|.
+|Server Windows|    Microsoft 2016 | Build 14393| Sistema operativo server per l'ambiente di produzione|.
 |Linux Ubuntu|  N/D|    16.04 (Xenial)| Sistema operativo server in uso all'interno della rete perimetrale.|
 |ESXi|  VMWare| 6.5.0 (Build 13004031)| Utilizzato per supportare i server virtuali.|
 |Mysql (Windows)|   N/D|    8.0.2.1|    Server di database per archiviare la cronologia delle chat.|
@@ -95,7 +96,7 @@ Descrizione dettagliata di tutti gli indirizzi IP pubblici e gli URL utilizzati 
 
 ## <a name="resource-endpoints"></a>Endpoint risorsa
 
-API Name Endpoint Address Contoso Customer API    https://customerapi.contoso.com Contoso Bot Service https://bot.contoso.com Contoso Files API   https://filesapi.contoso.com
+API Name    Endpoint Address Contoso Customer API    https://customerapi.contoso.com Contoso Bot Service https://bot.contoso.com Contoso Files API   https://filesapi.contoso.com
 
 Elenco completo di tutti gli endpoint API usati dalla tua app, inclusi gli endpoint delle risorse esterne e sviluppati internamente. Per comprendere meglio l'ambito dell'ambiente, fornire i percorsi degli endpoint API all'interno dell'ambiente.
 
