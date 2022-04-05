@@ -7,14 +7,8 @@ ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Lumio by SMART, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: 'Tutte le informazioni di sicurezza e conformità disponibili per Lumio by SMART, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 56ca94ae97e1c5a6bcaf795d362ae8486428efdb
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63536354"
 ---
 # <a name="lumio-by-smart"></a>Lumio by SMART
 
@@ -33,7 +27,7 @@ Informazioni fornite da SMART Technologies ULC a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Lumio by SMART |
+| Nome dell'app | Lumio by SMART |
 | ID | WA200001874 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | SMART Technologies ULC |
@@ -86,11 +80,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
 | Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? |  |
 | La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? |  |
-| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? |  |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
 | Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -169,4 +161,3 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

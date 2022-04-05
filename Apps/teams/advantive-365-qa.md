@@ -7,14 +7,8 @@ ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per 365-QA, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: 'Tutte le informazioni di sicurezza e conformità disponibili per 365-QA, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 58553b5a12cc0c6d17710bce98179385582fc8d9
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63551655"
 ---
 # <a name="365-qa"></a>365-QA
 
@@ -33,7 +27,7 @@ Informazioni fornite da Advantive a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | 365-QA |
+| Nome dell'app | 365-QA |
 | ID | WA200001394 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Advantive |
@@ -86,11 +80,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | No |
 | Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? | N/D |
 | La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? | Sì |
-| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì|
+| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | No |
-| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
+| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

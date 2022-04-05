@@ -3,24 +3,18 @@ title: Informazioni sull'applicazione per Remind by 88 Ventures Limited
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 10/27/2021
+ms.date: 03/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Remind, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: 'Tutte le informazioni di sicurezza e conformità disponibili per Remind, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 17592dc196ffc2e17e62af60708c718dc68ee523
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63550685"
 ---
 # <a name="remind"></a>Remind
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 27, 2021</p>
+<p>Last updated by the developer on: March 28, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/88546d4f-9973-4716-98e4-cd181c04bc2d" target="_blank">Visualizzazione in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001444" target="_blank">Visualizzazione in AppSource</a>
@@ -33,7 +27,7 @@ Informazioni fornite da 88 Ventures Limited a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Remind |
+| Nome dell'app | Remind |
 | ID | WA200001444 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | 88 Ventures Limited |
@@ -43,7 +37,7 @@ Informazioni fornite da 88 Ventures Limited a Microsoft:
 | Sede centrale dell'azienda | Hong Kong |
 | Pagina delle informazioni dell'app | [https://teamsreminder.app](https://teamsreminder.app) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
-| Quali provider di cloud di hosting usa l'app? | Altro |
+| Quali provider di cloud di hosting usa l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -60,7 +54,7 @@ Queste informazioni sono state fornite da 88 Ventures Limited sul modo in cui qu
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | GUID utente e nomi utente per ricordare ad altri utenti |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Germania |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Paesi Bassi (la) |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Non conservato |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
@@ -87,7 +81,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? | Sì |
 | Nel limite di rete esterno è installato un firewall? | Sì |
 | Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? | Sì |
-| Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? | Sì |
+| Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? | No |
 | Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
 | Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
@@ -122,10 +116,10 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
 | L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
-| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | No |
-| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | No |
-| L'app è conforme Sarbanes-Oxley Act (SOX)? | No |
-| L'app è conforme al NIST 800-171? | No |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
+| L'app è conforme Sarbanes-Oxley Act (SOX)? | N/D |
+| L'app è conforme al NIST 800-171? | N/D |
 | L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -169,6 +163,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Directory.Read.All | delegated | Usato quando un amministratore cerca gli utenti per assegnarli alle licenze. L'uso di questa funzionalità è completamente facoltativo e non è obbligatorio durante il normale uso dell'app. | [88546d4f-9973-4716-98e4-cd181c04bc2d](../azure/88546d4f-9973-4716-98e4-cd181c04bc2d.md) |
+>| People.Read.All | delegated | Utilizzato quando un utente desidera assegnare utenti a una licenza | [88546d4f-9973-4716-98e4-cd181c04bc2d](../azure/88546d4f-9973-4716-98e4-cd181c04bc2d.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

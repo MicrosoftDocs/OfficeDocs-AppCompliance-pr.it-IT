@@ -1,43 +1,43 @@
 ---
-title: Informazioni sull'applicazione per Clypp di Zesavi GmbH
+title: Informazioni sull'applicazione per EQ Everywhere by Humantelligence
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/31/2022
+ms.date: 03/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Tutte le informazioni di sicurezza e conformità disponibili per Clypp, i criteri di gestione dei dati, le informazioni sul catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
+description: 'Tutte le informazioni di sicurezza e conformità disponibili per EQ Everywhere, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 ---
-# <a name="clypp"></a>Clypp
+# <a name="eq-everywhere"></a>EQ Everywhere
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 30, 2022</p>
+<p>Last updated by the developer on: March 25, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/34ed2c1e-bccf-463d-8fbc-0403e72e89fc" target="_blank">Visualizzazione in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003621" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/4082650b-ff26-4eae-b0af-ac0bed45228d" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002650" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Zesavi GmbH a Microsoft:
+Informazioni fornite da Humantelligence a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Clypp |
-| ID | WA200003621 |
+| Nome dell'app | EQ Everywhere |
+| ID | WA200002650 |
 | Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Zesavi GmbH |
-| Sito Web aziendale | [https://getclypp.com](https://getclypp.com) |
-| Condizioni per l'uso dell'app | [https://getclypp.com/en/terms-of-use/](https://getclypp.com/en/terms-of-use/) |
-| Funzionalità di base dell'app | Clypp consente a tutti gli utenti dell'azienda di creare e &amp; modificare la documentazione video breve direttamente nel browser Internet. |
-| Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni dell'app | [https://getclypp.com/en/](https://getclypp.com/en/) |
+| Nome società partner | Humantelligence |
+| Sito Web aziendale | [https://humantelligence.com](https://humantelligence.com) |
+| Condizioni per l'uso dell'app | [https://humantelligence.com/terms/](https://humantelligence.com/terms/) |
+| Funzionalità di base dell'app | Comunicare in modo più efficace con i colleghi utilizzando Humantelligence. |
+| Sede centrale dell'azienda | Stati Uniti of America |
+| Pagina delle informazioni dell'app | [https://humantelligence.com](https://humantelligence.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
-| Quali provider di cloud di hosting usa l'app? | Altro |
+| Quali provider di cloud di hosting usa l'app? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,19 +47,12 @@ Informazioni fornite da Zesavi GmbH a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Zesavi GmbH su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Humantelligence su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | ID oggetto per ogni utente |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Germania |
-| Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Non conservato |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
-| Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -101,16 +94,16 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | N/D |
-| L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
+| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | No |
+| L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | No |
 | Data di certificazione SOC1 più recente |   |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
 | Quale certificazione SOC 2 hai raggiunto? | |
 | Data di certificazione SOC2 più recente | |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
 | Data di certificazione SOC3 più recente | |
-| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | N/D |
+| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | No |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | No |
 | L'app è conforme all'International Organization for Standardization (ISO 27018)? | N/D |
 | L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
@@ -132,7 +125,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 |:----------------|:-------------|
 | Hai un GDPR o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
 | L'app ha un avviso sulla privacy rivolto all'esterno che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
-| URL dell'informativa sulla privacy | https://getclypp.com/en/privacy-policy/ |
+| URL dell'informativa sulla privacy | https://humantelligence.com/privacy |
 | L'app esegue processi decisionali automatizzati, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
 | L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
 | Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? | No |
@@ -150,9 +143,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
-| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | N/D |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | No |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
 | Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |

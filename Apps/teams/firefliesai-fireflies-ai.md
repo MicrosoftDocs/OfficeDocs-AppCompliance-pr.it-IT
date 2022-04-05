@@ -7,14 +7,8 @@ ms.date: 11/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Fireflies AI, i suoi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: 'Tutte le informazioni di sicurezza e conformità disponibili per Fireflies AI, i suoi criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: adb01db25dd012daa05e231121cc98cd2d97bc2e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63541744"
 ---
 # <a name="fireflies-ai"></a>Fireflies AI
 
@@ -33,15 +27,17 @@ Informazioni fornite da Fireflies.ai a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Fireflies AI |
+| Nome dell'app | Fireflies AI |
 | ID | WA200002618 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Fireflies.ai |
 | Sito Web aziendale | [https://fireflies.ai](https://fireflies.ai) |
 | Condizioni per l'uso dell'app | [https://fireflies.ai/terms-of-service.pdf](https://fireflies.ai/terms-of-service.pdf) |
-| Funzionalità di base dell'app | Fireflies è un assistente per le riunioni che registra, trascrive e prende appunti dalle riunioni.
-
- | | Sede centrale aziendale | Stati Uniti d'America | | Pagina info app | [https://app.fireflies.ai/integrations/collaboration/microso...](https://app.fireflies.ai/integrations/collaboration/microsoft-teams) | | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas | | Quali provider di cloud di hosting usa l'app? | GCP |
+| Funzionalità di base dell'app | Fireflies è un assistente per le riunioni che registra, trascrive e prende appunti dalle riunioni. |
+| Sede centrale dell'azienda | Stati Uniti of America |
+| Pagina delle informazioni dell'app | [https://app.fireflies.ai/integrations/collaboration/microso...](https://app.fireflies.ai/integrations/collaboration/microsoft-teams) |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
+| Quali provider di cloud di hosting usa l'app? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -60,7 +56,7 @@ Queste informazioni sono state fornite da Fireflies.ai su come questa app raccog
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Dati profilo utente, Dati calendario utente Metdata |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti of America |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |

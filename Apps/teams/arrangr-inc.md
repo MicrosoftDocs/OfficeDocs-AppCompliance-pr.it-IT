@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per Arrangr di Arrangr, Inc.
+title: 'Informazioni sull''applicazione per Arrangr di Arrangr, Inc.'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,14 +7,8 @@ ms.date: 11/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Arrangr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: 'Tutte le informazioni sulla sicurezza e conformità disponibili per Arrangr, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 01efc28d2ed0fc6c4510124d7a040beff7fe4c4e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63540614"
 ---
 # <a name="arrangr"></a>Arrangr
 
@@ -33,14 +27,14 @@ Informazioni fornite da Arrangr, Inc. a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Arrangr |
+| Nome dell'app | Arrangr |
 | ID | WA200002975 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | Arrangr, Inc. |
 | Sito Web aziendale | [https://arrangr.com](https://arrangr.com) |
 | Condizioni per l'uso dell'app | [https://arrangr.com/terms_of_use](https://arrangr.com/terms_of_use) |
 | Funzionalità di base dell'app | Arrangr è un'utilità di pianificazione integrata intelligente per qualsiasi riunione. Sia di persona che da remoto, 1:1 o con un gruppo, Arrangr è semplice e veloce. Arrangr si integra con i calendari Microsoft per bloccare facilmente e rapidamente gli orari di attività, aiutare a visualizzare la pianificazione e assicurarsi che le riunioni siano inserite nel calendario. Inoltre, l'integrazione di Teams consente di condividere facilmente gli inviti con i membri del team, avviare nuove riunioni all'interno di Teams e tenere traccia delle riunioni di Arrangr dall'interno di una scheda Teams. |
-| Sede centrale dell'azienda | Stati Uniti d'America |
+| Sede centrale dell'azienda | Stati Uniti of America |
 | Pagina delle informazioni dell'app | [https://arrangr.com/welcome](https://arrangr.com/welcome) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di cloud di hosting usa l'app? | GCP |
@@ -58,16 +52,15 @@ Queste informazioni sono state fornite da Arrangr, Inc. Sul modo in cui questa a
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Quali dati vengono elaborati dalla tua app? | Nome utente, indirizzo di posta elettronica, nomi di calendario, dettagli degli eventi del calendario, nomi e messaggi di posta elettronica dei membri del team. |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Nome utente e posta elettronica, nomi dei calendari, collegamenti a conferenze del calendario, nomi dei team. |
-| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti d'America |
+| Se l'infastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove sono archiviati geograficamente? | Stati Uniti of America |
 | Si dispone di un processo di affiliazione e di eliminazione dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
 | Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
-| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -95,11 +88,9 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
 | Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? | No |
 | La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? | No |
-| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | No |
-| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
+| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

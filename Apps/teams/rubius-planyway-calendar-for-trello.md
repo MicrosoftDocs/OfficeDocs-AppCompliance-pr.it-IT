@@ -7,14 +7,8 @@ ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per Planyway Calendar per Trello, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: 'Tutte le informazioni sulla sicurezza e conformità disponibili per Planyway Calendar per Trello, i criteri di gestione dei dati, le informazioni del catalogo app di Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5936b0c382642d1e614803928111e14a38ab1a5e
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
-ms.translationtype: MT
-ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753769"
 ---
 # <a name="planyway-calendar-for-trello"></a>Calendario Planyway per Trello
 
@@ -108,8 +102,24 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 |:----------------|:-------------|
 | L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | N/D |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | {
-  &quot;&quot;CMP08_complianceSOC_1: &quot;Na&quot; } | | Data di certificazione SOC1 più recente |   | | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | Nessun | | Quale certificazione SOC 2 hai raggiunto? | | | Data di certificazione SOC2 più recente | | | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | Nessun | | Data di certificazione SOC3 più recente | | | Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | Nessun | | L'app International Organization for Standardization (ISO 27001) è certificata? | Nessun | | L'app è conforme all'International Organization for Standardization (ISO 27018)? | { &quot;CMP16_complianceISO_27018&quot;: &quot;Na&quot; } | | L'app è conforme all'International Organization for Standardization (ISO 27017)? | Nessun | | L'app è conforme all'International Organization for Standardization (ISO 27002)? | Nessun | | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | Nessun | | L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D | | L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D | | L'app è conforme Sarbanes-Oxley Act (SOX)? | N/D | | L'app è conforme al NIST 800-171? |  | | L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | No |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | Na |
+| Data di certificazione SOC1 più recente |   |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
+| Quale certificazione SOC 2 hai raggiunto? | |
+| Data di certificazione SOC2 più recente | |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
+| Data di certificazione SOC3 più recente | |
+| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | No |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27018)? | Na |
+| L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
+| L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
+| L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
+| L'app è conforme Sarbanes-Oxley Act (SOX)? | N/D |
+| L'app è conforme al NIST 800-171? |  |
+| L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
