@@ -1,25 +1,25 @@
 ---
-title: app Azure ID sicurezza e conformità - Tutte le app
+title: sicurezza e conformità degli ID app Azure - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/01/2022
+ms.date: 04/05/2022
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutti app Azure ID.
+description: Tutte le informazioni di sicurezza e conformità disponibili per tutti gli ID app Azure.
 localization_priority: Normal
-ms.openlocfilehash: f0a736c37fbb0143f1d9c2bd2bb031d8fe2f3c9c
-ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
+ms.openlocfilehash: feec2b607f1fb82dc923de45ac8324fb7f006af3
+ms.sourcegitcommit: 4e8ef8e62b64b63eb9a9aa8971bf0c6ba14c2d03
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "64627988"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64681497"
 ---
-# <a name="azure-app-ids-security-and-compliance"></a>app Azure ID sicurezza e conformità
+# <a name="azure-app-ids-security-and-compliance"></a>sicurezza e conformità degli ID app Azure
 
-Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle organizzazioni informatizzanti necessarie per accelerare e informare le decisioni relative agli ID app Azure e ai componenti aggiuntivi utilizzati. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner per sviluppatori Microsoft 365 per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni relative agli ID e ai componenti aggiuntivi app Azure che usano. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
-| **app Azure ID** | **Attestata dall'autore** | **Certificata** |
+| **ID app Azure** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:-------------:|
 | [00485db5-81b3-4299-833a-8d6c366d0ac0](./00485db5-81b3-4299-833a-8d6c366d0ac0.md) | **✓** |  |
 | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](./00738e07-f9a4-4bf5-b6f9-851ec7ea31d5.md) | **✓** |  |
@@ -301,7 +301,7 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [ea4de024-dd5f-4d3e-a092-3b8de6c64200](./ea4de024-dd5f-4d3e-a092-3b8de6c64200.md) | **✓** |  |
 | [eab5463e-8168-40ee-887a-7ac78de1d266](./eab5463e-8168-40ee-887a-7ac78de1d266.md) | **✓** |  |
 | [eb628055-f790-4ef0-9fce-ac95b4c61466](./eb628055-f790-4ef0-9fce-ac95b4c61466.md) | **✓** |  |
-| [eb668aa5-abb2-445c-81b4-3c174db84fe2](./eb668aa5-abb2-445c-81b4-3c174db84fe2.md) | **✓** |  |
+| [eb668aaa5-abb2-445c-81b4-3c174db84fe2](./eb668aa5-abb2-445c-81b4-3c174db84fe2.md) | **✓** |  |
 | [ecff17cf-5629-49ba-a629-7f575496aeac](./ecff17cf-5629-49ba-a629-7f575496aeac.md) | **✓** |  |
 | [edb24f8f-38af-4b3e-9475-0da243678d5a](./edb24f8f-38af-4b3e-9475-0da243678d5a.md) | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ef5fa233-c0bb-424e-b9dc-0466d46bade2](./ef5fa233-c0bb-424e-b9dc-0466d46bade2.md) | **✓** |  |
@@ -320,7 +320,7 @@ Microsoft collabora con i partner di sviluppo Microsoft 365 per fornire alle org
 | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](./f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) | **✓** |  |
 | [f9eaef18-fbd1-4045-b417-c26598755298](./f9eaef18-fbd1-4045-b417-c26598755298.md) | **✓** |  |
 | [fb507a6d-2eaa-4f1f-b43a-140f388c4445](./fb507a6d-2eaa-4f1f-b43a-140f388c4445.md) | **✓** |  |
-| [fb6dddd39-35f2-4110-a45d-d2e73b946cae](./fb6ddd39-35f2-4110-a45d-d2e73b946cae.md) | **✓** |  |
+| [fb6ddd39-35f2-4110-a45d-d2e73b946cae](./fb6ddd39-35f2-4110-a45d-d2e73b946cae.md) | **✓** |  |
 | [fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da](./fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da.md) | **✓** |  |
 | [fc8f7563-e8ea-4b6d-9622-82775a21a35a](./fc8f7563-e8ea-4b6d-9622-82775a21a35a.md) | **✓** |  |
 | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](./fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) | **✓** |  |
