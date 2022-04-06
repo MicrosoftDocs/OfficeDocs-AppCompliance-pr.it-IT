@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per MURAL, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: df6a5ae8a4b098679e9fc43cedfe8605a8c0d99e
-ms.sourcegitcommit: 021c258a4aad74b2525c08b60926fbbcd421f0c0
+ms.openlocfilehash: 46369b01c7570f46997e8a9cb43e30c9d882e0bf
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "64602295"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64627278"
 ---
 # <a name="mural"></a>MURAL
 
@@ -57,7 +57,7 @@ Queste informazioni sono state fornite da MURAL sul modo in cui questa app racco
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Quali dati vengono elaborati dalla tua app? | MURAL richiede solo nome, cognome e indirizzo di posta elettronica per l'accesso. Il tipo di dati da elaborare/archiviare dipende dal cliente |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | IL MURAL richiede solo il nome, il cognome e la posta elettronica dell'utente ai fini dell'accesso e che il resto delle informazioni archiviate dipende dalle informazioni archiviate dai clienti nei loro murales. |
@@ -97,8 +97,8 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì|
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
-| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
+| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? | Sì |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

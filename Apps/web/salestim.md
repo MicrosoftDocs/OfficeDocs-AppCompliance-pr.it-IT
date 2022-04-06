@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per SalesTim, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a8f6bc2575a68f17e8a00701fa4a55b3a7906f91
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 912f828c405178b056c50b261e408617e239f540
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282721"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64627258"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -31,7 +31,7 @@ Informazioni fornite da SalesTim a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | SalesTim |
+| Nome dell'app | SalesTim |
 | ID | salestim.salestim |
 | Nome società partner | SalesTim |
 | URL del sito Web del partner | [https://salestim.com](https://salestim.com) |
@@ -50,14 +50,14 @@ Queste informazioni sono state fornite da SalesTim su come questa app raccoglie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph microsoft necessarie](/graph/permissions-reference) per questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD ID app** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| AppCatalog.ReadWrite.All | delegated | NO | Consenti all'app di installare e aggiornare i propri pacchetti nel catalogo app aziendale. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Directory.AccessAsUser.All | delegated | È&#8217;solo alcuni ID utente, non i dati del profilo. | Consente a un utente di selezionare altri utenti in diverse posizioni dell'applicazione, ad esempio selezionando i responsabili approvazione in un flusso di lavoro. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Group.ReadWrite.All | delegated | È&#8217;solo l'archiviazione di gruppi/ID team,&#8217;non vengono archiviati i contenuti di gruppi/team. | Consente all'app di creare gruppi, leggere tutte le proprietà e le appartenenze del gruppo per conto dell'utente connesso. Consente inoltre ai proprietari dei gruppi di gestire i propri gruppi e consente ai membri del gruppo di aggiornare il contenuto del gruppo. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Mail.Send | delegated | Microsoft&#8217;i metadati di questa azione, ad esempio la data della notifica, il destinatario (solo ID), l'ID della richiesta. | Consente all'app di inviare messaggi di posta elettronica di notifica, ad esempio durante un flusso di lavoro di approvazione. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| Mail.Send | delegated | Microsoft&#8217;i metadati di questa azione, ad esempio la data di notifica, il destinatario (solo ID), l'ID della richiesta. | Consente all'app di inviare messaggi di posta elettronica di notifica, ad esempio durante un flusso di lavoro di approvazione. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Sites.ReadWrite.All | delegated | Stiamo usando alcuni servizi di Azure per archiviare i dati, in particolare Redis in Azure e Cosmos DB | Consente all'app di gestire le unità (file e cartelle) associate a un team durante un processo di provisioning del team. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| User.Read.All | delegated | È&#8217;solo alcuni ID utente, non i dati del profilo. | Consente all'app di leggere il set completo di proprietà del profilo, report e responsabili di qualsiasi utente. Viene utilizzato soprattutto durante il processo di destinazione del gruppo di destinatari, per filtrare alcuni contenuti in base al profilo utente corrente. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| offline_access | delegated | No | Consente all'app di eseguire alcune operazioni e azioni in background come utente. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
@@ -65,11 +65,11 @@ Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsof
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
 >| **Tutti i file OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Stiamo usando Intercom come applicazione di supporto principale. Intercom può contenere alcune informazioni di base sul profilo utente, come descritto di seguito: https://developers.salestim.com/platform/datamanagement.html#support-data | Nome dell'azienda | Stiamo usando le API GitHub per generare automaticamente i problemi dall'ambiente di produzione. Vengono archiviati anche alcuni log tecnici in GitHub (come descritto qui: https://developers.salestim.com/platform/datamanagement.html#error-reporting-data) . Questi problemi e registri possono contenere alcune informazioni di base sul profilo utente. Questi problemi e registri vengono eliminati automaticamente ogni 15 giorni. |
+>| Stiamo usando Intercom come applicazione di supporto principale. Intercom può contenere alcune informazioni di base sul profilo utente, come descritto di seguito: https://developers.salestim.com/platform/datamanagement.html#support-data | Nome dell'azienda | Stiamo usando le API GitHub per generare automaticamente i problemi dall'ambiente di produzione. Vengono archiviati anche alcuni log tecnici in GitHub (come descritto qui: https://developers.salestim.com/platform/datamanagement.html#error-reporting-data). Questi problemi e registri possono contenere alcune informazioni di base sul profilo utente. Questi problemi e registri vengono eliminati automaticamente ogni 15 giorni. |
 
 
 
@@ -77,7 +77,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Tutti i dati raccolti sono descritti qui: come descritto, i log vengono temporaneamente https://developers.salestim.com/platform/datamanagement.html#application-data archiviati per 15 giorni e quindi eliminati automaticamente.
+>Tutti i dati raccolti sono descritti qui: https://developers.salestim.com/platform/datamanagement.html#application-data come descritto, i log vengono temporaneamente archiviati per 15 giorni e quindi eliminati automaticamente.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
@@ -103,7 +103,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853" target="_blank">Visualizzazione in una nuova scheda</a>
 
@@ -120,7 +120,7 @@ Queste informazioni sono state fornite da SalesTim su come questa app gestisce l
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | Sì |
 | Elencare i tipi di criteri supportati | MFA, condizioni di posizione |
