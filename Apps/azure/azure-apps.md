@@ -3,11 +3,17 @@ title: app Azure ID sicurezza e conformità - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/31/2022
+ms.date: 03/30/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e la conformità disponibili per tutti app Azure ID.
 localization_priority: Normal
+ms.openlocfilehash: bde06f0432926a2fa08aea71630fadc9221b1424
+ms.sourcegitcommit: 0b61e3c35f05a7f7926b2ccd6049be4fc2a149c9
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64554269"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>app Azure ID sicurezza e conformità
 

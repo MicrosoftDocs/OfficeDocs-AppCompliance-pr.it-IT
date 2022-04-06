@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per AmTrav Business Travel, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 784a5b98fc56414a8921387d37a56c534348640d
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: c73e4dfa325fd6b4146a8e70cf2b0be3e6ad1227
+ms.sourcegitcommit: 2c06ca843da2f9359a834b1479d2b9b7eee1f68d
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63545134"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64645902"
 ---
 # <a name="amtrav-business-travel"></a>AmTrav Business Travel
 
@@ -33,14 +33,14 @@ Informazioni fornite da AmTrav a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | AmTrav Business Travel |
+| Nome dell'app | AmTrav Business Travel |
 | ID | WA200003235 |
 | Office 365 client supportati | Microsoft Teams |
 | Nome società partner | AmTrav |
 | Sito Web aziendale | [https://www.Amtrav.com](https://www.Amtrav.com) |
 | Condizioni per l'uso dell'app | [https://www.amtrav.com/user-agreement](https://www.amtrav.com/user-agreement) |
 | Funzionalità di base dell'app | Applicazione chat che connette i client a un consulente di viaggio. |
-| Sede centrale dell'azienda | Stati Uniti d'America |
+| Sede centrale dell'azienda | Stati Uniti of America |
 | Pagina delle informazioni dell'app | [https://www.amtrav.com/our-story](https://www.amtrav.com/our-story) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
 
@@ -85,11 +85,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
 | Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? | Sì |
 | La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? | Sì |
-| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì|
+| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
-| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
+| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? | Sì |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
