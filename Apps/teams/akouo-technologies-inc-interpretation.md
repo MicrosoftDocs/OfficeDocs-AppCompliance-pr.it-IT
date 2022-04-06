@@ -7,8 +7,14 @@ ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Tutte le informazioni sulla sicurezza e la conformità disponibili per Akouo Interpretation, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.'
+description: Tutte le informazioni sulla sicurezza e la conformità disponibili per Akouo Interpretation, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: daa18e2cff1ff0a0865ca519dd3a7a49da2dbfca
+ms.sourcegitcommit: 021c258a4aad74b2525c08b60926fbbcd421f0c0
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64602305"
 ---
 # <a name="akouo-interpretation"></a>Interpretazione Akouo
 
@@ -52,7 +58,7 @@ Queste informazioni sono state fornite da Akouo Technologies Inc. Su come questa
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dalla tua app? | Dati del profilo utente, immagine e audio utilizzati all'interno di MS Teams. |
+| Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
 | Quali dati vengono archiviati nei database? | Indirizzo di posta elettronica dell'utente. |
@@ -61,6 +67,7 @@ Queste informazioni sono state fornite da Akouo Technologies Inc. Su come questa
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 90 giorni |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
 | Trasferire i dati dei clienti o i contenuti dei clienti a terze parti o sub-processori? | No |
+| Sono stati stipulati contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -88,11 +95,11 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
 | Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? | Sì |
 | La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? | Sì |
-| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
+| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì|
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
-| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? | Sì |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento? | Sì |
+| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
+| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,7 +172,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 >|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| OnlineMeetings.Read | delegated | Usato per ottenere dettagli sulla riunione come l'ora di inizio e così via. Richiesto solo per l'organizzatore della riunione. | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
->| offline_access | application | Automaticamente richiesto da Microsoft&#8217;il framework Single Sign-on. https://docs.microsoft.com/graph/permissions-reference#remarks-15  | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
+>| offline_access | application | Automaticamente richiesto da Microsoft&#8217;il framework Single Sign-on. https://docs.microsoft.com/en-us/graph/permissions-reference#remarks-15  | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
 >| openid | application | Autenticare gli utenti con la sessione di accesso di Microsoft/Azure | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
