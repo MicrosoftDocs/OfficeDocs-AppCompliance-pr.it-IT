@@ -6,14 +6,14 @@ ms.date: 06/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e conformità disponibili per MIPA - Assistente personale intelligente, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per MIPA - Assistente personale intelligente, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 684cd61aec216db5bc60bb92abd2d93963c2138a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 6c7d3349b9fc747d5a8093aff1042894fbd67cf1
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283254"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64627908"
 ---
 # <a name="mipa---my-intelligent-personal-assistant"></a>MIPA - Assistente personale intelligente
 
@@ -31,7 +31,7 @@ Informazioni fornite da iGlobe a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | MIPA - Assistente personale intelligente |
+| Nome dell'app | MIPA - Assistente personale intelligente |
 | ID | 17859280.mipa |
 | Nome società partner | iGlobe |
 | URL del sito Web del partner | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
@@ -50,32 +50,32 @@ Queste informazioni sono state fornite da iGlobe su come questa app raccoglie e 
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
-Elenca tutte [le autorizzazioni Graph Microsoft richieste](https://docs.microsoft.com/graph/permissions-reference) da questa app.
+Elenca tutte [le autorizzazioni Graph microsoft necessarie](/graph/permissions-reference) per questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (Delegata/Applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD ID app** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Calendars.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento di interi calender | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| Contacts.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento di interi calender | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| Directory.AccessAsUser.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti. Per verificare che l'utente abbia il consenso e abbia accesso all'uso dell'API. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| Directory.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint, raccolte e file. Per salvare i file in SharePoint elenchi. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| Files.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint, raccolte e file. Per salvare i file in SharePoint elenchi. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| Group.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint, raccolte e file. Per salvare i file in SharePoint elenchi. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| Group.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint, raccolte e file. Per salvare i file in SharePoint elenchi. Integrazione in iGlobe CRM Office 365 | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| Directory.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint elenco, raccolte e file. Per salvare i file in SharePoint elenchi. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| Files.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint elenco, raccolte e file. Per salvare i file in SharePoint elenchi. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| Group.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint elenco, raccolte e file. Per salvare i file in SharePoint elenchi. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| Group.ReadWrite.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura, aggiornamento, creazione attività panner, lettura dei file recenti e condivisi degli utenti, Per ottenere SharePoint elenco, raccolte e file. Per salvare i file in SharePoint elenchi. Integrazione in iGlobe CRM Office 365 | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| Mail.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento della posta contrassegnata | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| MailboxSettings.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento dei messaggi interi, lettura e aggiornamento della posta contrassegnata, lettura e aggiornamento Outlook To Do interi | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| MailboxSettings.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento di interi elementi, lettura e aggiornamento della posta contrassegnata, lettura e aggiornamento Outlook To Do interi | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| Tasks.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento di interi calender, lettura e aggiornamento Outlook a Do Entreies | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| User.Read | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento di interi calender, lettura e aggiornamento Outlook a Do Entreies | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| User.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Leggere e aggiornare interi calender, Lettura e aggiornamento Outlook a Do Entreies, Read, Update, Create Panner Tasks | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| User.ReadBasic.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Leggere e aggiornare interi calender, Lettura e aggiornamento Outlook a Do Entreies, Read, Update, Create Panner Tasks | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| User.Read.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento di intere attività di riepilogo, lettura e aggiornamento Outlook attività do, lettura, aggiornamento, creazione di attività panner | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| User.ReadBasic.All | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento di intere attività di riepilogo, lettura e aggiornamento Outlook attività do, lettura, aggiornamento, creazione di attività panner | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| User.ReadWrite | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento di interi calender, lettura e aggiornamento Outlook a Do Entreies | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| email | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Consente all'app di leggere l'indirizzo di posta elettronica principale degli utenti ( per SSO). | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| offline_access | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Consente all'app di visualizzare e aggiornare i dati a cui hai concesso l'accesso, anche quando gli utenti attualmente non usano l'app. In questo modo non vengono concesse all'app autorizzazioni aggiuntive ( per SSO). | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| openid | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Consente agli utenti di accedere all'app con i propri account aziendali o dell'istituto di istruzione e consente all'app di visualizzare le informazioni di base del profilo utente( per SSO). | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| profilo | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Leggere e aggiornare interi calender, Lettura e aggiornamento Outlook a Do Entreies, Read, Update, Create Panner Tasks | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| profile | delegated | Nessun dato viene archiviato nei database dell'applicazione. | Lettura e aggiornamento di intere attività di riepilogo, lettura e aggiornamento Outlook attività do, lettura, aggiornamento, creazione di attività panner | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Accesso ai dati con altre API Microsoft
 
-Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare informazioni identificabili dall'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
+Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiuntive diverse da Microsoft Graph per raccogliere o elaborare le informazioni di identificazione dell'organizzazione. Elenca tutte le API Microsoft diverse da Microsoft Graph questa app.
 
 >| **API** |  **L'OII viene raccolto?** |  **Che cos'è OII raccolto?** | **Giustificazione per la raccolta OII?** | **L'OII è archiviato?** | **Giustificazione per l'archiviazione OII?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
@@ -91,9 +91,9 @@ Le app e i componenti aggiuntivi Microsoft 365 possono usare API Microsoft aggiu
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
 
-Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Microsoft, elenca il servizio non Microsoft utilizzato dall'app, i dati trasferiti e include una giustificazione per il motivo per cui l'app deve trasferire queste informazioni.
 
->Non vengono servizi Microsoft non vengono utilizzate.
+>Non vengono servizi Microsoft non vengono utilizzati.
 
 
 
@@ -101,7 +101,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con servizi non Micr
 
 Le informazioni di identificazione dell'organizzazione (OII) o dell'utente finale (EUII) vengono visualizzate nei registri o nei dati di telemetria dell'applicazione? In caso affermativa, descrivere quali dati sono archiviati e quali sono i criteri di conservazione e rimozione?
 
->iGlobe raccoglie i dati per operare in modo efficace e offrire le migliori esperienze con i nostri prodotti e servizi. Per le licenze: dati raccolti per amministrare l'&#8217;dell'account di licenza dell'organizzazione, ad esempio quando si distribuisce un componente aggiuntivo gratuito, si crea una sottoscrizione di valutazione o si acquista una sottoscrizione. Vengono raccolte le informazioni seguenti. 
+>iGlobe raccoglie i dati per operare in modo efficace e offrire le migliori esperienze con i nostri prodotti e servizi. Per le licenze: dati raccolti per amministrare l'account di licenza dell'organizzazione&#8217;, ad esempio quando si distribuisce un componente aggiuntivo gratuito, si crea una sottoscrizione di valutazione o si acquista una sottoscrizione. Vengono raccolte le informazioni seguenti. 
 - Per scopi finanziari: nome e indirizzo della società
 - Utenti sottoscritti: nome utente e posta elettronica
 
@@ -125,7 +125,7 @@ Gli utenti sono coinvolti nella revisione o nell'analisi di dati OII (Organizati
 
 Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security informazioni' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699" target="_blank">Visualizzazione in una nuova scheda</a>
 
@@ -142,7 +142,7 @@ Queste informazioni sono state fornite da iGlobe sul modo in cui questa app gest
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco Microsoft Identity Platform di integrazione?  | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | Sì |
 | Elencare i tipi di criteri supportati | Impostazioni predefinite di sicurezza e qualsiasi altro criterio comune come Blocca autenticazione legacy* Richiedi MFA per gli amministratori* Richiedi MFA per la gestione di Azure* Richiedi MFA per tutti gli utenti* |

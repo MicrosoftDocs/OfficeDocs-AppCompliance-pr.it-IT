@@ -1,21 +1,21 @@
 ---
-title: app Azure informazioni ID per bed170ee-dbd7-4efa-b48e-b0937ded1689
+title: app Azure ID per bed170ee-dbd7-4efa-b48e-b0937ded1689
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/05/2022
+ms.date: 04/01/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per bed170ee-dbd7-4efa-b48e-b0937ded1689.
-ms.openlocfilehash: 438ac89e8b7ee16dd7ef4a6b26de29729848dfdd
-ms.sourcegitcommit: 4e8ef8e62b64b63eb9a9aa8971bf0c6ba14c2d03
+ms.openlocfilehash: c9673bba463cd41293594fb5fdea0aafd7ee71b1
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64679066"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64627608"
 ---
-# <a name="azure-app-id-bed170ee-dbd7-4efa-b48e-b0937ded1689"></a>ID app Azure: bed170ee-dbd7-4efa-b48e-b0937ded1689
+# <a name="azure-app-id-bed170ee-dbd7-4efa-b48e-b0937ded1689"></a>app Azure ID: bed170ee-dbd7-4efa-b48e-b0937ded1689
 
 
 ### <a name="apps-associated-with-this-id"></a>App associate a questo ID:
@@ -23,5 +23,5 @@ ms.locfileid: "64679066"
 |--------------|---------------|-----------------------|
 | [Neelix.Team](../forward/WA200003047.md) |  | [https://appsource.microsoft.com/product/office/WA200003047](https://appsource.microsoft.com/product/office/WA200003047) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato di conformità dell'app
-- stato attestazione Publisher: completato
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato conformità app
+- Publisher Attestaton Status: Completed
