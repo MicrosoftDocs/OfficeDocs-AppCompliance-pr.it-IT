@@ -156,6 +156,8 @@
       items:
         - name: Adobe Acrobat Sign for Microsoft SharePoint Online
           href: sharepoint/adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md
+        - name: Scheda attività Agile per SharePoint Online
+          href: sharepoint/agile-is-task-board-for-sharepoint-online.md
         - name: ArcGIS per SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: Sistema di gestione delle offerte
@@ -221,6 +223,8 @@
           href: teams/adobe-acrobat-sign.md
         - name: Agenda Boss
           href: teams/appfluence-inc-agenda-boss.md
+        - name: Agile Task Board
+          href: teams/agile-is-task-board.md
         - name: Produttore di intelligenza artificiale
           href: teams/livearena-technologies-ab-ai-producer.md
         - name: Aimful
@@ -355,7 +359,7 @@
           href: teams/churnzero.md
         - name: CI-Out di-Office Lite
           href: teams/ci-solution-gmbh-out-of-office-lite.md
-        - name: SMS impiegato
+        - name: Clerk SMS
           href: teams/unnamed-ventures-llc-clerk-sms.md
         - name: ClipTraining
           href: teams/cliptraining.md
@@ -411,7 +415,7 @@
           href: teams/cuckoo-networks-oy-workout.md
         - name: Cultr Connect
           href: teams/cultr-connect.md
-        - name: Amp impostazioni cultura
+        - name: Culture Amp
           href: teams/culture-amp.md
         - name: Cyberday
           href: teams/digiturvamalli-cyberday.md
@@ -1862,6 +1866,8 @@
           href: azure/dae2eacf-3eb5-4440-baff-984fbd5cae68.md
         - name: dc171e47-c074-4bc2-9e7b-3856b71e0630
           href: azure/dc171e47-c074-4bc2-9e7b-3856b71e0630.md
+        - name: dc8facfc-c606-44b4-a0ad-04f81446845c
+          href: azure/dc8facfc-c606-44b4-a0ad-04f81446845c.md
         - name: dea67e43-444e-4852-b57b-b57878a4022b
           href: azure/dea67e43-444e-4852-b57b-b57878a4022b.md
         - name: e208746a-2666-4d95-b925-e2ff64b3181d
