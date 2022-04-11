@@ -7,12 +7,12 @@ description: Microsoft 365 dettagli della guida all'invio della certificazione
 keywords: team di certificazione delle app Microsoft 365 conformità alla sicurezza m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 753b40f63b293fea83705ae8124f5f22cbebe394
-ms.sourcegitcommit: 9cc3fe8502a6f21f3f6abb4dd23b99b116c51b8e
+ms.openlocfilehash: 5081e187615400b038795215ad0d5dcc934e1a87
+ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64720980"
+ms.lasthandoff: 04/10/2022
+ms.locfileid: "64751825"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Guida all'invio della certificazione Microsoft 365
 
@@ -90,6 +90,7 @@ Gli ISV che hanno già avviato la valutazione della certificazione Microsoft 365
 
 ### <a name="infrastructure-as-a-service-iaas-platform-as-a-service-paas-and-software-as-a-service-saas"></a>Infrastruttura distribuita come servizio (IaaS), Piattaforma distribuita come servizio (PaaS) e Software as a Service (SaaS) 
 Quando si usa IaaS e/o PaaS per supportare l'infrastruttura dell'applicazione o il recapito del codice del componente aggiuntivo in esame, il provider della piattaforma cloud sarà responsabile di alcuni dei controlli di sicurezza valutati durante il processo di certificazione. Di conseguenza, gli analisti di certificazione dovranno essere forniti con la verifica esterna indipendente delle procedure consigliate per la sicurezza da parte del provider della piattaforma cloud tramite report di conformità esterni, ad esempio report di attestazione della conformità (AOC) PCI DSS, ISO27001 o SOC 2 di tipo II. 
+
 
 L'appendice F fornisce informazioni dettagliate sui controlli di sicurezza che probabilmente saranno applicabili in base ai tipi di distribuzione seguenti e in base al fatto che l'app/componente aggiuntivo esfiltra o meno i dati M365: 
 * ISV ospitato 
@@ -249,6 +250,7 @@ Quando vengono usate tecniche per segmentare gli ambienti nell'ambito da altri a
 I report sui test di penetrazione verranno esaminati per assicurarsi che non vi siano vulnerabilità che soddisfino i  **criteri di errore automatici** seguenti descritti nei controlli seguenti.
  
 **Requisiti per i test di penetrazione**
+
 
 |**Tipo di criteri**|**Controlli test di penetrazione**|
 | -------------------------|-----------------------------|
@@ -1010,7 +1012,7 @@ Microsoft riconosce che si distribuiranno applicazioni e si archivierà il codic
 
 ## <a name="appendix-g"></a>Appendice G
 
-## <a name="learn-more"></a>Ulteriori risorse
+## <a name="learn-more"></a>Altre informazioni
 
 [Panoramica del programma di conformità delle app Microsoft 365](~/overview.md)  
 [Che cos'è l'attestazione Microsoft 365 app Publisher?](~/docs/attestation.md)  
