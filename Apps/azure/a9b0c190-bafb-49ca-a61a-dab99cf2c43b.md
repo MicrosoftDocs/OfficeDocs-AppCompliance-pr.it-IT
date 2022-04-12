@@ -3,17 +3,17 @@ title: informazioni sull'ID app Azure per a9b0c190-bafb-49ca-a61a-dab99cf2c43b
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/08/2022
+ms.date: 04/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per a9b0c190-bafb-49ca-a61a-dab99cf2c43b.
-ms.openlocfilehash: 0a533d715f64155cb831c43d22d9b2609f879188
-ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
+ms.openlocfilehash: aaf7f4c0da004d4143f920a839ca34227263263c
+ms.sourcegitcommit: fb02bf852b775f9114966cfbf158197149ec95a2
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/10/2022
-ms.locfileid: "64751575"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64774214"
 ---
 # <a name="azure-app-id-a9b0c190-bafb-49ca-a61a-dab99cf2c43b"></a>ID app Azure: a9b0c190-bafb-49ca-a61a-dab99cf2c43b
 
@@ -26,5 +26,5 @@ ms.locfileid: "64751575"
 | [Adobe Acrobat Firma per Microsoft Word e PowerPoint](../forward/WA104381155.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA104381155](https://appsource.microsoft.com/product/office/WA104381155) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato di conformità dell'app
-- stato attestazione Publisher: completato
+- Stato attestazione server di pubblicazione: completato
 - Certificazione Microsoft 365: approvata (23/02/2022)
