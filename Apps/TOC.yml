@@ -5,14 +5,14 @@
       items:
         - name: Panoramica
           href: overview.md
-        - name: Che cos'è la verifica Publisher?
+        - name: Che cos'è la verifica del server di pubblicazione?
           href: /azure/active-directory/develop/publisher-verification-overview
         - name: Che cos'è la certificazione Microsoft 365?
           href: docs/enterprise-app-certification-guide.md
     - name: Per sviluppatori
       expanded: true
       items:
-        - name: Completare la verifica Publisher
+        - name: Completare la verifica del server di pubblicazione
           href: /azure/active-directory/develop/mark-app-as-publisher-verified
         - name: Completare la certificazione Microsoft 365
           href: docs/certification.md
@@ -39,7 +39,7 @@
           href: excel/meaningcloud-text-analytics-for-excel.md
         - name: Office2SharePoint per Office
           href: excel/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | Selezione contenuto per Office
+        - name: officeatwork | Scelta contenuto per Office
           href: excel/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Image Chooser for Office
           href: excel/officeatwork-officeatworkimage-chooser-for-office.md
@@ -60,7 +60,7 @@
     - name: app Microsoft OneNote
       href: onenote/onenote-apps.md
       items:
-        - name: officeatwork | Selezione contenuto per Office
+        - name: officeatwork | Scelta contenuto per Office
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Image Chooser for Office
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
@@ -85,7 +85,7 @@
           href: outlook/impression-signatures-for-outlook.md
         - name: Componente aggiuntivo iPlanner Office 365 Planner per Outlook
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
-        - name: Pro Office 365 iPlanner
+        - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
         - name: Jira Cloud per Outlook (ufficiale)
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
@@ -132,7 +132,7 @@
           href: powerpoint/foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md
         - name: Office2SharePoint per Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | Selezione contenuto per Office
+        - name: officeatwork | Scelta contenuto per Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Image Chooser for Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
@@ -170,7 +170,7 @@
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: HelloSign per SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
-        - name: Ichicraft Boards - Il tuo digital workplace
+        - name: Ichicraft Boards - Your Digital Workplace
           href: sharepoint/ichicraft-bv-boards-your-digital-workplace.md
         - name: Componenti aggiuntivi di iGlobe CRM
           href: sharepoint/iglobe-crm-add-ons.md
@@ -221,6 +221,8 @@
           href: teams/adobe-systems-inc-acrobat.md
         - name: Adobe Acrobat Sign
           href: teams/adobe-acrobat-sign.md
+        - name: Adobe Creative Cloud Express
+          href: teams/adobe-creative-cloud-express.md
         - name: Agenda Boss
           href: teams/appfluence-inc-agenda-boss.md
         - name: Agile Task Board
@@ -289,6 +291,8 @@
           href: teams/avaamo-it-assistant.md
         - name: Axelleron
           href: teams/axelleron.md
+        - name: Asse
+          href: teams/axis-workshops-ltd.md
         - name: Beagle
           href: teams/decision-point-beagle.md
         - name: Bedriftsnett
@@ -503,6 +507,8 @@
           href: teams/evernote.md
         - name: Evocom
           href: teams/evocom-informationssysteme-gmbh.md
+        - name: Expensya
+          href: teams/expensya.md
         - name: Gestore utente esterno
           href: teams/solutions2share-gmbh-external-user-manager.md
         - name: ezTeam
@@ -595,8 +601,6 @@
           href: teams/digital-attitude-srl-hi-coach.md
         - name: Hi5
           href: teams/hi5technologies-hi5.md
-        - name: HighSide
-          href: teams/highside-inc.md
         - name: HighSide Collaboration
           href: teams/highside-inc-collaboration.md
         - name: Highspot
@@ -683,6 +687,8 @@
           href: teams/lawtoolboxcominc-lawtoolbox.md
         - name: LawVu APAC
           href: teams/lawvu-apac.md
+        - name: LawVu Europe
+          href: teams/lawvu-europe.md
         - name: LawVu USA
           href: teams/lawvu-usa.md
         - name: Learnbee
@@ -787,8 +793,6 @@
           href: teams/jalios-sa-news.md
         - name: ngDesk
           href: teams/all-blue-solutions-ngdesk.md
-        - name: NickNack
-          href: teams/nicknack-ltd.md
         - name: nickname by flowrish games
           href: teams/room6-nickname-by-flowrish-games.md
         - name: Nulia Works
@@ -1009,6 +1013,8 @@
           href: teams/superoffice-infobridge-software.md
         - name: SurveyMonkey
           href: teams/surveymonkey.md
+        - name: SurveyMoodbit
+          href: teams/moodbit-surveymoodbit.md
         - name: SurveySparrow
           href: teams/surveysparrow-inc.md
         - name: Svava per le riunioni
@@ -1079,6 +1085,8 @@
           href: teams/thoughtwire-corp-ews.md
         - name: ti8m places
           href: teams/tim-ag-ti8m-places.md
+        - name: Biglietteria
+          href: teams/kitameraki-limited-ticketing.md
         - name: Tikit
           href: teams/cireson-tikit.md
         - name: TimeClock 365
@@ -1214,9 +1222,9 @@
           href: word/neopolis-gmbh.md
         - name: Office2SharePoint per Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | Selezione contenuto per Office
+        - name: officeatwork | Scelta contenuto per Office
           href: word/officeatwork-officeatworkcontent-chooser-for-office.md
-        - name: officeatwork | Progettazione per Office
+        - name: officeatwork | Finestra di progettazione per Office
           href: word/officeatwork-officeatworkdesigner-for-office.md
         - name: officeatwork | Image Chooser for Office
           href: word/officeatwork-officeatworkimage-chooser-for-office.md
@@ -1283,7 +1291,7 @@
           href: saas/iglobe-crm-office-365-for-microsoft.md
         - name: Image Chooser
           href: saas/officeatwork-image-chooser.md
-        - name: Pro Office 365 iPlanner
+        - name: iPlanner Pro Office 365
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
@@ -1305,7 +1313,7 @@
           href: saas/iglobe-office2sharepoint-for-teams.md
         - name: Individuazione Onna per MS365
           href: saas/onna-discovery-for-ms365.md
-        - name: Criteri e Insights per Microsoft Office 365
+        - name: Criteri e informazioni dettagliate per Microsoft Office 365
           href: saas/avepoint-inc-policiesinsights-for-microsoft-office-365.md
         - name: Priority Matrix
           href: saas/appfluence-inc-priority-matrix.md
@@ -1900,6 +1908,8 @@
           href: azure/eb668aa5-abb2-445c-81b4-3c174db84fe2.md
         - name: ecff17cf-5629-49ba-a629-7f575496aeac
           href: azure/ecff17cf-5629-49ba-a629-7f575496aeac.md
+        - name: ed6cb2ac-21e8-4e9c-a917-6a2d5f03e3a5
+          href: azure/ed6cb2ac-21e8-4e9c-a917-6a2d5f03e3a5.md
         - name: edb24f8f-38af-4b3e-9475-0da243678d5a
           href: azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md
         - name: ef5fa233-c0bb-424e-b9dc-0466d46bade2
@@ -1942,7 +1952,5 @@
           href: azure/fc8f7563-e8ea-4b6d-9622-82775a21a35a.md
         - name: fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc
           href: azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md
-        - name: ff540df6-84dc-4a84-baa4-a95ce3b415cd
-          href: azure/ff540df6-84dc-4a84-baa4-a95ce3b415cd.md
         - name: ff5f406c-2ded-423f-b6ba-2950a2532b69
           href: azure/ff5f406c-2ded-423f-b6ba-2950a2532b69.md
