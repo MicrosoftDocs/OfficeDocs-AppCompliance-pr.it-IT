@@ -3,16 +3,16 @@ ms.author: oromalle
 title: Guida all'invio della certificazione Microsoft 365
 author: orionomalley
 manager: tonybal
-description: Microsoft 365 dettagli della guida all'invio della certificazione
+description: Microsoft 365 Certificazione garantisce alle organizzazioni aziendali la sicurezza e la protezione dei dati e della privacy.
 keywords: team di certificazione delle app Microsoft 365 conformità alla sicurezza m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 5081e187615400b038795215ad0d5dcc934e1a87
-ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
+ms.openlocfilehash: fd6082a482cdf5e4dc268f140b7f2a8de4d8880f
+ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/10/2022
-ms.locfileid: "64751825"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784525"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Guida all'invio della certificazione Microsoft 365
 
@@ -89,8 +89,7 @@ Gli ISV che hanno già avviato la valutazione della certificazione Microsoft 365
 > L'ambiente nell'ambito deve avere una rete perimetrale e l'ambiente di supporto dell'app/componente aggiuntivo deve essere segmentato dai sistemi aziendali interni e dagli ambienti aziendali, limitando così l'ambito delle attività di valutazione solo ai sistemi nell'ambito. Gli analisti di certificazione convalideranno le tecniche di segmentazione durante la valutazione insieme alla revisione dei report sui test di penetrazione che avrebbero dovuto includere test per convalidare l'efficacia di qualsiasi tecnica di segmentazione in uso.
 
 ### <a name="infrastructure-as-a-service-iaas-platform-as-a-service-paas-and-software-as-a-service-saas"></a>Infrastruttura distribuita come servizio (IaaS), Piattaforma distribuita come servizio (PaaS) e Software as a Service (SaaS) 
-Quando si usa IaaS e/o PaaS per supportare l'infrastruttura dell'applicazione o il recapito del codice del componente aggiuntivo in esame, il provider della piattaforma cloud sarà responsabile di alcuni dei controlli di sicurezza valutati durante il processo di certificazione. Di conseguenza, gli analisti di certificazione dovranno essere forniti con la verifica esterna indipendente delle procedure consigliate per la sicurezza da parte del provider della piattaforma cloud tramite report di conformità esterni, ad esempio report di attestazione della conformità (AOC) PCI DSS, ISO27001 o SOC 2 di tipo II. 
-
+Quando si usa IaaS e/o PaaS per supportare l'infrastruttura dell'applicazione o il recapito del codice del componente aggiuntivo in esame, il provider della piattaforma cloud sarà responsabile di alcuni dei controlli di sicurezza valutati durante il processo di certificazione. Di conseguenza, gli analisti di certificazione dovranno essere forniti con la verifica esterna indipendente delle procedure consigliate per la sicurezza da parte del provider della piattaforma cloud tramite report di conformità esterni, ad esempio report [PCI DSS] Attestazione di conformità (AOC), ISO27001 o [SOC 2] Report di tipo II. 
 
 L'appendice F fornisce informazioni dettagliate sui controlli di sicurezza che probabilmente saranno applicabili in base ai tipi di distribuzione seguenti e in base al fatto che l'app/componente aggiuntivo esfiltra o meno i dati M365: 
 * ISV ospitato 

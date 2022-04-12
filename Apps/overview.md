@@ -2,17 +2,18 @@
 title: Programma di conformità delle app di Microsoft 365
 author: LGerrard
 ms.author: Legerrar
+manager: tonybal
 description: Introduzione e panoramica del programma
 keywords: microsoft 365 app m365 Attestazione autore certificazione
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: 17aab158f4fc7803966afed9df88adf9688fcc63
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+ms.openlocfilehash: fec13172c98d6ec63b3ba4160eb04c9b345acb8d
+ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63697068"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784355"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Programma di conformità delle app di Microsoft 365
 
@@ -24,7 +25,7 @@ La nostra missione è offrire ai clienti Microsoft un modo per considerare compl
 
 ## <a name="publisher-verification"></a>Verifica dell'autore
 
-La [verifica dell'autore](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview) consente agli amministratori e agli utenti di comprendere l'autenticità degli sviluppatori delle app che si integrano con Microsoft Identity Platform. Quando un'app è contrassegnata come verificata dall'autore, significa che l'autore ha verificato la propria identità attraverso un account Microsoft Partner Network che ha completato il processo di verifica, e ha associato tale account alla registrazione dell'applicazione.
+La [verifica dell'autore](/azure/active-directory/develop/publisher-verification-overview) consente agli amministratori e agli utenti di comprendere l'autenticità degli sviluppatori delle app che si integrano con Microsoft Identity Platform. Quando un'app è contrassegnata come verificata dall'autore, significa che l'autore ha verificato la propria identità attraverso un account Microsoft Partner Network che ha completato il processo di verifica, e ha associato tale account alla registrazione dell'applicazione.
 La verifica dell’autore si applica alle app che soddisfano le seguenti condizioni:  
 - Uso di OAuth 2.0 e OpenID Connect per far accedere gli utenti e richiedere l'accesso ai dati usando API lato servizio come Microsoft Graph. 
 - Registrata in Azure AD come multi-tenant.  
@@ -50,6 +51,6 @@ La Certificazione Microsoft 365 si applica a tutte le app che si integrano con i
 - **Webapp** (le app SaaS pubblicate tramite marketplace commerciale nel Centro per i partner sono attualmente in un'anteprima privata, se si è interessati a partecipare, compilare questo [modulo](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u).
 
 ### <a name="get-started"></a>Introduzione
-- [Come completare la Verifica dell’autore](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)
-- [Come completare la Certificazione Microsoft 365](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification)
+- [Come completare la Verifica dell’autore](/azure/active-directory/develop/mark-app-as-publisher-verified)
+- [Come completare la Certificazione Microsoft 365](/microsoft-365-app-certification/docs/certification)
 
