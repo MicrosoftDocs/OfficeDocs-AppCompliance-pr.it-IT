@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni di sicurezza e conformità disponibili per tutte le app SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 7e80b2da13df6bc6b97b0022bf47795cb4f28392
-ms.sourcegitcommit: 8272a4eaea1bbd9196b998f1cb9b87c6cbb7d5d0
+ms.openlocfilehash: fe56ddc1a3306d7d4fbaabe0003a811e4b4ac82d
+ms.sourcegitcommit: 10b79d3f6a6d9d89c3b288789a14eafdfcc42d7a
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64830783"
+ms.locfileid: "64838772"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sicurezza e conformità delle app SaaS
 
@@ -34,6 +34,7 @@ Microsoft collabora con i partner per sviluppatori Microsoft 365 per fornire le 
 | [Selezione contenuto](./officeatwork-content-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Browser di Selezione contenuto](./officeatwork-content-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Designer](./officeatwork-designer.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Doppiaggio registrazione chiamata unificata per Microsoft Teams](./dubber-corp-unified-call-recording-for-microsoft-teams.md) | Dubber Corp | **✓** |  |
 | [Emailgistics](./emailgistics-corp.md) | Emailgistics Corp. | **✓** |  |
 | [EmailNotes per Outlook](./standss-south-pacific-pte-limited-emailnotes-for-outlook.md) | Stands (Pacifico meridionale) PTE Limited | **✓** |  |
 | [Integrazione di Genesys Cloud CX Teams](./genesys-cloud-services-inc-cx-teams-integration.md) | Genesys Servizi cloud, Inc | **✓** |  |
