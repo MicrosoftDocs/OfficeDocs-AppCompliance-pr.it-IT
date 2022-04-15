@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Powell Teams, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f6c39ee1825b4a0ebcfde303336aff7d18e97d1b
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 7136ca19eae434a61de556e7b0ecfe0032d35f78
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784214"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866825"
 ---
 # <a name="powell-teams"></a>Powell Teams
 
@@ -39,7 +39,7 @@ Informazioni fornite da Powell Software a Microsoft:
 | Nome della società partner | Powell Software |
 | Sito Web dell'azienda | [https://www.powell-software.com](https://www.powell-software.com) |
 | Condizioni per l'utilizzo dell'app | [https://powell-software.com/en/powell-teams-terms-of-use/](https://powell-software.com/en/powell-teams-terms-of-use/) |
-| Funzionalità di base dell'app | L'app Powell Teams offre un dashboard intelligente per tutti i dipendenti aziendali, li aiuta a organizzare &amp; facilmente i tag di tutti i team, a scoprire i team aziendali promossi più importanti e infine a usare modelli di team predefiniti basati su ruoli per risparmiare tempo. È disponibile anche un'API per recuperare e usare il set di dati nel database [https://docapiteams.powell-software.com](https://docapiteams.powell-software.com) di Powell Teams Infine è disponibile anche un connettore per app per la logica e Power Automate[https://docs.microsoft.com/connectors/powellteams](/connectors/powellteams) |
+| Funzionalità di base dell'app | L'app Powell Teams offre un dashboard intelligente per tutti i dipendenti aziendali, li aiuta a organizzare &amp; facilmente i tag di tutti i team, a scoprire i team aziendali promossi più importanti e infine a usare modelli di team predefiniti basati su ruoli per risparmiare tempo. È disponibile anche un'API per recuperare e usare il set di dati nel database di Powell Teams (https://docapiteams.powell-software.com) Infine è disponibile anche un connettore per app per la logica e Power Automate (https://docs.microsoft.com/en-us/connectors/powellteams) |
 | Sede centrale dell'azienda | Francia |
 | Pagina delle informazioni sull'app | [https://helpteams.powell-software.com](https://helpteams.powell-software.com) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
@@ -86,11 +86,9 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
 | Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? |  |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? |  |
-| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? |  |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
 | Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? |  |
-| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,12 +101,8 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'app è conforme al Health Insurance Portability and Accounting Act (HIPAA)? | No |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | No |
-| Data di certificazione SOC1 più recente |   |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
-| Quale certificazione SOC 2 hai ottenuto? | |
-| Data di certificazione SOC2 più recente | |
 | L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | No |
-| Data di certificazione SOC3 più recente | |
 | Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | No |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | No |
@@ -130,15 +124,6 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
-| L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? |  |
-| L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? |  |
-| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? |  |
-| Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? |  |
-| L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? |  |
-| L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? |  |
-| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? |  |
-| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? |  |
-| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,6 +138,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | true |
 | Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
+| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
 | L'app supporta la valutazione dell'accesso continuo (CAE) |  |
 | L'app archivia le credenziali nel codice? |  |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |

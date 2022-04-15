@@ -1,5 +1,5 @@
 ---
-title: Application Information for Plumm by Plumm Health LTD
+title: Informazioni sull'applicazione per Plumm di Plumm Health LTD
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,22 +7,22 @@ ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Prudenza, i criteri di gestione dei dati, le informazioni del catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Plumm, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f46060403be7542e485ca78cbbd3022bef51506e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: b6c63d81a94f20689685b3700594c85230b55718
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63538034"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64875373"
 ---
 # <a name="plumm"></a>Plumm
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 18, 2021</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 18 agosto 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/d66da813-3337-4f88-8e08-f01c0bbb8f34" target="_blank">Visualizzazione in Teams store</a>
+* <a href="https://teams.microsoft.com/l/app/d66da813-3337-4f88-8e08-f01c0bbb8f34" target="_blank">Visualizza in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003326" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
@@ -33,17 +33,17 @@ Informazioni fornite da Plumm Health LTD a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Plumm |
+| Nome dell'app | Plumm |
 | ID | WA200003326 |
-| Office 365 client supportati | Microsoft Teams |
-| Nome società partner | Plumm Health LTD |
-| Sito Web aziendale | [https://www.plummhealth.com](https://www.plummhealth.com) |
-| Condizioni per l'uso dell'app | [https://www.plummhealth.com/terms-of-use](https://www.plummhealth.com/terms-of-use) |
-| Funzionalità di base dell'app | Plumm fornisce ai dipendenti il supporto necessario per il loro benessere mentale. Ogni membro di Plumm ha accesso a un supporto di salute mentale di alta qualità con una rete globale di oltre 150 terapeuti accreditati, una raccolta digitale di corsi di benessere guidati dal terapeuta, chat e mediazioni guidate &#8211; tutto in un unico luogo. Gli utenti possono connettersi con i terapeuti per la videoterapia online 1:1 o chattare con loro in privato sulle loro esigenze. I corsi online e le meditazioni guidati dal terapeuta offrono supporto in autonomia. |
-| Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (la) |
-| Pagina delle informazioni dell'app | [https://www.plummhealth.com/about-us](https://www.plummhealth.com/about-us) |
+| client Office 365 supportati | Microsoft Teams |
+| Nome della società partner | Plumm Health LTD |
+| Sito Web dell'azienda | [https://www.plummhealth.com](https://www.plummhealth.com) |
+| Condizioni per l'utilizzo dell'app | [https://www.plummhealth.com/terms-of-use](https://www.plummhealth.com/terms-of-use) |
+| Funzionalità di base dell'app | Plumm offre ai dipendenti il supporto di cui hanno bisogno per il loro benessere mentale. Ogni membro di Plumm ha accesso a un supporto di alta qualità per la salute mentale con una rete globale di oltre 150 terapeuti accreditati, una libreria digitale di corsi di benessere guidati dal terapeuta, chatterapia e mediazioni guidate &#8211; tutto in un'unica posizione. Gli utenti possono connettersi con i terapisti per la videoterapia online 1:1 o chattare con loro privatamente sui loro requisiti. Corsi online e meditazioni guidati da terapeuti forniscono supporto di auto-aiuto. |
+| Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (i) |
+| Pagina delle informazioni sull'app | [https://www.plummhealth.com/about-us](https://www.plummhealth.com/about-us) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
-| Quali provider di cloud di hosting usa l'app? | Azure |
+| Quali provider di servizi cloud di hosting usano l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,7 +53,7 @@ Informazioni fornite da Plumm Health LTD a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Plumm Health LTD su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Plumm Health LTD su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -66,31 +66,29 @@ Queste informazioni sono state fornite da Plumm Health LTD su come questa app ra
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Esegui test di penetrazione annuali nell'app? | Sì |
+| Si eseguono test di penetrazione annuali sull'app? | Sì |
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | No |
 | L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? |  |
-| Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? |  |
-| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? |  |
-| Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? |  |
-| L'ambiente include sistemi operativi o software non supportati? |  |
-| Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? |  |
-| Nel limite di rete esterno è installato un firewall? |  |
-| Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? |  |
-| Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? |  |
-| Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? |  |
+| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? |  |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? |  |
+| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? |  |
+| L'ambiente ha sistemi operativi o software non supportati? |  |
+| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? |  |
+| È installato un firewall sul limite di rete esterno? |  |
+| Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? |  |
+| Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? |  |
+| Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? |  |
 | Autenticazione a più fattori abilitata per: |  |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
-| Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? |  |
-| La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? |  |
-| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | |
-| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? |  |
+| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? |  |
+| La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? |  |
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? |  |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
-| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
+| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -100,26 +98,22 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | Sì |
+| L'app è conforme al Health Insurance Portability and Accounting Act (HIPAA)? | Sì |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
-| Data di certificazione SOC1 più recente |   |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
-| Quale certificazione SOC 2 hai raggiunto? | |
-| Data di certificazione SOC2 più recente | |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | No |
-| Data di certificazione SOC3 più recente | |
-| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | Sì |
+| L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | No |
+| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | Sì |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | No |
-| L'app è conforme all'International Organization for Standardization (ISO 27018)? | N/D |
-| L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
-| L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
+| L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | N/D |
+| L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27017)? | No |
+| L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
 | L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
 | L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
-| L'app è conforme Sarbanes-Oxley Act (SOX)? | N/D |
-| L'app è conforme al NIST 800-171? |  |
-| L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | No |
+| L'app è conforme a Sarbanes-Oxley Act (SOX)? | N/D |
+| L'app è conforme a NIST 800-171? |  |
+| L'app è stata certificata da Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -129,16 +123,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Hai un GDPR o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
-| L'app ha un avviso sulla privacy rivolto all'esterno che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? |  |
-| L'app esegue processi decisionali automatizzati, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? |  |
-| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? |  |
-| Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? |  |
-| L'app raccoglie o elabora dati da minori (ad esempio, persone di età inferiore ai 16 anni)? |  |
-| L'app dispone di funzionalità per eliminare i dati personali di un individuo su richiesta? |  |
-| L'app dispone di funzionalità per limitare o limitare l'elaborazione dei dati personali di un individuo su richiesta? |  |
-| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? |  |
-| Vengono eseguite revisioni regolari sulla sicurezza e sulla privacy dei dati (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? |  |
+| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -148,26 +133,27 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | Sì |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | true |
-| Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
+| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
+| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
 | L'app supporta la valutazione dell'accesso continuo (CAE) |  |
-| L'app archivia credenziali nel codice? |  |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |
+| L'app archivia le credenziali nel codice? |  |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Graph autorizzazioni**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD ID app** |
+>|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **ID app Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | application | Usiamo l'ID utente in questa autorizzazione. Viene usato per l'invio di notifiche richieste all'utente in base all'utilizzo del servizio. Questo è importante per consentire all'utente di ricevere notifiche appropriate per il proprio account nell'app. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
->| TeamsAppInstallation.ReadWriteForUser.All | application | L'ID di installazione viene ricevuto utilizzando questa autorizzazione. Questo è importante per essere in grado di inviare la notifica appropriata e corretta per ogni singolo utente. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
->| User.Read | delegated | Stiamo raccogliendo nome, immagine e posta elettronica per i nostri utenti tramite questa autorizzazione. Questo è necessario per consentire a Microsoft di identificare singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio la pagina del profilo individuale e la comunicazione e-mail/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
->| User.Read.All | application | Questa autorizzazione consente all'app di leggere i profili utente senza un utente connesso. In questo momento stiamo raccogliendo solo nome, immagine del profilo e posta elettronica. Questo è necessario per consentire a Microsoft di identificare singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio la pagina del profilo individuale e la comunicazione e-mail/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
->| email | delegated | Viene raccolto l'ID di posta elettronica dell'utente. Richiediamo questi dati per concedere l'accesso all'utente per i nostri servizi e accedere alla nostra app e ricevere notifiche relative ai loro account e ai nostri servizi su questo ID di posta elettronica.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
->| openid | delegated | Per questa autorizzazione, non vengono raccolti dati.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
->| profile | delegated | Stiamo raccogliendo nome, immagine e posta elettronica per i nostri utenti tramite questa autorizzazione. Questo è necessario per consentire a Microsoft di identificare singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio la pagina del profilo individuale e la comunicazione e-mail/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| TeamsActivity.Send | Applicazione | L'ID utente viene usato in questa autorizzazione. Questo viene usato per inviare le notifiche necessarie all'utente in base all'utilizzo del servizio. Questo è importante per consentire all'utente di ricevere notifiche appropriate per il proprio account nell'app. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | Applicazione | Si riceve l'ID installazione usando questa autorizzazione. Questo è importante per noi per poter inviare la notifica appropriata e corretta per ogni singolo utente. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| User.Read | Delegato | Tramite questa autorizzazione vengono raccolti nome, immagine ed e-mail per gli utenti. Ciò è necessario per poter identificare i singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio nella pagina del profilo singolo e nella comunicazione di posta elettronica/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| User.Read.All | Applicazione | Questa autorizzazione consente all'app di leggere i profili utente senza un utente connesso. In questo caso stiamo raccogliendo solo nome, immagine del profilo e posta elettronica. Ciò è necessario per poter identificare i singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio nella pagina del profilo singolo e nella comunicazione di posta elettronica/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| email | Delegato | Viene raccolto l'ID di posta elettronica dell'utente. Abbiamo bisogno di questi dati per concedere l'accesso all'utente per i nostri servizi e accedere alla nostra app e ricevere notifiche relative ai loro account e ai nostri servizi su questo ID e-mail.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| openid | Delegato | Per questa autorizzazione, non vengono raccolti dati.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| profile | Delegato | Tramite questa autorizzazione vengono raccolti nome, immagine ed e-mail per gli utenti. Ciò è necessario per poter identificare i singoli utenti e questi punti dati verranno visualizzati ovunque sia necessario, ad esempio nella pagina del profilo singolo e nella comunicazione di posta elettronica/notifica. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

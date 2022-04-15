@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Axis, i relativi criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 37145512d8f38cdaaa261a3fc1243d71813b370e
-ms.sourcegitcommit: 60344676a860c837b8a727c43d6cec430044c3f4
+ms.openlocfilehash: 002f00abdfdc4aa12bd022be7d903fcd3dbdae12
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64769118"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64867069"
 ---
 # <a name="axis"></a>Asse
 
@@ -154,10 +154,10 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione di Microsoft Identity Platform? | Sì |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | No |
-| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
+| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? | AzureAd come IDP, Auth0 per gestire l'autenticazione tramite l'integrazione fornita |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
 | L'app archivia le credenziali nel codice? | No |
@@ -165,7 +165,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
+>|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **ID app Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| AppCatalog.Read.All | Delegato | Per recuperare l'applicazione installata nel tenant client, per individuare appId interno | [12c3ee39-9735-4cca-8006-94650d19f770](../azure/12c3ee39-9735-4cca-8006-94650d19f770.md) |
 >| Directory.Read.All | Delegato | Per recuperare gli utenti disponibili all'interno del tenant. | [12c3ee39-9735-4cca-8006-94650d19f770](../azure/12c3ee39-9735-4cca-8006-94650d19f770.md) |
