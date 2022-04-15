@@ -3,17 +3,17 @@ title: Sicurezza e conformità delle app SaaS - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/13/2022
+ms.date: 04/14/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni di sicurezza e conformità disponibili per tutte le app SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 16c6e754cbf7575de16f7644d9a8ef19f05906ca
-ms.sourcegitcommit: e0ff50c6828c1ea7789f8c507dc62b66d15768d8
+ms.openlocfilehash: 5602abf50fcc801dd4489b30fa1738fa1691b3d7
+ms.sourcegitcommit: aa6c1546afd356990d681ee68ce976cb7faebd02
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 04/14/2022
-ms.locfileid: "64842090"
+ms.locfileid: "64859052"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sicurezza e conformità delle app SaaS
 
@@ -60,6 +60,7 @@ Microsoft collabora con i partner per sviluppatori Microsoft 365 per fornire le 
 | [Selezione diapositive](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Storm Cloud Contact Center Teams Integration](./content-guru-storm-cloud-contact-center-teams-integration.md) | Guru dei contenuti | **✓** |  |
 | [Connettore Microsoft Teams Talkdesk](./talkdesk-inc-microsoft-teams-connector.md) | Talkdesk, Inc. | **✓** |  |
+| [TeamOrgChart](./teamimprovercom-ltd-teamorgchart.md) | TeamImprover.Com Ltd | **✓** |  |
 | [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Browser del selezionatore di modelli](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Theta Lake Recording &amp; Compliance for Teams Video](./theta-lake-recordingcompliance-for-teams-video.md) | Lago Theta | **✓** |  |
