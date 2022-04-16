@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per l'assegnazione dei ticket, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 42777d2bb9cf639419a28e9ec52c189f8bd27e27
-ms.sourcegitcommit: 60344676a860c837b8a727c43d6cec430044c3f4
+ms.openlocfilehash: b0bf7f4fb8685d48b7048ca8a91880f19697f3cb
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64769100"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64879693"
 ---
 # <a name="ticketing"></a>Biglietteria
 
@@ -132,15 +132,6 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | No |
-| L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | No |
-| L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
-| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
-| Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
-| L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
-| L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? |  |
-| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? |  |
-| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? |  |
-| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -150,8 +141,8 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione di Microsoft Identity Platform? | Sì |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
@@ -161,7 +152,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
+>|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **ID app Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| AppCatalog.Read.All | Delegato | Per verificare se l'app è installata per l'utente | [aa6b770e-6b8c-4096-9648-5239295ecadc](../azure/aa6b770e-6b8c-4096-9648-5239295ecadc.md) |
 >| Group.Read.All | Delegato | Per ottenere l'elenco dei membri e dei proprietari del team, importante per il caso d'uso dell'applicazione | [aa6b770e-6b8c-4096-9648-5239295ecadc](../azure/aa6b770e-6b8c-4096-9648-5239295ecadc.md) |

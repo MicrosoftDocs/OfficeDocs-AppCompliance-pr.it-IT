@@ -1,5 +1,5 @@
 ---
-title: Application Information for Jira Cloud for Outlook (Official) by Atlassian.com
+title: Informazioni sull'applicazione per Jira Cloud per Outlook (ufficiale) di Atlassian.com
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,20 +7,20 @@ ms.date: 10/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud for Outlook (Official), i criteri di gestione dei dati, le informazioni sul catalogo app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel Registro di sistema CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Jira Cloud per Outlook (ufficiale), i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 93a78e68536d3a5213d9367033bb9eb50cfed96e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 204bf4de2959ed1e8376f3b7e5f6e7f29dd6188e
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63541894"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64881503"
 ---
 # <a name="jira-cloud-for-outlook-official"></a>Jira Cloud per Outlook (ufficiale)
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 11, 2021</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 11 agosto 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200000056" target="_blank">Visualizzazione in AppSource</a>
 
@@ -32,17 +32,17 @@ Informazioni fornite da Atlassian.com a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome app | Jira Cloud per Outlook (ufficiale) |
+| Nome dell'app | Jira Cloud per Outlook (ufficiale) |
 | ID | WA200000056 |
-| Office 365 client supportati | Outlook 2013 o versioni successive su Windows, Outlook 2016 o versioni successive su Mac, Outlook su iOS, Outlook su Android, Outlook sul web |
-| Nome società partner | Atlassian.com |
-| Sito Web aziendale | [https://www.atlassian.com](https://www.atlassian.com) |
-| Condizioni per l'uso dell'app | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
-| Funzionalità di base dell'app | Pianificare, tenere traccia, rilasciare software. Gestire il supporto, il servizio clienti e i progetti. |
+| client Office 365 supportati | Outlook 2013 o versioni successive in Windows, Outlook 2016 o versioni successive in Mac, Outlook in iOS, Outlook in Android Outlook sul web |
+| Nome della società partner | Atlassian.com |
+| Sito Web dell'azienda | [https://www.atlassian.com](https://www.atlassian.com) |
+| Condizioni per l'utilizzo dell'app | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
+| Funzionalità di base dell'app | Pianificare, tenere traccia, rilasciare il software. Gestire il supporto, il servizio clienti e i progetti. |
 | Sede centrale dell'azienda | Australia |
-| Pagina delle informazioni dell'app | |
+| Pagina delle informazioni sull'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
-| Quali provider di cloud di hosting usa l'app? | Aws |
+| Quali provider di servizi cloud di hosting usano l'app? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,12 +52,12 @@ Informazioni fornite da Atlassian.com a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Atlassian.com su come questa app raccoglie e archivia i dati dell'organizzazione e il controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Atlassian.com su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dalla tua app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Quali dati vengono elaborati dall'app? | I dati di posta elettronica utente vengono elaborati come parte della funzione delle applicazioni per la visualizzazione dei collegamenti Jira. |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
@@ -67,31 +67,31 @@ Queste informazioni sono state fornite da Atlassian.com su come questa app racco
 
 ::: zone pivot="security"
 
-Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) vengono visualizzate di seguito.
+Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Esegui test di penetrazione annuali nell'app? | No |
+| Si eseguono test di penetrazione annuali sull'app? | No |
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
 | L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware, ApplicationControls |
-| Si dispone di un processo stabilito per l'identificazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
-| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione delle patch? | Sì |
-| Si svolgono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
-| L'ambiente include sistemi operativi o software non supportati? | No |
-| Esegui l'analisi trimestrale delle vulnerabilità nella tua app e nell'infastruttura che la supporta? | Sì |
-| Nel limite di rete esterno è installato un firewall? | Sì |
-| Si dispone di un processo di gestione delle modifiche stabilito utilizzato per esaminare e approvare le richieste di modifica prima che siano distribuite nell'ambiente di produzione? | Sì |
-| Un'altra persona sta esaminando e approvando tutte le richieste di modifica del codice inviate alla produzione dallo sviluppatore originale? | Sì |
-| Le procedure di codifica protetta prendono in considerazione le classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
+| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
+| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
+| L'ambiente ha sistemi operativi o software non supportati? | No |
+| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
+| È installato un firewall sul limite di rete esterno? | Sì |
+| Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
+| Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
+| Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
 | Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
-| Hai distribuito software di rilevamento e prevenzione delle intrusioni (IDPS) nel perimetro del limite di rete che supporta la tua app? | N/D |
-| La registrazione eventi è impostata su tutti i componenti di sistema che supportano la tua app? | Sì |
-| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì|
-| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per il triage? | Sì |
+| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | N/D |
+| La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
+| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
-| Si dispone di un processo formale di risposta agli incidenti di sicurezza documentato e stabilito? |  |
-| Segnalare violazioni dei dati di app o servizi alle autorità di vigilanza e agli utenti interessati dalla violazione entro 72 ore dal rilevamento?| |
+| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | Sì |
+| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -101,26 +101,25 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app è conforme all'Health Insurance Portability and Accounting Act (HIPAA)? | No |
+| L'app è conforme al Health Insurance Portability and Accounting Act (HIPAA)? | No |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | No |
-| Data di certificazione SOC1 più recente |   |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | Sì |
-| Quale certificazione SOC 2 hai raggiunto? |  type2 |
-| Data di certificazione SOC2 più recente |  2020-10-31 |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 3)? | Sì |
-| Data di certificazione SOC3 più recente |  2020-10-31 |
-| Eseguire valutazioni PCI DSS annuali sull'app e sull'ambiente di supporto? | No |
+| Quale certificazione SOC 2 hai ottenuto? | type2 |
+| Data di certificazione SOC2 più recente | 2020-10-31 |
+| L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | Sì |
+| Data di certificazione SOC3 più recente | 2020-10-31 |
+| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | No |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
-| L'app è conforme all'International Organization for Standardization (ISO 27018)? | Sì |
-| L'app è conforme all'International Organization for Standardization (ISO 27017)? | No |
-| L'app è conforme all'International Organization for Standardization (ISO 27002)? | No |
+| L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | Sì |
+| L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27017)? | No |
+| L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
 | L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | No |
 | L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | No |
-| L'app è conforme Sarbanes-Oxley Act (SOX)? | Sì |
-| L'app è conforme al NIST 800-171? | No |
-| L'app è stata certificata da Cloud Security Alliance (CSA Star) ? | Sì |
+| L'app è conforme a Sarbanes-Oxley Act (SOX)? | Sì |
+| L'app è conforme a NIST 800-171? | No |
+| L'app è stata certificata da Cloud Security Alliance (CSA Star)? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -130,16 +129,7 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Hai un GDPR o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | No |
-| L'app ha un avviso sulla privacy rivolto all'esterno che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | No |
-| L'app esegue processi decisionali automatizzati, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
-| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
-| Si elaborano categorie speciali di dati sensibili (ad esempio origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti alle leggi sulle notifiche di violazione? | No |
-| L'app raccoglie o elabora dati da minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
-| L'app dispone di funzionalità per eliminare i dati personali di un individuo su richiesta? |  |
-| L'app dispone di funzionalità per limitare o limitare l'elaborazione dei dati personali di un individuo su richiesta? |  |
-| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? |  |
-| Vengono eseguite revisioni regolari sulla sicurezza e sulla privacy dei dati (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? |  |
+| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -149,16 +139,16 @@ Le informazioni del [Microsoft Cloud App Security](https://www.microsoft.com/ent
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per single sign-on, accesso API e così via? | No |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di Microsoft Identity Platform di integrazione? | No |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | No |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
-| Se l'app non usa una delle librerie precedenti, quali librerie di autenticazione usa? |  |
+| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
-| L'app archivia credenziali nel codice? | No |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare API Microsoft aggiuntive al di fuori di Microsoft Graph. L'app o il componente aggiuntivo usa api Microsoft aggiuntive? | No |
+| L'app archivia le credenziali nel codice? | No |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
->Questa applicazione non utilizza Microsoft Graph.
+>Questa applicazione non usa Microsoft Graph.
 
 >Questa applicazione non dispone di API aggiuntive.
 

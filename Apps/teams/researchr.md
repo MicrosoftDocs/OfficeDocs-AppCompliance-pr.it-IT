@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per researcHR, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1ef8e528aaab8471ee521e1e7e7a22ca409c5af2
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 11d6640b20388c99facf61d5d1a35bd36eadb415
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784165"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64879646"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -86,11 +86,9 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
 | Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? |  |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? |  |
-| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? |  |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
 | Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? |  |
-| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,12 +101,8 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'app è conforme al Health Insurance Portability and Accounting Act (HIPAA)? | N/D |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
-| Data di certificazione SOC1 più recente |   |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
-| Quale certificazione SOC 2 hai ottenuto? | |
-| Data di certificazione SOC2 più recente | |
 | L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | No |
-| Data di certificazione SOC3 più recente | |
 | Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | N/D |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | N/D |
@@ -130,15 +124,6 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
-| L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? |  |
-| L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? |  |
-| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? |  |
-| Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? |  |
-| L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? |  |
-| L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? |  |
-| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? |  |
-| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? |  |
-| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -161,13 +146,13 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 >|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **ID app Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | Applicazione | Questo ambito viene usato per consentire al bot di creare un nuovo canale nel client Teams. Vedere: [https://docs.microsoft.com/graph/api/channel-post](/graph/api/channel-post) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Directory.Read.All | Applicazione | Questo ambito viene usato per ottenere gli ID e i nomi dei canali per visualizzare questi dati nel sito Web. Vedere: [https://docs.microsoft.com/graph/api/channel-list](/graph/api/channel-list) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Group.Read.All | Applicazione | Questo ambito viene usato per ottenere gli ID e i nomi dei canali per visualizzare questi dati nel sito Web. Vedere: [https://docs.microsoft.com/graph/api/channel-list](/graph/api/channel-list) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Team.ReadBasic.All | Applicazione | Questo ambito viene usato per ottenere i membri del team in modo che gli utenti possano visualizzare i membri del team nel sito Web. Vedere: [https://docs.microsoft.com/graph/api/group-list-members](/graph/api/group-list-members) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.Read.All | Applicazione | Questo ambito viene usato per ottenere i canali aggiunti all'utente in modo che gli utenti possano visualizzare i team aggiunti nel sito Web. Vedere: [https://docs.microsoft.com/graph/api/user-list-joinedteams](/graph/api/user-list-joinedteams) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.ReadBasic.All | Delegato | Questo ambito viene usato per abilitare l'account di accesso OAuth e raccogliere l'ID AAD dell'utente, il token di accesso e il token di aggiornamento. Vedere: [https://docs.microsoft.com/graph/auth-v2-user](/graph/auth-v2-user) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| offline_access | Delegato | Questo ambito viene usato per ottenere il token di aggiornamento in modo che sia possibile aggiornare il token di accesso degli utenti autenticati senza interazioni con l'utente. Vedere: [https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Channel.Create | Applicazione | Questo ambito viene usato per consentire al bot di creare un nuovo canale nel client Teams. Vedere: https://docs.microsoft.com/en-us/graph/api/channel-post | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Directory.Read.All | Applicazione | Questo ambito viene usato per ottenere gli ID e i nomi dei canali per visualizzare questi dati nel sito Web. Vedere: https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Group.Read.All | Applicazione | Questo ambito viene usato per ottenere gli ID e i nomi dei canali per visualizzare questi dati nel sito Web. Vedere: https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Team.ReadBasic.All | Applicazione | Questo ambito viene usato per ottenere i membri del team in modo che gli utenti possano visualizzare i membri del team nel sito Web. Vedere: https://docs.microsoft.com/en-us/graph/api/group-list-members | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.Read.All | Applicazione | Questo ambito viene usato per ottenere i canali aggiunti all'utente in modo che gli utenti possano visualizzare i team aggiunti nel sito Web. Vedere: https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.ReadBasic.All | Delegato | Questo ambito viene usato per abilitare l'account di accesso OAuth e raccogliere l'ID AAD dell'utente, il token di accesso e il token di aggiornamento. Vedere: https://docs.microsoft.com/en-us/graph/auth-v2-user | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| offline_access | Delegato | Questo ambito viene usato per ottenere il token di aggiornamento in modo che sia possibile aggiornare il token di accesso degli utenti autenticati senza interazioni con l'utente. Vedere: https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
