@@ -1273,6 +1273,8 @@
       items:
         - name: Centro di amministrazione
           href: saas/officeatwork-admin-center.md
+        - name: Adobe Acrobat Sign for Microsoft 365
+          href: saas/adobe-acrobat-sign-for-microsoft-365.md
         - name: Console operatore Anywhere365 per Microsoft Teams
           href: saas/workstreampeople-bv-anywhere365-attendant-console-for-microsoft-teams.md
         - name: Centro contatti Anywhere365 per Teams
