@@ -3,24 +3,24 @@ title: Informazioni sull'applicazione per Breakthru by Breakthru
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/14/2021
+ms.date: 04/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Breakthru, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 783f06067440da574995ca981c904cfb3a5e6317
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 669ea95ebb374e1d5ee1a102b4efbff05357a6af
+ms.sourcegitcommit: db48137bbc58500d2e4b5ec78cb8f585b835237e
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881383"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "65152093"
 ---
 # <a name="breakthru"></a>Breakthru
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 4 giugno 2021</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 28 aprile 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/693aa4f0-e16c-11ea-ab9b-11514b3de7ae" target="_blank">Visualizza in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002243" target="_blank">Visualizzazione in AppSource</a>
@@ -39,10 +39,10 @@ Informazioni fornite da Breakthru a Microsoft:
 | Nome della società partner | Breakthru |
 | Sito Web dell'azienda | [https://breakthru.me](https://breakthru.me) |
 | Condizioni per l'utilizzo dell'app | [https://breakthru.me/terms](https://breakthru.me/terms) |
-| Funzionalità di base dell'app | Microbreak immersivi per la giornata lavorativa, alimentati dai nostri corpi in movimento. |
+| Funzionalità di base dell'app | Piccole pause per condividere e giocare, integrate direttamente nella tua giornata. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni sull'app | [https://breakthru.me](https://breakthru.me) |
-| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di servizi cloud di hosting usano l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -57,8 +57,14 @@ Queste informazioni sono state fornite da Breakthru sul modo in cui questa app r
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
+| Quali dati vengono archiviati nei database? | Indirizzo email. Microsoft Teams ID tenant. Microsoft Teams ID. Manteniamo una cronologia delle interruzioni selezionate e ti consentiamo di impostare promemoria per partecipare a un'interruzione. |
+| Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Stati Uniti d'America, Germania, Regno Unito di Gran Bretagna e Irlanda del Nord (il) |
+| Si dispone di un processo di noleggio e smaltimento dei dati stabilito? | Sì |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 90 giorni |
+| Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
+| Trasferisci i dati dei clienti o il contenuto del cliente a terze parti o sub-responsabili del trattamento? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,23 +78,25 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | Si eseguono test di penetrazione annuali sull'app? | Sì |
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
-| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? |  |
-| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? |  |
-| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? |  |
-| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? |  |
-| L'ambiente ha sistemi operativi o software non supportati? |  |
-| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? |  |
-| È installato un firewall sul limite di rete esterno? |  |
-| Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? |  |
-| Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? |  |
-| Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? |  |
-| Autenticazione a più fattori abilitata per: |  |
-| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
-| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? |  |
-| La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? |  |
-| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? |  |
-| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
-| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? |  |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware |
+| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | No |
+| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | No |
+| L'ambiente ha sistemi operativi o software non supportati? | No |
+| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
+| È installato un firewall sul limite di rete esterno? | No |
+| Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
+| Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
+| Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
+| Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
+| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
+| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | N/D |
+| La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
+| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
+| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
+| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | Sì |
+| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,7 +120,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | Sì |
 | L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | Sì |
 | L'app è conforme a Sarbanes-Oxley Act (SOX)? | N/D |
-| L'app è conforme a NIST 800-171? |  |
+| L'app è conforme a NIST 800-171? | N/D |
 | L'app è stata certificata da Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -123,7 +131,18 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
+| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
+| L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
+| URL dell'informativa sulla privacy | https://breakthru.me/privacy#h.wc7yv5k6csnq |
+| L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
+| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
+| Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
+| L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? | Sì |
+| Il consenso viene ottenuto da un genitore o da un tutore legale? | Sì |
+| L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? | Sì |
+| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | Sì |
+| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | Sì |
+| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -136,10 +155,9 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | No |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | No |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
-| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
-| L'app supporta la valutazione dell'accesso continuo (CAE) |  |
-| L'app archivia le credenziali nel codice? |  |
+| L'app supporta la valutazione dell'accesso continuo (CAE) | No |
+| L'app archivia le credenziali nel codice? | No |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
 >Questa applicazione non usa Microsoft Graph.
