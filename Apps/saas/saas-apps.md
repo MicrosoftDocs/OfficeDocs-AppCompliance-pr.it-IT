@@ -3,17 +3,17 @@ title: Sicurezza e conformità delle app SaaS - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/20/2022
+ms.date: 04/29/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni di sicurezza e conformità disponibili per tutte le app SaaS.
 localization_priority: Normal
-ms.openlocfilehash: a5710377c29684140336abe5dc351f8161008c08
-ms.sourcegitcommit: 9dbbec778006471c0193a7fd39e2f81e7d441275
+ms.openlocfilehash: ddd2212052e7e4998442bc41fee6935503d27382
+ms.sourcegitcommit: 4e4e1e4f91f4fab06f3585388784a0da1a963453
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014306"
+ms.lasthandoff: 05/02/2022
+ms.locfileid: "65168522"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sicurezza e conformità delle app SaaS
 
@@ -22,7 +22,7 @@ Microsoft collabora con i partner per sviluppatori Microsoft 365 per fornire le 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Centro di amministrazione](./officeatwork-admin-center.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Adobe Acrobat Sign for Microsoft 365](./adobe-acrobat-sign-for-microsoft-365.md) | Adobe | **✓** |  |
+| [Adobe Acrobat Sign for Microsoft 365](./adobe-acrobat-sign-for-microsoft-365.md) | Adobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Console operatore Anywhere365 per Microsoft Teams](./workstreampeople-bv-anywhere365-attendant-console-for-microsoft-teams.md) | WORKSTREAMPEOPLE BV | **✓** |  |
 | [Centro contatti Anywhere365 per Teams](./workstreampeople-bv-anywhere365-contact-center-for-teams.md) | WORKSTREAMPEOPLE BV | **✓** |  |
 | [Contact Center Buzzeasy per Teams](./geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md) | Geomant-Algotech Zrt. | **✓** |  |
