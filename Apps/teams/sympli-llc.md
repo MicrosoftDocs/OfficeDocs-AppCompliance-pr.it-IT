@@ -1,46 +1,46 @@
 ---
-title: Informazioni sull'applicazione per Trivie di Trivie, Inc.
+title: Informazioni sull'applicazione per Sympli di Sympli, LLC
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/05/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per Trivie, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Sympli, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c7e6bfc6a41d37b14e51959b60c3f263b5af2706
+ms.openlocfilehash: f5fb3a6fb4d767d45c1f533ca5a1dd39092ab7db
 ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/05/2022
-ms.locfileid: "65226490"
+ms.locfileid: "65227210"
 ---
-# <a name="trivie"></a>Trivie
+# <a name="sympli"></a>Sympli
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 23 marzo 2021</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 16 febbraio 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/71c264ed-3dad-4705-96a9-eac5a601b14f" target="_blank">Visualizza in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002718" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/f1d676ab-0d2c-4afe-a9be-0af4528949ce" target="_blank">Visualizza in Teams store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001551" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Trivie, Inc. a Microsoft:
+Informazioni fornite da Sympli, LLC a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Trivie |
-| ID | WA200002718 |
+| Nome dell'app | Sympli |
+| ID | WA200001551 |
 | client Office 365 supportati | Microsoft Teams |
-| Nome della società partner | Trivie, Inc. |
-| URL del sito Web del partner | [https://trivie.com](https://trivie.com) |
-| URL della pagina Teams informazioni sull'applicazione | [https://trivie.com](https://trivie.com) |
-| URL dell'informativa sulla privacy | [https://trivie.com/privacy-policy](https://trivie.com/privacy-policy) |
-| URL delle condizioni per l'utilizzo | [https://trivie.com/terms-of-service](https://trivie.com/terms-of-service) |
+| Nome della società partner | Sympli, LLC |
+| URL del sito Web del partner | [https://sympli.io](https://sympli.io) |
+| URL della pagina Teams informazioni sull'applicazione | [https://help.sympli.io/en/articles/3931575-using-microsoft-...](https://help.sympli.io/en/articles/3931575-using-microsoft-teams-with-sympli-handoff) |
+| URL dell'informativa sulla privacy | [https://sympli.io/policy](https://sympli.io/policy) |
+| URL delle condizioni per l'utilizzo | [https://sympli.io/agreement](https://sympli.io/agreement) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,7 +50,7 @@ Informazioni fornite da Trivie, Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Trivie, Inc. Su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Sympli, LLC su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
@@ -65,32 +65,34 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con un servizio non 
 
 >| **Tutti gli OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| AWS, MailGun, OneSignal | Nome dell'azienda | Base legale: interessi legittimi/contratto |
+>| Intercom, Stripe, HubSpot | Nome dell'organizzazione | Supporto tecnico, vendite, aggiornamenti dei prodotti |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
 Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni identificabili dell'utente finale (EUII): il roster (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunto. Questa app usa questa funzionalità?
 
->Non è possibile accedere all'identità dell'identità dell'utente.
+>| **Giustificazione dell'accesso a EUII?**  | **L'identità dell'identità dell'utente viene archiviata in uno o più database?** | **Giustificazione dell'archiviazione dell'IUE?** |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Il nome specificato degli utenti viene usato per l'arricchimento dell'esperienza utente conversazionale. | No |  |
 
 
 #### <a name="telemetry-data"></a>Dati di telemetria
 
 Nei dati di telemetria o nei log dell'applicazione vengono visualizzate informazioni personali dell'organizzazione o informazioni personali dell'utente finale( EUII) ? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
 
->Nome, cognome, indirizzo di posta elettronica. Eliminazione su richiesta del cliente o risoluzione del contratto +30 giorni.
+>Nei log o nei dati di telemetria delle applicazioni non vengono visualizzati dati OII o EUII.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio l'eliminazione, la conservazione, il controllo, l'archiviazione, i criteri degli utenti finali e così via.
 
->Clausole contrattuali standard
+>Ci basiamo sui criteri dei servizi corrispondenti, ad esempio https://www.intercom.com/legal/privacy, , https://legal.hubspot.com/privacy-policyhttps://stripe.com/privacy
 
 #### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni aziendali
 
 Gli esseri umani sono coinvolti nella revisione o nell'analisi di eventuali dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
 
->No
+>Sì
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -100,9 +102,9 @@ Gli esseri umani sono coinvolti nella revisione o nell'analisi di eventuali dati
 
 Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
-<iframe height='1020' title='informazioni Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37865' frameborder='no'></iframe>
+<iframe height='1020' title='informazioni Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/30740' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37865" target="_blank">Visualizzazione in una nuova scheda</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/30740" target="_blank">Visualizzazione in una nuova scheda</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,7 +114,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 ### <a name="identity-information"></a>Informazioni sull'identità
 
-Queste informazioni sono state fornite da Trivie, Inc. Su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione dell'applicazione e altri criteri di identità.
+Queste informazioni sono state fornite da Sympli, LLC su come questa app gestisce l'autenticazione, l'autorizzazione, le procedure consigliate per la registrazione dell'applicazione e altri criteri di identità.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|

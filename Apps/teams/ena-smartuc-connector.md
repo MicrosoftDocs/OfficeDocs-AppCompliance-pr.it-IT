@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per ENA SmartUC Connector, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3f2f49283d559d7d1392339969884fb50ba2a777
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 35216e57d20e4893f3d349809568c89df0b60032
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64876403"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226160"
 ---
 # <a name="ena-smartuc-connector"></a>Connettore ENA SmartUC
 
@@ -150,13 +150,13 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 >|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **ID app Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.Read.All | Delegato | ID utente e nomi visualizzati dei membri del canale/chat corrente. L'app usa questa opzione per presentare all'utente un elenco di membri del canale/chat da chiamare. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| Chat.ReadBasic | Delegato | ID utente e nomi visualizzati dei membri della chat corrente. L'app usa questa opzione per presentare all'utente un elenco di membri della chat da chiamare. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| People.Read.All | Delegato | ID utente e nomi visualizzati dei membri del team corrente. L'app usa questa opzione per presentare all'utente un elenco di membri del team da chiamare. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| User.Read.All | Delegato | Numero di telefono aziendale e cellulare degli utenti. Ciò è necessario in modo che sia possibile avviare le chiamate telefoniche a questi numeri. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| offline_access | Delegato | Token di autorizzazione per l'utente, che autorizza l'app ad accedere agli altri endpoint API Graph elencati per loro conto. Queste autorizzazioni di accesso sono necessarie per il funzionamento delle applicazioni di Microsoft Identity Platform. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| openid | Delegato | Token di autorizzazione per l'utente, che autorizza l'app ad accedere agli altri endpoint API Graph elencati per loro conto. Queste autorizzazioni di accesso sono necessarie per il funzionamento delle applicazioni di Microsoft Identity Platform. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| profile | Delegato | Token di autorizzazione per l'utente, che autorizza l'app ad accedere agli altri endpoint API Graph elencati per loro conto. Queste autorizzazioni di accesso sono necessarie per il funzionamento delle applicazioni di Microsoft Identity Platform. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| ChannelMember.Read.All | Delegato | ID utente e nomi visualizzati dei membri del canale/chat corrente. L'app usa questa opzione per presentare all'utente un elenco di membri del canale/chat da chiamare. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| Chat.ReadBasic | Delegato | ID utente e nomi visualizzati dei membri della chat corrente. L'app usa questa opzione per presentare all'utente un elenco di membri della chat da chiamare. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| People.Read.All | Delegato | ID utente e nomi visualizzati dei membri del team corrente. L'app usa questa opzione per presentare all'utente un elenco di membri del team da chiamare. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| User.Read.All | Delegato | Numero di telefono aziendale e cellulare degli utenti. Ciò è necessario in modo che sia possibile avviare le chiamate telefoniche a questi numeri. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| offline_access | Delegato | Token di autorizzazione per l'utente, che autorizza l'app ad accedere agli altri endpoint API Graph elencati per loro conto. Queste autorizzazioni di accesso sono necessarie per il funzionamento delle applicazioni di Microsoft Identity Platform. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| openid | Delegato | Token di autorizzazione per l'utente, che autorizza l'app ad accedere agli altri endpoint API Graph elencati per loro conto. Queste autorizzazioni di accesso sono necessarie per il funzionamento delle applicazioni di Microsoft Identity Platform. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| profile | Delegato | Token di autorizzazione per l'utente, che autorizza l'app ad accedere agli altri endpoint API Graph elencati per loro conto. Queste autorizzazioni di accesso sono necessarie per il funzionamento delle applicazioni di Microsoft Identity Platform. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
