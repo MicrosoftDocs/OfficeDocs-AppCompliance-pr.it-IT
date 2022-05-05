@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione Word per officeatwork | Image Chooser for Office by officeatwork
+title: Informazioni sull'applicazione per Image Chooser per Office da officeatwork
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni disponibili sulla sicurezza e sulla conformità per officeatwork | Image Chooser per Office, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 057c8ffd2de8993a8dafc6e2df61525c86528bf2
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 324478f763dd08190d728afe7a7005ca26d72b5f
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784395"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65221037"
 ---
-# <a name="word--officeatwork--image-chooser-for-office"></a>| di Word officeatwork | Image Chooser for Office
+# <a name="application-information-for-officeatwork--image-chooser-for-office"></a>Informazioni sull'applicazione per officeatwork | Image Chooser for Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Ultimo aggiornamento da parte dello sviluppatore: 24 gennaio 2022</p>
@@ -31,13 +31,13 @@ Informazioni fornite da officeatwork a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Officeatwork \| Image Chooser per Office |
+| Nome dell'app | officeatwork - Image Chooser for Office |
 | ID | WA200002683 |
 | client Office 365 supportati | Excel iPad, Excel 2016 o versione successiva in Mac, Excel Service Pack 1 o versione successiva Windows, Excel sul web, Word in iPad, Word 2016 o versioni successive in Mac, Word sul web, Word 2013 Service Pack 1 o versioni successive in Windows, PowerPoint in iPad, PowerPoint 2016 o versioni successive in Mac, PowerPoint sul web, PowerPoint 2013 Service Pack 1 o versione successiva in Windows, OneNote sul web |
 | Nome della società partner | officeatwork |
 | Sito Web dell'azienda | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Condizioni per l'utilizzo dell'app | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Funzionalità di base dell'app | Image Bank per M365 \| Accedere alle immagini condivise centralmente in Word, Excel, PowerPoint e altre app |
+| Funzionalità di base dell'app | Image Bank per M365 - Accedere alle immagini condivise centralmente in Word, Excel, PowerPoint e altre app |
 | Sede centrale dell'azienda | Svizzera |
 | Pagina delle informazioni sull'app | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -56,7 +56,7 @@ Queste informazioni sono state fornite da officeatwork sul modo in cui questa ap
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dall'app? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Quali dati vengono elaborati dall'app? | Raccolta: ID tenant Microsoft, ID oggetto Azure AD utente; L'elaborazione dei dati dipende dalle autorizzazioni concesse e viene eseguita sul lato client. Solo i dati necessari per le autorizzazioni e il flusso di accesso vengono elaborati dai servizi di Azure PaaS temporanei, serverless e attendibili controllati da Officeatwork. |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
@@ -86,11 +86,11 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
 | Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | N/D |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
-| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì|
+| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
-| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? |  |
-| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento?| |
+| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | Sì |
+| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,12 +103,8 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'app è conforme al Health Insurance Portability and Accounting Act (HIPAA)? | N/D |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
-| Data di certificazione SOC1 più recente |   |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
-| Quale certificazione SOC 2 hai ottenuto? | |
-| Data di certificazione SOC2 più recente | |
 | L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | No |
-| Data di certificazione SOC3 più recente | |
 | Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | N/D |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | N/D |

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per Zoho Notebook, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: abe1c4fb7308fb3db0ae594f73e89713b7d66362
-ms.sourcegitcommit: fb02bf852b775f9114966cfbf158197149ec95a2
+ms.openlocfilehash: 771b6e3d00dfe74b33699c584f79e18ad9aa8f58
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64770053"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65221052"
 ---
 # <a name="zoho-notebook"></a>Zoho Notebook
 
@@ -54,6 +54,43 @@ Informazioni fornite da Zoho Corporation Private Limited a Microsoft:
 
 Queste informazioni sono state fornite da Zoho Corporation Private Limited su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+Elencare le [autorizzazioni di Microsoft Graph](/graph/permissions-reference) necessarie per questa app.
+
+>Questa applicazione non usa Microsoft Graph.
+
+
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+
+Se l'app trasferisce o condivide i dati dell'organizzazione con un servizio non Microsoft, elencare il servizio non Microsoft usato dall'app, i dati trasferiti e includere una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+
+>Non vengono usati servizi Microsoft.
+
+#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
+
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni identificabili dell'utente finale (EUII): il roster (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunto. Questa app usa questa funzionalità?
+
+>Non è possibile accedere all'identità dell'identità dell'utente.
+
+
+#### <a name="telemetry-data"></a>Dati di telemetria
+
+Nei dati di telemetria o nei log dell'applicazione vengono visualizzate informazioni personali dell'organizzazione o informazioni personali dell'utente finale( EUII) ? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
+
+>Questa app non raccoglie e archivia dati organizzativi, tra cui EUII e OII.
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
+
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio l'eliminazione, la conservazione, il controllo, l'archiviazione, i criteri degli utenti finali e così via.
+
+>Tutti i dati acquisiti con questa app vengono archiviati in modo sicuro nei server Zoho Notebook. Tutti i dati sono EAR. Pertanto, nessuno tranne l'utente può visualizzare i dati.
+
+#### <a name="human-review-of-organizational-information"></a>Revisione umana delle informazioni aziendali
+
+Gli esseri umani sono coinvolti nella revisione o nell'analisi di eventuali dati OII (Organizational Identifiable Information) raccolti o archiviati da questa app?
+
+>No
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
@@ -75,29 +112,32 @@ Queste informazioni sono state fornite da Zoho Corporation Private Limited su co
 
 Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
-| **Informazioni** | **Risposta** |
+<iframe height='1020' title='informazioni Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/21298' frameborder='no'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/21298" target="_blank">Visualizza in una nuova</a> 
+| **schedaInformazioni** | **sulle** |
 |:----------------|:-------------|
-| Si eseguono test di penetrazione annuali sull'app? | Sì |
-| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
+| informazioni Eseguire test di penetrazione annuali nell'app? | Sì |
+| L'app ha un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
 | L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware, ApplicationControls |
-| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
+| Si dispone di un processo stabilito per identificare e classificare i rischi delle vulnerabilità di sicurezza? | Sì |
 | Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
 | Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
 | L'ambiente ha sistemi operativi o software non supportati? | No |
-| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
-| È installato un firewall sul limite di rete esterno? | Sì |
+| Eseguire l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
+| Si dispone di un firewall installato nel limite di rete esterno? | Sì |
 | Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
-| Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
+| : un'altra persona esamina e approva tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
 | Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
-| Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
+| Autenticazione a più fattori (MFA) abilitata per: | CodeRepositories, DNSManagement, Credential |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
 | Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | Sì |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
-| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
+| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
 | Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | Sì |
-| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
+| Segnala le violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,8 +194,8 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione di Microsoft Identity Platform? | Sì |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | Sì |
@@ -166,7 +206,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
+>|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **ID app Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | Delegato | Leggere i nomi e le descrizioni dei canali | [9944c8e1-fc22-4546-8023-9459b75c472a](../azure/9944c8e1-fc22-4546-8023-9459b75c472a.md) |
 >| ChannelMessage.Send | Delegato | Inviare messaggi del canale | [9944c8e1-fc22-4546-8023-9459b75c472a](../azure/9944c8e1-fc22-4546-8023-9459b75c472a.md) |
