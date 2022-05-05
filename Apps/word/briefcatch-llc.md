@@ -1,49 +1,48 @@
 ---
-title: Informazioni sull'applicazione per l'assenteizzare da BrainCore Solutions
+title: Informazioni sull'applicazione per BriefCatch di BriefCatch LLC
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/07/2022
+ms.date: 05/04/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per absentify, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per BriefCatch, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5651ee824e80e4b1b38addfc9e14ce56340cccfd
+ms.openlocfilehash: 8f5930a7f454f6160ac5ff0be2f461e69bfd162b
 ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/05/2022
-ms.locfileid: "65229155"
+ms.locfileid: "65229398"
 ---
-# <a name="absentify"></a>absentify
+# <a name="briefcatch"></a>BriefCatch
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 1 marzo 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 3 maggio 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/fbd349eb-146f-4e94-af76-df4754f40749" target="_blank">Visualizza in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003833" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003725" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da BrainCore Solutions a Microsoft:
+Informazioni fornite da BriefCatch LLC a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | absentify |
-| ID | WA200003833 |
-| client Office 365 supportati | Microsoft Teams |
-| Nome della società partner | BrainCore Solutions |
-| Sito Web dell'azienda | [https://braincore.solutions](https://braincore.solutions) |
-| Condizioni per l'utilizzo dell'app | [https://absentify.com/terms-and-conditions](https://absentify.com/terms-and-conditions) |
-| Funzionalità di base dell'app | Il modo più semplice per gestire il time off dei dipendenti- in Microsoft Teams |
-| Sede centrale dell'azienda | Svizzera |
-| Pagina delle informazioni sull'app | [https://absentify.com](https://absentify.com) |
+| Nome dell'app | BriefCatch |
+| ID | WA200003725 |
+| client Office 365 supportati | Word 2016 o versione successiva in Mac, Word sul web, Word 2013 o versione successiva in Windows |
+| Nome della società partner | BriefCatch LLC |
+| Sito Web dell'azienda | [https://briefcatch.com](https://briefcatch.com) |
+| Condizioni per l'utilizzo dell'app | [https://briefcatch.com/briefcatch-end-user-license-agreemen...](https://briefcatch.com/briefcatch-end-user-license-agreement/) |
+| Funzionalità di base dell'app | Esperto modifica legale al tuo fianco. |
+| Sede centrale dell'azienda | Stati Uniti d'America |
+| Pagina delle informazioni sull'app | [https://briefcatch.com/version-3/](https://briefcatch.com/version-3/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
-| Quali provider di servizi cloud di hosting usano l'app? | Aws |
+| Quali provider di servizi cloud di hosting usano l'app? | Azure, GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,20 +52,12 @@ Informazioni fornite da BrainCore Solutions a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da BrainCore Solutions su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da BriefCatch LLC su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dall'app? | Microsoft User ID,Email,DisplayName |
-| L'app supporta TLS 1.1 o versione successiva? | Sì |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | Microsoft User ID,Email,DisplayName |
-| Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Germania |
-| Si dispone di un processo di noleggio e smaltimento dei dati stabilito? | Sì |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
-| Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
-| Trasferisci i dati dei clienti o il contenuto del cliente a terze parti o sub-responsabili del trattamento? | No |
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -80,7 +71,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | Si eseguono test di penetrazione annuali sull'app? | Sì |
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
-| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware, ApplicationControls |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware |
 | Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
 | Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
 | Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
@@ -89,7 +80,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | È installato un firewall sul limite di rete esterno? | Sì |
 | Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
 | Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
-| Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | No |
+| Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
 | Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
 | Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | N/D |
@@ -113,7 +104,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
 | L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | No |
-| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | N/D |
+| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | Sì |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | N/D |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27017)? | No |
@@ -133,17 +124,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
-| L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
-| URL dell'informativa sulla privacy | https://absentify.com/privacy-policy |
-| L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
-| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | Sì |
-| Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
-| L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
-| L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? | Sì |
-| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | N/D |
-| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | Sì |
-| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | N/D |
+| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,23 +134,15 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
-| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
-| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | No |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
 | L'app archivia le credenziali nel codice? | No |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
-#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
-
->|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **ID app Azure AD** |
->|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | Applicazione | Facoltativo. Per inviare notifiche a Microsoft Teams. | [0f5eabc0-89bf-4cc6-80d1-10094b5919d2](/microsoft-365-app-certification/azure/0f5eabc0-89bf-4cc6-80d1-10094b5919d2) |
->| Calendars.ReadWrite | Delegato | Facoltativo: per creare automaticamente una voce di calendario Outlook per le assenze. | [3dbcb38b-8d2f-4e97-9bd1-975fb770b31c](/microsoft-365-app-certification/azure/3dbcb38b-8d2f-4e97-9bd1-975fb770b31c) |
->| User.Read | Delegato | Per l'accesso | [4dce2abf-3f8e-4281-9f7a-d602fc391886](/microsoft-365-app-certification/azure/4dce2abf-3f8e-4281-9f7a-d602fc391886) |
->| User.ReadBasic.All | Delegato | Facoltativo: per visualizzare le immagini del profilo Microsoft degli utenti. | [4dce2abf-3f8e-4281-9f7a-d602fc391886](/microsoft-365-app-certification/azure/4dce2abf-3f8e-4281-9f7a-d602fc391886) |
+>Questa applicazione non usa Microsoft Graph.
 
 >Questa applicazione non dispone di API aggiuntive.
 

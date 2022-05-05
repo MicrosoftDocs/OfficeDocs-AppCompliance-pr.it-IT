@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Zoho Desk, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fccf55f821edb3bfaa6e63b9982da8c67255a305
-ms.sourcegitcommit: b1e50c421eeb1b54e99180634217d3df35a4897f
+ms.openlocfilehash: 6386c25acea352558965af02c99a49cd79baff6b
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64957682"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65227998"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -22,8 +22,8 @@ ms.locfileid: "64957682"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Ultimo aggiornamento da parte dello sviluppatore: 20 ottobre 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/091ec948-c0ee-4d56-aa9e-51c3d8316a9c" target="_blank">Visualizza in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104382044" target="_blank">Visualizzazione in AppSource</a>
+* [Visualizza in Teams store](https://teams.microsoft.com/l/app/091ec948-c0ee-4d56-aa9e-51c3d8316a9c)
+* [Visualizzazione in AppSource](https://appsource.microsoft.com/product/office/WA104382044)
 
 ::: zone pivot="general"
 
@@ -54,6 +54,46 @@ Informazioni fornite da Zoho Corporation Private Limited a Microsoft:
 
 Queste informazioni sono state fornite da Zoho Corporation Private Limited su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+Elencare le [autorizzazioni di Microsoft Graph](/graph/permissions-reference) necessarie per questa app.
+
+>| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **ID app Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.Read | Delegato |  | Leggere i file utente. |  |
+>| Files.Read.All | Delegato |  | Leggere tutti i file a cui l'utente può accedere. |  |
+>| User.Read | Delegato |  | Accedere e leggere il profilo utente. |  |
+>| User.ReadBasic.All | Delegato |  | Leggere tutti i profili di base degli utenti. |  |
+>| email | Delegato |  | Visualizzare l'indirizzo di posta elettronica dell'utente. |  |
+>| offline_access | Delegato |  | Mantenere l'accesso ai dati a cui è stato concesso l'accesso. |  |
+>| profile | Delegato |  | Visualizzare il profilo di base dell'utente. |  |
+
+
+#### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
+
+Se l'app trasferisce o condivide i dati dell'organizzazione con un servizio non Microsoft, elencare il servizio non Microsoft usato dall'app, i dati trasferiti e includere una giustificazione del motivo per cui l'app deve trasferire queste informazioni.
+
+>Non vengono usati servizi Microsoft.
+
+#### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
+
+Se questa app contiene un bot o un'estensione di messaggistica, può accedere alle informazioni identificabili dell'utente finale (EUII): il roster (nome, cognome, nome visualizzato, indirizzo di posta elettronica) di qualsiasi membro del team in un team o chat a cui viene aggiunto. Questa app usa questa funzionalità?
+
+>Non è possibile accedere all'identità dell'identità dell'utente.
+
+
+#### <a name="telemetry-data"></a>Dati di telemetria
+
+Nei dati di telemetria o nei log dell'applicazione vengono visualizzate informazioni personali dell'organizzazione o informazioni personali dell'utente finale( EUII) ? In caso affermativo, descrivere quali dati vengono archiviati e quali sono i criteri di conservazione e rimozione?
+
+>No
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controlli dell'organizzazione per i dati archiviati dal partner
+
+Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio l'eliminazione, la conservazione, il controllo, l'archiviazione, i criteri degli utenti finali e così via.
+
+>1)C'è un'opzione nell'interfaccia utente per eliminare le entità, gli amministratori e gli agenti all'interno del desk Zoho con opzioni di eliminazione possono eseguire questa operazione. 2) Sono disponibili anche opzioni per l'esportazione tramite le quali l'amministratore può esportare e ottenere per il proprio scopo.  3) Manteniamo il controllo nel back-end, quando il cliente richiede queste informazioni possono essere fornite.
+
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
@@ -75,29 +115,32 @@ Queste informazioni sono state fornite da Zoho Corporation Private Limited su co
 
 Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
-| **Informazioni** | **Risposta** |
+<iframe height='1020' title='informazioni Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308' frameborder='no'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308" target="_blank">Visualizza in una nuova</a> 
+| **schedaInformazioni** | **sulle** |
 |:----------------|:-------------|
-| Si eseguono test di penetrazione annuali sull'app? | Sì |
-| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
+| informazioni Eseguire test di penetrazione annuali nell'app? | Sì |
+| L'app ha un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
 | L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware, ApplicationControls |
-| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
+| Si dispone di un processo stabilito per identificare e classificare i rischi delle vulnerabilità di sicurezza? | Sì |
 | Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
 | Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
 | L'ambiente ha sistemi operativi o software non supportati? | No |
-| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
-| È installato un firewall sul limite di rete esterno? | Sì |
+| Eseguire l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
+| Si dispone di un firewall installato nel limite di rete esterno? | Sì |
 | Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
-| Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
+| : un'altra persona esamina e approva tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
 | Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
-| Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
+| Autenticazione a più fattori (MFA) abilitata per: | CodeRepositories, DNSManagement, Credential |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
 | Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | Sì |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
-| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
+| Tutti i log vengono esaminati a cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
 | Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | Sì |
-| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
+| Segnala le violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

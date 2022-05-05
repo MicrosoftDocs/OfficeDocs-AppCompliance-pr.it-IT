@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per la collaborazione Power BI di Ataira
+title: Panoramica della collaborazione di Ataira Power BI
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per collaborazione Power BI, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 04a86c1ee58ed1a017a3cf70d3ebab87ba4e558c
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: c415de66c2998fed388fa89b334419a9a12ce51e
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64876563"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65228008"
 ---
-# <a name="power-bi-collaboration"></a>Opzioni di collaborazione di Power BI
+# <a name="ataira-power-bi-collaboration-overview"></a>Panoramica della collaborazione di Ataira Power BI
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
