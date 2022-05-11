@@ -3,24 +3,24 @@ title: Informazioni sull'applicazione per Pandos di Pandos Intelligence Inc
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/05/2022
+ms.date: 05/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Pandos, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 62c12bd8fe350ffee99159f1cb31df9d2d9aebf4
-ms.sourcegitcommit: 2f4d962dc1778849751d2e1db212ff702c247627
+ms.openlocfilehash: c2737bd36f43610770a938a136563f6c14068748
+ms.sourcegitcommit: 0c3ca169e16a6825888669d1e8ea14f66db725bf
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65266249"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65305622"
 ---
 # <a name="pandos"></a>Pandos
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 5 maggio 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 10 maggio 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/0e777926-2ab4-4e40-9fe5-80dc68e5044f" target="_blank">Visualizza in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003534" target="_blank">Visualizzazione in AppSource</a>
@@ -125,7 +125,17 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | No |
+| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
+| L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
+| URL dell'informativa sulla privacy | https://pandos.io/gdpr/ |
+| L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
+| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
+| Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
+| L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
+| L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? | Sì |
+| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | Sì |
+| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | Sì |
+| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -135,7 +145,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | Sì |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | N/D |
 | L'app supporta i criteri di accesso condizionale? | No |
