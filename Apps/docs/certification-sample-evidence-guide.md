@@ -7,12 +7,12 @@ description: panoramica dell'esempio di invio di prove di certificazione Microso
 keywords: Esempio di attestazione della certificazione dell'app Microsoft 365 certificazione appOrigin evidence submission guidelines
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: b45ec7c0c8d549d944ab0ad400518785f18a9941
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: f1b4fddddbe9e55ba0a60c313b85e7088d10ca1c
+ms.sourcegitcommit: e7d5b928692a072b066cdd957aeabad64cfee931
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784055"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65383518"
 ---
 # <a name="microsoft-365-certification---sample-evidence-guide"></a>Certificazione Microsoft 365 - Guida all'evidenza di esempio
 
@@ -49,7 +49,9 @@ Il dominio di sicurezza "Sicurezza operativa/sviluppo sicuro" è progettato per 
 
 #### <a name="malware-protection---anti-virus"></a>Protezione da malware - Antivirus
 
-**Controllo n. 1:** Fornire la documentazione dei criteri che regola le procedure e le procedure antivirus.
+<a id="control-1"></a>[Controllo 1](#control-1): fornire la documentazione dei criteri che regola le procedure e le procedure anti-virus.
+
+
 - Finalità: lo scopo di questo controllo è valutare la comprensione da parte di un ISV dei problemi che devono affrontare quando si considera la minaccia da virus del computer. Definendo e usando le procedure consigliate del settore per lo sviluppo di criteri e processi antivirus, un ISV fornisce una risorsa personalizzata in base alla capacità dell'organizzazione di mitigare i rischi che il malware deve affrontare, elencando le procedure consigliate per il rilevamento e l'eliminazione dei virus e fornisce la prova che i criteri documentati forniscono indicazioni di sicurezza suggerite per l'organizzazione e i suoi dipendenti. Documentando un criterio e una procedura su come l'ISV distribuisce le decelerazione antimalware, questo garantisce l'implementazione e la manutenzione coerenti di questa tecnologia per ridurre il rischio di malware per l'ambiente.
 
 - Linee guida per l'evidenza di esempio: fornire una copia dei criteri Antivirus/Antimalware che illustrano in dettaglio i processi e le procedure implementate all'interno dell'infrastruttura per promuovere le procedure consigliate antivirus/malware.
@@ -61,7 +63,7 @@ Prova di esempio
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 2:** Fornire prove dimostrabili che il software antivirus è in esecuzione in tutti i componenti del sistema campionati.
+<a id="control-2"></a>[Controllo 2](#control-2): fornire prove dimostrabili che il software antivirus è in esecuzione in tutti i componenti di sistema campionati.
 
 - Finalità: è importante che l'anti-virus (AV) (o le difese antimalware) siano in esecuzione nell'ambiente per proteggersi dai rischi di cyber security che si possono o meno essere a conoscenza di come gli attacchi potenzialmente dannosi stanno aumentando, sia in sofisticazione che in numeri. La distribuzione di AV in tutti i componenti di sistema che ne supportano l'uso consentirà di mitigare alcuni dei rischi dell'introduzione di antimalware nell'ambiente. È necessario un solo endpoint per non essere protetto per fornire potenzialmente un vettore di attacco per un attore di minaccia per ottenere un punto di appoggio nell'ambiente. Av deve quindi essere usato come uno dei diversi livelli di difesa per proteggere da questo tipo di minaccia.
 
@@ -77,7 +79,7 @@ Lo screenshot seguente è stato tratto da un Windows 10 dispositivi, che mostra 
 
 ![Screenshot dei dispositivi Windows 10, che mostra che la "protezione in tempo reale" è attivata](../media/UserGuidePhotos/Control-No-2-1.png)
 
-**Controllo n. 3:** Fornire prove dimostrabili che le firme antivirus sono aggiornate in tutti gli ambienti (entro 1 giorno).
+<a id="control-3"></a>[Controllo 3](#control-3): fornire prove dimostrabili che le firme antivirus sono aggiornate in tutti gli ambienti (entro 1 giorno).
 
 - Finalità: centinaia di migliaia di nuovi malware e applicazioni potenzialmente indesiderate (PUA) vengono identificati ogni giorno. Per fornire una protezione adeguata dal malware appena rilasciato, le firme av devono essere aggiornate regolarmente per tenere conto del malware appena rilasciato.
 
@@ -91,7 +93,7 @@ Lo screenshot seguente è stato tratto da un Windows 10 dispositivi, che mostra 
 
 **Nota:** L'evidenza fornita dovrebbe includere un'esportazione dei log per visualizzare gli aggiornamenti giornalieri in un periodo di tempo maggiore. Alcuni prodotti antivirus genereranno file di log di aggiornamento in modo che questi file devono essere forniti o esportare i log da Visualizzatore eventi.
 
-**Controllo n. 4:** Fornire prove dimostrabili che l'antivirus è configurato per eseguire analisi di accesso o analisi periodica in tutti i componenti del sistema campionati.
+<a id="control-4"></a>[Controllo 4](#control-4): fornire prove dimostrabili che l'antivirus è configurato per eseguire l'analisi all'accesso o l'analisi periodica in tutti i componenti del sistema campionati.
 
 **Nota:** Se l'analisi all'accesso non è abilitata, almeno l'analisi giornaliera e alerting_ **DEVE** _be abilitata.
 
@@ -103,7 +105,7 @@ Lo screenshot seguente è stato tratto da un Windows 10 dispositivi, che mostra 
 
 ![Screenshot che mostra che la protezione in tempo reale è abilitata per l'host](../media/UserGuidePhotos/Control-No-4.png)
 
-**Controllo n. 5:** Fornire prove dimostrabili che l'antivirus è configurato per bloccare automaticamente malware o quarantena e avvisi in tutti i componenti di sistema campionati.
+<a id="control-5"></a>[Controllo 5](#control-5): fornire prove dimostrabili che l'antivirus è configurato per bloccare automaticamente malware o quarantena e avvisi in tutti i componenti di sistema campionati.
 
 - Finalità: la raffinatezza del malware è in continua evoluzione insieme ai vari gradi di devastazione che possono portare. Lo scopo di questo controllo è quello di arrestare l'esecuzione di malware, e quindi impedire l'esecuzione del suo payload potenzialmente devastante, o se il blocco automatico non è un'opzione, limitando la quantità di tempo il malware può provocare il caos avvisando e rispondendo immediatamente alla potenziale infezione da malware.
 
@@ -113,17 +115,17 @@ Lo screenshot seguente è stato tratto da un Windows 10 dispositivi, che mostra 
 
 ![screenshot che mostra che l'host "CLARANET-SBU-WM" è configurato con la protezione in tempo reale attivata per Antivirus Microsoft Defender. ](../media/UserGuidePhotos/Control-No-5.png)
 
-**Controllo n. 6:** Fornire prove dimostrabili che le applicazioni vengono approvate prima della distribuzione.
+<a id="control-6"></a>[Controllo 6](#control-6): fornire prove dimostrabili che le applicazioni vengono approvate prima della distribuzione.
 
 - Finalità: con il controllo dell'applicazione, l'organizzazione approverà ogni applicazione/processo che può essere eseguito nel sistema operativo. Lo scopo di questo controllo è garantire che sia in atto un processo di approvazione per autorizzare le applicazioni o i processi che possono essere eseguiti.
 
-- Linee guida per l'evidenza di esempio: è possibile fornire prove che mostrano che il processo di approvazione viene seguito. Ciò può essere fornito tramite documenti firmati, verificando all'interno dei sistemi di controllo delle modifiche o usando qualcosa come Azure DevOps o JIRA per tenere traccia di queste richieste e autorizzazioni.
+- Linee guida per l'evidenza di esempio: è possibile fornire prove che mostrano che il processo di approvazione viene seguito. Questo può essere fornito tramite documenti firmati, verifica all'interno dei sistemi di controllo delle modifiche o usando qualcosa come Azure DevOps o JIRA per tenere traccia di queste richieste e autorizzazioni.
 
 - Prova di esempio: lo screenshot seguente illustra un'approvazione da parte della gestione che ogni applicazione consentita per l'esecuzione nell'ambiente segue un processo di approvazione. Si tratta di un processo basato su carta in Contoso, tuttavia è possibile usare altri meccanismi.
 
 ![screenshot che illustra un'approvazione da parte della gestione che ogni applicazione consentita per l'esecuzione nell'ambiente segue un processo di approvazione.](../media/UserGuidePhotos/Control-No-6.png)
 
-**Controllo n. 7:** Fornire prove dimostrabili che esiste e viene mantenuto un elenco completo di applicazioni approvate con giustificazione aziendale.
+<a id="control-7"></a>[Controllo 7](#control-7): fornire prove dimostrabili che esiste e viene mantenuto un elenco completo di applicazioni approvate con giustificazione aziendale.
 
 - Finalità: è importante che le organizzazioni mantengano un elenco di tutte le applicazioni approvate, insieme alle informazioni sul motivo per cui l'applicazione/processo è stato approvato. In questo modo si garantisce che la configurazione rimanga aggiornata e che sia possibile esaminarla in base a una baseline per garantire che applicazioni/processi non autorizzati non siano configurati.
 
@@ -135,7 +137,7 @@ Lo screenshot seguente è stato tratto da un Windows 10 dispositivi, che mostra 
 
 **Nota:** Questo screenshot mostra un documento, l'aspettativa è che gli ISV condividano il documento di supporto effettivo e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 8:** Fornire la documentazione di supporto che illustra in dettaglio che il software di controllo dell'applicazione è configurato per soddisfare meccanismi di controllo dell'applicazione specifici.
+<a id="control-8"></a>[Controllo 8](#control-8): fornire la documentazione di supporto che illustra in dettaglio che il software di controllo dell'applicazione è configurato per soddisfare meccanismi di controllo dell'applicazione specifici.
 
 - Finalità: la configurazione della tecnologia di controllo delle applicazioni deve essere documentata insieme a un processo di gestione della tecnologia, ad esempio aggiungere ed eliminare applicazioni/processi. Come parte di questa documentazione, il tipo di meccanismo usato deve essere dettagliato per ogni applicazione/processo. Verrà inserito nel controllo successivo per assicurarsi che la tecnologia sia configurata come documentato.
 
@@ -147,7 +149,7 @@ Lo screenshot seguente è stato tratto da un Windows 10 dispositivi, che mostra 
 
 **Nota:** Questo screenshot mostra un documento, l'aspettativa è che gli ISV condividano il documento di supporto effettivo e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 9:** Fornire prove dimostrabili che il controllo dell'applicazione è configurato come documentato da tutti i componenti di sistema campionati.
+<a id="control-9"></a>[Controllo 9](#control-9): fornire prove dimostrabili che il controllo applicazione è configurato come documentato da tutti i componenti di sistema campionati.
 
 - Finalità: lo scopo consiste nel verificare che il controllo dell'applicazione sia configurato nell'esempio in base alla documentazione.
 
@@ -175,7 +177,7 @@ La rapida identificazione e correzione delle vulnerabilità di sicurezza consent
 
 Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting PaaS (Platform-as-a-Service), poiché le librerie software e la codebase di terze parti dell'applicazione/componente aggiuntivo devono essere applicate in base alla classificazione dei rischi.
 
-**Controllo n. 10:** Documentazione dei criteri di fornitura che regola il modo in cui vengono identificate le nuove vulnerabilità di sicurezza e viene assegnato un punteggio di rischio.
+<a id="control-10"></a>[Controllo n. 10](#control-10): documentazione dei criteri di fornitura che regola il modo in cui vengono identificate e assegnate nuove vulnerabilità di sicurezza e un punteggio di rischio.
 
 - Finalità: lo scopo di questo controllo è quello di avere documentazione di supporto per garantire che le vulnerabilità di sicurezza vengano identificate rapidamente per ridurre la finestra di opportunità che gli attori delle minacce devono sfruttare queste vulnerabilità. Deve essere in atto un solido meccanismo per identificare le vulnerabilità che coprono tutti i componenti di sistema in uso dalle organizzazioni; ad esempio sistemi operativi (Windows Server, Ubuntu e così via), applicazioni (Tomcat, MS Exchange, SolarWinds e così via), dipendenze del codice (AngularJS, jQuery e così via). Le organizzazioni devono non solo garantire l'identificazione tempestiva delle vulnerabilità all'interno del patrimonio, ma anche classificare eventuali vulnerabilità di conseguenza per garantire che la correzione venga eseguita entro un intervallo di tempo appropriato in base al rischio che la vulnerabilità presenta.
 
@@ -189,11 +191,11 @@ Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting
 
 **Nota:** Questo screenshot mostra un documento di criteri/processo, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente un screenshot._
 
-**Controllo n. 11:** Fornire la prova di come vengono identificate nuove vulnerabilità di sicurezza.
+<a id="control-11"></a>[Controllo n. 11](#control-11): fornire la prova di come vengono identificate le nuove vulnerabilità di sicurezza.
 
 - Finalità: lo scopo di questo controllo è garantire che il processo venga seguito e&#39;sufficientemente affidabile da identificare nuove vulnerabilità di sicurezza nell'ambiente. Questo potrebbe non essere solo il sistema operativo; può includere applicazioni in esecuzione all'interno dell'ambiente ed eventuali dipendenze del codice.
 
-- Linee guida di prova di esempio: è possibile fornire prove tramite la visualizzazione delle sottoscrizioni alle mailing list, la revisione manuale delle origini di sicurezza per le vulnerabilità appena rilasciate (dovrebbe essere adeguatamente monitorata con timestamp delle attività, ad esempio con JIRA o Azure DevOps), strumenti che individuano software non aggiornato (ad esempio, potrebbe essere Snyk quando si cercano librerie software non aggiornate o potrebbe essere Nessus usando analisi autenticate che identificano  software non aggiornato).
+- Linee guida di prova di esempio: le prove possono essere fornite tramite la visualizzazione delle sottoscrizioni agli elenchi di posta elettronica, la revisione manuale delle origini di sicurezza per le vulnerabilità appena rilasciate (dovrebbe essere adeguatamente monitorata con timestamp delle attività, ad esempio con JIRA o Azure DevOps), strumenti che individuano software obsoleto (ad esempio, potrebbe essere Snyk quando si cercano librerie software non aggiornate o potrebbe essere Nessus usando  analisi autenticate che identificano software non aggiornato.
 
 **Nota** Se si usa Nessus, è necessario eseguirlo regolarmente per identificare rapidamente le vulnerabilità. È consigliabile almeno una settimana.
 
@@ -203,7 +205,7 @@ Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting
 
 ![lo screenshot dimostra anche che un gruppo di mailing viene usato per ricevere una notifica delle vulnerabilità di sicurezza.](../media/UserGuidePhotos/Control-No-11-1.png)
 
-**Controllo n. 12:** Fornire prove che dimostrino che a tutte le vulnerabilità viene assegnata una classificazione dei rischi una volta identificata.
+<a id="control-12"></a>[Controllo n. 12](#control-12): fornire prove che dimostrino che a tutte le vulnerabilità viene assegnata una classificazione dei rischi una volta identificata.
 
 - Finalità: l'applicazione di patch deve essere basata sul rischio, sul rischio più rischioso è la vulnerabilità, più rapidamente è necessario correggerla. La classificazione dei rischi delle vulnerabilità identificate è parte integrante di questo processo. Lo scopo di questo controllo è garantire che sia presente un processo di classificazione dei rischi documentato che viene seguito per garantire che tutte le vulnerabilità identificate siano classificate in modo adeguato in base al rischio. Le organizzazioni usano in genere la classificazione CVSS (Common Vulnerability Scoring System) fornita da fornitori o ricercatori di sicurezza. Se l'organizzazione si basa su CVSS, è consigliabile includere un meccanismo di riposizionamento all'interno del processo per consentire all'organizzazione di modificare la classificazione in base a una valutazione dei rischi interna. In alcuni casi, la vulnerabilità potrebbe non essere un'applicazione a causa del modo in cui l'applicazione è stata distribuita all'interno dell'ambiente. Ad esempio, è possibile rilasciare una vulnerabilità Java che influisce su una libreria specifica che non viene usata dall'organizzazione.
 
@@ -219,7 +221,7 @@ I controlli seguenti sono per l'elemento di applicazione di patch per Gestione p
 
 Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting PaaS (Platform-as-a-Service), poiché le librerie software e la codebase di terze parti dell'applicazione/componente aggiuntivo devono essere applicate in base alla classificazione dei rischi.
 
-**Controllo n. 13:** Fornire la documentazione dei criteri per l'applicazione di patch ai componenti di sistema nell'ambito che include un intervallo di tempo di applicazione di patch minimo adatto per vulnerabilità critiche, ad alto e medio rischio; e la disattivazione di qualsiasi sistema operativo e software non supportato.
+<a id="control-13"></a>[Controllo n. 13](#control-13): fornire la documentazione dei criteri per l'applicazione di patch ai componenti di sistema nell'ambito che include un intervallo di tempo di applicazione di patch minimo adatto per vulnerabilità critiche, ad alto e medio rischio; e la disattivazione di qualsiasi sistema operativo e software non supportato.
 
 - Finalità: la gestione delle patch è richiesta da molti framework di conformità della sicurezza, ad esempio PCI-DSS, ISO 27001, NIST (SP) 800-53. L'importanza di una buona gestione delle patch non può essere sottolineata in quanto può correggere i problemi di sicurezza e funzionalità in software, firmware e mitigare le vulnerabilità, che aiuta a ridurre le opportunità di sfruttamento. Lo scopo di questo controllo è ridurre al minimo la finestra di opportunità che un attore di minacce deve sfruttare le vulnerabilità che possono esistere nell'ambiente nell'ambito.
 
@@ -231,7 +233,7 @@ Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting
 
 **Nota:** Questo screenshot mostra un documento di criteri/processo, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente un screenshot._
 
-**Controllo n. 14:** Fornire prove dimostrabili che vengono applicate patch a tutti i componenti del sistema campionati.
+<a id="control-14"></a>[Controllo n. 14](#control-14): fornire prove dimostrabili che tutti i componenti di sistema campionati vengono sottoposti a patch.
 
 **Nota:** Includere qualsiasi software/librerie di terze parti.
 
@@ -245,7 +247,7 @@ Questo gruppo di controllo di sicurezza è nell'ambito degli ambienti di hosting
 
 **Nota:** L'applicazione di patch a tutti i componenti del sistema nell'ambito deve essere un'evidenza. Questo include cose come; Aggiornamenti del sistema operativo, aggiornamenti di applicazioni/componenti (i.e__,_ _Apache Tomcat, OpenSSL e così via), dipendenze software (ad esempio JQuery, AngularJS e così via)._
 
-**Controllo n. 15:** Fornire prove dimostrabili che tutti i sistemi operativi e i componenti software non supportati non vengono usati all'interno dell'ambiente.
+<a id="control-15"></a>[Controllo n. 15](#control-15): fornire prove dimostrabili che tutti i sistemi operativi e i componenti software non supportati non vengono usati nell'ambiente.
 
 - Finalità: il software che non viene gestito dai fornitori, straordinario, soffrirà di vulnerabilità note che non sono fisse. Pertanto, l'uso di sistemi operativi e componenti software non supportati non deve essere usato negli ambienti di produzione.
 
@@ -275,7 +277,7 @@ Lo screenshot seguente è dell'output [di Trivy](https://github.com/aquasecurity
 
 Grazie all'introduzione di valutazioni regolari delle vulnerabilità, le organizzazioni possono rilevare i punti di debolezza e le insicurezze all'interno degli ambienti che possono fornire un punto di ingresso per un attore dannoso per compromettere l'ambiente. L'analisi delle vulnerabilità può aiutare a identificare le patch mancanti o le configurazioni non corrette all'interno dell'ambiente. Eseguendo regolarmente queste analisi, un'organizzazione può fornire una correzione appropriata per ridurre al minimo il rischio di una compromissione a causa di problemi che vengono comunemente rilevati da questi strumenti di analisi delle vulnerabilità.
 
-**Controllo n. 16:** Fornire i report trimestrali sull'analisi delle vulnerabilità dell'infrastruttura e dell'applicazione Web. L'analisi deve essere eseguita in base all'intero footprint pubblico (INDIRIZZI IP e URL) e agli intervalli IP interni.
+<a id="control-16"></a>[Controllo n. 16](#control-16): fornire i report trimestrali sull'analisi delle vulnerabilità dell'infrastruttura e dell'applicazione Web. L'analisi deve essere eseguita in base all'intero footprint pubblico (INDIRIZZI IP e URL) e agli intervalli IP interni.
 
 **Nota:** **Deve includere** l'ambito completo dell'ambiente.
 
@@ -287,7 +289,7 @@ Grazie all'introduzione di valutazioni regolari delle vulnerabilità, le organiz
 
 - Prova di esempio: l'evidenza di esempio è fornire i report di analisi dallo strumento di analisi usato. Ogni trimestre&#39;report di analisi deve essere fornito per la revisione. L'analisi deve includere l'intero ambiente componenti del sistema in modo; ogni subnet interna e ogni indirizzo IP/URL pubblico disponibile per l'ambiente.
 
-**Controllo n. 17:** Fornire prove dimostrabili che la correzione delle vulnerabilità identificate durante l'analisi delle vulnerabilità viene applicata a patch in linea con l'intervallo di tempo di applicazione delle patch documentato.
+<a id="control-17"></a>[Controllo n. 17](#control-17): fornire prove dimostrabili che la correzione delle vulnerabilità identificate durante l'analisi delle vulnerabilità viene applicata a patch in linea con l'intervallo di tempo di applicazione delle patch documentato.
 
 - Finalità: se non si identificano, si gestiscono e si correggono rapidamente vulnerabilità e configurazioni errate, un'organizzazione può aumentare&#39;il rischio di una compromissione che può causare potenziali violazioni dei dati. Identificare e correggere correttamente i problemi è considerato importante per un'organizzazione&#39;il comportamento di sicurezza generale e l'ambiente, in linea con le procedure consigliate di vari framework di sicurezza per; ad esempio ISO 27001 e PCI DSS.
 
@@ -307,7 +309,7 @@ Lo screenshot seguente mostra che i problemi sono stati risolti, 2 giorni dopo, 
 
 I firewall offrono spesso un limite di sicurezza tra ambienti attendibili (rete interna), non attendibili (Internet) e semi-attendibili (DMZ). Si tratta in genere della prima linea di difesa all'interno di una strategia di sicurezza avanzata delle organizzazioni, progettata per controllare i flussi di traffico per i servizi in ingresso e in uscita e per bloccare il traffico indesiderato. Questi dispositivi devono essere strettamente controllati per garantire che funzionino in modo efficace e siano privi di errori di configurazione che potrebbero mettere a rischio l'ambiente.
 
-**Controllo n. 18:** Fornire la documentazione dei criteri che regola le procedure e le procedure di gestione del firewall.
+<a id="control-18"></a>[Controllo n. 18](#control-18): fornire la documentazione dei criteri che regola le procedure e le procedure di gestione del firewall.
 
 - Finalità: i firewall sono un'importante prima linea di difesa in una strategia di sicurezza a più livelli (difesa avanzata), che protegge gli ambienti da zone di rete meno attendibili. I firewall controllano in genere i flussi di traffico in base a indirizzi IP e protocolli/porte, altri firewall con funzionalità avanzate possono anche fornire ulteriori &quot;difese a livello&quot; di applicazione controllando il traffico delle applicazioni per proteggersi da usi impropri, vulnerabilità e minacce in base alle applicazioni a cui si accede. Queste protezioni sono valide solo come la configurazione del firewall, pertanto è necessario implementare criteri firewall e procedure di supporto sicuri per garantire che siano configurati per fornire una protezione adeguata degli asset interni. Ad esempio, un firewall con una regola per consentire tutto il traffico da QUALSIASI origine a QUALSIASI destinazione funge semplicemente da router.
 
@@ -321,7 +323,7 @@ I firewall offrono spesso un limite di sicurezza tra ambienti attendibili (rete 
 
 ![Esempio del tipo di documento sui criteri del firewall richiesto 3](../media/UserGuidePhotos/Control-No-18-2.png)
 
-**Controllo n. 19:** Fornire prove dimostrabili che tutte le credenziali amministrative predefinite vengono modificate prima dell'installazione in ambienti di produzione.
+<a id="control-19"></a>[Controllo n. 19](#control-19): fornire prove dimostrabili che tutte le credenziali amministrative predefinite vengono modificate prima dell'installazione in ambienti di produzione.
 
 - Finalità: le organizzazioni devono tenere presente che il fornitore ha fornito credenziali amministrative predefinite configurate durante la configurazione del dispositivo o del software. Le credenziali predefinite sono spesso disponibili pubblicamente dai fornitori e possono offrire a un attore di minacce esterne l'opportunità di compromettere un ambiente. Ad esempio, una semplice ricerca su Internet delle credenziali iDrac predefinite (controller di accesso remoto Integrato Dell) evidenzia _root::calvin_ come nome utente e password predefiniti. In questo modo si concede a un utente l'accesso remoto alla gestione remota del server. Lo scopo di questo controllo è garantire che gli ambienti non siano soggetti ad attacchi tramite credenziali del fornitore predefinite che non sono state modificate durante la protezione avanzata del dispositivo o dell'applicazione.
 
@@ -335,7 +337,7 @@ Lo screenshot seguente mostra ciò che l'analista della certificazione vedrebbe 
 
 ![screenshot che mostra ciò che l'analista di certificazione vedrebbe da un nome utente/password non valido da un firewall WatchGuard.](../media/UserGuidePhotos/Control-No-19.png)
 
-**Controllo n. 20:** Fornire prove dimostrabili che i firewall sono installati sul limite dell'ambiente nell'ambito e installati tra la rete perimetrale (nota anche come rete perimetrale, zona demilitarizzata e subnet schermata) e le reti attendibili interne.
+<a id="control-20"></a>[Controllo 20](#control-20): fornire prove dimostrabili che i firewall sono installati sul limite dell'ambiente nell'ambito e installati tra la rete perimetrale (nota anche come rete perimetrale, zona demilitarizzata e subnet schermata) e le reti attendibili interne.
 
 - Finalità: i firewall consentono di controllare il traffico tra zone di rete diverse con livelli di sicurezza diversi. Poiché tutti gli ambienti sono connessi a Internet, i firewall devono essere installati sul limite, ad esempio tra Internet e l'ambiente nell'ambito. Inoltre, i firewall devono essere installati tra le reti perimetrali meno attendibili (zona de-militarizzata) e le reti attendibili interne. Le reti perimetrali vengono in genere usate per gestire il traffico da Internet ed è quindi un obiettivo di attacco. Implementando una rete perimetrale e usando un firewall per controllare i flussi di traffico, una compromissione della rete perimetrale&#39;non comporta necessariamente una compromissione delle reti attendibili interne e dei dati aziendali/dei clienti. La registrazione e gli avvisi devono essere adeguati per consentire alle organizzazioni di identificare rapidamente un compromesso per ridurre al minimo l'opportunità per l'attore di minacce di compromettere ulteriormente le reti attendibili interne. Lo scopo di questo controllo è garantire un controllo adeguato tra reti attendibili e meno attendibili.
 
@@ -345,7 +347,7 @@ Lo screenshot seguente mostra ciò che l'analista della certificazione vedrebbe 
 
 ![screenshot di un firewall WatchGuard che illustra due reti perimetrali, una per i servizi in ingresso (denominata DMZ), l'altra serve il jumpbox (Host Bastian).](../media/UserGuidePhotos/Control-No-20.png)
 
-**Controllo n. 21:** Fornire prove dimostrabili che tutti gli accessi pubblici terminano nella zona demilitarizzata (DMZ).
+<a id="control-21"></a>[Controllo 21](#control-21): fornire prove dimostrabili che tutti gli accessi pubblici terminano nella zona demilitarizzata (DMZ).
 
 - Finalità: le risorse accessibili pubblicamente sono aperte a una miriade di attacchi. Come già illustrato in precedenza, lo scopo di una rete perimetrale è segmentare le reti meno attendibili da reti interne attendibili che possono contenere dati sensibili. Una rete perimetrale è considerata meno attendibile poiché esiste un rischio molto elevato che gli host accessibili pubblicamente vengano compromessi da attori esterni alle minacce. L'accesso pubblico deve sempre terminare in queste reti meno attendibili che sono adeguatamente segmentate dal firewall per proteggere i dati e le risorse interne. Lo scopo di questo controllo è garantire che tutti gli accessi pubblici terminino all'interno di queste reti perimetrali meno attendibili come se le risorse nelle reti interne attendibili fossero pubbliche, una compromissione di queste risorse fornisce un attore di minaccia un punto d'appoggio nella rete in cui vengono conservati i dati sensibili.
 
@@ -359,17 +361,17 @@ Nello screenshot seguente sono presenti tre regole in ingresso, ognuna delle qua
 
 ![screenshot di tre regole in ingresso, ognuna delle quali mostra nat per le subnet 10.0.3.x e 10.0.4.x, ovvero le subnet della rete perimetrale](../media/UserGuidePhotos/Control-No-21.png)
 
-**Controllo n. 22:** Fornire prove dimostrabili che tutto il traffico consentito attraverso il firewall passa attraverso un processo di approvazione.
+<a id="control-21"></a>[Controllo 22](#control-22): fornire prove dimostrabili che tutto il traffico consentito attraverso il firewall passa attraverso un processo di approvazione.
 
 - Finalità: poiché i firewall rappresentano una barriera difensiva tra il traffico non attendibile e le risorse interne e tra reti con livelli di attendibilità diversi, i firewall devono essere configurati in modo sicuro e assicurarsi che siano abilitati solo il traffico necessario per le operazioni aziendali. Consentendo un flusso di traffico non necessario o un flusso di traffico eccessivamente permissivo, questo può introdurre punti deboli all'interno della difesa al limite di queste diverse zone di rete. Definendo un solido processo di approvazione per tutte le modifiche del firewall, viene ridotto il rischio di introdurre una regola che introduce un rischio significativo per l'ambiente. [Verizon&#39;2020 Data Breach Investigation Report](https://enterprise.verizon.com/en-gb/resources/reports/dbir/) evidenzia che &quot;error&#39;s&quot;, che include errori di configurazione, è l'unico tipo di azione che sta costantemente aumentando anno per anno.
 
-- Linee guida di prova di esempio: la prova può essere sotto forma di documentazione che mostra una richiesta di modifica del firewall autorizzata, che può essere a minuti da una riunione CAB (Change Advisor Board) o da un sistema di controllo delle modifiche che tiene traccia di tutte le modifiche.
+- Linee guida di prova di esempio: l'evidenza può essere sotto forma di documentazione che mostra una richiesta di modifica del firewall autorizzata, che può essere a minuti da una riunione CAB (Change Assistente Board) o da un sistema di controllo delle modifiche che tiene traccia di tutte le modifiche.
 
 - Prova di esempio: lo screenshot seguente mostra una modifica della regola del firewall richiesta e autorizzata tramite un processo basato su carta. Questo può essere ottenuto tramite qualcosa come DevOps o Jira, ad esempio.
 
 ![screenshot che mostra una modifica della regola del firewall richiesta e autorizzata tramite un processo basato su carta](../media/UserGuidePhotos/Control-No-22.png)
 
-**Controllo n. 23:** Fornire prove dimostrabili che la base di regole del firewall è configurata per eliminare il traffico non definito in modo esplicito.
+<a id="control-23"></a>[Controllo 23](#control-23): fornire prove dimostrabili che la base di regole del firewall è configurata per eliminare il traffico non definito in modo esplicito.
 
 - Finalità: la maggior parte dei firewall elabora le regole in un approccio dall'alto verso il basso per cercare di trovare una regola corrispondente. Se una regola corrisponde, verrà applicata l'azione di tale regola e tutte le ulteriori elaborazioni delle regole verranno arrestate. Se non vengono trovate regole corrispondenti, per impostazione predefinita il traffico viene negato. Lo scopo di questo controllo è che, se il firewall non&#39;predefinito l'eliminazione del traffico se non viene trovata alcuna regola corrispondente, la base di regole deve includere una &quot;regola Nega tutto&quot; alla fine di **TUTTI** gli elenchi di firewall. Questo per garantire che il firewall non&#39;predefinito in uno stato consenti predefinito durante l'elaborazione delle regole, consentendo così il traffico che non è stato&#39;definito in modo esplicito.
 
@@ -383,7 +385,7 @@ Collegamento al Centro assistenza WatchGuard seguente; [https://www.watchguard.c
 
 ![Screenshot del collegamento al centro assistenza watchguard che include la lingua "Il firebox nega tutti i pacchetti non specificamente consentiti"](../media/UserGuidePhotos/Control-No-23-1.png)
 
-**Controllo n. 24:** Fornire prove dimostrabili che il firewall supporta solo crittografia avanzata in tutte le interfacce amministrative non della console.
+<a id="control-24"></a>[Controllo 24](#control-24): fornire prove dimostrabili che il firewall supporta solo la crittografia avanzata in tutte le interfacce amministrative non della console.
 
 - Finalità: per attenuare gli attacchi man-in-the-middle del traffico amministrativo, tutte le interfacce amministrative non console devono supportare solo la crittografia avanzata. Lo scopo principale di questo controllo consiste nel proteggere le credenziali amministrative durante l'installazione della connessione non console. Inoltre, questo può anche aiutare a proteggere da intercettazioni nella connessione, cercando di riprodurre le funzioni amministrative per riconfigurare il dispositivo o come parte della ricognizione.
 
@@ -394,7 +396,7 @@ Collegamento al Centro assistenza WatchGuard seguente; [https://www.watchguard.c
 
 **Nota**: i firewall WatchGuard supportano anche funzioni amministrative tramite SSH (porta TCP 4118) e WatchGuard System Manager (porte TCP 4105 &amp; 4117). Sarebbe inoltre necessario fornire la prova di queste interfacce amministrative non console.
 
-**Controllo n. 25:** Fornire prove dimostrabili che si eseguono revisioni delle regole del firewall almeno ogni 6 mesi.
+<a id="control-25"></a>[Controllo 25](#control-25): fornire prove dimostrabili che si eseguono verifiche delle regole del firewall almeno ogni 6 mesi.
 
 - Finalità: nel corso del tempo, esiste il rischio di scorrimento della configurazione nei componenti di sistema con l'ambiente nell'ambito. Questo può spesso introdurre insicurezze o configurazioni errate che possono aumentare il rischio di compromissione per l'ambiente. Il creep di configurazione può essere introdotto per numerosi motivi, ad esempio modifiche temporanee per facilitare la risoluzione dei problemi, modifiche temporanee per modifiche funzionali ad hoc, per introdurre correzioni rapide a problemi che a volte possono essere eccessivamente permissivi a causa delle pressioni di introduzione di una correzione rapida. Ad esempio, è possibile introdurre una regola &quot;temporanea del firewall Consenti a tutti&quot; di risolvere un problema urgente. L'intento di questo controllo è duplice: in primo luogo, identificare i casi in cui si verificano errori di configurazione che possono introdurre insicurezze e, in secondo luogo, aiutare a identificare le regole del firewall che non sono più necessarie e pertanto possono essere rimosse, ad esempio se un servizio è stato ritirato ma la regola del firewall è stata lasciata indietro.
 
@@ -412,7 +414,7 @@ Lo screenshot seguente mostra le prove di una revisione del firewall che si svol
 
 È facoltativo distribuire un Web application firewall (WAF) nella soluzione. Se viene usato un WAF, verrà conteggiato come crediti aggiuntivi per la matrice di punteggio all'interno del dominio di sicurezza&#39; sicurezza &#39;sicurezza operativa. I WAF possono esaminare il traffico Web per filtrare e monitorare il traffico Web tra Internet e le applicazioni Web pubblicate per identificare gli attacchi specifici dell'applicazione Web. Le applicazioni Web possono subire molti attacchi specifici di applicazioni Web quali SQL Injection (SQLi), Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF/XSRF) e così via e WAF sono progettati per proteggere da questi tipi di payload dannosi per proteggere le applicazioni Web da attacchi e potenziali compromissioni.
 
-**Controllo n. 26:** Fornire prove dimostrabili che il Web application firewall (WAF) è configurato per monitorare, avvisare e bloccare attivamente il traffico dannoso.
+<a id="control-26"></a>[Controllo 26](#control-26): fornire prove dimostrabili che il Web application firewall (WAF) è configurato per monitorare, avvisare e bloccare attivamente il traffico dannoso.
 
 - Finalità: questo controllo è disponibile per confermare che il WAF è disponibile per tutte le connessioni Web in ingresso e che è configurato per bloccare o avvisare il traffico dannoso. Per fornire un ulteriore livello di difesa per il traffico Web, i WAF devono essere configurati per tutte le connessioni Web in ingresso, in caso contrario, gli attori di minacce esterni potrebbero ignorare i WAF progettati per fornire questo livello aggiuntivo di protezione. Se il WAF non è&#39;configurato per bloccare attivamente il traffico dannoso, il WAF deve essere in grado di fornire un avviso immediato al personale che può reagire rapidamente al potenziale traffico dannoso per mantenere la sicurezza dell'ambiente e arrestare gli attacchi.
 
@@ -437,7 +439,7 @@ Lo screenshot seguente mostra ContosoAppGWCoreRules\_\_ che mostra che si tratta
 
 ![screenshot che mostra ContosoAppGWCoreRules\_\_ che mostra che si tratta del servizio api.contoso.com](../media/UserGuidePhotos/Control-No-26-3.png)
 
-**Controllo n. 27:** Fornire prove dimostrabili che waf supporta l'offload SSL.
+<a id="control-27"></a>[Controllo 27](#control-27): fornire prove dimostrabili che waf supporta l'offload SSL.
 
 - Finalità: la possibilità di configurare il WAF per supportare l'offload SSL è importante, in caso contrario il WAF non sarà in grado di controllare il traffico HTTPS. Poiché questi ambienti devono supportare il traffico HTTPS, questa è una funzione fondamentale per waf per garantire che i payload dannosi all'interno del traffico HTTPS possano essere identificati e arrestati.
 
@@ -447,7 +449,7 @@ Lo screenshot seguente mostra ContosoAppGWCoreRules\_\_ che mostra che si tratta
 
 ![screenshot che mostra questa configurazione per il gateway applicazione di Azure Produzione Contoso.](../media/UserGuidePhotos/Control-No-27.png)
 
-**Controllo n. 28:** "Fornire prove dimostrabili che il WAF è protetto da alcune o tutte le classi di vulnerabilità seguenti in base al set di regole di base OWASP (3.0 o 3.1):
+<a id="control-28"></a>[Controllo 28](#control-28): "Fornire prove dimostrabili che il WAF è protetto da alcune o tutte le classi di vulnerabilità seguenti in base al set di regole di base OWASP (3.0 o 3.1):
 - problemi di protocollo e codifica,
 - inserimento di intestazione, contrabbando di richieste e divisione della risposta,
 - attacchi di attraversamento di file e percorsi,
@@ -470,7 +472,7 @@ Lo screenshot seguente mostra ContosoAppGWCoreRules\_\_ che mostra che si tratta
 
 Un processo di controllo delle modifiche stabilito e compreso è essenziale per garantire che tutte le modifiche vengano eseguite attraverso un processo strutturato ripetibile. Assicurando che tutte le modifiche passino attraverso un processo strutturato, le organizzazioni possono garantire che le modifiche siano gestite in modo efficace, sottoposte a revisione peer e testate adeguatamente prima di essere firmate. Questo non solo consente di ridurre al minimo il rischio di interruzioni del sistema, ma consente anche di ridurre al minimo il rischio di potenziali incidenti di sicurezza attraverso modifiche non corretto introdotte.
 
-**Controllo n. 29:** Fornire la documentazione dei criteri che regola i processi di controllo delle modifiche.
+<a id="control-29"></a>[Controllo 29](#control-29): fornire la documentazione dei criteri che regola i processi di controllo delle modifiche.
 
 - Finalità: per mantenere un ambiente sicuro e un'applicazione sicura, è necessario stabilire un solido processo di controllo delle modifiche per garantire che tutte le modifiche all'infrastruttura e al codice vengano eseguite con una supervisione avanzata e processi definiti. In questo modo si garantisce che le modifiche siano documentate, che vengano prese in considerazione le implicazioni per la sicurezza, che si sia pensato in quale impatto sulla sicurezza avrà la modifica e così via. Lo scopo è garantire che il processo di controllo delle modifiche sia documentato per garantire che venga adottato un approccio sicuro e coerente a tutte le modifiche all'interno delle procedure di sviluppo dell'ambiente e delle applicazioni.
 
@@ -482,7 +484,7 @@ Un processo di controllo delle modifiche stabilito e compreso è essenziale per 
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 30:** Fornire prove dimostrabili che gli ambienti di sviluppo e test applicano la separazione dei compiti dall'ambiente di produzione.
+<a id="control-30"></a>[Controllo 30](#control-30): fornire prove dimostrabili che gli ambienti di sviluppo e test applicano la separazione dei compiti dall'ambiente di produzione.
 
 - Finalità: la maggior parte degli ambienti di sviluppo/test dell'organizzazione&#39;non è configurata con lo stesso vigore degli ambienti di produzione e pertanto è meno sicura. Inoltre, i test non devono essere eseguiti all'interno dell'ambiente di produzione in quanto ciò può introdurre problemi di sicurezza o può essere dannoso per la distribuzione del servizio per i clienti. Mantenendo ambienti separati che impongono una separazione dei compiti, le organizzazioni possono garantire che le modifiche vengano applicate agli ambienti corretti, riducendo così il rischio di errori implementando le modifiche agli ambienti di produzione quando era destinato all'ambiente di sviluppo/test.
 
@@ -496,7 +498,7 @@ Questo screenshot successivo mostra una sottoscrizione di Azure separata per l'a
 
 ![screenshot che mostra una sottoscrizione di Azure separata per l'ambiente&#39; &#39;PRODUCTION di Contoso&#39;.](../media/UserGuidePhotos/Control-No-30-1.png)
 
-**Controllo n. 31:** Fornire prove dimostrabili che i dati di produzione sensibili non vengono usati negli ambienti di sviluppo o di test.
+<a id="control-31"></a>[Controllo 31](#control-31): fornire prove dimostrabili che i dati di produzione sensibili non vengono usati negli ambienti di sviluppo o di test.
 
 - Finalità: come già illustrato in precedenza, le organizzazioni non implementeranno misure di sicurezza di un ambiente di sviluppo/test con lo stesso vigore dell'ambiente di produzione. Pertanto, utilizzando dati di produzione sensibili in questi ambienti di sviluppo/test, si aumenta il rischio di una compromissione e si deve evitare di usare dati sensibili/in tempo reale all'interno di questi ambienti di sviluppo/test.
 
@@ -514,7 +516,7 @@ Lo screenshot successivo mostra la stessa query del database di sviluppo, che mo
 
 Ciò dimostra che i set di dati sono diversi.
 
-**Controllo n. 32:** Fornire prove dimostrabili che le richieste di modifica documentate contengono l'impatto della modifica, i dettagli delle procedure di back-out e dei test da eseguire.
+<a id="control-32"></a>[Controllo 32](#control-32): fornire prove dimostrabili che le richieste di modifica documentate contengono l'impatto della modifica, i dettagli delle procedure di back-out e dei test da eseguire.
 
 - Finalità: lo scopo di questo controllo è garantire che la modifica richiesta sia stata eseguita. L'impatto della modifica sulla sicurezza del sistema/ambiente deve essere considerato e chiaramente documentato, tutte le procedure di back-out devono essere documentate per facilitare il ripristino in caso di problemi e infine devono essere presi in considerazione e documentati anche i dettagli dei test necessari per convalidare il successo della modifica.
 
@@ -539,7 +541,7 @@ Nel corso del processo si noti che la persona che svolge il lavoro, la persona c
 
 Il ticket precedente mostra che le modifiche sono state approvate per l'implementazione nell'ambiente di produzione. La casella a destra mostra che il test ha avuto esito positivo e che le modifiche sono state implementate in Ambiente prodotto.
 
-**Controllo n. 33:** Fornire prove dimostrabili che le richieste di modifica vengono sottoposte a un processo di autorizzazione e di conclusione.
+<a id="control-33"></a>[Controllo 33](#control-33): fornire prove dimostrabili che le richieste di modifica vengono sottoposte a un processo di autorizzazione e di conclusione.
 
 - Finalità: è necessario implementare un processo che proibisa l'esecuzione delle modifiche senza autorizzazione e disconnessione appropriate. La modifica deve essere autorizzata prima di essere implementata e la modifica deve essere firmata una volta completata. Ciò garantisce che le richieste di modifica siano state esaminate correttamente e che qualcuno nell'autorità abbia firmato la modifica.
 
@@ -559,7 +561,7 @@ Nel ticket seguente è possibile vedere che la modifica è stata firmata al term
 
 Le organizzazioni coinvolte nelle attività di sviluppo software si trovano spesso a dover affrontare priorità concorrenti tra la sicurezza e le pressioni TTM (Time to Market), tuttavia, l'implementazione di attività correlate alla sicurezza durante tutto il ciclo di vita dello sviluppo software (SDLC) non solo può risparmiare denaro, ma può anche risparmiare tempo. Quando la sicurezza viene lasciata come ripensamento, i problemi vengono in genere identificati solo durante la fase di test del (DSLC), che spesso può essere più dispendioso in termini di tempo e costoso da risolvere. Lo scopo di questa sezione sulla sicurezza è garantire che vengano seguite procedure di sviluppo software sicure per ridurre il rischio di errori di codifica introdotti nel software sviluppato. In questa sezione vengono inoltre inclusi alcuni controlli per facilitare la distribuzione sicura del software.
 
-**Controllo n. 34:** Fornire criteri e procedure che supportano lo sviluppo e la distribuzione di software sicuri, incluse indicazioni sulle procedure consigliate per la codifica sicura per classi di vulnerabilità comuni, ad esempio OWASP Top 10 o SANS Top 25 CWE.
+<a id="control-34"></a>[Controllo 34](#control-34): fornire criteri e procedure che supportano lo sviluppo e la distribuzione di software sicuri, incluse indicazioni sulle procedure consigliate per la codifica sicura rispetto a classi di vulnerabilità comuni, ad esempio OWASP Top 10 o SANS Top 25 CWE.
 
 - Finalità: le organizzazioni devono fare tutto il possibile per garantire che il software sia sviluppato in modo sicuro e privo di vulnerabilità. A tale scopo, è necessario definire un solido ciclo di vita di sviluppo software sicuro (SDLC) e procedure consigliate per la codifica sicura per promuovere tecniche di codifica sicure e lo sviluppo sicuro durante l'intero processo di sviluppo software. Lo scopo è ridurre il numero e la gravità delle vulnerabilità nel software.
 
@@ -577,7 +579,7 @@ Le organizzazioni coinvolte nelle attività di sviluppo software si trovano spes
 
 **Nota:** Questi screenshot mostrano il documento di sviluppo software sicuro, l'aspettativa è che gli ISV condividano la documentazione di supporto effettiva e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 35:** Fornire prove dimostrabili che le modifiche al codice vengono sottoposte a un processo di revisione e autorizzazione da parte di un secondo revisore.
+<a id="control-35"></a>[Controllo 35](#control-35): fornire prove dimostrabili che le modifiche al codice vengono sottoposte a un processo di revisione e autorizzazione da parte di un secondo revisore.
 
 - Finalità: lo scopo di questo controllo consiste nell'eseguire una revisione del codice da parte di un altro sviluppatore per identificare eventuali errori di scrittura del codice che potrebbero introdurre una vulnerabilità nel software. L'autorizzazione deve essere stabilita per garantire che vengano eseguite le revisioni del codice, che i test siano eseguiti e così via. prima della distribuzione. Il passaggio di autorizzazione può verificare che siano stati seguiti i processi corretti che sono alla base del SDLC definito in precedenza.
 
@@ -599,7 +601,7 @@ Il ticket deve ora ottenere l'approvazione da parte di un manager prima che le m
 
 Si noti che durante tutto il processo sono coinvolte tre persone, lo sviluppatore originale del codice, il revisore del codice e un responsabile per dare l'approvazione e firmare. Per soddisfare i criteri per questo controllo, si prevede che i ticket seguano questo processo. Almeno tre persone coinvolte nel processo di controllo delle modifiche per le revisioni del codice.
 
-**Controllo n. 36:** Fornire prove dimostrabili che gli sviluppatori vengono sottoposti a training di sviluppo software sicuro ogni anno.
+<a id="control-36"></a>[Controllo 36](#control-36): fornire prove dimostrabili che gli sviluppatori vengono sottoposti ogni anno a corsi di formazione sullo sviluppo di software sicuro.
 
 - Finalità: esistono procedure consigliate e tecniche di codifica per tutti i linguaggi di programmazione per garantire che il codice sia sviluppato in modo sicuro. Esistono corsi di formazione esterni progettati per insegnare agli sviluppatori i diversi tipi di classi di vulnerabilità software e le tecniche di codifica che possono essere usate per interrompere l'introduzione di queste vulnerabilità nel software. L'intenzione di questo controllo è insegnare queste tecniche a tutti gli sviluppatori e garantire che queste tecniche non vengano dimenticate o che le tecniche più recenti vengano apprese eseguendo queste tecniche su base annuale.
 
@@ -615,7 +617,7 @@ Di seguito viene illustrato che la formazione è stata richiesta con la giustifi
 
 ![Screenshot del training necessario](../media/UserGuidePhotos/Control-No-36-2.png)
 
-**Controllo n. 37:** Fornire prove dimostrabili che i repository di codice sono protetti con l'autenticazione a più fattori (MFA).
+<a id="control-37"></a>[Controllo 37](#control-37): fornire prove dimostrabili che i repository di codice sono protetti con l'autenticazione a più fattori (MFA).
 
 - Finalità: se un attore di minacce può accedere e modificare una base di codice&#39;software, potrebbe introdurre vulnerabilità, backdoor o codice dannoso nella codebase e quindi nell'applicazione. Ci sono stati diversi casi di questo già, con probabilmente il più pubblicizzato è l'attacco Ransomware NotPetya che è riferito infettato attraverso un aggiornamento compromesso al software fiscale ucraino chiamato M.E.Doc (vedere [What is NotPetya](https://www.itpro.co.uk/malware/34381/what-is-notpetya)).
 
@@ -625,7 +627,7 @@ Di seguito viene illustrato che la formazione è stata richiesta con la giustifi
 
 ![screenshot che mostra che L'autenticazione a più fattori è abilitata per tutti gli 8 utenti di GitLab.](../media/UserGuidePhotos/Control-No-37.png)
 
-**Controllo n. 38:** Fornire prove dimostrabili che i controlli di accesso sono in atto per proteggere i repository di codice.
+<a id="control-38"></a>[Controllo 38](#control-38): fornire prove dimostrabili dell'esistenza di controlli di accesso per proteggere i repository di codice.
 
 - Finalità: a partire dal controllo precedente, i controlli di accesso devono essere implementati per limitare l'accesso solo ai singoli utenti che lavorano su progetti specifici. Limitando l'accesso, si limita il rischio di modifiche non autorizzate e quindi si introducono modifiche del codice non sicure. È necessario adottare un approccio con privilegi minimi per proteggere il repository di codice.
 
@@ -639,7 +641,7 @@ Di seguito viene illustrato che la formazione è stata richiesta con la giustifi
 
 Le procedure di gestione sicura degli account sono importanti in quanto gli account utente costituiscono la base per consentire l'accesso a sistemi informativi, ambienti di sistema e dati. Gli account utente devono essere protetti correttamente come compromissione delle credenziali dell'utente&#39;possono fornire non solo un punto di accesso all'ambiente e l'accesso ai dati sensibili, ma possono anche fornire il controllo amministrativo sull'intero ambiente o sui sistemi chiave se l'utente&#39;le credenziali hanno privilegi amministrativi.
 
-**Controllo n. 39:** Fornire la documentazione dei criteri che regola le procedure e le procedure di gestione degli account.
+<a id="control-39"></a>[Controllo 39](#control-39): fornire la documentazione dei criteri che regola le procedure e le procedure di gestione degli account.
 
 - Finalità: gli account utente continuano a essere presi di mira dagli attori delle minacce e spesso sono l'origine di una compromissione dei dati. Configurando account eccessivamente permissivi, le organizzazioni non solo aumentano il pool di &#39;account&#39; privilegiati che possono essere sfruttati da un attore di minacce per eseguire una violazione dei dati, ma possono anche aumentare il rischio di sfruttamento di una vulnerabilità che richiederebbe privilegi specifici per avere esito positivo.
 
@@ -655,7 +657,7 @@ Le procedure di gestione sicura degli account sono importanti in quanto gli acco
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 40:** Fornire prove dimostrabili che le credenziali predefinite vengono disabilitate, rimosse o modificate nei componenti di sistema campionati.
+<a id="control-40"></a>[Controllo 40](#control-40): fornire prove dimostrabili che le credenziali predefinite sono disabilitate, rimosse o modificate nei componenti di sistema campionati.
 
 - Finalità: anche se questo sta diventando meno diffuso, ci sono ancora istanze in cui gli attori delle minacce possono sfruttare le credenziali utente predefinite e ben documentate per compromettere i componenti del sistema di produzione. Un esempio comune è l'uso di Dell iDRAC (Integrated Dell Remote Access Controller). Questo sistema può essere usato per gestire in remoto un server Dell, che può essere utilizzato da un attore di minacce per ottenere il controllo sul sistema operativo server&#39;. Le credenziali predefinite di root::calvin sono documentate e spesso possono essere sfruttate dagli attori delle minacce per ottenere l'accesso ai sistemi usati dalle organizzazioni. Lo scopo di questo controllo è garantire che queste credenziali predefinite siano disabilitate o rimosse
 
@@ -677,7 +679,7 @@ Questo screenshot successivo mostra che DefaultAccount è disabilitato nel compo
 
 ![screenshot che mostra che DefaultAccount è disabilitato nel componente di sistema nell'ambito "CLARANET-SBU-WM".](../media/UserGuidePhotos/Control-No-40-3.png)
 
-**Controllo n. 41:** Fornire prove dimostrabili che la creazione, la modifica e l'eliminazione dell'account passano attraverso un processo di approvazione stabilito.
+<a id="control-41"></a>[Controllo 41](#control-41): fornire prove dimostrabili che la creazione, la modifica e l'eliminazione dell'account passano attraverso un processo di approvazione stabilito.
 
 - Finalità: l'intento è quello di avere un processo stabilito per garantire l'approvazione di tutte le attività di gestione degli account, garantendo che i privilegi dell'account mantengano i principi dei privilegi minimi e che le attività di gestione degli account possano essere esaminate e monitorate correttamente.
 
@@ -693,11 +695,11 @@ La creazione dell'account è stata eseguita tramite il processo di approvazione 
 
 ![Esempio di ticket chiuso](../media/UserGuidePhotos/Control-No-41-2.png)
 
-**Controllo n. 42:** Fornire prove dimostrabili che è in atto un processo per disabilitare o eliminare gli account non usati entro 3 mesi.
+<a id="control-42"></a>[Controllo 42](#control-42): fornire prove dimostrabili che è in atto un processo per disabilitare o eliminare gli account non usati entro 3 mesi.
 
 - Finalità: gli account inattivi possono a volte essere compromessi perché sono mirati a attacchi di forza bruta che potrebbero non essere contrassegnati come l'utente non tenterà di accedere agli account o tramite una violazione del database delle password in cui un utente&#39;password è stata riutilizzata ed è disponibile all'interno di un dump di nome utente/password su Internet. Gli account inutilizzati devono essere disabilitati/rimossi per ridurre la superficie di attacco che un attore di minacce deve eseguire attività di compromissione dell'account. Questi conti possono essere dovuti a un processo di congedo non eseguito correttamente, a un membro del personale che sta per malattia a lungo termine o a un membro del personale in congedo di maternità/paternità. Implementando un processo trimestrale per identificare questi account, le organizzazioni possono ridurre al minimo la superficie di attacco.
 
-- Linee guida per l'evidenza di esempio: l'evidenza deve essere doppia. In primo luogo, uno screenshot o un'esportazione di file che mostra l'ultimo &quot;accesso&quot; di tutti gli account utente all'interno dell'ambiente nell'ambito. Possono trattarsi di account locali e account all'interno di un servizio directory centralizzato, ad esempio AAD (Azure Active Directory). Ciò dimostrerà che non sono abilitati account di età superiore a 3 mesi. In secondo luogo, l'evidenza del processo di revisione trimestrale che può essere una prova documentale del completamento dell'attività all'interno dei biglietti ADO (Azure DevOps) o JIRA, o tramite documenti cartacei che devono essere firmati.
+- Linee guida per l'evidenza di esempio: l'evidenza deve essere doppia. In primo luogo, uno screenshot o un'esportazione di file che mostra l'ultimo &quot;accesso&quot; di tutti gli account utente all'interno dell'ambiente nell'ambito. Possono trattarsi di account locali e account all'interno di un servizio directory centralizzato, ad esempio AAD (Azure Active Directory). Ciò dimostrerà che non sono abilitati account di età superiore a 3 mesi. In secondo luogo, la prova del processo di revisione trimestrale che può essere una prova documentale del completamento dell'attività all'interno di ADO (Azure DevOps) o JIRA biglietti, o attraverso documenti cartacei che devono essere firmati.
 
 - Prova di esempio: questo primo screenshot mostra l'output dello script eseguito trimestralmente per visualizzare l'ultimo attributo di accesso per gli utenti all'interno di AAD.
 
@@ -709,7 +711,7 @@ Come si può vedere nello screenshot precedente, due utenti vengono visualizzati
 
 ![Un altro esempio di diabled utente](../media/UserGuidePhotos/Control-No-42-2.png)
 
-**Controllo n. 43:** Fornire prove dimostrabili che sono presenti criteri password complesse o altre mitigazioni appropriate per proteggere le credenziali utente.  Come linee guida minime, è consigliabile usare quanto segue:
+<a id="control-43"></a>[Controllo 43](#control-43): fornire prove dimostrabili che sono presenti criteri password complesse o altre mitigazioni appropriate per proteggere le credenziali utente.  Come linee guida minime, è consigliabile usare quanto segue:
 - Lunghezza minima della password di 8 caratteri
 - Soglia di blocco dell'account non superiore a 10 tentativi
 - Cronologia password di almeno 5 password
@@ -733,7 +735,7 @@ Di seguito è riportato un esempio di lunghezza minima della passphrase per il f
 
 ![lunghezza minima della passphrase per il firewall WatchGaurd.](../media/UserGuidePhotos/Control-No-43-3.png)
 
-**Controllo n. 44:** Fornire prove dimostrabili che gli account utente univoci vengono rilasciati a tutti gli utenti.
+<a id="control-44"></a>[Controllo 44](#control-44): fornire prove dimostrabili che gli account utente univoci vengono rilasciati a tutti gli utenti.
 
 - Finalità: lo scopo di questo controllo è la responsabilità. Rilasciando agli utenti i propri account utente univoci, gli utenti saranno responsabili delle loro azioni, in quanto l'attività utente può essere tenuta traccia di un singolo utente.
 
@@ -755,7 +757,7 @@ Questo screenshot successivo mostra che DefaultAccount è disabilitato nel compo
 
 ![screenshot che mostra che DefaultAccount è disabilitato nel componente di sistema nell'ambito "CLARANET-SBU-WM".](../media/UserGuidePhotos/Control-No-44-3.png)
 
-**Controllo n. 45:** Fornire prove dimostrabili che i principi dei privilegi minimi vengono seguiti all'interno dell'ambiente.
+<a id="control-45"></a>[Controllo 45](#control-45): fornire prove dimostrabili che all'interno dell'ambiente vengono seguiti i principi dei privilegi minimi.
 
 - Finalità: agli utenti devono essere forniti solo i privilegi necessari per svolgere la funzione di lavoro. Ciò consente di limitare il rischio di un utente che accede intenzionalmente o involontariamente ai dati che deve&#39;o di eseguire un atto dannoso. Seguendo questo principio, riduce anche la superficie di attacco potenziale (ad esempio, gli account con privilegi) che possono essere presi di mira da un attore di minacce dannose.
 
@@ -770,7 +772,7 @@ Lo screenshot seguente mostra che gli utenti vengono allocati ai gruppi in base 
 
 ![screenshot che mostra che gli utenti vengono allocati ai gruppi in base alla funzione del processo.](../media/UserGuidePhotos/Control-No-45-1.png)
 
-**Controllo n. 46:** Fornire prove dimostrabili che è in atto un processo per proteggere o rafforzare gli account del servizio e che il processo viene seguito.
+<a id="control-46"></a>[Controllo 46](#control-46): fornire prove dimostrabili che è in atto un processo per proteggere o rafforzare gli account del servizio e che il processo viene seguito.
 
 - Finalità: gli account del servizio vengono spesso indirizzati dagli attori delle minacce perché sono spesso configurati con privilegi elevati. Questi account potrebbero non seguire i criteri password standard perché la scadenza delle password dell'account del servizio spesso interrompe la funzionalità. Pertanto, possono essere configurati con password deboli o password riutilizzate all'interno dell'organizzazione. Un altro potenziale problema, in particolare all'interno di un ambiente Windows, può essere che il sistema operativo memorizza nella cache l'hash della password. Questo può essere un grosso problema se: l'account del servizio è configurato all'interno di un servizio directory, poiché questo account può essere usato per l'accesso tra più sistemi con il livello di privilegi configurato oppure l'account del servizio è locale, la probabilità è che lo stesso account/password venga usato in più sistemi all'interno dell'ambiente. I problemi precedenti possono portare a un attore di minaccia che ottiene l'accesso a più sistemi all'interno dell'ambiente e può portare a un'ulteriore elevazione dei privilegi e/o al movimento laterale. L'obiettivo è quindi garantire che gli account del servizio siano protetti e protetti correttamente per proteggerli dal rilevamento da parte di un attore di minacce o limitando il rischio in caso di compromissione di uno di questi account di servizio.
 
@@ -794,7 +796,7 @@ Questo screenshot successivo mostra che l'account &quot;\_del servizio Prod SQL 
 
 ![screenshot che mostra che l'account del servizio "account del servizio _Prod SQL" è consentito solo per l'accesso come servizio.](../media/UserGuidePhotos/Control-No-46-2.png)
 
-**Controllo n. 47:** Fornire prove dimostrabili che L'autenticazione a più fattori è configurata per tutte le connessioni di accesso remoto e tutte le interfacce amministrative non console.
+<a id="control-47"></a>[Controllo 47](#control-47): fornire prove dimostrabili che L'autenticazione a più fattori è configurata per tutte le connessioni di accesso remoto e tutte le interfacce amministrative non console.
 
 Termini definiti come:
 - **Accesso remoto** : in genere si riferisce alle tecnologie usate per accedere all'ambiente di supporto. Ad esempio, VPN IPSec di accesso remoto, VPN SSL o Jumpbox/Host Bastian.
@@ -823,7 +825,7 @@ Prova di esempio 2: gli screenshot seguenti mostrano che tutti gli utenti di Azu
 
 **Nota:** Sarà necessario fornire prove per tutte le connessioni non console per dimostrare che l'autenticazione a più fattori è abilitata. Ad esempio, se si usa RDP o SSH per server o altri componenti di sistema ,ad esempio firewall.
 
-**Controllo n. 48:** Fornire prove dimostrabili che la crittografia avanzata è configurata per tutte le connessioni di accesso remoto e tutte le interfacce amministrative non console, incluso l'accesso a qualsiasi repository di codice e interfacce di gestione cloud.
+<a id="control-48"></a>[Controllo 48](#control-48): fornire prove dimostrabili che la crittografia avanzata è configurata per tutte le connessioni di accesso remoto e tutte le interfacce amministrative non console, incluso l'accesso a qualsiasi repository di codice e interfacce di gestione cloud.
 
 Termini definiti come:
 - **Repository di codice** : la base di codice dell'app deve essere protetta da modifiche dannose che potrebbero introdurre malware nell'app. L'autenticazione a più fattori deve essere configurata nel repository di codice.
@@ -841,7 +843,7 @@ L'evidenza seguente mostra anche che la sicurezza del trasporto RDP è configura
 
 ![mostra che la sicurezza del trasporto RDP è configurata per l'uso di TLS 1.0 in "Webserver01" ](../media/UserGuidePhotos/Control-No-48-1.png)
 
-**Controllo n. 49:** Fornire prove dimostrabili dell'uso dell'autenticazione a più fattori per proteggere il portale di amministrazione usato per gestire e gestire tutti i record DNS (Public Domain Name Service).
+<a id="control-49"></a>[Controllo 49](#control-49): fornire prove dimostrabili dell'uso dell'autenticazione a più fattori per proteggere il portale di amministrazione usato per gestire e gestire tutti i record DNS (Public Domain Name Service).
 
 - Finalità: se un attore di minacce dannose può ottenere l'accesso ai record DNS pubblici, esiste il rischio che sia in grado di modificare gli URL usati dall'app o in cui il file manifesto punta a introdurre codice dannoso o a indirizzare il traffico utente a un endpoint sotto il controllo degli attori. Questo potrebbe causare una perdita di dati utente o di malware/infezioni ransomware attraverso la base utente dell'app.
 
@@ -863,7 +865,7 @@ I sistemi di rilevamento e prevenzione delle intrusioni (IDPS) nel gateway posso
 
 **Questa sezione è per un credito aggiuntivo ed è quindi facoltativa. Non è un requisito, tuttavia, se lo si completa, la valutazione mostrerà un quadro più completo dell'ambiente e dei controlli e degli standard che hai messo in atto.**
 
-**Controllo n. 50:** Fornire prove dimostrabili che i sistemi di rilevamento e prevenzione delle intrusioni (IDPS) vengono distribuiti nel perimetro degli ambienti nell'ambito.
+<a id="control-50"></a>[Controllo 50](#control-50): fornire prove dimostrabili che i sistemi di rilevamento e prevenzione delle intrusioni (IDPS) vengono distribuiti nel perimetro degli ambienti nell'ambito.
 
 - Finalità: anche se alcune fonti descrivono le minacce insider come ora superiori alle minacce da parte degli attori delle minacce esterne, le minacce interne includono anche la negligenza, con errori umani che aumentano in percentuale anno su anno. Lo scopo dell'installazione di IDPS nel perimetro degli ambienti nell'ambito è che le minacce esterne possono essere spesso rilevate tramite meccanismi IDPS a causa della natura e delle tecniche usate da questi tipi di minacce.
 
@@ -877,7 +879,7 @@ Lo screenshot aggiuntivo seguente dimostra che IDPS è abilitato in tutte le reg
 
 ![Screenshot che illustra che IDPS è abilitato in tutte le regole all'interno della configurazione del firewall WatchGuard.](../media/UserGuidePhotos/Control-No-50-1.png)
 
-**Controllo n. 51:** Fornire prove dimostrabili che le firme IDPS vengono mantenute aggiornate (entro 24 ore).
+<a id="control-51"></a>[Controllo 51](#control-51): fornire prove dimostrabili che le firme IDPS vengono mantenute aggiornate (entro 24 ore).
 
 - Finalità: esistono più modalità di funzionamento per IDPS, la più comune è l'uso di firme per identificare il traffico di attacco. Man mano che gli attacchi si evolvono e vengono identificate vulnerabilità più recenti, è importante che le firme IDPS siano aggiornate per fornire una protezione adeguata. Lo scopo di questo controllo è quello di garantire la gestione di IDPS.
 
@@ -889,7 +891,7 @@ Lo screenshot aggiuntivo seguente dimostra che IDPS è abilitato in tutte le reg
 
 ![Mostra che le firme verranno aggiornate in un periodo di 24 ore](../media/UserGuidePhotos/Control-No-51-1.png)
 
-**Controllo n. 52:** Fornire prove dimostrabili che IDPS è configurato per supportare l'ispezione TLS di tutto il traffico Web in ingresso.
+<a id="control-52"></a>[Controllo 52](#control-52): fornire prove dimostrabili che IDPS è configurato per supportare l'ispezione TLS di tutto il traffico Web in ingresso.
 
 - Finalità: poiché IDPS si basa sulle firme, deve essere in grado di controllare tutti i flussi di traffico per identificare il traffico di attacco. Il traffico TLS è crittografato e pertanto IDPS non sarebbe in grado di controllare correttamente il traffico. Questo è fondamentale per il traffico HTTPS, poiché esiste una miriade di minacce comuni ai servizi Web. Lo scopo di questo controllo è garantire che i flussi di traffico crittografati possano essere controllati anche per verificare la presenza di IDPS.
 
@@ -911,7 +913,7 @@ Lo screenshot seguente mostra che l'ispezione del contenuto è abilitata.
 
 ![screenshot seguente che mostra che l'ispezione del contenuto è abilitata](../media/UserGuidePhotos/Control-No-52-3.png)
 
-**Controllo n. 53:** Fornire prove dimostrabili che IDPS è configurato per monitorare tutti i flussi di traffico in ingresso.
+<a id="control-53"></a>[Controllo 53](#control-53): fornire prove dimostrabili che IDPS è configurato per monitorare tutti i flussi di traffico in ingresso.
 
 - Finalità: come già illustrato, è importante che tutti i flussi di traffico in ingresso vengano monitorati da IDPS per identificare qualsiasi forma di traffico di attacco.
 
@@ -921,7 +923,7 @@ Lo screenshot seguente mostra che l'ispezione del contenuto è abilitata.
 
 ![screenshot che mostra che IDPS è configurato in tutte le regole (criteri) del firewall WatchGuard.](../media/UserGuidePhotos/Control-No-53.png)
 
-**Controllo n. 54:** Fornire prove dimostrabili che IDPS è configurato per monitorare tutti i flussi di traffico in uscita.
+<a id="control-54"></a>[Controllo 54](#control-54): fornire prove dimostrabili che IDPS è configurato per monitorare tutti i flussi di traffico in uscita.
 
 - Finalità: come già illustrato, è importante che tutti i flussi di traffico in uscita vengano monitorati da IDPS per identificare qualsiasi forma di traffico di attacco. Alcuni sistemi IDPS possono anche identificare potenziali violazioni interne monitorando tutto il traffico in uscita. Questa operazione può essere eseguita identificando il traffico destinato agli endpoint di &#39;comando e controllo&#39;.
 
@@ -977,7 +979,7 @@ Nell'esempio seguente sono state usate le impostazioni Premium predefinite per l
 
 La registrazione degli eventi di sicurezza è parte integrante di un'organizzazione&#39;programma di sicurezza s. La registrazione adeguata degli eventi di sicurezza e i processi di avviso e revisione ottimizzati consentono alle organizzazioni di identificare le violazioni o i tentativi di violazione che possono essere usati dall'organizzazione per migliorare le strategie di sicurezza difensiva e di sicurezza. Inoltre, una registrazione adeguata sarà determinante per una funzionalità di risposta agli eventi imprevisti delle organizzazioni che può alimentare altre attività, ad esempio la possibilità di identificare con precisione cosa e chi&#39;dati è stato compromesso, il periodo di compromissione, fornire report di analisi dettagliati alle agenzie governative e così via.
 
-**Controllo n. 55:** Fornire la documentazione dei criteri per le procedure consigliate e le procedure che regolano la registrazione degli eventi di sicurezza.
+<a id="control-55"></a>[Controllo 55](#control-55): fornire la documentazione dei criteri per le procedure consigliate e le procedure che regolano la registrazione degli eventi di sicurezza.
 
 - Finalità: la registrazione degli eventi di sicurezza è una funzione importante di qualsiasi organizzazione&#39;programma di sicurezza. I criteri e le procedure devono essere implementati per garantire chiarezza e coerenza per garantire che le organizzazioni implementino i controlli di registrazione in linea con le procedure consigliate dai fornitori e dal settore. Ciò consentirà di garantire l'utilizzo di log pertinenti e dettagliati che non solo sono utili per identificare eventi di sicurezza potenziali o effettivi, ma possono anche aiutare un'attività di risposta agli eventi imprevisti a identificare l'entità di una violazione della sicurezza.
 
@@ -989,7 +991,7 @@ La registrazione degli eventi di sicurezza è parte integrante di un'organizzazi
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 56:** Fornire prove dimostrabili che mostrano che la registrazione degli eventi di sicurezza è configurata in tutti i componenti di sistema campionati per registrare gli eventi seguenti:
+<a id="control-56"></a>[Controllo 56](#control-56): fornire prove dimostrabili che mostrano che la registrazione degli eventi di sicurezza è configurata in tutti i componenti di sistema campionati per registrare gli eventi seguenti:
 - Accesso utente ai componenti di sistema e all'applicazione
 - Tutte le azioni eseguite da un utente con privilegi elevati
 - Tentativi di accesso logico non validi
@@ -1018,7 +1020,7 @@ Questo screenshot finale mostra il messaggio di log visualizzato all'interno del
 
 **Nota**: gli screenshot sono necessari in tutti i componenti del sistema campionati **E** **DEVONO** dimostrare tutti gli eventi di sicurezza descritti in precedenza.
 
-**Controllo n. 57:** Fornire prove dimostrabili che gli eventi di sicurezza registrati contengono le informazioni minime seguenti:
+<a id="control-57"></a>[Controllo 57](#control-57): fornire prove dimostrabili che gli eventi di sicurezza registrati contengono le informazioni minime seguenti:
 - Utente
 - Tipo di evento
 - Data e ora
@@ -1035,7 +1037,7 @@ Questo screenshot finale mostra il messaggio di log visualizzato all'interno del
 
 **Nota**: gli screenshot sono necessari per tutti i componenti di sistema campionati **E DEVONO** dimostrare tutti gli eventi di sicurezza descritti nel controllo precedente. È probabile che le prove raccolte per il controllo precedente soddisfino anche questo controllo, fornendo dettagli adeguati sulle informazioni di registrazione.
 
-**Controllo n. 58:** Fornire prove dimostrabili che tutti i componenti di sistema campionati sono sincronizzati nel tempo con gli stessi server primari e secondari.
+<a id="control-58"></a>[Controllo 58](#control-58): fornire prove dimostrabili che tutti i componenti di sistema campionati sono sincronizzati nel tempo con gli stessi server primari e secondari.
 
 - Finalità: un componente critico della registrazione è garantire che i log di tutti i sistemi dispongano di orologi di sistema tutti sincronizzati. Ciò è importante quando è necessaria un'indagine per tenere traccia di una violazione dei dati e/o di una compromissione. Tenere traccia degli eventi attraverso vari sistemi può diventare quasi impossibile se i log hanno vari gradi di timestamp in quanto i log importanti potrebbero non essere presenti e sarà difficile da tenere traccia.
 
@@ -1053,7 +1055,7 @@ Questo screenshot finale mostra il componente di sistema nell'ambito, &quot;CLAR
 
 ![screenshot che mostra il componente di sistema nell'ambito, "CLARANET-SBU-WM" è configurato per NTP in modo che punti al server primario, ovvero watchguard firewall (10.0.1.1).](../media/UserGuidePhotos/Control-No-58-2.png)
 
-**Controllo n. 59:** Fornire prove dimostrabili quando i sistemi pubblici sono in uso che i log eventi di sicurezza vengono inviati a una soluzione di registrazione centralizzata non all'interno della rete perimetrale.
+<a id="control-59"></a>[Controllo 59](#control-59): fornire prove dimostrabili quando i sistemi pubblici sono in uso che i log eventi di sicurezza vengono inviati a una soluzione di registrazione centralizzata non all'interno della rete perimetrale.
 
 - Finalità: lo scopo di questo controllo è garantire una separazione logica o fisica tra la rete perimetrale e l'endpoint di registrazione. Poiché la rete perimetrale è pubblica, questa è esposta agli attori esterni delle minacce e quindi a un rischio maggiore rispetto ad altri componenti all'interno dell'ambiente. In caso di compromissione di un componente della rete perimetrale, è necessario mantenere l'integrità dei dati di registrazione non solo per impedire all'attore della minaccia di manomettere i log per nascondere la compromissione, ma anche per facilitare qualsiasi lavoro di indagine forense che potrebbe essere necessario. Effettuando la registrazione a sistemi esterni alla rete perimetrale, i controlli di sicurezza usati per limitare il traffico dalla rete perimetrale a questi sistemi di sicurezza dovrebbero contribuire a proteggerli da attività dannose e tentativi di manomissione.
 
@@ -1071,7 +1073,7 @@ L'URL seguente per NXLog ([https://nxlog.co/documentation/nxlog-user-guide/modes
 
 ![Screenshot dell'elaborazione dei log offline](../media/UserGuidePhotos/Control-No-59-2.png)
 
-**Controllo n. 60:** Fornire prove dimostrabili per dimostrare che la soluzione di registrazione centralizzata è protetta da manomissioni non autorizzate dei dati di registrazione.
+<a id="control-60"></a>[Controllo 60](#control-60): fornire prove dimostrabili per dimostrare che la soluzione di registrazione centralizzata è protetta da manomissioni non autorizzate dei dati di registrazione.
 
 - Finalità: sebbene la separazione logica/fisica sia spesso presente tra i dispositivi di registrazione e la soluzione di registrazione centralizzata, esiste ancora il rischio che qualcuno possa provare a manomettere i log per nascondere le proprie attività. Lo scopo di questo controllo è garantire l'applicazione di meccanismi di autorizzazione adeguati per limitare il numero di utenti che possono eseguire azioni amministrative sulla soluzione di registrazione centralizzata.
 
@@ -1081,7 +1083,7 @@ L'URL seguente per NXLog ([https://nxlog.co/documentation/nxlog-user-guide/modes
 
 **Nota:** Se il SIEM è interno, sarà necessario fornire prove per dimostrare che l'accesso ai dati di registrazione è limitato a un numero selezionato di utenti in base alle esigenze di lavoro e che la piattaforma stessa è protetta da manomissioni (la maggior parte delle soluzioni lo inserirà nella funzionalità della soluzione di registrazione).
 
-**Controllo n. 61:** Fornire prove dimostrabili che un minimo di 30 giorni di dati di registrazione eventi di sicurezza è immediatamente disponibile, con 90 giorni di log eventi di sicurezza conservati.
+<a id="control-61"></a>[Controllo 61](#control-61): fornire prove dimostrabili che sono immediatamente disponibili almeno 30 giorni di dati di registrazione eventi di sicurezza, con 90 giorni di log eventi di sicurezza conservati.
 
 - Finalità: a volte esiste una differenza di tempo tra un evento di compromissione o di sicurezza e un'organizzazione che lo identifica. Lo scopo di questo controllo è garantire che l'organizzazione abbia accesso ai dati cronologici degli eventi per facilitare la risposta agli eventi imprevisti e qualsiasi lavoro di indagine forense che potrebbe essere necessario.
 
@@ -1107,7 +1109,7 @@ Questo screenshot successivo mostra che i log sono disponibili visualizzando un'
 
 La revisione dei log di sicurezza è una funzione importante per aiutare le organizzazioni a identificare gli eventi di sicurezza che possono essere indicativi di una violazione della sicurezza o di attività di ricognizione che potrebbero essere un'indicazione di qualcosa a venire. Questa operazione può essere eseguita tramite un processo manuale su base giornaliera o tramite l'uso di una soluzione SIEM (Security Information and Event Management) che consente di analizzare i log di controllo, cercando correlazioni e anomalie che possono essere contrassegnate per un'ispezione manuale.
 
-**Controllo n. 62:** Fornire la documentazione dei criteri che regola le procedure e le procedure di revisione dei log.
+<a id="control-62"></a>[Controllo 62](#control-62): fornire la documentazione dei criteri che regola le procedure e le procedure di revisione dei log.
 
 - Finalità: un report di IBM intitolato &quot;[Cost of a data breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)&quot; evidenzia che il tempo medio per identificare e contenere una violazione dei dati può richiedere 280 giorni, questo è maggiore dove la violazione è da parte di un attore di minacce dannose che viene segnalato come 315days. Con il costo medio di una violazione dei dati segnalato per essere in milioni di dollari, è fondamentale che questo ciclo di vita di violazione dei dati sia ridotto non solo per ridurre al minimo la finestra di esposizione ai dati, ma anche per ridurre l'intervallo di tempo che un attore di minacce deve esfiltrare dati dall'ambiente. Riducendo questa finestra, le organizzazioni possono ridurre il costo complessivo di una violazione dei dati.
 
@@ -1121,11 +1123,11 @@ La revisione dei log di sicurezza è una funzione importante per aiutare le orga
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 63:** Fornire prove dimostrabili che i log vengono esaminati quotidianamente da strumenti umani o automatizzati per identificare potenziali eventi di sicurezza.
+<a id="control-63"></a>[Controllo 63](#control-63): fornire prove dimostrabili che i log vengono esaminati quotidianamente da un utente o strumenti automatizzati per identificare potenziali eventi di sicurezza.
 
 - Finalità: lo scopo di questo controllo è garantire che vengano eseguite verifiche giornaliere dei log. Ciò è importante per identificare eventuali anomalie che potrebbero non essere rilevate dagli script/query di avviso configurati per fornire avvisi degli eventi di sicurezza.
 
-- Linee guida per l'evidenza di esempio: le prove vengono in genere fornite da uno screenshot o da una condivisione dello schermo, a dimostrazione del fatto che sono in corso revisioni del log. Può trattarsi di moduli compilati ogni giorno o tramite un biglietto JIRA o DevOps con commenti pertinenti che vengono pubblicati per mostrare che questo viene eseguito quotidianamente. Ad esempio, un ticket JIRA settimanale può essere creato &quot;Daily Log Review W/C 26th June 2021&quot;, ogni giorno qualcuno pubblica i risultati della verifica giornaliera del log. Se le anomalie sono contrassegnate, è possibile documentare questo elemento all'interno dello stesso ticket per illustrare il controllo successivo in un'unica JIRA.
+- Linee guida per l'evidenza di esempio: le prove vengono in genere fornite da uno screenshot o da una condivisione dello schermo, a dimostrazione del fatto che sono in corso revisioni del log. Può trattarsi di moduli che vengono compilati ogni giorno, o tramite un biglietto JIRA o DevOps con commenti pertinenti che vengono pubblicati per mostrare che questo viene effettuato quotidianamente. Ad esempio, un ticket JIRA settimanale può essere creato &quot;Daily Log Review W/C 26th June 2021&quot;, ogni giorno qualcuno pubblica i risultati della verifica giornaliera del log. Se le anomalie sono contrassegnate, è possibile documentare questo elemento all'interno dello stesso ticket per illustrare il controllo successivo in un unico JIRA.
 
 - Se vengono usati strumenti automatizzati, è possibile fornire prove dello screenshot per dimostrare l'automazione configurata e fornire prove aggiuntive per mostrare che l'automazione è in esecuzione e qualcuno sta esaminando l'output automatizzato.
 
@@ -1147,11 +1149,11 @@ Questo screenshot successivo mostra che un ticket viene generato automaticamente
 
 ![screenshot che mostra che un ticket viene generato automaticamente all'interno dello strumento ServiceNow del SOC, attivando la regola precedente.](../media/UserGuidePhotos/Control-No-63-3.png)
 
-**Controllo n. 64:** Fornire prove dimostrabili che i potenziali eventi di sicurezza e anomalie vengono analizzati e corretti.
+<a id="control-64"></a>[Controllo 64](#control-64): fornire prove dimostrabili che i potenziali eventi di sicurezza e anomalie vengono analizzati e corretti.
 
 - Finalità: l'intento è quello di analizzare eventuali anomalie identificate durante il processo giornaliero di verifica dei log e di eseguire le misure correttive o le azioni appropriate. Ciò comporta in genere un processo di valutazione per identificare se le anomalie richiedono un'azione e quindi potrebbe essere necessario richiamare il processo di risposta agli eventi imprevisti.
 
-- Linee guida per l'evidenza di esempio: l'evidenza deve essere fornita tramite screenshot che dimostra che le anomalie identificate come parte della verifica giornaliera del log vengono seguite. Come già illustrato in precedenza, può trattarsi di ticket JIRA che mostrano un'anomalia segnalata e quindi dettagliano quali attività sono state eseguite in seguito. Ciò può richiedere l'generazione di un ticket JIRA specifico per tenere traccia di tutte le attività eseguite oppure può essere semplicemente documentato all'interno del ticket di verifica del log giornaliero. Se è necessaria un'azione di risposta agli eventi imprevisti, questa operazione deve essere documentata come parte del processo di risposta agli eventi imprevisti e devono essere fornite prove per dimostrarlo.
+- Linee guida per l'evidenza di esempio: l'evidenza deve essere fornita tramite screenshot che dimostra che le anomalie identificate come parte della verifica giornaliera del log vengono seguite. Come già illustrato in precedenza, questo può essere attraverso JIRA biglietti che mostrano un'anomalia segnalata e quindi dettagliare quali attività sono state eseguite in seguito. Ciò può richiedere la generazione di un ticket di JIRA specifico per tenere traccia di tutte le attività eseguite oppure può essere semplicemente documentato all'interno del ticket di verifica del log giornaliero. Se è necessaria un'azione di risposta agli eventi imprevisti, questa operazione deve essere documentata come parte del processo di risposta agli eventi imprevisti e devono essere fornite prove per dimostrarlo.
 
 - Prova di esempio: l'esempio di screenshot seguente mostra un avviso di sicurezza rilevato all'interno di ServiceNow dal SOC Claranet Cyber Security MDR (Managed Detection and Response).
 
@@ -1165,7 +1167,7 @@ Questo screenshot successivo mostra la conferma che l'operazione è stata risolt
 
 Gli eventi di sicurezza critici devono essere esaminati immediatamente per ridurre al minimo l'impatto sui dati e sull'ambiente operativo. L'invio di avvisi consente di evidenziare immediatamente potenziali violazioni della sicurezza al personale per garantire una risposta tempestiva in modo che l'organizzazione possa contenere l'evento di sicurezza il più rapidamente possibile. Garantendo un funzionamento efficace degli avvisi, le organizzazioni possono ridurre al minimo l'impatto di una violazione della sicurezza, riducendo così la possibilità di una grave violazione che potrebbe danneggiare il marchio delle organizzazioni e imporre perdite finanziarie attraverso multe e danni alla reputazione.
 
-**Controllo n. 65:** Fornire la documentazione dei criteri che regola le procedure e le procedure di avviso degli eventi di sicurezza.
+<a id="control-65"></a>[Controllo 65](#control-65): fornire la documentazione dei criteri che regola le procedure e le procedure di avviso degli eventi di sicurezza.
 
 - Finalità: l'avviso deve essere usato per gli eventi di sicurezza chiave che richiedono una risposta immediata da parte di un'organizzazione in quanto esiste il potenziale che l'evento sia indicativo di una violazione dell'ambiente e/o di una violazione dei dati. È consigliabile documentare un processo sicuro intorno al processo di avviso per garantire che venga eseguito in modo coerente e ripetibile. Ciò consentirà di ridurre la sequenza temporale del ciclo di vita&quot; delle &quot;violazioni dei dati.
 
@@ -1177,7 +1179,7 @@ Gli eventi di sicurezza critici devono essere esaminati immediatamente per ridur
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 66:** Fornire prove dimostrabili che vengono attivati avvisi per valutare immediatamente i tipi di eventi di sicurezza seguenti:
+<a id="control-66"></a>[Controllo 66](#control-66): fornire prove dimostrabili che vengono attivati avvisi per valutare immediatamente i tipi di eventi di sicurezza seguenti:
 - Creazione o modifica di account con privilegi
 - Eventi di virus o malware
 - Manomissione del registro eventi
@@ -1193,7 +1195,7 @@ Gli eventi di sicurezza critici devono essere esaminati immediatamente per ridur
 Questo screenshot successivo mostra un avviso ricevuto da Dan.
 ![screenshot che mostra un avviso ricevuto da Dan.](../media/UserGuidePhotos/Control-No-66-1.png)
 
-**Controllo n. 67:** Fornire prove dimostrabili che dimostrano che il personale è sempre disponibile, tutto il giorno, per rispondere agli avvisi di sicurezza.
+<a id="control-67"></a>[Controllo 67](#control-67): fornire prove dimostrabili che mostrano che il personale è sempre disponibile, tutto il giorno, ogni giorno, per rispondere agli avvisi di sicurezza.
 
 - Finalità: è importante che gli avvisi di sicurezza vengano triaged il prima possibile per limitare l'esposizione all'ambiente e/o ai dati. Il personale deve essere sempre a disposizione per rispondere agli avvisi e fornire un lavoro investigativo critico se viene identificata una violazione. Più rapidamente viene avviato questo processo, più rapidamente l'evento imprevisto di sicurezza può essere contenuto per proteggere i dati o limitare l'impatto della violazione.
 
@@ -1207,7 +1209,7 @@ Questo screenshot successivo mostra un avviso ricevuto da Dan.
 
 Information Security Risk Management è un'attività importante che tutte le organizzazioni devono svolgere almeno ogni anno. Le organizzazioni devono comprendere le minacce e i rischi per mitigare efficacemente queste minacce. Senza una gestione efficace dei rischi, le organizzazioni possono implementare procedure consigliate per la sicurezza in aree che ritengono importanti e quindi investire risorse, tempo e denaro in queste aree, quando altre minacce sono molto più probabili e pertanto devono essere mitigate. Una gestione efficace dei rischi aiuterà le organizzazioni a concentrarsi sui rischi che rappresentano la minaccia più grave per l'azienda. Questa operazione dovrebbe essere eseguita ogni anno in quanto il panorama della sicurezza è in continua evoluzione e pertanto le minacce e i rischi possono cambiare il lavoro straordinario. Un buon esempio di questo può essere visto con COVID-19 che ha visto un aumento massiccio degli attacchi di phishing e l'implementazione di massa (e veloce) di lavoro remoto per centinaia o migliaia di lavoratori.
 
-**Controllo n. 68:** Fornire prove dimostrabili dell'esistenza di un processo formale di gestione dei rischi per la sicurezza delle informazioni.
+<a id="control-68"></a>[Controllo 68](#control-68): fornire prove dimostrabili dell'esistenza di un processo formale di gestione dei rischi per la sicurezza delle informazioni.
 
 - Finalità: come illustrato in precedenza, un solido processo di gestione dei rischi per la sicurezza delle informazioni è importante per aiutare le organizzazioni a gestire i rischi in modo efficace. In questo modo le organizzazioni potranno pianificare mitigazioni efficaci contro le minacce per l'ambiente.
 
@@ -1222,7 +1224,7 @@ Information Security Risk Management è un'attività importante che tutte le org
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 69:** Fornire prove dimostrabili che una valutazione formale dei rischi viene eseguita ogni anno, almeno.
+<a id="control-69"></a>[Controllo 69](#control-69): fornire prove dimostrabili che una valutazione formale dei rischi viene eseguita ogni anno, almeno.
 
 - Finalità: le minacce alla sicurezza cambiano costantemente in base alle modifiche all'ambiente, alle modifiche ai servizi offerti, alle influenze esterne, all'evoluzione del panorama delle minacce per la sicurezza e così via. Le organizzazioni devono eseguire questo processo almeno ogni anno. È consigliabile che questo processo venga eseguito anche in caso di modifiche significative, in quanto le minacce possono cambiare.
 
@@ -1237,7 +1239,7 @@ Questi due screenshot mostrano i minuti della riunione di due riunioni di valuta
 
 ![screenshot che mostra altri minuti di riunione da due riunioni di valutazione dei rischi.](../media/UserGuidePhotos/Control-No-69-2.png)
 
-**Controllo n. 70:** Fornire prove dimostrabili che la valutazione dei rischi per la sicurezza delle informazioni include minacce, vulnerabilità o equivalenti.
+<a id="control-70"></a>[Controllo 70](#control-70): fornire prove dimostrabili che la valutazione dei rischi per la sicurezza delle informazioni include minacce, vulnerabilità o l'equivalente.
 
 - Finalità: le valutazioni dei rischi per la sicurezza delle informazioni devono essere eseguite contro le minacce all'ambiente e ai dati e contro le possibili vulnerabilità che possono essere presenti. Ciò consentirà alle organizzazioni di identificare la miriade di minacce/vulnerabilità che possono rappresentare un rischio significativo.
 
@@ -1249,7 +1251,7 @@ Questi due screenshot mostrano i minuti della riunione di due riunioni di valuta
 
 **Nota:** È necessario fornire la documentazione completa sulla valutazione dei rischi anziché uno screenshot.
 
-**Controllo n. 71:** Fornire prove dimostrabili che la valutazione del rischio di sicurezza delle informazioni include l'impatto, la matrice di rischio di probabilità o l'equivalente.
+<a id="control-71"></a>[Controllo 71](#control-71): fornire prove dimostrabili che la valutazione del rischio di sicurezza delle informazioni include l'impatto, la matrice di rischio di probabilità o l'equivalente.
 
 - Finalità: le valutazioni dei rischi per la sicurezza delle informazioni devono documentare le valutazioni di impatto e probabilità. Queste matrici verranno in genere usate per identificare un valore di rischio che può essere usato dall'organizzazione per assegnare priorità al trattamento dei rischi per contribuire a ridurre il valore di rischio.
 
@@ -1261,7 +1263,7 @@ Questi due screenshot mostrano i minuti della riunione di due riunioni di valuta
 
 **Nota:** È consigliabile specificare il assessment_ _document__ation di rischio completo anziché uno screenshot.
 
-**Controllo n. 72:** Fornire prove dimostrabili che la valutazione dei rischi per la sicurezza delle informazioni include un registro dei rischi e un piano di trattamento.
+<a id="control-72"></a>[Controllo 72](#control-72): fornire prove dimostrabili che la valutazione dei rischi per la sicurezza delle informazioni include un registro dei rischi e un piano di trattamento.
 
 - Finalità: le organizzazioni devono gestire i rischi in modo efficace. Questo deve essere monitorato correttamente per fornire un record di uno dei quattro trattamenti a rischio applicati. I trattamenti di rischio sono:
 
@@ -1292,7 +1294,7 @@ Un rapporto di IBM intitolato &quot;[Cost of a data breach Report 2020](https://
 
 Le organizzazioni devono seguire le procedure consigliate per la conformità alla sicurezza usando framework standard del settore, ad esempio ISO 27001, NIST, SOC 2, PCI DSS e così via.
 
-**Controllo n. 73:** Specificare il piano di risposta agli eventi imprevisti (IRP) di sicurezza.
+<a id="control-73"></a>[Controllo 73](#control-73): specificare il piano di risposta agli eventi imprevisti di sicurezza.Control 73: Provide the security incident response plan (IRP).
 
 - Finalità: come già illustrato, lo scopo di questo controllo è richiedere un piano di risposta agli eventi imprevisti formalmente documentato. Ciò consentirà di gestire in modo più efficiente una risposta agli eventi imprevisti di sicurezza che può limitare l'esposizione alla perdita di dati delle organizzazioni e ridurre i costi della compromissione.
 
@@ -1304,7 +1306,7 @@ Le organizzazioni devono seguire le procedure consigliate per la conformità all
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 74:** Fornire prove dimostrabili che l'IRP di sicurezza include un processo di comunicazione documentato per garantire una notifica tempestiva alle principali parti interessate, ad esempio marchi di pagamento e acquirenti, organismi di regolamentazione, autorità di vigilanza, amministratori e clienti.
+<a id="control-74"></a>[Controllo 74](#control-74): fornire prove dimostrabili che l'IRP di sicurezza include un processo di comunicazione documentato per garantire una notifica tempestiva agli stakeholder chiave, ad esempio marchi di pagamento e acquirenti, organismi di regolamentazione, autorità di vigilanza, amministratori e clienti.
 
 - Finalità: le organizzazioni possono avere obblighi di notifica delle violazioni in base al paese o ai paesi in cui operano (ad esempio, il regolamento generale sulla protezione dei dati; GDPR) o in base alla funzionalità offerta (ad esempio, PCI DSS se vengono gestiti i dati di pagamento). La mancata notifica tempestiva può comportare gravi conseguenze, pertanto, per garantire il rispetto degli obblighi di notifica, i piani di risposta agli eventi imprevisti dovrebbero includere un processo di comunicazione che includa la comunicazione con tutti gli stakeholder, i processi di comunicazione dei media e chi può e non può parlare con i media.
 
@@ -1314,7 +1316,7 @@ Le organizzazioni devono seguire le procedure consigliate per la conformità all
 
 ![screenshot che mostra un estratto dal piano di risposta agli eventi imprevisti che mostra il processo di comunicazione](../media/UserGuidePhotos/Control-No-74.png)
 
-**Controllo n. 75:** Fornire prove dimostrabili che tutti i membri del team di risposta agli eventi imprevisti hanno completato la formazione annuale o un esercizio di tabella superiore.
+<a id="control-75"></a>[Controllo 75](#control-75): fornire prove dimostrabili che tutti i membri del team di risposta agli eventi imprevisti hanno completato la formazione annuale o un esercizio di tabella superiore.
 
 - Finalità: come già illustrato in precedenza, più tempo è necessario affinché un'organizzazione contenga una compromissione, maggiore è il rischio di esfiltrazione dei dati, con conseguente potenziale aumento del volume di dati esfiltrati e maggiore è il costo complessivo della compromissione. È importante che i team di risposta agli eventi imprevisti dell'organizzazione&#39;siano in grado di rispondere tempestivamente agli eventi imprevisti di sicurezza. Eseguendo un training regolare e eseguendo esercizi da tavolo, questo consente al team di gestire gli eventi imprevisti di sicurezza in modo rapido ed efficiente.
 
@@ -1332,7 +1334,7 @@ Le organizzazioni devono seguire le procedure consigliate per la conformità all
 
 **Nota:** Il report completo deve essere condiviso. Questo esercizio potrebbe anche essere eseguito internamente, in quanto non vi è alcun requisito Microsoft 365 che ciò venga eseguito da una società di terze parti.
 
-**Controllo n. 76:** Fornire prove dimostrabili per mostrare che l'IRP di sicurezza viene aggiornato in base alle lezioni apprese o alle modifiche dell'organizzazione.
+<a id="control-76"></a>[Controllo 76](#control-76): fornire prove dimostrabili per mostrare che l'IRP di sicurezza viene aggiornato in base alle lezioni apprese o alle modifiche dell'organizzazione.
 
 - Finalità: nel corso del tempo, il piano di risposta agli eventi imprevisti (IRP) deve evolversi in base alle modifiche dell'organizzazione o in base alle lezioni apprese durante l'applicazione dell'IRP. Le modifiche all'ambiente operativo possono richiedere modifiche all'IRP in quanto le minacce possono cambiare o i requisiti normativi possono cambiare. Inoltre, man mano che vengono eseguiti esercizi da tavolo e risposte effettive agli eventi imprevisti di sicurezza, questo può spesso identificare le aree dell'IRP che possono essere migliorate. Questo deve essere integrato nel piano e lo scopo di questo controllo è garantire che questo processo sia incluso nell'IRP.
 
@@ -1356,7 +1358,7 @@ Questo dominio di sicurezza è incluso per garantire che tutti i dati utilizzati
 
 A causa dei requisiti di connettività delle app/componenti aggiuntivi sviluppati da M365, la comunicazione si verificherà su reti pubbliche, ovvero Internet. Per questo motivo, i dati in transito devono essere adeguatamente protetti. Questa sezione illustra la protezione delle comunicazioni dati su Internet.
 
-**Controllo n. 1:** Fornire prove dimostrabili che la configurazione TLS soddisfa o supera i requisiti di crittografia all'interno dei [requisiti di configurazione del profilo TLS](../docs/certification-submission-guide.md#appendix-a).
+<a id="control-1b"></a>[Controllo 1](#control-1b): fornire prove dimostrabili che la configurazione TLS soddisfa o supera i requisiti di crittografia all'interno dei [requisiti di configurazione del profilo TLS](../docs/certification-submission-guide.md#appendix-a).
 
 - Finalità: lo scopo di questo controllo è garantire che i dati M365 utilizzati dall'organizzazione vengano trasmessi in modo sicuro. La configurazione del profilo TLS definisce i requisiti specifici di TLS per garantire la sicurezza del traffico dagli attacchi man-in-the-middle.
 
@@ -1398,7 +1400,7 @@ Esadecimale: 0x00000000 - off 0xffffffff - on
 
 **Nota**: questi screenshot da soli non sarebbero in grado di soddisfare questo requisito.
 
-**Controllo n. 2:** Fornire prove dimostrabili che la compressione TLS è disabilitata in tutti i servizi pubblici che gestiscono le richieste Web.
+<a id="control-2b"></a>[Controllo 2](#control-2b): fornire prove dimostrabili che la compressione TLS è disabilitata in tutti i servizi pubblici che gestiscono le richieste Web.
 
 - Finalità: esiste una vulnerabilità TLS specifica, CRIME ([CVE-2012-4929](https://nvd.nist.gov/vuln/detail/CVE-2012-4929)), che influisce sulla compressione TLS. Per questo motivo, le raccomandazioni del settore sono di disattivare questa funzionalità.
 
@@ -1408,7 +1410,7 @@ Esadecimale: 0x00000000 - off 0xffffffff - on
 
 ![screenshot che mostra le prove tramite lo strumento Qualys SSL Labs](../media/UserGuidePhotos/Security-Domain-Control-No-2.png)
 
-**Controllo n. 3:** Fornire prove dimostrabili che la sicurezza del trasporto http TLS strict è abilitata e configurata per >= 15552000 in tutti i siti.
+<a id="control-3b"></a>[Controllo 3](#control-3b): fornire prove dimostrabili che la sicurezza del trasporto HTTP strict TLS è abilitata e configurata per >= 15552000 in tutti i siti.
 
 - Finalità: HTTP Strict Transport Security (HSTS) è un meccanismo di sicurezza progettato per proteggere i siti Web da attacchi man-in-the-middle forzando le connessioni TLS tramite un campo di intestazione di risposta HTTPS denominato &quot;Strict-Transport-Security&quot;.
 
@@ -1422,7 +1424,7 @@ Esadecimale: 0x00000000 - off 0xffffffff - on
 
 Quando i dati utilizzati dalla piattaforma Microsoft 365 vengono archiviati dagli ISV, i dati devono essere protetti in modo adeguato. Questa sezione illustra i requisiti di protezione dei dati archiviati all'interno di database e archivi file.
 
-**Controllo n. 4:** Fornire prove dimostrabili che i dati inattivi sono crittografati in linea con i requisiti del profilo di crittografia, usando algoritmi di crittografia come AES, Blowfish, TDES e dimensioni delle chiavi di crittografia a 128 bit e a 256 bit.
+<a id="control-4b"></a>[Controllo 4](#control-4b): fornire prove dimostrabili che i dati inattivi sono crittografati in linea con i requisiti del profilo di crittografia, usando algoritmi di crittografia come AES, Blowfish, TDES e dimensioni delle chiavi di crittografia a 128 bit e a 256 bit.
 
 - Finalità: alcuni algoritmi di crittografia meno recenti contengono alcuni punti deboli di crittografia che aumentano le probabilità che un attore di minacce sia in grado di decrittografare i dati senza conoscere la chiave. Per questo motivo, lo scopo di questo controllo è garantire che vengano usati solo algoritmi di crittografia accettati dal settore per proteggere i dati M365 archiviati.
 
@@ -1440,7 +1442,7 @@ Quando i dati utilizzati dalla piattaforma Microsoft 365 vengono archiviati dagl
 
 ![screenshot che mostra che Archiviazione di Azure usa AES-256 per la crittografia](../media/UserGuidePhotos/Security-Domain-Control-No-4-3.png)
 
-**Controllo n. 5:** Fornire prove dimostrabili che la funzione hash o l'autenticazione dei messaggi (HMAC-SHA1) viene usata solo per proteggere i dati inattivi in linea con i requisiti del profilo di crittografia.
+<a id="control-5b"></a>[Controllo 5](#control-5b): fornire prove dimostrabili che l'autenticazione con funzione hash o messaggio (HMAC-SHA1) viene usata solo per proteggere i dati inattivi in linea con i requisiti del profilo di crittografia.
 
 - Finalità: come per gli algoritmi di crittografia, alcune funzioni hash e algoritmi di autenticazione dei messaggi si basano su algoritmi con punti deboli della crittografia. Lo scopo di questo controllo è garantire che i dati M365 siano protetti con funzioni hash complesse se l'hash viene usato come meccanismo di protezione dei dati. Se questo non viene usato dall'ambiente e/o dall'applicazione, è necessario fornire prove che possano confermarlo.
 
@@ -1450,7 +1452,7 @@ Quando i dati utilizzati dalla piattaforma Microsoft 365 vengono archiviati dagl
 
 ![screenshot dimostra che SHA256 viene utilizzato come parte della funzione hash](../media/UserGuidePhotos/Security-Domain-Control-No-5.png)
 
-**Controllo n. 6:** Fornire un inventario di tutti i dati archiviati, inclusi il percorso di archiviazione e la crittografia usati per proteggere i dati.
+<a id="control-6b"></a>[Controllo 6](#control-6b): fornire un inventario di tutti i dati archiviati, inclusi il percorso di archiviazione e la crittografia usati per proteggere i dati.
 
 - Finalità: per proteggere correttamente i dati, le organizzazioni devono essere consapevoli dei dati che utilizzano l'ambiente o i sistemi e della posizione in cui vengono archiviati i dati. Una volta compreso e documentato tutto questo, le organizzazioni sono quindi in grado non solo di implementare una protezione dei dati adeguata, ma anche di consolidare dove si trovano i dati per implementare la protezione in modo più efficace. Inoltre, quando i dati vengono consolidati nel minor numero possibile di posizioni, è molto più semplice implementare un controllo degli accessi in base al ruolo (controllo degli accessi in base al ruolo) adeguato per limitare l'accesso al minor numero di dipendenti necessario.
 
@@ -1464,7 +1466,7 @@ Quando i dati utilizzati dalla piattaforma Microsoft 365 vengono archiviati dagl
 
 Dove gli ISV usano e archiviano i dati M365, ciò sarà a rischio di una compromissione dei dati nel caso in cui un attore di minacce compromettono l'ambiente ISV. Per ridurre al minimo questo rischio, le organizzazioni devono conservare solo i dati necessari per la distribuzione dei servizi e non i dati che &quot;potrebbero&quot; essere usati in futuro. Inoltre, i dati devono essere conservati solo per tutto il tempo necessario per fornire i servizi per cui sono stati acquisiti i dati. La conservazione dei dati deve essere definita e comunicata con gli utenti. Una volta che i dati superano il periodo di conservazione definito, è necessario eliminarli in modo sicuro in modo che i dati non possano essere ricostruiti o recuperati.
 
-**Controllo n. 7:** Fornire prove dimostrabili che un periodo di conservazione dei dati approvato e documentato è formalmente stabilito.
+<a id="control-7b"></a>[Controllo 7](#control-7b): fornire prove dimostrabili che un periodo di conservazione dei dati approvato e documentato è formalmente stabilito.
 
 - Finalità: un criterio di conservazione documentato e seguito è importante non solo per soddisfare alcuni obblighi legali, ad esempio la legislazione sulla privacy dei dati, ad esempio, ma non solo, il Regolamento generale sulla protezione dei dati (GDPR DELL'UE) e il Data Protection Act (UK DPA 2018), ma anche per limitare i rischi di un'organizzazione. Comprendendo i requisiti dei dati delle organizzazioni e la durata dei dati necessari all'azienda per svolgere le proprie funzioni, le organizzazioni possono garantire che i dati vengano eliminati correttamente una volta scaduta l'utilità. Riducendo i volumi di dati archiviati, le organizzazioni riducono la quantità di dati che verrebbero esposti in caso di compromissione dei dati. Questo limiterà l'impatto complessivo.
 
@@ -1480,7 +1482,7 @@ Dove gli ISV usano e archiviano i dati M365, ciò sarà a rischio di una comprom
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 8:** Fornire prove dimostrabili che i dati conservati corrispondono al periodo di conservazione definito.
+<a id="control-8b"></a>[Controllo 8](#control-8b): fornire prove dimostrabili che i dati conservati corrispondono al periodo di conservazione definito.
 
 - Finalità: lo scopo di questo controllo consiste semplicemente nel verificare che vengano soddisfatti i periodi di conservazione dei dati definiti. Come già illustrato, le organizzazioni possono avere un obbligo legale di soddisfare questo obbligo, ma anche mantenendo i dati necessari e per tutto il tempo necessario contribuisce a ridurre il rischio per l'organizzazione in caso di violazione dei dati.
 
@@ -1494,11 +1496,11 @@ Dove gli ISV usano e archiviano i dati M365, ciò sarà a rischio di una comprom
 
 **Nota:** Si tratta di un database di test, pertanto non sono presenti&#39;molti dati cronologici al suo interno.
 
-**Controllo n. 9:** Fornire prove dimostrabili che i processi sono in atto per eliminare in modo sicuro i dati dopo il periodo di conservazione.
+<a id="control-9b"></a>[Controllo 9](#control-9b): fornire prove dimostrabili che i processi sono in atto per eliminare in modo sicuro i dati dopo il periodo di conservazione.
 
 - Finalità: lo scopo di questo controllo è garantire che il meccanismo usato per eliminare i dati che superano il periodo di conservazione lo stia facendo in modo sicuro. I dati eliminati a volte possono essere recuperati; Pertanto, il processo di eliminazione deve essere sufficientemente affidabile da garantire che i dati non possano essere recuperati dopo l'eliminazione.
 
-- Linee guida per l'evidenza di esempio: se il processo di eliminazione viene eseguito a livello di codice, specificare uno screenshot dello script usato per eseguire questa operazione. Se&#39;viene eseguito in base a una pianificazione, specificare uno screenshot che mostra la pianificazione. Ad esempio, uno script per eliminare i file all'interno di una condivisione file può essere configurato come processo CRON, screenshot del processo CRON che mostra la pianificazione e lo script eseguito e fornire lo script che mostra il comando usato.
+- Linee guida per l'evidenza di esempio: se il processo di eliminazione viene eseguito a livello di codice, specificare uno screenshot dello script usato per eseguire questa operazione. Se&#39;eseguito in un pianificare, fornire uno screenshot che mostra la pianificare. Ad esempio, uno script per eliminare i file all'interno di una condivisione file può essere configurato come processo CRON, screenshot del processo CRON che mostra il pianificare e lo script eseguito e fornire lo script che mostra il comando usato.
 
 - Prova di esempio 1: si tratta di uno script semplice che può essere usato per eliminare tutti i record di dati conservati in base alla data -WHERE DateAdd è -30 giorni che eliminerà tutti i record conservati più vecchi di 30 giorni dopo la data di conservazione dei dati selezionata. Si noti che sarà necessario lo script, ma anche la prova del processo in esecuzione e dei risultati.
 
@@ -1510,7 +1512,7 @@ Dove gli ISV usano e archiviano i dati M365, ciò sarà a rischio di una comprom
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-- Prova di esempio 3: in questo esempio è stato creato un runbook e una pianificazione corrispondente in Azure per eliminare in modo sicuro i record con una data di fine creata dai 30 giorni successivi alla scadenza dei criteri di conservazione dei record di dati. Questo processo viene impostato per l'esecuzione ogni mese nell'ultimo giorno del mese.
+- Prova di esempio 3: in questo esempio è stato creato un runbook e un pianificare corrispondente in Azure per eliminare in modo sicuro i record con una data di fine creata dai 30 giorni successivi alla scadenza dei criteri di conservazione dei record di dati. Questo processo viene impostato per l'esecuzione ogni mese nell'ultimo giorno del mese.
 
 ![Screenshot del runbook di conservazione dei dati](../media/UserGuidePhotos/Security-Domain-Control-No-9-2.png)
 
@@ -1524,7 +1526,7 @@ La finestra seguente mostra che il Runbook è stato modificato per trovare i rec
 
 L'accesso ai dati deve essere limitato al minor numero di persone necessarie per ridurre le probabilità che i dati vengano compromessi in modo dannoso o accidentale. L'accesso ai dati e alle chiavi di crittografia deve essere limitato agli utenti con un'esigenza aziendale legittima di accedere per svolgere il proprio ruolo di lavoro. Questo dovrebbe essere ben documentato e deve essere implementato un processo consolidato per richiedere l'accesso. L'accesso ai dati e alle chiavi di crittografia deve seguire il principio dei privilegi minimi.
 
-**Controllo n. 10:** Fornire un elenco di tutti gli utenti con accesso ai dati o alle chiavi di crittografia, inclusa la giustificazione aziendale.
+<a id="control-10b"></a>[Controllare 10](#control-10b):P rovide un elenco di tutti gli utenti con accesso ai dati o alle chiavi di crittografia, inclusa la giustificazione aziendale.
 
 - Finalità: le organizzazioni devono limitare l'accesso ai dati e alle chiavi di crittografia al minor numero possibile di dipendenti. Lo scopo di questo controllo è garantire che l'accesso dei dipendenti ai dati e/o alle chiavi di crittografia sia limitato ai dipendenti con una chiara necessità aziendale per tale accesso.
 
@@ -1533,7 +1535,7 @@ L'accesso ai dati deve essere limitato al minor numero di persone necessarie per
 - Prova di esempio: il documento seguente mostra l'elenco documentato di utenti con accesso ai dati e la giustificazione aziendale.
 ![Immagine](../media/UserGuidePhotos/Security-Domain-Control-No-10.png)
 
-**Controllo n. 11:** Fornire prove dimostrabili che gli utenti campionati che hanno accesso ai dati o alle chiavi di crittografia sono stati formalmente approvati, specificando i privilegi necessari per la funzione di processo.
+<a id="control-11b"></a>[Controllo 11](#control-11b): fornire prove dimostrabili che gli individui campionati che hanno accesso ai dati o alle chiavi di crittografia sono stati formalmente approvati, specificando i privilegi necessari per la funzione del processo.
 
 - Finalità: il processo per concedere l'accesso ai dati e/o alle chiavi di crittografia deve includere l'approvazione, assicurando che sia necessario l'accesso di un singolo&#39;per la funzione di processo. Ciò garantisce che i dipendenti senza un motivo reale per l'accesso non&#39;ottenere l'accesso non necessario.
 
@@ -1570,7 +1572,7 @@ Per soddisfare i requisiti di questo controllo, è necessario visualizzare tutti
 
 Sopra si può vedere che l'accesso è stato approvato e firmato come fatto.
 
-**Controllo n. 12:** Fornire prove dimostrabili che gli utenti campionati che hanno accesso ai dati o alle chiavi di crittografia hanno solo i privilegi inclusi nell'approvazione.
+<a id="control-12b"></a>[Controllo 12](#control-12b): fornire prove dimostrabili che gli utenti campionati che hanno accesso ai dati o alle chiavi di crittografia hanno solo i privilegi inclusi nell'approvazione.
 
 - Finalità: lo scopo di questo controllo consiste nel verificare che l'accesso ai dati e/o alla chiave di crittografia sia configurato in base a quanto documentato.
 
@@ -1580,7 +1582,7 @@ Sopra si può vedere che l'accesso è stato approvato e firmato come fatto.
 
 ![creenshot mostra le autorizzazioni concesse all'utente](../media/UserGuidePhotos/Security-Domain-Control-No-12.png)
 
-**Controllo n. 13:** Specificare un elenco di tutte le terze parti con cui vengono condivisi i dati dei clienti.
+<a id="control-13"></a>[Controllo 13](#control-13b): specificare un elenco di tutte le terze parti con cui vengono condivisi i dati dei clienti.
 
 - Finalità: quando vengono usate terze parti per l'archiviazione o l'elaborazione dei dati M365, queste entità possono rappresentare un rischio significativo. Le organizzazioni devono sviluppare un buon processo di due diligence e gestione di terze parti per garantire che queste terze parti archivino/elaborano i dati in modo sicuro e per garantire che rispettino gli obblighi legali che potrebbero avere, ad esempio come responsabile del trattamento dei dati ai sensi del GDPR.
 
@@ -1607,7 +1609,7 @@ Sopra si può vedere che l'accesso è stato approvato e firmato come fatto.
 
 ![Esempio di posta elettronica3](../media/UserGuidePhotos/Security-Domain-Control-No-13-1.png)
 
-**Controllo n. 14:** Fornire prove dimostrabili che tutti i terzi che utilizzano i dati dei clienti hanno contratti di condivisione.
+<a id="control-14b"></a>[Controllo 14](#control-14b): fornire prove dimostrabili che tutti i terzi che utilizzano i dati dei clienti hanno contratti di condivisione.
 
 - Finalità: quando i dati M365 vengono condivisi con terze parti, è importante che i dati vengano gestiti in modo appropriato e sicuro. Gli accordi di condivisione dei dati devono essere applicati per garantire che terze parti eserci scono i dati solo in base alle esigenze e comprendano i propri obblighi di sicurezza. La sicurezza di un'organizzazione è forte solo quanto il collegamento più debole. Lo scopo di questo controllo è garantire che terze parti non diventino un collegamento debole dell'organizzazione.
 
@@ -1625,7 +1627,7 @@ Sopra si può vedere che l'accesso è stato approvato e firmato come fatto.
 
 La maggior parte delle organizzazioni elabora dati potenzialmente un cittadino europeo&#39;(interessati). Quando vengono elaborati i dati di **QUALSIASI** interessato, le organizzazioni dovranno rispettare il Regolamento generale sulla protezione dei dati (GDPR). Questo vale sia per i titolari del trattamento dei dati (si stanno acquisendo direttamente tali dati) che per i responsabili del trattamento dei dati (questi dati vengono elaborati per conto di un titolare del trattamento dei dati). Anche se questa sezione non&#39;coprire l'intero regolamento, affronta alcuni degli elementi chiave del GDPR per ottenere una certa garanzia che l'organizzazione stia prendendo sul serio il GDPR.
 
-**Controllo n. 15:** Fornire un processo di richiesta di accesso soggetto (SAR) documentato e fornire prove che dimostrino che gli interessati sono in grado di generare RICHIESTE SA.
+<a id="control-15b"></a>[Controllo 15](#control-15b): fornire un processo di richiesta di accesso soggetto (SAR) documentato e fornire prove che dimostrino che gli interessati sono in grado di generare RICHIESTE SAR.
 
 - Finalità: il GDPR include obblighi specifici che devono essere soddisfatti dalle organizzazioni che elaborano gli interessati&#39; dati. L'obbligo per le organizzazioni di gestire le richieste di accesso soggetto (SAR) è incluso nell'articolo 12 che, ai sensi dell'articolo 12.3, concede a un titolare del trattamento dei dati un mese di ricezione del SAR per rispondere alla richiesta. Se necessario, è consentita una proroga per altri due mesi. Anche se l'organizzazione agisce come responsabile del trattamento dei dati, ciò sarà comunque necessario per aiutare i clienti (il titolare del trattamento dei dati) a rispettare i propri obblighi di titolare del trattamento dei dati.
 
@@ -1637,7 +1639,7 @@ La maggior parte delle organizzazioni elabora dati potenzialmente un cittadino e
 
 **Nota:** Questo screenshot mostra un documento di criteri/processi, l'aspettativa è che gli ISV condividano la documentazione effettiva di criteri/procedure di supporto e non forniscano semplicemente uno screenshot.
 
-**Controllo n. 16:** Fornire prove dimostrabili che è possibile identificare tutte le posizioni dei dati degli interessati quando si risponde a un SAR.
+<a id="control-16b"></a>[Controllo 16](#control-16b): fornire prove dimostrabili che è possibile identificare tutte le posizioni dei dati degli interessati quando si risponde a un SAR.
 
 - Finalità: lo scopo di questo controllo è garantire che l'organizzazione disponga di un meccanismo solido per identificare tutti gli interessati&#39; dati. Può trattarsi di un processo manuale perché tutta l'archiviazione dei dati è ben documentata o altri strumenti possono essere usati per garantire che tutti i dati si trovino nell'ambito del processo di registrazione dei dati.
 
@@ -1662,7 +1664,7 @@ Questa query conferma gli account di archiviazione in uso. È possibile eseguire
 L'immagine precedente mostra i dati trovati all'interno del contenitore BLOB per il client che devono essere rimossi e di seguito viene illustrata l'azione per eliminare o eliminare temporaneamente le informazioni nel BLOB.
 
 
-**Controllo n. 17:** Fornire un collegamento all'informativa sulla privacy che deve contenere tutti gli elementi necessari come indicato di seguito:
+<a id="control-17b"></a>[Controllo 17](#control-17b): fornire un collegamento all'informativa sulla privacy che deve contenere tutti gli elementi necessari come indicato di seguito:
 
 - Dettagli società (nome, indirizzo e così via).
 - Specifica i tipi di dati personali elaborati.
