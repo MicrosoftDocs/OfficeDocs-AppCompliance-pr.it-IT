@@ -7,18 +7,18 @@ description: Panoramica dello strumento di automazione della conformità delle a
 keywords: Microsoft 365 di automazione della certificazione delle app
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: debd3c9e2ecd1538446d09f5019ea995260345fd
-ms.sourcegitcommit: 785d1c5d829e44e0ad696b85c92be81f549b989e
+ms.openlocfilehash: bd570496ce11bf72270cb18542846140122efb8b
+ms.sourcegitcommit: 3931a0f41e8a6637cd1ce0a7c5273dabf592e475
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/17/2022
-ms.locfileid: "65433431"
+ms.locfileid: "65441992"
 ---
 # <a name="app-compliance-automation-tool-for-microsoft-365"></a>Strumento di automazione della conformità delle app per Microsoft 365
 In questo articolo si apprenderà cos'è lo strumento di automazione della conformità delle app per Microsoft 365 (ACAT) e come semplifica la conformità e ottenere la certificazione Microsoft 365.
 
 > [!IMPORTANT]
-> ACAT è in *anteprima privata* in questo momento. Per partecipare al programma di anteprima privato, contattare [acatprivatepreview@microsoft.com](mailto:acatprivatepreview@microsoft.com).
+> ACAT è attualmente disponibile in anteprima privata. Se si vuole partecipare al programma di anteprima privato, iscriversi [qui](https://aka.ms/acat/private/signup).
 
 ## <a name="what-is-app-compliance-automation-tool-for-microsoft-365"></a>Che cos'è lo strumento di automazione della conformità delle app per Microsoft 365
 App Compliance Automation Tool for Microsoft 365 (ACAT) è un servizio nel portale di Azure che consente di semplificare il percorso di conformità per qualsiasi app che utilizza Microsoft 365 dati dei clienti e viene pubblicata tramite il Centro per i partner. App Compliance Automation Tool for Microsoft 365 è uno strumento di automazione della conformità incentrato sull'applicazione che consente di completare Microsoft 365 certificazione con maggiore facilità e praticità. In Anteprima privata, ACAT è disponibile per le app in esecuzione in Azure.
