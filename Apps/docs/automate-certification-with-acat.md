@@ -8,12 +8,12 @@ ms.service: certification
 ms.topic: how-to
 ms.date: 04/13/2022
 ms.custom: template-how-to
-ms.openlocfilehash: c81ccf3626d6039333f52a487e98233364f7174e
-ms.sourcegitcommit: 785d1c5d829e44e0ad696b85c92be81f549b989e
+ms.openlocfilehash: 6a18e64f3b75f6d197c9867830d0a061ce298584
+ms.sourcegitcommit: 0865622c8abffc11115e56d966729e5318d67ab9
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65433432"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65608791"
 ---
 # <a name="automate-microsoft-365-certification-with-app-compliance-automation-tool-for-microsoft-365"></a>Automatizzare la certificazione Microsoft 365 con lo strumento di automazione della conformità delle app per Microsoft 365
 
@@ -22,14 +22,17 @@ App Compliance Automation Tool for Microsoft 365 (ACAT) collabora con il program
 > [!IMPORTANT]
 > ACAT è attualmente disponibile in anteprima privata. Se si vuole partecipare al programma di anteprima privato, iscriversi [qui](https://aka.ms/acat/private/signup).
 
+> [!NOTE]
+> Per fornire commenti e suggerimenti all'anteprima privata di ACAT, è possibile iniziare da questo [modulo](https://aka.ms/acat/feedback). Il team del prodotto ACAT ti seguirà il prima possibile una volta ricevuti i tuoi messaggi. 
+
 ## <a name="create-your-first-compliance-report-to-onboard-acat"></a>Creare il primo report di conformità per l'onboarding di ACAT
 
 ACAT consente di concentrarsi sulla conformità dell'applicazione o dell'ambiente specifico di un'applicazione , ad esempio produzione, gestione temporanea e così via. Consente di creare un report di **conformità** in cui è possibile definire il limite di conformità in base all'infrastruttura cloud dell'applicazione o all'ambiente specifico di un'applicazione.
 
 > [!IMPORTANT]
-> Poiché ACAT è in anteprima privata, non è possibile cercarlo direttamente.*https://portal.azure.com* Usare le opzioni seguenti per avviare ACAT.
+> Poiché ACAT è in anteprima privata, non è possibile cercarlo direttamente in portale di Azure. Iscriversi al [programma di anteprima privata ACAT](https://aka.ms/acat/private/signup) e ottenere l'accesso dal team di supporto.
 
-- Cercare e avviare ***App Compliance Automation Tool per Microsoft 365*** in [portale di Azure](https://portal.azure.com/?microsoft_azure_appcomplianceautomation_assettypeoptions=%7B%22AppComplianceAutomation%22:%7B%22options%22:%22%22%7D%7D&microsoft_azure_marketplace_ItemHideKey=Microsoft_Azure_AppComplianceAutomationHidden) oppure avviare direttamente con [il collegamento diretto di ACAT](https://portal.azure.com/#blade/Microsoft_Azure_AppComplianceAutomation/AcatMenuBlade/overview).
+- Cercare e avviare ***App Compliance Automation Tool per Microsoft 365*** in portale di Azure.
 - Passare a ***Report*** da a sinistra.
 
 :::image type="complex" source="../media/ACAT/getstarted-create-report-inline.png" lightbox="../media/ACAT/getstarted-create-report.png" alt-text="Creare un report di conformità":::
@@ -155,7 +158,7 @@ Quando si crea un report di conformità, ACAT configura l'ambiente con la sottos
 - Passare al **controllo di accesso (IAM)** a sinistra. 
 - Selezionare **Visualizza accesso personale** per controllare l'autorizzazione.
     - Se l'organizzazione usa [ruoli predefiniti di Azure](/azure/role-based-access-control/built-in-roles), le assegnazioni di ruolo devono includere almeno uno dei ruoli seguenti:
-        - [Collaboratore ai criteri di risorse](/azure/role-based-access-control/built-in-roles#resource-policy-contributor) e [amministratore della sicurezza](/azure/role-based-access-control/built-in-roles#security-admin)
+        - [Collaboratore ai criteri di risorse](/azure/role-based-access-control/built-in-roles#resource-policy-contributor) e [Amministrazione di sicurezza](/azure/role-based-access-control/built-in-roles#security-admin)
         - Altre assegnazioni di ruolo con autorizzazioni più elevate, ad esempio [Proprietario](/azure/role-based-access-control/built-in-roles#owner) e così via
 
 ### <a name="how-to-report-an-acat-issue-or-warning"></a>Come segnalare un problema o un avviso ACAT? 
