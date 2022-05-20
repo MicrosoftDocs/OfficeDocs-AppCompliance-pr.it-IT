@@ -3,24 +3,23 @@ title: Informazioni sull'applicazione per Q by ModuleQ
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 01/31/2022
+ms.date: 05/19/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Q, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4a90a8365ce0dbb577c384c5d17655f3694d7397
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 55315e7e32000fc2b853b39bb6b13d715daf2f15
+ms.sourcegitcommit: d72fe5bb3407b6191790530fab8ba3fab320fcd6
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64878613"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "65596900"
 ---
 # <a name="q"></a>Q
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 29 gennaio 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 10 febbraio 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/72bb25c7-3644-4318-8249-a08e5493a520" target="_blank">Visualizza in Teams store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381433" target="_blank">Visualizzazione in AppSource</a>
@@ -142,7 +141,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | Sì |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | No |
 | Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? | Microsoft.AspNetCore.Authentication.MicrosoftAccount |
@@ -153,7 +152,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **ID app Azure AD** |
+>|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Calendars.Read | Applicazione | Obbligatorio per la funzionalità del prodotto. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
 >| Group.Read.All | Delegato | Obbligatorio per la funzionalità del prodotto. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
@@ -167,3 +166,39 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Informazioni sulla certificazione
+
+| **Controllo** | **Risultato della certificazione Microsoft 365** |
+|:------------|:---------------------------------------|
+| [**SICUREZZA DELL'APPLICAZIONE**](../docs/certification-submission-guide.md#application-security) | **PASSARE** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test di penetrazione | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verifica della valutazione della vulnerabilità (DAST/SAST/Penetration Test) | Nell'ambito |
+| [**SICUREZZA OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **PASSARE** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione da malware - Antivirus | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione da malware - Controllo delle applicazioni | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Classificazione dei rischi | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Applicazione di patch | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisi delle vulnerabilità | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall (o tecnologie equivalenti) | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Web Application Firewall (WAF) (facoltativo) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Controllo delle modifiche | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sviluppo/distribuzione di software sicuro | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione account | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rilevamento e prevenzione delle intrusioni (facoltativo) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrazione eventi di sicurezza | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisione (registrazione dei dati) | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avviso eventi di sicurezza | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione dei rischi per la sicurezza delle informazioni | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Risposta agli eventi imprevisti | Nell'ambito |
+| [**PRIVACY DI SICUREZZA PER LA GESTIONE &amp; DEI DATI**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASSARE** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in transito | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati inattivi | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservazione e eliminazione dei dati | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione accesso ai dati | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | N/D |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
