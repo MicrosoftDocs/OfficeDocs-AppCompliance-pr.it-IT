@@ -7,12 +7,12 @@ description: L'invio iniziale del documento fa parte della fase di pre-valutazio
 keywords: Team di certificazione delle app Microsoft 365 conformità alla sicurezza m365 invio iniziale del documento
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 23c3cf7a64025bb7269adb35175e8d87bc64224e
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 8cb7ac4711b7399ae24b76794c251e3cae845e94
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784505"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65618585"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification - Guida iniziale all'invio di documenti
 
@@ -53,7 +53,7 @@ Un inventario aggiornato di tutti gli asset software, incluso tutto il software 
 
 **Esempio:**
 
-|Software|Publisher|Versione|Scopo|
+|Software|Publisher|Versione|Finalità|
 |---|---|---|---|
 |Server Windows|Microsoft 2016 |Build 14393|Sistema operativo server per l'ambiente di produzione|
 |Linux Ubuntu|N/D|16.04 (Xenial)|Sistema operativo server in uso all'interno della rete perimetrale.|
@@ -125,5 +125,7 @@ Flow diagrammi che illustrano in dettaglio quanto segue:
 
 ![Diagramma Flusso di dati](../media/Dataflowdiagram.png)
 
+## <a name="external-certifications-soc2-pci-dss-iso27001---optional"></a>Certificazioni esterne (SOC2, PCI DSS, ISO27001) - FACOLTATIVO
 
+Se è già stata ottenuta una certificazione SOC2, PCI DSS o ISO27001 e si dispone di un report emesso negli ultimi 12 mesi che include l'intero ambito dell'applicazione certificata e l'ambiente di supporto, è possibile inviarlo durante l'invio iniziale del documento. Si tenterà di sfruttarlo per soddisfare un subset di controlli e accelerare la valutazione. Tuttavia, non è necessario per ottenere una certificazione Microsoft 365. 
 
