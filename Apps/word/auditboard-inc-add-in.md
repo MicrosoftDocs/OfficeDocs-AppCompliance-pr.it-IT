@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per il componente aggiuntivo AuditBoard, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 71829162839f255a9481d7f64333d091ad65b5e1
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 0c69f4cfa2a4d443070ac3eb4f9b9ce1a4869e98
+ms.sourcegitcommit: 92295c3ae2ea6543be22c92e741da0e494ada2b1
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877603"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65641915"
 ---
 # <a name="auditboard-add-in"></a>Componente aggiuntivo AuditBoard
 
@@ -34,7 +34,7 @@ Informazioni fornite da Auditboard, Inc. a Microsoft:
 |:----------------|:-------------|
 | Nome dell'app | Componente aggiuntivo AuditBoard |
 | ID | WA200003350 |
-| client Office 365 supportati | Word 2016 o versione successiva in Mac, Word sul web, Word 2013 o versione successiva in Windows |
+| client Office 365 supportati | Excel 2016 o versioni successive su Mac, Excel 2013 o versioni successive in Windows, Excel sul web, Word 2016 o versioni successive in Mac, Word sul web, Word 2013 o versioni successive in Windows |
 | Nome della società partner | Auditboard, Inc. |
 | Sito Web dell'azienda | [https://www.auditboard.com](https://www.auditboard.com) |
 | Condizioni per l'utilizzo dell'app | [https://appsource.microsoft.com](https://appsource.microsoft.com) |
@@ -133,10 +133,9 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | No |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | No |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | No |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
-| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) |  |
 | L'app archivia le credenziali nel codice? |  |
