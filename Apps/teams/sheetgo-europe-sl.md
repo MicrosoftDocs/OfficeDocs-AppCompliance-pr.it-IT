@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per Sheetgo di SHEETGO EUROPE SL
+title: Informazioni sull'applicazione per Sheetgo fornite da SHEETGO EUROPE SL
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,23 +7,23 @@ ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Sheetgo, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Esaminare tutte le informazioni di sicurezza e conformità disponibili per Sheetgo, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9cbad6d4fcd5f6e081187af10c3c8a69de7122ba
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 001ad5dcce2a95885420f8413bfbfe03562eb5b2
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65225310"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65690431"
 ---
-# <a name="sheetgo"></a>Sheetgo
+# <a name="sheetgo-application-information"></a>Informazioni sull'applicazione Sheetgo
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Ultimo aggiornamento da parte dello sviluppatore: 3 novembre 2020</p>
 
 * <a href="https://teams.microsoft.com/l/app/583de270-58d0-4f94-af06-bf971f82fd94" target="_blank">Visualizza in Teams store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002067" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://appsource.microsoft.com/en-US/product/office/WA200002128?tab=Overview" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -64,7 +64,7 @@ Se l'app trasferisce o condivide i dati dell'organizzazione con un servizio non 
 
 >| **Tutti gli OII non servizi Microsoft vengono trasferiti a** |  **Quale OII viene trasferito?** | **Giustificazione per il trasferimento dell'OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| MongoDB: Registra i dati del sistema e degli utenti per funzionare, Google BigQuery: Registra l'utilizzo dei log del sistema, Google Firestore: un sistema che gestisce e orchestra lo stato dei nostri microservizi, Stripe: Sistema di pagamento |  | Queste applicazioni non usano API Microsoft aggiuntive |
+>| MongoDB: Registrare i dati del sistema e degli utenti per funzionare, Google BigQuery: Registrare l'utilizzo dei log del sistema, Google Firestore: Un sistema che gestisce e orchestra lo stato dei microservizi, Stripe: Sistema di pagamento |  | Queste applicazioni non usano API Microsoft aggiuntive |
 
 #### <a name="data-access-via-bots"></a>Accesso ai dati tramite bot
 
@@ -83,7 +83,7 @@ Nei dati di telemetria o nei log dell'applicazione vengono visualizzate informaz
 
 Descrivere in che modo gli amministratori dell'organizzazione possono controllare le informazioni nei sistemi partner? ad esempio l'eliminazione, la conservazione, il controllo, l'archiviazione, i criteri degli utenti finali e così via.
 
->MongoDB: registra i dati del sistema e degli utenti per funzionare con Google BigQuery: registra l'utilizzo dei log di sistema Google Firestore: un sistema che gestisce e orchestra lo stato dei microservizi. Gli unici dati critici che questo servizio transita sono le credenziali utente, crittografate tramite AES256 Stripe: Sistema di pagamento.
+>MongoDB: registrare i dati del sistema e degli utenti per funzionare con Google BigQuery: registrare l'utilizzo dei log di sistema Google Firestore: un sistema che gestisce e orchestra lo stato dei microservizi. Gli unici dati critici che questo servizio transita sono le credenziali utente, crittografate tramite AES256 Stripe: Sistema di pagamento.
  
 Tutti i dati in transito usano HTTPS per connessioni sicure e tutti i dati sensibili vengono crittografati tramite AES256
 
