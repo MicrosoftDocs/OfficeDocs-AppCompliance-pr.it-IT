@@ -1,19 +1,20 @@
 ---
 title: Informazioni sull'applicazione per SalesTim
 ms.author: elmalova
+manager: tonybal
 author: elenamalova
 ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per SalesTim, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Esaminare tutte le informazioni di sicurezza e conformità disponibili per SalesTim, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9fce7871fc306b19170cddb2d1524ef7a82a01f4
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 9bf1f4057ad73ba33a8ae3ba0ff02c74851cdecf
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222437"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688121"
 ---
 # <a name="application-information-for-salestim-by-salestim"></a>Informazioni sull'applicazione per SalesTim by SalesTim
 
@@ -34,7 +35,7 @@ Informazioni fornite da SalesTim a Microsoft:
 | Nome dell'app | SalesTim |
 | ID | salestim.salestim |
 | Nome della società partner | SalesTim |
-| URL del sito Web del partner | [https://salestim.com](https://salestim.com) |
+| URL del sito Web del partner | [https://nbold.co/](https://nbold.co/) |
 | URL dell'informativa sulla privacy | [https://www.salestim.com/legal/privacy/](https://www.salestim.com/legal/privacy/) |
 | URL delle condizioni per l'utilizzo | [https://www.salestim.com/legal/tos/](https://www.salestim.com/legal/tos/) |
 
@@ -52,7 +53,7 @@ Queste informazioni sono state fornite da SalesTim su come questa app raccoglie 
 
 Elencare le [autorizzazioni di Microsoft Graph](/graph/permissions-reference) necessarie per questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **ID app Azure AD** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| AppCatalog.ReadWrite.All | Delegato | NO | Consentire all'app di installare e aggiornare i propri pacchetti nel catalogo delle app aziendali. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Directory.AccessAsUser.All | Delegato | È&#8217;archiviare solo alcuni ID utente, non i dati del profilo. | Consente a un utente di selezionare altri utenti in diverse posizioni dell'applicazione, ad esempio selezionando i responsabili approvazione in un flusso di lavoro. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
@@ -119,7 +120,7 @@ Queste informazioni sono state fornite da SalesTim sul modo in cui questa app ge
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
+| Si esegue l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | Sì |

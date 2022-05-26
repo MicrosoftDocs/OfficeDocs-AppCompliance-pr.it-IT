@@ -3,24 +3,24 @@ title: Informazioni sull'applicazione per DocuSign per Outlook di DocuSign, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/18/2022
+ms.date: 05/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per DocuSign per Outlook, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cafb05155f7df5d228c71a3fc379262684f72aa3
-ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
+ms.openlocfilehash: d942c5f4cf0bfd9665ed13b9538894c11edd142b
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65476293"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688581"
 ---
 # <a name="docusign-for-outlook"></a>DocuSign per Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 13 maggio 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 24 maggio 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104218067" target="_blank">Visualizzazione in AppSource</a>
 
@@ -99,20 +99,23 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | L'app è conforme al Health Insurance Portability and Accounting Act (HIPAA)? | Sì |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | Sì |
+| Data di certificazione SOC1 più recente | 2021-12-10 |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | Sì |
+| Quale certificazione SOC 2 hai ottenuto? | type2 |
+| Data di certificazione SOC2 più recente | 2021-12-10 |
 | L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | No |
-| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | N/D |
-| L'app International Organization for Standardization (ISO 27001) è certificata? | No |
-| L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | N/D |
-| L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27017)? | No |
+| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | Sì |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
+| L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | Sì |
+| L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27017)? | Sì |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27002)? | No |
-| L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
+| L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | Sì |
 | L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | No |
 | L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | No |
 | L'app è conforme a Sarbanes-Oxley Act (SOX)? | No |
 | L'app è conforme a NIST 800-171? | No |
-| L'app è stata certificata da Cloud Security Alliance (CSA Star)? | No |
+| L'app è stata certificata da Cloud Security Alliance (CSA Star)? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -7,14 +7,14 @@ ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Tutte le informazioni di sicurezza e conformità disponibili per Workboard, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Esaminare tutte le informazioni di sicurezza e conformità disponibili per Workboard, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b20a6e58680109d719fca48cf8f2152c9239026a
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: ccf27f1fa0c6db96446fc0fa7afc686fe2a49e20
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222457"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688101"
 ---
 # <a name="application-information-for-workboard"></a>Informazioni sull'applicazione per Workboard
 
@@ -55,9 +55,9 @@ Queste informazioni sono state fornite da Workboard su come questa app raccoglie
 
 Elencare le [autorizzazioni di Microsoft Graph](/graph/permissions-reference) necessarie per questa app.
 
->| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **ID app Azure AD** |
+>| **Autorizzazione**  | **Tipo di autorizzazione (delegata/applicazione)** | **I dati vengono raccolti? Giustificazione per la raccolta?** | **I dati vengono archiviati? Giustificazione per l'archiviazione?** | **Azure AD App ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegato | indirizzo di posta elettronica e id degli utenti.  Viene usato per eseguire il mapping dell'utente all'ID utente di WorkBoard | WorkBoard archivia solo l'identità dell'utente nei database | [User.Read](/microsoft-365-app-certification/azure/User.Read) |
+>| User.Read | Delegato | indirizzo di posta elettronica e id degli utenti.  Viene usato per eseguire il mapping dell'utente all'ID utente di WorkBoard | WorkBoard archivia solo l'identità dell'utente nei relativi database | [User.Read](/graph/permissions-reference#user-permissions) |
 
 
 #### <a name="non-microsoft-services-used"></a>Non servizi Microsoft usato
@@ -117,7 +117,7 @@ Queste informazioni sono state fornite da Workboard sul modo in cui questa app g
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Eseguire l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
+| Si esegue l'integrazione con Microsoft Identify Platform (Azure AD)?  | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform?  | Sì |
 | L'app usa MSAL (Microsoft Authentication Library) per l'autenticazione? | No |
 | L'app supporta i criteri di accesso condizionale? | Sì |
