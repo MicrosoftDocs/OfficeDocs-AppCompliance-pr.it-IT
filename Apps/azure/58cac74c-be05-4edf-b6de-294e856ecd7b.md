@@ -1,5 +1,5 @@
 ---
-title: informazioni sull'ID app Azure per 4cda80df-64fe-4961-8d73-cbe8d5ad0724
+title: informazioni sull'ID app Azure per 58cac74c-be05-4edf-b6de-294e856ecd7b
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,21 +7,21 @@ ms.date: 05/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per 4cda80df-64fe-4961-8d73-cbe8d5ad0724.
-ms.openlocfilehash: c62a347bbe125a2371767671b36ade99fe7f510e
+description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per 58cac74c-be05-4edf-b6de-294e856ecd7b.
+ms.openlocfilehash: 487570653c5ffdc556f3928fd51a5bf5de40dd26
 ms.sourcegitcommit: f1a2e22d28ef56ce3f3811febbbf8c7054797a98
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/26/2022
-ms.locfileid: "65748680"
+ms.locfileid: "65749396"
 ---
-# <a name="azure-app-id-4cda80df-64fe-4961-8d73-cbe8d5ad0724"></a>ID app Azure: 4cda80df-64fe-4961-8d73-cbe8d5ad0724
+# <a name="azure-app-id-58cac74c-be05-4edf-b6de-294e856ecd7b"></a>ID app Azure: 58cac74c-be05-4edf-b6de-294e856ecd7b
 
 
 ### <a name="apps-associated-with-this-id"></a>App associate a questo ID:
 | **Nome dell'app** | **Certificata** | **Visualizzazione in AppSource** |
 |--------------|---------------|-----------------------|
-| [ Pro liste di distribuzione ](../forward/WA200002977.md) |  | [https://appsource.microsoft.com/product/office/WA200002977](https://appsource.microsoft.com/product/office/WA200002977) |
+| [TINYpulse](../forward/WA104381729.md) |  | [https://appsource.microsoft.com/product/office/WA104381729](https://appsource.microsoft.com/product/office/WA104381729) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato di conformità dell'app
 - stato attestazione Publisher: completato
