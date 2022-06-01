@@ -8,12 +8,12 @@ ms.service: certification
 ms.topic: how-to
 ms.date: 04/13/2022
 ms.custom: template-how-to
-ms.openlocfilehash: 6a18e64f3b75f6d197c9867830d0a061ce298584
-ms.sourcegitcommit: 0865622c8abffc11115e56d966729e5318d67ab9
+ms.openlocfilehash: b708f68ed5717d08b321f02f3ba09989a77fdf17
+ms.sourcegitcommit: e639149031755df8cd50c03341b6507146cc48b0
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65608791"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65793027"
 ---
 # <a name="automate-microsoft-365-certification-with-app-compliance-automation-tool-for-microsoft-365"></a>Automatizzare la certificazione Microsoft 365 con lo strumento di automazione della conformità delle app per Microsoft 365
 
@@ -169,11 +169,15 @@ Quando si verifica un problema in ACAT e si vuole contattare il [programma di an
     - Passare a **Notifiche** nella parte superiore di [portale di Azure](https://portal.azure.com/?microsoft_azure_appcomplianceautomation_assettypeoptions=%7B%22AppComplianceAutomation%22:%7B%22options%22:%22%22%7D%7D).
     - Selezionare **Altri eventi nel log attività** 
     
-    :::image type="complex" source="../media/ACAT/getstarted-troubleshoot-activitylog.png" alt-text="Notifiche ACAT":::
-        Passare al log attività per controllare le notifiche ACAT.
-    :::image-end:::
     
-    - Modificare l'intervallo **di tempo** correttamente per filtrare l'errore o l'avviso ACAT nel log attività. 
+    
+    - Passare **all'attività directory** 
+    - Modificare **l'intervallo di tempo** correttamente e impostare il **provider di risorse tenant** come *Microsoft.AppComplianceAutomation* per filtrare l'errore o l'avviso ACAT nel log attività. 
+    
+    :::image type="complex" source="../media/ACAT/getstarted-troubleshoot-log-settings.png" alt-text="Log attività":::
+        Trovare i log ACAT nel log attività.
+    :::image-end:::
+
     - Trovare l'errore o l'avviso ACAT, selezionare per ottenere i dettagli e salvare i dettagli come file.
     
 - Controllare se la sottoscrizione è configurata correttamente da ACAT. 
