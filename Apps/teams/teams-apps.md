@@ -3,17 +3,17 @@ title: Sicurezza e conformità delle app per Microsoft Teams - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/31/2022
+ms.date: 06/01/2022
 ms.topic: article
 ms.service: attestation
 description: Informazioni complete sulla sicurezza e conformità delle app per Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 735ceb97e8c70dd629418ca1052df3aae29ba9e2
-ms.sourcegitcommit: 29a4475d630d2f1d0755a6322eb994646322aca1
+ms.openlocfilehash: 7a6dfa488cfd1995d6ee7680d9a151510da175f1
+ms.sourcegitcommit: bf531e5ed502c5940a365322da320749873267a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65807230"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851087"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft Teams
 
@@ -268,6 +268,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Klaxoon](./klaxoon.md) | Klaxoon | **✓** |  |
 | [Klett](./ernst-klett-verlag-gmbh.md) | Ernst Klett Verlag GmbH | **✓** |  |
 | [Koan](./koan-inc.md) | Koan, Inc. | **✓** |  |
+| [Sale riunioni Kuban](./kuban-meeting-rooms.md) | &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [KUDO](./kudo-inc.md) | KUDO, Inc. | **✓** |  |
 | [Kudozza](./survivef5-gmbh-kudozza.md) | surviveF5 GmbH | **✓** |  |
 | [Kunjani](./faceboard-pty-ltd-kunjani.md) | FACEBOARD (PTY) LTD | **✓** |  |
