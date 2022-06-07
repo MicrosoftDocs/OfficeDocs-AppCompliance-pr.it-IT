@@ -3,24 +3,24 @@ title: Informazioni sull'applicazione per la sovrimpressione del calendario di C
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/10/2022
+ms.date: 06/06/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Calendar Overlay, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Calendar Overlay, i criteri di gestione dei dati, le informazioni del catalogo delle app microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e98ea9e1131121d82c9b8a41eb336000c464e8c6
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 98207f2c5b4e21d005e3717784396f02d935ac1c
+ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877373"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65936433"
 ---
 # <a name="calendar-overlay"></a>Sovrimpressione calendario
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 10 marzo 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 6 giugno 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003806" target="_blank">Visualizzazione in AppSource</a>
 
@@ -34,11 +34,11 @@ Informazioni fornite da Cloudwell a Microsoft:
 |:----------------|:-------------|
 | Nome dell'app | Sovrimpressione calendario |
 | ID | WA200003806 |
-| client Office 365 supportati | SharePoint 2016 o versione successiva |
+| Client di Office 365 supportati | SharePoint 2016 o versione successiva |
 | Nome della società partner | Cloudwell |
 | Sito Web dell'azienda | [https://cloudwell.io](https://cloudwell.io) |
 | Condizioni per l'utilizzo dell'app | [https://cwlicensingprod.blob.core.windows.net/termsofuse/St...](https://cwlicensingprod.blob.core.windows.net/termsofuse/StandardContractMarch2019.pdf) |
-| Funzionalità di base dell'app | La web part Sovrimpressione calendario consente di visualizzare tutti gli eventi di Microsoft SharePoint, Planner e Exchange in un'unica posizione. |
+| Funzionalità di base dell'app | La web part Sovrimpressione calendario consente di visualizzare tutti gli eventi di Microsoft SharePoint, Planner ed Exchange in un'unica posizione. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
 | Pagina delle informazioni sull'app | [https://cloudwell.io/products/calendar-overlay](https://cloudwell.io/products/calendar-overlay) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
@@ -57,10 +57,10 @@ Queste informazioni sono state fornite da Cloudwell sul modo in cui questa app r
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dall'app? | Indirizzo di posta elettronica utente, ID tenant utente |
+| Quali dati vengono elaborati dall'app? | Tenant ID |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | Indirizzo di posta elettronica utente, ID tenant utente |
+| Quali dati vengono archiviati nei database? | Tenant ID |
 | Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Stati Uniti d'America |
 | Si dispone di un processo di noleggio e smaltimento dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
@@ -73,7 +73,7 @@ Queste informazioni sono state fornite da Cloudwell sul modo in cui questa app r
 
 ::: zone pivot="security"
 
-Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
+Di seguito sono riportate le informazioni del catalogo [di Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) .
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
@@ -141,14 +141,13 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione di Microsoft Identity Platform? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
-| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
 | L'app archivia le credenziali nel codice? | No |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | Sì |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | Sì |
 
 >Questa applicazione non usa Microsoft Graph.
 
