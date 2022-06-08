@@ -1,27 +1,27 @@
 ---
-title: sicurezza e conformità delle app Microsoft Word - Tutte le app
+title: Sicurezza e conformità di Microsoft Word Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/25/2022
+ms.date: 06/07/2022
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni di sicurezza e conformità disponibili per tutte le app Microsoft Word.
+description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per tutte le app di Microsoft Word.
 localization_priority: Normal
-ms.openlocfilehash: 0d44c91dae339e1402f104a8e054847bb935b421
-ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
+ms.openlocfilehash: 6049f63161765ee4b557952e2385a212b97bd431
+ms.sourcegitcommit: dbf716786f7a3c0b84fa4563e47510e4bd3a2fd0
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65688511"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "65943143"
 ---
-# <a name="microsoft-word-apps-security-and-compliance"></a>Sicurezza e conformità delle app Microsoft Word
+# <a name="microsoft-word-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft Word Apps
 
-Microsoft collabora con i partner per sviluppatori Microsoft 365 per fornire le informazioni necessarie alle organizzazioni per velocizzare e informare le decisioni relative alle app Microsoft Word e ai componenti aggiuntivi usati. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni relative alle app e ai componenti aggiuntivi di Microsoft Word che usano. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Adobe Acrobat Firma per Microsoft Word e PowerPoint](./adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Acrobat Sign per Microsoft Word e PowerPoint](./adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Componente aggiuntivo AuditBoard](./auditboard-inc-add-in.md) | Auditboard, Inc. | **✓** |  |
 | [BriefCatch](./briefcatch-llc.md) | BriefCatch LLC | **✓** |  |
 | [Citazione](./citasion-llc.md) | Citasion LLC | **✓** |  |
@@ -31,6 +31,7 @@ Microsoft collabora con i partner per sviluppatori Microsoft 365 per fornire le 
 | [DocuSign per Word](./docusign-inc-for-word.md) | DocuSign, Inc. | **✓** |  |
 | [Automazione documenti da Excel a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [Componente aggiuntivo Fabasoft Cloud Office](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
+| [FD Mxmn - Importare dati aziendali](./maximon-ltd-fd-mxmn-import-business-data.md) | Maximon Ltd. | **✓** |  |
 | [Editor PDF Foxit per Microsoft Word, Excel e PowerPoint](./foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md) | Foxit Software Inc. | **✓** |  |
 | [Firme di impressioni](./impression-signatures.md) | Firme di impressioni | **✓** |  |
 | [Jus2vec](./n2vec-tecnologia-jus2vec.md) | N2VEC TECNOLOGIA | **✓** |  |
@@ -40,7 +41,7 @@ Microsoft collabora con i partner per sviluppatori Microsoft 365 per fornire le 
 | [neopoli](./neopolis-gmbh.md) | neopolis GmbH | **✓** |  |
 | [Office2SharePoint per Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Scelta contenuto per Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork - Progettazione per Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork - Designer per Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Image Chooser for Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Template Chooser for Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Uploader per Office](./officeatwork-officeatworkuploader-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

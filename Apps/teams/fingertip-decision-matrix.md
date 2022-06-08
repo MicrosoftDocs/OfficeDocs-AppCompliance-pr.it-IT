@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per In Case of Crisis di RockDove Solutions, Inc.
+title: Informazioni sull'applicazione per la matrice decisionale della punta delle dita per dita
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,43 +7,43 @@ ms.date: 06/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per In Case of Crisis, i criteri di gestione dei dati, le informazioni del catalogo delle app microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Tutte le informazioni disponibili sulla sicurezza e sulla conformità per La matrice delle decisioni della punta del dito, i criteri di gestione dei dati, le informazioni del catalogo delle app di Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 95c70c26f32bacabd6721e4b60f2417765a8eea0
+ms.openlocfilehash: 390378f757af6d9fd9afbfd647210827c6f9f3db
 ms.sourcegitcommit: dbf716786f7a3c0b84fa4563e47510e4bd3a2fd0
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/08/2022
-ms.locfileid: "65943125"
+ms.locfileid: "65943204"
 ---
-# <a name="in-case-of-crisis"></a>In caso di crisi
+# <a name="fingertip-decision-matrix"></a>Matrice di decisioni con punta del dito
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 6 giugno 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 6 ottobre 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/cf430644-447e-4572-8467-3892596d05c7" target="_blank">Visualizzazione in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003194" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/9d9390bb-2d73-4c5e-9609-0ee86fc620ce" target="_blank">Visualizzazione in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200004070" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da RockDove Solutions, Inc. a Microsoft:
+Informazioni fornite da Fingertip to Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | In caso di crisi |
-| ID | WA200003194 |
+| Nome dell'app | Matrice di decisioni con punta del dito |
+| ID | WA200004070 |
 | Client di Office 365 supportati | Microsoft Teams |
-| Nome della società partner | RockDove Solutions, Inc. |
-| Sito Web dell'azienda | [https://www.rockdovesolutions.com](https://www.rockdovesolutions.com) |
-| Condizioni per l'utilizzo dell'app | [https://www.rockdovesolutions.com/terms-of-use](https://www.rockdovesolutions.com/terms-of-use) |
-| Funzionalità di base dell'app | In Case of Crisis è la piattaforma progettata appositamente per il ciclo di vita dinamico dei problemi e della gestione delle crisi. La nostra app consente alle organizzazioni di condividere e attivare facilmente playbook interattivi che includono i protocolli di risposta e le procedure consigliate man mano che si sta verificando una situazione.  È anche possibile gestire e acquisire l'intero ciclo di vita dei problemi che influiscono sull'azienda, dalla creazione di report iniziale alla risoluzione.   |
-| Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni sull'app | [https://www.rockdovesolutions.com/in-case-of-crisis/in-case...](https://www.rockdovesolutions.com/in-case-of-crisis/in-case-of-crisis-platform) |
+| Nome della società partner | Dito |
+| Sito Web dell'azienda | [https://www.fingertip.org](https://www.fingertip.org) |
+| Condizioni per l'utilizzo dell'app | [https://www.fingertip.org/terms-of-use/](https://www.fingertip.org/terms-of-use/) |
+| Funzionalità di base dell'app | La matrice decisionale a portata di mano consente di decidere tra diverse alternative quando è necessario prendere in considerazione molti fattori diversi. Offre maggiore chiarezza e trasparenza nel processo e consente di assegnare priorità alle alternative riducendo al tempo stesso l'impatto delle distorsioni. Con Decision Matrix by Fingertip è possibile collaborare per prendere decisioni in modo più accurato insieme, usando Microsoft Teams. |
+| Sede centrale dell'azienda | Finlandia |
+| Pagina delle informazioni sull'app | [https://www.fingertip.org/solutions/fingertip-decision-matr...](https://www.fingertip.org/solutions/fingertip-decision-matrix/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
-| Quali provider di servizi cloud di hosting usano l'app? | Aws, Azure |
+| Quali provider di servizi cloud di hosting usano l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,18 +53,18 @@ Informazioni fornite da RockDove Solutions, Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da RockDove Solutions, Inc. Su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Fingertip su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dall'app? | Pianificazione delle conferenze, condivisione di file in un canale |
+| Quali dati vengono elaborati dall'app? | Informazioni sul profilo utente, ID tenant |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | Pianificazione delle conferenze, condivisione di file in un canale |
-| Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Stati Uniti d'America |
-| Si dispone di un processo di noleggio e smaltimento dei dati stabilito? | Sì |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 90 giorni |
+| Quali dati vengono archiviati nei database? | Informazioni sul profilo utente, ID tenant |
+| Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Finlandia |
+| Si dispone di un processo di noleggio e smaltimento dei dati stabilito? | No |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
 | Trasferisci i dati dei clienti o il contenuto del cliente a terze parti o sub-responsabili del trattamento? | No |
 
@@ -79,8 +79,8 @@ Di seguito sono riportate le informazioni del catalogo [di Microsoft Cloud App S
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | Si eseguono test di penetrazione annuali sull'app? | Sì |
-| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
-| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware |
+| L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | No |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | ApplicationControls |
 | Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
 | Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
 | Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
@@ -90,7 +90,7 @@ Di seguito sono riportate le informazioni del catalogo [di Microsoft Cloud App S
 | Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
 | Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
 | Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
-| Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
+| Autenticazione a più fattori abilitata per: | CodeRepositories, Credential, DNSManagement |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
 | Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | Sì |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
@@ -120,7 +120,7 @@ Di seguito sono riportate le informazioni del catalogo [di Microsoft Cloud App S
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
 | L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
-| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | Sì |
 | L'app è conforme a Sarbanes-Oxley Act (SOX)? | N/D |
 | L'app è conforme a NIST 800-171? | N/D |
 | L'app è stata certificata da Cloud Security Alliance (CSA Star)? | No |
@@ -133,17 +133,7 @@ Di seguito sono riportate le informazioni del catalogo [di Microsoft Cloud App S
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
-| L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
-| URL dell'informativa sulla privacy | https://www.rockdovesolutions.com/privacy-policy |
-| L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
-| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
-| Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
-| L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
-| L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? | Sì |
-| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | Sì |
-| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | Sì |
-| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | Sì |
+| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -156,24 +146,22 @@ Di seguito sono riportate le informazioni del catalogo [di Microsoft Cloud App S
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione di Microsoft Identity Platform? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
-| L'app supporta i criteri di accesso condizionale? | No |
-| L'app supporta la valutazione dell'accesso continuo (CAE) | Sì |
-| L'app archivia le credenziali nel codice? | Sì |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
+| L'app supporta i criteri di accesso condizionale? | Sì |
+| Elencare i tipi di criteri supportati | Autenticazione a più fattori, che consente solo ai dispositivi registrati di Intune di accedere a servizi specifici, limitando le posizioni utente e gli intervalli IP |
+| L'app supporta la valutazione dell'accesso continuo (CAE) | No |
+| L'app archivia le credenziali nel codice? | No |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | Sì |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
 >|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegato | Condivisione degli inviti del calendario con i membri del team di gestione dei problemi | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
->| Channel.ReadBasic.All | Delegato | In modo da poter caricare e condividere file per i membri del team di gestione dei problemi | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
->| Files.ReadWrite | Delegato | Per la gestione dei problemi, le modifiche al calendario e ai file e le notifiche | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
->| Files.ReadWrite.All | Delegato | Per la gestione dei problemi, le modifiche al calendario e ai file e le notifiche | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
->| Sites.ReadWrite.All | Delegato | Per le modifiche e le notifiche del calendario di gestione dei problemi e del sito | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
->| Team.ReadBasic.All | Delegato | Consente di elencare i Team a cui l'utente ha accesso per Gestione dei problemi | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
->| email | Delegato | Poiché viene usato come ID utente primario con OAuth 2.0 e Azure Active Directory | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
->| offline_access | Delegato | Per la gestione dei problemi, le modifiche al calendario e ai file e le notifiche | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
->| openid | Delegato | Usato per single Sign-On (SSO) | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| User.Read | Delegato | Informazioni di base sul profilo per la creazione dell'utente | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
+>| User.ReadBasic.All | Delegato | Informazioni di base sul profilo per la creazione dell'utente | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
+>| email | Delegato | Informazioni di base sul profilo per la creazione dell'utente | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
+>| offline_access | Delegato | Per se l'utente si disconnette | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
+>| openid | Delegato | Accedi | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
+>| profile | Delegato | Informazioni di base sul profilo per la creazione dell'utente | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
