@@ -3,24 +3,24 @@ title: Informazioni sull'applicazione per In Case of Crisis di RockDove Solution
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/07/2022
+ms.date: 06/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per In Case of Crisis, i criteri di gestione dei dati, le informazioni del catalogo delle app microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 95c70c26f32bacabd6721e4b60f2417765a8eea0
-ms.sourcegitcommit: dbf716786f7a3c0b84fa4563e47510e4bd3a2fd0
+ms.openlocfilehash: 2a8c81db5aeda003ad0f71971f0b63a5b5cee460
+ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "65943125"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "65967656"
 ---
 # <a name="in-case-of-crisis"></a>In caso di crisi
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 6 giugno 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 8 giugno 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/cf430644-447e-4572-8467-3892596d05c7" target="_blank">Visualizzazione in Teams Store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003194" target="_blank">Visualizzazione in AppSource</a>
@@ -158,7 +158,7 @@ Di seguito sono riportate le informazioni del catalogo [di Microsoft Cloud App S
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | Sì |
-| L'app archivia le credenziali nel codice? | Sì |
+| L'app archivia le credenziali nel codice? | No |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
