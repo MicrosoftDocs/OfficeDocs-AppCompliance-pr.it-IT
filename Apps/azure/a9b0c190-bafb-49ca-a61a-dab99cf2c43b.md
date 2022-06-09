@@ -3,17 +3,17 @@ title: Informazioni sull'ID app di Azure per a9b0c190-bafb-49ca-a61a-dab99cf2c43
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/07/2022
+ms.date: 06/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per a9b0c190-bafb-49ca-a61a-dab99cf2c43b.
-ms.openlocfilehash: 6a6b3b7c2747039cbe72be4aa30f3a5a5022a49d
-ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
+ms.openlocfilehash: 09e35af70dc7cb3185fb4d7367ba0f9341bf1f48
+ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65938343"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "65969196"
 ---
 # <a name="azure-app-id-a9b0c190-bafb-49ca-a61a-dab99cf2c43b"></a>ID app di Azure: a9b0c190-bafb-49ca-a61a-dab99cf2c43b
 
