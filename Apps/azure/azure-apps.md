@@ -1,25 +1,25 @@
 ---
-title: Sicurezza e conformità degli ID app di Azure - Tutte le app
+title: sicurezza e conformità degli ID app Azure - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/08/2022
+ms.date: 06/09/2022
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni di sicurezza e conformità disponibili per tutti gli ID app di Azure.
+description: Tutte le informazioni di sicurezza e conformità disponibili per tutti gli ID app Azure.
 localization_priority: Normal
-ms.openlocfilehash: 5d6ccac4a607a1e8f65daf9491ff3c82da7b7ccd
-ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
+ms.openlocfilehash: db27a71ac4bb09e82f536462ba979385fcdd3328
+ms.sourcegitcommit: 6e1bedf47a32902e15f956a9492d8f5ec44a9650
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/09/2022
-ms.locfileid: "65967216"
+ms.locfileid: "65975584"
 ---
-# <a name="azure-app-ids-security-and-compliance"></a>Sicurezza e conformità degli ID app di Azure
+# <a name="azure-app-ids-security-and-compliance"></a>sicurezza e conformità degli ID app Azure
 
-Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni relative agli ID app e ai componenti aggiuntivi di Azure usati. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner per sviluppatori Microsoft 365 per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni relative agli ID e ai componenti aggiuntivi app Azure che usano. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
-| **Azure App ID** | **Attestata dall'autore** | **Certificata** |
+| **ID app Azure** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:-------------:|
 | [00485db5-81b3-4299-833a-8d6c366d0ac0](./00485db5-81b3-4299-833a-8d6c366d0ac0.md) | **✓** |  |
 | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](./00738e07-f9a4-4bf5-b6f9-851ec7ea31d5.md) | **✓** |  |
