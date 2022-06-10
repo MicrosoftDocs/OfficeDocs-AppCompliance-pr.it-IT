@@ -1,21 +1,21 @@
 ---
-title: Informazioni sull'ID app di Azure per 58cac74c-be05-4edf-b6de-294e856ecd7b
+title: informazioni sull'ID app Azure per 58cac74c-be05-4edf-b6de-294e856ecd7b
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/08/2022
+ms.date: 06/09/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per 58cac74c-be05-4edf-b6de-294e856ecd7b.
-ms.openlocfilehash: 4cfcb48e1a0588ac8ffdc5910f7895a68999bdc6
-ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
+ms.openlocfilehash: e46686b5a1519604556f19070caf58edc11eb57f
+ms.sourcegitcommit: 6e1bedf47a32902e15f956a9492d8f5ec44a9650
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/09/2022
-ms.locfileid: "65968166"
+ms.locfileid: "65982140"
 ---
-# <a name="azure-app-id-58cac74c-be05-4edf-b6de-294e856ecd7b"></a>ID app di Azure: 58cac74c-be05-4edf-b6de-294e856ecd7b
+# <a name="azure-app-id-58cac74c-be05-4edf-b6de-294e856ecd7b"></a>ID app Azure: 58cac74c-be05-4edf-b6de-294e856ecd7b
 
 
 ### <a name="apps-associated-with-this-id"></a>App associate a questo ID:
@@ -23,5 +23,5 @@ ms.locfileid: "65968166"
 |--------------|---------------|-----------------------|
 | [TINYpulse](../forward/WA104381729.md) |  | [https://appsource.microsoft.com/product/office/WA104381729](https://appsource.microsoft.com/product/office/WA104381729) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Stato di conformità dell'app Microsoft 365
-- Stato attestazione server di pubblicazione: completato
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 stato di conformità dell'app
+- stato attestazione Publisher: completato
