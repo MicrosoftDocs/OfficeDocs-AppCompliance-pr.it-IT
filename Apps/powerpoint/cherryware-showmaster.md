@@ -3,24 +3,24 @@ title: Informazioni sull'applicazione per Showmaster by cherryware
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 01/27/2022
+ms.date: 06/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per Showmaster, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9cde99fdf18b018fe2b881c4f60837fa88d8ae66
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: f6c6e1d68e4e0ab5a366ccb98f9d05420fcd044c
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881083"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66248719"
 ---
 # <a name="showmaster"></a>Showmaster
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 21 gennaio 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 23 giugno 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003706" target="_blank">Visualizzazione in AppSource</a>
 
@@ -38,7 +38,7 @@ Informazioni fornite da cherryware a Microsoft:
 | Nome della società partner | cherryware |
 | Sito Web dell'azienda | [https://www.cherryware.com](https://www.cherryware.com) |
 | Condizioni per l'utilizzo dell'app | [https://showmaster.app/terms/](https://showmaster.app/terms/) |
-| Funzionalità di base dell'app | Showmaster è un componente aggiuntivo PowerPoint che crea un'emozionante cornice intorno al discorso durante il tempo di attesa e si interrompe con titoli, conto alla rovescia, musica e altro ancora. |
+| Funzionalità di base dell'app | Showmaster è un componente aggiuntivo di PowerPoint che crea un'emozionante cornice intorno al discorso durante il tempo di attesa e si interrompe con titoli, conto alla rovescia, musica e altro ancora. |
 | Sede centrale dell'azienda | Germania |
 | Pagina delle informazioni sull'app | [https://showmaster.app](https://showmaster.app) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -134,14 +134,13 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | No |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | No |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | No |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
-| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
 | L'app archivia le credenziali nel codice? | No |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
 >Questa applicazione non usa Microsoft Graph.
 

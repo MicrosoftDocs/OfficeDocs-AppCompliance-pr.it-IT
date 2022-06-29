@@ -1,23 +1,23 @@
 ---
-title: sicurezza e conformità delle app Microsoft Excel - Tutte le app
+title: Sicurezza e conformità di Microsoft Excel Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/31/2022
+ms.date: 06/23/2022
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni di sicurezza e conformità disponibili per tutte le app Microsoft Excel.
+description: Tutte le informazioni di sicurezza e conformità disponibili per tutte le app di Microsoft Excel.
 localization_priority: Normal
-ms.openlocfilehash: 1087e5cf36b285c0d45888f7d20f3dcd3a01f482
-ms.sourcegitcommit: 9cbff2dbc9762426293b9b094a29e3d2bebc760b
+ms.openlocfilehash: 0743bf016e61458613bac5e2402ff57d325f66ec
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65818304"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66245593"
 ---
-# <a name="microsoft-excel-apps-security-and-compliance"></a>sicurezza e conformità delle app di Microsoft Excel
+# <a name="microsoft-excel-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft Excel Apps
 
-Microsoft collabora con i partner per sviluppatori Microsoft 365 per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni relative alle app Microsoft Excel e ai componenti aggiuntivi usati. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni relative alle app e ai componenti aggiuntivi di Microsoft Excel che usano. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|

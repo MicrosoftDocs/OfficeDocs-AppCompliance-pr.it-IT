@@ -3,24 +3,23 @@ title: Informazioni sull'applicazione per ModuleQ by ModuleQ
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/15/2022
+ms.date: 06/22/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per ModuleQ, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: dca5037b5e54c4fa570527462a1e3ee3ff97acfb
-ms.sourcegitcommit: 6df79f38ffe390e7339cd6ce5eb32641a9f4c1a9
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 89832adbd15f1e1becac4c7f4b8910ffecbba2c0
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66113010"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66245573"
 ---
 # <a name="moduleq"></a>ModuleQ
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 1 giugno 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 16 giugno 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/moduleq.modules-platform" target="_blank">Visualizzazione in AppSource</a>
 
@@ -157,7 +156,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
 | L'app archivia le credenziali nel codice? | No |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
 >Questa applicazione non usa Microsoft Graph.
 
@@ -167,3 +166,39 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Informazioni sulla certificazione
+
+| **Controllo** | **Risultato della certificazione Microsoft 365** |
+|:------------|:---------------------------------------|
+| [**SICUREZZA DELL'APPLICAZIONE**](../docs/certification-submission-guide.md#application-security) | **PASSARE** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test di penetrazione | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verifica della valutazione della vulnerabilità (DAST/SAST/Penetration Test) | Nell'ambito |
+| [**SICUREZZA OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **PASSARE** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione da malware - Antivirus | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione da malware - Controllo delle applicazioni | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Classificazione dei rischi | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Applicazione di patch | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisi delle vulnerabilità | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall (o tecnologie equivalenti) | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Web Application Firewall (WAF) (facoltativo) | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Controllo delle modifiche | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sviluppo/distribuzione di software sicuro | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione account | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rilevamento e prevenzione delle intrusioni (facoltativo) | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrazione eventi di sicurezza | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisione (registrazione dei dati) | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avviso eventi di sicurezza | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione dei rischi per la sicurezza delle informazioni | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Risposta agli eventi imprevisti | Nell'ambito |
+| [**PRIVACY DI SICUREZZA PER LA GESTIONE &amp; DEI DATI**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASSARE** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in transito | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati inattivi | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservazione e eliminazione dei dati | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione accesso ai dati | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | Nell'ambito |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
