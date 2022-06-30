@@ -3,24 +3,24 @@ title: Informazioni sull'applicazione per CloudExtend Analytics per NetSuite di 
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/01/2021
+ms.date: 06/17/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per CloudExtend Analytics per NetSuite, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fefe945602f65213700a7d2bc398d113c1de7412
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: f53787c0730fe307ac2d06e142db5036f59d31c4
+ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881103"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66546765"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics per NetSuite
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 19 maggio 2021</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 7 giugno 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200002784" target="_blank">Visualizzazione in AppSource</a>
 
@@ -34,15 +34,15 @@ Informazioni fornite da Celigo CloudExtend a Microsoft:
 |:----------------|:-------------|
 | Nome dell'app | CloudExtend Analytics per NetSuite |
 | ID | WA200002784 |
-| client Office 365 supportati | Excel 2016 o versioni successive in Mac, Excel 2016 o versioni successive Windows, Excel sul web |
+| client Office 365 supportati | Excel 2016 o versioni successive in Mac, Excel 2016 o versioni successive in Windows, Excel sul web |
 | Nome della società partner | Celigo CloudExtend |
 | Sito Web dell'azienda | [https://www.cloudextend.io](https://www.cloudextend.io) |
 | Condizioni per l'utilizzo dell'app | [https://www.cloudextend.io/agreements/ssa/2019-12/](https://www.cloudextend.io/agreements/ssa/2019-12/) |
 | Funzionalità di base dell'app | Per gli utenti di NetSuite, CloudExtend Analytics for NetSuite (CEAN) visualizzerà i dati per fornire tutte le informazioni necessarie per prendere la decisione aziendale corretta al momento giusto. CEAN è uno strumento che offre tutti gli strumenti necessari che offrono flessibilità per personalizzare e controllare i dati per ottenere informazioni dettagliate sui dati NetSuite. |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni sull'app | |
-| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
-| Quali provider di servizi cloud di hosting usano l'app? | AWS |
+| Pagina delle informazioni sull'app | [https://www.cloudextend.io/netsuite/excel-integration/p/ana...](https://www.cloudextend.io/netsuite/excel-integration/p/analytics-for-netsuite/) |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
+| Quali provider di servizi cloud di hosting usano l'app? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,8 +56,10 @@ Queste informazioni sono state fornite da Celigo CloudExtend su come questa app 
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
+| Quali dati vengono elaborati dall'app? | Dati aziendali dell'utente che hanno scelto di elaborare tramite l'app. |
+| L'app supporta TLS 1.1 o versione successiva? | Sì |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,23 +73,25 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | Si eseguono test di penetrazione annuali sull'app? | Sì |
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
-| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? |  |
-| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? |  |
-| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? |  |
-| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? |  |
-| L'ambiente ha sistemi operativi o software non supportati? |  |
-| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? |  |
-| È installato un firewall sul limite di rete esterno? |  |
-| Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? |  |
-| Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? |  |
-| Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? |  |
-| Autenticazione a più fattori abilitata per: |  |
-| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
-| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? |  |
-| La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? |  |
-| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? |  |
-| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
-| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? |  |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | ApplicationControls |
+| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
+| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
+| L'ambiente ha sistemi operativi o software non supportati? | No |
+| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | No |
+| È installato un firewall sul limite di rete esterno? | Sì |
+| Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
+| Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
+| Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
+| Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
+| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
+| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | Sì |
+| La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
+| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
+| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
+| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | Sì |
+| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -99,19 +103,20 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | L'app è conforme al Health Insurance Portability and Accounting Act (HIPAA)? | No |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | No |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | Sì |
+| Data di certificazione SOC1 più recente | 2022-03-24 |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
 | L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | No |
-| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | No |
+| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | N/D |
 | L'app International Organization for Standardization (ISO 27001) è certificata? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27017)? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
-| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | Sì |
 | L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
 | L'app è conforme a Sarbanes-Oxley Act (SOX)? | N/D |
-| L'app è conforme a NIST 800-171? |  |
+| L'app è conforme a NIST 800-171? | N/D |
 | L'app è stata certificata da Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -122,7 +127,17 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
+| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
+| L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
+| URL dell'informativa sulla privacy | https://www.cloudextend.io/privacy/ |
+| L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
+| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
+| Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
+| L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
+| L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? | Sì |
+| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | Sì |
+| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | Sì |
+| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -132,22 +147,22 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | Sì |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | No |
-| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
+| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? | Flusso del codice di autorizzazione OAuth 2.0 |
 | L'app supporta i criteri di accesso condizionale? | No |
-| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
-| L'app supporta la valutazione dell'accesso continuo (CAE) |  |
-| L'app archivia le credenziali nel codice? |  |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
+| L'app supporta la valutazione dell'accesso continuo (CAE) | No |
+| L'app archivia le credenziali nel codice? | No |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **ID app Azure AD** |
+>|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | Entrambi | Leggere la raccolta di siti per i quali l'utente ha accesso per ottenere informazioni sulla cartella di lavoro condivisa tramite i siti | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
->| Files.ReadWrite.All | Entrambi | Leggere il contenuto della cartella di lavoro, ad esempio tabelle e fogli, ed essere in grado di scrivere contenuto in tali tabelle | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
+>| Files.ReadWrite.All | Applicazione | per aggiornare periodicamente le cartelle di lavoro di Excel con i dati più recenti | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
+>| Sites.ReadWrite.All | Applicazione | per ottenere le informazioni sul funzionamento di Excel su cui l'utente sta lavorando se si trova nella posizione di SharePoint | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
+>| offline_access | Delegato | per poter scrivere in Excel quando il cliente non è connesso. Questa operazione è necessaria perché sono presenti attività pianificate che scrivono dati in tabelle di Excel | [7040f194-bf08-400e-acb1-69df7939416a](../azure/7040f194-bf08-400e-acb1-69df7939416a.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
