@@ -3,17 +3,17 @@ title: Sicurezza e conformità di Microsoft PowerPoint Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/04/2022
+ms.date: 06/23/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per tutte le app di Microsoft PowerPoint.
 localization_priority: Normal
-ms.openlocfilehash: e5690af50d68eed9fce5bd714be73b2e974cc0e3
-ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
+ms.openlocfilehash: 9fde0c50255d870852e35601c103824e6a962e5b
+ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65935243"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66545745"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft PowerPoint Apps
 

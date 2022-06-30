@@ -3,26 +3,26 @@ title: Informazioni sull'applicazione per timeghost - Rilevamento del tempo per 
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/22/2021
+ms.date: 06/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Tutte le informazioni di sicurezza e conformità disponibili per timeghost: rilevamento del tempo, criteri di gestione dei dati, informazioni sul catalogo delle app Microsoft Cloud App Security e informazioni sulla sicurezza/conformità nel registro CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 37c084ebdb12817b515cf4b5cd6a8ec9748aa013
-ms.sourcegitcommit: ae319a079de7bac03a3f4afb7c95a12a6248c9b0
+ms.openlocfilehash: 38cfc9f0c4762b889c874f68093c370d7af74510
+ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "65357101"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66540825"
 ---
 # <a name="timeghost---time-tracking"></a>timeghost - Time tracking
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 15 luglio 2021</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 23 giugno 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/e3956558-7399-4ec1-848a-c61a2aa95bc1" target="_blank">Visualizza in Teams store</a>
+* <a href="https://teams.microsoft.com/l/app/e3956558-7399-4ec1-848a-c61a2aa95bc1" target="_blank">Visualizzazione in Teams Store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001532" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
@@ -42,7 +42,7 @@ Informazioni fornite da timeghost.io a Microsoft:
 | Funzionalità di base dell'app | Timeghost è lo strumento di rilevamento del tempo progettato specificamente per Office 365. |
 | Sede centrale dell'azienda | Germania |
 | Pagina delle informazioni sull'app | [https://timeghost.io](https://timeghost.io) |
-| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? |  |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
 | Quali provider di servizi cloud di hosting usano l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -57,8 +57,10 @@ Queste informazioni sono state fornite da timeghost.io su come questa app raccog
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? |  |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? |  |
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
+| Quali dati vengono elaborati dall'app? | Dati profilo utente, dati di posta utente, dati del calendario utente |
+| L'app supporta TLS 1.1 o versione successiva? | Sì |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,23 +74,25 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | Si eseguono test di penetrazione annuali sull'app? | No |
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
-| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? |  |
-| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? |  |
-| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? |  |
-| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? |  |
-| L'ambiente ha sistemi operativi o software non supportati? |  |
-| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? |  |
-| È installato un firewall sul limite di rete esterno? |  |
-| Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? |  |
-| Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? |  |
-| Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? |  |
-| Autenticazione a più fattori abilitata per: |  |
-| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? |  |
-| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? |  |
-| La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? |  |
-| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? |  |
-| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? |  |
-| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? |  |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware, ApplicationControls |
+| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
+| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
+| L'ambiente ha sistemi operativi o software non supportati? | No |
+| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
+| È installato un firewall sul limite di rete esterno? | Sì |
+| Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
+| Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
+| Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
+| Autenticazione a più fattori abilitata per: | DNSManagement, CodeRepositories, Credential |
+| Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
+| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | N/D |
+| La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
+| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
+| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
+| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | Sì |
+| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,7 +116,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
 | L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
 | L'app è conforme a Sarbanes-Oxley Act (SOX)? | N/D |
-| L'app è conforme a NIST 800-171? |  |
+| L'app è conforme a NIST 800-171? | N/D |
 | L'app è stata certificata da Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -123,7 +127,17 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? |  |
+| Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
+| L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
+| URL dell'informativa sulla privacy | https://timeghost.io/privacy-policy/ |
+| L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
+| L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
+| Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
+| L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
+| L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? | N/D |
+| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | N/D |
+| L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | N/D |
+| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -135,22 +149,22 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
-| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | true |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
-| L'app supporta la valutazione dell'accesso continuo (CAE) |  |
-| L'app archivia le credenziali nel codice? |  |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
+| L'app supporta la valutazione dell'accesso continuo (CAE) | No |
+| L'app archivia le credenziali nel codice? | No |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
 >|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | Delegato | Titel, Startdatum, Enddatum, ID | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
->| People.Read | Delegato | E-Mail-Adresse | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
->| User.Read | Delegato | Vorname, Nachname, E-Mail-Adresse, Organization, Telefonnummer, Rolle, Sprache, Location | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
->| User.ReadBasic.All | Delegato | Um das Profilbild anzuzeigen. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
->| openid | Delegato | ID  | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
->| profile | Delegato | Vorname, Nachname, E-Mail-Adresse, Organization, Telefonnummer, Rolle, Sprache, Location | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| Calendars.Read | Delegato | Per integrare le app di Microsoft 365 in timeghost e mostrare ad esempio eventi di Calendario di Outlook specifici nel feed timeghost. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| People.Read | Delegato | Per integrare le app di Microsoft 365 in timeghost e mostrare ad esempio l'avatar dell'utente collegato al profilo Microsoft 365. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| User.Read | Delegato | Per integrare le app di Microsoft 365 in timeghost e mostrare ad esempio agli utenti che anche altri utenti della società usano timeghost. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| User.ReadBasic.All | Delegato | Per integrare le app di Microsoft 365 in timeghost e mostrare ad esempio l'avatar dell'utente collegato al profilo Microsoft 365. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| openid | Delegato | ID utente interno  | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
+>| profile | Delegato | Per integrare le app di Microsoft 365 in timeghost e mostrare ad esempio l'avatar dell'utente collegato al profilo Microsoft 365. | [f6f894ce-5b44-4c9b-aff4-253d2fbe8a99](../azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
