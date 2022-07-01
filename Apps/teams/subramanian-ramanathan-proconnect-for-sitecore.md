@@ -6,23 +6,22 @@ manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Tutte le informazioni di sicurezza e conformità disponibili per Proconnect per Sitecore, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a5d4eef3f957f498c7ad4390fbed7d765a523666
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: b16dddc91c6e0e41ee2db82899d24f36a6dc990d
+ms.sourcegitcommit: 2ae239376c807fa9223fc7e18daa1feed6e826aa
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64880523"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564533"
 ---
 # <a name="proconnect-for-sitecore"></a>Proconnect for Sitecore
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Ultimo aggiornamento da parte dello sviluppatore: 22 gennaio 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/a87fd06b-7e73-4374-ba75-4545b2470706" target="_blank">Visualizza in Teams store</a>
+* <a href="https://teams.microsoft.com/l/app/a87fd06b-7e73-4374-ba75-4545b2470706" target="_blank">Visualizzazione in Teams Store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003274" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
@@ -75,14 +74,14 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | ApplicationControls |
 | Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | No |
 | Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
-| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | No |
+| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
 | L'ambiente ha sistemi operativi o software non supportati? | Sì |
 | Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | No |
 | È installato un firewall sul limite di rete esterno? | No |
 | Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
 | Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | No |
 | Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
-| Autenticazione a più fattori abilitata per: | NoneOfTheAbove |
+| Autenticazione a più fattori abilitata per: |  |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | No |
 | Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | N/D |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
@@ -136,14 +135,13 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | No |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | No |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | No |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
-| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
 | L'app archivia le credenziali nel codice? | No |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
 >Questa applicazione non usa Microsoft Graph.
 
@@ -153,3 +151,39 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Informazioni sulla certificazione
+
+| **Controllo** | **Risultato della certificazione Microsoft 365** |
+|:------------|:---------------------------------------|
+| [**SICUREZZA DELL'APPLICAZIONE**](../docs/certification-submission-guide.md#application-security) | **N/D** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test di penetrazione | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verifica della valutazione della vulnerabilità (DAST/SAST/Penetration Test) | N/D |
+| [**SICUREZZA OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **PASSARE** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione da malware - Antivirus | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione da malware - Controllo delle applicazioni | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Classificazione dei rischi | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Applicazione di patch | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisi delle vulnerabilità | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall (o tecnologie equivalenti) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Web Application Firewall (WAF) (facoltativo) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Controllo delle modifiche | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sviluppo/distribuzione di software sicuro | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione account | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rilevamento e prevenzione delle intrusioni (facoltativo) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrazione eventi di sicurezza | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisione (registrazione dei dati) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avviso eventi di sicurezza | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione dei rischi per la sicurezza delle informazioni | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Risposta agli eventi imprevisti | N/D |
+| [**PRIVACY DI SICUREZZA PER LA GESTIONE &amp; DEI DATI**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/D** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in transito | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati inattivi | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservazione e eliminazione dei dati | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione accesso ai dati | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | N/D |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

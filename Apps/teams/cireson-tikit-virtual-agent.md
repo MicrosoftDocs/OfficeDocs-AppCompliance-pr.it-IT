@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per Gtmhub di Gtmhub
+title: Informazioni sull'applicazione per l'agente virtuale Tikit di Cireson
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,42 +7,42 @@ ms.date: 06/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Gtmhub, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per l'agente virtuale Tikit, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 854663229b2a1978af3edab85f4aee8ae210191b
+ms.openlocfilehash: e545e92bffd3f6ca5fc7bb4ef8c5f3c1eb75ad72
 ms.sourcegitcommit: 2ae239376c807fa9223fc7e18daa1feed6e826aa
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564542"
+ms.locfileid: "66564598"
 ---
-# <a name="gtmhub"></a>Gtmhub
+# <a name="tikit-virtual-agent"></a>Agente virtuale Tikit
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 28 giugno 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 4 maggio 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/5fdd80e2-4d58-4c5c-ac85-356c1b2a0bba" target="_blank">Visualizzazione in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001164" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/55f323bf-3622-4624-b3b5-0582d8be4ad5" target="_blank">Visualizzazione in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200004288" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Gtmhub a Microsoft:
+Informazioni fornite da Cireson a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Gtmhub |
-| ID | WA200001164 |
+| Nome dell'app | Agente virtuale Tikit |
+| ID | WA200004288 |
 | client Office 365 supportati | Microsoft Teams |
-| Nome della società partner | Gtmhub |
-| Sito Web dell'azienda | [https://www.gtmhub.com](https://www.gtmhub.com) |
-| Condizioni per l'utilizzo dell'app | [https://gtmhub.com/terms-of-service](https://gtmhub.com/terms-of-service) |
-| Funzionalità di base dell'app | Consente di visualizzare, condividere e aggiornare gli OKR senza uscire da MS Teams. La visualizzazione di OKR, la condivisione nei canali e l'aggiornamento dei risultati chiave non sono mai stati più rapidi. L'esperienza di aggiornamento è facile come in Gtmhub. Dalla scheda Gtmhub è possibile accedere all'hub, che mostra tutti gli OKR e le attività.  |
+| Nome della società partner | Cireson |
+| Sito Web dell'azienda | [https://tikit.ai](https://tikit.ai) |
+| Condizioni per l'utilizzo dell'app | [https://tikit.ai/terms-service/](https://tikit.ai/terms-service/) |
+| Funzionalità di base dell'app | Agente virtuale di Tikit&#8217;: gli utenti finali&#8217; soluzione a tutte le esigenze di ticketing del supporto |
 | Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni sull'app | [https://help.gtmhub.com/en/articles/3558083-how-to-view-and...](https://help.gtmhub.com/en/articles/3558083-how-to-view-and-update-okrs-from-ms-teams) |
-| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
+| Pagina delle informazioni sull'app | [https://tikit.ai](https://tikit.ai) |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
 | Quali provider di servizi cloud di hosting usano l'app? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -53,12 +53,21 @@ Informazioni fornite da Gtmhub a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Gtmhub sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Cireson sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
+| Quali dati vengono elaborati dall'app? | Profili utente e dati di Posta utente |
+| L'app supporta TLS 1.1 o versione successiva? | Sì |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
+| Quali dati vengono archiviati nei database? | Profilo utente (informazioni di Azure Active Directory - nome, titolo e così via) |
+| Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Stati Uniti d'America |
+| Si dispone di un processo di noleggio e smaltimento dei dati stabilito? | Sì |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 30 giorni |
+| Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
+| Trasferisci i dati dei clienti o il contenuto del cliente a terze parti o sub-responsabili del trattamento? | Sì |
+| Sono in vigore contratti di condivisione dei dati con qualsiasi servizio di terze parti con cui si condividono i dati dei clienti Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -70,21 +79,21 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Si eseguono test di penetrazione annuali sull'app? | Sì |
+| Si eseguono test di penetrazione annuali sull'app? | No |
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
-| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | ApplicationControls, TraditionalAntiMalware |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | ApplicationControls |
 | Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
 | Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
 | Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
 | L'ambiente ha sistemi operativi o software non supportati? | No |
-| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
+| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | No |
 | È installato un firewall sul limite di rete esterno? | Sì |
 | Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
 | Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
 | Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
 | Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
-| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | Sì |
+| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | N/D |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
 | Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
@@ -103,13 +112,10 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'app è conforme al Health Insurance Portability and Accounting Act (HIPAA)? | N/D |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | Sì |
-| Quale certificazione SOC 2 hai ottenuto? | type2 |
-| Data di certificazione SOC2 più recente | 2021-07-31 |
-| L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | Sì |
-| Data di certificazione SOC3 più recente | 2021-07-31 |
-| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | Sì |
-| L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
+| L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | No |
+| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | No |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | N/D |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27017)? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27002)? | No |
@@ -130,15 +136,15 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
 | L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
-| URL dell'informativa sulla privacy | https://help.gtmhub.com/en/articles/633973-privacy-policy |
+| URL dell'informativa sulla privacy | https://www.tikit.ai/privacy-statement/ |
 | L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
 | L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
 | Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
 | L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
 | L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? | Sì |
-| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | N/D |
+| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | Sì |
 | L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | Sì |
-| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | Sì |
+| Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -148,15 +154,28 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | No |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | No |
-| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
-| L'app supporta i criteri di accesso condizionale? | No |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
+| L'app supporta i criteri di accesso condizionale? | Sì |
+| Elencare i tipi di criteri supportati | Autenticazione a più fattori, consentendo solo Intune dispositivi registrati di accedere a servizi specifici, Limitazione delle posizioni utente e dell'intervallo IP |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
 | L'app archivia le credenziali nel codice? | No |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | Sì |
 
->Questa applicazione non usa Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
+
+>|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | Delegato | Usato per leggere le assegnazioni di ruolo per il controllo degli accessi in base al ruolo all'interno dell'applicazione | [55f323bf-3622-4624-b3b5-0582d8be4ad5](../azure/55f323bf-3622-4624-b3b5-0582d8be4ad5.md) |
+>| Directory.Read.All | Delegato | Usato per leggere le assegnazioni di ruolo per il controllo degli accessi in base al ruolo all'interno dell'applicazione | [55f323bf-3622-4624-b3b5-0582d8be4ad5](../azure/55f323bf-3622-4624-b3b5-0582d8be4ad5.md) |
+>| Group.Read.All | entrambi | Usato per leggere le assegnazioni di ruolo per il controllo degli accessi in base al ruolo all'interno dell'applicazione | [55f323bf-3622-4624-b3b5-0582d8be4ad5](../azure/55f323bf-3622-4624-b3b5-0582d8be4ad5.md) |
+>| User.Read | Delegato | Accesso | [55f323bf-3622-4624-b3b5-0582d8be4ad5](../azure/55f323bf-3622-4624-b3b5-0582d8be4ad5.md) |
+>| User.Read.All | Applicazione | Accesso | [55f323bf-3622-4624-b3b5-0582d8be4ad5](../azure/55f323bf-3622-4624-b3b5-0582d8be4ad5.md) |
+>| User.ReadBasic.All | Delegato | Accesso | [55f323bf-3622-4624-b3b5-0582d8be4ad5](../azure/55f323bf-3622-4624-b3b5-0582d8be4ad5.md) |
+>| email | Delegato | Autorizzazioni di accesso | [55f323bf-3622-4624-b3b5-0582d8be4ad5](../azure/55f323bf-3622-4624-b3b5-0582d8be4ad5.md) |
+>| openid | Delegato | Accesso | [55f323bf-3622-4624-b3b5-0582d8be4ad5](../azure/55f323bf-3622-4624-b3b5-0582d8be4ad5.md) |
+>| profile | Delegato | Login | [55f323bf-3622-4624-b3b5-0582d8be4ad5](../azure/55f323bf-3622-4624-b3b5-0582d8be4ad5.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 

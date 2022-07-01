@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per Gtmhub di Gtmhub
+title: Informazioni sull'applicazione per Smy di Supermonday
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,43 +7,43 @@ ms.date: 06/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Gtmhub, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Smy, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 854663229b2a1978af3edab85f4aee8ae210191b
+ms.openlocfilehash: ff423241fd4440e04cfd4019d1a060fe04d4f3fe
 ms.sourcegitcommit: 2ae239376c807fa9223fc7e18daa1feed6e826aa
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564542"
+ms.locfileid: "66564589"
 ---
-# <a name="gtmhub"></a>Gtmhub
+# <a name="smy"></a>Smy
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 28 giugno 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 10 maggio 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/5fdd80e2-4d58-4c5c-ac85-356c1b2a0bba" target="_blank">Visualizzazione in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001164" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/2858d81b-9eb1-4ba1-a79b-b42390bb0015" target="_blank">Visualizzazione in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200004190" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Gtmhub a Microsoft:
+Informazioni fornite da Supermonday a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Gtmhub |
-| ID | WA200001164 |
+| Nome dell'app | Smy |
+| ID | WA200004190 |
 | client Office 365 supportati | Microsoft Teams |
-| Nome della società partner | Gtmhub |
-| Sito Web dell'azienda | [https://www.gtmhub.com](https://www.gtmhub.com) |
-| Condizioni per l'utilizzo dell'app | [https://gtmhub.com/terms-of-service](https://gtmhub.com/terms-of-service) |
-| Funzionalità di base dell'app | Consente di visualizzare, condividere e aggiornare gli OKR senza uscire da MS Teams. La visualizzazione di OKR, la condivisione nei canali e l'aggiornamento dei risultati chiave non sono mai stati più rapidi. L'esperienza di aggiornamento è facile come in Gtmhub. Dalla scheda Gtmhub è possibile accedere all'hub, che mostra tutti gli OKR e le attività.  |
-| Sede centrale dell'azienda | Stati Uniti d'America |
-| Pagina delle informazioni sull'app | [https://help.gtmhub.com/en/articles/3558083-how-to-view-and...](https://help.gtmhub.com/en/articles/3558083-how-to-view-and-update-okrs-from-ms-teams) |
+| Nome della società partner | Supermonday |
+| Sito Web dell'azienda | [https://supermonday.io](https://supermonday.io) |
+| Condizioni per l'utilizzo dell'app | [https://supermonday.io/conditions-generales-de-vente](https://supermonday.io/conditions-generales-de-vente) |
+| Funzionalità di base dell'app | Smy l'application de Supermonday pour Microsoft Teams |
+| Sede centrale dell'azienda | Francia |
+| Pagina delle informazioni sull'app | |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
-| Quali provider di servizi cloud di hosting usano l'app? | Azure |
+| Quali provider di servizi cloud di hosting usano l'app? | Altro |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,12 +53,20 @@ Informazioni fornite da Gtmhub a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Gtmhub sul modo in cui questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Supermonday su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | No |
-| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | No |
+| L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
+| Quali dati vengono elaborati dall'app? | utente microsoft, gruppi Microsoft, disponibilità del calendario di Outlook |
+| L'app supporta TLS 1.1 o versione successiva? | Sì |
+| L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
+| Quali dati vengono archiviati nei database? | utente microsoft, gruppo Microsoft |
+| Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Francia |
+| Si dispone di un processo di noleggio e smaltimento dei dati stabilito? | Sì |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? |  |
+| Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
+| Trasferisci i dati dei clienti o il contenuto del cliente a terze parti o sub-responsabili del trattamento? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -73,9 +81,9 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | Si eseguono test di penetrazione annuali sull'app? | Sì |
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
 | L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | ApplicationControls, TraditionalAntiMalware |
-| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
-| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
-| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
+| Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | No |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | No |
+| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | No |
 | L'ambiente ha sistemi operativi o software non supportati? | No |
 | Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
 | È installato un firewall sul limite di rete esterno? | Sì |
@@ -84,13 +92,12 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
 | Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
-| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | Sì |
+| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | No |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
 | Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
-| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
-| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | Sì |
-| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
+| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | No |
+| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,13 +110,10 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | L'app è conforme al Health Insurance Portability and Accounting Act (HIPAA)? | N/D |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | Sì |
-| Quale certificazione SOC 2 hai ottenuto? | type2 |
-| Data di certificazione SOC2 più recente | 2021-07-31 |
-| L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | Sì |
-| Data di certificazione SOC3 più recente | 2021-07-31 |
-| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | Sì |
-| L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
+| L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | No |
+| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | N/D |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | N/D |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27017)? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27002)? | No |
@@ -130,13 +134,13 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
 | L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
-| URL dell'informativa sulla privacy | https://help.gtmhub.com/en/articles/633973-privacy-policy |
+| URL dell'informativa sulla privacy | https://supermonday.io/politique-de-confidentialite |
 | L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
 | L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
 | Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
 | L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
 | L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? | Sì |
-| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | N/D |
+| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | Sì |
 | L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | Sì |
 | Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | Sì |
 
@@ -148,9 +152,9 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | No |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | No |
-| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
 | L'app archivia le credenziali nel codice? | No |

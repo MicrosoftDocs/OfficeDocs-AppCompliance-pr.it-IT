@@ -230,6 +230,8 @@ items:
         href: teams/365apps-365projects.md
       - name: 8x8
         href: teams/8x8-inc.md
+      - name: Abi
+        href: teams/beroe-abi.md
       - name: absentify
         href: teams/braincore-solutions-absentify.md
       - name: ACV
@@ -244,7 +246,7 @@ items:
         href: teams/appfluence-inc-agenda-boss.md
       - name: Agile Task Board
         href: teams/agile-is-task-board.md
-      - name: Avanti
+      - name: avanti
         href: teams/ahead-ag.md
       - name: Produttore di intelligenza artificiale
         href: teams/livearena-technologies-ab-ai-producer.md
@@ -294,7 +296,7 @@ items:
         href: teams/entrup-aster.md
       - name: AtBot
         href: teams/h3-solutions-inc-atbot.md
-      - name: Atlante
+      - name: Atlas
         href: teams/atlassian-inc-atlas.md
       - name: Attendant
         href: teams/workstreampeople-bv-attendant.md
@@ -444,7 +446,7 @@ items:
         href: teams/noctilucent-bv-corporatefitnessapp.md
       - name: CSOD Learn
         href: teams/cornerstone-ondemand-csod-learn.md
-      - name: Cuculo
+      - name: Cuckoo
         href: teams/cuckoo-networks-oy.md
       - name: Cultr Connect
         href: teams/cultr-connect.md
@@ -546,6 +548,8 @@ items:
         href: teams/sharepointsapiens-employee-training-management.md
       - name: Empuls
         href: teams/empuls.md
+      - name: Dizionario EN-UA
+        href: teams/skyline-consulatnts-en-ua-dictionary.md
       - name: Connettore ENA SmartUC
         href: teams/ena-smartuc-connector.md
       - name: Enboarder
@@ -576,7 +580,7 @@ items:
         href: teams/factset-research-systems-inc.md
       - name: FastOrg
         href: teams/fastorg.md
-      - name: Alimentatore
+      - name: Feeder
         href: teams/really-simple-i-stockholm-ab-feeder.md
       - name: Fellow
         href: teams/fellow-insights-inc.md
@@ -728,6 +732,8 @@ items:
         href: teams/semos-cloud-soultions-jobpts.md
       - name: Joye
         href: teams/joye-pte-ltd.md
+      - name: JustLogin
+        href: teams/justlogin.md
       - name: Kakeai
         href: teams/kakeai.md
       - name: Kami
@@ -752,7 +758,7 @@ items:
         href: teams/ernst-klett-verlag-gmbh.md
       - name: Koan
         href: teams/koan-inc.md
-      - name: Gestione I di Koare
+      - name: ' Koare I-gestione'
         href: teams/koaretech-sl-koare-i-management.md
       - name: Scrivanie Kuban
         href: teams/kuban-desks.md
@@ -1096,6 +1102,8 @@ items:
         href: teams/smartsheet.md
       - name: SmartWork
         href: teams/smartwork-of-intumit.md
+      - name: Smy
+        href: teams/supermonday-smy.md
       - name: Sobol
         href: teams/consensys-ags-sobol.md
       - name: Sociabble
@@ -1170,7 +1178,7 @@ items:
         href: teams/taskcall-cloud-services-sl.md
       - name: Taskworld
         href: teams/taskworld.md
-      - name: Team Oggi
+      - name: Team Today
         href: teams/team-today-ltd.md
       - name: Teamble
         href: teams/teamble.md
@@ -1218,6 +1226,8 @@ items:
         href: teams/hippo-ed-tech-ltd-tigim-analytics.md
       - name: Tikit
         href: teams/cireson-tikit.md
+      - name: Agente virtuale Tikit
+        href: teams/cireson-tikit-virtual-agent.md
       - name: tiLly
         href: teams/tilly-group-limited.md
       - name: TimeClock 365
