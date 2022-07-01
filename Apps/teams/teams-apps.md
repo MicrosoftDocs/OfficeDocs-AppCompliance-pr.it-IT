@@ -3,17 +3,17 @@ title: Sicurezza e conformità delle app per Microsoft Teams - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/27/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.service: attestation
 description: Informazioni complete sulla sicurezza e conformità delle app per Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 884023d5c7791a53d31c8b6f630b6c50eb9d24dd
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: 680305771fde79df454820ea087574aad7586dc8
+ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66249519"
+ms.locfileid: "66542345"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicurezza e conformità delle app di Microsoft Teams
 
@@ -68,6 +68,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Assistente IT di Avaamo](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
 | [Asse](./axis-workshops-ltd.md) | Axis Workshops Ltd | **✓** |  |
 | [B12](./apprentx-b12.md) | Apprentx | **✓** |  |
+| [Beacapp Qui](./beacapp-inc-here.md) | Beacapp Inc. | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | Punto decisionale | **✓** |  |
 | [Bedriftsnett](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [Bacche;](./berryworksai-berry.md) | Berryworks.ai | **✓** |  |
@@ -229,6 +230,7 @@ Microsoft collabora con i partner di sviluppo di Microsoft 365 per fornire alle 
 | [Goalhub](./momentum-cloud-pty-ltd-goalhub.md) | Momentum Cloud Pty Ltd | **✓** |  |
 | [GoLinks](./golinks.md) | GoLinks | **✓** |  |
 | [Good4work](./good4work.md) | Good4work | **✓** |  |
+| [Grafana OnCall](./grafana-labs-oncall.md) | Grafana Labs | **✓** |  |
 | [GRATICA](./okwave-inc-gratica.md) | OKWAVE, Inc. | **✓** |  |
 | [Groopit](./groopit.md) | Groopit | **✓** |  |
 | [Group Address Book - NextSet](./nextsetinc-group-address-book-nextset.md) | NextSet, Inc. | **✓** |  |
