@@ -3,17 +3,17 @@ title: Sicurezza e conformità di Microsoft Outlook Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/24/2022
+ms.date: 07/06/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per tutte le app di Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 931290ecbe2e51c6d9a94232eacab98a693bc25f
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: e068b2d07c5fb1e006f593e5d4423d78e1c5dd71
+ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66247302"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66654821"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft Outlook Apps
 
@@ -29,6 +29,7 @@ Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire 
 | [Commuty](./commuty.md) | Commuty | **✓** |  |
 | [DocuSign per Outlook](./docusign-inc-for-outlook.md) | DocuSign, Inc. | **✓** |  |
 | [Dynamo](./dynamo-software.md) | Dynamo Software | **✓** |  |
+| [Egnyte per Outlook](./egnyte-inc-for-outlook.md) | Egnyte, Inc. | **✓** |  |
 | [Email Reactor](./flow-simulation-ltd-email-reactor.md) | Flow Simulation Ltd. | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [Firme di impressioni per Outlook](./impression-signatures-for-outlook.md) | Firme di impressioni | **✓** |  |
@@ -47,6 +48,7 @@ Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire 
 | [Outreach Sales Engagement per Outlook](./outreach-sales-engagement-for-outlook.md) | Sensibilizzazione | **✓** |  |
 | [Pexip One per Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
 | [Matrice di priorità - Trasformare i messaggi di posta elettronica in attività](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
 | [Strategia-intelligenza artificiale per Outlook](./chinchilla-software-limited-strategy-ai-for-outlook.md) | Chinchilla Software Limited | **✓** |  |
 | [XQ Secure Email](./xq-message-secure-email.md) | Messaggio XQ | **✓** |  |

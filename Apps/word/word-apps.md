@@ -3,17 +3,17 @@ title: Sicurezza e conformità di Microsoft Word Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/27/2022
+ms.date: 07/06/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per tutte le app di Microsoft Word.
 localization_priority: Normal
-ms.openlocfilehash: 01d38371206814af4b2751386055b6d98085e0e3
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: 01a8345e1f3b2448a2fd25d3be686bb77f28cc73
+ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66249529"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66655645"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft Word Apps
 
@@ -44,7 +44,7 @@ Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire 
 | [officeatwork - Scelta contenuto per Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Designer per Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Image Chooser for Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork - Template Chooser for Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork - Template Chooser for Office - M365](./officeatwork-officeatworktemplate-chooser-for-office-m365.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Uploader per Office](./officeatwork-officeatworkuploader-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Verifica per Office](./officeatwork-officeatworkverifier-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Procedura guidata per Office](./officeatwork-officeatworkwizard-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
