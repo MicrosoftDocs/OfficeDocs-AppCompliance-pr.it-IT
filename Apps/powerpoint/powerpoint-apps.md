@@ -3,17 +3,17 @@ title: Sicurezza e conformità di Microsoft PowerPoint Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/23/2022
+ms.date: 07/06/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per tutte le app di Microsoft PowerPoint.
 localization_priority: Normal
-ms.openlocfilehash: 9fde0c50255d870852e35601c103824e6a962e5b
-ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
+ms.openlocfilehash: 220a7253afc3c28a0cd74606acbb24149977b146
+ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66545745"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66652463"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft PowerPoint Apps
 
@@ -29,6 +29,6 @@ Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire 
 | [officeatwork - Scelta contenuto per Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Image Chooser for Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork - Selezione diapositive per Office](./officeatwork-officeatworkslide-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork - Template Chooser for Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork - Template Chooser for Office - M365](./officeatwork-officeatworktemplate-chooser-for-office-m365.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Showmaster](./cherryware-showmaster.md) | cherryware | **✓** |  |
 | [Showmaster (plug-in helper)](./cherryware-showmaster-helper-plugin.md) | cherryware | **✓** |  |
