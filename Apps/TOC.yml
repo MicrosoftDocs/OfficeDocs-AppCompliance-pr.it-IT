@@ -260,7 +260,7 @@ items:
         href: teams/aimful.md
       - name: Interpretazione Akouo
         href: teams/akouo-technologies-inc-interpretation.md
-      - name: Approvazione AP di Alevate
+      - name: Approvazione AP Alevate
         href: teams/serrala-group-gmbh-alevate-ap-approval.md
       - name: Alloy Self-Service Assistant
         href: teams/alloy-software-self-service-assistant.md
@@ -306,6 +306,8 @@ items:
         href: teams/h3-solutions-inc-atbot.md
       - name: Atlas
         href: teams/atlassian-inc-atlas.md
+      - name: AttendanceBot
+        href: teams/anaek-attendancebot.md
       - name: Attendant
         href: teams/workstreampeople-bv-attendant.md
       - name: Attender
@@ -384,7 +386,7 @@ items:
         href: teams/yattee-inc-canary.md
       - name: Casedoc Virtual Hearing
         href: teams/casedoc-virtual-hearing.md
-      - name: Esperienza cegid HR
+      - name: Esperienza di Cegid HR
         href: teams/cegid-hr-experience.md
       - name: Centrical
         href: teams/biz-effective-centrical.md
@@ -454,7 +456,7 @@ items:
         href: teams/cor-global-ltd.md
       - name: CorporateFitness.app
         href: teams/noctilucent-bv-corporatefitnessapp.md
-      - name: Crea
+      - name: Creately
         href: teams/creately.md
       - name: CSOD Learn
         href: teams/cornerstone-ondemand-csod-learn.md
@@ -854,6 +856,8 @@ items:
         href: teams/aivision-products-srl-meetgeek.md
       - name: Meety
         href: teams/operalogica-srl-meety.md
+      - name: Acqua di fusione
+        href: teams/meltwater.md
       - name: Mentimeter
         href: teams/mentimeter.md
       - name: Message Reminder
@@ -884,7 +888,7 @@ items:
         href: teams/miro.md
       - name: Contatti moconavi
         href: teams/moconavi-contacts.md
-      - name: Momenti365
+      - name: Moments365
         href: teams/moments365.md
       - name: monday.com
         href: teams/mondaycom.md
@@ -1092,7 +1096,7 @@ items:
         href: teams/schule-am-bildschirm-gmbh-schabi.md
       - name: School Day
         href: teams/school-day-helsinki-oy.md
-      - name: Scormio
+      - name: Scormium
         href: teams/sense4code-scormium.md
       - name: SEFOS
         href: teams/meaplus-ab-sefos.md
@@ -1212,7 +1216,7 @@ items:
         href: teams/maskott-tactileo.md
       - name: TagMyFav
         href: teams/avishkaram-technologies-pvt-ltd-tagmyfav.md
-      - name: Colloqui su misura
+      - name: Conversazioni personalizzate
         href: teams/pogo-studio-tailored-talks.md
       - name: TAMPLO
         href: teams/ityss-tamplo.md
@@ -1286,7 +1290,7 @@ items:
         href: teams/dm-digital-srl-timeneye.md
       - name: TINYpulse
         href: teams/tinypulse.md
-      - name: Elenco di controllo attività per il team
+      - name: Lista di controllo delle attività da svolgere per Team
         href: teams/herocoders-to-do-checklist-for-team.md
       - name: Tonkean
         href: teams/tonkean.md
