@@ -3,24 +3,23 @@ title: Informazioni sull'applicazione per Luware Nimbus per Microsoft Teams di L
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 10/07/2021
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Luware Nimbus per Microsoft Teams, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 31195c90a4e3b9484ae630fd7be76509b6a40e23
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+certification_type: certified
+description: Tutte le informazioni disponibili sulla sicurezza e sulla conformità per Luware Nimbus per Microsoft Teams, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni sulla sicurezza/conformità nel registro CSA STAR.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 44e6e1c0f91285cc105ed5f3f4a1f1526ce0d55b
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881423"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66707323"
 ---
 # <a name="luware-nimbus-for-microsoft-teams"></a>Luware Nimbus per Microsoft Teams
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 1° ottobre 2021</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 19 ottobre 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/luwareagzurich.advanced_routing_azure_marketplace" target="_blank">Visualizzazione in AppSource</a>
 
@@ -37,7 +36,7 @@ Informazioni fornite da Luware AG a Microsoft:
 | Nome della società partner | Gruppo di disponibilità Luware |
 | Sito Web dell'azienda | [https://luware.com](https://luware.com) |
 | Condizioni per l'utilizzo dell'app | [https://luware.com/en/agreements/saas/](https://luware.com/en/agreements/saas/) |
-| Funzionalità di base dell'app | Nimbus aggiunge l'accodamento delle chiamate, il routing basato sulla presenza, le funzioni di report e un pannello comandi per Teams |
+| Funzionalità di base dell'app | Nimbus aggiunge l'accodamento delle chiamate, il routing basato sulla presenza, le funzioni di reporting e un pannello comandi a Teams |
 | Sede centrale dell'azienda | Svizzera |
 | Pagina delle informazioni sull'app | [https://luware.com/en/solution/advanced-routing-for-microso...](https://luware.com/en/solution/advanced-routing-for-microsoft-teams/) |
 | Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
@@ -148,29 +147,27 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso API e così via? | Sì |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
 | L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | true |
-| Se l'app non usa una delle librerie precedenti, quale libreria o libreria di autenticazione usa? |  |
 | L'app supporta i criteri di accesso condizionale? | Sì |
 | Elencare i tipi di criteri supportati | App client, utenti e gruppi |
-| L'app richiede autorizzazioni con privilegi minimi per lo scenario? | Sì |
 | L'app supporta la valutazione dell'accesso continuo (CAE) |  |
 | L'app archivia le credenziali nel codice? |  |
-| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare api Microsoft aggiuntive all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
+| Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
->|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **ID app Azure AD** |
+>|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Calendars.Read | Delegato | Console operatore: lettura calendario dell'utente connesso mostra calendario con appuntamenti | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| Calendars.Read.Shared | Delegato | Console operatore: leggere calendari condivisi per visualizzare il calendario con gli appuntamenti | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
->| Contacts.Read | Delegato | Console operatore: cercare nei contatti Exchange dell'utente connesso | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
->| Contacts.Read.Shared | Delegato | Console operatore: cercare nei contatti Exchange condivisi | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Contacts.Read | Delegato | Console operatore: cercare nei contatti di Exchange dell'utente connesso | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Contacts.Read.Shared | Delegato | Console operatore: cercare nei contatti di Exchange condivisi | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| GroupMember.Read.All | Applicazione | Ottenere membri del team, leggere i gruppi di sicurezza | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| Presence.Read.All | Delegato | Mostra presenza nella ricerca contatti nella pagina console operatore | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| User.Read | Delegato | Ottenere UserInformation (dall'utente connesso) | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
->| User.Read.All | Entrambi | App Nimbus : ottenere CallerInformation. In una chiamata interna al Contact Center viene eseguita una ricerca inversa su chi potrebbe essere, in modo da poter mostrare tali informazioni all'agente. Nella console operatore (con l'autorizzazione delegata) viene eseguita una ricerca nell'intera directory interna per individuare le destinazioni di trasferimento. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| User.Read.All | entrambi | App Nimbus : ottenere CallerInformation. In una chiamata interna al Contact Center viene eseguita una ricerca inversa su chi potrebbe essere, in modo da poter mostrare tali informazioni all'agente. Nella console operatore (con l'autorizzazione delegata) viene eseguita una ricerca nell'intera directory interna per individuare le destinazioni di trasferimento. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| User.ReadBasic.All | Delegato | Ricerca utenti limitata | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| Calls.AccessMedia.All | Applicazione | Molte di queste app/bot (uno per coda contact center): sottoscrivere i toni DTMF in cui il cliente può effettivamente selezionare la sua posizione nell'IVR | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
 >| Calls.Initiate.All | Applicazione | Molte di queste app/bot (uno per coda contact center): effettuare una chiamata all'agente  | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
@@ -183,3 +180,39 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Informazioni sulla certificazione
+
+| **Controllo** | **Risultato della certificazione Microsoft 365** |
+|:------------|:---------------------------------------|
+| [**SICUREZZA DELL'APPLICAZIONE**](../docs/certification-submission-guide.md#application-security) | **N/D** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test di penetrazione | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verifica della valutazione della vulnerabilità (DAST/SAST/Penetration Test) | N/D |
+| [**SICUREZZA OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **FAIL** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione da malware - Antivirus | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protezione da malware - Controllo delle applicazioni | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Classificazione dei rischi | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione delle patch - Applicazione di patch | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisi delle vulnerabilità | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Firewall (o tecnologie equivalenti) | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall - Web Application Firewall (WAF) (facoltativo) | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Controllo delle modifiche | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sviluppo/distribuzione di software sicuro | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione account | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rilevamento e prevenzione delle intrusioni (facoltativo) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrazione eventi di sicurezza | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisione (registrazione dei dati) | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Avviso eventi di sicurezza | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione dei rischi per la sicurezza delle informazioni | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Risposta agli eventi imprevisti | Nell'ambito |
+| [**PRIVACY DI SICUREZZA PER LA GESTIONE &amp; DEI DATI**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASSARE** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati in transito | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dati inattivi | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conservazione e eliminazione dei dati | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestione accesso ai dati | Nell'ambito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDPR | Nell'ambito |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
