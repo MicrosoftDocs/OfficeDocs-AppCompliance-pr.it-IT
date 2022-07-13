@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per bNear di bNear
+title: Informazioni sull'applicazione per PlanIt by Enable 365
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,43 +7,42 @@ ms.date: 07/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per bNear, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per PlanIt, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5327788ebc9276076ef63f754f16ed130dac07ff
+ms.openlocfilehash: 3bb5cc8f24830ca3b95290ded5d4b99f133b09b7
 ms.sourcegitcommit: 1d78b47ae32dd7ee29fb848e04ac0c5090d6b41c
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 07/13/2022
-ms.locfileid: "66762845"
+ms.locfileid: "66765152"
 ---
-# <a name="bnear"></a>bNear
+# <a name="planit"></a>Planit
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 6 luglio 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 7 luglio 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/5d655b39-963c-465a-89ab-bdad7ab7af7f" target="_blank">Visualizzazione in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200004271" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/49cd11e3-cd7c-422a-9e2c-98a0a40fa418" target="_blank">Visualizzazione in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200004211" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da bNear a Microsoft:
+Informazioni fornite da Enable 365 to Microsoft:Information provided by Enable 365 to Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | bNear |
-| ID | WA200004271 |
+| Nome dell'app | Planit |
+| ID | WA200004211 |
 | client Office 365 supportati | Microsoft Teams |
-| Nome della società partner | bNear |
-| Sito Web dell'azienda | [https://bnear.io](https://bnear.io) |
-| Condizioni per l'utilizzo dell'app | [https://bnear.io/terms](https://bnear.io/terms) |
-| Funzionalità di base dell'app | bNear è lo spazio virtuale per l'utente e il team. Rimanere connessi , proprio come nel vero ufficio! |
-| Sede centrale dell'azienda | Germania |
-| Pagina delle informazioni sull'app | [https://bnear.io](https://bnear.io) |
-| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
-| Quali provider di servizi cloud di hosting usano l'app? | Azure |
+| Nome della società partner | Abilitare 365 |
+| Sito Web dell'azienda | [https://www.enable.no](https://www.enable.no) |
+| Condizioni per l'utilizzo dell'app | [https://www.enable.no/standard-contract-enable-planit-for-m...](https://www.enable.no/standard-contract-enable-planit-for-microsoft-store/) |
+| Funzionalità di base dell'app | Strumento facile da usare per la pianificazione annuale. Bella visualizzazione visiva in un calendario circolare, connesso a Planner.  |
+| Sede centrale dell'azienda | Norvegia |
+| Pagina delle informazioni sull'app | [https://appsource.microsoft.com/en-us/product/office/WA2000...](https://appsource.microsoft.com/en-us/product/office/WA200004211) |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | IsvHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,16 +52,16 @@ Informazioni fornite da bNear a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da bNear su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Enable 365 su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dall'app? | Il nome visualizzato, l'indirizzo di posta elettronica, le affiliazioni al team, lo stato utente corrente di Microsoft Teams, gli appuntamenti giornalieri del calendario (oggetto, descrizione, ora, partecipanti, collegamento alla chiamata) vengono archiviati temporaneamente il giorno dell'appuntamento fino al termine della riunione, le chiamate attualmente in esecuzione (oggetto, descrizione, ora, partecipanti correnti, stato di disattivazione, collegamento alla chiamata) vengono archiviate temporaneamente durante la chiamata fino al termine della chiamata |
+| Quali dati vengono elaborati dall'app? | Dati del profilo utente, elenchi di SharePoint e calendario di Teams |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | Il nome visualizzato, l'indirizzo di posta elettronica, le affiliazioni al team, lo stato utente corrente di Microsoft Teams, gli appuntamenti giornalieri del calendario (oggetto, descrizione, ora, partecipanti, collegamento alla chiamata) vengono archiviati temporaneamente il giorno dell'appuntamento fino al termine della riunione, le chiamate attualmente in esecuzione (oggetto, descrizione, ora, partecipanti correnti, stato di disattivazione, collegamento alla chiamata) vengono archiviate temporaneamente durante la chiamata fino al termine della chiamata |
-| Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Germania |
+| Quali dati vengono archiviati nei database? | Dati di licenza di utenti e team |
+| Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Irlanda, Norvegia |
 | Si dispone di un processo di noleggio e smaltimento dei dati stabilito? | Sì |
 | Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Non conservato |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
@@ -78,26 +77,27 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Si eseguono test di penetrazione annuali sull'app? | Sì |
+| Si eseguono test di penetrazione annuali sull'app? | No |
 | L'app dispone di un piano di ripristino di emergenza documentato, inclusa una strategia di backup e ripristino? | Sì |
-| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | ApplicationControls |
+| L'ambiente usa la protezione antimalware tradizionale o i controlli delle applicazioni? | TraditionalAntiMalware, ApplicationControls |
 | Si dispone di un processo stabilito per l'individuazione e la classificazione dei rischi delle vulnerabilità di sicurezza? | Sì |
-| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | No |
-| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | No |
+| Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
+| Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
 | L'ambiente ha sistemi operativi o software non supportati? | No |
-| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
+| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | No |
 | È installato un firewall sul limite di rete esterno? | Sì |
 | Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
 | Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
 | Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
-| Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
+| Autenticazione a più fattori abilitata per: | Credenziali, CodeRepositories |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
 | Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | N/D |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
-| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | No |
-| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | No |
-| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | No |
-| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | No |
+| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
+| Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
+| È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
+| Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | Sì |
+| Si segnalano violazioni dei dati di app o servizi alle autorità di vigilanza e alle persone interessate dalla violazione entro 72 ore dal rilevamento? | Sì |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -134,7 +134,7 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
 | L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
-| URL dell'informativa sulla privacy | https://bnear.io/privacy |
+| URL dell'informativa sulla privacy | https://www.enable.no/eighteen/enable-privacy-policy/ |
 | L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
 | L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
 | Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
@@ -154,29 +154,20 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
 | Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
-| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | N/D |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
-| L'app archivia le credenziali nel codice? | No |
+| L'app archivia le credenziali nel codice? | Sì |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
 
 >|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Applicazione | Creare una panoramica delle riunioni e interagire con le riunioni. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| Calls.InitiateGroupCall.All | Applicazione | Avvio di una chiamata dall'applicazione. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| Calls.JoinGroupCall.All | Applicazione | Aggiunta di una chiamata dall'applicazione. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| Group.ReadWrite.All | Delegato | Elencare tutti i team per gli utenti, creare gruppi. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| GroupMember.Read.All | Applicazione | Elencare tutti i membri del team. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| GroupMember.ReadWrite.All | Delegato | Elencare tutti i membri del team, le relative sale del team e creare nuovi gruppi. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| OnlineMeetings.Read.All | Applicazione | Ottenere i dettagli per le riunioni correnti da visualizzare all'interno dell'app. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| Presence.ReadWrite.All | Applicazione | Visualizzare le informazioni sulla presenza per tutti gli utenti dei team e impostare nuove presenze in base all'interazione dell'utente. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| TeamMember.Read.All | Applicazione | Visualizza tutti i membri di un team nelle loro sale del team. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| TeamMember.ReadWrite.All | Delegato | Aggiungere o rimuovere membri da team rooms. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| Teams.Create | Delegato | Creare nuovi team per le nuove sale per i team. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| TeamsActivity.Send | Applicazione | Notificare agli utenti le interazioni con le app dei membri del team. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| User.Read.All | Applicazione | Ottenere gli aggiornamenti in tempo reale per gli utenti. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
+>| User.ReadBasic.All | Delegato | Identificare l'utente corrente | [49cd11e3-cd7c-422a-9e2c-98a0a40fa418](../azure/49cd11e3-cd7c-422a-9e2c-98a0a40fa418.md) |
+>| offline_access | Delegato | Dati di Teams | [49cd11e3-cd7c-422a-9e2c-98a0a40fa418](../azure/49cd11e3-cd7c-422a-9e2c-98a0a40fa418.md) |
+>| openid | Delegato | SSO | [49cd11e3-cd7c-422a-9e2c-98a0a40fa418](../azure/49cd11e3-cd7c-422a-9e2c-98a0a40fa418.md) |
+>| profile | Delegato | Identificare l'utente corrente | [49cd11e3-cd7c-422a-9e2c-98a0a40fa418](../azure/49cd11e3-cd7c-422a-9e2c-98a0a40fa418.md) |
 
 >Questa applicazione non dispone di API aggiuntive.
 
