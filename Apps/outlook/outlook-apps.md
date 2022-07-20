@@ -3,17 +3,17 @@ title: Sicurezza e conformità di Microsoft Outlook Apps - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/15/2022
+ms.date: 07/20/2022
 ms.topic: article
 ms.service: attestation
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per tutte le app di Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: bbd1db0a9e77da480e6a99ed6dfb0712b3d80182
-ms.sourcegitcommit: 41d719a4473ff77d0955bbdb198e9ca084b02dc2
+ms.openlocfilehash: 6725f3b4f6b0ebcf60850ee21c966aa9123e53fe
+ms.sourcegitcommit: b072ed662849382b6df1bebf43454e12e5ed544d
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66826092"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66912878"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicurezza e conformità di Microsoft Outlook Apps
 
@@ -21,6 +21,7 @@ Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire 
 
 | **App** | **Partner** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:----------------------:|:-------------:|
+| [Obiettivi per Outlook](./achievers-for-outlook.md) | Achievers | **✓** |  |
 | [Adobe Acrobat Sign for Microsoft Outlook](./adobe-inc-acrobat-sign-for-microsoft-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Appspace per Outlook](./appspace-inc-for-outlook.md) | Appspace, Inc | **✓** |  |
 | [Aumentare la posta elettronica](./boost-my-mail.md) | Aumentare la posta elettronica | **✓** |  |
