@@ -1,5 +1,5 @@
 ---
-title: Informazioni sull'applicazione per Appraisd di Appraisd ltd.
+title: Informazioni sull'applicazione per Squadcast di Squadcast
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,43 +7,43 @@ ms.date: 07/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Tutte le informazioni di sicurezza e conformità disponibili per Appraisd, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
+description: Tutte le informazioni di sicurezza e conformità disponibili per Squadcast, i criteri di gestione dei dati, le informazioni sul catalogo delle app Microsoft Cloud App Security e le informazioni di sicurezza/conformità nel registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: feb9fcc1576d3d357eafaade364ad9913c369a83
+ms.openlocfilehash: 6aa29656b0deac425e15abd4928e158a3fd8baeb
 ms.sourcegitcommit: f020743c27bd5ba69e4f74e8fff3f82b2571c408
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 07/20/2022
-ms.locfileid: "66890259"
+ms.locfileid: "66892047"
 ---
-# <a name="appraisd"></a>Appraisd
+# <a name="squadcast"></a>Squadcast
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Ultimo aggiornamento da parte dello sviluppatore: 22 giugno 2022</p>
+<p>Ultimo aggiornamento da parte dello sviluppatore: 10 gennaio 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/4f037969-20ef-4a41-8330-422b7b115eb6" target="_blank">Visualizzazione in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003123" target="_blank">Visualizzazione in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/7792759a-43e8-4dc8-9f55-e7b0382c4a67" target="_blank">Visualizzazione in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200004390" target="_blank">Visualizzazione in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Informazioni generali
 
-Informazioni fornite da Appraisd ltd. a Microsoft:
+Informazioni fornite da Squadcast a Microsoft:
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| Nome dell'app | Appraisd |
-| ID | WA200003123 |
+| Nome dell'app | Squadcast |
+| ID | WA200004390 |
 | client Office 365 supportati | Microsoft Teams |
-| Nome della società partner | Appraisd ltd. |
-| Sito Web dell'azienda | [https://www.appraisd.com](https://www.appraisd.com) |
-| Condizioni per l'utilizzo dell'app | [https://www.appraisd.com/terms](https://www.appraisd.com/terms) |
-| Funzionalità di base dell'app | Potenzia la tua cultura delle prestazioni con revisioni delle prestazioni, obiettivi e feedback |
-| Sede centrale dell'azienda | Regno Unito di Gran Bretagna e Irlanda del Nord (i) |
-| Pagina delle informazioni sull'app | [https://www.appraisd.com](https://www.appraisd.com) |
-| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Paas |
-| Quali provider di servizi cloud di hosting usano l'app? | Azure |
+| Nome della società partner | Squadcast |
+| Sito Web dell'azienda | [https://www.squadcast.com](https://www.squadcast.com) |
+| Condizioni per l'utilizzo dell'app | [https://www.squadcast.com/terms](https://www.squadcast.com/terms) |
+| Funzionalità di base dell'app | Gestione degli eventi imprevisti efficace direttamente da MS Teams. |
+| Sede centrale dell'azienda | Stati Uniti d'America |
+| Pagina delle informazioni sull'app | [https://support.squadcast.com/docs/msteams](https://support.squadcast.com/docs/msteams) |
+| Qual è l'ambiente di hosting o il modello di servizio usato per eseguire l'app? | Iaas |
+| Quali provider di servizi cloud di hosting usano l'app? | Azure, GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,18 +53,18 @@ Informazioni fornite da Appraisd ltd. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Modalità di gestione dei dati da parte dell'app
 
-Queste informazioni sono state fornite da Appraisd ltd. su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
+Queste informazioni sono state fornite da Squadcast su come questa app raccoglie e archivia i dati dell'organizzazione e sul controllo che l'organizzazione avrà sui dati raccolti dall'app.
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
 | L'app o l'infrastruttura sottostante elabora i dati relativi a un cliente Microsoft o al dispositivo? | Sì |
-| Quali dati vengono elaborati dall'app? | Dati dei profili utente |
+| Quali dati vengono elaborati dall'app? | Dati profilo utente - Solo nome utente, Email |
 | L'app supporta TLS 1.1 o versione successiva? | Sì |
 | L'app o l'infrastruttura sottostante archivia i dati dei clienti Microsoft? | Sì |
-| Quali dati vengono archiviati nei database? | ID grafico utente, nome dell'entità utente, URL del servizio Bot, ID utente di Teams |
-| Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Regno Unito di Gran Bretagna e Irlanda del Nord (i) |
+| Quali dati vengono archiviati nei database? | ID team, nome del team, ID canale, nome canale, ID tenant |
+| Se l'infrastruttura sottostante elabora o archivia i dati dei clienti Microsoft, dove vengono archiviati geograficamente questi dati? | Stati Uniti d'America |
 | Si dispone di un processo di noleggio e smaltimento dei dati stabilito? | Sì |
-| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Meno di 60 giorni |
+| Per quanto tempo vengono conservati i dati dopo la chiusura dell'account? | Non conservato |
 | Si dispone di un processo di gestione dell'accesso ai dati stabilito? | Sì |
 | Trasferisci i dati dei clienti o il contenuto del cliente a terze parti o sub-responsabili del trattamento? | No |
 
@@ -85,16 +85,16 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 | Si dispone di un criterio che regola il contratto di servizio (SLA) per l'applicazione di patch? | Sì |
 | Si eseguono attività di gestione delle patch in base ai contratti di servizio dei criteri di applicazione delle patch? | Sì |
 | L'ambiente ha sistemi operativi o software non supportati? | No |
-| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | Sì |
+| Si esegue l'analisi trimestrale delle vulnerabilità nell'app e nell'infrastruttura che la supporta? | No |
 | È installato un firewall sul limite di rete esterno? | Sì |
 | Si dispone di un processo di gestione delle modifiche stabilito usato per esaminare e approvare le richieste di modifica prima che vengano distribuite nell'ambiente di produzione? | Sì |
 | Una persona aggiuntiva sta esaminando e approvando tutte le richieste di modifica del codice inviate all'ambiente di produzione dallo sviluppatore originale? | Sì |
 | Le procedure di codifica sicura tengono conto delle classi di vulnerabilità comuni, ad esempio OWASP Top 10? | Sì |
 | Autenticazione a più fattori abilitata per: | CodeRepositories, DNSManagement, Credential |
 | Si dispone di un processo stabilito per il provisioning, la modifica e l'eliminazione degli account dei dipendenti? | Sì |
-| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | N/D |
+| Si dispone di software di rilevamento e prevenzione delle intrusioni (IDPS) distribuito nel perimetro del limite di rete che supporta l'app? | Sì |
 | La registrazione eventi è configurata in tutti i componenti di sistema che supportano l'app? | Sì |
-| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | Sì |
+| Tutti i log vengono esaminati con cadenza regolare da strumenti umani o automatizzati per rilevare potenziali eventi di sicurezza? | No |
 | Quando viene rilevato un evento di sicurezza, gli avvisi vengono inviati automaticamente a un dipendente per la valutazione? | Sì |
 | È stato stabilito un processo formale di gestione dei rischi per la sicurezza delle informazioni? | Sì |
 | Si dispone di un processo formale di risposta agli eventi imprevisti di sicurezza documentato e stabilito? | Sì |
@@ -110,19 +110,19 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | L'app è conforme al Health Insurance Portability and Accounting Act (HIPAA)? | N/D |
 | L'app è conforme a Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | N/D |
+| L'app è conforme ai controlli dell'organizzazione del servizio (SOC 1)? | No |
 | L'app è conforme ai controlli dell'organizzazione del servizio (SOC 2)? | No |
 | L'app è conforme ai controlli dell'organizzazione dei servizi (SOC 3)? | No |
-| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | N/D |
-| L'app International Organization for Standardization (ISO 27001) è certificata? | Sì |
+| Si eseguono valutazioni PCI DSS annuali rispetto all'app e al relativo ambiente di supporto? | No |
+| L'app International Organization for Standardization (ISO 27001) è certificata? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27018)? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27017)? | No |
 | L'app è conforme all'Organizzazione internazionale per la standardizzazione (ISO 27002)? | No |
 | L'app Federal Risk and Authorization Management Program (FedRAMP) è conforme? | No |
-| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | N/D |
-| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | N/D |
-| L'app è conforme a Sarbanes-Oxley Act (SOX)? | N/D |
-| L'app è conforme a NIST 800-171? | N/D |
+| L'app è conforme al Family Educational Rights and Privacy Act (FERPA)? | No |
+| L'app è conforme al Children's Online Privacy Protection Act (COPPA)? | Sì |
+| L'app è conforme a Sarbanes-Oxley Act (SOX)? | No |
+| L'app è conforme a NIST 800-171? | No |
 | L'app è stata certificata da Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -135,13 +135,13 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 |:----------------|:-------------|
 | Si dispone di gdpr o altri requisiti o obblighi di privacy o protezione dei dati (ad esempio CCPA)? | Sì |
 | L'app ha un'informativa sulla privacy esterna che descrive come raccoglie, usa, condivide e archivia i dati dei clienti? | Sì |
-| URL dell'informativa sulla privacy | https://www.appraisd.com/legal/privacy-policy |
+| URL dell'informativa sulla privacy | https://www.squadcast.com/privacy |
 | L'app esegue un processo decisionale automatizzato, inclusa la profilatura che potrebbe avere un effetto legale o un impatto simile? | No |
 | L'app elabora i dati dei clienti per uno scopo secondario non descritto nell'informativa sulla privacy (ad esempio marketing, analisi)? | No |
 | Si elaborano categorie speciali di dati sensibili (ad esempio, origine razziale o etnica, opinione politica, credenze religiose o filosofiche, dati genetici o biometrici, dati sanitari) o categorie di dati soggetti a leggi sulle notifiche di violazione? | No |
 | L'app raccoglie o elabora i dati di minori (ad esempio, persone di età inferiore ai 16 anni)? | No |
 | L'app ha funzionalità per eliminare i dati personali di un individuo su richiesta? | Sì |
-| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | N/D |
+| L'app ha funzionalità per limitare o limitare il trattamento dei dati personali di un individuo su richiesta? | Sì |
 | L'app offre agli utenti la possibilità di correggere o aggiornare i propri dati personali? | Sì |
 | Vengono eseguite regolari verifiche della sicurezza dei dati e della privacy (ad esempio, valutazioni dell'impatto sulla protezione dei dati o valutazioni dei rischi per la privacy) per identificare i rischi correlati al trattamento dei dati personali per l'app? | Sì |
 
@@ -153,21 +153,15 @@ Di seguito sono riportate le informazioni del catalogo [Microsoft Cloud App Secu
 
 | **Informazioni** | **Risposta** |
 |:----------------|:-------------|
-| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | Sì |
-| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | Sì |
-| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? | Sì |
+| L'applicazione si integra con Microsoft Identity Platform (Azure AD) per l'accesso Single Sign-On, l'accesso alle API e così via? | No |
+| Sono state esaminate e rispettate tutte le procedure consigliate applicabili descritte nell'elenco di controllo di integrazione Microsoft Identity Platform? | No |
+| L'app usa la versione più recente di MSAL (Microsoft Authentication Library) o Microsoft Identity Web per l'autenticazione? |  |
 | L'app supporta i criteri di accesso condizionale? | No |
 | L'app supporta la valutazione dell'accesso continuo (CAE) | No |
 | L'app archivia le credenziali nel codice? | No |
 | Le app e i componenti aggiuntivi per Microsoft 365 potrebbero usare altre API Microsoft all'esterno di Microsoft Graph. L'app o il componente aggiuntivo usa altre API Microsoft? | No |
 
-#### <a name="data-access-using-microsoft-graph"></a>Accesso ai dati tramite Microsoft Graph
-
->|   **Autorizzazione Graph**  | **Tipo autorizzazione** |          **Giustificazione**          | **Azure AD App ID** |
->|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| People.Read | Delegato | Queste autorizzazioni sono necessarie per ottenere un elenco di membri del team a cui l'utente può inviare commenti e suggerimenti. | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
->| User.Read | Delegato | Queste autorizzazioni sono necessarie per identificare l'utente e collegarlo a un account in Valutazione. | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
->| User.ReadBasic.All | Delegato | Queste autorizzazioni sono necessarie per ottenere i nomi dei membri del team quando si seleziona per il feedback. | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
+>Questa applicazione non usa Microsoft Graph.
 
 >Questa applicazione non dispone di API aggiuntive.
 
