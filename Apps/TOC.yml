@@ -400,6 +400,8 @@ items:
         href: teams/binaryroots-classified-listing.md
       - name: Clerk SMS
         href: teams/unnamed-ventures-llc-clerk-sms.md
+      - name: CLIPr
+        href: teams/clipr-co.md
       - name: ClipTraining
         href: teams/cliptraining.md
       - name: Clixie
@@ -434,7 +436,7 @@ items:
         href: teams/atlassian-confluence-cloud.md
       - name: Connettore di confluenza di MWF
         href: teams/move-work-forward-confluence-connector-by-mwf.md
-      - name: Connetti+
+      - name: Connessione+
         href: teams/reward-gateway-connectplus.md
       - name: Contact Center
         href: teams/landis-technologies-llc-contact-center.md
@@ -1048,7 +1050,7 @@ items:
         href: teams/prowd.md
       - name: Sicurezza push
         href: teams/push-security.md
-      - name: D
+      - name: Q
         href: teams/moduleq-q.md
       - name: qbo
         href: teams/unscrambl-qbo.md
