@@ -44,7 +44,7 @@ items:
         href: excel/birdie-indicadores-economicos-chile.md
       - name: Jira Cloud per Excel
         href: excel/atlassiancom-jira-cloud-for-excel.md
-      - name: MeaningCloud Analisi del testo per Excel
+      - name: MeaningCloud Analiză text per Excel
         href: excel/meaningcloud-text-analytics-for-excel.md
       - name: Office2SharePoint per Office
         href: excel/iglobe-office2sharepoint-for-office.md
@@ -1306,6 +1306,8 @@ items:
         href: teams/timeghostio-timeghost-time-tracking.md
       - name: Timeneye
         href: teams/dm-digital-srl-timeneye.md
+      - name: Timewax
+        href: teams/timewax.md
       - name: TINYpulse
         href: teams/tinypulse.md
       - name: Lista di controllo delle attività da svolgere per Team
@@ -1604,7 +1606,7 @@ items:
         href: saas/wide-ideasidea2innovation-ideas-innovation-software.md
       - name: Mago
         href: saas/officeatwork-wizard.md
-  - name: ID app Azure
+  - name: ID Aplicação Azure AD
     href: azure/azure-apps.md
     items:
       - name: 003a8a54-9d27-41cd-9c28-aec5875a3497
