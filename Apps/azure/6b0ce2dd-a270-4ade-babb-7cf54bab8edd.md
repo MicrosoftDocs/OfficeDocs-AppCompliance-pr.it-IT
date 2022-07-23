@@ -1,21 +1,21 @@
 ---
-title: app Azure informazioni id per 6b0ce2dd-a270-4ade-babb-7cf54bab8edd
+title: Aplicação Azure AD informazioni id per 6b0ce2dd-a270-4ade-babb-7cf54bab8edd
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/21/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni di sicurezza e conformità disponibili per 6b0ce2dd-a270-4ade-babb-7cf54bab8edd.
-ms.openlocfilehash: fede7596ebcdecd23ddeb77a549a1338740bdd70
-ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
+ms.openlocfilehash: c413d3c0eeda6544d8964585c76bc80b1e107018
+ms.sourcegitcommit: 9c114837630164e4c4965abc220743e2b08a1df5
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66924627"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66977700"
 ---
-# <a name="azure-app-id-6b0ce2dd-a270-4ade-babb-7cf54bab8edd"></a>APP AZURE ID: 6b0ce2dd-a270-4ade-babb-7cf54bab8edd
+# <a name="azure-app-id-6b0ce2dd-a270-4ade-babb-7cf54bab8edd"></a>APLICAÇÃO AZURE AD ID: 6b0ce2dd-a270-4ade-babb-7cf54bab8edd
 
 
 ### <a name="apps-associated-with-this-id"></a>App associate a questo ID:

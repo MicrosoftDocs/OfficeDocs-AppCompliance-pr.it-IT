@@ -1,21 +1,21 @@
 ---
-title: informazioni sull'ID app Azure per b9a1aab-e8aa-4b92-b4ce-f13cae74caa7
+title: informazioni sull'ID Aplicação Azure AD per b9a1aab-e8aa-4b92-b4ce-f13cae74caa7
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/21/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Tutte le informazioni sulla sicurezza e sulla conformità disponibili per b9a1aab-e8aa-4b92-b4ce-f13cae74caa7.
-ms.openlocfilehash: 100a2f16ec97c7216c4e94fae0e9eca1f87de640
-ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
+ms.openlocfilehash: 64528e3ffe62cf0b48603c665bd03b17c4cd2e34
+ms.sourcegitcommit: 9c114837630164e4c4965abc220743e2b08a1df5
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66921911"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66980231"
 ---
-# <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>APP AZURE ID: b9a1aab-e8aa-4b92-b4ce-f13cae74caa7
+# <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>APLICAÇÃO AZURE AD ID: b9a1aab-e8aa-4b92-b4ce-f13cae74caa7
 
 
 ### <a name="apps-associated-with-this-id"></a>App associate a questo ID:
