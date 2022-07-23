@@ -1,25 +1,25 @@
 ---
-title: sicurezza e conformità degli ID app Azure - Tutte le app
+title: sicurezza e conformità degli ID Aplicação Azure AD - Tutte le app
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/21/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.service: attestation
-description: Tutte le informazioni di sicurezza e conformità disponibili per tutti gli ID app Azure.
+description: Tutte le informazioni di sicurezza e conformità disponibili per tutti gli ID Aplicação Azure AD.
 localization_priority: Normal
-ms.openlocfilehash: a78bc327c466e808af9f8158989775498b4cd5e7
-ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
+ms.openlocfilehash: 37b25271474108cd94e7e2cce6b0999f729adf81
+ms.sourcegitcommit: 9c114837630164e4c4965abc220743e2b08a1df5
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66922091"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66980561"
 ---
-# <a name="azure-app-ids-security-and-compliance"></a>sicurezza e conformità degli ID app Azure
+# <a name="azure-app-ids-security-and-compliance"></a>sicurezza e conformità degli ID Aplicação Azure AD
 
-Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire le informazioni necessarie alle organizzazioni per accelerare e informare le decisioni relative agli ID e ai componenti aggiuntivi app Azure che usano. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
+Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire alle organizzazioni di informazioni l'esigenza di accelerare e informare le decisioni relative agli ID e ai componenti aggiuntivi Aplicação Azure AD che usano. Tali informazioni sulla sicurezza, gestione dei dati e conformità hanno lo scopo di consentire alle organizzazioni di valutare e gestire i rischi derivanti dall'uso di queste app.
 
-| **ID app Azure** | **Attestata dall'autore** | **Certificata** |
+| **ID Aplicação Azure AD** | **Attestata dall'autore** | **Certificata** |
 |:--------|:------------|:-------------:|
 | [003a8a54-9d27-41cd-9c28-aec5875a3497](./003a8a54-9d27-41cd-9c28-aec5875a3497.md) | **✓** |  |
 | [00485db5-81b3-4299-833a-8d6c366d0ac0](./00485db5-81b3-4299-833a-8d6c366d0ac0.md) | **✓** |  |
@@ -354,6 +354,7 @@ Microsoft collabora con i partner per sviluppatori di Microsoft 365 per fornire 
 | [c5da92a9-873e-4ea1-86c7-03ec9c1384f0](./c5da92a9-873e-4ea1-86c7-03ec9c1384f0.md) | **✓** |  |
 | [c6257830-ff1a-4e7f-86ca-da35c0278de2](./c6257830-ff1a-4e7f-86ca-da35c0278de2.md) | **✓** |  |
 | [c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e](./c626ce8b-6d15-4c07-bfb1-a5fd0bc3c20e.md) | **✓** |  |
+| [c6557591-6b74-430d-b25e-87ab28766f32](./c6557591-6b74-430d-b25e-87ab28766f32.md) | **✓** |  |
 | [c68947ae-a07f-44ce-9a13-7b559251731d](./c68947ae-a07f-44ce-9a13-7b559251731d.md) | **✓** |  |
 | [c71a6f53-cf0c-426d-a826-cedae8b073f7](./c71a6f53-cf0c-426d-a826-cedae8b073f7.md) | **✓** |  |
 | [c7cdd862-2527-49ea-b873-0c5f51a83292](./c7cdd862-2527-49ea-b873-0c5f51a83292.md) | **✓** |  |
